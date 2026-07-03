@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>검색 — THE SIGNAL KOREA</title>
+<meta name="description" content="THE SIGNAL KOREA 기사 검색">
+<style>
+  :root {
+    --primary:  #0a0f1e;
+    --accent:   #e8a000;
+    --accent2:  #4d94ff;
+    --bg:       #f0f2f5;
+    --card-bg:  #ffffff;
+    --border:   #d8dde4;
+    --text:     #111827;
+    --text-muted: #4b5563;
+    --text-light: #9ca3af;
+    --tag-hegemony: #fee2e2; --tag-hegemony-text: #b91c1c;
+    --tag-supply:   #fef3c7; --tag-supply-text:   #b45309;
+    --tag-strategy: #dcfce7; --tag-strategy-text: #15803d;
+    --tag-global:   #dbeafe; --tag-global-text:   #1d4ed8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  .signal-bar { background: var(--accent); color: var(--primary); font-size: 12px; font-weight: 700; padding: 5px 0; overflow: hidden; }
+  .signal-bar .inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; }
+  .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
+  .signal-text { white-space: nowrap; overflow: hidden; animation: scroll-left 35s linear infinite; }
+  @keyframes scroll-left { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
+
+  header { background: var(--primary); color: #fff; border-bottom: 3px solid var(--accent); }
+  .header-top { max-width: 1200px; margin: 0 auto; padding: 20px 16px 16px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .logo-block { cursor: pointer; }
+  .logo-en { font-size: 30px; font-weight: 900; letter-spacing: 4px; color: #fff; line-height: 1; }
+  .logo-en span { color: var(--accent); }
+  .logo-kr { font-size: 12px; color: rgba(255,255,255,0.45); letter-spacing: 3px; margin-top: 4px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 3px; }
+  .header-tagline { font-size: 11px; color: rgba(255,255,255,0.35); letter-spacing: 1px; }
+
+  nav { background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.08); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; overflow-x: auto; }
+  .nav-inner a { color: rgba(255,255,255,0.6); font-size: 13px; padding: 10px 16px; display: block; border-bottom: 2px solid transparent; transition: color .15s, border-color .15s; white-space: nowrap; }
+  .nav-inner a:hover, .nav-inner a.active { color: #fff; border-bottom-color: var(--accent); }
+
+  .breadcrumb { background: #e8eaed; border-bottom: 1px solid var(--border); }
+  .bc-inner { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: var(--text-light); display: flex; align-items: center; gap: 6px; }
+  .bc-inner a { color: var(--text-light); }
+  .bc-inner a:hover { color: var(--accent2); }
+  .bc-sep { color: #bbb; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 16px 56px; }
+
+  /* ── 검색 박스 ── */
+  .search-box-wrap { background: var(--primary); padding: 32px; margin-bottom: 32px; }
+  .search-box-title { font-size: 18px; font-weight: 700; color: var(--accent); margin-bottom: 16px; letter-spacing: 1px; }
+  .search-form { display: flex; gap: 0; }
+  .search-input { flex: 1; padding: 12px 18px; font-size: 15px; border: 2px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.08); color: #fff; outline: none; transition: border-color .15s; }
+  .search-input::placeholder { color: rgba(255,255,255,0.35); }
+  .search-input:focus { border-color: var(--accent); }
+  .search-btn { padding: 12px 24px; background: var(--accent); color: var(--primary); font-size: 14px; font-weight: 700; cursor: pointer; border: none; transition: opacity .15s; white-space: nowrap; }
+  .search-btn:hover { opacity: 0.85; }
+
+  /* ── 결과 헤더 ── */
+  .result-header { margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--accent); }
+  .result-query { font-size: 22px; font-weight: 900; color: var(--primary); }
+  .result-query em { color: var(--accent); font-style: normal; }
+  .result-count { font-size: 13px; color: var(--text-light); margin-top: 6px; }
+
+  /* ── 검색 결과 목록 ── */
+  .result-list { display: flex; flex-direction: column; gap: 0; }
+  .result-item { background: var(--card-bg); border: 1px solid var(--border); padding: 18px 20px; display: grid; grid-template-columns: 1fr 110px; gap: 16px; align-items: start; cursor: pointer; margin-bottom: 10px; transition: border-color .15s; }
+  .result-item:hover { border-color: var(--accent); }
+  .cat-tag { font-size: 10px; font-weight: 700; letter-spacing: 1px; padding: 2px 8px; border-radius: 2px; display: inline-block; margin-bottom: 8px; }
+  .tag-hegemony { background: var(--tag-hegemony); color: var(--tag-hegemony-text); }
+  .tag-supply   { background: var(--tag-supply);   color: var(--tag-supply-text);   }
+  .tag-strategy { background: var(--tag-strategy); color: var(--tag-strategy-text); }
+  .tag-global   { background: var(--tag-global);   color: var(--tag-global-text);   }
+  .result-title { font-size: 16px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 8px; word-break: keep-all; }
+  .result-title .hl { background: #fef3c7; color: #b45309; padding: 0 2px; border-radius: 1px; }
+  .result-summary { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 8px; }
+  .result-summary .hl { background: #fef3c7; color: #b45309; }
+  .result-meta { font-size: 12px; color: var(--text-light); }
+  .result-thumb { width: 110px; height: 80px; object-fit: cover; display: block; }
+  .result-thumb-placeholder { width: 110px; height: 80px; background: linear-gradient(135deg, #0a0f1e, #1a2a5e); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.08); font-size: 28px; font-weight: 900; flex-shrink: 0; }
+
+  /* ── 빈/로딩 ── */
+  .status-box { padding: 60px 20px; text-align: center; background: var(--card-bg); border: 1px solid var(--border); color: var(--text-light); font-size: 14px; }
+  .status-box strong { display: block; font-size: 18px; color: var(--text-muted); margin-bottom: 8px; }
+
+  /* ── 추천 키워드 ── */
+  .suggest-wrap { margin-top: 24px; }
+  .suggest-label { font-size: 12px; font-weight: 700; color: var(--text-light); letter-spacing: 1px; margin-bottom: 10px; }
+  .suggest-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .suggest-tag { font-size: 12px; padding: 5px 14px; border: 1px solid var(--border); background: var(--card-bg); cursor: pointer; color: var(--text-muted); transition: all .15s; }
+  .suggest-tag:hover { border-color: var(--accent); color: var(--accent); }
+
+  footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
+  .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .footer-logo { font-size: 16px; font-weight: 900; color: #fff; letter-spacing: 3px; }
+  .footer-logo span { color: var(--accent); }
+  .footer-info { line-height: 1.9; margin-top: 6px; }
+  .footer-links { display: flex; gap: 16px; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.4); }
+  .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 640px) {
+    .header-right { display: none; }
+    .search-box-wrap { padding: 20px; }
+    .result-item { grid-template-columns: 1fr; }
+    .result-thumb, .result-thumb-placeholder { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="signal-bar">
+  <div class="inner">
+    <span class="signal-label">SIGNAL</span>
+    <span class="signal-text">THE SIGNAL KOREA — 한국 산업 인텔리전스 미디어 · 기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석</span>
+  </div>
+</div>
+
+<header>
+  <div class="header-top">
+    <div class="logo-block" onclick="location.href='index.html'">
+      <div class="logo-en">THE <span>SIGNAL</span> KOREA</div>
+      <div class="logo-kr">한국 산업 인텔리전스 · FACT · MEANING · WINNER · LOSER · ACTION</div>
+    </div>
+    <div class="header-right">
+      <div class="header-date" id="today-date"></div>
+      <div class="header-tagline">기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석</div>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">전체</a>
+      <a href="category.html?cat=기술패권">기술패권</a>
+      <a href="category.html?cat=공급망전쟁">공급망전쟁</a>
+      <a href="category.html?cat=산업전략">산업전략</a>
+      <a href="category.html?cat=글로벌분석">글로벌분석</a>
+      <a href="search.html" class="active">검색</a>
+      <a href="about.html">소개</a>
+    </div>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <div class="bc-inner">
+    <a href="index.html">홈</a>
+    <span class="bc-sep">›</span>
+    <span style="color:var(--text-muted);">검색</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="search-box-wrap">
+    <div class="search-box-title">🔍 기사 검색</div>
+    <div class="search-form">
+      <input class="search-input" type="text" id="search-input" placeholder="갈륨, 반도체, 공급망, 탄탈럼 등 검색어를 입력하세요..." autocomplete="off">
+      <button class="search-btn" onclick="doSearch()">검색</button>
+    </div>
+    <div class="suggest-wrap">
+      <div class="suggest-label">인기 검색어</div>
+      <div class="suggest-tags" id="suggest-tags">
+        <span class="suggest-tag" onclick="quickSearch('갈륨 수출 규제')">#갈륨 수출 규제</span>
+        <span class="suggest-tag" onclick="quickSearch('반도체 공급망')">#반도체 공급망</span>
+        <span class="suggest-tag" onclick="quickSearch('탄탈럼')">#탄탈럼</span>
+        <span class="suggest-tag" onclick="quickSearch('중국 규제')">#중국 규제</span>
+        <span class="suggest-tag" onclick="quickSearch('AI 인프라')">#AI 인프라</span>
+        <span class="suggest-tag" onclick="quickSearch('소부장')">#소부장</span>
+        <span class="suggest-tag" onclick="quickSearch('희귀금속')">#희귀금속</span>
+        <span class="suggest-tag" onclick="quickSearch('관련주')">#관련주</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="result-area"></div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
+      <div class="footer-info">
+        한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
+        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+      </div>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">소개</a>
+        <a href="advertising.html">광고문의</a>
+        <a href="privacy.html">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </div>
+      <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const d = new Date();
+const days = ['일','월','화','수','목','금','토'];
+document.getElementById('today-date').textContent =
+  `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
+
+const CATS = {
+  '기술패권':   { cls:'tag-hegemony', sym:'覇' },
+  '공급망전쟁': { cls:'tag-supply',   sym:'鎖' },
+  '산업전략':   { cls:'tag-strategy', sym:'策' },
+  '글로벌분석': { cls:'tag-global',   sym:'G'  },
+};
+function getCat(c) { return CATS[c] || { cls:'tag-global', sym:'?' }; }
+
+let allEntries = [];
+let isLoaded = false;
+
+// URL param
+const params = new URLSearchParams(location.search);
+const initQuery = params.get('q') || '';
+if (initQuery) {
+  document.getElementById('search-input').value = initQuery;
+  document.title = `"${initQuery}" 검색 — THE SIGNAL KOREA`;
+}
+
+document.getElementById('search-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doSearch();
+});
+
+function articleLink(idx, dateKey) {
+  return dateKey ? `article.html?date=${dateKey}&id=${idx}` : `article.html?id=${idx}`;
+}
+
+function fmtDate(dateKey) {
+  if (!dateKey) return '오늘';
+  const [y, m, day] = dateKey.split('-');
+  return `${y}.${m}.${day}`;
+}
+
+function highlight(text, query) {
+  if (!query || !text) return text || '';
+  const terms = query.trim().split(/\s+/).filter(Boolean);
+  let result = text;
+  terms.forEach(term => {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    result = result.replace(new RegExp(`(${escaped})`, 'gi'), '<span class="hl">$1</span>');
+  });
+  return result;
+}
+
+function scoreArticle(a, terms) {
+  let score = 0;
+  const title   = (a.title   || '').toLowerCase();
+  const summary = (a.summary || '').toLowerCase();
+  const fact    = ((a.fact   || []).join(' ')).toLowerCase();
+  const action  = ((a.action || []).join(' ')).toLowerCase();
+  terms.forEach(t => {
+    const tl = t.toLowerCase();
+    if (title.includes(tl))   score += 10;
+    if (summary.includes(tl)) score += 5;
+    if (fact.includes(tl))    score += 2;
+    if (action.includes(tl))  score += 1;
+    if ((a.category || '').includes(tl)) score += 3;
+  });
+  return score;
+}
+
+function doSearch() {
+  const q = document.getElementById('search-input').value.trim();
+  if (!q) { document.getElementById('result-area').innerHTML = ''; return; }
+  // URL 업데이트
+  const url = new URL(location.href);
+  url.searchParams.set('q', q);
+  history.replaceState(null, '', url.toString());
+  document.title = `"${q}" 검색 — THE SIGNAL KOREA`;
+
+  if (!isLoaded) {
+    document.getElementById('result-area').innerHTML =
+      '<div class="status-box"><strong>데이터 로드 중...</strong>잠시 후 다시 시도해 주세요.</div>';
+    loadAll().then(() => renderResults(q));
+    return;
+  }
+  renderResults(q);
+}
+
+function quickSearch(q) {
+  document.getElementById('search-input').value = q;
+  doSearch();
+}
+
+function renderResults(q) {
+  const terms = q.trim().split(/\s+/).filter(Boolean);
+  const scored = allEntries
+    .map(e => ({ ...e, score: scoreArticle(e.article, terms) }))
+    .filter(e => e.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  const area = document.getElementById('result-area');
+  if (!scored.length) {
+    area.innerHTML = `<div class="result-header">
+        <div class="result-query">"<em>${q}</em>" 검색 결과</div>
+        <div class="result-count">검색 결과가 없습니다.</div>
+      </div>
+      <div class="status-box">
+        <strong>검색 결과 없음</strong>
+        다른 키워드로 검색해 보세요.
+      </div>`;
+    return;
+  }
+
+  area.innerHTML = `<div class="result-header">
+    <div class="result-query">"<em>${q}</em>" 검색 결과</div>
+    <div class="result-count">총 <strong>${scored.length}건</strong></div>
+  </div>
+  <div class="result-list" id="result-list"></div>`;
+
+  document.getElementById('result-list').innerHTML = scored.map(({ article: a, dateKey, idx }) => {
+    const cv = getCat(a.category);
+    const thumb = a.image_url
+      ? `<img class="result-thumb" src="${a.image_url}" alt="" onerror="this.style.display='none'">`
+      : `<div class="result-thumb-placeholder">${cv.sym}</div>`;
+    return `<div class="result-item" onclick="location.href='${articleLink(idx, dateKey)}'">
+      <div>
+        <span class="cat-tag ${cv.cls}">${a.category}</span>
+        <div class="result-title">${highlight(a.title, q)}</div>
+        <div class="result-summary">${highlight((a.summary||'').slice(0,150), q)}</div>
+        <div class="result-meta">${fmtDate(dateKey)} ${a.timestamp||''}</div>
+      </div>
+      ${thumb}
+    </div>`;
+  }).join('');
+}
+
+async function loadAll() {
+  if (isLoaded) return;
+  const entries = [];
+
+  try {
+    const res = await fetch('articles.json');
+    if (res.ok) {
+      const data = await res.json();
+      (data.articles || []).forEach((a, i) => entries.push({ article: a, dateKey: null, idx: i }));
+    }
+  } catch(e) {}
+
+  try {
+    const idxRes = await fetch('archive/index.json');
+    if (idxRes.ok) {
+      const idxData = await idxRes.json();
+      const dates = (idxData.dates || []).slice(0, 5);
+      for (const dk of dates) {
+        try {
+          const r = await fetch(`archive/${dk}.json`);
+          if (!r.ok) continue;
+          const d = await r.json();
+          (d.articles || []).forEach((a, i) => entries.push({ article: a, dateKey: dk, idx: i }));
+        } catch(e) {}
+      }
+    }
+  } catch(e) {}
+
+  allEntries = entries;
+  isLoaded = true;
+}
+
+// 초기 로드 (쿼리 있을 때)
+if (initQuery) {
+  loadAll().then(() => renderResults(initQuery));
+} else {
+  loadAll(); // 백그라운드 로드
+}
+</script>
+</body>
+</html>

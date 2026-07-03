@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE SIGNAL KOREA</title>
+<meta name="description" content="한국 산업 인텔리전스 — 기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석">
+<style>
+  :root {
+    --primary:  #0a0f1e;
+    --accent:   #e8a000;
+    --accent2:  #4d94ff;
+    --bg:       #f0f2f5;
+    --card-bg:  #ffffff;
+    --border:   #d8dde4;
+    --text:     #111827;
+    --text-muted: #4b5563;
+    --text-light: #9ca3af;
+    --tag-hegemony: #fee2e2; --tag-hegemony-text: #b91c1c;
+    --tag-supply:   #fef3c7; --tag-supply-text:   #b45309;
+    --tag-strategy: #dcfce7; --tag-strategy-text: #15803d;
+    --tag-global:   #dbeafe; --tag-global-text:   #1d4ed8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  /* ── 시그널 바 ── */
+  .signal-bar { background: var(--accent); color: var(--primary); font-size: 12px; font-weight: 700; padding: 5px 0; overflow: hidden; }
+  .signal-bar .inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; }
+  .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
+  .signal-text { white-space: nowrap; overflow: hidden; animation: scroll-left 35s linear infinite; }
+  @keyframes scroll-left { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
+
+  /* ── 헤더 ── */
+  header { background: var(--primary); color: #fff; border-bottom: 3px solid var(--accent); }
+  .header-top { max-width: 1200px; margin: 0 auto; padding: 20px 16px 16px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .logo-block { cursor: pointer; }
+  .logo-en { font-size: 26px; font-weight: 900; letter-spacing: 3px; color: #fff; line-height: 1; }
+  .logo-en span { color: var(--accent); }
+  .logo-kr { font-size: 11px; color: rgba(255,255,255,0.4); letter-spacing: 2px; margin-top: 4px; }
+  .header-right { text-align: right; font-size: 12px; color: rgba(255,255,255,0.5); }
+  .header-date { font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 2px; }
+
+  /* ── 네비게이션 ── */
+  nav { background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.08); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; }
+  .nav-inner a { color: rgba(255,255,255,0.6); font-size: 13px; padding: 10px 16px; display: block; border-bottom: 2px solid transparent; transition: color .15s, border-color .15s; white-space: nowrap; }
+  .nav-inner a:hover { color: #fff; border-bottom-color: var(--accent); }
+
+  /* ── 브레드크럼 ── */
+  .breadcrumb { background: #e8eaed; border-bottom: 1px solid var(--border); }
+  .bc-inner { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: var(--text-light); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .bc-inner a { color: var(--text-light); }
+  .bc-inner a:hover { color: var(--accent2); }
+  .bc-sep { color: #bbb; }
+  .bc-current { color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 400px; }
+
+  /* ── 페이지 레이아웃 ── */
+  .page-wrap { max-width: 1200px; margin: 0 auto; padding: 32px 16px 56px; display: grid; grid-template-columns: 1fr 300px; gap: 32px; }
+
+  /* ── 기사 본문 ── */
+  .article-area { background: var(--card-bg); border: 1px solid var(--border); }
+
+  .art-header { padding: 36px 40px 0; }
+  .art-top-meta { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .art-timestamp { font-size: 12px; color: var(--text-light); }
+  .cat-tag { font-size: 10px; font-weight: 700; letter-spacing: 1px; padding: 3px 10px; border-radius: 2px; display: inline-block; }
+  .tag-hegemony { background: var(--tag-hegemony); color: var(--tag-hegemony-text); }
+  .tag-supply   { background: var(--tag-supply);   color: var(--tag-supply-text);   }
+  .tag-strategy { background: var(--tag-strategy); color: var(--tag-strategy-text); }
+  .tag-global   { background: var(--tag-global);   color: var(--tag-global-text);   }
+
+  .art-title { font-size: 28px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 16px; word-break: keep-all; }
+  .art-byline { font-size: 13px; color: var(--text-light); display: flex; gap: 10px; padding-bottom: 20px; border-bottom: 2px solid var(--text); }
+  .art-byline .author { font-weight: 600; color: var(--text-muted); }
+
+  .art-hero { width: 100%; height: 340px; object-fit: cover; display: block; }
+  .art-hero-placeholder { width: 100%; height: 200px; background: linear-gradient(135deg, #0a0f1e, #1a2a5e); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.06); font-size: 80px; font-weight: 900; letter-spacing: -4px; }
+
+  /* ── 요약 박스 ── */
+  .art-summary-box { margin: 0 40px 0; padding: 16px 20px; background: #f8f9fb; border-left: 4px solid var(--primary); font-size: 14.5px; color: var(--text-muted); line-height: 1.8; }
+
+  /* ── 5단계 프레임 ── */
+  .five-frame { padding: 0 40px 40px; margin-top: 8px; }
+
+  .frame-section { margin-bottom: 4px; }
+  .frame-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    margin-top: 28px;
+    cursor: default;
+  }
+  .frame-step-num { font-size: 11px; font-weight: 900; opacity: 0.6; letter-spacing: 1px; }
+  .frame-step-label { font-size: 16px; font-weight: 900; letter-spacing: 3px; }
+  .frame-step-kr { font-size: 13px; font-weight: 600; opacity: 0.8; }
+
+  /* 각 단계별 색상 */
+  .frame-fact    .frame-header { background: #1e3a5f; color: #93c5fd; }
+  .frame-meaning .frame-header { background: #1e1b4b; color: #c4b5fd; }
+  .frame-winner  .frame-header { background: #14532d; color: #86efac; }
+  .frame-loser   .frame-header { background: #450a0a; color: #fca5a5; }
+  .frame-action  .frame-header { background: #1c1300; color: #fcd34d; border-left: 4px solid var(--accent); }
+
+  .frame-body { padding: 20px 0 0; }
+  .frame-body p { font-size: 17px; line-height: 2; color: var(--text-muted); margin-bottom: 20px; word-break: keep-all; }
+  .frame-body p:last-child { margin-bottom: 0; }
+
+  .frame-action .frame-body p {
+    font-size: 17px;
+    color: var(--text);
+    font-weight: 500;
+  }
+
+  /* ── 하단 액션 ── */
+  .art-footer { padding: 20px 40px 36px; border-top: 1px solid var(--border); }
+  .art-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .art-tag { font-size: 12px; padding: 4px 12px; border-radius: 2px; }
+  .art-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .act-btn { font-size: 13px; padding: 7px 18px; border: 1px solid var(--border); background: var(--bg); cursor: pointer; color: var(--text-muted); }
+  .act-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .back-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--accent2); border: 1px solid var(--accent2); padding: 8px 18px; cursor: pointer; }
+  .back-btn:hover { background: var(--accent2); color: #fff; }
+
+  /* ── 쿠팡 (본문 내) ── */
+  .coupang-inline { margin: 28px 0; overflow: hidden; }
+
+  /* ── 로딩/에러 ── */
+  .empty-state { padding: 80px 40px; text-align: center; color: var(--text-light); font-size: 14px; }
+  .empty-state a { color: var(--accent2); }
+
+  /* ── 사이드바 ── */
+  .art-sidebar { display: flex; flex-direction: column; gap: 20px; }
+  .sb-box { background: var(--card-bg); border: 1px solid var(--border); padding: 16px; }
+  .sb-title { font-size: 12px; font-weight: 700; color: var(--primary); border-bottom: 2px solid var(--primary); padding-bottom: 6px; margin-bottom: 14px; letter-spacing: 1px; }
+  .editorial-box { background: #0a0f1e; border-color: var(--accent); }
+  .editorial-box .sb-title { color: var(--accent); border-bottom-color: var(--accent); }
+  .editorial-text { font-size: 13px; color: rgba(255,255,255,0.7); line-height: 1.85; }
+
+  .rel-item { padding: 10px 0; border-bottom: 1px solid var(--border); cursor: pointer; }
+  .rel-item:last-child { border-bottom: none; }
+  .rel-item:hover .rel-title { color: var(--accent2); }
+  .rel-title { font-size: 13px; color: var(--text); line-height: 1.45; word-break: keep-all; margin-top: 4px; }
+
+  .signal-item { display: flex; align-items: baseline; gap: 8px; padding: 7px 0; border-bottom: 1px solid var(--border); }
+  .signal-item:last-child { border-bottom: none; }
+  .signal-icon { font-size: 14px; flex-shrink: 0; }
+  .signal-label-txt { font-size: 13px; font-weight: 600; color: var(--text); }
+  .signal-status { font-size: 11px; color: var(--text-light); margin-top: 1px; }
+
+  .coupang-wrap { padding: 0; overflow: hidden; }
+  .coupang-top-sb { padding: 10px 14px; background: linear-gradient(135deg, #e4003a, #ff4d6d); }
+  .coupang-top-sb span { color: #fff; font-weight: 700; font-size: 13px; }
+  .coupang-notice-sb { padding: 5px 12px; background: #fff5f7; border-top: 1px solid #ffd0d8; font-size: 11px; color: #999; line-height: 1.5; }
+
+  /* ── 푸터 ── */
+  footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
+  .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .footer-logo { font-size: 16px; font-weight: 900; color: #fff; letter-spacing: 3px; }
+  .footer-logo span { color: var(--accent); }
+  .footer-links { display: flex; gap: 16px; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.4); }
+  .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 768px) {
+    .page-wrap { grid-template-columns: 1fr; }
+    .art-header { padding: 24px 20px 0; }
+    .art-summary-box { margin: 0 20px; }
+    .five-frame { padding: 0 20px 32px; }
+    .coupang-inline { margin: 20px 0; }
+    .art-footer { padding: 16px 20px 28px; }
+    .art-title { font-size: 22px; }
+    .frame-body p { font-size: 16px; }
+    .art-hero { height: 220px; }
+    .header-right { display: none; }
+    nav { overflow-x: auto; }
+    .nav-inner { width: 100%; }
+    .bc-current { max-width: 200px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 시그널 바 -->
+<div class="signal-bar">
+  <div class="inner">
+    <span class="signal-label">SIGNAL</span>
+    <span class="signal-text" id="signal-text">THE SIGNAL KOREA — 한국 산업 인텔리전스 미디어</span>
+  </div>
+</div>
+
+<!-- 헤더 -->
+<header>
+  <div class="header-top">
+    <div class="logo-block" onclick="location.href='index.html'">
+      <div class="logo-en">THE <span>SIGNAL</span> KOREA</div>
+      <div class="logo-kr">한국 산업 인텔리전스 · FACT · MEANING · WINNER · LOSER · ACTION</div>
+    </div>
+    <div class="header-right">
+      <div class="header-date" id="today-date"></div>
+      <div style="font-size:11px;color:rgba(255,255,255,0.35);letter-spacing:1px;margin-top:2px;">기술패권 · 공급망전쟁 · 산업전략</div>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">전체</a>
+      <a href="index.html">기술패권</a>
+      <a href="index.html">공급망전쟁</a>
+      <a href="index.html">산업전략</a>
+      <a href="index.html">글로벌분석</a>
+      <a href="index.html">반도체·AI</a>
+      <a href="index.html">소부장</a>
+      <a href="index.html">아카이브</a>
+    </div>
+  </nav>
+</header>
+
+<!-- 브레드크럼 -->
+<div class="breadcrumb">
+  <div class="bc-inner">
+    <a href="index.html">홈</a>
+    <span class="bc-sep">›</span>
+    <a id="bc-cat" href="index.html">카테고리</a>
+    <span class="bc-sep">›</span>
+    <span id="bc-title" class="bc-current">기사 제목</span>
+  </div>
+</div>
+
+<!-- 본문 -->
+<div class="page-wrap">
+
+  <!-- 기사 영역 -->
+  <div class="article-area">
+
+    <div id="loading-state" class="empty-state">기사를 불러오는 중...</div>
+
+    <div id="article-content" style="display:none">
+
+      <!-- 기사 헤더 -->
+      <div class="art-header">
+        <div class="art-top-meta">
+          <span id="art-category" class="cat-tag"></span>
+          <span class="art-timestamp" id="art-timestamp"></span>
+        </div>
+        <h1 class="art-title" id="art-title"></h1>
+        <div class="art-byline">
+          <span class="author">인텔리전스팀</span>
+          <span>|</span>
+          <span id="art-date"></span>
+        </div>
+      </div>
+
+      <!-- 히어로 이미지 -->
+      <div id="art-hero-wrap"></div>
+
+      <!-- 요약 박스 -->
+      <div class="art-summary-box" id="art-summary"></div>
+
+      <!-- 5단계 인텔리전스 프레임 -->
+      <div class="five-frame">
+
+        <div class="frame-section frame-fact">
+          <div class="frame-header">
+            <span class="frame-step-num">①</span>
+            <span class="frame-step-label">FACT</span>
+            <span class="frame-step-kr">사실</span>
+          </div>
+          <div class="frame-body" id="frame-fact"></div>
+        </div>
+
+        <div class="frame-section frame-meaning">
+          <div class="frame-header">
+            <span class="frame-step-num">②</span>
+            <span class="frame-step-label">MEANING</span>
+            <span class="frame-step-kr">의미</span>
+          </div>
+          <div class="frame-body" id="frame-meaning"></div>
+        </div>
+
+        <div class="frame-section frame-winner">
+          <div class="frame-header">
+            <span class="frame-step-num">③</span>
+            <span class="frame-step-label">WINNER</span>
+            <span class="frame-step-kr">승자</span>
+          </div>
+          <div class="frame-body" id="frame-winner"></div>
+        </div>
+
+        <div class="frame-section frame-loser">
+          <div class="frame-header">
+            <span class="frame-step-num">④</span>
+            <span class="frame-step-label">LOSER</span>
+            <span class="frame-step-kr">패자</span>
+          </div>
+          <div class="frame-body" id="frame-loser"></div>
+        </div>
+
+        <div class="frame-section frame-action">
+          <div class="frame-header">
+            <span class="frame-step-num">⑤</span>
+            <span class="frame-step-label">ACTION</span>
+            <span class="frame-step-kr">한국의 준비</span>
+          </div>
+          <div class="frame-body" id="frame-action"></div>
+        </div>
+
+      </div>
+
+      <!-- 쿠팡 광고 (캐러셀 680×140) -->
+      <div class="coupang-inline">
+        <p style="font-size:10.5px;color:#bbb;text-align:right;margin-bottom:4px;">이 포스팅은 쿠팡 파트너스 활동의 일환으로 수수료를 제공받습니다.</p>
+        <script src="https://ads-partners.coupang.com/g.js"></script>
+        <script>new PartnersCoupang.G({id:970645,trackingCode:"AF9787280",template:"carousel",width:"680",height:"140",tsource:""});</script>
+      </div>
+
+      <!-- 쿠팡 광고 (리더보드 728×90) -->
+      <div style="margin:16px 0 4px;">
+        <a href="https://link.coupang.com/a/eVzgl7H5pY" target="_blank" referrerpolicy="unsafe-url" style="display:block;">
+          <img src="https://ads-partners.coupang.com/banners/1000915?trackingCode=AF9787280&subId=&traceId=V0-301-969b06e95b87326d-I1000915&w=728&h=90" alt="" style="display:block;width:100%;max-width:728px;height:auto;">
+        </a>
+        <p style="font-size:10.5px;color:#bbb;text-align:right;margin-top:4px;">이 포스팅은 쿠팡 파트너스 활동의 일환으로 수수료를 제공받습니다.</p>
+      </div>
+
+      <!-- 태그 & 액션 -->
+      <div class="art-footer">
+        <div style="font-size:11px;font-weight:700;color:var(--text-light);letter-spacing:1px;margin-bottom:10px;">KEYWORDS</div>
+        <div class="art-tags" id="art-tags"></div>
+        <div class="art-actions" style="margin-top:20px;">
+          <button class="act-btn" onclick="navigator.share ? navigator.share({title:document.title, url:location.href}) : alert('URL을 복사해 공유하세요.')">공유</button>
+          <button class="act-btn" onclick="window.print()">인쇄</button>
+          <a class="back-btn" href="index.html">← 목록으로</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="error-state" class="empty-state" style="display:none">
+      기사를 불러올 수 없습니다.<br><a href="index.html">← 목록으로</a>
+    </div>
+
+  </div>
+
+  <!-- 사이드바 -->
+  <aside class="art-sidebar">
+
+    <div class="sb-box">
+      <div class="sb-title">다른 기사</div>
+      <div id="related-list"><div style="color:#aaa;font-size:13px;">불러오는 중...</div></div>
+    </div>
+
+    <div class="sb-box editorial-box">
+      <div class="sb-title">EDITOR'S BRIEFING</div>
+      <div class="editorial-text" id="editorial-briefing">불러오는 중...</div>
+    </div>
+
+    <div class="sb-box">
+      <div class="sb-title">핵심 시그널</div>
+      <div id="signal-radar"><div style="color:#aaa;font-size:13px;">불러오는 중...</div></div>
+    </div>
+
+    <div class="sb-box coupang-wrap">
+      <div class="coupang-top-sb"><span>🛒 쿠팡 쇼핑</span></div>
+      <script src="https://ads-partners.coupang.com/g.js"></script>
+      <script>
+        new PartnersCoupang.G({id:970543, trackingCode:"AF9787280", template:"carousel", width:"300", height:"300", tsource:""});
+      </script>
+      <div class="coupang-notice-sb">이 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</div>
+    </div>
+
+  </aside>
+
+</div>
+
+<!-- 푸터 -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
+      <div style="margin-top:6px;line-height:1.9;">
+        한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
+        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+      </div>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="#">소개</a><a href="#">광고문의</a><a href="#">개인정보처리방침</a><a href="#">이용약관</a>
+      </div>
+      <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const d = new Date();
+  const days = ['일','월','화','수','목','금','토'];
+  document.getElementById('today-date').textContent =
+    `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
+
+  function fmtDate(dt) {
+    return `${dt.getFullYear()}.${String(dt.getMonth()+1).padStart(2,'0')}.${String(dt.getDate()).padStart(2,'0')}`;
+  }
+
+  const CATS = {
+    '기술패권':   { cls:'tag-hegemony', bg:'#fee2e2', color:'#b91c1c' },
+    '공급망전쟁': { cls:'tag-supply',   bg:'#fef3c7', color:'#b45309' },
+    '산업전략':   { cls:'tag-strategy', bg:'#dcfce7', color:'#15803d' },
+    '글로벌분석': { cls:'tag-global',   bg:'#dbeafe', color:'#1d4ed8' },
+  };
+  function getCat(a) { return CATS[a.category] || { cls:'tag-global', bg:'#dbeafe', color:'#1d4ed8' }; }
+
+  const _params = new URLSearchParams(location.search);
+  const articleId  = parseInt(_params.get('id') ?? '0');
+  const articleDate = _params.get('date');
+  const datePrefix  = articleDate ? 'date=' + articleDate + '&' : '';
+
+  function renderParagraphs(elId, paras) {
+    const el = document.getElementById(elId);
+    if (!el || !paras || !paras.length) return;
+    const arr = Array.isArray(paras) ? paras : paras.split(/\n+/).filter(p => p.trim());
+    el.innerHTML = arr.filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+  }
+
+  function renderEditorial(briefing) {
+    const el = document.getElementById('editorial-briefing');
+    if (el && briefing) el.textContent = briefing;
+  }
+
+  function renderSignals(signals) {
+    const el = document.getElementById('signal-radar');
+    if (!el || !signals || !signals.length) return;
+    el.innerHTML = signals.map(s =>
+      `<div class="signal-item">
+        <span class="signal-icon">${s.icon}</span>
+        <div style="flex:1;min-width:0;">
+          <div class="signal-label-txt">${s.label}</div>
+          <div class="signal-status">${s.status}</div>
+        </div>
+      </div>`
+    ).join('');
+  }
+
+  async function load() {
+    try {
+      const jsonFile = articleDate ? 'archive/' + articleDate + '.json' : 'articles.json';
+      const res = await fetch(jsonFile);
+      if (!res.ok) throw new Error('데이터 없음');
+      const data = await res.json();
+      const article = data.articles[articleId];
+      if (!article) throw new Error('기사 없음');
+
+      document.getElementById('signal-text').textContent =
+        data.articles.map(a => a.title).join('  ·  ');
+
+      render(article, data.articles, data.editorial_briefing || '', data.key_signals || []);
+    } catch (e) {
+      document.getElementById('loading-state').style.display = 'none';
+      document.getElementById('error-state').style.display = 'block';
+    }
+  }
+
+  function render(article, allArticles, briefing, signals) {
+    const cv = getCat(article);
+    const today = fmtDate(new Date());
+
+    document.title = `${article.title} — THE SIGNAL KOREA`;
+    document.getElementById('bc-cat').textContent   = article.category;
+    document.getElementById('bc-title').textContent = article.title;
+
+    const catEl = document.getElementById('art-category');
+    catEl.className = `cat-tag ${cv.cls}`;
+    catEl.textContent = article.category;
+
+    document.getElementById('art-timestamp').textContent = article.timestamp || '';
+    document.getElementById('art-title').textContent     = article.title;
+    document.getElementById('art-date').textContent      = `${today} ${article.timestamp || ''}`;
+    document.getElementById('art-summary').textContent   = article.summary;
+
+    // 히어로 이미지
+    const heroWrap = document.getElementById('art-hero-wrap');
+    if (article.image_url) {
+      const img = document.createElement('img');
+      img.src = article.image_url;
+      img.alt = article.title;
+      img.className = 'art-hero';
+      img.onerror = function() { this.style.display = 'none'; };
+      heroWrap.appendChild(img);
+    }
+
+    // 5단계 프레임 렌더
+    renderParagraphs('frame-fact',    article.fact);
+    renderParagraphs('frame-meaning', article.meaning);
+    renderParagraphs('frame-winner',  article.winner);
+    renderParagraphs('frame-loser',   article.loser);
+    renderParagraphs('frame-action',  article.action);
+
+    // 태그
+    document.getElementById('art-tags').innerHTML =
+      `<span class="art-tag" style="background:${cv.bg};color:${cv.color};">#${article.category}</span>`;
+
+    // 로딩 → 본문 전환
+    document.getElementById('loading-state').style.display  = 'none';
+    document.getElementById('article-content').style.display = 'block';
+
+    // 관련 기사
+    const others = [
+      ...allArticles.filter((a, i) => i !== articleId && a.category === article.category),
+      ...allArticles.filter((a, i) => i !== articleId && a.category !== article.category),
+    ].slice(0, 5);
+
+    document.getElementById('related-list').innerHTML = others.length
+      ? others.map(a => {
+          const idx = allArticles.indexOf(a);
+          const ac  = getCat(a);
+          return `<div class="rel-item" onclick="location.href='article.html?${datePrefix}id=${idx}'">
+            <span class="cat-tag ${ac.cls}">${a.category}</span>
+            <div class="rel-title">${a.title}</div>
+          </div>`;
+        }).join('')
+      : '<div style="color:#aaa;font-size:13px;">관련 기사가 없습니다.</div>';
+
+    renderEditorial(briefing);
+    renderSignals(signals);
+  }
+
+  load();
+</script>
+</body>
+</html>

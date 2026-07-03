@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>카테고리 — THE SIGNAL KOREA</title>
+<meta name="description" content="THE SIGNAL KOREA 카테고리별 기사 목록 — 기술패권·공급망전쟁·산업전략·글로벌분석">
+<style>
+  :root {
+    --primary:  #0a0f1e;
+    --accent:   #e8a000;
+    --accent2:  #4d94ff;
+    --bg:       #f0f2f5;
+    --card-bg:  #ffffff;
+    --border:   #d8dde4;
+    --text:     #111827;
+    --text-muted: #4b5563;
+    --text-light: #9ca3af;
+    --tag-hegemony: #fee2e2; --tag-hegemony-text: #b91c1c;
+    --tag-supply:   #fef3c7; --tag-supply-text:   #b45309;
+    --tag-strategy: #dcfce7; --tag-strategy-text: #15803d;
+    --tag-global:   #dbeafe; --tag-global-text:   #1d4ed8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  /* ── 시그널 바 ── */
+  .signal-bar { background: var(--accent); color: var(--primary); font-size: 12px; font-weight: 700; padding: 5px 0; overflow: hidden; }
+  .signal-bar .inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; }
+  .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
+  .signal-text { white-space: nowrap; overflow: hidden; animation: scroll-left 35s linear infinite; }
+  @keyframes scroll-left { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
+
+  /* ── 헤더 ── */
+  header { background: var(--primary); color: #fff; border-bottom: 3px solid var(--accent); }
+  .header-top { max-width: 1200px; margin: 0 auto; padding: 20px 16px 16px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .logo-block { cursor: pointer; }
+  .logo-en { font-size: 30px; font-weight: 900; letter-spacing: 4px; color: #fff; line-height: 1; }
+  .logo-en span { color: var(--accent); }
+  .logo-kr { font-size: 12px; color: rgba(255,255,255,0.45); letter-spacing: 3px; margin-top: 4px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 3px; }
+  .header-tagline { font-size: 11px; color: rgba(255,255,255,0.35); letter-spacing: 1px; }
+
+  /* ── 네비게이션 ── */
+  nav { background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.08); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; overflow-x: auto; }
+  .nav-inner a { color: rgba(255,255,255,0.6); font-size: 13px; padding: 10px 16px; display: block; border-bottom: 2px solid transparent; transition: color .15s, border-color .15s; white-space: nowrap; }
+  .nav-inner a:hover, .nav-inner a.active { color: #fff; border-bottom-color: var(--accent); }
+
+  /* ── 브레드크럼 ── */
+  .breadcrumb { background: #e8eaed; border-bottom: 1px solid var(--border); }
+  .bc-inner { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: var(--text-light); display: flex; align-items: center; gap: 6px; }
+  .bc-inner a { color: var(--text-light); }
+  .bc-inner a:hover { color: var(--accent2); }
+  .bc-sep { color: #bbb; }
+  .bc-current { color: var(--text-muted); font-weight: 600; }
+
+  /* ── 메인 레이아웃 ── */
+  .container { max-width: 1200px; margin: 0 auto; padding: 32px 16px 56px; }
+
+  /* ── 카테고리 헤더 ── */
+  .cat-header { margin-bottom: 28px; padding-bottom: 16px; border-bottom: 3px solid var(--accent); }
+  .cat-badge-lg { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; padding: 4px 14px; border-radius: 2px; margin-bottom: 10px; }
+  .cat-title { font-size: 26px; font-weight: 900; color: var(--primary); margin-bottom: 6px; }
+  .cat-desc { font-size: 14px; color: var(--text-muted); }
+  .cat-count { font-size: 13px; color: var(--text-light); margin-top: 6px; }
+
+  /* ── 카드 그리드 ── */
+  .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .article-card { background: var(--card-bg); border: 1px solid var(--border); overflow: hidden; cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+  .article-card:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .card-thumb { width: 100%; height: 160px; object-fit: cover; display: block; background: linear-gradient(135deg, #0a0f1e, #1a2a5e); }
+  .card-thumb-placeholder { width: 100%; height: 160px; background: linear-gradient(135deg, #0a0f1e, #1a2a5e); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.06); font-size: 50px; font-weight: 900; }
+  .card-body { padding: 14px 16px 18px; }
+  .cat-tag { font-size: 10px; font-weight: 700; letter-spacing: 1px; padding: 2px 8px; border-radius: 2px; display: inline-block; margin-bottom: 8px; }
+  .tag-hegemony { background: var(--tag-hegemony); color: var(--tag-hegemony-text); }
+  .tag-supply   { background: var(--tag-supply);   color: var(--tag-supply-text);   }
+  .tag-strategy { background: var(--tag-strategy); color: var(--tag-strategy-text); }
+  .tag-global   { background: var(--tag-global);   color: var(--tag-global-text);   }
+  .card-title { font-size: 15px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 8px; word-break: keep-all; }
+  .card-summary { font-size: 13px; color: var(--text-muted); line-height: 1.6; margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card-meta { font-size: 12px; color: var(--text-light); }
+  .five-step-badge { display: inline-flex; gap: 3px; margin-top: 8px; flex-wrap: wrap; }
+  .step-dot { font-size: 9px; font-weight: 700; padding: 1px 5px; border-radius: 1px; }
+  .step-fact    { background: #1e3a5f; color: #93c5fd; }
+  .step-meaning { background: #312e81; color: #c4b5fd; }
+  .step-winner  { background: #14532d; color: #86efac; }
+  .step-loser   { background: #450a0a; color: #fca5a5; }
+  .step-action  { background: #451a03; color: #fcd34d; }
+
+  /* ── 페이지네이션 ── */
+  .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 40px; flex-wrap: wrap; }
+  .page-btn { padding: 7px 14px; border: 1px solid var(--border); background: var(--card-bg); cursor: pointer; font-size: 13px; color: var(--text-muted); transition: all .15s; }
+  .page-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .page-btn.active { background: var(--primary); color: var(--accent); border-color: var(--primary); font-weight: 700; }
+  .page-btn:disabled { opacity: 0.4; cursor: default; }
+
+  /* ── 빈 상태 ── */
+  .empty-state { padding: 80px 20px; text-align: center; color: var(--text-light); font-size: 14px; }
+
+  /* ── 카테고리 필터 탭 ── */
+  .cat-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+  .cat-tab { padding: 6px 16px; border: 1.5px solid var(--border); background: var(--card-bg); font-size: 13px; color: var(--text-muted); cursor: pointer; transition: all .15s; border-radius: 2px; }
+  .cat-tab:hover { border-color: var(--accent); color: var(--accent); }
+  .cat-tab.active { background: var(--primary); color: var(--accent); border-color: var(--primary); font-weight: 700; }
+
+  /* ── 푸터 ── */
+  footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
+  .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .footer-logo { font-size: 16px; font-weight: 900; color: #fff; letter-spacing: 3px; }
+  .footer-logo span { color: var(--accent); }
+  .footer-info { line-height: 1.9; margin-top: 6px; }
+  .footer-links { display: flex; gap: 16px; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.4); }
+  .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 900px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) {
+    .card-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .header-right { display: none; }
+    .cat-title { font-size: 20px; }
+  }
+  @media (max-width: 420px) {
+    .card-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .card-thumb { height: 120px; }
+    .card-thumb-placeholder { height: 120px; font-size: 36px; }
+    .card-title { font-size: 13px; }
+    .card-body { padding: 10px 12px 14px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 시그널 바 -->
+<div class="signal-bar">
+  <div class="inner">
+    <span class="signal-label">SIGNAL</span>
+    <span class="signal-text">THE SIGNAL KOREA — 한국 산업 인텔리전스 미디어 · 기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석</span>
+  </div>
+</div>
+
+<!-- 헤더 -->
+<header>
+  <div class="header-top">
+    <div class="logo-block" onclick="location.href='index.html'">
+      <div class="logo-en">THE <span>SIGNAL</span> KOREA</div>
+      <div class="logo-kr">한국 산업 인텔리전스 · FACT · MEANING · WINNER · LOSER · ACTION</div>
+    </div>
+    <div class="header-right">
+      <div class="header-date" id="today-date"></div>
+      <div class="header-tagline">기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석</div>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">전체</a>
+      <a href="category.html?cat=기술패권" id="nav-hegemony">기술패권</a>
+      <a href="category.html?cat=공급망전쟁" id="nav-supply">공급망전쟁</a>
+      <a href="category.html?cat=산업전략" id="nav-strategy">산업전략</a>
+      <a href="category.html?cat=글로벌분석" id="nav-global">글로벌분석</a>
+      <a href="search.html">검색</a>
+      <a href="about.html">소개</a>
+    </div>
+  </nav>
+</header>
+
+<!-- 브레드크럼 -->
+<div class="breadcrumb">
+  <div class="bc-inner">
+    <a href="index.html">홈</a>
+    <span class="bc-sep">›</span>
+    <span class="bc-current" id="bc-current">카테고리</span>
+  </div>
+</div>
+
+<!-- 메인 -->
+<div class="container">
+
+  <!-- 카테고리 헤더 -->
+  <div class="cat-header" id="cat-header">
+    <div class="cat-badge-lg" id="cat-badge"></div>
+    <div class="cat-title" id="cat-title">카테고리</div>
+    <div class="cat-desc" id="cat-desc"></div>
+    <div class="cat-count" id="cat-count"></div>
+  </div>
+
+  <!-- 카테고리 탭 -->
+  <div class="cat-tabs">
+    <div class="cat-tab" id="tab-all" onclick="filterCat('')">전체</div>
+    <div class="cat-tab" id="tab-supply" onclick="filterCat('공급망전쟁')">공급망전쟁</div>
+    <div class="cat-tab" id="tab-hegemony" onclick="filterCat('기술패권')">기술패권</div>
+    <div class="cat-tab" id="tab-strategy" onclick="filterCat('산업전략')">산업전략</div>
+    <div class="cat-tab" id="tab-global" onclick="filterCat('글로벌분석')">글로벌분석</div>
+  </div>
+
+  <!-- 기사 그리드 -->
+  <div class="card-grid" id="article-grid">
+    <div class="empty-state" style="grid-column:1/-1;">기사를 불러오는 중...</div>
+  </div>
+
+  <!-- 페이지네이션 -->
+  <div class="pagination" id="pagination"></div>
+
+</div>
+
+<!-- 푸터 -->
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
+      <div class="footer-info">
+        한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
+        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+      </div>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">소개</a>
+        <a href="advertising.html">광고문의</a>
+        <a href="privacy.html">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </div>
+      <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const d = new Date();
+const days = ['일','월','화','수','목','금','토'];
+document.getElementById('today-date').textContent =
+  `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
+
+const CATS = {
+  '기술패권':   { cls:'tag-hegemony', bg:'#fee2e2', color:'#b91c1c', sym:'覇',
+    desc:'미·중 기술 패권 경쟁, 반도체 수출 통제, AI 인프라 전쟁 심층 분석' },
+  '공급망전쟁': { cls:'tag-supply',   bg:'#fef3c7', color:'#b45309', sym:'鎖',
+    desc:'글로벌 공급망 재편, 핵심 광물 확보 전쟁, 탈중국 대체 공급망 분석' },
+  '산업전략':   { cls:'tag-strategy', bg:'#dcfce7', color:'#15803d', sym:'策',
+    desc:'한국 산업 경쟁력 강화 전략, 소부장 생태계, 정책·투자 분석' },
+  '글로벌분석': { cls:'tag-global',   bg:'#dbeafe', color:'#1d4ed8', sym:'G',
+    desc:'미국·EU·일본·중국 산업 동향, 글로벌 시장 패권 변화 분석' },
+};
+
+const STEP_BADGES = `<div class="five-step-badge">
+  <span class="step-dot step-fact">FACT</span>
+  <span class="step-dot step-meaning">MEANING</span>
+  <span class="step-dot step-winner">WINNER</span>
+  <span class="step-dot step-loser">LOSER</span>
+  <span class="step-dot step-action">ACTION</span>
+</div>`;
+
+const PER_PAGE = 9;
+let allArticles = [];   // [{article, dateKey}]
+let filteredArticles = [];
+let currentCat = '';
+let currentPage = 1;
+
+// URL param
+const params = new URLSearchParams(location.search);
+currentCat = params.get('cat') || '';
+
+function fmtDate(dateKey) {
+  if (!dateKey) return '';
+  const [y, m, day] = dateKey.split('-');
+  return `${parseInt(m)}월 ${parseInt(day)}일`;
+}
+
+function getCat(cat) {
+  return CATS[cat] || { cls:'tag-global', bg:'#dbeafe', color:'#1d4ed8', sym:'?', desc:'' };
+}
+
+function articleLink(idx, dateKey) {
+  return dateKey ? `article.html?date=${dateKey}&id=${idx}` : `article.html?id=${idx}`;
+}
+
+function renderHeader(cat) {
+  const label = cat || '전체 기사';
+  document.getElementById('bc-current').textContent = label;
+  document.title = `${label} — THE SIGNAL KOREA`;
+
+  if (cat && CATS[cat]) {
+    const cv = CATS[cat];
+    document.getElementById('cat-badge').className = `cat-badge-lg cat-tag ${cv.cls}`;
+    document.getElementById('cat-badge').textContent = cat;
+    document.getElementById('cat-title').textContent = cat;
+    document.getElementById('cat-desc').textContent = cv.desc;
+    // 네비 활성화
+    const navMap = { '기술패권':'nav-hegemony','공급망전쟁':'nav-supply','산업전략':'nav-strategy','글로벌분석':'nav-global' };
+    if (navMap[cat]) document.getElementById(navMap[cat]).classList.add('active');
+  } else {
+    document.getElementById('cat-badge').style.display = 'none';
+    document.getElementById('cat-title').textContent = '전체 기사';
+    document.getElementById('cat-desc').textContent = '기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석 전체 기사';
+  }
+}
+
+function renderGrid() {
+  const start = (currentPage - 1) * PER_PAGE;
+  const page = filteredArticles.slice(start, start + PER_PAGE);
+  const grid = document.getElementById('article-grid');
+
+  if (!page.length) {
+    grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1;">해당 카테고리 기사가 없습니다.</div>';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  grid.innerHTML = page.map(({ article: a, dateKey, idx }) => {
+    const cv = getCat(a.category);
+    const thumb = a.image_url
+      ? `<img class="card-thumb" src="${a.image_url}" alt="${a.title}" onerror="this.style.display='none'">`
+      : `<div class="card-thumb-placeholder">${cv.sym}</div>`;
+    const isBrief = !a.meaning || !a.meaning.length;
+    const badges = isBrief
+      ? `<div class="five-step-badge"><span class="step-dot step-fact">FACT</span><span class="step-dot step-action">ACTION</span></div>`
+      : STEP_BADGES;
+    return `<div class="article-card" onclick="location.href='${articleLink(idx, dateKey)}'">
+      ${thumb}
+      <div class="card-body">
+        <span class="cat-tag ${cv.cls}">${a.category}</span>
+        <div class="card-title">${a.title}</div>
+        <div class="card-summary">${a.summary}</div>
+        ${badges}
+        <div class="card-meta">${dateKey ? fmtDate(dateKey) : '오늘'} ${a.timestamp || ''}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  renderPagination();
+  document.getElementById('cat-count').textContent = `총 ${filteredArticles.length}건`;
+}
+
+function renderPagination() {
+  const total = Math.ceil(filteredArticles.length / PER_PAGE);
+  if (total <= 1) { document.getElementById('pagination').innerHTML = ''; return; }
+  let html = '';
+  if (currentPage > 1) html += `<button class="page-btn" onclick="goPage(${currentPage-1})">‹ 이전</button>`;
+  for (let i = 1; i <= total; i++) {
+    if (i === 1 || i === total || Math.abs(i - currentPage) <= 2) {
+      html += `<button class="page-btn ${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+    } else if (Math.abs(i - currentPage) === 3) {
+      html += `<span style="padding:0 4px;color:var(--text-light);">…</span>`;
+    }
+  }
+  if (currentPage < total) html += `<button class="page-btn" onclick="goPage(${currentPage+1})">다음 ›</button>`;
+  document.getElementById('pagination').innerHTML = html;
+}
+
+function goPage(p) {
+  currentPage = p;
+  renderGrid();
+  window.scrollTo(0, 0);
+}
+
+function filterCat(cat) {
+  currentCat = cat;
+  currentPage = 1;
+  // 탭 업데이트
+  ['all','supply','hegemony','strategy','global'].forEach(t => document.getElementById('tab-'+t).classList.remove('active'));
+  const tabMap = { '':'all','공급망전쟁':'supply','기술패권':'hegemony','산업전략':'strategy','글로벌분석':'global' };
+  document.getElementById('tab-'+(tabMap[cat]||'all')).classList.add('active');
+  // 필터 적용
+  filteredArticles = cat
+    ? allArticles.filter(x => x.article.category === cat)
+    : allArticles;
+  renderHeader(cat);
+  renderGrid();
+  // URL 업데이트 (페이지 이동 없이)
+  const url = new URL(location.href);
+  if (cat) url.searchParams.set('cat', cat); else url.searchParams.delete('cat');
+  history.replaceState(null, '', url.toString());
+}
+
+async function loadAllArticles() {
+  const entries = [];
+
+  // 오늘 기사
+  try {
+    const res = await fetch('articles.json');
+    if (res.ok) {
+      const data = await res.json();
+      (data.articles || []).forEach((a, i) => entries.push({ article: a, dateKey: null, idx: i }));
+    }
+  } catch(e) {}
+
+  // 최근 30일 아카이브
+  try {
+    const idxRes = await fetch('archive/index.json');
+    if (idxRes.ok) {
+      const idxData = await idxRes.json();
+      const dates = (idxData.dates || []).slice(0, 30);
+      for (const dk of dates) {
+        try {
+          const r = await fetch(`archive/${dk}.json`);
+          if (!r.ok) continue;
+          const d = await r.json();
+          (d.articles || []).forEach((a, i) => entries.push({ article: a, dateKey: dk, idx: i }));
+        } catch(e) {}
+      }
+    }
+  } catch(e) {}
+
+  allArticles = entries;
+
+  // 초기 필터 적용
+  const tabMap = { '':'all','공급망전쟁':'supply','기술패권':'hegemony','산업전략':'strategy','글로벌분석':'global' };
+  const activeTab = tabMap[currentCat] || 'all';
+  document.getElementById('tab-'+activeTab).classList.add('active');
+
+  filteredArticles = currentCat
+    ? allArticles.filter(x => x.article.category === currentCat)
+    : allArticles;
+
+  renderHeader(currentCat);
+  renderGrid();
+}
+
+loadAllArticles();
+</script>
+</body>
+</html>

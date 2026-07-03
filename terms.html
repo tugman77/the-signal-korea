@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이용약관 — THE SIGNAL KOREA</title>
+<style>
+  :root {
+    --primary:  #0a0f1e;
+    --accent:   #e8a000;
+    --accent2:  #4d94ff;
+    --bg:       #f0f2f5;
+    --card-bg:  #ffffff;
+    --border:   #d8dde4;
+    --text:     #111827;
+    --text-muted: #4b5563;
+    --text-light: #9ca3af;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+  a { text-decoration: none; color: inherit; }
+
+  .signal-bar { background: var(--accent); color: var(--primary); font-size: 12px; font-weight: 700; padding: 5px 0; overflow: hidden; }
+  .signal-bar .inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; }
+  .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
+  .signal-text { white-space: nowrap; overflow: hidden; animation: scroll-left 35s linear infinite; }
+  @keyframes scroll-left { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
+
+  header { background: var(--primary); color: #fff; border-bottom: 3px solid var(--accent); }
+  .header-top { max-width: 1200px; margin: 0 auto; padding: 20px 16px 16px; display: flex; align-items: flex-end; justify-content: space-between; }
+  .logo-block { cursor: pointer; }
+  .logo-en { font-size: 30px; font-weight: 900; letter-spacing: 4px; color: #fff; }
+  .logo-en span { color: var(--accent); }
+  .logo-kr { font-size: 12px; color: rgba(255,255,255,0.45); letter-spacing: 3px; margin-top: 4px; }
+  .header-right { text-align: right; }
+  .header-date { font-size: 13px; color: rgba(255,255,255,0.6); }
+  .header-tagline { font-size: 11px; color: rgba(255,255,255,0.35); letter-spacing: 1px; margin-top: 3px; }
+
+  nav { background: rgba(255,255,255,0.04); border-top: 1px solid rgba(255,255,255,0.08); }
+  .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; overflow-x: auto; }
+  .nav-inner a { color: rgba(255,255,255,0.6); font-size: 13px; padding: 10px 16px; display: block; border-bottom: 2px solid transparent; transition: color .15s; white-space: nowrap; }
+  .nav-inner a:hover { color: #fff; border-bottom-color: var(--accent); }
+
+  .breadcrumb { background: #e8eaed; border-bottom: 1px solid var(--border); }
+  .bc-inner { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: var(--text-light); display: flex; align-items: center; gap: 6px; }
+  .bc-inner a { color: var(--text-light); }
+  .bc-sep { color: #bbb; }
+
+  .container { max-width: 800px; margin: 0 auto; padding: 48px 16px 72px; }
+  .page-title { font-size: 26px; font-weight: 900; color: var(--primary); margin-bottom: 6px; }
+  .page-date { font-size: 13px; color: var(--text-light); margin-bottom: 36px; padding-bottom: 20px; border-bottom: 2px solid var(--accent); }
+
+  .policy-section { margin-bottom: 36px; }
+  .policy-section h2 { font-size: 16px; font-weight: 700; color: var(--primary); margin-bottom: 12px; padding-left: 12px; border-left: 3px solid var(--accent); }
+  .policy-section p, .policy-section li { font-size: 14px; color: var(--text-muted); line-height: 1.9; margin-bottom: 10px; }
+  .policy-section ul { padding-left: 20px; }
+  .policy-section li { list-style: disc; }
+
+  footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
+  .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
+  .footer-logo { font-size: 16px; font-weight: 900; color: #fff; letter-spacing: 3px; }
+  .footer-logo span { color: var(--accent); }
+  .footer-info { line-height: 1.9; margin-top: 6px; }
+  .footer-links { display: flex; gap: 16px; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.4); }
+  .footer-links a:hover { color: var(--accent); }
+
+  @media (max-width: 640px) { .header-right { display: none; } }
+</style>
+</head>
+<body>
+
+<div class="signal-bar">
+  <div class="inner">
+    <span class="signal-label">SIGNAL</span>
+    <span class="signal-text">THE SIGNAL KOREA — 한국 산업 인텔리전스 미디어</span>
+  </div>
+</div>
+
+<header>
+  <div class="header-top">
+    <div class="logo-block" onclick="location.href='index.html'">
+      <div class="logo-en">THE <span>SIGNAL</span> KOREA</div>
+      <div class="logo-kr">한국 산업 인텔리전스 · FACT · MEANING · WINNER · LOSER · ACTION</div>
+    </div>
+    <div class="header-right">
+      <div class="header-date" id="today-date"></div>
+      <div class="header-tagline">기술패권 · 공급망전쟁 · 산업전략 · 글로벌분석</div>
+    </div>
+  </div>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html">전체</a>
+      <a href="category.html?cat=기술패권">기술패권</a>
+      <a href="category.html?cat=공급망전쟁">공급망전쟁</a>
+      <a href="category.html?cat=산업전략">산업전략</a>
+      <a href="category.html?cat=글로벌분석">글로벌분석</a>
+      <a href="search.html">검색</a>
+      <a href="about.html">소개</a>
+    </div>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <div class="bc-inner">
+    <a href="index.html">홈</a>
+    <span class="bc-sep">›</span>
+    <span style="color:var(--text-muted);font-weight:600;">이용약관</span>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="page-title">이용약관</div>
+  <div class="page-date">시행일: 2026년 1월 1일 &nbsp;|&nbsp; 최종 수정: 2026년 7월 1일</div>
+
+  <div class="policy-section">
+    <h2>제1조 (목적)</h2>
+    <p>본 약관은 THE SIGNAL KOREA(이하 '본 사이트')가 제공하는 인터넷 정보 서비스의 이용 조건 및 절차에 관한 사항을 규정하는 것을 목적으로 합니다.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>제2조 (서비스의 성격)</h2>
+    <p>본 사이트는 글로벌 기술·산업 패권 뉴스를 분석하여 한국 산업 동향에 관한 정보를 제공하는 개인 미디어 서비스입니다. 별도의 회원가입 없이 누구나 무료로 이용할 수 있습니다.</p>
+    <p>본 사이트에 게재된 기사와 분석 콘텐츠는 AI(Claude)를 활용하여 자동 생성되며, 발행인이 감수합니다. 이는 정보 제공을 목적으로 하며 투자 권유나 금융 조언이 아닙니다.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>제3조 (면책 조항)</h2>
+    <ul>
+      <li><strong>투자 판단 책임:</strong> 본 사이트의 콘텐츠는 참고용 정보입니다. 이를 바탕으로 한 투자 결정에 대한 책임은 전적으로 이용자 본인에게 있습니다. 본 사이트는 투자 손실에 대해 어떠한 책임도 지지 않습니다.</li>
+      <li><strong>정보의 정확성:</strong> AI 자동 생성 콘텐츠의 특성상 사실 관계에 오류가 있을 수 있습니다. 중요한 의사결정 전에는 원문 출처를 반드시 확인하시기 바랍니다.</li>
+      <li><strong>서비스 중단:</strong> 기술적 사유, 유지보수, 또는 불가항력으로 인해 서비스가 일시 중단될 수 있습니다. 본 사이트는 이로 인한 손해에 대해 책임지지 않습니다.</li>
+      <li><strong>외부 링크:</strong> 본 사이트가 연결하는 외부 사이트의 콘텐츠에 대한 책임은 해당 사이트에 있습니다.</li>
+    </ul>
+  </div>
+
+  <div class="policy-section">
+    <h2>제4조 (저작권)</h2>
+    <p>본 사이트에 게재된 콘텐츠(기사 텍스트, 디자인, 로고 등)의 저작권은 THE SIGNAL KOREA에 있습니다. 이용자는 개인적·비상업적 목적으로 콘텐츠를 열람할 수 있습니다.</p>
+    <p>콘텐츠의 무단 복제, 배포, 상업적 이용은 금지됩니다. 인용 시에는 출처(THE SIGNAL KOREA, 원문 URL)를 반드시 표기해 주시기 바랍니다.</p>
+    <p>단, RSS 피드를 통해 수집된 원본 뉴스의 저작권은 각 언론사에 있으며, 본 사이트는 이를 참고하여 독립적인 분석 글을 작성합니다.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>제5조 (광고 및 제휴)</h2>
+    <p>본 사이트는 쿠팡 파트너스 제휴 광고를 통해 수익을 창출합니다. 광고 수익은 사이트 운영 비용에 사용됩니다. 광고 게재가 기사의 독립성에 영향을 미치지 않습니다.</p>
+    <p>쿠팡 파트너스 링크를 통해 구매 시 본 사이트는 일정 수수료를 지급받을 수 있습니다. 이용자의 구매 가격에는 영향을 미치지 않습니다.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>제6조 (약관 변경)</h2>
+    <p>본 약관은 관계 법령 변경 또는 서비스 정책 변경에 따라 수정될 수 있습니다. 변경 시 본 페이지를 통해 공지합니다. 변경된 약관에 동의하지 않는 경우 서비스 이용을 중단하실 수 있습니다.</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>제7조 (문의)</h2>
+    <p>본 약관에 관한 문의는 <a href="mailto:contact@thesignalkorea.com" style="color:var(--accent2);">contact@thesignalkorea.com</a>으로 연락해 주시기 바랍니다.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
+      <div class="footer-info">
+        한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
+        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+      </div>
+    </div>
+    <div>
+      <div class="footer-links">
+        <a href="about.html">소개</a>
+        <a href="advertising.html">광고문의</a>
+        <a href="privacy.html">개인정보처리방침</a>
+        <a href="terms.html">이용약관</a>
+      </div>
+      <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const d = new Date();
+const days = ['일','월','화','수','목','금','토'];
+document.getElementById('today-date').textContent =
+  `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
+</script>
+</body>
+</html>
