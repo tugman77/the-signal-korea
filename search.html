@@ -365,7 +365,14 @@ async function loadAll() {
     }
   } catch(e) {}
 
-  allEntries = entries;
+  // 제목 기준 중복 제거 (오늘 기사·최신 아카이브가 먼저 push되므로 첫 등장만 유지)
+  const seenTitles = new Set();
+  allEntries = entries.filter(e => {
+    const t = e.article && e.article.title;
+    if (!t || seenTitles.has(t)) return false;
+    seenTitles.add(t);
+    return true;
+  });
   isLoaded = true;
 }
 
