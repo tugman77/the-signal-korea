@@ -28,7 +28,7 @@
   /* ── 시그널 바 ── */
   .signal-bar { background: var(--accent); color: var(--primary); font-size: 12px; font-weight: 700; padding: 5px 0; overflow: hidden; }
   .signal-bar .inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; align-items: center; gap: 12px; }
-  .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
+  .signal-bar .signal-label { background: var(--primary); color: var(--accent); font-size: 10px; font-weight: 700; padding: 2px 8px; white-space: nowrap; letter-spacing: 1.5px; }
   .signal-text { white-space: nowrap; overflow: hidden; animation: scroll-left 35s linear infinite; }
   @keyframes scroll-left { 0%{transform:translateX(100vw)} 100%{transform:translateX(-100%)} }
 
@@ -61,7 +61,7 @@
   .top-main:hover { opacity: 0.92; }
   .top-thumb { width: 100%; height: 260px; background: linear-gradient(135deg, #0a0f1e 0%, #1a2a5e 100%); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.05); font-size: 90px; font-weight: 900; letter-spacing: -4px; overflow: hidden; position: relative; }
   .top-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-  .top-thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 48px 20px 20px; }
+  .top-thumb-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.8)); padding: 48px 20px 20px; letter-spacing: normal; }
   .top-thumb-overlay .cat-badge { font-size: 10px; font-weight: 700; letter-spacing: 1.5px; padding: 3px 10px; background: var(--accent); color: var(--primary); display: inline-block; margin-bottom: 10px; }
   .top-thumb-overlay h2 { font-size: 22px; font-weight: 700; line-height: 1.4; color: #fff; word-break: keep-all; }
   .top-card-body { padding: 16px 20px 20px; }
