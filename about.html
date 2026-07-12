@@ -41,6 +41,9 @@
   .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; overflow-x: auto; }
   .nav-inner a { color: rgba(255,255,255,0.6); font-size: 13px; padding: 10px 16px; display: block; border-bottom: 2px solid transparent; transition: color .15s, border-color .15s; white-space: nowrap; }
   .nav-inner a:hover, .nav-inner a.active { color: #fff; border-bottom-color: var(--accent); }
+  .nav-cats { display: flex; }
+  .nav-util { display: flex; margin-left: auto; border-left: 1px solid rgba(255,255,255,0.12); }
+  .nav-util a { color: rgba(255,255,255,0.4); font-size: 12.5px; padding: 10px 14px; }
 
   .breadcrumb { background: #e8eaed; border-bottom: 1px solid var(--border); }
   .bc-inner { max-width: 1200px; margin: 0 auto; padding: 8px 16px; font-size: 12px; color: var(--text-light); display: flex; align-items: center; gap: 6px; }
@@ -180,13 +183,17 @@
   </div>
   <nav>
     <div class="nav-inner">
-      <a href="index.html">전체</a>
-      <a href="category.html?cat=기술패권">기술패권</a>
-      <a href="category.html?cat=공급망전쟁">공급망전쟁</a>
-      <a href="category.html?cat=산업전략">산업전략</a>
-      <a href="category.html?cat=글로벌분석">글로벌분석</a>
-      <a href="search.html">검색</a>
-      <a href="about.html" class="active">소개</a>
+      <div class="nav-cats">
+        <a href="index.html">전체</a>
+        <a href="category.html?cat=공급망전쟁">공급망전쟁</a>
+        <a href="category.html?cat=기술패권">기술패권</a>
+        <a href="category.html?cat=산업전략">산업전략</a>
+        <a href="category.html?cat=글로벌분석">글로벌분석</a>
+      </div>
+      <div class="nav-util">
+        <a href="search.html">검색</a>
+        <a href="about.html" class="active">소개</a>
+      </div>
     </div>
   </nav>
 </header>
