@@ -99,7 +99,7 @@
   .cat-item.supply   .cat-name { color: #b45309; }
   .cat-item.strategy .cat-name { color: #15803d; }
   .cat-item.global   .cat-name { color: #1d4ed8; }
-  .cat-ratio { font-size: 18px; font-weight: 900; float: right; opacity: 0.6; }
+  .cat-ratio { font-size: 12px; font-weight: 700; float: right; opacity: 0.75; letter-spacing: 1px; padding: 2px 8px; border: 1px solid currentColor; border-radius: 2px; }
   .cat-item.hegemony .cat-ratio { color: #b91c1c; }
   .cat-item.supply   .cat-ratio { color: #b45309; }
   .cat-item.strategy .cat-ratio { color: #15803d; }
@@ -121,6 +121,20 @@
   .contact-label { font-weight: 700; color: var(--primary); width: 80px; flex-shrink: 0; }
   .contact-val { color: var(--text-muted); }
   .contact-val a { color: var(--accent2); }
+  .contact-intro { font-size: 14px; color: var(--text-muted); line-height: 1.8; margin-bottom: 20px; }
+  .contact-form { display: flex; flex-direction: column; gap: 12px; }
+  .form-row { display: flex; gap: 12px; }
+  .contact-form input[type=text], .contact-form input[type=email], .contact-form textarea {
+    flex: 1; width: 100%; padding: 11px 14px; font-size: 14px; border: 1.5px solid var(--border);
+    background: #fff; color: var(--text); outline: none; font-family: inherit; border-radius: 2px; }
+  .contact-form input:focus, .contact-form textarea:focus { border-color: var(--accent); }
+  .contact-form textarea { resize: vertical; min-height: 120px; }
+  .contact-form button { align-self: flex-start; padding: 11px 30px; background: var(--primary); color: var(--accent);
+    font-size: 14px; font-weight: 700; border: none; cursor: pointer; border-radius: 2px; transition: background .15s, color .15s; }
+  .contact-form button:hover { background: var(--accent); color: var(--primary); }
+  .form-sent { background: #dcfce7; border: 1px solid #86efac; color: #15803d; padding: 12px 16px;
+    font-size: 14px; margin-bottom: 16px; border-radius: 2px; }
+  .contact-meta { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
 
   footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
   .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; }
@@ -140,6 +154,7 @@
     .cat-grid { grid-template-columns: 1fr; }
     .publisher-box { padding: 24px 20px; }
     .contact-box { padding: 20px; }
+    .form-row { flex-direction: column; }
   }
 </style>
 </head>
@@ -255,15 +270,6 @@
     </div>
   </div>
 
-  <!-- 기사 포맷 이원화 -->
-  <div class="about-section">
-    <div class="section-title">기사 포맷 이원화</div>
-    <div class="section-text">
-      <p><strong>주력 분석글 (주 3회)</strong> — FACT → MEANING → WINNER → LOSER → ACTION 5단계 전체를 완성. 기업 임원·투자자가 의사결정에 바로 활용할 수 있는 수준의 심층 분석을 제공합니다.</p>
-      <p><strong>속보성 글 (주 2회)</strong> — FACT + ACTION 2단계만으로 구성. 빠르게 변하는 공급망·규제 이슈를 즉각 전달하되, 핵심 실행 포인트는 놓치지 않습니다.</p>
-    </div>
-  </div>
-
   <!-- 카테고리 -->
   <div class="about-section">
     <div class="section-title">커버리지 — 카테고리</div>
@@ -272,22 +278,22 @@
     </div>
     <div class="cat-grid">
       <div class="cat-item supply">
-        <span class="cat-ratio">50%</span>
+        <span class="cat-ratio">핵심 주력</span>
         <div class="cat-name">공급망전쟁</div>
         <div class="cat-detail">갈륨·탄탈럼·희토류 수출 규제, 탈중국 대체 공급망 구축, 핵심 광물 확보 전쟁. "갈륨 수출 규제 관련주", "탄탈럼 가격 전망" 등 구체적 소재·종목 키워드로 찾아오는 독자를 위한 핵심 카테고리입니다.</div>
       </div>
       <div class="cat-item hegemony">
-        <span class="cat-ratio">20%</span>
+        <span class="cat-ratio">집중</span>
         <div class="cat-name">기술패권</div>
         <div class="cat-detail">미·중 반도체 수출 통제, AI 인프라 패권 경쟁, 칩 법안과 보조금 정책. 기술 패권의 흐름이 한국 반도체·AI 산업에 미치는 영향을 분석합니다.</div>
       </div>
       <div class="cat-item strategy">
-        <span class="cat-ratio">20%</span>
+        <span class="cat-ratio">집중</span>
         <div class="cat-name">산업전략</div>
         <div class="cat-detail">한국 정부·대기업·소부장 생태계의 대응 전략. 삼성·SK·포스코·LG 등 한국 대표 기업의 사업 전환과 투자 동향을 추적합니다.</div>
       </div>
       <div class="cat-item global">
-        <span class="cat-ratio">10%</span>
+        <span class="cat-ratio">확장</span>
         <div class="cat-name">글로벌분석</div>
         <div class="cat-detail">미국·EU·일본·인도·베트남 등 글로벌 산업 동향. 한국과 경쟁하거나 협력하는 국가의 전략 변화가 한국에 미치는 시사점을 분석합니다.</div>
       </div>
@@ -309,20 +315,39 @@
     </div>
   </div>
 
-  <!-- 연락처 -->
+  <!-- 문의하기 -->
   <div class="contact-box">
-    <div class="section-title">연락처</div>
-    <div class="contact-item">
-      <span class="contact-label">이메일</span>
-      <span class="contact-val"><a href="mailto:contact@thesignalkorea.com">contact@thesignalkorea.com</a></span>
-    </div>
-    <div class="contact-item">
-      <span class="contact-label">광고문의</span>
-      <span class="contact-val"><a href="advertising.html">광고 안내 페이지 →</a></span>
-    </div>
-    <div class="contact-item">
-      <span class="contact-label">발행 주기</span>
-      <span class="contact-val">매일 오전 09:00 (KST) 업데이트</span>
+    <div class="section-title">문의하기</div>
+    <p class="contact-intro">광고·제휴·제보 등 문의사항을 남겨주시면 담당자에게 바로 전달됩니다. 빠르게 회신드리겠습니다.</p>
+
+    <div class="form-sent" id="form-sent" style="display:none;">✅ 문의가 정상적으로 접수되었습니다. 확인 후 회신드리겠습니다.</div>
+
+    <form action="https://formsubmit.co/tugman77@gmail.com" method="POST" class="contact-form">
+      <!-- FormSubmit 설정 -->
+      <input type="hidden" name="_subject" value="[시그널코리아] 새 문의가 도착했습니다">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://tugman77.github.io/the-signal-korea/about.html?sent=1">
+      <!-- 스팸 방지 허니팟 (사람 눈에 안 보임) -->
+      <input type="text" name="_honey" style="display:none">
+
+      <div class="form-row">
+        <input type="text" name="이름" placeholder="이름 / 회사명" required>
+        <input type="email" name="이메일" placeholder="회신받을 이메일" required>
+      </div>
+      <textarea name="문의내용" placeholder="문의 내용을 입력해 주세요" required></textarea>
+      <button type="submit">문의 보내기</button>
+    </form>
+
+    <div class="contact-meta">
+      <div class="contact-item">
+        <span class="contact-label">광고문의</span>
+        <span class="contact-val"><a href="advertising.html">광고 안내 페이지 →</a></span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">발행 주기</span>
+        <span class="contact-val">매일 오전 09:00 (KST) 업데이트</span>
+      </div>
     </div>
   </div>
 
@@ -354,6 +379,12 @@ const d = new Date();
 const days = ['일','월','화','수','목','금','토'];
 document.getElementById('today-date').textContent =
   `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
+
+// 문의 제출 완료 안내
+if (new URLSearchParams(location.search).get('sent') === '1') {
+  const sent = document.getElementById('form-sent');
+  if (sent) { sent.style.display = 'block'; sent.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+}
 </script>
 </body>
 </html>
