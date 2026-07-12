@@ -64,6 +64,84 @@ RSS_FEEDS = [
 KST = timezone(timedelta(hours=9))
 
 
+# ── 제목 유사도 (2-gram Jaccard) ──────────────────────────────────
+def title_similarity(t1: str, t2: str) -> float:
+    """두 제목의 2-gram 자카드 유사도 (0.0~1.0). 0.7 이상이면 같은 뉴스로 간주."""
+    if not t1 or not t2:
+        return 0.0
+    def bigrams(s):
+        return set(s[i:i+2] for i in range(len(s) - 1))
+    b1, b2 = bigrams(t1), bigrams(t2)
+    if not b1 or not b2:
+        return 0.0
+    return len(b1 & b2) / len(b1 | b2)
+
+
+# ── RSS 수집 결과 중복 제거 ────────────────────────────────────────
+def deduplicate_rss(items: list) -> list:
+    """같은 URL + 제목 유사도 70% 이상 항목 제거. 먼저 나온 것을 유지."""
+    seen_urls: set = set()
+    seen_titles: list = []
+    result = []
+    removed = 0
+
+    for item in items:
+        url   = item.get("link", "").strip()
+        title = item.get("title", "").strip()
+
+        # 1. URL 중복 제거
+        if url and url in seen_urls:
+            removed += 1
+            continue
+        if url:
+            seen_urls.add(url)
+
+        # 2. 제목 유사도 중복 제거
+        is_dup = False
+        for st in seen_titles:
+            if title_similarity(title, st) >= 0.70:
+                print(f"   중복 RSS 제거: '{title[:35]}' (유사: '{st[:35]}')")
+                is_dup = True
+                removed += 1
+                break
+        if is_dup:
+            continue
+
+        seen_titles.append(title)
+        result.append(item)
+
+    if removed:
+        print(f"   → RSS 중복 {removed}건 제거 (남은 {len(result)}건)")
+    return result
+
+
+# ── 생성된 기사 내 제목 중복 제거 ─────────────────────────────────
+def deduplicate_articles(articles: list) -> list:
+    """생성된 기사 중 제목 유사도 70% 이상인 중복 제거. 먼저 나온 것을 유지."""
+    seen_titles: list = []
+    result = []
+    removed = 0
+
+    for article in articles:
+        title = article.get("title", "")
+        is_dup = False
+        for st in seen_titles:
+            sim = title_similarity(title, st)
+            if sim >= 0.70:
+                print(f"🚫 중복 기사 제거: '{title}' (유사도 {int(sim*100)}%, 유지: '{st}')")
+                is_dup = True
+                removed += 1
+                break
+        if is_dup:
+            continue
+        seen_titles.append(title)
+        result.append(article)
+
+    if removed:
+        print(f"   → 기사 중복 {removed}건 제거 (확정 {len(result)}건)")
+    return result
+
+
 # ── RSS 수집 ───────────────────────────────────────────────────────
 def collect_news_from_rss(max_per_feed=5):
     collected = []
@@ -77,7 +155,7 @@ def collect_news_from_rss(max_per_feed=5):
                 collected.append({"source": name, "title": title, "summary": summary, "link": link})
         except Exception as e:
             print(f"RSS 오류 [{name}]: {e}")
-    return collected
+    return deduplicate_rss(collected)
 
 
 # ── 최근 3일 기사 제목 추출 (중복 주제 방지) ──────────────────────
@@ -126,9 +204,18 @@ def generate_articles_with_claude(raw_news_list, recent_titles):
 {recent_list}
 """
 
-    prompt = f"""당신은 대한민국 최고 경제·산업 인텔리전스 기관의 수석 산업분석가이자 20년 경력 시니어 테크 저널리스트입니다.
-핵심 미션: 글로벌 기술·산업 뉴스를 분석하여 "한국 산업은 앞으로 무엇으로 먹고 살 것인가?"에 답합니다.
-타깃 독자: 개인 투자자 — "이 뉴스가 내 계좌에 무슨 의미인가"에 답해야 합니다.
+    prompt = f"""당신은 광학·반도체·디스플레이 소재를 20년간 직접 공급해온 현장 전문가입니다.
+갈륨·게르마늄·비스무트·이트륨·마그네슘 등 핵심 소재를 국내외 기업에 실제 공급한 경험을 바탕으로,
+지금은 소재 공급망 인텔리전스 분석가로 시장을 조망하며 칼럼을 씁니다.
+
+[필자 관점 — 반드시 유지]
+- 생산자도 수요자도 아닌 "공급자" 시각: 누가 어디서 뭘 사는지, 어디서 병목이 생기는지를 먼저 본다
+- 뉴스가 되기 전에 이미 현장에서 신호를 감지한 사람의 어조
+- 단순 요약이 아니라 "내가 현장에서 봤을 때 이건 이런 의미다"는 직언 스타일
+- 일반 언론이 놓치는 소재·거래·공급망의 실제 작동 방식을 짚어준다
+
+핵심 미션: 글로벌 기술·산업 뉴스를 현장 공급망 시각으로 해석하여 "한국 산업은 앞으로 무엇으로 먹고 살 것인가?"에 답합니다.
+타깃 독자: 개인 투자자·기업 구매담당자·산업 전략가 — "이 뉴스가 실제 비즈니스에 무슨 의미인가"에 답해야 합니다.
 
 {news_section}
 
@@ -499,6 +586,9 @@ def main():
     articles = generate_articles_with_claude(raw_news, recent_titles)
     brief_count = sum(1 for a in articles if a.get("is_brief"))
     print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
+
+    print("🔍 생성된 기사 중복 검사 중...")
+    articles = deduplicate_articles(articles)
 
     # 카테고리 분포 확인
     from collections import Counter

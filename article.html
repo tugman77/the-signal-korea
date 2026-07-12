@@ -22,7 +22,7 @@
     --tag-global:   #dbeafe; --tag-global-text:   #1d4ed8;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
+  body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; overflow-x: hidden; }
   a { text-decoration: none; color: inherit; }
 
   /* ── 시그널 바 ── */
@@ -71,7 +71,7 @@
   .tag-strategy { background: var(--tag-strategy); color: var(--tag-strategy-text); }
   .tag-global   { background: var(--tag-global);   color: var(--tag-global-text);   }
 
-  .art-title { font-size: 28px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 16px; word-break: keep-all; }
+  .art-title { font-size: 28px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 16px; word-break: keep-all; overflow-wrap: anywhere; max-width: 100%; }
   .art-byline { font-size: 13px; color: var(--text-light); display: flex; gap: 10px; padding-bottom: 20px; border-bottom: 2px solid var(--text); }
   .art-byline .author { font-weight: 600; color: var(--text-muted); }
 
@@ -105,7 +105,7 @@
   .frame-action  .frame-header { background: #1c1300; color: #fcd34d; border-left: 4px solid var(--accent); }
 
   .frame-body { padding: 20px 0 0; }
-  .frame-body p { font-size: 17px; line-height: 2; color: var(--text-muted); margin-bottom: 20px; word-break: keep-all; }
+  .frame-body p { font-size: 17px; line-height: 2; color: var(--text-muted); margin-bottom: 20px; word-break: keep-all; overflow-wrap: anywhere; }
   .frame-body p:last-child { margin-bottom: 0; }
 
   .frame-action .frame-body p {
