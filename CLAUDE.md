@@ -153,13 +153,26 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 
 ---
 
-## 이미지 우선순위 (기사자동생성.py v2)
+## 이미지 관리 (기사자동생성.py v3 — 소재타임스 방식)
 
-1. **Unsplash API** (UNSPLASH_ACCESS_KEY 환경변수 필요)
-2. **Pexels API** (PEXELS_API_KEY 환경변수 필요)
-3. **Pixabay API** (PIXABAY_API_KEY 환경변수 필요)
-4. **큐레이션 풀** (카테고리별 고정 Unsplash URL)
+### 소스 우선순위
+1. **Unsplash API** — `photos/random?count=10`으로 후보 10장 받아 미사용분 선택 (UNSPLASH_ACCESS_KEY)
+2. **Pexels API** — 후보 10장 중 무작위 (PEXELS_API_KEY)
+3. **Pixabay API** — 후보 10장 중 무작위 (PIXABAY_API_KEY)
+4. **큐레이션 풀** — 카테고리별 photo-ID 8~9장 (`_UNSPLASH_POOL`, 키 없어도 항상 작동)
 5. **picsum** (최후 수단)
+
+### 3중 중복방지 (소재타임스 이식)
+1. **Cross-category 중복 금지** — `_UNSPLASH_POOL` 각 photo-ID는 단일 카테고리에만. `_validate_pool()`이 실행마다 감지.
+2. **Run 내 재사용 금지** — `_used_photo_ids` set.
+3. **바이너리 중복 금지** — `_downloaded_hashes` set (MD5). 중복 시 저장 거부 후 다음 소스.
+
+### 날짜 간 반복 방지
+- `image_history.json` — photo-ID 마지막 사용 날짜 + MD5 해시 이력을 run 간 유지 (LRU로 가장 오래된 사진 우선 선택).
+- 파일 미존재 시 `images/` 폴더를 스캔해 해시 복원 → 커밋된 이미지 기준 중복 차단.
+- 워크플로 `git add`에 `image_history.json` 포함.
+
+> ⚠️ **핵심**: 이미지 API 키(Unsplash 등)가 미등록이면 항상 4순위 풀로 떨어진다. 반드시 최소 1개 이상 등록할 것 (무료). 키가 있어야 기사 내용과 매칭되는 매일 다른 사진이 온다.
 
 이미지 파일명: `images/YYYY-MM-DD_article_N.jpg`
 

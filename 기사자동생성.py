@@ -3,8 +3,11 @@
 실행: python 기사자동생성.py
 필요: pip install anthropic requests feedparser
 
-업그레이드 내역 (v2):
-  - 이미지 우선순위: Unsplash → Pexels → Pixabay → 큐레이션 풀 → picsum
+업그레이드 내역 (v3 — 이미지 반복 해결):
+  - 이미지 우선순위: Unsplash(count=10) → Pexels → Pixabay → 큐레이션 풀(photo-ID) → picsum
+  - 3중 중복방지: cross-category · run내 _used_photo_ids · MD5 해시(_downloaded_hashes)
+  - image_history.json으로 날짜 간(run 간) 재사용 방지 + LRU 선택
+  - 큐레이션 풀 카테고리당 8~9장으로 확장 (섹션 내 반복 제거)
   - 이미지 파일명에 날짜 포함: images/YYYY-MM-DD_article_N.jpg
   - 중복 주제 방지: 최근 3일 기사 제목 → 프롬프트에 전달
   - 기사 이원 포맷 분기: is_brief=True → FACT+ACTION만 생성
@@ -19,37 +22,77 @@ import json
 import os
 import requests
 import hashlib
+import random
+from urllib.parse import quote
 from datetime import datetime, timezone, timedelta
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "여기에_API키_입력")
+ANTHROPIC_API_KEY   = os.environ.get("ANTHROPIC_API_KEY", "여기에_API키_입력")
 UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")   # 선택 — 있으면 사용
 PEXELS_API_KEY      = os.environ.get("PEXELS_API_KEY", "")        # 선택 — 있으면 사용
 PIXABAY_API_KEY     = os.environ.get("PIXABAY_API_KEY", "")       # 선택 — 있으면 사용
+TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 OUTPUT_FILE = "articles.json"
 IMAGES_DIR  = "images"
+IMAGE_HISTORY_FILE = "image_history.json"  # 날짜 간 photo-ID·MD5 이력 (run 간 재사용 방지)
 
-# ── 카테고리별 큐레이션 이미지 풀 (모든 API 실패 시 사용) ──
-CURATED_IMAGE_POOL = {
+# ════════════════════════════════════════════════════════
+# 이미지 관리 규칙 (IMAGE RULES) — 소재타임스와 동일 방식
+# ════════════════════════════════════════════════════════
+# 1. 카테고리별 풀에 동일 photo-ID가 두 카테고리에 등록되면 안 된다
+#    (_validate_pool()이 실행마다 자동 감지).
+# 2. 한 실행(run) 안에서 이미 선택한 photo-ID는 재사용 금지 (_used_photo_ids).
+# 3. 다운로드된 파일의 MD5가 이미 저장된 파일과 동일하면 다음 소스로 넘어간다
+#    (_downloaded_hashes, image_history.json으로 날짜 간 유지).
+# 4. 풀은 카테고리당 8개 이상(5기사/일 + 여유분)을 유지한다.
+# ── 카테고리별 Unsplash 큐레이션 풀 (photo-ID) ──
+# 규칙: 동일 photo-ID가 두 카테고리에 나타나서는 안 된다.
+_UNSPLASH_POOL = {
     "공급망전쟁": [
-        "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&h=450&fit=crop",
+        "photo-1494412519320-aa613dfb7738",  # 컨테이너 항구 항공뷰
+        "photo-1578575437130-527eed3abbec",  # 컨테이너선 접안 항구
+        "photo-1586528116311-ad8dd3c8310d",  # 물류 창고 내부
+        "photo-1521790361543-f645cf042ec4",  # 화물 항공기
+        "photo-1488229297570-58520851e868",  # 화물선 드론 항공뷰
+        "photo-1527515637462-cff94eecc1ac",  # 채석장·광산 암반
+        "photo-1531538606174-0f90ff5dce83",  # 광물·원석
+        "photo-1565793298595-6a879b1d9492",  # 광산 덤프트럭
+        "photo-1578375819537-b95e00c82429",  # 금속 제련 용광로
     ],
     "기술패권": [
-        "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1563770660941-20978e870e26?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=800&h=450&fit=crop",
+        "photo-1518770660439-4636190af475",  # PCB 회로기판 클로즈업
+        "photo-1591799265444-d66432b91588",  # CPU 칩
+        "photo-1562408590-e32931084e23",     # PCB 회로기판 (파랑)
+        "photo-1597852074816-d933c7d2b988",  # 전자 부품 내부
+        "photo-1581092918056-0c4c3acd3789",  # 전자기기 납땜 작업
+        "photo-1451187580459-43490279c0fa",  # 서버 데이터센터 랙
+        "photo-1526374965328-7f61d4dc18c5",  # 코드 스크린
+        "photo-1555680202-c86f0e12f086",     # 컴퓨터 마더보드
+        "photo-1558494949-ef010cbdcc31",     # 광섬유 케이블
     ],
     "산업전략": [
-        "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=450&fit=crop",
+        "photo-1567789884554-0b844b597180",  # 자동차 공장 로봇
+        "photo-1473341304170-971dccb5ac1e",  # 고압 송전탑
+        "photo-1541888946425-d81bb19240f5",  # 건설 현장 엔지니어
+        "photo-1495576775051-8af0d10f68d1",  # 제철·철강 생산
+        "photo-1504711434969-e33886168f5c",  # 제철소 용융 쇳물
+        "photo-1565791380713-1756b9a05343",  # 화학 플랜트 항공뷰
+        "photo-1582139329536-e7284fece509",  # 건설 크레인 군집
+        "photo-1581092160607-ee22621dd758",  # 엔지니어 기계 작업
     ],
     "글로벌분석": [
-        "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=450&fit=crop",
-        "https://images.unsplash.com/photo-1524522173746-f628baad3644?w=800&h=450&fit=crop",
+        "photo-1586769852044-692d6e3703f0",  # 세계 공급망 지도
+        "photo-1558618666-fcd25c85cd64",     # 글로벌 해운 항로
+        "photo-1545193544-312489b2d26c",     # 물류 트럭 주차장
+        "photo-1524522173746-f628baad3644",  # 글로벌 산업
+        "photo-1565514020179-026b92b84bb6",  # 도시·산업 스카이라인
+        "photo-1601597111158-2fceff292cdc",  # 기술·데이터 시각화
+        "photo-1563770660941-20978e870e26",  # 반도체 웨이퍼
+        "photo-1494412574643-ff11b0a5c1c3",  # 산업 설비
     ],
 }
+_UNSPLASH_BASE = "https://images.unsplash.com/{id}?w=800&h=450&fit=crop&auto=format"
 
 RSS_FEEDS = [
     ("Google뉴스-공급망패권",  "https://news.google.com/rss/search?q=갈륨+게르마늄+수출+규제+한국+공급망&hl=ko&gl=KR&ceid=KR:ko"),
@@ -62,6 +105,24 @@ RSS_FEEDS = [
 ]
 
 KST = timezone(timedelta(hours=9))
+
+
+# ── 텔레그램 알림 ────────────────────────────────────────────────────
+def send_telegram(message: str) -> bool:
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        print(f"[텔레그램 미설정] {message[:80]}")
+        return False
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    try:
+        resp = requests.post(url, json={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": message,
+            "parse_mode": "HTML"
+        }, timeout=10)
+        return resp.ok
+    except Exception as e:
+        print(f"텔레그램 전송 오류: {e}")
+        return False
 
 
 # ── 제목 유사도 (2-gram Jaccard) ──────────────────────────────────
@@ -234,6 +295,7 @@ def generate_articles_with_claude(raw_news_list, recent_titles):
 - 제목: 15~25자, 핵심 팩트·수치 중심 (예: "중국 갈륨 수출 99% 차단, 한국 연간 700억 리스크")
 - summary: 2~3문장 핵심 요약 (150자 이내), 투자자 관점에서 서술
 - SEO용 image_keyword: "gallium export restriction Korea", "tantalum supply chain" 등 구체적 소재명 포함 영문 2~3단어
+- 중요: 5개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 vs 탄탈럼 vs 데이터센터 등)
 
 [현장 경험 문단 — action 배열 마지막에 필수 삽입]
 action 배열의 마지막 단락은 반드시 다음 형식으로 시작할 것:
@@ -399,136 +461,228 @@ def generate_editorial(articles):
         )
 
 
-# ── 이미지 다운로드 (우선순위: Unsplash → Pexels → Pixabay → 큐레이션 → picsum) ──
-def try_download(url, path, min_size=2000, timeout=20):
-    """단일 URL 다운로드 시도. 성공 시 True."""
+# ════════════════════════════════════════════════════════
+# 이미지 다운로드 (3중 중복방지 + LRU) — 소재타임스와 동일 방식
+# ════════════════════════════════════════════════════════
+# _used_photo_ids / _downloaded_hashes 는 "이번 실행" 범위.
+# _photo_id_last_used / (영구 hashes) 는 image_history.json 으로 "날짜 간" 유지된다.
+_used_photo_ids: set    = set()   # 이번 실행에서 선택된 Unsplash photo-ID
+_downloaded_hashes: set = set()   # 지금까지(과거 포함) 저장된 이미지 MD5
+_photo_id_last_used: dict = {}    # photo-ID → 마지막 사용 날짜(YYYY-MM-DD)
+
+
+def _load_image_history():
+    """image_history.json 로드 → 과거 MD5 해시와 photo-ID 사용 이력을 메모리에 적재."""
+    global _downloaded_hashes, _photo_id_last_used
     try:
-        resp = requests.get(url, timeout=timeout, allow_redirects=True,
-                            headers={"User-Agent": "TheSignalKorea/2.0"})
-        if resp.status_code == 200 and len(resp.content) >= min_size:
-            with open(path, "wb") as f:
-                f.write(resp.content)
-            return True
-    except Exception as e:
-        print(f"      다운로드 실패 ({url[:50]}...): {e}")
-    return False
+        with open(IMAGE_HISTORY_FILE, "r", encoding="utf-8") as f:
+            hist = json.load(f)
+        _photo_id_last_used = dict(hist.get("photo_ids", {}))
+        _downloaded_hashes  = set(hist.get("hashes", []))
+    except (FileNotFoundError, json.JSONDecodeError):
+        _photo_id_last_used = {}
+        _downloaded_hashes  = set()
+    # 이미 저장된 이미지 파일의 해시도 축적 (히스토리 파일이 없던 과거분 보완)
+    if os.path.isdir(IMAGES_DIR):
+        for fn in os.listdir(IMAGES_DIR):
+            fp = os.path.join(IMAGES_DIR, fn)
+            try:
+                with open(fp, "rb") as f:
+                    _downloaded_hashes.add(hashlib.md5(f.read()).hexdigest())
+            except Exception:
+                pass
+    print(f"🗂️  이미지 히스토리 로드: 해시 {len(_downloaded_hashes)}개 · photo-ID {len(_photo_id_last_used)}개")
 
 
-def fetch_unsplash(keyword, path):
-    if not UNSPLASH_ACCESS_KEY:
-        return False
+def _save_image_history():
+    """이번 실행에서 갱신된 photo-ID 이력과 MD5 해시를 저장 (해시 최근 800개 보존)."""
+    hashes = list(_downloaded_hashes)[-800:]
+    data = {"photo_ids": _photo_id_last_used, "hashes": hashes}
     try:
-        r = requests.get(
-            "https://api.unsplash.com/photos/random",
-            params={"query": keyword, "orientation": "landscape", "per_page": 1},
-            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
-            timeout=15
-        )
-        if r.status_code == 200:
-            img_url = r.json().get("urls", {}).get("regular", "")
-            if img_url:
-                return try_download(img_url, path)
+        with open(IMAGE_HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"🗂️  이미지 히스토리 저장: 해시 {len(hashes)}개 · photo-ID {len(_photo_id_last_used)}개")
     except Exception as e:
-        print(f"      Unsplash 오류: {e}")
-    return False
+        print(f"   → 히스토리 저장 오류: {e}")
 
 
-def fetch_pexels(keyword, path):
+def _validate_pool():
+    """풀 내 cross-category 중복 photo-ID 감지 (로그 출력)."""
+    seen = {}
+    for cat, ids in _UNSPLASH_POOL.items():
+        for pid in ids:
+            if pid in seen:
+                print(f"⚠️  중복 photo-ID: {pid} — {seen[pid]} ↔ {cat}")
+            seen[pid] = cat
+
+
+def _pick_pool_url(category: str, seed_str: str) -> tuple[str, str]:
+    """카테고리 풀에서 photo-ID 선택. (url, photo_id) 반환.
+      1. 이번 실행에서 아직 안 쓴 ID 중
+      2. '가장 오래전에 사용(또는 미사용)' 그룹 우선(LRU) → 날짜 간 반복 간격 최대화
+      3. 동률이면 시드 해시로 결정."""
+    pool = _UNSPLASH_POOL.get(category) or _UNSPLASH_POOL["공급망전쟁"]
+    available = [p for p in pool if p not in _used_photo_ids]
+    if not available:
+        available = pool  # 풀 소진 시 재사용 허용
+    oldest_key = min(_photo_id_last_used.get(p, "") for p in available)
+    tied = [p for p in available if _photo_id_last_used.get(p, "") == oldest_key]
+    idx = int(hashlib.md5(seed_str.encode()).hexdigest(), 16) % len(tied)
+    chosen = tied[idx]
+    _used_photo_ids.add(chosen)
+    return _UNSPLASH_BASE.format(id=chosen), chosen
+
+
+def _record_photo_id(photo_id: str):
+    """실제 저장에 사용된 photo-ID의 마지막 사용 날짜를 오늘로 기록."""
+    if photo_id:
+        _photo_id_last_used[photo_id] = datetime.now(KST).strftime("%Y-%m-%d")
+
+
+def _fetch_pexels(keyword: str) -> str | None:
+    """Pexels: 후보 10장 중 무작위 1장 URL 반환 (PEXELS_API_KEY 필요)."""
     if not PEXELS_API_KEY:
-        return False
+        return None
     try:
         r = requests.get(
             "https://api.pexels.com/v1/search",
-            params={"query": keyword, "per_page": 1, "orientation": "landscape"},
-            headers={"Authorization": PEXELS_API_KEY},
-            timeout=15
+            params={"query": keyword, "per_page": 10, "orientation": "landscape"},
+            headers={"Authorization": PEXELS_API_KEY}, timeout=15,
         )
         if r.status_code == 200:
             photos = r.json().get("photos", [])
             if photos:
-                img_url = photos[0].get("src", {}).get("large", "")
-                if img_url:
-                    return try_download(img_url, path)
+                return random.choice(photos)["src"]["large2x"]
     except Exception as e:
         print(f"      Pexels 오류: {e}")
-    return False
+    return None
 
 
-def fetch_pixabay(keyword, path):
+def _fetch_pixabay(keyword: str) -> str | None:
+    """Pixabay: 후보 10장 중 무작위 1장 URL 반환 (PIXABAY_API_KEY 필요)."""
     if not PIXABAY_API_KEY:
-        return False
+        return None
     try:
         r = requests.get(
             "https://pixabay.com/api/",
-            params={"key": PIXABAY_API_KEY, "q": keyword,
-                    "image_type": "photo", "orientation": "horizontal", "per_page": 3},
-            timeout=15
+            params={"key": PIXABAY_API_KEY, "q": keyword, "image_type": "photo",
+                    "orientation": "horizontal", "per_page": 10, "safesearch": "true"},
+            timeout=15,
         )
         if r.status_code == 200:
             hits = r.json().get("hits", [])
             if hits:
-                img_url = hits[0].get("webformatURL", "")
-                if img_url:
-                    return try_download(img_url, path)
+                return random.choice(hits)["largeImageURL"]
     except Exception as e:
         print(f"      Pixabay 오류: {e}")
+    return None
+
+
+def _download_single_image(keyword: str, img_path: str, category: str, seed_str: str) -> bool:
+    """소스 우선순위(Unsplash count=10 → Pexels → Pixabay → 풀 → picsum)로 시도.
+    MD5 중복이면 저장하지 않고 다음 소스로 넘어간다."""
+    global _downloaded_hashes
+    keyword_q = quote(keyword)
+    seed = hashlib.md5(keyword.encode()).hexdigest()[:8]
+
+    order: list[str] = []
+    if UNSPLASH_ACCESS_KEY:
+        order.append("unsplash_api")
+    if PEXELS_API_KEY:
+        order.append("pexels")
+    if PIXABAY_API_KEY:
+        order.append("pixabay")
+    order += ["unsplash_pool"] * 8   # 중복 거부 시 다음 후보로
+    order.append("picsum")
+
+    pool_try = 0
+    unsplash_candidates: list[str] = []  # count=10 후보 캐시
+    for source in order:
+        chosen_pid = None
+        try:
+            if source == "unsplash_api":
+                # 후보 10장을 한 번에 받아 MD5 미사용인 것을 고른다
+                if not unsplash_candidates:
+                    r = requests.get(
+                        f"https://api.unsplash.com/photos/random?query={keyword_q}"
+                        f"&orientation=landscape&count=10&client_id={UNSPLASH_ACCESS_KEY}",
+                        timeout=15,
+                    )
+                    if r.status_code != 200:
+                        continue
+                    data = r.json()
+                    if isinstance(data, dict):
+                        data = [data]
+                    unsplash_candidates = [
+                        p.get("urls", {}).get("regular", "") for p in data
+                    ]
+                    unsplash_candidates = [u for u in unsplash_candidates if u]
+                img_url = unsplash_candidates.pop(0) if unsplash_candidates else ""
+                if not img_url:
+                    continue
+                # 아직 후보가 남아있으면 이 소스를 한 번 더 시도할 수 있게 재삽입
+                if unsplash_candidates:
+                    order.insert(order.index(source) + 1, "unsplash_api")
+            elif source == "pexels":
+                img_url = _fetch_pexels(keyword)
+                if not img_url:
+                    continue
+            elif source == "pixabay":
+                img_url = _fetch_pixabay(keyword)
+                if not img_url:
+                    continue
+            elif source == "unsplash_pool":
+                img_url, chosen_pid = _pick_pool_url(category, f"{seed_str}_{pool_try}")
+                pool_try += 1
+            else:
+                img_url = f"https://picsum.photos/seed/{seed}/800/450"
+
+            resp = requests.get(img_url, timeout=30, allow_redirects=True,
+                                headers={"User-Agent": "TheSignalKorea/3.0"})
+            if resp.status_code != 200 or len(resp.content) < 1000:
+                continue
+
+            img_hash = hashlib.md5(resp.content).hexdigest()
+            if img_hash in _downloaded_hashes:
+                print(f"      → 중복 이미지 [{source}] md5={img_hash[:8]}, 다음 소스 시도...")
+                continue
+
+            _downloaded_hashes.add(img_hash)
+            _record_photo_id(chosen_pid)  # 풀 이미지일 때만 사용 날짜 기록
+            with open(img_path, "wb") as f:
+                f.write(resp.content)
+            print(f"      → 이미지 저장: {img_path} [{category}] ({source})")
+            return True
+
+        except Exception as e:
+            print(f"      → 이미지 오류 [{source}]: {e}")
+
     return False
 
 
-def fetch_curated(category, article_idx, path):
-    pool = CURATED_IMAGE_POOL.get(category, CURATED_IMAGE_POOL["글로벌분석"])
-    idx = article_idx % len(pool)
-    return try_download(pool[idx], path)
-
-
-def fetch_picsum(keyword, path):
-    seed = hashlib.md5(keyword.encode()).hexdigest()[:8]
-    url = f"https://picsum.photos/seed/{seed}/800/450"
-    return try_download(url, path, min_size=1000)
-
-
 def download_article_images(articles, date_str):
-    os.makedirs(IMAGES_DIR, exist_ok=True)
+    """각 기사 이미지 다운로드 → images/YYYY-MM-DD_article_N.jpg
+    _used_photo_ids만 run 단위로 초기화, _downloaded_hashes·_photo_id_last_used는
+    image_history.json에서 로드해 날짜 간 재사용을 방지한다."""
+    global _used_photo_ids
+    _used_photo_ids.clear()
+    _load_image_history()
+    _validate_pool()
 
+    os.makedirs(IMAGES_DIR, exist_ok=True)
     for i, article in enumerate(articles):
         keyword  = article.get("image_keyword", "technology industry Korea")
         category = article.get("category", "글로벌분석")
+        seed_str = f"{date_str}_{i}_{article.get('title', '')}"
         img_path = f"{IMAGES_DIR}/{date_str}_article_{i}.jpg"
-        saved    = False
-
         print(f"   이미지 [{i}] 키워드: {keyword}")
-
-        # 1순위: Unsplash API
-        if not saved:
-            saved = fetch_unsplash(keyword, img_path)
-            if saved: print(f"      → Unsplash 저장: {img_path}")
-
-        # 2순위: Pexels API
-        if not saved:
-            saved = fetch_pexels(keyword, img_path)
-            if saved: print(f"      → Pexels 저장: {img_path}")
-
-        # 3순위: Pixabay API
-        if not saved:
-            saved = fetch_pixabay(keyword, img_path)
-            if saved: print(f"      → Pixabay 저장: {img_path}")
-
-        # 4순위: 큐레이션 풀 (카테고리별 고정 URL)
-        if not saved:
-            saved = fetch_curated(category, i, img_path)
-            if saved: print(f"      → 큐레이션 풀 저장: {img_path}")
-
-        # 5순위: picsum (최후 수단)
-        if not saved:
-            saved = fetch_picsum(keyword, img_path)
-            if saved: print(f"      → picsum 저장: {img_path}")
-
-        if saved:
+        if _download_single_image(keyword, img_path, category, seed_str):
             article["image_url"] = img_path
         else:
             article["image_url"] = None
             print(f"      → 이미지 모두 실패 [{keyword}]")
 
+    _save_image_history()
     return articles
 
 
@@ -571,38 +725,61 @@ def main():
     now      = datetime.now(KST)
     date_key = now.strftime("%Y-%m-%d")
     date_str = now.strftime("%Y-%m-%d")
+    now_str  = now.strftime("%Y-%m-%d %H:%M")
 
     print(f"[{now.strftime('%H:%M')}] The Signal Korea 기사 생성 시작 (v2)...")
 
-    print("📡 RSS 뉴스 수집 중...")
-    raw_news = collect_news_from_rss()
-    print(f"   → {len(raw_news)}건 수집됨")
+    try:
+        print("📡 RSS 뉴스 수집 중...")
+        raw_news = collect_news_from_rss()
+        print(f"   → {len(raw_news)}건 수집됨")
 
-    print("📚 최근 기사 제목 로드 (중복 방지)...")
-    recent_titles = get_recent_titles(days=3)
-    print(f"   → {len(recent_titles)}개 제목 로드됨")
+        print("📚 최근 기사 제목 로드 (중복 방지)...")
+        recent_titles = get_recent_titles(days=3)
+        print(f"   → {len(recent_titles)}개 제목 로드됨")
 
-    print("✍️  Claude API로 기사 작성 중...")
-    articles = generate_articles_with_claude(raw_news, recent_titles)
-    brief_count = sum(1 for a in articles if a.get("is_brief"))
-    print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
+        print("✍️  Claude API로 기사 작성 중...")
+        articles = generate_articles_with_claude(raw_news, recent_titles)
+        brief_count = sum(1 for a in articles if a.get("is_brief"))
+        print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
 
-    print("🔍 생성된 기사 중복 검사 중...")
-    articles = deduplicate_articles(articles)
+        print("🔍 생성된 기사 중복 검사 중...")
+        articles = deduplicate_articles(articles)
 
-    # 카테고리 분포 확인
-    from collections import Counter
-    cat_dist = Counter(a["category"] for a in articles)
-    print(f"   → 카테고리 분포: {dict(cat_dist)}")
+        # 카테고리 분포 확인
+        from collections import Counter
+        cat_dist = Counter(a["category"] for a in articles)
+        print(f"   → 카테고리 분포: {dict(cat_dist)}")
 
-    print("🖼️  기사 이미지 다운로드 중...")
-    articles = download_article_images(articles, date_str)
+        print("🖼️  기사 이미지 다운로드 중...")
+        articles = download_article_images(articles, date_str)
 
-    print("📰 편집장 브리핑 + 핵심 시그널 생성 중...")
-    briefing, signals = generate_editorial(articles)
+        print("📰 편집장 브리핑 + 핵심 시그널 생성 중...")
+        briefing, signals = generate_editorial(articles)
 
-    save_data(articles, briefing, signals, date_str, date_key)
-    print("🎉 완료!")
+        save_data(articles, briefing, signals, date_str, date_key)
+        print("🎉 완료!")
+
+        # 텔레그램 완료 알림
+        cat_dist_str = ", ".join(f"{k}:{v}건" for k, v in cat_dist.items())
+        title_list = "\n".join(
+            f"  {i+1}. [{a.get('category','')}] {a.get('title','')}"
+            for i, a in enumerate(articles)
+        )
+        tg_msg = (
+            f"✅ <b>더 시그널 코리아 기사 생성 완료</b>\n"
+            f"{now_str}\n\n"
+            f"기사 {len(articles)}건 생성 (속보형 {brief_count}건):\n{title_list}\n\n"
+            f"카테고리: {cat_dist_str}\n"
+            f"📋 브리핑: {briefing[:80]}{'...' if len(briefing) > 80 else ''}"
+        )
+        send_telegram(tg_msg)
+
+    except Exception as e:
+        error_msg = f"❌ <b>더 시그널 코리아 기사 생성 오류</b>\n{now_str}\n\n{type(e).__name__}: {e}"
+        print(error_msg)
+        send_telegram(error_msg)
+        raise
 
 
 if __name__ == "__main__":

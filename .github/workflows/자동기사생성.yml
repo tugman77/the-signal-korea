@@ -44,6 +44,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles.json archive/ images/ scripts/ || true
+          git add articles.json archive/ images/ scripts/ image_history.json || true
           git diff --cached --quiet || git commit -m "🔔 $(date +'%Y-%m-%d') 시그널 기사 자동 생성"
           git push
