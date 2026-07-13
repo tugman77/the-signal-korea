@@ -168,19 +168,26 @@
   .footer-links a:hover { color: var(--accent); }
 
   @media (max-width: 768px) {
-    .page-wrap { grid-template-columns: 1fr; }
-    .art-header { padding: 24px 20px 0; }
-    .art-summary-box { margin: 0 20px; }
-    .five-frame { padding: 0 20px 32px; }
-    .coupang-inline { margin: 20px 0; }
-    .art-footer { padding: 16px 20px 28px; }
-    .art-title { font-size: 22px; }
-    .frame-body p { font-size: 16px; }
-    .art-hero { height: 220px; }
+    .page-wrap { grid-template-columns: 1fr; padding: 16px 12px 40px; }
+    .art-header { padding: 20px 16px 0; }
+    .art-summary-box { margin: 0 16px; }
+    .five-frame { padding: 0 16px 28px; }
+    .coupang-inline { margin: 16px 0; }
+    .art-footer { padding: 16px 16px 28px; }
+    .art-title { font-size: 20px; word-break: keep-all; overflow-wrap: anywhere; }
+    .frame-body p { font-size: 15px; }
+    .art-hero { height: 200px; width: 100%; max-width: 100%; }
     .header-right { display: none; }
-    nav { overflow-x: auto; }
-    .nav-inner { width: 100%; }
-    .bc-current { max-width: 200px; }
+    /* 네비 탭 — 가로 스크롤, 잘림 방지 */
+    nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+    nav::-webkit-scrollbar { display: none; }
+    .nav-inner { width: max-content; min-width: 100%; }
+    .bc-current { max-width: 160px; }
+    /* 기사 영역 — 콘텐츠 넘침 방지 */
+    .article-area { overflow: hidden; max-width: 100%; }
+    .art-top-meta { flex-wrap: wrap; gap: 6px; }
+    .logo-en { font-size: 22px; letter-spacing: 2px; }
+    .logo-kr { font-size: 10px; }
   }
 </style>
 </head>
