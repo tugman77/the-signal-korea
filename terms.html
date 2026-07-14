@@ -162,7 +162,7 @@
 
   <div class="policy-section">
     <h2>제7조 (문의)</h2>
-    <p>본 약관에 관한 문의는 <a href="mailto:contact@thesignalkorea.com" style="color:var(--accent2);">contact@thesignalkorea.com</a>으로 연락해 주시기 바랍니다.</p>
+    <p>본 약관에 관한 문의는 <a href="#" onclick="openContactModal('기타');return false;" style="color:var(--accent2);">문의하기</a>를 통해 연락해 주시기 바랍니다.</p>
   </div>
 
 </div>
@@ -173,7 +173,7 @@
       <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
       <div class="footer-info">
         한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
-        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+        발행인: 대표 | 편집국 | 문의: <a href="#" onclick="openContactModal();return false;" style="color:rgba(255,255,255,.6);text-decoration:underline;">문의하기</a>
       </div>
     </div>
     <div>
@@ -194,5 +194,6 @@ const days = ['일','월','화','수','목','금','토'];
 document.getElementById('today-date').textContent =
   `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
 </script>
+<script src="contact-modal.js"></script>
 </body>
 </html>
