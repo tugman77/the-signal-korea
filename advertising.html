@@ -71,19 +71,20 @@
   .ad-table tr:last-child td { border-bottom: none; }
   .ad-table tr:hover td { background: #f8f9fb; }
 
-  /* ── 독자 통계 ── */
-  .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 20px; }
-  .stat-item { background: var(--bg); border: 1px solid var(--border); padding: 20px; text-align: center; }
-  .stat-num { font-size: 28px; font-weight: 900; color: var(--accent); }
-  .stat-label { font-size: 12px; color: var(--text-light); margin-top: 4px; }
-  .stat-desc { font-size: 11px; color: var(--text-light); margin-top: 2px; }
+  /* ── 독자 리스트 ── */
+  .box-text ul { margin: 6px 0 14px; padding-left: 18px; }
+  .box-text li { font-size: 14px; color: var(--text-muted); line-height: 1.9; margin-bottom: 6px; }
+  .box-text li strong { color: var(--text); }
+  .price-note { font-size: 12px; color: var(--text-light); margin-top: 12px; line-height: 1.7; }
+  .ad-table td .price { color: var(--text); font-weight: 700; }
+  .ad-table td .price-soon { color: var(--text-light); }
 
   /* ── 문의 박스 ── */
   .contact-box { background: var(--primary); padding: 32px 40px; margin-top: 20px; }
   .contact-label { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: 2px; margin-bottom: 12px; }
   .contact-title { font-size: 20px; font-weight: 900; color: #fff; margin-bottom: 8px; }
-  .contact-sub { font-size: 13px; color: rgba(255,255,255,0.55); margin-bottom: 20px; }
-  .contact-email { display: inline-block; padding: 12px 28px; background: var(--accent); color: var(--primary); font-size: 14px; font-weight: 700; cursor: pointer; }
+  .contact-sub { font-size: 13px; color: rgba(255,255,255,0.55); margin-bottom: 20px; line-height: 1.7; }
+  .contact-email { display: inline-block; padding: 12px 28px; background: var(--accent); color: var(--primary); font-size: 14px; font-weight: 700; cursor: pointer; border: none; font-family: inherit; }
   .contact-email:hover { opacity: 0.85; }
 
   footer { background: var(--primary); color: rgba(255,255,255,0.4); font-size: 12px; padding: 28px 16px; margin-top: 40px; border-top: 3px solid var(--accent); }
@@ -100,8 +101,9 @@
     .page-hero { padding: 28px 20px; }
     .hero-title { font-size: 22px; }
     .content-box { padding: 24px 20px; }
-    .stat-grid { grid-template-columns: 1fr; }
     .contact-box { padding: 24px 20px; }
+    .ad-table { font-size: 12px; }
+    .ad-table th, .ad-table td { padding: 9px 10px; }
   }
 </style>
 </head>
@@ -162,23 +164,15 @@
   </div>
 
   <div class="content-box">
-    <div class="box-title">독자 프로파일</div>
-    <div class="stat-grid">
-      <div class="stat-item">
-        <div class="stat-num">68%</div>
-        <div class="stat-label">40~50대 비중</div>
-        <div class="stat-desc">고소득 의사결정자</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">84%</div>
-        <div class="stat-label">주식 투자자</div>
-        <div class="stat-desc">소재·반도체·공급망 관련주 관심</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-num">매일</div>
-        <div class="stat-label">KST 09:00 업데이트</div>
-        <div class="stat-desc">정기 방문 독자 비중 높음</div>
-      </div>
+    <div class="box-title">타깃 독자 · 편집 지향</div>
+    <div class="box-text">
+      <p>THE SIGNAL KOREA는 <strong>글로벌 기술·산업 패권 이슈를 한국 산업·투자 관점으로 해석</strong>하는 인텔리전스 미디어입니다. 다음 독자를 위해 만듭니다.</p>
+      <ul>
+        <li><strong>개인 투자자</strong> — 공급망·소재·반도체 관련주의 흐름과 근거를 추적하는 독자</li>
+        <li><strong>산업 실무자</strong> — 소재 조달·구매·기획 등 현장 의사결정에 참고할 정보가 필요한 독자</li>
+        <li><strong>정책·투자 관계자</strong> — 미·중 패권과 공급망 규제가 산업에 미치는 파급을 살피는 독자</li>
+      </ul>
+      <p>모든 기사는 <strong>FACT → MEANING → WINNER → LOSER → ACTION</strong> 5단계 인텔리전스 프레임으로, "이 뉴스가 내 계좌·내 산업에 무슨 의미인가"에 답합니다. 매일 오전 발행됩니다.</p>
     </div>
   </div>
 
@@ -188,38 +182,41 @@
       <thead>
         <tr>
           <th>상품</th>
-          <th>위치</th>
-          <th>사이즈</th>
+          <th>위치 / 사이즈</th>
+          <th>요금 (도입 특가)</th>
           <th>비고</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>메인 배너</strong></td>
-          <td>index.html 상단 / 사이드바</td>
-          <td>300×250 / 728×90</td>
-          <td>최대 노출</td>
+          <td><strong>사이드바 배너</strong></td>
+          <td>홈·기사 사이드바 / 300×250</td>
+          <td><span class="price">월 30만원</span></td>
+          <td>전 페이지 노출</td>
         </tr>
         <tr>
-          <td><strong>기사 본문 내 배너</strong></td>
-          <td>article.html 본문 중간</td>
-          <td>680×140 / 728×90</td>
+          <td><strong>기사 본문 배너</strong></td>
+          <td>기사 본문 중간 / 728×90 · 680×140</td>
+          <td><span class="price">월 20만원</span></td>
           <td>고관여 독자 대상</td>
         </tr>
         <tr>
           <td><strong>스폰서드 콘텐츠</strong></td>
-          <td>카테고리 섹션 내</td>
-          <td>네이티브 카드</td>
-          <td>협의 후 집행</td>
+          <td>카테고리 섹션 · 네이티브 카드</td>
+          <td><span class="price">건당 50만원</span></td>
+          <td>기획·집필 협의</td>
         </tr>
         <tr>
           <td><strong>뉴스레터 광고</strong></td>
-          <td>일일 브리핑 메일</td>
-          <td>텍스트+이미지</td>
-          <td>준비 중</td>
+          <td>일일 브리핑 메일 / 텍스트+이미지</td>
+          <td><span class="price-soon">준비 중</span></td>
+          <td>오픈 시 안내</td>
         </tr>
       </tbody>
     </table>
+    <div class="price-note">
+      ※ 상기 금액은 <strong>런칭 도입 특가</strong>이며 월 단위·VAT 별도입니다. 기간·물량에 따라 협의 가능하며, 집행 여부와 소재는 광고 정책 검토 후 확정됩니다.
+    </div>
   </div>
 
   <div class="content-box">
@@ -227,17 +224,15 @@
     <div class="box-text">
       <p>THE SIGNAL KOREA는 <strong>편집 독립성</strong>을 최우선으로 합니다. 광고주의 요청으로 기사 내용이나 논조가 변경되지 않습니다.</p>
       <p>산업·금융·B2B 서비스 분야 광고를 우대합니다. 주식 리딩방, 도박, 성인 콘텐츠 등 독자에게 해가 될 수 있는 광고는 집행하지 않습니다.</p>
-      <p>현재 사이드바 및 기사 본문에는 <strong>쿠팡 파트너스</strong> 광고가 집행 중입니다. 별도 광고 문의는 이메일로 연락 주시기 바랍니다.</p>
+      <p>현재 사이드바 및 기사 본문에는 <strong>쿠팡 파트너스</strong> 광고가 집행 중입니다. 배너·스폰서드 등 별도 광고는 아래 <strong>문의하기</strong>로 연락 주시기 바랍니다.</p>
     </div>
   </div>
 
   <div class="contact-box">
     <div class="contact-label">CONTACT</div>
     <div class="contact-title">광고 문의</div>
-    <div class="contact-sub">담당자 연결까지 보통 1~2 영업일이 소요됩니다.</div>
-    <a class="contact-email" href="mailto:contact@thesignalkorea.com?subject=광고문의">
-      contact@thesignalkorea.com 으로 문의하기
-    </a>
+    <div class="contact-sub">아래 양식을 작성해 주시면 담당자가 확인 후 연락드립니다. (보통 1~2 영업일)</div>
+    <button class="contact-email" onclick="openContactModal('광고 문의')">문의하기 →</button>
   </div>
 
 </div>
@@ -248,7 +243,7 @@
       <div class="footer-logo">THE <span>SIGNAL</span> KOREA</div>
       <div class="footer-info">
         한국 산업 인텔리전스 · 기술패권 · 공급망전쟁 · 산업전략<br>
-        발행인: 대표 | 편집국 | 문의: contact@thesignalkorea.com
+        발행인: 대표 | 편집국 | 광고문의: <a href="#" onclick="openContactModal('광고 문의');return false;" style="color:rgba(255,255,255,.6);text-decoration:underline;">문의하기</a>
       </div>
     </div>
     <div>
@@ -269,5 +264,6 @@ const days = ['일','월','화','수','목','금','토'];
 document.getElementById('today-date').textContent =
   `${d.getFullYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${days[d.getDay()]}요일`;
 </script>
+<script src="contact-modal.js"></script>
 </body>
 </html>

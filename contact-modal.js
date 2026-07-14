@@ -1,0 +1,114 @@
+// 더 시그널 코리아 문의 모달 — 이메일로 전송 (공개 정적 사이트에는 토큰을 두지 않는다)
+(function () {
+  const CONTACT_EMAIL = 'contact@thesignalkorea.com';
+
+  /* ── CSS (네이비·골드 톤) ── */
+  const s = document.createElement('style');
+  s.textContent = `
+    #cm-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9999;align-items:center;justify-content:center;padding:16px}
+    #cm-overlay.open{display:flex}
+    #cm-box{background:#fff;width:100%;max-width:460px;border-top:4px solid #e8a000;padding:28px 28px 22px;position:relative;max-height:90vh;overflow-y:auto;box-sizing:border-box}
+    #cm-close{position:absolute;top:13px;right:16px;background:none;border:none;font-size:20px;cursor:pointer;color:#aaa;line-height:1}
+    #cm-close:hover{color:#333}
+    #cm-title{font-size:17px;font-weight:900;color:#0a0f1e;margin-bottom:20px}
+    .cm-row{margin-bottom:13px}
+    .cm-row label{display:block;font-size:12px;font-weight:700;color:#555;margin-bottom:5px;letter-spacing:.3px}
+    .cm-row input,.cm-row select,.cm-row textarea{width:100%;border:1px solid #d8dde4;padding:9px 11px;font-size:14px;font-family:inherit;outline:none;box-sizing:border-box;border-radius:0;background:#fff}
+    .cm-row input:focus,.cm-row select:focus,.cm-row textarea:focus{border-color:#0a0f1e}
+    .cm-row textarea{resize:vertical;min-height:110px}
+    .cm-opt{font-size:11px;color:#aaa;font-weight:400}
+    #cm-btn{background:#0a0f1e;color:#e8a000;border:none;width:100%;padding:12px;font-size:14px;font-weight:700;cursor:pointer;margin-top:4px;letter-spacing:.3px}
+    #cm-btn:hover{background:#e8a000;color:#0a0f1e}
+    #cm-btn:disabled{background:#bbb;cursor:not-allowed}
+    #cm-feedback{font-size:13px;text-align:center;min-height:18px;margin-top:10px}
+    #cm-feedback.ok{color:#15803d}
+    #cm-feedback.err{color:#b91c1c}
+  `;
+  document.head.appendChild(s);
+
+  /* ── HTML ── */
+  const wrap = document.createElement('div');
+  wrap.id = 'cm-overlay';
+  wrap.innerHTML = `
+    <div id="cm-box">
+      <button id="cm-close" onclick="closeContactModal()" aria-label="닫기">✕</button>
+      <div id="cm-title">문의하기</div>
+      <div class="cm-row">
+        <label>문의 유형</label>
+        <select id="cm-type">
+          <option>광고 문의</option>
+          <option>제휴 · 콘텐츠 제안</option>
+          <option>기사 제보</option>
+          <option>오류 신고</option>
+          <option>기타</option>
+        </select>
+      </div>
+      <div class="cm-row">
+        <label>이름 / 회사 <span class="cm-opt">(선택)</span></label>
+        <input id="cm-name" type="text" placeholder="홍길동 / OO주식회사" autocomplete="name">
+      </div>
+      <div class="cm-row">
+        <label>연락처 <span class="cm-opt">(이메일 또는 전화번호, 선택)</span></label>
+        <input id="cm-contact" type="text" placeholder="답변 받으실 이메일 또는 전화번호">
+      </div>
+      <div class="cm-row">
+        <label>문의 내용 <span style="color:#b91c1c">*</span></label>
+        <textarea id="cm-body" placeholder="문의 내용을 자유롭게 입력해 주세요."></textarea>
+      </div>
+      <button id="cm-btn" onclick="submitContact()">보내기</button>
+      <div id="cm-feedback"></div>
+    </div>
+  `;
+  document.body.appendChild(wrap);
+
+  wrap.addEventListener('click', function (e) {
+    if (e.target === wrap) closeContactModal();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeContactModal();
+  });
+
+  /* ── 공개 API ── */
+  window.openContactModal = function (type) {
+    wrap.classList.add('open');
+    if (type) {
+      const sel = document.getElementById('cm-type');
+      for (let i = 0; i < sel.options.length; i++) {
+        if (sel.options[i].value === type) { sel.selectedIndex = i; break; }
+      }
+    }
+    document.getElementById('cm-feedback').textContent = '';
+    document.getElementById('cm-body').focus();
+  };
+
+  window.closeContactModal = function () {
+    wrap.classList.remove('open');
+  };
+
+  window.submitContact = function () {
+    const type    = document.getElementById('cm-type').value;
+    const name    = document.getElementById('cm-name').value.trim();
+    const contact = document.getElementById('cm-contact').value.trim();
+    const body    = document.getElementById('cm-body').value.trim();
+    const fb      = document.getElementById('cm-feedback');
+
+    fb.className = '';
+    if (!body) { fb.className = 'err'; fb.textContent = '문의 내용을 입력해 주세요.'; return; }
+
+    const lines = [
+      `유형: ${type}`,
+      name    ? `이름/회사: ${name}` : '',
+      contact ? `연락처: ${contact}` : '',
+      '',
+      body,
+    ].filter((l, i) => i < 3 || l !== '').join('\n');
+
+    const subject = `[더 시그널 코리아 문의] ${type}`;
+    window.location.href =
+      `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines)}`;
+
+    fb.className = 'ok';
+    fb.textContent = '메일 앱이 열립니다. 전송 버튼을 눌러 주세요.';
+    setTimeout(closeContactModal, 2500);
+  };
+})();
