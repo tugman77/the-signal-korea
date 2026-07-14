@@ -1,6 +1,6 @@
 // 더 시그널 코리아 문의 모달 — 이메일로 전송 (공개 정적 사이트에는 토큰을 두지 않는다)
 (function () {
-  const CONTACT_EMAIL = 'contact@thesignalkorea.com';
+  const CONTACT_EMAIL = 'tugman77@gmail.com'; // 도메인 메일(contact@thesignalkorea.com) 개통 시 교체
 
   /* ── CSS (네이비·골드 톤) ── */
   const s = document.createElement('style');
