@@ -251,11 +251,6 @@
     </div>
 
     <div class="sb-box">
-      <div class="sb-title">날짜별 아카이브</div>
-      <div id="archive-list"><div style="color:#aaa;font-size:13px;">불러오는 중...</div></div>
-    </div>
-
-    <div class="sb-box">
       <div class="sb-title">오늘의 시그널 키워드</div>
       <div id="keyword-list" style="display:flex;flex-wrap:wrap;gap:7px;margin-top:4px;">
         <span class="keyword-tag" style="background:#fee2e2;color:#b91c1c;">#기술패권</span>
@@ -337,8 +332,14 @@
   </div>`;
 
   // ── 상태 ──
-  let currentDate = null;    // null = 오늘, string = 아카이브 날짜
-  let recentExtra = [];      // [{article, dateKey, idx}] — 최근 2일 아카이브에서 추가로 불러온 기사
+  let currentDate = null;    // null = 오늘 (메인은 항상 오늘 기준)
+  let recentExtra = [];      // [{article, dateKey, idx}] — 아카이브에서 backfill용으로 불러온 기사
+  const SECTION_TARGET = 4;  // 카테고리 섹션당 채울 기사 수 (오늘+이전 기사 backfill)
+  const SECTION_GROUPS = [   // [표시명, [해당 카테고리들]]
+    ['공급망전쟁', ['공급망전쟁']],
+    ['기술패권', ['기술패권']],
+    ['산업전략 · 글로벌분석', ['산업전략', '글로벌분석']],
+  ];
 
   function articleLink(idx, dateKey) {
     return dateKey ? `article.html?date=${dateKey}&id=${idx}` : `article.html?id=${idx}`;
@@ -391,25 +392,46 @@
     return heroIndices;
   }
 
-  // ── 섹션 빌더 (seenTitles로 섹션 간 중복 방지) ──
-  function buildSection(title, articles, allArticles, dateKey, seenTitles) {
-    const filtered = articles.filter(a => !seenTitles.has(a.title));
-    if (!filtered.length) return '';
-    filtered.forEach(a => seenTitles.add(a.title));
+  // ── 카테고리 그룹별 사용 가능 기사 수 (backfill 판단용) ──
+  function availByCats(cats, todayArticles, heroIndices) {
+    const seen = new Set(); let n = 0;
+    todayArticles.forEach((a, i) => {
+      if (heroIndices.has(i)) return;
+      if (cats.includes(a.category) && !seen.has(a.title)) { seen.add(a.title); n++; }
+    });
+    recentExtra.forEach(e => {
+      if (cats.includes(e.article.category) && !seen.has(e.article.title)) { seen.add(e.article.title); n++; }
+    });
+    return n;
+  }
+  function groupsFilled(todayArticles, heroIndices, target) {
+    return SECTION_GROUPS.every(([, cats]) => availByCats(cats, todayArticles, heroIndices) >= target);
+  }
+
+  // ── 섹션 빌더 (items: [{article, dateKey, idx}], seenTitles로 중복 방지) ──
+  function buildSection(title, items, seenTitles, target) {
+    const picked = [];
+    for (const it of items) {
+      const t = it.article.title;
+      if (seenTitles.has(t)) continue;
+      seenTitles.add(t);
+      picked.push(it);
+      if (picked.length >= target) break;
+    }
+    if (!picked.length) return '';
 
     let html = `<div class="category-section"><div class="section-label">${title}</div><div class="article-list">`;
-    filtered.forEach((a, i) => {
-      const cv = getCat(a);
-      const idx = allArticles.indexOf(a);
+    picked.forEach((it, i) => {
+      const a = it.article, cv = getCat(a);
       const rightCol = a.image_url
         ? `<img class="article-thumb" src="${a.image_url}" alt="" onerror="this.style.display='none'">`
         : `<div class="article-num">${String(i+1).padStart(2,'0')}</div>`;
-      html += `<div class="article-item" onclick="location.href='${articleLink(idx, dateKey)}'">
+      html += `<div class="article-item" onclick="location.href='${articleLink(it.idx, it.dateKey)}'">
         <div>
           <span class="cat-tag ${cv.cls}">${a.category}</span>
           <h4>${a.title}</h4>
           <div class="summary">${a.summary}</div>
-          <div class="meta">${fmtDateKey(dateKey)} ${a.timestamp||''}</div>
+          <div class="meta">${fmtDateKey(it.dateKey)} ${a.timestamp||''}</div>
         </div>
         ${rightCol}
       </div>`;
@@ -417,42 +439,23 @@
     return html + `</div></div>`;
   }
 
-  // ── 기사 섹션 렌더 (공급망전쟁 최우선) ──
-  function renderArticleSections(articles, dateKey, heroIndices) {
+  // ── 기사 섹션 렌더 (오늘 + 이전 기사 backfill, 공급망전쟁 최우선) ──
+  function renderArticleSections(todayArticles, dateKey, heroIndices) {
     const seenTitles = new Set();
-    // 히어로에 들어간 기사 제목 먼저 등록
-    heroIndices.forEach(i => { if (articles[i]) seenTitles.add(articles[i].title); });
+    // 히어로에 들어간 기사 제목 먼저 등록 (섹션 재노출 방지)
+    heroIndices.forEach(i => { if (todayArticles[i]) seenTitles.add(todayArticles[i].title); });
 
-    // 공급망전쟁 섹션 최우선
-    let html = buildSection('공급망전쟁', articles.filter(a => a.category === '공급망전쟁'), articles, dateKey, seenTitles);
-    html += buildSection('기술패권', articles.filter(a => a.category === '기술패권'), articles, dateKey, seenTitles);
-    html += buildSection('산업전략 · 글로벌분석', articles.filter(a => ['산업전략','글로벌분석'].includes(a.category)), articles, dateKey, seenTitles);
-    html += buildSection('더 보기', articles.filter(a => !['공급망전쟁','기술패권','산업전략','글로벌분석'].includes(a.category)), articles, dateKey, seenTitles);
+    // 오늘 기사(dateKey=null) + 아카이브 backfill 기사 통합 풀
+    const pool = todayArticles.map((a, i) => ({ article: a, dateKey: null, idx: i }))
+      .concat(dateKey ? [] : recentExtra);
 
-    // 최근 2일 아카이브 추가 기사 (sectionShownTitles로 메인과 중복 방지)
-    if (recentExtra.length && !currentDate) {
-      const extraSeen = new Set([...seenTitles]);
-      const extraFiltered = recentExtra.filter(e => !extraSeen.has(e.article.title));
-      if (extraFiltered.length) {
-        html += `<div class="category-section"><div class="section-label">최근 기사</div><div class="article-list">`;
-        extraFiltered.slice(0, 6).forEach((e, i) => {
-          const cv = getCat(e.article);
-          const rightCol = e.article.image_url
-            ? `<img class="article-thumb" src="${e.article.image_url}" alt="" onerror="this.style.display='none'">`
-            : `<div class="article-num">${String(i+1).padStart(2,'0')}</div>`;
-          html += `<div class="article-item" onclick="location.href='${articleLink(e.idx, e.dateKey)}'">
-            <div>
-              <span class="cat-tag ${cv.cls}">${e.article.category}</span>
-              <h4>${e.article.title}</h4>
-              <div class="summary">${e.article.summary}</div>
-              <div class="meta">${fmtDateKey(e.dateKey)} ${e.article.timestamp||''}</div>
-            </div>
-            ${rightCol}
-          </div>`;
-        });
-        html += `</div></div>`;
-      }
-    }
+    const KNOWN = ['공급망전쟁', '기술패권', '산업전략', '글로벌분석'];
+    let html = '';
+    SECTION_GROUPS.forEach(([label, cats]) => {
+      html += buildSection(label, pool.filter(it => cats.includes(it.article.category)), seenTitles, SECTION_TARGET);
+    });
+    // 알려진 4개 외 카테고리
+    html += buildSection('더 보기', pool.filter(it => !KNOWN.includes(it.article.category)), seenTitles, SECTION_TARGET);
 
     document.getElementById('article-sections').innerHTML = html;
   }
@@ -499,10 +502,12 @@
       .map(a => { const cv = getCat(a); return `<span class="keyword-tag" style="background:${cv.bg};color:${cv.color};">#${a.category}</span>`; }).join('');
   }
 
-  function applyData(data, dateKey) {
+  async function applyData(data, dateKey) {
     if (!data.articles || !data.articles.length) return;
     document.getElementById('signal-text').textContent = data.articles.map(a => a.title).join('  ·  ');
     const heroIndices = renderTopNews(data.articles, dateKey);
+    // 카테고리 섹션이 SECTION_TARGET개씩 찰 때까지 이전 기사 backfill
+    await backfillArchives(data.articles, heroIndices);
     renderArticleSections(data.articles, dateKey, heroIndices);
     renderRanking(data.articles, dateKey);
     renderKeywords(data.articles);
@@ -514,84 +519,36 @@
     }
   }
 
-  // ── 최근 2일 아카이브 자동 로드 ──
-  async function loadRecentArchives(excludeToday) {
+  // ── 아카이브 backfill (각 카테고리 그룹이 찰 때까지 이전 기사 로드, 최대 10일) ──
+  async function backfillArchives(todayArticles, heroIndices) {
+    let dates = [];
     try {
       const res = await fetch('archive/index.json');
-      if (!res.ok) return;
-      const idx = await res.json();
-      const dates = (idx.dates || []).filter(dk => dk !== excludeToday).slice(0, 2);
-      for (const dk of dates) {
-        try {
-          const r = await fetch(`archive/${dk}.json`);
-          if (!r.ok) continue;
-          const data = await r.json();
-          (data.articles || []).forEach((a, i) => recentExtra.push({ article: a, dateKey: dk, idx: i }));
-        } catch(e) {}
-      }
-    } catch(e) {}
+      if (res.ok) dates = (await res.json()).dates || [];
+    } catch(e) { return; }
+    for (let i = 0; i < dates.length && i < 10; i++) {
+      if (groupsFilled(todayArticles, heroIndices, SECTION_TARGET)) break;
+      try {
+        const r = await fetch(`archive/${dates[i]}.json`);
+        if (!r.ok) continue;
+        const data = await r.json();
+        (data.articles || []).forEach((a, idx) => {
+          // 오늘 기사와 제목이 겹치면 스킵 (아카이브에 오늘분 포함 대비)
+          if (!todayArticles.some(t => t.title === a.title))
+            recentExtra.push({ article: a, dateKey: dates[i], idx });
+        });
+      } catch(e) {}
+    }
   }
 
   async function loadArticles() {
     try {
       const res = await fetch('articles.json');
-      if (!res.ok) { loadArchiveIndex(); return; }
-      const data = await res.json();
-      if (!data.articles || !data.articles.length) { loadArchiveIndex(); return; }
-
-      // 최근 2일 아카이브 병렬 로드
-      const todayKey = data.date_str ? '' : '';
-      await loadRecentArchives('');
-
-      applyData(data, null);
-    } catch (e) { console.log('articles.json 로드 실패:', e.message); }
-    loadArchiveIndex();
-  }
-
-  async function loadArchiveIndex() {
-    try {
-      const res = await fetch('archive/index.json');
-      if (!res.ok) { renderArchiveList([]); return; }
-      const data = await res.json();
-      renderArchiveList(data.dates || []);
-    } catch(e) { renderArchiveList([]); }
-  }
-
-  function renderArchiveList(dates) {
-    const el = document.getElementById('archive-list');
-    if (!el) return;
-    if (!dates.length) { el.innerHTML = '<div style="color:#aaa;font-size:13px;">아카이브 없음</div>'; return; }
-    const todayCls = !currentDate ? 'active' : '';
-    let html = `<div class="archive-item ${todayCls}" onclick="goToday()">오늘 기사</div>`;
-    html += dates.slice(0,14).map(dk => {
-      const [y, m, day] = dk.split('-');
-      const label = `${parseInt(m)}월 ${parseInt(day)}일`;
-      const cls = dk === currentDate ? 'active' : '';
-      return `<div class="archive-item ${cls}" onclick="loadArchive('${dk}')">${label}</div>`;
-    }).join('');
-    el.innerHTML = html;
-  }
-
-  async function goToday() {
-    currentDate = null;
-    recentExtra = [];
-    await loadArticles();
-  }
-
-  async function loadArchive(dateKey) {
-    currentDate = dateKey;
-    recentExtra = [];
-    try {
-      const res = await fetch('archive/' + dateKey + '.json');
-      if (!res.ok) { alert('해당 날짜 기사를 불러올 수 없습니다.'); return; }
+      if (!res.ok) return;
       const data = await res.json();
       if (!data.articles || !data.articles.length) return;
-      applyData(data, dateKey);
-      const sLabel = document.querySelector('.section-label');
-      if (sLabel) sLabel.textContent = (data.date_str || dateKey) + ' INTELLIGENCE';
-      loadArchiveIndex();
-      window.scrollTo(0, 0);
-    } catch(e) { console.log('아카이브 로드 실패:', e); }
+      await applyData(data, null);
+    } catch (e) { console.log('articles.json 로드 실패:', e.message); }
   }
 
   // ── 사이드바 검색 ──
