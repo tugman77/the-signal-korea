@@ -169,14 +169,18 @@
 
   @media (max-width: 768px) {
     .page-wrap { grid-template-columns: 1fr; padding: 16px 12px 40px; }
-    .art-header { padding: 20px 16px 0; }
-    .art-summary-box { margin: 0 16px; }
-    .five-frame { padding: 0 16px 28px; }
+    .art-header { padding: 22px 18px 0; }
+    /* 본문 가독성 — 요약/본문 폰트·행간 키움 */
+    .art-summary-box { margin: 0 18px; font-size: 15.5px; line-height: 1.75; padding: 14px 16px; }
+    .five-frame { padding: 0 18px 28px; }
+    .frame-body { padding: 16px 0 0; }
+    .frame-body p { font-size: 16.5px; line-height: 1.9; color: #374151; margin-bottom: 18px; }
+    .frame-step-label { font-size: 15px; letter-spacing: 2px; }
     .coupang-inline { margin: 16px 0; }
-    .art-footer { padding: 16px 16px 28px; }
-    .art-title { font-size: 20px; word-break: keep-all; overflow-wrap: anywhere; }
-    .frame-body p { font-size: 15px; }
-    .art-hero { height: 200px; width: 100%; max-width: 100%; }
+    .art-footer { padding: 16px 18px 28px; }
+    .art-title { font-size: 22px; line-height: 1.4; word-break: keep-all; overflow-wrap: anywhere; }
+    .art-byline { font-size: 12.5px; }
+    .art-hero { height: 210px; width: 100%; max-width: 100%; }
     .header-right { display: none; }
     /* 네비 탭 — 가로 스크롤, 잘림 방지 */
     nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
