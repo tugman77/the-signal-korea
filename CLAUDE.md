@@ -243,6 +243,23 @@ python 기사검수.py --date 2026-07-03
 **보고**: 소재타임스식 텔레그램 보고 — 기사별 상태 이모지·신뢰도·의심주장·이미지 키워드 수정·자동 조치 요약 (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` 필요)
 **로그**: `scripts/review.log`
 
+### 텔레그램 보고 문제해결 (2026-07-15)
+
+`send_telegram()`은 실패 시 HTTP 상태코드뿐 아니라 텔레그램 응답의 `description`까지 로그에 남긴다 → `scripts/review.log`에서 정확한 사유 확인 가능.
+
+| 증상 | 원인 | 조치 |
+|------|------|------|
+| `403 Forbidden` | 봇이 해당 대화에 메시지 권한 없음 | 텔레그램에서 봇에게 `/start` 누르기(1:1) 또는 그룹에 봇 초대 |
+| `400 Bad Request: chat not found` | `TELEGRAM_CHAT_ID` 값이 틀림(오타·공백, 그룹인데 `-100` 접두어 누락) | 아래 getUpdates로 실제 chat_id 확인 후 Secret 재등록 |
+| `400 Bad Request: can't parse entities` | HTML 파싱 오류(태그 불일치) | 메시지 본문 특수문자 이스케이프 확인 |
+
+**정확한 chat_id 찾기 (워크플로 재실행 불필요, 로컬):** 봇에게 아무 메시지나 보낸 뒤
+```bash
+curl -s "https://api.telegram.org/bot<BOT_TOKEN>/getMe"      # 토큰 유효성·봇 username 확인
+curl -s "https://api.telegram.org/bot<BOT_TOKEN>/getUpdates" # result[].message.chat.id 가 실제 chat_id
+```
+`getUpdates`에 나온 `chat.id`를 `TELEGRAM_CHAT_ID` Secret에 넣으면 해결. (봇 토큰은 `read -s`로 입력받아 노출 금지)
+
 ---
 
 ## 로컬 실행
@@ -266,7 +283,7 @@ python 기사검수.py                  # 검수
 - [x] `ANTHROPIC_API_KEY` Secret 등록
 - [ ] `UNSPLASH_ACCESS_KEY` Secret 등록 (선택)
 - [ ] `PEXELS_API_KEY` Secret 등록 (선택)
-- [ ] `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` Secret 등록 (선택)
+- [x] `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` Secret 등록 완료 (전송 실패 시 위 "텔레그램 보고 문제해결"로 chat_id 확인)
 - [x] **GitHub Pages 활성화** (Settings → Pages → main / root)
 - [x] GitHub Actions 자동기사생성.yml 매일 KST 09:00 정상 동작
 - [ ] 메인 CLAUDE.md 대시보드 업데이트

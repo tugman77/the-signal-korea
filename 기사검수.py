@@ -73,7 +73,12 @@ def send_telegram(message):
         if resp.status_code == 200:
             log("Telegram 알림 전송 완료")
         else:
-            log(f"Telegram 알림 실패: {resp.status_code}", "WARN")
+            # 실패 사유(description)까지 남겨야 chat not found / 파싱 오류 등을 바로 진단 가능
+            try:
+                desc = resp.json().get("description", resp.text[:200])
+            except Exception:
+                desc = resp.text[:200]
+            log(f"Telegram 알림 실패: {resp.status_code} — {desc}", "WARN")
     except Exception as e:
         log(f"Telegram 오류: {e}", "WARN")
 
