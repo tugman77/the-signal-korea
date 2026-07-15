@@ -4,7 +4,8 @@
 글로벌 기술·산업 패권 뉴스를 분석해 "한국 산업은 앞으로 무엇으로 먹고 살 것인가?"에 답하는 인텔리전스 미디어.
 **5단계 고정 프레임**: Fact → Meaning → Winner → Loser → Action
 
-- **GitHub 저장소:** `tugman77/the-signal-korea` (생성 필요)
+- **GitHub 저장소(라이브):** `tugman77/the-signal-korea` — 운영 중
+- **라이브 URL:** https://tugman77.github.io/the-signal-korea
 - **배포 방식:** GitHub Pages (main 브랜치 / root 디렉터리)
 - **AI 모델:** `claude-sonnet-4-6`
 - **DB:** 없음 (JSON 파일 기반)
@@ -205,6 +206,15 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 
 ---
 
+## 수정 이력 (2026-07 버그픽스)
+
+- **히어로 제목 겹침** (index.html): `.top-thumb` 의 `letter-spacing: -4px` 를 히어로 h2 오버레이가 상속 → `.top-thumb-overlay { letter-spacing: normal }` 추가로 해결.
+- **핵심시그널 검정칸** (index.html): `.signal-label` 다크배경 정의가 사이드바 핵심시그널 라벨에까지 상속 → 티커바로 스코프 축소(`.signal-bar .signal-label { ... }`)해 해결. (article.html은 `signal-label-txt` 사용해 무관)
+- **카테고리·검색 중복 기사** (category.html, search.html): 오늘 기사 + 아카이브 병합 시 제목 기준 `Set` 중복 제거 필터 적용(첫 등장만 유지).
+- **쿠팡 광고 연속 노출** (article.html): 하단에 몰려 있던 캐러셀 광고 1개를 본문 중간(MEANING↔WINNER 사이)으로 이동, 하단은 리더보드 배너만 유지.
+
+---
+
 ## 기사검수.py 사용법
 
 ```bash
@@ -242,16 +252,46 @@ python 기사검수.py                  # 검수
 
 ## 배포 체크리스트
 
-- [ ] GitHub 저장소 생성: `tugman77/the-signal-korea`
-- [ ] 코드 push (index.html, article.html, category.html, search.html, about.html, advertising.html, privacy.html, terms.html, 기사자동생성.py, 기사검수.py 등)
-- [ ] `ANTHROPIC_API_KEY` Secret 등록
+- [x] GitHub 저장소 생성: `tugman77/the-signal-korea` — 완료 (라이브 운영 중)
+- [x] 코드 push (index/article/category/search/about/advertising/privacy/terms.html, 기사자동생성.py 등)
+- [x] `ANTHROPIC_API_KEY` Secret 등록
 - [ ] `UNSPLASH_ACCESS_KEY` Secret 등록 (선택)
 - [ ] `PEXELS_API_KEY` Secret 등록 (선택)
 - [ ] `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` Secret 등록 (선택)
-- [ ] **GitHub Pages 활성화** (Settings → Pages → main / root)
-- [ ] GitHub Actions 자동기사생성.yml 확인 (기사검수.py 스텝 추가 권장)
-- [ ] 첫 실행: `workflow_dispatch`로 수동 트리거
+- [x] **GitHub Pages 활성화** (Settings → Pages → main / root)
+- [x] GitHub Actions 자동기사생성.yml 매일 KST 09:00 정상 동작
 - [ ] 메인 CLAUDE.md 대시보드 업데이트
+
+---
+
+## ⚠️ 배포 게이트웨이 주의사항 (필독)
+
+이 저장소는 **계정이 두 개** 얽혀 있어 잘못 푸시하면 라이브에 반영이 안 된다.
+
+### 1. 라이브 저장소는 `tugman77/the-signal-korea` 하나뿐
+- 라이브 = **tugman77** 계정. `https://tugman77.github.io/the-signal-korea` 가 실제 서비스.
+- `ganddanbiz/the-signal-korea` 는 **미러/오배포용** — Pages 404, 서비스 안 됨.
+- **로컬 `origin` remote가 ganddanbiz를 가리키고 있음.** ganddanbiz PAT는 tugman77 저장소에 **읽기 전용(push: False)**.
+  → `git push origin main` 하면 **엉뚱한 저장소(ganddanbiz)로 가서 라이브에 안 뜬다.**
+- 반영하려면 **tugman77 계정 PAT**(scope `repo`)로 명시 푸시:
+  ```
+  git push "https://tugman77:<PAT>@github.com/tugman77/the-signal-korea.git" <브랜치>:main
+  ```
+  PAT는 `read -s`로 입력받아 화면·기록에 노출 금지.
+
+### 2. 워크플로 파일은 `workflow` 스코프 PAT 필요
+- `.github/workflows/자동기사생성.yml` 을 변경·푸시하려면 PAT에 **`workflow` 스코프**가 있어야 함.
+- 없으면 `refusing to allow a Personal Access Token to create or update workflow ... without workflow scope` 거부.
+- HTML/데이터만 푸시할 땐 워크플로 파일을 커밋에서 제외(soft reset)하고 보낼 것.
+
+### 3. 매일 자동생성이 main을 전진시킨다 → force-push 금지
+- 워크플로가 매일 KST 09:00 **데이터 파일만** 갱신(articles.json, archive/*, images/) 커밋 push.
+- HTML은 건드리지 않으므로, HTML 수정은 한 번 반영하면 이후에도 유지됨.
+- 수정 배포 시 **최신 main 위에 cherry-pick 후 fast-forward** 로 올려야 자동생성 데이터를 덮어쓰지 않는다. **절대 force-push 하지 말 것.**
+
+### 4. 반영 확인
+- 푸시 성공(`... -> main`) 후 GitHub Pages 재빌드까지 ~1분.
+- 라이브 검증은 `curl -s https://tugman77.github.io/the-signal-korea/index.html` 로 수정 코드가 들어갔는지 확인.
 
 ---
 
