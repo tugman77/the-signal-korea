@@ -226,13 +226,22 @@ python 기사검수.py --date 2026-07-03
 ```
 
 **검수 항목:**
+
+*구조 검수 (API 키 없이도 동작)*
 - 5단계 필드 완성도 (각 최소 2단락)
 - 속보(is_brief=True)는 fact/action만 검사
-- 이미지 누락·중복 (MD5 해시)
+- 이미지 파일 누락·용량·중복 (MD5 해시)
 - 카테고리 비중 (공급망전쟁 50% 목표)
 - action 마지막 단락 현장 경험 패턴
-- Telegram 알림 (TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID 환경변수)
-- 로그: `scripts/review.log`
+
+*Claude 검수 (2026-07-15 추가 · `ANTHROPIC_API_KEY` 필요, 소재타임스와 동일 방식)*
+- **사실성 검증**: `trust_score`(1~5) + `status`(pass/warning/fail) + 의심 주장(`suspicious_claims`) — 기업·수치·법/정책명·인용·사건 개연성 점검
+- **이미지 내용 연관성**: `image_keyword`가 기사 내용과 맞는지 판정 → 부적절 시 키워드 자동 수정 + 이미지 재다운로드(`기사자동생성.py`의 `_download_single_image` 재사용, 재다운로드엔 `UNSPLASH_ACCESS_KEY` 등 권장)
+- 결과를 각 기사에 `review` 필드 + `last_reviewed_at`로 `articles.json`에 저장
+- API 키 없으면 이 단계만 건너뛰고 구조 검수는 정상 수행
+
+**보고**: 소재타임스식 텔레그램 보고 — 기사별 상태 이모지·신뢰도·의심주장·이미지 키워드 수정·자동 조치 요약 (`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` 필요)
+**로그**: `scripts/review.log`
 
 ---
 

@@ -3,13 +3,16 @@
 실행: python 기사검수.py [--date YYYY-MM-DD]
 
 기능:
-  - articles.json 또는 지정 날짜 아카이브 기사 품질 검수
-  - 이미지 누락·중복 감지 (MD5 해시)
-  - 5단계 필드 완성도 검사 (fact/meaning/winner/loser/action 각 최소 2단락)
-  - 속보(is_brief=True)는 fact/action만 검사
-  - 카테고리 비중 확인 (공급망전쟁 목표 50%)
-  - Telegram 알림 (환경변수 있을 때만 선택적)
-  - scripts/review.log 기록
+  1. articles.json 또는 지정 날짜 아카이브 기사 품질 검수
+  2. 구조 검수 — 5단계 필드 완성도(fact/meaning/winner/loser/action 각 최소 2단락),
+     속보(is_brief=True)는 fact/action만, 카테고리 비중(공급망전쟁 목표 50%)
+  3. 이미지 파일 검수 — 누락·용량·중복(MD5 해시)
+  4. Claude 사실성 검수 — trust_score(1~5) + 의심 주장 + 상태(pass/warning/fail)
+  5. Claude 이미지 내용 연관성 검수 — image_keyword가 기사 내용과 맞는지 →
+     부적절 시 키워드 수정 + 이미지 재다운로드(기사자동생성.py 다운로더 재사용)
+  6. 검수 결과 articles.json에 review 필드로 저장
+  7. 소재타임스식 텔레그램 보고 (환경변수 있을 때만)
+  8. scripts/review.log 기록
 """
 
 import json
@@ -17,17 +20,21 @@ import os
 import sys
 import hashlib
 import argparse
+import importlib
 import requests
 from datetime import datetime, timezone, timedelta
 from collections import Counter
 
 # ── 환경변수 ──
+ANTHROPIC_API_KEY  = os.environ.get("ANTHROPIC_API_KEY", "")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "")
 
+MODEL    = "claude-sonnet-4-6"   # CLAUDE.md 기준 모델
 LOG_DIR  = "scripts"
 LOG_FILE = os.path.join(LOG_DIR, "review.log")
 KST      = timezone(timedelta(hours=9))
+STATUS_EMOJI = {"pass": "✅", "warning": "⚠️", "fail": "❌"}
 
 # ── 검수 기준 ──
 MIN_PARAGRAPHS = {
@@ -209,9 +216,173 @@ def check_category_ratio(articles):
     return dist, issues
 
 
+# ── Claude 사실성 + 이미지 연관성 검수 ───────────────────────────────
+def _stage_preview(article):
+    """5단계 필드를 검수용 짧은 미리보기 텍스트로 합친다 (토큰 절약)."""
+    parts = []
+    for field in ["fact", "meaning", "winner", "loser", "action"]:
+        paras = article.get(field, [])
+        if isinstance(paras, list) and paras:
+            joined = " ".join(paras[:2])
+            parts.append(f"[{field}] {joined[:300]}")
+    return "\n".join(parts)
+
+
+def review_articles_with_claude(articles):
+    """Claude로 사실성(trust_score) + 이미지 키워드 연관성을 검수.
+    ANTHROPIC_API_KEY 없거나 오류 시 빈 리스트 반환(구조 검수는 계속 진행)."""
+    if not ANTHROPIC_API_KEY:
+        log("ANTHROPIC_API_KEY 없음 — Claude 사실·이미지 검수 건너뜀", "WARN")
+        return []
+    try:
+        import anthropic
+    except ImportError:
+        log("anthropic 패키지 없음 — Claude 검수 건너뜀", "WARN")
+        return []
+
+    summaries = []
+    for a in articles:
+        summaries.append({
+            "id": a.get("id"),
+            "category": a.get("category", ""),
+            "title": a.get("title", ""),
+            "summary": a.get("summary", ""),
+            "is_brief": a.get("is_brief", False),
+            "content_preview": _stage_preview(a),
+            "image_keyword": a.get("image_keyword", ""),
+        })
+
+    prompt = f"""당신은 산업·경제 인텔리전스 미디어 '더 시그널 코리아'의 수석 검수 데스크입니다.
+오늘 발행된 기사 {len(summaries)}개의 사실성과 이미지 적절성을 검수하세요.
+
+[검수 대상 기사]
+{json.dumps(summaries, ensure_ascii=False, indent=2)}
+
+[검수 기준]
+
+1. 사실성 평가 (trust_score 1~5):
+   - 언급된 기업·기관명이 실제 존재하고 해당 산업에 종사하는지
+   - 수치(시장점유율%, 투자·수출 규모, 성장률, 연도)가 업계 현실과 크게 벗어나지 않는지
+   - 법·정책·규제명이 실제 존재하는지 (예: CHIPS Act, 갈륨·게르마늄 수출통제, IRA, 반도체특별법 등)
+   - 인용 발언이 출처 없이 창작된 것처럼 지나치게 구체적이지 않은지
+   - 사건(수출 규제, 광산 사고, 제재 등)이 공급망·산업 관점에서 개연성이 있는지
+   5=거의 모든 내용 검증 가능, 4=대부분 사실로 판단, 3=일부 주의 필요,
+   2=의심스러운 주장 다수, 1=명백한 오류 또는 허위 가능성 높음
+
+2. 이미지 키워드 연관성 (image_keyword_ok):
+   - image_keyword(영문)가 기사 내용(주제·소재·산업)과 직접 관련 있는지
+   - 스톡 이미지 검색에 효과적으로 구체적인지
+     (너무 추상적: "industry" → 적절: "gallium semiconductor supply chain")
+   - 부적절하면 suggested_image_keyword에 기사 내용에 맞는 영문 2~3단어 제안
+
+review_articles 도구로 전체 검수 결과를 반환하세요."""
+
+    tool = {
+        "name": "review_articles",
+        "description": "기사 사실성·이미지 검수 결과를 저장합니다",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "reviews": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "article_id": {"type": "integer"},
+                            "trust_score": {"type": "integer", "minimum": 1, "maximum": 5,
+                                            "description": "사실성 신뢰도 점수"},
+                            "status": {"type": "string", "enum": ["pass", "warning", "fail"],
+                                       "description": "pass=문제없음, warning=주의, fail=심각한 오류"},
+                            "suspicious_claims": {"type": "array", "items": {"type": "string"},
+                                                  "description": "검증 필요한 의심 주장(최대 3개, 각 50자 이내)"},
+                            "image_keyword_ok": {"type": "boolean",
+                                                 "description": "이미지 키워드가 기사 내용과 연관 있으면 true"},
+                            "suggested_image_keyword": {"type": "string",
+                                                        "description": "image_keyword_ok=false일 때 대체 영문 키워드"},
+                            "notes": {"type": "string", "description": "전반 검수 코멘트(60자 이내)"},
+                        },
+                        "required": ["article_id", "trust_score", "status",
+                                     "suspicious_claims", "image_keyword_ok", "notes"],
+                    },
+                    "minItems": len(summaries),
+                    "maxItems": len(summaries),
+                }
+            },
+            "required": ["reviews"],
+        },
+    }
+
+    try:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        resp = client.messages.create(
+            model=MODEL,
+            max_tokens=4096,
+            tools=[tool],
+            tool_choice={"type": "tool", "name": "review_articles"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        block = next(b for b in resp.content if b.type == "tool_use")
+        return block.input["reviews"]
+    except Exception as e:
+        log(f"Claude 검수 오류: {e}", "WARN")
+        return []
+
+
+def apply_image_keyword_fixes(articles, reviews, date_prefix):
+    """image_keyword_ok=false인 기사의 키워드를 수정하고 이미지를 재다운로드.
+    기사자동생성.py의 _download_single_image를 재사용. 조치 내역 리스트 반환."""
+    fixes = []
+    to_fix = [r for r in reviews
+              if not r.get("image_keyword_ok", True) and r.get("suggested_image_keyword")]
+    if not to_fix:
+        return fixes
+
+    gen = None
+    try:
+        gen = importlib.import_module("기사자동생성")
+        gen._load_image_history()   # 과거 해시 적재 → 재다운로드 시 중복 방지
+    except Exception as e:
+        log(f"이미지 재다운로드 모듈 로드 실패(키워드만 수정): {e}", "WARN")
+
+    by_id = {a.get("id"): a for a in articles}
+    for r in to_fix:
+        a = by_id.get(r["article_id"])
+        if not a:
+            continue
+        old_kw = a.get("image_keyword", "")
+        new_kw = r["suggested_image_keyword"]
+        a["image_keyword"] = new_kw
+        fix = {"id": a.get("id"), "old": old_kw, "new": new_kw, "redownloaded": False}
+
+        if gen is not None:
+            idx = a.get("id", 0)
+            img_path = f"images/{date_prefix}_article_{idx}.jpg"
+            try:
+                ok = gen._download_single_image(
+                    new_kw, img_path, a.get("category", ""), f"{date_prefix}_{idx}_kw_{new_kw}")
+                if ok:
+                    a["image_url"] = img_path
+                    fix["redownloaded"] = True
+            except Exception as e:
+                log(f"이미지 재다운로드 오류 [id={idx}]: {e}", "WARN")
+
+        log(f"이미지 키워드 수정 [id={fix['id']}]: '{old_kw}' → '{new_kw}'"
+            f"{' (재다운로드 완료)' if fix['redownloaded'] else ''}")
+        fixes.append(fix)
+
+    if gen is not None:
+        try:
+            gen._save_image_history()
+        except Exception:
+            pass
+    return fixes
+
+
 # ── 메인 검수 로직 ────────────────────────────────────────────────────
-def run_review(data_path, label="articles.json"):
+def run_review(data_path, label="articles.json", date_prefix=None):
     log(f"=== 기사 검수 시작: {label} ===")
+    if date_prefix is None:
+        date_prefix = datetime.now(KST).strftime("%Y-%m-%d")
 
     try:
         with open(data_path, "r", encoding="utf-8") as f:
@@ -273,6 +444,53 @@ def run_review(data_path, label="articles.json"):
         report_lines.append("\n  ⚠️  key_signals 없음")
         total_warnings += 1
 
+    # ⑤ Claude 사실성 + 이미지 연관성 검수
+    log("Claude 사실성·이미지 연관성 검수 중...")
+    reviews = review_articles_with_claude(articles)
+    image_fixes = []
+    review_map = {}
+    if reviews:
+        review_map = {r["article_id"]: r for r in reviews}
+        image_fixes = apply_image_keyword_fixes(articles, reviews, date_prefix)
+
+        report_lines.append("\n  [사실성·이미지 검수]")
+        for a in articles:
+            r = review_map.get(a.get("id"))
+            if not r:
+                continue
+            emoji = STATUS_EMOJI.get(r.get("status"), "✅")
+            title = a.get("title", "")[:24]
+            report_lines.append(f"    {emoji} #{a.get('id')} {title} (신뢰도 {r.get('trust_score')}/5)")
+            if r.get("status") == "fail":
+                total_errors += 1
+            for claim in r.get("suspicious_claims", [])[:2]:
+                report_lines.append(f"        🔎 {claim[:48]}")
+                total_warnings += 1
+            if not r.get("image_keyword_ok", True):
+                report_lines.append(f"        🖼️ 이미지 키워드 → {r.get('suggested_image_keyword','')}")
+                total_warnings += 1
+
+        # 검수 결과를 articles.json(또는 아카이브)에 review 필드로 저장
+        reviewed_at = datetime.now(KST).strftime("%Y-%m-%d %H:%M")
+        for a in articles:
+            r = review_map.get(a.get("id"), {})
+            a["review"] = {
+                "trust_score": r.get("trust_score", 3),
+                "status": r.get("status", "pass"),
+                "suspicious_claims": r.get("suspicious_claims", []),
+                "image_keyword_ok": r.get("image_keyword_ok", True),
+                "notes": r.get("notes", ""),
+                "verified_at": reviewed_at,
+            }
+        data["articles"] = articles
+        data["last_reviewed_at"] = reviewed_at
+        try:
+            with open(data_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            log(f"검수 결과 저장 완료 → {data_path} (review 필드 + last_reviewed_at)")
+        except Exception as e:
+            log(f"검수 결과 저장 오류: {e}", "WARN")
+
     # ── 결과 집계 ──
     passed = total_errors == 0
     status = "✅ PASS" if passed else "❌ FAIL"
@@ -289,18 +507,45 @@ def run_review(data_path, label="articles.json"):
 
     log(summary)
 
-    # ── Telegram 알림 ──
+    # ── Telegram 보고 (소재타임스식) ──
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
-        emoji = "✅" if passed else "❌"
-        tg_msg = (
-            f"{emoji} <b>더 시그널 코리아 검수</b>\n"
-            f"<code>{label}</code>\n"
-            f"기사 {len(articles)}건 | 오류 {total_errors} | 경고 {total_warnings}\n"
-            f"카테고리: {dist_str}"
-        )
-        if not passed and report_lines:
-            tg_msg += "\n\n상세:\n" + "\n".join(report_lines[:10])  # 최대 10줄
-        send_telegram(tg_msg)
+        head_emoji = "✅" if passed else "❌"
+        lines = [
+            f"📋 <b>더 시그널 코리아 검수 보고</b>",
+            f"<code>{label}</code>  |  {datetime.now(KST).strftime('%Y-%m-%d %H:%M')}",
+            f"{head_emoji} 기사 {len(articles)}건 · 오류 {total_errors} · 경고 {total_warnings}",
+            f"카테고리: {dist_str}",
+        ]
+
+        # 사실성·이미지 검수 요약 (기사별)
+        if review_map:
+            lines.append("")
+            for a in articles:
+                r = review_map.get(a.get("id"))
+                if not r:
+                    continue
+                emoji = STATUS_EMOJI.get(r.get("status"), "✅")
+                title = a.get("title", "")[:18]
+                lines.append(f"{emoji} [{a.get('id')}] {title}… (신뢰도 {r.get('trust_score')}/5)")
+                for claim in r.get("suspicious_claims", [])[:2]:
+                    lines.append(f"   🔎 {claim[:46]}")
+                if not r.get("image_keyword_ok", True):
+                    lines.append(f"   🖼️ 이미지 키워드 → {r.get('suggested_image_keyword','')}")
+
+        # 자동 조치 요약
+        if image_fixes:
+            redl = sum(1 for f in image_fixes if f.get("redownloaded"))
+            lines.append(f"\n🔧 자동 조치: 이미지 키워드 {len(image_fixes)}건 수정"
+                         + (f", {redl}건 재다운로드" if redl else ""))
+
+        # 구조/이미지 오류 상세 (Claude 검수 외 항목)
+        struct_lines = [l for l in report_lines if "[사실성·이미지 검수]" not in l]
+        if not passed and struct_lines:
+            lines.append("\n<b>상세</b>:" + "\n".join(struct_lines[:8]))
+        elif passed and not review_map:
+            lines.append("\n✨ 구조 검수 통과")
+
+        send_telegram("\n".join(lines))
 
     return passed
 
@@ -314,11 +559,13 @@ def main():
     if args.date:
         path  = f"archive/{args.date}.json"
         label = f"archive/{args.date}.json"
+        date_prefix = args.date
     else:
         path  = "articles.json"
         label = "articles.json"
+        date_prefix = None   # run_review에서 오늘(KST)로 설정
 
-    ok = run_review(path, label)
+    ok = run_review(path, label, date_prefix)
     sys.exit(0 if ok else 1)
 
 
