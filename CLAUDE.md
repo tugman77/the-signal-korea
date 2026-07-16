@@ -44,9 +44,18 @@
 │   └── YYYY-MM-DD.json     ← 날짜별 기사 데이터
 ├── scripts/
 │   └── review.log          ← 기사검수 로그
+├── sojaetimes/             ← 전문 인텔리전스 파이프라인 (2026-07-16 추가)
+│   ├── collect.py          ← 4개 분야 수집 (네이버API + Google RSS)
+│   ├── agent_prompt.md     ← RemoteTrigger 저널리스트 브리핑 프롬프트
+│   └── briefing_YYYY-MM-DD.json  ← 수집 결과 (GitHub Actions에서 생성)
 └── .github/workflows/
     └── 자동기사생성.yml     ← GitHub Actions (매일 UTC 00:00 = KST 09:00)
 ```
+
+### sojaetimes 파이프라인 (2026-07-16)
+- `collect.py`: 공급망전쟁/기술패권/산업전략/글로벌분석 4개 분야 뉴스 수집
+- `기사자동생성.py`: `load_sojaetimes_briefing()` → 공급망전쟁 이슈 프롬프트 우선 반영
+- Actions 실행 순서: collect.py → 기사자동생성.py → 기사검수.py → push
 
 ---
 
