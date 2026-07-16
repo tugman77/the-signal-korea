@@ -243,8 +243,23 @@ def get_recent_titles(days=3):
     return list(set(filter(None, recent_titles)))
 
 
+# ── sojaetimes 브리핑 로드 ──────────────────────────────────────────
+def load_sojaetimes_briefing() -> dict:
+    date_key = datetime.now(KST).strftime("%Y-%m-%d")
+    path = f"sojaetimes/briefing_{date_key}.json"
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            briefing = json.load(f)
+        total = briefing.get("total_count", 0)
+        print(f"📊 sojaetimes 브리핑 로드: {total}건 ({date_key})")
+        return briefing
+    except FileNotFoundError:
+        print(f"   → sojaetimes 브리핑 없음 ({path}), RSS만 사용")
+        return {}
+
+
 # ── Claude API로 기사 생성 ──────────────────────────────────────────
-def generate_articles_with_claude(raw_news_list, recent_titles):
+def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_briefing=None):
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     news_text = ""
@@ -265,6 +280,32 @@ def generate_articles_with_claude(raw_news_list, recent_titles):
 {recent_list}
 """
 
+    # sojaetimes 브리핑 섹션 구성
+    sojaetimes_section = ""
+    if sojaetimes_briefing and sojaetimes_briefing.get("topics"):
+        topic_labels = {
+            "공급망전쟁": "공급망전쟁 (소재 수출규제·조달 병목)",
+            "기술패권":   "기술패권 (미·중 반도체·AI 전쟁)",
+            "산업전략":   "산업전략 (한국 소부장·정책)",
+            "글로벌분석": "글로벌분석 (미·EU·일·인도 동향)",
+        }
+        lines = ["[sojaetimes 전문 인텔리전스 — 분야별 최우선 반영]", "━" * 44]
+        for topic_key, label in topic_labels.items():
+            items = sojaetimes_briefing["topics"].get(topic_key, [])[:4]
+            if not items:
+                continue
+            lines.append(f"\n▶ {label}")
+            for it in items:
+                lang_tag = "[영]" if it.get("lang") == "en" else "[한]"
+                lines.append(f"  {lang_tag} {it['title']}")
+                if it.get("summary"):
+                    lines.append(f"      → {it['summary'][:120]}")
+        lines += [
+            "",
+            "특히 [공급망전쟁] 이슈를 최우선으로 검토하고, 공급망전쟁 카테고리 기사 2~3개에 반영하세요.",
+        ]
+        sojaetimes_section = "\n".join(lines) + "\n\n"
+
     prompt = f"""당신은 광학·반도체·디스플레이 소재를 20년간 직접 공급해온 현장 전문가입니다.
 갈륨·게르마늄·비스무트·이트륨·마그네슘 등 핵심 소재를 국내외 기업에 실제 공급한 경험을 바탕으로,
 지금은 소재 공급망 인텔리전스 분석가로 시장을 조망하며 칼럼을 씁니다.
@@ -278,7 +319,7 @@ def generate_articles_with_claude(raw_news_list, recent_titles):
 핵심 미션: 글로벌 기술·산업 뉴스를 현장 공급망 시각으로 해석하여 "한국 산업은 앞으로 무엇으로 먹고 살 것인가?"에 답합니다.
 타깃 독자: 개인 투자자·기업 구매담당자·산업 전략가 — "이 뉴스가 실제 비즈니스에 무슨 의미인가"에 답해야 합니다.
 
-{news_section}
+{sojaetimes_section}{news_section}
 
 {recent_block}
 
@@ -738,8 +779,11 @@ def main():
         recent_titles = get_recent_titles(days=3)
         print(f"   → {len(recent_titles)}개 제목 로드됨")
 
+        print("📊 sojaetimes 전문 인텔리전스 브리핑 로드 중...")
+        sojaetimes_briefing = load_sojaetimes_briefing()
+
         print("✍️  Claude API로 기사 작성 중...")
-        articles = generate_articles_with_claude(raw_news, recent_titles)
+        articles = generate_articles_with_claude(raw_news, recent_titles, sojaetimes_briefing)
         brief_count = sum(1 for a in articles if a.get("is_brief"))
         print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
 

@@ -22,7 +22,13 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic feedparser requests pillow
+        run: pip install anthropic feedparser requests pillow json-repair
+
+      - name: sojaetimes 전문 인텔리전스 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: python sojaetimes/collect.py
 
       - name: Generate articles
         env:
@@ -48,6 +54,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles.json archive/ images/ scripts/ image_history.json || true
+          git add articles.json archive/ images/ scripts/ image_history.json sojaetimes/ || true
           git diff --cached --quiet || git commit -m "🔔 $(date +'%Y-%m-%d') 시그널 기사 자동 생성"
           git push
