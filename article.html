@@ -83,6 +83,8 @@
 
   /* ── 요약 박스 ── */
   .art-summary-box { margin: 0 40px 0; padding: 16px 20px; background: #f8f9fb; border-left: 4px solid var(--primary); font-size: 14.5px; color: var(--text-muted); line-height: 1.8; }
+  .brief-badge { display: inline-block; padding: 3px 10px; font-size: 11.5px; font-weight: 800; letter-spacing: 0.5px; color: #7a5200; background: #fff4d6; border: 1px solid #e8a000; border-radius: 3px; }
+  .brief-note { margin: 10px 40px 0; padding: 10px 14px; font-size: 12.5px; color: #7a5200; background: #fffaf0; border: 1px dashed #e8a000; border-radius: 4px; line-height: 1.7; }
 
   /* ── 5단계 프레임 ── */
   .five-frame { padding: 0 40px 40px; margin-top: 8px; }
@@ -172,6 +174,7 @@
     .art-header { padding: 22px 18px 0; }
     /* 본문 가독성 — 요약/본문 폰트·행간 키움 */
     .art-summary-box { margin: 0 18px; font-size: 15.5px; line-height: 1.75; padding: 14px 16px; }
+    .brief-note { margin: 10px 18px 0; }
     .five-frame { padding: 0 18px 28px; }
     .frame-body { padding: 16px 0 0; }
     .frame-body p { font-size: 16.5px; line-height: 1.9; color: #374151; margin-bottom: 18px; }
@@ -434,9 +437,26 @@
 
   function renderParagraphs(elId, paras) {
     const el = document.getElementById(elId);
-    if (!el || !paras || !paras.length) return;
-    const arr = Array.isArray(paras) ? paras : paras.split(/\n+/).filter(p => p.trim());
-    el.innerHTML = arr.filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+    if (!el) return;
+    const raw = !paras ? [] : (Array.isArray(paras) ? paras : paras.split(/\n+/));
+    const arr = raw.filter(p => p && p.trim());
+    if (!arr.length) {
+      const sec = el.closest('.frame-section');
+      if (sec) sec.style.display = 'none';
+      return;
+    }
+    el.innerHTML = arr.map(p => `<p>${p.trim()}</p>`).join('');
+  }
+
+  // 빈 섹션 숨김 후 남은 섹션 번호를 ①부터 다시 부여
+  function renumberFrames() {
+    const nums = ['①', '②', '③', '④', '⑤'];
+    let i = 0;
+    document.querySelectorAll('.five-frame .frame-section').forEach(sec => {
+      if (sec.style.display === 'none') return;
+      const num = sec.querySelector('.frame-step-num');
+      if (num) num.textContent = nums[i++] || '';
+    });
   }
 
   function renderEditorial(briefing) {
@@ -505,12 +525,28 @@
       heroWrap.appendChild(img);
     }
 
-    // 5단계 프레임 렌더
+    // 속보 포맷: 배지 + 안내문
+    const isBrief = !!article.is_brief ||
+      !((article.meaning || []).length || (article.winner || []).length || (article.loser || []).length);
+    if (isBrief) {
+      const badge = document.createElement('span');
+      badge.className = 'brief-badge';
+      badge.textContent = '⚡ 속보';
+      document.querySelector('.art-top-meta').appendChild(badge);
+
+      const note = document.createElement('div');
+      note.className = 'brief-note';
+      note.textContent = '이 기사는 속보 포맷입니다. 핵심 사실(FACT)과 대응 전략(ACTION)만 빠르게 전달하며, 심층 분석(MEANING·WINNER·LOSER)은 주력 분석 기사에서 다룹니다.';
+      document.getElementById('art-summary').insertAdjacentElement('afterend', note);
+    }
+
+    // 5단계 프레임 렌더 (빈 섹션은 자동 숨김)
     renderParagraphs('frame-fact',    article.fact);
     renderParagraphs('frame-meaning', article.meaning);
     renderParagraphs('frame-winner',  article.winner);
     renderParagraphs('frame-loser',   article.loser);
     renderParagraphs('frame-action',  article.action);
+    renumberFrames();
 
     // 태그
     document.getElementById('art-tags').innerHTML =
