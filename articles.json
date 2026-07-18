@@ -3,7 +3,7 @@
   "date_str": "2026년 07월 18일",
   "articles": [
     {
-      "id": 1,
+      "id": 0,
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "title": "고려아연 갈륨 공장 신설, 中 독점 95% 뚫는다",
@@ -53,7 +53,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 1,
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "title": "게르마늄 한국산 대체, 공급망 판세 어디까지 왔나",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "title": "中 핵심광물 통제, AI·로봇까지 번진 리스크 지도",
@@ -137,7 +137,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 3,
       "category": "기술패권",
       "tag_type": "tag-hegemony",
       "title": "미중 AI칩 패권, 한국 HBM·소재 재편 가속",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 4,
       "category": "산업전략",
       "tag_type": "tag-strategy",
       "title": "소부장 1700억·배터리 세제지원, 실효 조건 셋",
@@ -218,7 +218,9 @@
         "정책 담당자에게 드리는 제언: 전략광물 소재 분야는 별도 패스트트랙 심사를 도입해야 한다. 중국 수출 규제는 '지금 작동 중'이고, 지원은 '내년 예정'인 구조는 공급망 공백을 메우지 못한다.",
         "실제 조달 현장에서는 — 2021년 소부장 2.0 정책 발표 직후 국내 불화수소 업체가 정부 R&D 지원을 신청했지만, 심사 완료까지 11개월이 걸렸다. 그사이 일본이 수출 규제를 부분 완화하면서 국산화 긴박감이 줄고, 해당 업체는 결국 투자 규모를 축소했다. 속도가 전략이다."
       ],
-      "image_url": "images/2026-07-18_article_5.jpg",
+      "image_keyword": "EU critical minerals supply chain partnership",
+      "timestamp": "오전 10:20",
+      "image_url": "images/2026-07-18_article_4.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",

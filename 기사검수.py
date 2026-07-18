@@ -171,14 +171,27 @@ def check_article(article, idx):
 
 
 # ── 이미지 검수 ──────────────────────────────────────────────────────
-def check_images(articles):
-    """이미지 누락·중복 감지. {idx: issues} 반환."""
+def check_images(articles, date_prefix=None):
+    """이미지 누락·중복(경로/바이너리)·파일명 불일치 감지. {idx: issues} 반환."""
     image_issues = {}
-    hash_map = {}   # md5 → idx (중복 감지)
+    hash_map = {}   # md5 → idx (바이너리 중복 감지)
+    path_map = {}   # image_url → idx (동일 경로를 두 기사가 참조하는지 감지)
 
     for i, a in enumerate(articles):
         issues = []
         img_path = a.get("image_url")
+
+        # 동일 image_url을 다른 기사가 이미 참조 중이면 중복 (id/위치 어긋남 버그의 징후)
+        if img_path:
+            if img_path in path_map:
+                issues.append(f"이미지 경로 중복: 기사 #{path_map[img_path]}와 같은 파일 참조 ({img_path})")
+            else:
+                path_map[img_path] = i
+            # 파일명이 자기 위치와 일치하는지 (article_{i}.jpg 규칙)
+            if date_prefix:
+                expected = f"{date_prefix}_article_{i}.jpg"
+                if os.path.basename(img_path) != expected:
+                    issues.append(f"이미지 파일명 불일치: {os.path.basename(img_path)} (기대값 {expected})")
 
         if not img_path:
             issues.append("이미지 URL 없음 (None)")
@@ -350,6 +363,7 @@ def apply_image_keyword_fixes(articles, reviews, date_prefix):
         log(f"이미지 재다운로드 모듈 로드 실패(키워드만 수정): {e}", "WARN")
 
     by_id = {a.get("id"): a for a in articles}
+    pos_of = {id(a): i for i, a in enumerate(articles)}
     for r in to_fix:
         a = by_id.get(r["article_id"])
         if not a:
@@ -360,8 +374,9 @@ def apply_image_keyword_fixes(articles, reviews, date_prefix):
         fix = {"id": a.get("id"), "old": old_kw, "new": new_kw, "redownloaded": False}
 
         if gen is not None:
-            idx = a.get("id", 0)
-            img_path = f"images/{date_prefix}_article_{idx}.jpg"
+            # 재다운로드는 반드시 해당 기사가 이미 가리키는 파일(image_url)에 덮어쓴다.
+            # id 기반 경로를 새로 계산하면 id≠위치일 때 다른 기사 이미지를 덮어써 중복이 생긴다.
+            img_path = a.get("image_url") or f"images/{date_prefix}_article_{pos_of[id(a)]}.jpg"
             try:
                 ok = gen._download_single_image(
                     new_kw, img_path, a.get("category", ""), f"{date_prefix}_{idx}_kw_{new_kw}")
@@ -424,7 +439,7 @@ def run_review(data_path, label="articles.json", date_prefix=None):
             log(f"  기사 #{i} [{a.get('category')}] OK — {title[:30]}...")
 
     # ② 이미지 검수
-    img_issues = check_images(articles)
+    img_issues = check_images(articles, date_prefix)
     if img_issues:
         report_lines.append("\n  [이미지 검수]")
         for idx, issues in img_issues.items():

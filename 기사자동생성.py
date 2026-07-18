@@ -335,8 +335,9 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 - 각 단계 최소 2개 이상 구체적 통계 수치 또는 기업명 포함
 - 제목: 15~25자, 핵심 팩트·수치 중심 (예: "중국 갈륨 수출 99% 차단, 한국 연간 700억 리스크")
 - summary: 2~3문장 핵심 요약 (150자 이내), 투자자 관점에서 서술
-- SEO용 image_keyword: "gallium export restriction Korea", "tantalum supply chain" 등 구체적 소재명 포함 영문 2~3단어
-- 중요: 5개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 vs 탄탈럼 vs 데이터센터 등)
+- image_keyword: 사진으로 촬영 가능한 구체적 사물·장면 중심의 영문 2~4단어. 예: "gallium metal ingot", "tantalum ore mineral", "semiconductor wafer cleanroom", "rare earth magnet", "data center server rack".
+  · 국가명·지명(Korea, Seoul, China, US 등)과 추상어(strategy, policy, economy, market, supply chain)는 넣지 말 것 — 도시 전경·국기 같은 무관한 사진이 나온다.
+- 중요: 5개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 잉곳 vs 탄탈럼 광석 vs 데이터센터 서버 등)
 
 [현장 경험 문단 — action 배열 마지막에 필수 삽입]
 action 배열의 마지막 단락은 반드시 다음 형식으로 시작할 것:
@@ -388,7 +389,7 @@ save_articles 도구를 사용해 기사 5개를 저장하세요.
                                 "winner":        {"type": "array", "items": {"type": "string"}},
                                 "loser":         {"type": "array", "items": {"type": "string"}},
                                 "action":        {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 4},
-                                "image_keyword": {"type": "string"},
+                                "image_keyword": {"type": "string", "description": "기사 핵심 소재를 사진으로 촬영 가능한 구체적 사물 중심의 영문 2~4단어. 국가명·지명(Korea, Seoul, China 등)과 추상어(strategy, policy, economy, market)는 절대 금지. 예: 'gallium metal ingot', 'semiconductor wafer cleanroom', 'rare earth magnet', 'fiber optic cable' 처럼 실제 피사체가 명확해야 함."},
                                 "is_featured":   {"type": "boolean"},
                                 "timestamp":     {"type": "string"}
                             },
@@ -789,6 +790,11 @@ def main():
 
         print("🔍 생성된 기사 중복 검사 중...")
         articles = deduplicate_articles(articles)
+
+        # id를 배열 위치(0-based)로 정규화 — 이미지 파일명(article_{i}.jpg)과
+        # id를 일치시켜, 검수 단계의 id 기반 재다운로드가 남의 이미지를 덮어쓰지 않게 한다.
+        for i, a in enumerate(articles):
+            a["id"] = i
 
         # 카테고리 분포 확인
         from collections import Counter
