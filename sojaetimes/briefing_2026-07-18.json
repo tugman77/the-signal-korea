@@ -1,18 +1,9 @@
 {
   "date": "2026-07-18",
-  "collected_at": "2026-07-18 10:44 KST",
+  "collected_at": "2026-07-18 21:24 KST",
   "total_count": 40,
   "topics": {
     "공급망전쟁": [
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "공급망전쟁",
-        "title": "중국, 이번엔 헬륨 막았다…반도체 공급망 또 흔드나 - 서울경제",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hOVJHc0NKNHZUXy12RlhLUy04UGZBZDFIMmlXUU8tekZsbksyZjJTUXMxcWRKVjQzUkV0ekd4R01jbnhqNGNWSEVFZzJMVkk3eWfSAVNBVV95cUxPN2VFZHRCMUc3NXNWRHdLczJ6TFY1NURfS2VuWThlMktkdENXVExPbktjbW5aLXFicHNHMkJDLURQX2VZb1BBUUFxNXoxUXQ2UEwyRQ?oc=5\" target=\"_blank\">중",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hOVJHc0NKNHZUXy12RlhLUy04UGZBZDFIMmlXUU8tekZsbksyZjJTUXMxcWRKVjQzUkV0ekd4R01jbnhqNGNWSEVFZzJMVkk3eWfSAVNBVV95cUxPN2VFZHRCMUc3NXNWRHdLczJ6TFY1NURfS2VuWThlMktkdENXVExPbktjbW5aLXFicHNHMkJDLURQX2VZb1BBUUFxNXoxUXQ2UEwyRQ?oc=5",
-        "published": "Sat, 11 Jul 2026 01:00:03 GMT"
-      },
       {
         "source": "GoogleNews",
         "lang": "ko",
@@ -39,6 +30,15 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE96ckJNYlAzdC1HdVNFeUVZTEhfMV9JRUhRWXplcWRZeDczMkZqQnBvQWxuT214NVBVWWhhdXVXQ3RlRHZuX1E0bGhTdnJUR00?oc=5\" target=\"_blank\">고려아연, 또 中 희토류 규제 해결사로…게르마늄 이어 갈륨 생산 추진</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">v.daum.net</font>",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96ckJNYlAzdC1HdVNFeUVZTEhfMV9JRUhRWXplcWRZeDczMkZqQnBvQWxuT214NVBVWWhhdXVXQ3RlRHZuX1E0bGhTdnJUR00?oc=5",
         "published": "Sun, 19 Oct 2025 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "공급망전쟁",
+        "title": "중국 수출규제 1호 ‘게르마늄’, 한국산으로 공급망 새 판 짠다 - 스트레이트뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9yeGxsREJzWFdjZXJWel9SWkZNd1F0ZWpRam1oNmxqMTNwZ3pmcFVkb1lWSWQ5R2gyY2tlUERZdmdxNjg0d3JRdFJkdXF0aWxCOE9ud3VHbmxLQ2phcXJJN0E2Qy15enBSNk4tUmF5aXlPTDTSAXdBVV95cUxOVF9yV3gweVItakVxbVFqREYwcHc5dE9aS2FOX1A1VzF4SXhlSFBrdkM3ZDJzSHpiYnJlbUdFeWFxanhxdH",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yeGxsREJzWFdjZXJWel9SWkZNd1F0ZWpRam1oNmxqMTNwZ3pmcFVkb1lWSWQ5R2gyY2tlUERZdmdxNjg0d3JRdFJkdXF0aWxCOE9ud3VHbmxLQ2phcXJJN0E2Qy15enBSNk4tUmF5aXlPTDTSAXdBVV95cUxOVF9yV3gweVItakVxbVFqREYwcHc5dE9aS2FOX1A1VzF4SXhlSFBrdkM3ZDJzSHpiYnJlbUdFeWFxanhxdHhrbF81ZnZNLVA0RUFiMWt3VXpsVmRESkxncmx3aVhQRTBUSDhmVkhkblh4eU1LbGFjdw?oc=5",
+        "published": "Wed, 27 Aug 2025 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -107,10 +107,10 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "공급망전쟁",
-        "title": "China targets US rare earth and defence-linked entities with dual-use export ban - Benchmark Mineral Intelligence",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEtnMWdIYV80b05mY1JKTmY3ODRnRW1CT3ZxN0ZNdjAzSGhaMjFOdE5vN0h5ZFNCbDRYRmwyQ0dSVWlIdFNCUTJJalBZZUhQQUlyTXVvc3E4RzMta1FnaVppSUNIcWhSazdFY2J5eFZzU2xPZEptam9uVllGNV90ZV9IYWZkSzM3aDU0akJwYUtoNXgzQ3VJVnJSZ09JeTRQMFBtOFJUajJyRlkyLWduc2E2ODBaYnhaaF",
-        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMEtnMWdIYV80b05mY1JKTmY3ODRnRW1CT3ZxN0ZNdjAzSGhaMjFOdE5vN0h5ZFNCbDRYRmwyQ0dSVWlIdFNCUTJJalBZZUhQQUlyTXVvc3E4RzMta1FnaVppSUNIcWhSazdFY2J5eFZzU2xPZEptam9uVllGNV90ZV9IYWZkSzM3aDU0akJwYUtoNXgzQ3VJVnJSZ09JeTRQMFBtOFJUajJyRlkyLWduc2E2ODBaYnhaaFlZb2lUM3BPeUk?oc=5",
-        "published": "Thu, 25 Jun 2026 11:15:41 GMT"
+        "title": "China takes aim at U.S. rare earth companies with new export controls - The Washington Post",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnVjbnBoV2F5Tk4tNzhtT0pQN0haOGdPOXN6d29MWGxDTGhNMm1mMmtaaFc4LUNpVUxyTmxNc1Y2OVZnbEJ2dE9HRDljdUREdU1EeldfTXRBRTBWNUN3YTVSbFlUdjdXRzdWdXMzeVN3aGIwcWg4d0JaVFJLOTZMYTlyX0tUYUJpbzgxS1k5cy1EcDJWNW1jV0dJUTVCSGFJeENxa3IzVjN1cHB6aEM5czI3NjZYSnFfZ1",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnVjbnBoV2F5Tk4tNzhtT0pQN0haOGdPOXN6d29MWGxDTGhNMm1mMmtaaFc4LUNpVUxyTmxNc1Y2OVZnbEJ2dE9HRDljdUREdU1EeldfTXRBRTBWNUN3YTVSbFlUdjdXRzdWdXMzeVN3aGIwcWg4d0JaVFJLOTZMYTlyX0tUYUJpbzgxS1k5cy1EcDJWNW1jV0dJUTVCSGFJeENxa3IzVjN1cHB6aEM5czI3NjZYSnFfZ1lrTGlSZlNrMlU?oc=5",
+        "published": "Mon, 22 Jun 2026 07:00:00 GMT"
       }
     ],
     "기술패권": [
@@ -175,7 +175,7 @@
         "title": "The US-China AI chip war: Southeast Asia’s compliance dilemma - Eco-Business",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPZFZTVF9EaHRRRjdOR0NPendzUUVObHlHMENvSnlOdDBPQVNOTmVuTnBkWS0tQy1rSzlTWVZOeWFQeE5hZExlRVBkTFdlaGR1SWVfZlY2QjJVQ0lmbEQ0UHpORjVQNV9zaGVST0ZKeDlXVkZYNS1KcEx1WnM2U18zZzhSelVBTEV4NEU1NDZqYUY1MG45UnpfNVEydWdjZw?oc=5\" target=\"_blank\">The US-China ",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZFZTVF9EaHRRRjdOR0NPendzUUVObHlHMENvSnlOdDBPQVNOTmVuTnBkWS0tQy1rSzlTWVZOeWFQeE5hZExlRVBkTFdlaGR1SWVfZlY2QjJVQ0lmbEQ0UHpORjVQNV9zaGVST0ZKeDlXVkZYNS1KcEx1WnM2U18zZzhSelVBTEV4NEU1NDZqYUY1MG45UnpfNVEydWdjZw?oc=5",
-        "published": "Wed, 08 Jul 2026 01:43:00 GMT"
+        "published": "Wed, 08 Jul 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -237,15 +237,6 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "산업전략",
-        "title": "“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란] - 매일경제 마켓",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5\" target=\"_blank\">“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5",
-        "published": "Sun, 14 Jun 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "산업전략",
         "title": "[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다 - 헬로티",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5\" target=\"_blank\">[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헬로티</font>",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5",
@@ -259,6 +250,15 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XZmNnSTJGdUlNb2ZRNzZmU2RIcjFPQUVhMUFMbjhTZks5WHppYkYzSFdzNW9sUmtYbmNMUWNfdG9kQVZrSlZ3RUU3UmFfUQ?oc=5\" target=\"_blank\">“K-배터리, 반도체 버금가는 전략산업”…세제지원 실효성 촉구</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전자신문</font>",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XZmNnSTJGdUlNb2ZRNzZmU2RIcjFPQUVhMUFMbjhTZks5WHppYkYzSFdzNW9sUmtYbmNMUWNfdG9kQVZrSlZ3RUU3UmFfUQ?oc=5",
         "published": "Wed, 24 Jun 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "산업전략",
+        "title": "산업부, 소부장 투자 지원 확대…첨단전략산업 6개 분야로 늘렸다 - 뉴스1",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CblgwVTlCOXZzcFpyWDlCem9PWm5naVRBNUppZDFqcGZVX3gtdmJMQTNLdTJVSEpQRDNhQk9tWm5acEZqVFNyWGxVckp6TjZlWXhzbTJ4M0JBZmVXdEQ0?oc=5\" target=\"_blank\">산업부, 소부장 투자 지원 확대…첨단전략산업 6개 분야로 늘렸다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스1</font>",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CblgwVTlCOXZzcFpyWDlCem9PWm5naVRBNUppZDFqcGZVX3gtdmJMQTNLdTJVSEpQRDNhQk9tWm5acEZqVFNyWGxVckp6TjZlWXhzbTJ4M0JBZmVXdEQ0?oc=5",
+        "published": "Sun, 17 May 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -320,19 +320,19 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "글로벌분석",
-        "title": "EU 핵심원자재법 파장…글로벌 공급망 재편 신호탄, 한국 산업 새 시험대에 - 뉴스N연합",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iQ011eXNQUC1wUUZFaVFvY2VXTmhUa0w2bmx5UFNxNHpUMVNxMUktTDNLdHpIelFTRXlNQzNyeng4eDNGQ0V2VXdB?oc=5\" target=\"_blank\">EU 핵심원자재법 파장…글로벌 공급망 재편 신호탄, 한국 산업 새 시험대에</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스N연합</font>",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iQ011eXNQUC1wUUZFaVFvY2VXTmhUa0w2bmx5UFNxNHpUMVNxMUktTDNLdHpIelFTRXlNQzNyeng4eDNGQ0V2VXdB?oc=5",
-        "published": "Wed, 15 Jul 2026 22:33:42 GMT"
+        "title": "유비리서치, '디스플레이 넥스트 2027' 개최 - 디일렉",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE10LThfcnZJVjNQSjZfRjRIVWY4OG5VTWY5V2MtenhFRjR6cnAybFpUdG1kVC1acktQLWhwdXh3a1czVWJyLXBtRHZfVHpwZWx6SVR3cGtGSnRfSWsxQUo1dTc4YWlrQQ?oc=5\" target=\"_blank\">유비리서치, '디스플레이 넥스트 2027' 개최</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">디일렉</font>",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10LThfcnZJVjNQSjZfRjRIVWY4OG5VTWY5V2MtenhFRjR6cnAybFpUdG1kVC1acktQLWhwdXh3a1czVWJyLXBtRHZfVHpwZWx6SVR3cGtGSnRfSWsxQUo1dTc4YWlrQQ?oc=5",
+        "published": "Wed, 15 Jul 2026 02:52:39 GMT"
       },
       {
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "글로벌분석",
-        "title": "유비리서치, '디스플레이 넥스트 2027' 개최 - 디일렉",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE10LThfcnZJVjNQSjZfRjRIVWY4OG5VTWY5V2MtenhFRjR6cnAybFpUdG1kVC1acktQLWhwdXh3a1czVWJyLXBtRHZfVHpwZWx6SVR3cGtGSnRfSWsxQUo1dTc4YWlrQQ?oc=5\" target=\"_blank\">유비리서치, '디스플레이 넥스트 2027' 개최</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">디일렉</font>",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10LThfcnZJVjNQSjZfRjRIVWY4OG5VTWY5V2MtenhFRjR6cnAybFpUdG1kVC1acktQLWhwdXh3a1czVWJyLXBtRHZfVHpwZWx6SVR3cGtGSnRfSWsxQUo1dTc4YWlrQQ?oc=5",
-        "published": "Wed, 15 Jul 2026 02:52:39 GMT"
+        "title": "유비리서치, 내달 12일 디스플레이 공급망 시장전략 세미나 - 연합뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TaTBGVmppSm5xeEFEZzZ5SktXdm9oaV9rQ2hfLVNGWDQ1NFlaUzgzTHJQNGVVdkRtRnBzYi1xT1lab3NsY0RhUUloU19sUnZrSmZKcUlUbzdlNWfSAWBBVV95cUxNVUdRb2ZVUDVoWUhTMFhmVkw4cTZfVDM4eFQ5aWdNLW9LdGVLVEtITUp1ZTFDOFRtTktSTERWYmVrMWo5dWhoSDdyUjNUclNvUzU2SC1nNjRaX1hndk",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TaTBGVmppSm5xeEFEZzZ5SktXdm9oaV9rQ2hfLVNGWDQ1NFlaUzgzTHJQNGVVdkRtRnBzYi1xT1lab3NsY0RhUUloU19sUnZrSmZKcUlUbzdlNWfSAWBBVV95cUxNVUdRb2ZVUDVoWUhTMFhmVkw4cTZfVDM4eFQ5aWdNLW9LdGVLVEtITUp1ZTFDOFRtTktSTERWYmVrMWo5dWhoSDdyUjNUclNvUzU2SC1nNjRaX1hndkcyT2I?oc=5",
+        "published": "Wed, 15 Jul 2026 00:38:31 GMT"
       },
       {
         "source": "GoogleNews",
