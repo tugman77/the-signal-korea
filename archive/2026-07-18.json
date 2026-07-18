@@ -37,19 +37,7 @@
       ],
       "image_keyword": "helium gas cylinder semiconductor",
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-07-18_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "한국 연간 헬륨 수입량 약 4,500톤(액화 환산) — 공식 통계 출처 불명확",
-          "중국 헬륨을 '이중용도 물자' 공식 지정 — 2025년 시행 여부 현시점 미확인",
-          "SK하이닉스 HBM4 극저온 본딩 헬륨 소비 약 15% 증가 추정 — 검증 근거 없음"
-        ],
-        "image_keyword_ok": true,
-        "notes": "기업·정책 개연성 높고 구조 논리 탄탄. 수치 일부는 추정치 표기 필요.",
-        "verified_at": "2026-07-18 10:49"
-      }
+      "image_url": "images/2026-07-18_article_0.jpg"
     },
     {
       "id": 2,
@@ -85,19 +73,7 @@
       ],
       "image_keyword": "gallium metal production refinery",
       "timestamp": "오전 09:30",
-      "image_url": "images/2026-07-18_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "한국 전체 갈륨 수입량 약 20~25톤 추정 — 공식 통계 인용 없이 추정치 사용",
-          "중국 갈륨 수출 허가제 후 대한국 수출 70% 이상 감소 — 구체 출처 불명",
-          "고려아연 6N 순도 갈륨 달성 여부 미검증 — 기사 내에서도 인정하나 강조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "고려아연 투자 계획 발표는 실제 사실. 수치 추정 근거 보강 권고.",
-        "verified_at": "2026-07-18 10:49"
-      }
+      "image_url": "images/2026-07-18_article_1.jpg"
     },
     {
       "id": 3,
@@ -121,19 +97,7 @@
       ],
       "image_keyword": "neodymium magnet rare earth robot",
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-07-18_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "NdFeB 영구자석 중국 생산 비중 글로벌 약 92% — 출처 없음(통상 85~90% 인용)",
-          "2025년 4월 개정 '광물자원법' 시행 — 정확한 법령명·시행일 확인 필요",
-          "허가 불발 사례 분기당 수십 건 — 구체 근거·출처 부재"
-        ],
-        "image_keyword_ok": true,
-        "notes": "브리프 형식으로 분량 짧아 근거 희박. NdFeB 수치 출처 보강 필수.",
-        "verified_at": "2026-07-18 10:49"
-      }
+      "image_url": "images/2026-07-18_article_2.jpg"
     },
     {
       "id": 4,
@@ -169,19 +133,7 @@
       ],
       "image_keyword": "AI data center GPU server rack",
       "timestamp": "오전 10:00",
-      "image_url": "images/2026-07-18_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "한국 2024년 엔비디아 H100 약 5만 장 이상 수입 — 한국무역협회 통계 인용이나 GPU 단위 직접 통계 부재",
-          "허가 심사 기간 통상 45~90일 — BIS 공식 기준과 상이할 수 있어 확인 필요",
-          "카카오브레인·업스테이지 GPU 외부 클라우드 의존 비중 높다는 주장 — 수치 근거 없음"
-        ],
-        "image_keyword_ok": true,
-        "notes": "BIS 정책 방향 개연성 높음. GPU 수입 수치 등 추정치 명기 권고.",
-        "verified_at": "2026-07-18 10:49"
-      }
+      "image_url": "images/2026-07-18_article_3.jpg"
     },
     {
       "id": 5,
@@ -215,20 +167,9 @@
         "투자자라면 CRMA 수혜 한국 소재 기업 중 '유럽 특허 보유 + 현지 법인 운영 + ESG 등급 B 이상'을 동시에 충족하는 기업으로 선별 기준을 좁혀야 한다. 이 세 가지를 모두 갖춘 기업이 국내에 10개 미만임을 감안하면, 스크리닝이 어렵지 않다.",
         "실제 조달 현장에서는 — 유럽 바이어들이 한국 소재 기업에게 '납기 준수율(on-time delivery rate) 95% 이상 증빙자료'와 '지난 3년간 고객사 클레임 처리 내역'을 첫 미팅 전에 요청하는 사례가 늘고 있다. 이 데이터를 정리해두지 않은 기업은 첫 번째 관문에서 탈락한다는 사실을 현장에서 반복적으로 목격했다."
       ],
-      "image_keyword": "EU critical minerals supply chain partnership",
+      "image_keyword": "EU critical raw materials supply chain Europe",
       "timestamp": "오전 10:20",
-      "image_url": "images/2026-07-18_article_5.jpg",
-      "review": {
-        "trust_score": 5,
-        "status": "pass",
-        "suspicious_claims": [
-          "CRMA 단일 제3국 의존도 65% 이하 조항 — 실제 조항은 '특정 전략원자재 65% 이하' 세부 적용 범위 재확인 권고",
-          "소부장 예산 1,700억 원 중 400억 원 전략광물 배분 — 공식 예산안과 세부 배분 수치 확인 필요"
-        ],
-        "image_keyword_ok": false,
-        "notes": "CRMA 법령·발효일·골자 정확. ESG·CBAM 연계 서술도 사실에 부합. 이미지 키워드 소폭 구체화 권고.",
-        "verified_at": "2026-07-18 10:49"
-      }
+      "image_url": "images/2026-07-18_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 통제가 가격 압박을 넘어 공급망 절단 수준으로 고도화되며 한국 반도체·AI·소부장 전반에 실질 충격이 가시화되고 있다. 동시에 미국 AI칩 수출 허가 의무화까지 맞물려 한국은 양측 규제 리스크를 동시에 관리해야 하는 국면에 진입했다. EU CRMA 대응을 교두보 삼아 공급망 다변화 전략을 선제적으로 실행하는 기업에 투자 기회가 열린다.",
@@ -258,6 +199,5 @@
       "label": "EU CRMA 진출 창구",
       "status": "소부장 기회 확대"
     }
-  ],
-  "last_reviewed_at": "2026-07-18 10:49"
+  ]
 }
