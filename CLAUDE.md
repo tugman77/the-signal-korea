@@ -186,6 +186,15 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 
 이미지 파일명: `images/YYYY-MM-DD_article_N.jpg`
 
+### 이미지 배정 규칙 (2026-07-18 버그픽스 · 필독)
+1. **파일명 N = 기사의 배열 위치(0-based), id와 반드시 일치.**
+   - 이미지는 `download_article_images()`에서 `enumerate` 위치로 저장(`article_{i}.jpg`)한다.
+   - 반면 Claude가 만드는 `id`는 1-based일 수 있어, 과거 `기사검수.py`가 **id로 재다운로드 경로를 계산**해 다른 기사 이미지를 덮어써 **중복·무관 사진**이 발생했다.
+   - 조치: `기사자동생성.py`가 dedup 직후 **id를 배열 위치(0-based)로 정규화**한다. 데이터를 손으로 만들거나 고칠 때도 `id == 배열 위치`를 지킬 것.
+2. **재다운로드는 기사의 실제 `image_url` 경로에만 덮어쓴다.** id로 경로를 새로 계산하지 말 것(`기사검수.py apply_image_keyword_fixes`).
+3. **`image_keyword`는 촬영 가능한 구체적 사물 중심 영문 2~4단어.** 국가명·지명(Korea, Seoul, China)·추상어(strategy, policy, supply chain)는 금지 — 도시 전경·국기 등 무관 사진의 원인. 예: `gallium metal ingot`, `rare earth magnet`, `semiconductor wafer cleanroom`.
+4. **검수 자동 감지**(`check_images`, API 키 불필요): ① 두 기사가 같은 `image_url` 참조 시 중복 경고, ② `image_url` 파일명이 자기 위치(`article_{i}.jpg`)와 다르면 불일치 경고. 텔레그램 보고에 포함.
+
 ---
 
 ## RSS 피드
