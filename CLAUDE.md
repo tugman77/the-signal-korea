@@ -230,6 +230,8 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 - **핵심시그널 검정칸** (index.html): `.signal-label` 다크배경 정의가 사이드바 핵심시그널 라벨에까지 상속 → 티커바로 스코프 축소(`.signal-bar .signal-label { ... }`)해 해결. (article.html은 `signal-label-txt` 사용해 무관)
 - **카테고리·검색 중복 기사** (category.html, search.html): 오늘 기사 + 아카이브 병합 시 제목 기준 `Set` 중복 제거 필터 적용(첫 등장만 유지).
 - **쿠팡 광고 연속 노출** (article.html): 하단에 몰려 있던 캐러셀 광고 1개를 본문 중간(MEANING↔WINNER 사이)으로 이동, 하단은 리더보드 배너만 유지.
+- **속보 빈 섹션 노출** (article.html, 2026-07-18): 속보(is_brief) 기사는 meaning/winner/loser가 빈 배열인데도 섹션 헤더가 그대로 렌더링됐다. `renderParagraphs()`가 내용 없는 섹션은 `.frame-section`째 숨기고, `renumberFrames()`가 남은 섹션 번호를 ①부터 다시 부여. is_brief 기사에는 카테고리 옆 "⚡ 속보" 배지 + 요약 아래 포맷 안내문 표시(FACT·ACTION만 전달하는 속보임을 명시).
+- **이미지 중복·무관 사진** (기사자동생성.py, 기사검수.py, 2026-07-18): 파일명은 배열 위치(`article_{i}`)로 저장되나 검수의 재다운로드가 기사 `id`(1-based)로 경로를 계산 → id≠위치 시 남의 이미지를 덮어써 중복 발생. 조치는 위 "이미지 관리 › 이미지 배정 규칙" 절 참조.
 
 ---
 
@@ -299,7 +301,7 @@ python 기사검수.py                  # 검수
 - [x] GitHub 저장소 생성: `tugman77/the-signal-korea` — 완료 (라이브 운영 중)
 - [x] 코드 push (index/article/category/search/about/advertising/privacy/terms.html, 기사자동생성.py 등)
 - [x] `ANTHROPIC_API_KEY` Secret 등록
-- [ ] `UNSPLASH_ACCESS_KEY` Secret 등록 (선택)
+- [x] `UNSPLASH_ACCESS_KEY` Secret 등록 완료 (2026-07-18) — 기사 내용 매칭 사진의 핵심 조건
 - [ ] `PEXELS_API_KEY` Secret 등록 (선택)
 - [x] `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` Secret 등록 완료 (전송 실패 시 위 "텔레그램 보고 문제해결"로 chat_id 확인)
 - [x] **GitHub Pages 활성화** (Settings → Pages → main / root)
