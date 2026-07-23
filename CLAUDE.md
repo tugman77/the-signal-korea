@@ -5,7 +5,8 @@
 **5단계 고정 프레임**: Fact → Meaning → Winner → Loser → Action
 
 - **GitHub 저장소(라이브):** `tugman77/the-signal-korea` — 운영 중
-- **라이브 URL:** https://tugman77.github.io/the-signal-korea
+- **라이브 URL:** https://thesignalkorea.co.kr (커스텀 도메인, 2026-07-23 연결) · 원본 https://tugman77.github.io/the-signal-korea
+- **커스텀 도메인:** `thesignalkorea.co.kr` (apex). 저장소 루트 `CNAME` 파일로 설정. DNS는 GitHub Pages A/AAAA 레코드 + `www` CNAME → `tugman77.github.io`
 - **배포 방식:** GitHub Pages (main 브랜치 / root 디렉터리)
 - **AI 모델:** `claude-sonnet-4-6`
 - **DB:** 없음 (JSON 파일 기반)
