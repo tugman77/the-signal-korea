@@ -36,6 +36,9 @@ TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
 OUTPUT_FILE = "articles.json"
 IMAGES_DIR  = "images"
 IMAGE_HISTORY_FILE = "image_history.json"  # 날짜 간 photo-ID·MD5 이력 (run 간 재사용 방지)
+TOPIC_HISTORY_FILE = "scripts/topic_history.json"  # 토픽키 → 마지막 발행일 (반복 주제 쿨다운). 워크플로 git add의 scripts/ 에 포함돼 run 간 유지된다.
+TOPIC_COOLDOWN_DAYS = 7                     # 이 기간 내 다룬 토픽은 '새 전개' 있을 때만 재발행
+RECENT_CONTEXT_DAYS = 10                    # 프롬프트에 넣을 최근 발행 기사 창(제목+요약)
 
 # ════════════════════════════════════════════════════════
 # 이미지 관리 규칙 (IMAGE RULES) — 소재타임스와 동일 방식
@@ -219,13 +222,24 @@ def collect_news_from_rss(max_per_feed=5):
     return deduplicate_rss(collected)
 
 
-# ── 최근 3일 기사 제목 추출 (중복 주제 방지) ──────────────────────
-def get_recent_titles(days=3):
-    recent_titles = []
+# ── 최근 발행 기사 컨텍스트 (제목+요약) 추출 (중복 주제 방지) ──────
+def get_recent_titles(days=RECENT_CONTEXT_DAYS):
+    """최근 `days`일 발행 기사의 '제목 — 요약' 리스트 반환 (중복 제거).
+    제목만이 아니라 요약까지 넣어 '단어만 바꾼 같은 토픽'을 모델이 인지하게 한다."""
+    items, seen = [], set()
+
+    def _add(arts):
+        for a in arts:
+            t = (a.get("title") or "").strip()
+            if not t or t in seen:
+                continue
+            seen.add(t)
+            s = (a.get("summary") or "").strip()
+            items.append(f"{t} — {s[:60]}" if s else t)
+
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        recent_titles += [a.get("title", "") for a in data.get("articles", [])]
+            _add(json.load(f).get("articles", []))
     except Exception:
         pass
     try:
@@ -234,13 +248,81 @@ def get_recent_titles(days=3):
         for dk in (idx.get("dates", []))[:days]:
             try:
                 with open(f"archive/{dk}.json", "r", encoding="utf-8") as f:
-                    d = json.load(f)
-                recent_titles += [a.get("title", "") for a in d.get("articles", [])]
+                    _add(json.load(f).get("articles", []))
             except Exception:
                 pass
     except Exception:
         pass
-    return list(set(filter(None, recent_titles)))
+    return items
+
+
+# ── 토픽 원장 (반복 주제 쿨다운) ──────────────────────────────────
+def load_topic_history():
+    """topic_history.json → {topic_key: 'YYYY-MM-DD'} 로드. 없으면 빈 dict."""
+    try:
+        with open(TOPIC_HISTORY_FILE, "r", encoding="utf-8") as f:
+            h = json.load(f)
+        return h if isinstance(h, dict) else {}
+    except Exception:
+        return {}
+
+
+def build_cooldown_block(history, today_str, days=TOPIC_COOLDOWN_DAYS):
+    """최근 `days`일 내 다룬 토픽을 '경과일'과 함께 프롬프트 블록 텍스트로 만든다."""
+    from datetime import date
+    try:
+        today = date.fromisoformat(today_str)
+    except Exception:
+        return ""
+    rows = []
+    for key, last in history.items():
+        try:
+            gap = (today - date.fromisoformat(last)).days
+        except Exception:
+            continue
+        if 0 <= gap <= days:
+            rows.append((gap, key))
+    if not rows:
+        return ""
+    rows.sort()
+    lines = "\n".join(
+        f"  - {key} ({'오늘' if g == 0 else f'{g}일 전'} 다룸)" for g, key in rows
+    )
+    return f"""
+[최근 다룬 토픽 — 쿨다운 {days}일]
+아래 토픽은 최근 {days}일 내 이미 발행했습니다. **"새로운 전개(신규 수치·사건·정책 변화)"가 있을 때만** 재발행하고,
+그 변화점을 제목과 FACT 첫 단락에 반드시 명시하세요. 새 전개가 없으면 이 토픽은 건너뛰고 다른 주제를 고르세요.
+{lines}
+"""
+
+
+def save_topic_history(articles, date_str):
+    """생성 확정된 기사들의 topic_key를 오늘 날짜로 기록. 오래된(30일↑) 항목은 정리."""
+    from datetime import date
+    history = load_topic_history()
+    for a in articles:
+        key = (a.get("topic_key") or "").strip()
+        if key:
+            history[key] = date_str
+    try:
+        today = date.fromisoformat(date_str)
+        history = {k: v for k, v in history.items()
+                   if _within_days(v, today, 30)}
+    except Exception:
+        pass
+    try:
+        with open(TOPIC_HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"   ⚠️ topic_history 저장 실패: {e}")
+
+
+def _within_days(date_iso, today, n):
+    from datetime import date
+    try:
+        return (today - date.fromisoformat(date_iso)).days <= n
+    except Exception:
+        return False
 
 
 # ── sojaetimes 브리핑 로드 ──────────────────────────────────────────
@@ -259,7 +341,7 @@ def load_sojaetimes_briefing() -> dict:
 
 
 # ── Claude API로 기사 생성 ──────────────────────────────────────────
-def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_briefing=None):
+def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_briefing=None, cooldown_block=""):
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
     news_text = ""
@@ -273,10 +355,11 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 
     recent_block = ""
     if recent_titles:
-        recent_list = "\n".join(f"  - {t}" for t in recent_titles[:20])
+        recent_list = "\n".join(f"  - {t}" for t in recent_titles[:40])
         recent_block = f"""
-[이미 다룬 주제 — 반드시 피할 것]
-아래 제목과 동일하거나 매우 유사한 주제의 기사는 절대 작성하지 마세요:
+[최근 {RECENT_CONTEXT_DAYS}일 발행 기사 — 재탕 금지]
+아래는 최근 발행분(제목 — 요약)입니다. 표현·수치를 바꿔도 **같은 사건·같은 결론**이면 재탕입니다.
+동일 토픽은 새로운 전개가 있을 때만, 그 변화점을 앞세워 다루세요:
 {recent_list}
 """
 
@@ -322,6 +405,7 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 {sojaetimes_section}{news_section}
 
 {recent_block}
+{cooldown_block}
 
 [카테고리 비중 — 반드시 준수]
 - 공급망전쟁: 5기사 중 2~3개 (50% 목표) — 갈륨·탄탈럼·희토류·리튬 등 소재 중심
@@ -335,6 +419,7 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 - 각 단계 최소 2개 이상 구체적 통계 수치 또는 기업명 포함
 - 제목: 15~25자, 핵심 팩트·수치 중심 (예: "중국 갈륨 수출 99% 차단, 한국 연간 700억 리스크")
 - summary: 2~3문장 핵심 요약 (150자 이내), 투자자 관점에서 서술
+- topic_key: 위 스키마 설명대로 사건 단위 정규화 키를 반드시 부여. 같은 사건이면 표현이 달라도 동일 키. 5개 기사의 topic_key는 서로 달라야 하며, 위 '쿨다운' 목록의 키와 겹치면 새 전개가 없는 한 그 주제를 피할 것.
 - image_keyword: 사진으로 촬영 가능한 구체적 사물·장면 중심의 영문 2~4단어. 예: "gallium metal ingot", "tantalum ore mineral", "semiconductor wafer cleanroom", "rare earth magnet", "data center server rack".
   · 국가명·지명(Korea, Seoul, China, US 등)과 추상어(strategy, policy, economy, market, supply chain)는 넣지 말 것 — 도시 전경·국기 같은 무관한 사진이 나온다.
 - 중요: 5개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 잉곳 vs 탄탈럼 광석 vs 데이터센터 서버 등)
@@ -379,6 +464,7 @@ save_articles 도구를 사용해 기사 5개를 저장하세요.
                             "type": "object",
                             "properties": {
                                 "id":            {"type": "integer"},
+                                "topic_key":     {"type": "string", "description": "이 기사의 핵심 사건을 나타내는 정규화 토픽키. 핵심 엔티티+사건을 한글 2~4단어로 하이픈 연결(예: '고려아연-갈륨-국내생산', '미중-AI칩-수출통제', '중국-헬륨-수출통제'). 표현이 달라도 같은 사건이면 반드시 같은 키를 쓸 것 — 날짜 간 중복 판정에 쓰인다."},
                                 "category":      {"type": "string", "enum": ["기술패권","공급망전쟁","산업전략","글로벌분석"]},
                                 "tag_type":      {"type": "string", "enum": ["tag-hegemony","tag-supply","tag-strategy","tag-global"]},
                                 "title":         {"type": "string"},
@@ -393,7 +479,7 @@ save_articles 도구를 사용해 기사 5개를 저장하세요.
                                 "is_featured":   {"type": "boolean"},
                                 "timestamp":     {"type": "string"}
                             },
-                            "required": ["id","category","tag_type","title","summary","is_brief",
+                            "required": ["id","topic_key","category","tag_type","title","summary","is_brief",
                                          "fact","meaning","winner","loser","action",
                                          "image_keyword","is_featured","timestamp"]
                         },
@@ -776,20 +862,33 @@ def main():
         raw_news = collect_news_from_rss()
         print(f"   → {len(raw_news)}건 수집됨")
 
-        print("📚 최근 기사 제목 로드 (중복 방지)...")
-        recent_titles = get_recent_titles(days=3)
-        print(f"   → {len(recent_titles)}개 제목 로드됨")
+        print(f"📚 최근 {RECENT_CONTEXT_DAYS}일 발행 기사 로드 (중복 방지)...")
+        recent_titles = get_recent_titles(days=RECENT_CONTEXT_DAYS)
+        print(f"   → {len(recent_titles)}건 로드됨")
+
+        print(f"🗂️  토픽 원장 로드 (쿨다운 {TOPIC_COOLDOWN_DAYS}일)...")
+        topic_history = load_topic_history()
+        cooldown_block = build_cooldown_block(topic_history, date_key)
+        _today = datetime.fromisoformat(date_key).date()
+        cooldown_keys = {k for k, v in topic_history.items()
+                         if _within_days(v, _today, TOPIC_COOLDOWN_DAYS)}
+        print(f"   → 쿨다운 토픽 {len(cooldown_keys)}개")
 
         print("📊 sojaetimes 전문 인텔리전스 브리핑 로드 중...")
         sojaetimes_briefing = load_sojaetimes_briefing()
 
         print("✍️  Claude API로 기사 작성 중...")
-        articles = generate_articles_with_claude(raw_news, recent_titles, sojaetimes_briefing)
+        articles = generate_articles_with_claude(raw_news, recent_titles, sojaetimes_briefing, cooldown_block)
         brief_count = sum(1 for a in articles if a.get("is_brief"))
         print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
 
         print("🔍 생성된 기사 중복 검사 중...")
         articles = deduplicate_articles(articles)
+
+        # 쿨다운 토픽 재등장 모니터링 (프롬프트가 새 전개를 이유로 허용한 경우 포함 — 로그만)
+        repeats = [a.get("topic_key") for a in articles if a.get("topic_key") in cooldown_keys]
+        if repeats:
+            print(f"   ⚠️ 쿨다운({TOPIC_COOLDOWN_DAYS}일) 내 토픽 재등장: {repeats} — 새 전개 반영분인지 확인 권장")
 
         # id를 배열 위치(0-based)로 정규화 — 이미지 파일명(article_{i}.jpg)과
         # id를 일치시켜, 검수 단계의 id 기반 재다운로드가 남의 이미지를 덮어쓰지 않게 한다.
@@ -808,6 +907,7 @@ def main():
         briefing, signals = generate_editorial(articles)
 
         save_data(articles, briefing, signals, date_str, date_key)
+        save_topic_history(articles, date_key)
         print("🎉 완료!")
 
         # 텔레그램 완료 알림
