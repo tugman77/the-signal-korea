@@ -16,21 +16,41 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: 오늘 로컬 구독 발행 여부 확인 (백업 판단)
+        id: guard
+        run: |
+          # 로컬(맥)에서 구독코인으로 이미 오늘 기사를 발행·push 했으면 클라우드 백업을 건너뛴다.
+          # articles.json 의 generated_at 이 오늘(KST) 날짜를 포함하는지로 판단한다.
+          TODAY=$(TZ=Asia/Seoul date '+%Y년 %m월 %d일')
+          GEN=$(grep -o '"generated_at":[^,]*' articles.json 2>/dev/null | head -1)
+          echo "오늘=$TODAY / $GEN"
+          if echo "$GEN" | grep -q "$TODAY"; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "✅ 로컬 구독 발행이 이미 완료됨 — 클라우드 백업 생략 (API코인 절약)"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "⚠️ 오늘 발행 없음 — 클라우드가 API코인으로 백업 발행"
+          fi
+
       - name: Set up Python
+        if: steps.guard.outputs.skip != 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install dependencies
+        if: steps.guard.outputs.skip != 'true'
         run: pip install anthropic feedparser requests pillow json-repair
 
       - name: sojaetimes 전문 인텔리전스 수집
+        if: steps.guard.outputs.skip != 'true'
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python sojaetimes/collect.py
 
       - name: Generate articles
+        if: steps.guard.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
@@ -41,6 +61,7 @@ jobs:
         run: python 기사자동생성.py
 
       - name: Review articles
+        if: steps.guard.outputs.skip != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -53,6 +74,7 @@ jobs:
         continue-on-error: true  # 검수 실패가 배포를 막지 않도록
 
       - name: Commit and push
+        if: steps.guard.outputs.skip != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

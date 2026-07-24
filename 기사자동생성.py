@@ -16,7 +16,10 @@
   - SEO: image_keyword를 구체적 소재명 기반으로 생성
 """
 
+from __future__ import annotations  # 로컬 Python 3.9에서 `str | None` 등 어노테이션 허용 (지연 평가)
+
 import anthropic
+import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK) 전환
 import feedparser
 import json
 import os
@@ -449,7 +452,7 @@ save_articles 도구를 사용해 기사 5개를 저장하세요.
 - timestamp: 현재 시각 기준 오전/오후 HH:MM 형식
 """
 
-    with client.messages.stream(
+    request_params = dict(
         model="claude-sonnet-4-6",
         max_tokens=32000,
         tools=[{
@@ -492,11 +495,16 @@ save_articles 도구를 사용해 기사 5개를 저장하세요.
         }],
         tool_choice={"type": "tool", "name": "save_articles"},
         messages=[{"role": "user", "content": prompt}]
-    ) as stream:
-        response = stream.get_final_message()
+    )
 
-    tool_block = next(b for b in response.content if b.type == "tool_use")
-    articles = tool_block.input["articles"]
+    # ── LLM 호출: 구독코인(Claude Code) vs API코인(anthropic SDK) ──
+    if llm_backend.using_subscription():
+        articles = llm_backend.call_tool(request_params, "save_articles")["articles"]
+    else:
+        with client.messages.stream(**request_params) as stream:
+            response = stream.get_final_message()
+        tool_block = next(b for b in response.content if b.type == "tool_use")
+        articles = tool_block.input["articles"]
     if isinstance(articles, str):
         print("⚠️  articles가 str 타입, json_repair 시도...")
         try:
@@ -540,7 +548,7 @@ def generate_editorial(articles):
 """
 
     try:
-        response = client.messages.create(
+        request_params = dict(
             model="claude-sonnet-4-6",
             max_tokens=800,
             tools=[{
@@ -571,9 +579,15 @@ def generate_editorial(articles):
             tool_choice={"type": "tool", "name": "save_editorial"},
             messages=[{"role": "user", "content": prompt}]
         )
-        tool_block = next(b for b in response.content if b.type == "tool_use")
-        briefing = tool_block.input["briefing"]
-        signals  = tool_block.input["signals"]
+        # ── LLM 호출: 구독코인 vs API코인 ──
+        if llm_backend.using_subscription():
+            data = llm_backend.call_tool(request_params, "save_editorial")
+            briefing, signals = data["briefing"], data["signals"]
+        else:
+            response = client.messages.create(**request_params)
+            tool_block = next(b for b in response.content if b.type == "tool_use")
+            briefing = tool_block.input["briefing"]
+            signals  = tool_block.input["signals"]
         print(f"   → 브리핑 생성 완료, 시그널 {len(signals)}개")
         return briefing, signals
     except Exception as e:

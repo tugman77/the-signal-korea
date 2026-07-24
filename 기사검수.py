@@ -22,6 +22,7 @@ import hashlib
 import argparse
 import importlib
 import requests
+import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK) 전환
 from datetime import datetime, timezone, timedelta
 from collections import Counter
 
@@ -249,14 +250,16 @@ def _stage_preview(article):
 def review_articles_with_claude(articles):
     """Claude로 사실성(trust_score) + 이미지 키워드 연관성을 검수.
     ANTHROPIC_API_KEY 없거나 오류 시 빈 리스트 반환(구조 검수는 계속 진행)."""
-    if not ANTHROPIC_API_KEY:
+    # 구독코인 모드에서는 API키 없이도 검수 진행(헤드리스 사용)
+    if not ANTHROPIC_API_KEY and not llm_backend.using_subscription():
         log("ANTHROPIC_API_KEY 없음 — Claude 사실·이미지 검수 건너뜀", "WARN")
         return []
     try:
         import anthropic
     except ImportError:
-        log("anthropic 패키지 없음 — Claude 검수 건너뜀", "WARN")
-        return []
+        if not llm_backend.using_subscription():
+            log("anthropic 패키지 없음 — Claude 검수 건너뜀", "WARN")
+            return []
 
     summaries = []
     for a in articles:
@@ -331,14 +334,18 @@ review_articles 도구로 전체 검수 결과를 반환하세요."""
     }
 
     try:
-        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-        resp = client.messages.create(
+        request_params = dict(
             model=MODEL,
             max_tokens=4096,
             tools=[tool],
             tool_choice={"type": "tool", "name": "review_articles"},
             messages=[{"role": "user", "content": prompt}],
         )
+        # ── LLM 호출: 구독코인(Claude Code) vs API코인(anthropic SDK) ──
+        if llm_backend.using_subscription():
+            return llm_backend.call_tool(request_params, "review_articles")["reviews"]
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        resp = client.messages.create(**request_params)
         block = next(b for b in resp.content if b.type == "tool_use")
         return block.input["reviews"]
     except Exception as e:
