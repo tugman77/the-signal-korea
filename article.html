@@ -497,11 +497,64 @@
     }
   }
 
+  // 기사별 OG/트위터 카드 + NewsArticle 구조화데이터 동적 주입
+  // (JSON을 클라이언트에서 읽는 구조라 정적 태그가 없음 → 검색봇/공유 미리보기용으로 렌더 시 삽입)
+  const SITE = 'https://www.thesignalkorea.co.kr';
+  function injectMeta(article) {
+    const canonical = `${SITE}/article.html?${datePrefix}id=${articleId}`;
+    const desc = (article.summary || '').slice(0, 200);
+    const img = article.image_url
+      ? `${SITE}/${article.image_url.replace(/^\//, '')}`
+      : `${SITE}/images/og-default.jpg`;
+    const setMeta = (attr, key, val) => {
+      let el = document.head.querySelector(`meta[${attr}="${key}"]`);
+      if (!el) { el = document.createElement('meta'); el.setAttribute(attr, key); document.head.appendChild(el); }
+      el.setAttribute('content', val);
+    };
+    let link = document.head.querySelector('link[rel="canonical"]');
+    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    link.href = canonical;
+
+    document.querySelector('meta[name="description"]')?.setAttribute('content', desc);
+    setMeta('property', 'og:type', 'article');
+    setMeta('property', 'og:site_name', 'THE SIGNAL KOREA');
+    setMeta('property', 'og:title', article.title);
+    setMeta('property', 'og:description', desc);
+    setMeta('property', 'og:url', canonical);
+    setMeta('property', 'og:image', img);
+    setMeta('property', 'og:locale', 'ko_KR');
+    setMeta('property', 'article:section', article.category || '');
+    setMeta('name', 'twitter:card', 'summary_large_image');
+    setMeta('name', 'twitter:title', article.title);
+    setMeta('name', 'twitter:description', desc);
+    setMeta('name', 'twitter:image', img);
+
+    const ld = {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": article.title,
+      "description": desc,
+      "image": [img],
+      "articleSection": article.category || undefined,
+      "url": canonical,
+      "mainEntityOfPage": canonical,
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "THE SIGNAL KOREA",
+        "logo": { "@type": "ImageObject", "url": `${SITE}/images/og-default.jpg` }
+      }
+    };
+    let s = document.getElementById('ld-article');
+    if (!s) { s = document.createElement('script'); s.type = 'application/ld+json'; s.id = 'ld-article'; document.head.appendChild(s); }
+    s.textContent = JSON.stringify(ld);
+  }
+
   function render(article, allArticles, briefing, signals) {
     const cv = getCat(article);
     const today = fmtDate(new Date());
 
     document.title = `${article.title} — THE SIGNAL KOREA`;
+    injectMeta(article);
     document.getElementById('bc-cat').textContent   = article.category;
     document.getElementById('bc-title').textContent = article.title;
 

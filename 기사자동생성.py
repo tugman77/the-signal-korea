@@ -37,6 +37,7 @@ TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
 
 OUTPUT_FILE = "articles.json"
+SITE_URL    = "https://www.thesignalkorea.co.kr"  # SEO/RSS 절대경로 기준
 IMAGES_DIR  = "images"
 IMAGE_HISTORY_FILE = "image_history.json"  # 날짜 간 photo-ID·MD5 이력 (run 간 재사용 방지)
 TOPIC_HISTORY_FILE = "scripts/topic_history.json"  # 토픽키 → 마지막 발행일 (반복 주제 쿨다운). 워크플로 git add의 scripts/ 에 포함돼 run 간 유지된다.
@@ -829,6 +830,89 @@ def download_article_images(articles, date_str):
 
 
 # ── 데이터 저장 ──────────────────────────────────────────────────────
+def _xml_escape(s: str) -> str:
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def generate_seo_files(articles, date_key, now):
+    """sitemap.xml + rss.xml 생성 — 검색엔진 크롤링·구독(뉴스레터/구글뉴스) 경로 확보.
+    매일 발행분과 함께 자동 갱신된다. 순수 파일 생성(추가 API 호출 없음)."""
+    static_pages = ["", "category.html", "search.html", "about.html",
+                    "advertising.html", "privacy.html", "terms.html"]
+    lastmod = now.strftime("%Y-%m-%d")
+
+    # ── 아카이브 날짜별 기사 URL 수집 (사이트맵용) ──
+    date_articles = [(date_key, articles)]
+    try:
+        with open("archive/index.json", "r", encoding="utf-8") as f:
+            dates = json.load(f).get("dates", [])
+    except (FileNotFoundError, json.JSONDecodeError):
+        dates = [date_key]
+    for dk in dates:
+        if dk == date_key:
+            continue
+        try:
+            with open(f"archive/{dk}.json", "r", encoding="utf-8") as f:
+                date_articles.append((dk, json.load(f).get("articles", [])))
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+
+    # ── sitemap.xml ──
+    urls = []
+    for p in static_pages:
+        loc = f"{SITE_URL}/{p}" if p else f"{SITE_URL}/"
+        pr = "1.0" if p == "" else "0.6"
+        urls.append(f"  <url><loc>{_xml_escape(loc)}</loc>"
+                    f"<lastmod>{lastmod}</lastmod>"
+                    f"<changefreq>daily</changefreq><priority>{pr}</priority></url>")
+    for dk, arts in date_articles:
+        for a in arts:
+            loc = f"{SITE_URL}/article.html?date={dk}&id={a.get('id', 0)}"
+            urls.append(f"  <url><loc>{_xml_escape(loc)}</loc>"
+                        f"<lastmod>{dk}</lastmod>"
+                        f"<changefreq>monthly</changefreq><priority>0.8</priority></url>")
+    sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+               + "\n".join(urls) + "\n</urlset>\n")
+    with open("sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(sitemap)
+    print(f"🗺️  sitemap.xml 저장 — URL {len(urls)}개")
+
+    # ── rss.xml (최신 30개) ──
+    items = []
+    for dk, arts in date_articles:
+        for a in arts:
+            items.append((dk, a))
+    items.sort(key=lambda x: x[0], reverse=True)
+    rss_items = []
+    for dk, a in items[:30]:
+        link = f"{SITE_URL}/article.html?date={dk}&id={a.get('id', 0)}"
+        pub = datetime.strptime(dk, "%Y-%m-%d").replace(tzinfo=KST)
+        rss_items.append(
+            "    <item>\n"
+            f"      <title>{_xml_escape(a.get('title', ''))}</title>\n"
+            f"      <link>{_xml_escape(link)}</link>\n"
+            f"      <guid isPermaLink=\"true\">{_xml_escape(link)}</guid>\n"
+            f"      <category>{_xml_escape(a.get('category', ''))}</category>\n"
+            f"      <description>{_xml_escape(a.get('summary', ''))}</description>\n"
+            f"      <pubDate>{pub.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>\n"
+            "    </item>")
+    rss = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+           '  <channel>\n'
+           '    <title>THE SIGNAL KOREA — 한국 산업 인텔리전스</title>\n'
+           f'    <link>{SITE_URL}/</link>\n'
+           f'    <atom:link href="{SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />\n'
+           '    <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>\n'
+           '    <language>ko-KR</language>\n'
+           f'    <lastBuildDate>{now.strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>\n'
+           + "\n".join(rss_items) + "\n  </channel>\n</rss>\n")
+    with open("rss.xml", "w", encoding="utf-8") as f:
+        f.write(rss)
+    print(f"📡 rss.xml 저장 — 아이템 {len(rss_items)}개")
+
+
 def save_data(articles, briefing, signals, date_str, date_key):
     now = datetime.now(KST)
     data = {
@@ -860,6 +944,12 @@ def save_data(articles, briefing, signals, date_str, date_key):
     with open(index_file, "w", encoding="utf-8") as f:
         json.dump(archive_index, f, ensure_ascii=False, indent=2)
     print(f"📋 아카이브 인덱스: {len(archive_index['dates'])}일치")
+
+    # SEO/구독 파일 갱신 (sitemap·rss)
+    try:
+        generate_seo_files(articles, date_key, now)
+    except Exception as e:
+        print(f"⚠️ SEO 파일 생성 실패(발행에는 영향 없음): {type(e).__name__}: {e}")
 
 
 # ── 메인 ─────────────────────────────────────────────────────────────
