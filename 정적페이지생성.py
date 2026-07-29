@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+from urllib.parse import quote
 from datetime import datetime
 
 SITE_URL = "https://www.thesignalkorea.co.kr"
@@ -174,6 +175,16 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
     if category:
         ld["articleSection"] = category
 
+    # 공유 링크 (정적 — 링크만 붙여넣어도 각 SNS가 이 페이지 OG를 미리보기로 렌더)
+    _u, _t = quote(canonical, safe=""), quote(title)
+    _tu = quote(f"{title} {canonical}")
+    share_x  = f"https://twitter.com/intent/tweet?text={_t}&url={_u}"
+    share_th = f"https://www.threads.net/intent/post?text={_tu}"
+    share_tg = f"https://t.me/share/url?url={_u}&text={_t}"
+    _sb = ("display:inline-flex;align-items:center;gap:6px;padding:8px 14px;"
+           "border:1px solid var(--border);border-radius:6px;font-size:13px;"
+           "color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;")
+
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -230,6 +241,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
       <div class="nav-util">
         <a href="{BASE}search.html">검색</a>
         <a href="{BASE}about.html">소개</a>
+        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a>
       </div>
     </div>
   </nav>
@@ -288,6 +300,17 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
         <div class="art-actions" style="margin-top:20px;">
           <a class="back-btn" href="{BASE}index.html">← 목록으로</a>
         </div>
+
+        <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--border);">
+          <div style="font-size:11px;font-weight:700;color:var(--text-light);letter-spacing:1px;margin-bottom:12px;">이 기사 공유</div>
+          <div style="display:flex;gap:8px;flex-wrap:wrap;">
+            <a style="{_sb}" href="{share_x}" target="_blank" rel="noopener">𝕏 트위터</a>
+            <a style="{_sb}" href="{share_th}" target="_blank" rel="noopener">스레드</a>
+            <a style="{_sb}" href="{share_tg}" target="_blank" rel="noopener">텔레그램</a>
+            <button style="{_sb}" onclick="if(navigator.share){{navigator.share({{title:document.title,url:'{canonical}'}})}}else{{navigator.clipboard.writeText('{canonical}');this.textContent='링크 복사됨!'}}">🔗 링크 복사</button>
+          </div>
+          <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;background:var(--accent);color:var(--primary);font-weight:800;padding:11px 20px;border-radius:6px;font-size:13.5px;text-decoration:none;">📡 텔레그램 채널 구독 — 매일 아침 시그널 받기</a>
+        </div>
       </div>
 
     </article>
@@ -325,7 +348,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
     </div>
     <div>
       <div class="footer-links">
-        <a href="{BASE}about.html">소개</a><a href="{BASE}advertising.html">광고문의</a><a href="{BASE}privacy.html">개인정보처리방침</a><a href="{BASE}terms.html">이용약관</a>
+        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a><a href="{BASE}about.html">소개</a><a href="{BASE}advertising.html">광고문의</a><a href="{BASE}privacy.html">개인정보처리방침</a><a href="{BASE}terms.html">이용약관</a>
       </div>
       <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
     </div>

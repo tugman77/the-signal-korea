@@ -1020,6 +1020,14 @@ def save_data(articles, briefing, signals, date_str, date_key):
     except Exception as e:
         print(f"⚠️ 정적 페이지 생성 실패(발행에는 영향 없음): {type(e).__name__}: {e}")
 
+    # 스레드/X용 카드뉴스 이미지 생성 (cards/YYYY-MM-DD-N.png)
+    try:
+        import 카드뉴스생성
+        cn = 카드뉴스생성.generate_for_date(date_key, data)
+        print(f"🎴 카드뉴스 {cn}건 생성 — cards/{date_key}-*.png")
+    except Exception as e:
+        print(f"⚠️ 카드뉴스 생성 실패(발행에는 영향 없음): {type(e).__name__}: {e}")
+
     # SEO/구독 파일 갱신 (sitemap·rss)
     try:
         generate_seo_files(articles, date_key, now)
