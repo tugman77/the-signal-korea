@@ -194,6 +194,42 @@ def post_to_channel(articles, date_key, now) -> bool:
         return False
 
 
+def send_cards_to_admin(articles, date_key) -> bool:
+    """생성된 카드뉴스 이미지를 관리자 채팅으로 전송 — X·스레드에 원탭 리포스트용.
+    각 카드에 붙여넣기용 캡션(제목+링크+해시태그) 첨부. TELEGRAM_CHAT_ID 필요, 카드 파일 없으면 skip."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
+        return False
+    photos = [(i, a, f"cards/{date_key}-{i}.png")
+              for i, a in enumerate(articles)
+              if os.path.exists(f"cards/{date_key}-{i}.png")]
+    if not photos:
+        print("[카드전송] 카드 이미지 없음 — skip")
+        return False
+    send_telegram(f"🎴 <b>오늘의 카드뉴스 {len(photos)}장</b>\n아래 이미지를 저장해 X·스레드에 올리세요 (캡션은 복사용으로 함께 보냅니다)")
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    sent = 0
+    for i, a, path in photos:
+        cat = a.get("category", "")
+        emoji = _CAT_EMOJI.get(cat, "📌")
+        link = f"{SITE_URL}/news/{date_key}-{i}.html"
+        caption = (f"{emoji} [{cat}] {a.get('title','')}\n\n"
+                   f"▸ {link}\n"
+                   f"#{cat} #공급망 #반도체 #산업분석 #투자")
+        try:
+            with open(path, "rb") as fp:
+                resp = requests.post(url,
+                                     data={"chat_id": TELEGRAM_CHAT_ID, "caption": caption},
+                                     files={"photo": fp}, timeout=30)
+            if resp.ok:
+                sent += 1
+            else:
+                print(f"❌ 카드 전송 실패 {i}: {resp.status_code} {resp.text[:120]}")
+        except Exception as e:
+            print(f"카드 전송 오류 {i}: {e}")
+    print(f"🎴 관리자에게 카드 {sent}/{len(photos)}장 전송")
+    return sent > 0
+
+
 # ── 제목 유사도 (2-gram Jaccard) ──────────────────────────────────
 def title_similarity(t1: str, t2: str) -> float:
     """두 제목의 2-gram 자카드 유사도 (0.0~1.0). 0.7 이상이면 같은 뉴스로 간주."""
@@ -1099,6 +1135,9 @@ def main():
 
         # 공개 텔레그램 채널 발행 (독자용 다이제스트, 채널 미설정 시 자동 skip)
         post_to_channel(articles, date_key, now)
+
+        # 카드뉴스 이미지를 관리자에게 전송 (X·스레드 리포스트용)
+        send_cards_to_admin(articles, date_key)
 
         # 텔레그램 완료 알림
         cat_dist_str = ", ".join(f"{k}:{v}건" for k, v in cat_dist.items())
