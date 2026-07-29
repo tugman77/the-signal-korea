@@ -212,6 +212,43 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 
 ---
 
+## 배포·확산 체계 — "널리 알리기" (2026-07-28~30)
+
+검색·공유·직접도달·SNS 4개 축을 **발행 파이프라인 안에서 자동 재생성**한다(추가 API 호출 없음). 관련 자산 생성기는 모두 맥 폰트 사용 → 로컬 발행 환경 전제.
+
+### ① 검색 (SEO)
+- `기사자동생성.py generate_seo_files()`: 발행 때마다 `sitemap.xml` + `rss.xml` 자동 재생성. URL은 정적 기사페이지(`news/{date}-{id}.html`) 기준.
+- `robots.txt`(루트): `Allow: /` + `Sitemap:` 라인.
+- `index.html`: OG/트위터 카드 + canonical + RSS 링크 + `NewsMediaOrganization` JSON-LD(정적).
+- `article.html`: 기사별 OG/트위터 카드 + `NewsArticle` JSON-LD를 `injectMeta()`로 동적 주입.
+- **소유확인 파일·메타 — 삭제 금지**: `index.html`의 `google-site-verification`/`naver-site-verification` 메타, 루트 `google821e470add1bdaa9.html`.
+- 등록 현황: ✅ 구글 서치콘솔(소유확인+sitemap 제출), ✅ 네이버 서치어드바이저(소유확인+sitemap+rss 제출). 🔄 구글 뉴스 퍼블리셔 — 게시물·로고 준비 완료, [게시]만 남음.
+
+> ⚠️ **검색등록은 반드시 www 속성.** 비아웹 apex(`thesignalkorea.co.kr`)는 HTTPS를 못 서빙(https 접속 시 000). GitHub Pages는 **www에만** 붙음. 속성은 `https://www.thesignalkorea.co.kr`(URL 접두어)로 만들 것. www 없는 속성은 "사이트를 찾을 수 없습니다"로 무조건 실패.
+
+### ② 기사별 정적 공유페이지 — `정적페이지생성.py`
+- 발행 시 `news/{date}-{id}.html`(본문 포함 정적페이지) 생성 → 크롤러·카톡 미리보기·OG용. index가 이걸 기본 링크로 사용.
+- 공유버튼(X·스레드·텔레그램 share·링크복사) + 텔레그램 채널 구독 CTA 포함.
+- 템플릿 수정 후 전체 재생성: `python 정적페이지생성.py`.
+
+### ③ 직접도달 — 텔레그램 채널 @thesignalkorea
+- 공개 채널 `t.me/thesignalkorea`에 매일 발행분 자동 푸시. 봇 **@Tugmanbot**을 채널 관리자로 추가함(Post Messages 권한 필수 — 없으면 403).
+- `기사자동생성.py post_to_channel()`가 독자용 다이제스트(카테고리 이모지·요약·기사링크·해시태그) 발행. 관리자알림 `send_telegram()`과 분리, `TELEGRAM_CHANNEL_ID` 있을 때만 동작.
+- 설정: GitHub 시크릿 `TELEGRAM_CHANNEL_ID=@thesignalkorea` + 로컬 `$BASE/.env` 동일 추가.
+
+### ④ SNS 확산 — 카드뉴스 + 관리자 자동전송
+- `카드뉴스생성.py`: 발행 시 기사별 1080×1080 브랜드 카드 `cards/{date}-{id}.png` 생성(Pillow, 네이비/골드). 맥 폰트 우선 + 리눅스 한글폰트 폴백, 폰트 없으면 깔끔히 스킵.
+- `기사자동생성.py send_cards_to_admin()`: 발행 시 카드 5장을 **관리자 채팅(`TELEGRAM_CHAT_ID`)**으로 X·스레드 리포스트용 캡션(제목+news링크+해시태그)과 함께 sendPhoto 전송 → 대표님이 저장해 수동 업로드(**반자동**).
+- 브랜드 자산 생성기: `scripts/make_og_image.py`(og-default.jpg), `scripts/make_logos.py`(로고 2종).
+- **미구현(선택)**: X/Threads 직접 자동포스팅(API 토큰 필요 — X 유료, Threads Meta앱 심사), 투자 커뮤니티 시딩.
+
+### 워크플로 반영
+`.github/workflows/자동기사생성.yml`의 `git add`에 `sitemap.xml rss.xml news/ cards/` 포함, Generate 스텝 env에 `TELEGRAM_CHANNEL_ID` 추가. 로컬 `.command`는 `git add -A`라 자동 포함.
+
+> ⚠️ **DNS**: www에 CNAME(→tugman77.github.io) 하나만 정상. A레코드(121.88.250.13)가 www에 붙으면 충돌 → 일부 DNS 접속 불가. 루트(@)만 포워딩. DNS 갈아엎지 말 것.
+
+---
+
 ## RSS 피드
 
 | 소스 | 키워드 |
@@ -321,6 +358,9 @@ python 기사검수.py                  # 검수
 - [x] `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` Secret 등록 완료 (전송 실패 시 위 "텔레그램 보고 문제해결"로 chat_id 확인)
 - [x] **GitHub Pages 활성화** (Settings → Pages → main / root)
 - [x] GitHub Actions 자동기사생성.yml 매일 KST 09:00 정상 동작
+- [x] **배포·확산 체계 구축**(2026-07-30): SEO(sitemap/rss/robots/OG/구조화데이터) + 텔레그램 채널 @thesignalkorea + 기사별 정적 공유페이지 + 카드뉴스 관리자 자동전송 — 위 "배포·확산 체계" 절 참조
+- [x] `TELEGRAM_CHANNEL_ID` Secret + 로컬 .env 등록 완료 (`@thesignalkorea`)
+- [ ] 구글 뉴스 퍼블리셔 [게시] 눌러 검토 요청 (로고·게시물 준비 완료)
 - [ ] 메인 CLAUDE.md 대시보드 업데이트
 
 ---
@@ -331,14 +371,12 @@ python 기사검수.py                  # 검수
 
 ### 1. 라이브 저장소는 `tugman77/the-signal-korea` 하나뿐
 - 라이브 = **tugman77** 계정. `https://tugman77.github.io/the-signal-korea` 가 실제 서비스.
-- `ganddanbiz/the-signal-korea` 는 **미러/오배포용** — Pages 404, 서비스 안 됨.
-- **로컬 `origin` remote가 ganddanbiz를 가리키고 있음.** ganddanbiz PAT는 tugman77 저장소에 **읽기 전용(push: False)**.
-  → `git push origin main` 하면 **엉뚱한 저장소(ganddanbiz)로 가서 라이브에 안 뜬다.**
-- 반영하려면 **tugman77 계정 PAT**(scope `repo`)로 명시 푸시:
+- **현재 `origin` remote가 tugman77/the-signal-korea 를 가리킴**(2026-07 정정 — 과거 ganddanbiz 경고는 해소됨). `origin`과 `tugman77` remote는 **같은 저장소 URL**이며, `tugman77/main` 추적ref는 오래돼 뒤처져 보일 수 있으니 **`origin/main`을 기준**으로 볼 것.
+- 로컬 keychain PAT에 `repo`+`workflow` 스코프가 있어 평소엔 그냥 `git push origin HEAD:main` 으로 반영된다.
   ```
-  git push "https://tugman77:<PAT>@github.com/tugman77/the-signal-korea.git" <브랜치>:main
+  git push origin HEAD:main
   ```
-  PAT는 `read -s`로 입력받아 화면·기록에 노출 금지.
+  토큰이 필요하면 `read -s`로 입력받아 화면·기록에 노출 금지.
 
 ### 2. 워크플로 파일은 `workflow` 스코프 PAT 필요
 - `.github/workflows/자동기사생성.yml` 을 변경·푸시하려면 PAT에 **`workflow` 스코프**가 있어야 함.
