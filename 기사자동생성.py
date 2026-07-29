@@ -34,7 +34,8 @@ UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")   # 선택 — �
 PEXELS_API_KEY      = os.environ.get("PEXELS_API_KEY", "")        # 선택 — 있으면 사용
 PIXABAY_API_KEY     = os.environ.get("PIXABAY_API_KEY", "")       # 선택 — 있으면 사용
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
+TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")       # 관리자 알림용(비공개)
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")    # 공개 채널 발행용(@username 또는 -100…)
 
 OUTPUT_FILE = "articles.json"
 SITE_URL    = "https://www.thesignalkorea.co.kr"  # SEO/RSS 절대경로 기준
@@ -129,6 +130,67 @@ def send_telegram(message: str) -> bool:
         return resp.ok
     except Exception as e:
         print(f"텔레그램 전송 오류: {e}")
+        return False
+
+
+# ── 공개 텔레그램 채널 발행 (독자용) ──────────────────────────────
+# 관리자 알림(send_telegram)과 분리. TELEGRAM_CHANNEL_ID 설정 시에만 동작.
+_CAT_EMOJI = {
+    "기술패권": "🔴", "공급망전쟁": "🟠", "산업전략": "🟢", "글로벌분석": "🔵",
+}
+
+
+def _tg_escape(s: str) -> str:
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
+def build_channel_message(articles, date_key, now) -> str:
+    date_label = now.strftime("%Y년 %m월 %d일")
+    lines = [f"📡 <b>THE SIGNAL KOREA</b>",
+             f"{date_label} · 오늘의 시그널 {len(articles)}건", ""]
+    for a in articles:
+        emoji = _CAT_EMOJI.get(a.get("category", ""), "📌")
+        title = _tg_escape(a.get("title", ""))
+        cat = _tg_escape(a.get("category", ""))
+        summary = _tg_escape((a.get("summary", "") or "").strip())
+        if len(summary) > 110:
+            summary = summary[:110].rstrip() + "…"
+        link = f"{SITE_URL}/article.html?date={date_key}&id={a.get('id', 0)}"
+        brief = " ⚡속보" if a.get("is_brief") else ""
+        lines.append(f"{emoji} <b>[{cat}]{brief}</b> {title}")
+        if summary:
+            lines.append(f"<i>{summary}</i>")
+        lines.append(f'<a href="{link}">▸ 5단계 분석 보기</a>')
+        lines.append("")
+    lines.append(f'🔗 <a href="{SITE_URL}/">전체 기사 보기</a>')
+    lines.append("#공급망전쟁 #기술패권 #반도체 #산업분석 #투자")
+    return "\n".join(lines)
+
+
+def post_to_channel(articles, date_key, now) -> bool:
+    """오늘 발행분을 공개 채널에 독자용 다이제스트로 발행. 채널 미설정 시 skip."""
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        print("[채널 미설정] TELEGRAM_CHANNEL_ID 없음 — 채널 발행 건너뜀")
+        return False
+    if not articles:
+        return False
+    text = build_channel_message(articles, date_key, now)
+
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    try:
+        resp = requests.post(url, json={
+            "chat_id": TELEGRAM_CHANNEL_ID,
+            "text": text,
+            "parse_mode": "HTML",
+            "disable_web_page_preview": True,
+        }, timeout=15)
+        if resp.ok:
+            print(f"📣 채널 발행 완료 — {len(articles)}건")
+            return True
+        print(f"❌ 채널 발행 실패 {resp.status_code}: {resp.text[:200]}")
+        return False
+    except Exception as e:
+        print(f"채널 발행 오류: {e}")
         return False
 
 
@@ -1013,6 +1075,9 @@ def main():
         save_data(articles, briefing, signals, date_str, date_key)
         save_topic_history(articles, date_key)
         print("🎉 완료!")
+
+        # 공개 텔레그램 채널 발행 (독자용 다이제스트, 채널 미설정 시 자동 skip)
+        post_to_channel(articles, date_key, now)
 
         # 텔레그램 완료 알림
         cat_dist_str = ", ".join(f"{k}:{v}건" for k, v in cat_dist.items())
