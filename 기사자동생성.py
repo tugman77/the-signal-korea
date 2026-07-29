@@ -928,9 +928,11 @@ def generate_seo_files(articles, date_key, now):
         urls.append(f"  <url><loc>{_xml_escape(loc)}</loc>"
                     f"<lastmod>{lastmod}</lastmod>"
                     f"<changefreq>daily</changefreq><priority>{pr}</priority></url>")
+    # 기사 URL은 정적 페이지(news/YYYY-MM-DD-N.html)를 가리킨다.
+    # article.html?date=..&id=.. 는 본문이 JS로만 그려져 크롤러에겐 빈 페이지다.
     for dk, arts in date_articles:
-        for a in arts:
-            loc = f"{SITE_URL}/article.html?date={dk}&id={a.get('id', 0)}"
+        for i, a in enumerate(arts):
+            loc = f"{SITE_URL}/news/{dk}-{i}.html"
             urls.append(f"  <url><loc>{_xml_escape(loc)}</loc>"
                         f"<lastmod>{dk}</lastmod>"
                         f"<changefreq>monthly</changefreq><priority>0.8</priority></url>")
@@ -944,12 +946,12 @@ def generate_seo_files(articles, date_key, now):
     # ── rss.xml (최신 30개) ──
     items = []
     for dk, arts in date_articles:
-        for a in arts:
-            items.append((dk, a))
+        for i, a in enumerate(arts):
+            items.append((dk, i, a))
     items.sort(key=lambda x: x[0], reverse=True)
     rss_items = []
-    for dk, a in items[:30]:
-        link = f"{SITE_URL}/article.html?date={dk}&id={a.get('id', 0)}"
+    for dk, i, a in items[:30]:
+        link = f"{SITE_URL}/news/{dk}-{i}.html"
         pub = datetime.strptime(dk, "%Y-%m-%d").replace(tzinfo=KST)
         rss_items.append(
             "    <item>\n"
@@ -980,6 +982,7 @@ def save_data(articles, briefing, signals, date_str, date_key):
     data = {
         "generated_at":    now.strftime("%Y년 %m월 %d일 %H:%M"),
         "date_str":        now.strftime("%Y년 %m월 %d일"),
+        "date_key":        date_key,   # 프런트가 오늘 기사의 정적 페이지 경로를 만들 때 사용
         "articles":        articles,
         "editorial_briefing": briefing,
         "key_signals":     signals,
@@ -1006,6 +1009,16 @@ def save_data(articles, briefing, signals, date_str, date_key):
     with open(index_file, "w", encoding="utf-8") as f:
         json.dump(archive_index, f, ensure_ascii=False, indent=2)
     print(f"📋 아카이브 인덱스: {len(archive_index['dates'])}일치")
+
+    # 정적 기사 페이지 생성 — 크롤러가 읽는 정본(본문 포함 HTML).
+    # article.html은 JS 렌더라 소스에 본문이 없어 색인·애드센스 심사에서 불리하다.
+    try:
+        import 정적페이지생성
+        n = 정적페이지생성.generate_for_date(
+            date_key, data, 정적페이지생성.extract_style())
+        print(f"🏗️  정적 기사 페이지 {n}건 생성 — news/{date_key}-*.html")
+    except Exception as e:
+        print(f"⚠️ 정적 페이지 생성 실패(발행에는 영향 없음): {type(e).__name__}: {e}")
 
     # SEO/구독 파일 갱신 (sitemap·rss)
     try:

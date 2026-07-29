@@ -279,8 +279,13 @@ function getCat(cat) {
   return CATS[cat] || { cls:'tag-global', bg:'#dbeafe', color:'#1d4ed8', sym:'?', desc:'' };
 }
 
+// 오늘자 기사(dateKey=null)의 날짜 키 — articles.json의 date_key로 채워진다.
+let todayKey = null;
+
+// 기사 링크는 정적 페이지(news/YYYY-MM-DD-N.html)를 정본으로 가리킨다.
 function articleLink(idx, dateKey) {
-  return dateKey ? `article.html?date=${dateKey}&id=${idx}` : `article.html?id=${idx}`;
+  const dk = dateKey || todayKey;
+  return dk ? `news/${dk}-${idx}.html` : `article.html?id=${idx}`;
 }
 
 function renderHeader(cat) {
@@ -389,6 +394,7 @@ async function loadAllArticles() {
     const res = await fetch('articles.json');
     if (res.ok) {
       const data = await res.json();
+      todayKey = data.date_key || null;
       (data.articles || []).forEach((a, i) => entries.push({ article: a, dateKey: null, idx: i }));
     }
   } catch(e) {}

@@ -373,8 +373,15 @@
     ['산업전략 · 글로벌분석', ['산업전략', '글로벌분석']],
   ];
 
+  // 오늘자 기사(dateKey=null)의 날짜 키 — articles.json의 date_key로 채워진다.
+  let todayKey = null;
+
+  // 기사 링크는 정적 페이지(news/YYYY-MM-DD-N.html)를 정본으로 가리킨다.
+  // 크롤러가 따라갈 수 있는 실제 HTML이라 색인·애드센스 심사 대상이 된다.
+  // 날짜를 모를 때만 예전 쿼리스트링 방식으로 폴백.
   function articleLink(idx, dateKey) {
-    return dateKey ? `article.html?date=${dateKey}&id=${idx}` : `article.html?id=${idx}`;
+    const dk = dateKey || todayKey;
+    return dk ? `news/${dk}-${idx}.html` : `article.html?id=${idx}`;
   }
 
   // ── 히어로 렌더 (중복 방지 Set 사용) ──
@@ -579,6 +586,7 @@
       if (!res.ok) return;
       const data = await res.json();
       if (!data.articles || !data.articles.length) return;
+      todayKey = data.date_key || null;
       await applyData(data, null);
     } catch (e) { console.log('articles.json 로드 실패:', e.message); }
   }
