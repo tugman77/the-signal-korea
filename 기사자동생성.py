@@ -901,6 +901,71 @@ def _download_single_image(keyword: str, img_path: str, category: str, seed_str:
     return False
 
 
+# ── 수동 검수 기사 병합 ─────────────────────────────
+# 300_콘텐츠공장에서 원천자료 → 지식카드 → 브리프 → 검수를 거친 원고를
+# 자동 생성분과 함께 발행하기 위한 통로. 이 통로가 없으면 손으로 넣은 기사는
+# 다음 실행 때 save_data()의 덮어쓰기로 사라진다.
+#
+# 사용법: manual/ 에 기사 JSON 1건당 파일 1개를 둔다. 발행되면 manual/발행완료/로 옮긴다.
+#         특정 날짜에 내보내려면 JSON에 "발행일": "YYYY-MM-DD" 를 넣는다(없으면 다음 실행에 발행).
+#         본문 구조는 fact / meaning / winner / loser / action 배열이다.
+MANUAL_DIR      = "manual"
+MANUAL_DONE_DIR = os.path.join(MANUAL_DIR, "발행완료")
+
+
+def load_manual_articles(date_key: str):
+    """manual/*.json 을 읽어 (기사 리스트, 소비한 파일 경로) 반환."""
+    if not os.path.isdir(MANUAL_DIR):
+        return [], []
+
+    articles, used = [], []
+    names = sorted(n for n in os.listdir(MANUAL_DIR) if n.endswith(".json"))
+    for name in names:
+        path = os.path.join(MANUAL_DIR, name)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                item = json.load(f)
+        except Exception as e:
+            print(f"   ⚠️  수동 기사 읽기 실패 [{name}]: {e}")
+            continue
+
+        want = item.pop("발행일", None)
+        if want and want != date_key:
+            print(f"   ⏭️  {name} — 발행일 {want}, 오늘 아님")
+            continue
+
+        missing = [k for k in ("title", "summary", "fact") if not item.get(k)]
+        if missing:
+            print(f"   ⚠️  {name} — 필수 항목 없음: {missing}. 건너뜀")
+            continue
+
+        item.setdefault("category", "공급망전쟁")
+        item.setdefault("tag_type", "tag-supply")
+        item.setdefault("is_brief", False)
+        item.setdefault("is_featured", False)
+        item.setdefault("topic_key", os.path.splitext(name)[0])
+        for key in ("meaning", "winner", "loser", "action"):
+            item.setdefault(key, [])
+        articles.append(item)
+        used.append(path)
+        print(f"   ✅ {name} — {item.get('title', '')[:40]}")
+
+    return articles, used
+
+
+def archive_manual_files(paths):
+    """발행된 수동 기사 파일을 발행완료/로 옮긴다. 안 옮기면 매일 재발행된다."""
+    if not paths:
+        return
+    os.makedirs(MANUAL_DONE_DIR, exist_ok=True)
+    for path in paths:
+        try:
+            os.replace(path, os.path.join(MANUAL_DONE_DIR, os.path.basename(path)))
+        except Exception as e:
+            print(f"   ⚠️  수동 기사 이동 실패 [{path}]: {e}")
+    print(f"   📦 수동 기사 {len(paths)}건 → {MANUAL_DONE_DIR}/")
+
+
 def download_article_images(articles, date_str):
     """각 기사 이미지 다운로드 → images/YYYY-MM-DD_article_N.jpg
     _used_photo_ids만 run 단위로 초기화, _downloaded_hashes·_photo_id_last_used는
@@ -1113,6 +1178,17 @@ def main():
         if repeats:
             print(f"   ⚠️ 쿨다운({TOPIC_COOLDOWN_DAYS}일) 내 토픽 재등장: {repeats} — 새 전개 반영분인지 확인 권장")
 
+        # 수동 검수 기사 병합 (300_콘텐츠공장 → 채널)
+        # 자동 생성분의 중복 검사를 마친 뒤에 붙인다. 검수를 이미 통과한 원고이므로
+        # 중복·쿨다운 판정 대상으로 삼지 않고, 이미지·SEO·아카이브는 동일하게 태운다.
+        print("📝 수동 검수 기사 확인 중...")
+        manual_articles, manual_files = load_manual_articles(date_key)
+        if manual_articles:
+            articles = articles + manual_articles
+            print(f"   → 수동 기사 {len(manual_articles)}건 병합 (총 {len(articles)}건)")
+        else:
+            print("   → 없음")
+
         # id를 배열 위치(0-based)로 정규화 — 이미지 파일명(article_{i}.jpg)과
         # id를 일치시켜, 검수 단계의 id 기반 재다운로드가 남의 이미지를 덮어쓰지 않게 한다.
         for i, a in enumerate(articles):
@@ -1131,6 +1207,9 @@ def main():
 
         save_data(articles, briefing, signals, date_str, date_key)
         save_topic_history(articles, date_key)
+
+        # 발행된 수동 기사 파일 회수 — save_data 성공 후에만 옮긴다
+        archive_manual_files(manual_files)
         print("🎉 완료!")
 
         # 공개 텔레그램 채널 발행 (독자용 다이제스트, 채널 미설정 시 자동 skip)
