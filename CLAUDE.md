@@ -166,17 +166,51 @@ FACT + ACTION 2단계만 (meaning/winner/loser는 빈 배열 `[]`)
 
 ## 이미지 관리 (기사자동생성.py v3 — 소재타임스 방식)
 
-### 소스 우선순위
-1. **Unsplash API** — `photos/random?count=10`으로 후보 10장 받아 미사용분 선택 (UNSPLASH_ACCESS_KEY)
-2. **Pexels API** — 후보 10장 중 무작위 (PEXELS_API_KEY)
-3. **Pixabay API** — 후보 10장 중 무작위 (PIXABAY_API_KEY)
-4. **큐레이션 풀** — 카테고리별 photo-ID 8~9장 (`_UNSPLASH_POOL`, 키 없어도 항상 작동)
-5. **picsum** (최후 수단)
+> **2026-08-02 대개편** — 소재타임스에서 검증된 이미지 모듈 3종을 이식했다.
+> `이미지필터.py`(오매칭 방지) · `이미지소스.py`(외부 API) · `이미지풀.py`(큐레이션 풀).
+> 세 파일은 두 채널이 **같은 구조**를 쓴다. 한쪽에서 버그를 고치면 다른 쪽도 함께 봐야 한다.
 
-### 3중 중복방지 (소재타임스 이식)
-1. **Cross-category 중복 금지** — `_UNSPLASH_POOL` 각 photo-ID는 단일 카테고리에만. `_validate_pool()`이 실행마다 감지.
+### 소스 우선순위
+소스 목록은 `이미지소스.available_sources()` 한 곳에서 키 등록 상태를 보고 결정한다.
+1. **Unsplash API** — 후보 10장을 받아 오매칭을 거른 뒤 하나씩 소비 (UNSPLASH_ACCESS_KEY)
+2. **Pexels API** — 후보 10장을 `alt`로 필터 (PEXELS_API_KEY)
+3. **Pixabay API** — 후보 10장을 `tags`로 필터 (PIXABAY_API_KEY)
+4. **큐레이션 풀** — 로컬 self-host + Unsplash hotlink **82장** (키 없어도 항상 작동)
+5. **picsum** — 최후 수단. **내용 무관 랜덤이라 여기까지 오면 사실상 실패다.**
+
+### 오매칭 방지 (`이미지필터.py`)
+- **검색 전** `refine_keyword()` — `wafer`·`chip`·`foil`·`plant` 등 일상 사물로도 읽히는
+  단어에 업계 한정어를 자동 부착 (`"wafer production"` → `"wafer production semiconductor"`).
+- **검색 후** `is_offtopic()` — 이미지 태그·alt에 음식·생활 차단어가 있으면 거부하고
+  같은 소스의 다음 후보로. 실측상 Pixabay는 `wafer` 검색에 초콜릿·과자를 6~9장씩 반환한다.
+- 차단어에 `wafer`·`plate`·`sheet`·`crystal`을 넣지 말 것 — 반도체·철강 사진의 정상 태그다.
+- 수정 후 `python3 이미지필터.py`로 자가 검증 통과 필수.
+
+### 3중 중복방지
+1. **Cross-category 중복 금지** — 각 photo-ID는 단일 카테고리에만. `이미지풀.validate()`가 감지.
 2. **Run 내 재사용 금지** — `_used_photo_ids` set.
-3. **바이너리 중복 금지** — `_downloaded_hashes` set (MD5). 중복 시 저장 거부 후 다음 소스.
+3. **바이너리 중복 금지** — MD5 대조. **대조 범위가 소스에 따라 다르다:**
+   - 외부 API·picsum → `_downloaded_hashes` (과거 날짜 포함 **영구**)
+   - 큐레이션 풀 → `_run_hashes` (**이번 실행만**)
+
+> ⚠️ **큐레이션 풀 MD5를 영구 히스토리에 넣지 말 것.** 풀 URL은 고정이라 매일 같은 바이트가
+> 내려온다. 영구 해시에 넣는 순간 그 photo-ID는 두 번 다시 통과하지 못한다.
+> 이식 시점(2026-08-02)에 이 채널은 **34장 중 18장(52%)이 이미 그렇게 죽어** picsum 폴백
+> 직전이었다. 소재타임스는 88%까지 진행돼 OLED 기사에 갈매기 사진이 실렸다.
+> 풀의 날짜 간 반복 간격은 `_photo_id_last_used` LRU가 맡는 것이 원래 설계다.
+
+### 풀 늘리는 법 — `scripts/풀수집.py`
+```bash
+python3 scripts/풀수집.py 수집          # 카테고리별 후보 → images/pool/_후보/
+python3 scripts/풀수집.py 대지          # 번호 붙은 컨택트시트 → 눈으로 고르기
+python3 scripts/풀수집.py 확정 기술패권 "4,5,14,19"   # 고른 번호만 편입
+python3 이미지풀.py                     # 장수 + cross-category 중복 점검 (필수)
+```
+- 편입 후 **1280×720(16:9) 리사이즈** 필수. API 원본은 1900px대라 저장소가 붓는다.
+- `_후보/`는 `.gitignore` 대상.
+- **최종 선별은 반드시 사람이 한다.** 실제로 후보에 여행객 단체사진·장난감 로봇·산 풍경이
+  섞여 나왔다. 코드 주석도 믿지 말 것 — 이 채널 기존 풀은 "반도체 웨이퍼"로 주석된 ID가
+  실제로는 납땜 사진이었다.
 
 ### 날짜 간 반복 방지
 - `image_history.json` — photo-ID 마지막 사용 날짜 + MD5 해시 이력을 run 간 유지 (LRU로 가장 오래된 사진 우선 선택).
