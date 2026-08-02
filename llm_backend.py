@@ -18,8 +18,10 @@ import subprocess
 # ── 설정 ──────────────────────────────────────────────
 LLM_BACKEND        = os.environ.get("LLM_BACKEND", "api").strip().lower()
 CLAUDE_CLI         = os.environ.get("CLAUDE_CLI", "claude")
+CLAUDE_CODE_EFFORT = os.environ.get("CLAUDE_CODE_EFFORT", "medium")  # low|medium|high|xhigh|max
 CLAUDE_CODE_MODEL  = os.environ.get("CLAUDE_CODE_MODEL", "claude-sonnet-4-6")
-CLAUDE_CODE_TIMEOUT = int(os.environ.get("CLAUDE_CODE_TIMEOUT", "900"))  # 초
+CLAUDE_CODE_TIMEOUT = int(os.environ.get("CLAUDE_CODE_TIMEOUT", "1200"))  # 초 — 시도 1회당 예산(총 예산 아님)
+CLAUDE_CODE_RETRIES = int(os.environ.get("CLAUDE_CODE_RETRIES", "2"))    # 타임아웃(무응답) 시 재시도 횟수
 
 
 def using_subscription() -> bool:
@@ -77,24 +79,50 @@ def call_tool(request_params: dict, tool_name: str) -> dict:
         f"[JSON Schema]\n{schema}\n"
     )
 
-    proc = subprocess.run(
-        [CLAUDE_CLI, "-p", full_prompt,
-         "--output-format", "json",
-         "--model", CLAUDE_CODE_MODEL],
-        capture_output=True, text=True, timeout=CLAUDE_CODE_TIMEOUT,
-    )
-    if proc.returncode != 0:
-        # 오류 상세는 stderr가 비어 있을 때가 많아 stdout(JSON 응답의 result 등)도 함께 노출
-        detail = (proc.stderr or "").strip() or (proc.stdout or "").strip()
-        raise RuntimeError(
-            f"claude 헤드리스 실패(rc={proc.returncode}): {detail[:600] or '(출력 없음 — rate limit/네트워크 의심)'}"
-        )
+    # 타임아웃(무응답)만 재시도한다 — --output-format json은 완료 전까지 아무것도
+    # 안 보여줘서 "서버가 느린 것"과 "진짜 멈춘 것"을 클라이언트에서 구분할 수 없다.
+    # 실측상 재시도가 잘 통했다(멈춘 것처럼 보인 시도 직후 재시도가 수 분 내 성공).
+    # rc!=0/JSON 오류 등 프로세스가 실제로 끝난 실패는 반복해도 같은 결과일 가능성이
+    # 높으므로 재시도하지 않고 바로 올린다.
+    for attempt in range(1, CLAUDE_CODE_RETRIES + 1):
+        try:
+            proc = subprocess.run(
+                [CLAUDE_CLI, "-p", full_prompt,
+                 "--output-format", "json",
+                 "--model", CLAUDE_CODE_MODEL,
+                 # 구조화 JSON 생성에 도구가 필요 없다. 프롬프트로만 금지하면 모델이
+                 # 파일을 뒤지거나 검색을 시도해 턴이 늘어난다(2026-08-02 실패 응답의
+                 # num_turns=2). 아예 막아 한 번에 끝내게 한다.
+                 "--disallowedTools", "Bash", "Edit", "Write", "Read", "Glob", "Grep",
+                 "WebSearch", "WebFetch", "Task",
+                 # 사고 깊이 제한. 정해진 스키마를 채우는 작업이라 깊은 추론이 불필요한데,
+                 # 기본값으로 두면 사고 토큰이 폭주한다 — 같은 실패 응답에서 출력이
+                 # 75,532토큰(기대치의 약 10배)까지 부풀어 rc=1로 끝났다.
+                 "--effort", CLAUDE_CODE_EFFORT],
+                capture_output=True, text=True, timeout=CLAUDE_CODE_TIMEOUT,
+            )
+        except subprocess.TimeoutExpired:
+            more = attempt < CLAUDE_CODE_RETRIES
+            print(f"⏱️ claude 헤드리스 {CLAUDE_CODE_TIMEOUT}s 무응답 (시도 {attempt}/{CLAUDE_CODE_RETRIES}) — "
+                  f"{'재시도' if more else '포기'}")
+            if more:
+                continue
+            raise RuntimeError(
+                f"claude 헤드리스 {CLAUDE_CODE_RETRIES}회 모두 {CLAUDE_CODE_TIMEOUT}s 타임아웃(무응답)"
+            )
 
-    try:
-        envelope = json.loads(proc.stdout)
-    except json.JSONDecodeError:
-        raise RuntimeError(f"claude 헤드리스 응답 JSON 파싱 실패: {(proc.stdout or '')[:600]}")
-    if envelope.get("is_error"):
-        raise RuntimeError(f"claude 헤드리스 오류 응답: {str(envelope.get('result'))[:600]}")
+        if proc.returncode != 0:
+            # 오류 상세는 stderr가 비어 있을 때가 많아 stdout(JSON 응답의 result 등)도 함께 노출
+            detail = (proc.stderr or "").strip() or (proc.stdout or "").strip()
+            raise RuntimeError(
+                f"claude 헤드리스 실패(rc={proc.returncode}): {detail[:600] or '(출력 없음 — rate limit/네트워크 의심)'}"
+            )
 
-    return _parse_json(envelope.get("result", ""))
+        try:
+            envelope = json.loads(proc.stdout)
+        except json.JSONDecodeError:
+            raise RuntimeError(f"claude 헤드리스 응답 JSON 파싱 실패: {(proc.stdout or '')[:600]}")
+        if envelope.get("is_error"):
+            raise RuntimeError(f"claude 헤드리스 오류 응답: {str(envelope.get('result'))[:600]}")
+
+        return _parse_json(envelope.get("result", ""))
