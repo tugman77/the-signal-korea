@@ -1131,8 +1131,10 @@ def main():
         archive_manual_files(manual_files)
         print("🎉 완료!")
 
-        # 공개 텔레그램 채널 발행 (독자용 다이제스트, 채널 미설정 시 자동 skip)
-        post_to_channel(articles, date_key, now)
+        # ⚠️ 채널 발행은 여기서 하지 않는다 — push 성공 후 채널발행.py가 맡는다.
+        #    여기서 발행하면 push가 실패했을 때 독자에게는 알렸는데 사이트엔 없는 상태가 된다.
+        #    2026-08-01에 실제로 그랬다: 로컬 05:30이 A세트를 채널에 알리고 push 실패,
+        #    클라우드 11:05이 B세트를 올려 채널 링크가 다른 기사를 열었다.
 
         # 카드뉴스 이미지를 관리자에게 전송 (X·스레드 리포스트용)
         send_cards_to_admin(articles, date_key)
