@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 03 Aug 2026 11:03:49 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 10:51:53 +0900</lastBuildDate>
+    <item>
+      <title>미·중 자본통제 동시 발동, 韓 반도체·배터리 공급망 어디가 가장 먼저 흔들리나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-04-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-04-0.html</guid>
+      <category>기술패권</category>
+      <description>미국의 AI 반도체 수출 허가제와 중국의 핵심광물 통제가 동시에 강화되며 한국 반도체·배터리 공급망이 양방향 압박에 직면했다. 단기 안도보다 중장기 구조 재편이 시급한 국면이다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미·중 패권 경쟁서 '한국 변수' 부상…중국이 주목하는 이유와 韓의 실제 레버리지</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-04-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-04-1.html</guid>
+      <category>기술패권</category>
+      <description>미·중 기술패권 경쟁이 교착 국면에서 한국이 반도체·소재 공급망의 핵심 변수로 부상하고 있다. 중국은 한국의 전략적 균형 외교를 주목하며 소재 통제 카드를 선별적으로 활용하는 중이다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>재료연 소재기술백서 2025, 한국 첨단소재 자립도 실측치가 드러낸 3대 공백</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-04-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-04-2.html</guid>
+      <category>글로벌분석</category>
+      <description>한국재료연구원이 '소재기술백서 2025'를 발간하며 첨단소재 기술 경쟁력을 공식 집계했다. 반도체·이차전지·디스플레이 핵심 소재에서 대중국 의존 공백이 수치로 확인됐다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>호남 차량용 반도체 클러스터, 소부장 포럼서 나온 현실 진단 3가지</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-04-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-04-3.html</guid>
+      <category>산업전략</category>
+      <description>서울 소부장 전략 포럼에서 호남 반도체 투자 방향이 차량용으로 확정됐다. 전력 반도체·SiC 웨이퍼 소재 국산화가 클러스터 성패를 가를 핵심 변수로 지목됐다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>공급망 재편 수혜 기업의 실제 조건…현대코퍼레이션 해외 신시장 전략이 보여주는 것</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-04-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-04-4.html</guid>
+      <category>공급망전쟁</category>
+      <description>글로벌 공급망 재편 수혜를 공언하는 기업이 늘고 있지만, 실제 계약·물량·이익으로 이어지는 기업은 소수다. 현대코퍼레이션의 해외 신시장 공략 전략을 통해 수혜의 실질 조건을 점검한다.</description>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>美 업계 '한국이 핵심'…삼성 파업 리스크가 드러낸 공급망 실체</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-03-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미중 공급망 편입 압박이 동남아 10개국에 집중되는 가운데, 한국은 반도체·소재 중간재 공급자로서 어느 진영에도 완전히 속하지 않는 '가교' 포지션을 유지하고 있다. 이 전략이 실익을 내려면 베트남·인도네시아·말레이시아 내 한국 소재 기업의 현지화 속도가 관건이다.</description>
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>마그네슘 87% 중국 의존, 전기차 경량화 소재 공백 現在進行形</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-30-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-30-4.html</guid>
-      <category>공급망전쟁</category>
-      <description>전기차 차체·배터리 케이스 경량화에 필수적인 마그네슘 합금의 국내 조달 구조가 여전히 중국 의존 87% 수준에 머물러 있다. 중국이 2021년 마그네슘 감산으로 EU 자동차 공장 가동을 실제로 멈췄던 선례를 감안하면, 한국 완성차·배터리 업계의 대응이 늦다.</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 게르마늄 봉쇄 1년, 글로벌 가격 3배…한국 대체 공급망 어디까지</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-29-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-29-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 게르마늄 수출통제를 1년 넘게 유지하는 사이 국제 게르마늄 가격은 2023년 규제 이전 대비 약 3배 수준으로 치솟았다. 갈륨은 일본행 수출을 재개하며 '선별 통제' 카드를 꺼냈지만, 게르마늄은 여전히 봉쇄 중이다. 한국 반도체·광섬유 업계의 조달 리스크가 구조적으로 고착될 가능성이 높아졌다.</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨 2028년 年15.5t…中 95% 독점에 처음 뚫린 틈</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-29-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-29-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>고려아연이 2028년부터 연간 15.5t 규모의 갈륨 생산을 공식화했다. 전 세계 갈륨 공급의 95% 이상을 중국이 장악한 현실에서 고려아연의 국내 생산은 한국이 확보할 수 있는 첫 번째 실질적 대체 공급선이다. 투자자 입장에선 2025~2026년 설비 착공 단계가 핵심 관전 포인트다.</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아 전 세계 수출 허가제, 韓 AI칩 수요에 새 변수</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-29-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-29-2.html</guid>
-      <category>기술패권</category>
-      <description>트럼프 행정부가 엔비디아·AMD AI 반도체의 제3국 수출에 미국 정부 사전 허가를 의무화하는 방안을 추진 중이다. 한국은 동맹국이지만 규제 예외 범위가 확정되지 않아, 국내 데이터센터 및 AI 서버 수요 업체의 조달 불확실성이 커졌다. 동시에 중국의 핵심 소재 통제와 미국의 칩 수출 허가가 양방향으로 작동하며 한국은 이중 압박 구조에 처했다.</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 1700억 6개 분야 확대, 전략광물 회수 공정이 빠진 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-29-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-29-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 투자 지원 예산을 1700억 원으로 늘리고 방산·희토류를 포함한 6개 분야로 확대했다. 그러나 정작 공급망 병목의 핵심인 전략광물 회수 공정(갈륨·게르마늄 정제 설비) 투자 지원은 세부 내역에서 확인되지 않는다. 지원 구조와 실제 소재 병목 사이의 간극을 짚는다.</description>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
