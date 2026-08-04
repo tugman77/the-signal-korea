@@ -449,7 +449,67 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
         ]
         sojaetimes_section = "\n".join(lines) + "\n\n"
 
-    prompt = f"""당신은 광학·반도체·디스플레이 소재를 20년간 직접 공급해온 현장 전문가입니다.
+    # ── 배치 분할 (2026-08-04) ──────────────────────────────────────
+    # 5건을 한 호출로 뽑으면 구독(헤드리스) 경로에서 출력이 32,000토큰 상한에 걸려
+    # JSON이 잘린 채 rc=1로 끝난다. 07-25~08-04 사이 발행 실패는 한도(429)가 아니라
+    # 전부 이것이었다 — 실패 응답이 매번 output_tokens=32000, is_error=true.
+    # 3건 + 2건으로 나눠 각 호출을 상한 아래로 내린다.
+    # 카테고리 비중은 두 배치를 합쳐 기존 규칙(공급망전쟁 2~3 / 기술패권 1~2 /
+    # 산업전략 1 / 글로벌분석 0~1)을 만족하도록 배분했다.
+    # 배치2는 배치1 결과를 '오늘 이미 쓴 기사'로 받아 topic_key·image_keyword가
+    # 겹치지 않게 한다 — 한 호출로 뽑을 때 프롬프트가 하던 역할을 대신하는 장치다.
+    batches = [
+        {
+            "count": 3,
+            "featured": True,
+            "quota": ("[이번 배치 카테고리 — 반드시 준수]\n"
+                      "- 공급망전쟁: 2개 — 갈륨·탄탈럼·희토류·리튬 등 소재 중심\n"
+                      "- 기술패권:   1개"),
+        },
+        {
+            "count": 2,
+            "featured": False,
+            "quota": ("[이번 배치 카테고리 — 반드시 준수]\n"
+                      "- 산업전략: 1개 — 한국 소부장·정책·대기업 사업전환\n"
+                      "- 공급망전쟁 또는 글로벌분석: 1개"),
+        },
+    ]
+
+    articles = []
+    for batch_no, batch in enumerate(batches, 1):
+        count       = batch["count"]
+        batch_quota = batch["quota"]
+
+        # 앞 배치 결과를 중복 금지 목록으로 주입
+        done_block = ""
+        if articles:
+            done_list = "\n".join(
+                f"  - [{a.get('category','')}] {a.get('title','')}"
+                f"  (topic_key: {a.get('topic_key','')} / image_keyword: {a.get('image_keyword','')})"
+                for a in articles
+            )
+            done_block = f"""
+[오늘 이미 작성한 기사 — 절대 중복 금지]
+같은 날짜 앞 배치에서 이미 쓴 기사입니다. 같은 사건·기업·소재를 다시 다루지 말고,
+topic_key와 image_keyword도 아래와 겹치지 않게 하세요.
+{done_list}
+"""
+
+        if batch["featured"]:
+            closing = (
+                f"save_articles 도구를 사용해 기사 {count}개를 저장하세요.\n"
+                f"- 첫 번째 기사(is_featured: true)는 공급망전쟁 또는 기술패권으로 설정\n"
+                f"- 나머지 {count - 1}개: is_featured=false\n"
+                f"- timestamp: 현재 시각 기준 오전/오후 HH:MM 형식"
+            )
+        else:
+            closing = (
+                f"save_articles 도구를 사용해 기사 {count}개를 저장하세요.\n"
+                f"- {count}개 모두 is_featured=false (대표 기사는 앞 배치에서 이미 정해졌습니다)\n"
+                f"- timestamp: 현재 시각 기준 오전/오후 HH:MM 형식"
+            )
+
+        prompt = f"""당신은 광학·반도체·디스플레이 소재를 20년간 직접 공급해온 현장 전문가입니다.
 갈륨·게르마늄·비스무트·이트륨·마그네슘 등 핵심 소재를 국내외 기업에 실제 공급한 경험을 바탕으로,
 지금은 소재 공급망 인텔리전스 분석가로 시장을 조망하며 칼럼을 씁니다.
 
@@ -466,12 +526,8 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 
 {recent_block}
 {cooldown_block}
-
-[카테고리 비중 — 반드시 준수]
-- 공급망전쟁: 5기사 중 2~3개 (50% 목표) — 갈륨·탄탈럼·희토류·리튬 등 소재 중심
-- 기술패권:   1~2개 (20%)
-- 산업전략:   1개   (20%)
-- 글로벌분석: 0~1개 (10%)
+{done_block}
+{batch_quota}
 
 [작성 규칙 — 절대 준수]
 - 모호한 표현('비약적', '주목받는', '큰 영향', '급성장') 절대 금지
@@ -479,10 +535,10 @@ def generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_brief
 - 각 단계 최소 2개 이상 구체적 통계 수치 또는 기업명 포함
 - 제목: 15~25자, 핵심 팩트·수치 중심 (예: "중국 갈륨 수출 99% 차단, 한국 연간 700억 리스크")
 - summary: 2~3문장 핵심 요약 (150자 이내), 투자자 관점에서 서술
-- topic_key: 위 스키마 설명대로 사건 단위 정규화 키를 반드시 부여. 같은 사건이면 표현이 달라도 동일 키. 5개 기사의 topic_key는 서로 달라야 하며, 위 '쿨다운' 목록의 키와 겹치면 새 전개가 없는 한 그 주제를 피할 것.
+- topic_key: 위 스키마 설명대로 사건 단위 정규화 키를 반드시 부여. 같은 사건이면 표현이 달라도 동일 키. {count}개 기사의 topic_key는 서로 달라야 하며, 위 '쿨다운'·'오늘 이미 작성한 기사' 목록의 키와 겹치면 새 전개가 없는 한 그 주제를 피할 것.
 - image_keyword: 사진으로 촬영 가능한 구체적 사물·장면 중심의 영문 2~4단어. 예: "gallium metal ingot", "tantalum ore mineral", "semiconductor wafer cleanroom", "rare earth magnet", "data center server rack".
   · 국가명·지명(Korea, Seoul, China, US 등)과 추상어(strategy, policy, economy, market, supply chain)는 넣지 말 것 — 도시 전경·국기 같은 무관한 사진이 나온다.
-- 중요: 5개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 잉곳 vs 탄탈럼 광석 vs 데이터센터 서버 등)
+- 중요: {count}개 기사의 image_keyword는 서로 겹치지 않게 각기 다른 소재·사물·장면을 지목할 것 (같은 카테고리라도 시각 소재를 분산 — 갈륨 잉곳 vs 탄탈럼 광석 vs 데이터센터 서버 등). 위 '오늘 이미 작성한 기사'의 image_keyword와도 겹치면 안 된다.
 
 [현장 경험 문단 — action 배열 마지막에 필수 삽입]
 action 배열의 마지막 단락은 반드시 다음 형식으로 시작할 것:
@@ -496,79 +552,96 @@ is_brief=false (주력 분석글):
 - loser:   2~3개 단락 (타격 플레이어 + 수치)
 - action:  3~4개 단락 (마지막 단락은 반드시 "실제 조달 현장에서는 —"로 시작)
 
-is_brief=true (속보성 글, 최대 1~2개):
+is_brief=true (속보성 글, 이번 배치에서 최대 1개):
 - fact:    2~3개 단락
 - meaning: [] (빈 배열)
 - winner:  [] (빈 배열)
 - loser:   [] (빈 배열)
 - action:  2~3개 단락 (마지막 단락은 반드시 "실제 조달 현장에서는 —"로 시작)
 
-save_articles 도구를 사용해 기사 5개를 저장하세요.
-- 첫 번째 기사(is_featured: true)는 공급망전쟁 또는 기술패권으로 설정
-- 나머지 4개: is_featured=false
-- timestamp: 현재 시각 기준 오전/오후 HH:MM 형식
+{closing}
 """
 
-    request_params = dict(
-        model="claude-sonnet-4-6",
-        max_tokens=32000,
-        tools=[{
-            "name": "save_articles",
-            "description": "생성된 기사 5개를 저장합니다",
-            "input_schema": {
-                "type": "object",
-                "properties": {
-                    "articles": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "id":            {"type": "integer"},
-                                "topic_key":     {"type": "string", "description": "이 기사의 핵심 사건을 나타내는 정규화 토픽키. 핵심 엔티티+사건을 한글 2~4단어로 하이픈 연결(예: '고려아연-갈륨-국내생산', '미중-AI칩-수출통제', '중국-헬륨-수출통제'). 표현이 달라도 같은 사건이면 반드시 같은 키를 쓸 것 — 날짜 간 중복 판정에 쓰인다."},
-                                "category":      {"type": "string", "enum": ["기술패권","공급망전쟁","산업전략","글로벌분석"]},
-                                "tag_type":      {"type": "string", "enum": ["tag-hegemony","tag-supply","tag-strategy","tag-global"]},
-                                "title":         {"type": "string"},
-                                "summary":       {"type": "string"},
-                                "is_brief":      {"type": "boolean"},
-                                "fact":          {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 4},
-                                "meaning":       {"type": "array", "items": {"type": "string"}},
-                                "winner":        {"type": "array", "items": {"type": "string"}},
-                                "loser":         {"type": "array", "items": {"type": "string"}},
-                                "action":        {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 4},
-                                "image_keyword": {"type": "string", "description": "기사 핵심 소재를 사진으로 촬영 가능한 구체적 사물 중심의 영문 2~4단어. 국가명·지명(Korea, Seoul, China 등)과 추상어(strategy, policy, economy, market)는 절대 금지. 예: 'gallium metal ingot', 'semiconductor wafer cleanroom', 'rare earth magnet', 'fiber optic cable' 처럼 실제 피사체가 명확해야 함."},
-                                "is_featured":   {"type": "boolean"},
-                                "timestamp":     {"type": "string"}
+        request_params = dict(
+            model="claude-sonnet-4-6",
+            max_tokens=32000,
+            tools=[{
+                "name": "save_articles",
+                "description": f"생성된 기사 {count}개를 저장합니다",
+                "input_schema": {
+                    "type": "object",
+                    "properties": {
+                        "articles": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id":            {"type": "integer"},
+                                    "topic_key":     {"type": "string", "description": "이 기사의 핵심 사건을 나타내는 정규화 토픽키. 핵심 엔티티+사건을 한글 2~4단어로 하이픈 연결(예: '고려아연-갈륨-국내생산', '미중-AI칩-수출통제', '중국-헬륨-수출통제'). 표현이 달라도 같은 사건이면 반드시 같은 키를 쓸 것 — 날짜 간 중복 판정에 쓰인다."},
+                                    "category":      {"type": "string", "enum": ["기술패권","공급망전쟁","산업전략","글로벌분석"]},
+                                    "tag_type":      {"type": "string", "enum": ["tag-hegemony","tag-supply","tag-strategy","tag-global"]},
+                                    "title":         {"type": "string"},
+                                    "summary":       {"type": "string"},
+                                    "is_brief":      {"type": "boolean"},
+                                    "fact":          {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 4},
+                                    "meaning":       {"type": "array", "items": {"type": "string"}},
+                                    "winner":        {"type": "array", "items": {"type": "string"}},
+                                    "loser":         {"type": "array", "items": {"type": "string"}},
+                                    "action":        {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 4},
+                                    "image_keyword": {"type": "string", "description": "기사 핵심 소재를 사진으로 촬영 가능한 구체적 사물 중심의 영문 2~4단어. 국가명·지명(Korea, Seoul, China 등)과 추상어(strategy, policy, economy, market)는 절대 금지. 예: 'gallium metal ingot', 'semiconductor wafer cleanroom', 'rare earth magnet', 'fiber optic cable' 처럼 실제 피사체가 명확해야 함."},
+                                    "is_featured":   {"type": "boolean"},
+                                    "timestamp":     {"type": "string"}
+                                },
+                                "required": ["id","topic_key","category","tag_type","title","summary","is_brief",
+                                             "fact","meaning","winner","loser","action",
+                                             "image_keyword","is_featured","timestamp"]
                             },
-                            "required": ["id","topic_key","category","tag_type","title","summary","is_brief",
-                                         "fact","meaning","winner","loser","action",
-                                         "image_keyword","is_featured","timestamp"]
-                        },
-                        "minItems": 5,
-                        "maxItems": 5
-                    }
-                },
-                "required": ["articles"]
-            }
-        }],
-        tool_choice={"type": "tool", "name": "save_articles"},
-        messages=[{"role": "user", "content": prompt}]
-    )
+                            "minItems": count,
+                            "maxItems": count
+                        }
+                    },
+                    "required": ["articles"]
+                }
+            }],
+            tool_choice={"type": "tool", "name": "save_articles"},
+            messages=[{"role": "user", "content": prompt}]
+        )
 
-    # ── LLM 호출: 구독코인(Claude Code) vs API코인(anthropic SDK) ──
-    if llm_backend.using_subscription():
-        articles = llm_backend.call_tool(request_params, "save_articles")["articles"]
-    else:
-        with client.messages.stream(**request_params) as stream:
-            response = stream.get_final_message()
-        tool_block = next(b for b in response.content if b.type == "tool_use")
-        articles = tool_block.input["articles"]
-    if isinstance(articles, str):
-        print("⚠️  articles가 str 타입, json_repair 시도...")
-        try:
-            from json_repair import repair_json
-            articles = json.loads(repair_json(articles))
-        except ImportError:
-            articles = json.loads(articles)
+        # ── LLM 호출: 구독코인(Claude Code) vs API코인(anthropic SDK) ──
+        print(f"   → 배치 {batch_no}/{len(batches)}: 기사 {count}건 생성 중...")
+        if llm_backend.using_subscription():
+            part = llm_backend.call_tool(request_params, "save_articles")["articles"]
+        else:
+            with client.messages.stream(**request_params) as stream:
+                response = stream.get_final_message()
+            tool_block = next(b for b in response.content if b.type == "tool_use")
+            part = tool_block.input["articles"]
+        if isinstance(part, str):
+            print("⚠️  articles가 str 타입, json_repair 시도...")
+            try:
+                from json_repair import repair_json
+                part = json.loads(repair_json(part))
+            except ImportError:
+                part = json.loads(part)
+
+        # 대표 기사는 배치1에서만 나온다 — 배치2가 스키마를 어기고 true를 줘도 막는다
+        if not batch["featured"]:
+            for a in part:
+                a["is_featured"] = False
+
+        articles.extend(part)
+        print(f"   → 배치 {batch_no} 완료 — 누적 {len(articles)}건")
+
+    # 대표 기사는 하루 한 건 — 배치를 합친 뒤 앞의 하나만 남긴다.
+    # (index.html 히어로가 is_featured를 보고 고르므로 복수면 배치가 흐트러진다)
+    featured_seen = False
+    for a in articles:
+        if a.get("is_featured") and not featured_seen:
+            featured_seen = True
+        else:
+            a["is_featured"] = False
+    if articles and not featured_seen:
+        articles[0]["is_featured"] = True
 
     # 필드 정제
     for a in articles:
