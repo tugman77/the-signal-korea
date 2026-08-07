@@ -37,19 +37,7 @@
       ],
       "image_keyword": "gallium metal ingot",
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-08-07_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "중국의 게르마늄 수출통제 이후 국제 현물가가 통제 전 대비 약 3배 수준 고착화 — 실제 상승폭과 차이 가능",
-          "우회 경로 프리미엄 '시장가 대비 30~50% 할증' — 출처 없는 추정치",
-          "한국 갈륨 수입 의존 규모 약 700억 원 추산 — 공식 통계와 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "주요 사실(갈륨 15.5t 양산계획, 중국 2023년 8월 게르마늄 통제 등) 개연성 높음. 일부 수치 출처 보완 권고.",
-        "verified_at": "2026-08-07 11:15"
-      }
+      "image_url": "images/2026-08-07_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       ],
       "image_keyword": "yttrium oxide powder",
       "timestamp": "오전 09:30",
-      "image_url": "images/2026-08-07_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "이트륨 산화물 현재 가격 kg당 3~4달러 — 실제 시세(수십 달러 수준)와 크게 괴리 가능, 정밀 확인 필요",
-          "중국 세관 이트륨 수출 심사 기간 15~20일 연장 정황 — 공식 확인되지 않은 업계 전언",
-          "비스무트 통제 검토 — 현재까지 공식 발표 없는 시나리오, 추측성 서술 명시 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "이트륨 산화물 단가 수치가 실제 시세와 큰 차이 가능. 통제 '현실화 임박' 표현이 근거 불충분, 경고 처리.",
-        "verified_at": "2026-08-07 11:15"
-      }
+      "image_url": "images/2026-08-07_article_1.jpg"
     },
     {
       "id": 2,
@@ -133,19 +109,7 @@
       ],
       "image_keyword": "polysilicon crystal rod",
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-08-07_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "트럼프 행정부 폴리실리콘 15% 관세 행정명령 추진 — 구체적 행정명령 번호·공식 발표 미확인",
-          "한화솔루션 조지아 공장 연간 생산능력 약 3.3GW — 실제 수치와 대조 필요",
-          "REC Silicon 미국 몬태나 공장 재가동 검토 — 실제 위치는 미주리주(Butte, MT가 아닌 Butte, Montana 맞으나 재가동 검토 여부 최신 확인 필요)"
-        ],
-        "image_keyword_ok": true,
-        "notes": "폴리실리콘 관세 행정명령 공식 확인 필요. 기업 수치 일부 검증 권고. 전반적 논리 구조는 타당.",
-        "verified_at": "2026-08-07 11:15"
-      }
+      "image_url": "images/2026-08-07_article_2.jpg"
     },
     {
       "id": 3,
@@ -169,19 +133,7 @@
       ],
       "image_keyword": "semiconductor wafer cleanroom",
       "timestamp": "오전 10:00",
-      "image_url": "images/2026-08-07_article_3.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "아삼주 반도체 OSAT 허브에 22억 달러 투자 유치 — 실제 투자액·주체 공식 확인 필요",
-          "인도 반도체 산업 진흥법 보조금 10억 달러 — India Semiconductor Mission 실제 지원 규모와 대조 필요",
-          "CG파워 아삼 현지 공장 건설 착수 — CG파워는 구자라트주 투자가 주요 발표, 아삼 착수 여부 별도 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "아삼주 투자 수치 및 CG파워 공장 소재지 사실 확인 필요. brief 기사 특성상 내용 간결하나 출처 보강 권고.",
-        "verified_at": "2026-08-07 11:15"
-      }
+      "image_url": "images/2026-08-07_article_3.jpg"
     },
     {
       "id": 4,
@@ -217,19 +169,7 @@
       ],
       "image_keyword": "data center server rack cooling",
       "timestamp": "오전 10:15",
-      "image_url": "images/2026-08-07_article_4.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "정부 2030년 민관 투자 1,600조 원 — 실제 공표된 수치인지 최신 발표문 대조 필요",
-          "데이터센터 1MW 구축 비용 중 전력 인프라 비중 25~30% — 출처 미표기, 업계 평균과 대조 권고",
-          "글로벌 전력 케이블 시장 2030년까지 연평균 8~10% 성장 — 리서치사 출처 명시 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "방향성 전기강판·LS전선 등 기업·소재 서술 개연성 높음. 정부 투자 수치 출처 보강 권고. 전반 논리 탄탄.",
-        "verified_at": "2026-08-07 11:15"
-      }
+      "image_url": "images/2026-08-07_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 수출통제가 갈륨·게르마늄을 넘어 이트륨·마그네슘·비스무트로 확산되며 공급망 재편이 가속화되고 있다. 고려아연의 이중 국산화와 인도 아삼 거점 부상은 투자 관점에서 주목할 구조적 기회다. 트럼프발 폴리실리콘 관세와 데이터센터 자재 병목은 단기 리스크 요인으로 동시 관리가 필요하다.",
@@ -259,6 +199,5 @@
       "label": "데이터센터 자재 병목",
       "status": "전력·냉각 위험"
     }
-  ],
-  "last_reviewed_at": "2026-08-07 11:15"
+  ]
 }
