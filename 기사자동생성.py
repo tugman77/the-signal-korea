@@ -610,7 +610,8 @@ is_brief=true (속보성 글, 이번 배치에서 최대 1개):
         # ── LLM 호출: 구독코인(Claude Code) vs API코인(anthropic SDK) ──
         print(f"   → 배치 {batch_no}/{len(batches)}: 기사 {count}건 생성 중...")
         if llm_backend.using_subscription():
-            part = llm_backend.call_tool(request_params, "save_articles")["articles"]
+            # effort="low" — 사고 토큰도 32,000 출력 상한을 먹는다 (llm_backend.call_tool 주석)
+            part = llm_backend.call_tool(request_params, "save_articles", effort="low")["articles"]
         else:
             with client.messages.stream(**request_params) as stream:
                 response = stream.get_final_message()

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-07",
-  "collected_at": "2026-08-07 11:11 KST",
+  "collected_at": "2026-08-07 08:15 KST",
   "total_count": 40,
   "topics": {
     "공급망전쟁": [
@@ -35,10 +35,10 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "공급망전쟁",
-        "title": "고려아연, 전략광물 '갈륨' 공장 신설… \"대한민국 유일 공급망 넘어 글로벌 허브로\" - 이로운넷",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OeG5TMXRMUHJhTFZBU1B6ZUtWZktqdW03ZlhZaFRGS1BzekFDMzUxV1ZZNjdGMzN6VjlKaXlOU3JZQVdLR1NZVU1QaTd2Q29sZ2x6Y0JOR1VhNllSVW1TNUZ6LWtEZw?oc=5\" target=\"_blank\">고려아연, 전략광물 '갈륨' 공장 신설… \"대한민국 유일 공급망 넘어 글로벌 허브로\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">이로운넷",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OeG5TMXRMUHJhTFZBU1B6ZUtWZktqdW03ZlhZaFRGS1BzekFDMzUxV1ZZNjdGMzN6VjlKaXlOU3JZQVdLR1NZVU1QaTd2Q29sZ2x6Y0JOR1VhNllSVW1TNUZ6LWtEZw?oc=5",
-        "published": "Sun, 19 Oct 2025 07:00:00 GMT"
+        "title": "중국 수출규제 1호 ‘게르마늄’, 한국산으로 공급망 새 판 짠다 - 스트레이트뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9yeGxsREJzWFdjZXJWel9SWkZNd1F0ZWpRam1oNmxqMTNwZ3pmcFVkb1lWSWQ5R2gyY2tlUERZdmdxNjg0d3JRdFJkdXF0aWxCOE9ud3VHbmxLQ2phcXJJN0E2Qy15enBSNk4tUmF5aXlPTDTSAXdBVV95cUxOVF9yV3gweVItakVxbVFqREYwcHc5dE9aS2FOX1A1VzF4SXhlSFBrdkM3ZDJzSHpiYnJlbUdFeWFxanhxdH",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yeGxsREJzWFdjZXJWel9SWkZNd1F0ZWpRam1oNmxqMTNwZ3pmcFVkb1lWSWQ5R2gyY2tlUERZdmdxNjg0d3JRdFJkdXF0aWxCOE9ud3VHbmxLQ2phcXJJN0E2Qy15enBSNk4tUmF5aXlPTDTSAXdBVV95cUxOVF9yV3gweVItakVxbVFqREYwcHc5dE9aS2FOX1A1VzF4SXhlSFBrdkM3ZDJzSHpiYnJlbUdFeWFxanhxdHhrbF81ZnZNLVA0RUFiMWt3VXpsVmRESkxncmx3aVhQRTBUSDhmVkhkblh4eU1LbGFjdw?oc=5",
+        "published": "Wed, 27 Aug 2025 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -154,6 +154,15 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "기술패권",
+        "title": "The Chip War with China Is Failing - Foreign Policy in Focus",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMlJoMmdIenRaVHZfMy1OUnVBZE1CRFpObkgzSnhPaW4zUmdzdTRrVmktZVI1SGNQMDdUTUFWQVkzRTdSNS1PQ2VKbkw1Rk1wSXpQOF9uVHZmY1ItNWZCcU5n?oc=5\" target=\"_blank\">The Chip War with China Is Failing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Foreign Policy in Focus",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMlJoMmdIenRaVHZfMy1OUnVBZE1CRFpObkgzSnhPaW4zUmdzdTRrVmktZVI1SGNQMDdUTUFWQVkzRTdSNS1PQ2VKbkw1Rk1wSXpQOF9uVHZmY1ItNWZCcU5n?oc=5",
+        "published": "Tue, 30 Jun 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "en",
+        "topic": "기술패권",
         "title": "In the Chip War, Export Bans Have Worked. But We’re Still Losing Ground - The National Interest",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5\" targe",
         "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5",
@@ -172,19 +181,10 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "기술패권",
-        "title": "The View | China cannot win the chip war through self-reliance alone - South China Morning Post",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2xCRzE2Zk5rZTNhLVB3dENwaHdiTkZlcGV5bzhXQklSQ1VUUDdvVVpWZmIzX0JtVm13WHpSaEVlRGZ4WFIxQVN5aHBzaTdqbHRUbDNfVUZvMHlBWWIxN2ZnS3hicnZscmg0QUF1LWNFX0ZiWWYwTFFyWk1za0owOWQxaU9UTVpHdFR1Ti1PdXh0a1NueUVmNVNFSThHS1ZSSnlhdW43a3FWd9IBqgFBVV95cUxQNnlqcV",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV2xCRzE2Zk5rZTNhLVB3dENwaHdiTkZlcGV5bzhXQklSQ1VUUDdvVVpWZmIzX0JtVm13WHpSaEVlRGZ4WFIxQVN5aHBzaTdqbHRUbDNfVUZvMHlBWWIxN2ZnS3hicnZscmg0QUF1LWNFX0ZiWWYwTFFyWk1za0owOWQxaU9UTVpHdFR1Ti1PdXh0a1NueUVmNVNFSThHS1ZSSnlhdW43a3FWd9IBqgFBVV95cUxQNnlqcVh6MTJxNmRJaUVQSHh4dnRadUJ2aUFvc1ExY3RSWTA3ejhSZ0o3d0hMUEJIRmQtamNPazIwam80NkV3b3ZaeTdGeEZGaG0weVo5OE5QZEtCSEFPb3Fha3ZESkhrWlJ2RGxsTzJRNmZTdFNmMWF3bFJMMjkzcnpEb0pwbDI5RDJFMTF3bjMwNTUySzktNFROVEpkTGt6aXdXODdTaVN6QQ?oc=5",
-        "published": "Tue, 21 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "en",
-        "topic": "기술패권",
-        "title": "The Chip War with China Is Failing - Foreign Policy in Focus",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMlJoMmdIenRaVHZfMy1OUnVBZE1CRFpObkgzSnhPaW4zUmdzdTRrVmktZVI1SGNQMDdUTUFWQVkzRTdSNS1PQ2VKbkw1Rk1wSXpQOF9uVHZmY1ItNWZCcU5n?oc=5\" target=\"_blank\">The Chip War with China Is Failing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Foreign Policy in Focus",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9NMlJoMmdIenRaVHZfMy1OUnVBZE1CRFpObkgzSnhPaW4zUmdzdTRrVmktZVI1SGNQMDdUTUFWQVkzRTdSNS1PQ2VKbkw1Rk1wSXpQOF9uVHZmY1ItNWZCcU5n?oc=5",
-        "published": "Tue, 30 Jun 2026 07:00:00 GMT"
+        "title": "Ball game’s over—the US is out of the AI chip market in China - Brookings",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHdoMzA3Y2hoYm1lcVQ5OUhVWHpCd1FPaFdvc3ZfSzRrajc2RzFmaVRPYnhOSWJQTFpvZFg3THVhZHRiLUt0Tm52QlhYbTFKNTVpaGlCTnVwV2pDM3htbVV4cTIzYWh1WnZNU044a1dtZmlTWkNKa0xmNmhWZkpSVjQzUzJfS01LbnZuRnhXRldKaXVfUFRqck9QZXg?oc=5\" target=\"_blank\">Ball game’s over",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHdoMzA3Y2hoYm1lcVQ5OUhVWHpCd1FPaFdvc3ZfSzRrajc2RzFmaVRPYnhOSWJQTFpvZFg3THVhZHRiLUt0Tm52QlhYbTFKNTVpaGlCTnVwV2pDM3htbVV4cTIzYWh1WnZNU044a1dtZmlTWkNKa0xmNmhWZkpSVjQzUzJfS01LbnZuRnhXRldKaXVfUFRqck9QZXg?oc=5",
+        "published": "Wed, 17 Jun 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -246,19 +246,19 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "산업전략",
-        "title": "[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다 - 헬로티",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5\" target=\"_blank\">[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헬로티</font>",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5",
-        "published": "Sat, 20 Dec 2025 08:00:00 GMT"
+        "title": "'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다 - 전자신문",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5\" target=\"_blank\">'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전자신문</font>",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5",
+        "published": "Sun, 28 Jun 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "산업전략",
-        "title": "'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다 - 전자신문",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5\" target=\"_blank\">'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전자신문</font>",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5",
-        "published": "Sun, 28 Jun 2026 07:00:00 GMT"
+        "title": "[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다 - 헬로티",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5\" target=\"_blank\">[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헬로티</font>",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5",
+        "published": "Sat, 20 Dec 2025 08:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -268,6 +268,15 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5\" target=\"_blank\">[Lee Jong-Wha] Korea bets on industrial policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5",
         "published": "Wed, 29 Jul 2026 20:30:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "en",
+        "topic": "산업전략",
+        "title": "Why trading companies are back at the center of security - Korea JoongAng Daily",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNV0VkenplNzZNNXl2Z09PckRhczZ5Q2pXMnh2Y0ROUkM1b0x5WENlR3pNT0d1S24ya19DZERqdHhKLWRYWDh2V1dqUXBKSG9BdjhDRXNpeDZNN1dCQjJncHVyaWFFaThrT0Z0LU5weHp1dEc4X0FETlJ2bmdOQk43SHRPOE1wcmJ6RGg2MEgxR0Y4YWFMTmZ6Z3JRSzlRdw?oc=5\" target=\"_blank\">Why trading c",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0VkenplNzZNNXl2Z09PckRhczZ5Q2pXMnh2Y0ROUkM1b0x5WENlR3pNT0d1S24ya19DZERqdHhKLWRYWDh2V1dqUXBKSG9BdjhDRXNpeDZNN1dCQjJncHVyaWFFaThrT0Z0LU5weHp1dEc4X0FETlJ2bmdOQk43SHRPOE1wcmJ6RGg2MEgxR0Y4YWFMTmZ6Z3JRSzlRdw?oc=5",
+        "published": "Thu, 23 Jul 2026 15:03:38 GMT"
       },
       {
         "source": "GoogleNews",
@@ -286,15 +295,6 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zY3VIRG5ldTVJaFlkSWo0RFJQWHVLcXc3T0c3eDE4NHNWZkduQUx5cGl4bFQtdURIaElGbWlsd19IQWx4Q2xMTngxNDZQQmh3UnNDUGtlOWNCM0R3V2JsbXp3?oc=5\" target=\"_blank\">GROWTH - 1st EU-South Korea Supply Chains and Industrial Policy Dialogue</a>&nbsp;&nbsp;<font c",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zY3VIRG5ldTVJaFlkSWo0RFJQWHVLcXc3T0c3eDE4NHNWZkduQUx5cGl4bFQtdURIaElGbWlsd19IQWx4Q2xMTngxNDZQQmh3UnNDUGtlOWNCM0R3V2JsbXp3?oc=5",
         "published": "Sun, 15 Mar 2026 07:16:19 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "en",
-        "topic": "산업전략",
-        "title": "Why trading companies are back at the center of security - Korea JoongAng Daily",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNV0VkenplNzZNNXl2Z09PckRhczZ5Q2pXMnh2Y0ROUkM1b0x5WENlR3pNT0d1S24ya19DZERqdHhKLWRYWDh2V1dqUXBKSG9BdjhDRXNpeDZNN1dCQjJncHVyaWFFaThrT0Z0LU5weHp1dEc4X0FETlJ2bmdOQk43SHRPOE1wcmJ6RGg2MEgxR0Y4YWFMTmZ6Z3JRSzlRdw?oc=5\" target=\"_blank\">Why trading c",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0VkenplNzZNNXl2Z09PckRhczZ5Q2pXMnh2Y0ROUkM1b0x5WENlR3pNT0d1S24ya19DZERqdHhKLWRYWDh2V1dqUXBKSG9BdjhDRXNpeDZNN1dCQjJncHVyaWFFaThrT0Z0LU5weHp1dEc4X0FETlJ2bmdOQk43SHRPOE1wcmJ6RGg2MEgxR0Y4YWFMTmZ6Z3JRSzlRdw?oc=5",
-        "published": "Thu, 23 Jul 2026 15:03:38 GMT"
       }
     ],
     "글로벌분석": [
@@ -302,26 +302,8 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "글로벌분석",
-        "title": "[글로벌 그린 전환] 전쟁이 앞당긴 'GX(그린전환)' 시대… K-그린테크, 글로벌 시장의 새로운 해법으로 부상 - 코리아포스트 한글판",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE91VXZ2aGNVT0EwLTZNZ0V4b2hiUks3bzBDc0s3Ym05YzNtRnJsV1lvb3pGUnpnanVJRW5lUlJ5VURVMDB4VUdLLXliTmRwX3lIYkVMclBUb1M0anBndTIyUmRaanhpbmtvLTNQUExB?oc=5\" target=\"_blank\">[글로벌 그린 전환] 전쟁이 앞당긴 'GX(그린전환)' 시대… K-그린테크, 글로벌 시장의 새로운 해법으로 부상</a>&nbsp;&nbsp;<",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91VXZ2aGNVT0EwLTZNZ0V4b2hiUks3bzBDc0s3Ym05YzNtRnJsV1lvb3pGUnpnanVJRW5lUlJ5VURVMDB4VUdLLXliTmRwX3lIYkVMclBUb1M0anBndTIyUmRaanhpbmtvLTNQUExB?oc=5",
-        "published": "Thu, 06 Aug 2026 23:20:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "글로벌분석",
-        "title": "트럼프, 반도체 핵심소재 폴리실리콘에 15% 관세…글로벌 공급망 긴장 고조 : 경제 - 재경일보",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTFBRVG1mSkZtX0dfbENBZVJLWmdvOFZTeGhSSVp4dm1tLWkta0kyc0Zpci1QQlJUN3RuNVZrR2xQVlltbjlVOXNESXBB?oc=5\" target=\"_blank\">트럼프, 반도체 핵심소재 폴리실리콘에 15% 관세…글로벌 공급망 긴장 고조 : 경제</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">재경일보</font>",
-        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBRVG1mSkZtX0dfbENBZVJLWmdvOFZTeGhSSVp4dm1tLWkta0kyc0Zpci1QQlJUN3RuNVZrR2xQVlltbjlVOXNESXBB?oc=5",
-        "published": "Thu, 06 Aug 2026 23:36:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "글로벌분석",
-        "title": "씰리, 여주에 '아시아 최대' 허브 구축… 프리미엄 수면 공급망 재편 - goodkyung.com",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYWRIcVRLMnpxaUhvb0ZTSDVWd2J3Wi1jUVdCLTZKQXo5bWkxVi1Sc3I0cElBNnJsU3RmV3pSWDZIR0toOXNoWGliV2JibXhPN2tUN1R5VmxOM1g5ckVyT1VTbGFwcEs0TDlEbQ?oc=5\" target=\"_blank\">씰리, 여주에 '아시아 최대' 허브 구축… 프리미엄 수면 공급망 재편</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">goodk",
+        "title": "씰리, 여주에 '아시아 최대' 허브 구축… 프리미엄 수면 공급망 재편 - 굿모닝경제",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYWRIcVRLMnpxaUhvb0ZTSDVWd2J3Wi1jUVdCLTZKQXo5bWkxVi1Sc3I0cElBNnJsU3RmV3pSWDZIR0toOXNoWGliV2JibXhPN2tUN1R5VmxOM1g5ckVyT1VTbGFwcEs0TDlEbQ?oc=5\" target=\"_blank\">씰리, 여주에 '아시아 최대' 허브 구축… 프리미엄 수면 공급망 재편</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">굿모닝경제",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYWRIcVRLMnpxaUhvb0ZTSDVWd2J3Wi1jUVdCLTZKQXo5bWkxVi1Sc3I0cElBNnJsU3RmV3pSWDZIR0toOXNoWGliV2JibXhPN2tUN1R5VmxOM1g5ckVyT1VTbGFwcEs0TDlEbQ?oc=5",
         "published": "Wed, 05 Aug 2026 00:12:10 GMT"
       },
@@ -333,6 +315,24 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdC1LRHQtNGNQU2Z2enVlRzBkUEpSWUhJS2gyeXlFSjBOYTk3SWdwOTZtMlpwQ2VjcFJwU0ktdXAtOWRNd0d0bmVNdVBLTVhKaXJsS1g5OVJHZ1dTREt4NzNjQXE1RUdSbkxQSWZiRTRjYWFsX085LTF0XzhYajZET0RSNTU5WDV0?oc=5\" target=\"_blank\">글로벌 공급망 재편과 경제 안보, 10조 달러 산업 인프라 투자 사이클 가져와",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdC1LRHQtNGNQU2Z2enVlRzBkUEpSWUhJS2gyeXlFSjBOYTk3SWdwOTZtMlpwQ2VjcFJwU0ktdXAtOWRNd0d0bmVNdVBLTVhKaXJsS1g5OVJHZ1dTREt4NzNjQXE1RUdSbkxQSWZiRTRjYWFsX085LTF0XzhYajZET0RSNTU5WDV0?oc=5",
         "published": "Fri, 24 Jul 2026 18:05:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "글로벌분석",
+        "title": "글로벌 공급망 불확실성 증대… 소부장 국산화 테마 '들썩' - 핀포인트뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFB6ZVJxYmtiU2loXzQ5VWNnbURJRHRBejZJZ3RfLVFJQ3lzTWNVRWhfeHdNSUt3c0lUckZ4V19wVk1IMDRVXzZvQjNyb3ZWamhsZDhFYldnQ2ZrNFd3ZU9MbllnUGZPZDlQaV9CV0IwNlFFQ1nSAXdBVV95cUxQNEx5Vi1EQVJnZnZyTi1xMHlOd0hzRDB3cDFWTDFnWG9XeGJmMk14aWNOUUFEdm5kYkE5dEtieEJZakpwZk",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6ZVJxYmtiU2loXzQ5VWNnbURJRHRBejZJZ3RfLVFJQ3lzTWNVRWhfeHdNSUt3c0lUckZ4V19wVk1IMDRVXzZvQjNyb3ZWamhsZDhFYldnQ2ZrNFd3ZU9MbllnUGZPZDlQaV9CV0IwNlFFQ1nSAXdBVV95cUxQNEx5Vi1EQVJnZnZyTi1xMHlOd0hzRDB3cDFWTDFnWG9XeGJmMk14aWNOUUFEdm5kYkE5dEtieEJZakpwZkhaT2ZSUEpHVjUxNFl0WXozNk95UEdfZmFJY2tDTW5WUlloNWpQYTByNHBXRHNteUh0cw?oc=5",
+        "published": "Wed, 05 Aug 2026 01:41:58 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "글로벌분석",
+        "title": "삼정KPMG \"탄소·에너지·데이터 통합이 기업 경쟁력 가른다\" - CPA뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLalluTDJwNWE1TGJnX1pTTEdSWmZvS21KbXlCQWI3Uk5pWmplR2xyQURKVUV1blQzcGZVNVp3UV9wckN0ZThMaUtVakhfUW5SMm5ZNDV4S3R6c0pKbGVNVkVHMXZPN2NF?oc=5\" target=\"_blank\">삼정KPMG \"탄소·에너지·데이터 통합이 기업 경쟁력 가른다\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CPA뉴스</font>",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBLalluTDJwNWE1TGJnX1pTTEdSWmZvS21KbXlCQWI3Uk5pWmplR2xyQURKVUV1blQzcGZVNVp3UV9wckN0ZThMaUtVakhfUW5SMm5ZNDV4S3R6c0pKbGVNVkVHMXZPN2NF?oc=5",
+        "published": "Wed, 05 Aug 2026 00:05:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -365,7 +365,7 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "글로벌분석",
-        "title": "Global Supply Chains Are Shifting. Here’s How Companies Can Be ‘Future Ready.’ - Darden Report Online",
+        "title": "Global Supply Chains Are Shifting. Here’s How Companies Can Be ‘Future Ready.’ - news.darden.virginia.edu",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0pYbWl1SFpiS3hvTW5BZ1VPWURwWmZ4M0Q4VHFaWmhiMFFfZ0sxRVJ2YlJpd1lPV1BhWFpmMzllVF93R2F3QzZZWnpRaGRSaVpjTG1URWlnNFpOVTZUS2VDbzZ2bXZqWGZSWGhydTVuaVNYZWRrek1rcGYyRGY0VDIyRUlHVERLS2RvU1lmZjNpTGhjYmtZdENvclpzdERRTnpnRF9FWUQtaHp2M1g2Q21kSHBvMUxjQW",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa0pYbWl1SFpiS3hvTW5BZ1VPWURwWmZ4M0Q4VHFaWmhiMFFfZ0sxRVJ2YlJpd1lPV1BhWFpmMzllVF93R2F3QzZZWnpRaGRSaVpjTG1URWlnNFpOVTZUS2VDbzZ2bXZqWGZSWGhydTVuaVNYZWRrek1rcGYyRGY0VDIyRUlHVERLS2RvU1lmZjNpTGhjYmtZdENvclpzdERRTnpnRF9FWUQtaHp2M1g2Q21kSHBvMUxjQWc?oc=5",
         "published": "Fri, 23 Jan 2026 08:00:00 GMT"
