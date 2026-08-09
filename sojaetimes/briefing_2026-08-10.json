@@ -1,9 +1,18 @@
 {
-  "date": "2026-08-09",
-  "collected_at": "2026-08-09 08:15 KST",
+  "date": "2026-08-10",
+  "collected_at": "2026-08-10 08:15 KST",
   "total_count": 40,
   "topics": {
     "공급망전쟁": [
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "공급망전쟁",
+        "title": "中, 희귀금속 수출 통제 3년… 차세대 전력 반도체 소재 ‘갈륨’ 가격 9배 폭등 - 글로벌이코노믹",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMVNTVkFubFY0QVZQb0g2aUlxQzRPQXhKVW5OblpHU2VvM0JUUG5ocFFzNUFYckJ2M0VWc09Va016Um42RWJ0Tk51d3FjLW9nVVpveGlDaU9tQzlvYlZrZDdrcEhaYW1RenE4QWYyV3VHSkl5elNrcnowR3h5TDJuLWMtWW1HN2Rs?oc=5\" target=\"_blank\">中, 희귀금속 수출 통제 3년… 차세대 전력 반도체 소재 ‘갈륨’ 가격 9배 ",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMVNTVkFubFY0QVZQb0g2aUlxQzRPQXhKVW5OblpHU2VvM0JUUG5ocFFzNUFYckJ2M0VWc09Va016Um42RWJ0Tk51d3FjLW9nVVpveGlDaU9tQzlvYlZrZDdrcEhaYW1RenE4QWYyV3VHSkl5elNrcnowR3h5TDJuLWMtWW1HN2Rs?oc=5",
+        "published": "Sun, 09 Aug 2026 20:35:00 GMT"
+      },
       {
         "source": "GoogleNews",
         "lang": "ko",
@@ -17,7 +26,7 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "공급망전쟁",
-        "title": "中 핵심광물 통제, ‘가격’에서 ‘공급망’으로… AI·로봇 산업까지 리스크 확산 - industrynews.co.kr",
+        "title": "中 핵심광물 통제, ‘가격’에서 ‘공급망’으로… AI·로봇 산업까지 리스크 확산 - 인더스트리뉴스",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBhMXVzVVdVbkpPS0NDcUhpOUgyUHdDRENVUGZhZFFZMTR5T0toY2N1Ty1rbWMtNjlRdXI5eGExaG5weVMteXFqZjlvQmpXWm0tUzNHQ1JDRmx3NklqS1o0Q2F3Y2pYck1Lb2JUZ3R3bWVmZw?oc=5\" target=\"_blank\">中 핵심광물 통제, ‘가격’에서 ‘공급망’으로… AI·로봇 산업까지 리스크 확산</a>&nbsp;&nbsp;<font color=\"",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhMXVzVVdVbkpPS0NDcUhpOUgyUHdDRENVUGZhZFFZMTR5T0toY2N1Ty1rbWMtNjlRdXI5eGExaG5weVMteXFqZjlvQmpXWm0tUzNHQ1JDRmx3NklqS1o0Q2F3Y2pYck1Lb2JUZ3R3bWVmZw?oc=5",
         "published": "Wed, 18 Mar 2026 07:00:00 GMT"
@@ -29,15 +38,6 @@
         "title": "고려아연, 전략광물 '갈륨' 생산 시동…2028년부터 年15.5t 규모(종합) - 연합뉴스",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBraTdwNHFRYjAzME9EYTRMbmNNQUl2U3NYcG1IeURZYkdGSkVaak81S0s1RlVjVEVkc0ZiLTJDam9nQWJfbXEyZ3hkN2dqTDI0N2phcmhTWmRSZ1nSAWBBVV95cUxQOHlneGNpbE9OeThjRVFjc3QtTm1hTWVjZ3ZxOTVCZGlCako0NzVxX1ZoOHJpMEk5WXo0NEFKU0JHV2pucVBvZTVTdmk4YTI4V191dkU0cUs0ZF9VMT",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBraTdwNHFRYjAzME9EYTRMbmNNQUl2U3NYcG1IeURZYkdGSkVaak81S0s1RlVjVEVkc0ZiLTJDam9nQWJfbXEyZ3hkN2dqTDI0N2phcmhTWmRSZ1nSAWBBVV95cUxQOHlneGNpbE9OeThjRVFjc3QtTm1hTWVjZ3ZxOTVCZGlCako0NzVxX1ZoOHJpMEk5WXo0NEFKU0JHV2pucVBvZTVTdmk4YTI4V191dkU0cUs0ZF9VMTM1Zkg?oc=5",
-        "published": "Sun, 19 Oct 2025 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "공급망전쟁",
-        "title": "고려아연, 또 中 희토류 규제 해결사로…게르마늄 이어 갈륨 생산 추진 - dt.co.kr",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QNVhkbnBGX0hGUFBzSTF1RHJjcmZGLWphVTBGR1BycXB0R0tZN20tT3hQRE5tcXF5TzR2eEk3d3VRdU5RaTZtTExtZ3RxUQ?oc=5\" target=\"_blank\">고려아연, 또 中 희토류 규제 해결사로…게르마늄 이어 갈륨 생산 추진</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dt.co.kr</font>",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1QNVhkbnBGX0hGUFBzSTF1RHJjcmZGLWphVTBGR1BycXB0R0tZN20tT3hQRE5tcXF5TzR2eEk3d3VRdU5RaTZtTExtZ3RxUQ?oc=5",
         "published": "Sun, 19 Oct 2025 07:00:00 GMT"
       },
       {
@@ -62,7 +62,7 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "공급망전쟁",
-        "title": "Forging a New Critical Minerals Reality - Foundation for Defense of Democracies",
+        "title": "Forging a New Critical Minerals Reality - fdd.org",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdELWUtLW9HM0I4Yld6Y0MzRGsxTm9ObDJmeTdLUWdFWE1rcmw0NVg0ajVLeWNSeG5QRlh3VHdvZklGQXJpclFKOWFCeWFhcVFMT0RVdlhpNDVZWC03aTZSU2ZBQWRjdU5BcW1tdmtaN3VqaDJKNFlZd19QYWtaNGRSNE1yb1E?oc=5\" target=\"_blank\">Forging a New Critical Minerals Reality</a>&",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaVdELWUtLW9HM0I4Yld6Y0MzRGsxTm9ObDJmeTdLUWdFWE1rcmw0NVg0ajVLeWNSeG5QRlh3VHdvZklGQXJpclFKOWFCeWFhcVFMT0RVdlhpNDVZWC03aTZSU2ZBQWRjdU5BcW1tdmtaN3VqaDJKNFlZd19QYWtaNGRSNE1yb1E?oc=5",
         "published": "Thu, 19 Mar 2026 07:00:00 GMT"
@@ -89,10 +89,19 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "공급망전쟁",
-        "title": "China bans rare earth exports to 14 European companies - S&P Global",
+        "title": "China bans rare earth exports to 14 European companies - spglobal.com",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVW1PUmQ5TkdaRU45dThZS180dkhNQ1pvamJDY2FKenVvSE9zbWE0NGxBdXFTY2dJZ1pwS0pHVlJnRkJFNVk4UHkzZlBUWlNKRHpjTUx5ckJMem9MUE9GX0ZrSXQ5X0hvLVhXaExPV0pEejBxcjh3ck1tODZFTkd1YTJ6MGp6Z0NCeXMyeEczYk13UWp5ZVhlYmZ4ZGFPMFlObDJMdmxjUmExWjRNUExLU3BGU2l0eG9ETX",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVW1PUmQ5TkdaRU45dThZS180dkhNQ1pvamJDY2FKenVvSE9zbWE0NGxBdXFTY2dJZ1pwS0pHVlJnRkJFNVk4UHkzZlBUWlNKRHpjTUx5ckJMem9MUE9GX0ZrSXQ5X0hvLVhXaExPV0pEejBxcjh3ck1tODZFTkd1YTJ6MGp6Z0NCeXMyeEczYk13UWp5ZVhlYmZ4ZGFPMFlObDJMdmxjUmExWjRNUExLU3BGU2l0eG9ETXpod1hmSDlRd0FfNFAwLQ?oc=5",
         "published": "Fri, 24 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "en",
+        "topic": "공급망전쟁",
+        "title": "Trump admin blocks tungsten, battery waste exports to boost US minerals supply - reuters.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdFFwYmk2TnlzUWkxMUZvS1FYTUdsYXIxcWlUeldQd0hjenhMQ2ZMZVlfTjdEWHUwZFpSNWxSdW9VSkhrUW8zYjBDb0F5NXllR1JLY29Tc04xNmZWSlJwU2tOOWpxUE9xVjN1allRWGtfX2o3bGJDT2VZWmNjemx2cEtOXzZiTmk2LTI3OTBFWGNnSmstcjBWdHRpZ25aVlN4ZDBqNGUyamtHc09iQ2VHM1Q1U3c0VklqR2",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdFFwYmk2TnlzUWkxMUZvS1FYTUdsYXIxcWlUeldQd0hjenhMQ2ZMZVlfTjdEWHUwZFpSNWxSdW9VSkhrUW8zYjBDb0F5NXllR1JLY29Tc04xNmZWSlJwU2tOOWpxUE9xVjN1allRWGtfX2o3bGJDT2VZWmNjemx2cEtOXzZiTmk2LTI3OTBFWGNnSmstcjBWdHRpZ25aVlN4ZDBqNGUyamtHc09iQ2VHM1Q1U3c0VklqR2FzVno1OWVza3BXRTdMYw?oc=5",
+        "published": "Thu, 06 Aug 2026 21:02:52 GMT"
       },
       {
         "source": "GoogleNews",
@@ -102,15 +111,6 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHFRSnFQX2Z1LUtqRWQ0NnJURUhBdWZzNE8xRGQtTmJpZndEbUNzd0QwbTdaQWVUc2Q5bHRaQjgzaG9mU0ZPV0hjTm1obFlMMzBDeVYwNVVEUF9FZXBpTGF0a2FWSlBOemVxNWZKR0p6UlJkUXFmdW1ObWZXOXZOb0xKSGpHa28?oc=5\" target=\"_blank\">As US works to end reliance on China for cri",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHFRSnFQX2Z1LUtqRWQ0NnJURUhBdWZzNE8xRGQtTmJpZndEbUNzd0QwbTdaQWVUc2Q5bHRaQjgzaG9mU0ZPV0hjTm1obFlMMzBDeVYwNVVEUF9FZXBpTGF0a2FWSlBOemVxNWZKR0p6UlJkUXFmdW1ObWZXOXZOb0xKSGpHa28?oc=5",
         "published": "Tue, 21 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "en",
-        "topic": "공급망전쟁",
-        "title": "US bans critical mineral exports in bid to boost defence - Miningmx",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQN1MzdGJQXzZSUjZKZlB6RlkyWVV5WUQ0LU5yUEZ3TEhBMHA1TXE1a3pmMXRJWFVxZWFHRWtHeFBkck5JZ080Y2RvTlM4T2FwdzgzUFdfbnVEODZjUmpYZmRPaG5KY0xKcWZDbXkxY2dDMHkzRXZzNXlFRTVNSmRPSmt5SUtsNl83SExXVmxnQWxwVGU5Wk5NTXNzT2hOZw?oc=5\" target=\"_blank\">US bans criti",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN1MzdGJQXzZSUjZKZlB6RlkyWVV5WUQ0LU5yUEZ3TEhBMHA1TXE1a3pmMXRJWFVxZWFHRWtHeFBkck5JZ080Y2RvTlM4T2FwdzgzUFdfbnVEODZjUmpYZmRPaG5KY0xKcWZDbXkxY2dDMHkzRXZzNXlFRTVNSmRPSmt5SUtsNl83SExXVmxnQWxwVGU5Wk5NTXNzT2hOZw?oc=5",
-        "published": "Wed, 05 Aug 2026 14:40:47 GMT"
       }
     ],
     "기술패권": [
@@ -154,19 +154,19 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "기술패권",
-        "title": "In the Chip War, Export Bans Have Worked. But We’re Still Losing Ground - The National Interest",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5\" targe",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5",
-        "published": "Wed, 29 Jul 2026 07:00:00 GMT"
+        "title": "China’s routing of Biden in chip war with US created a communist tech giant - Fox News",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPaV9lVEdmZ0xvRVVDclZ3WXE2VGh2YUp2c3NmblZOZnEwd2MwYjBGZmVNYmRTVmJDU1RRVFJfSk5uazN1V0FmdnlsVjJnbC1YeFY2Y3BEWGY3aVJPa0dVODJ0OHBlRlZfS3lDWEZNVXdZcWtLdW9mRGxDZHdsRnU2dFhEdlhCa2cxbFQ0MmdiTTZpek5OR1hUT0hR0gGfAUFVX3lxTE1vVGpoMGZfWV9JV0NESjB5ZkREYU",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaV9lVEdmZ0xvRVVDclZ3WXE2VGh2YUp2c3NmblZOZnEwd2MwYjBGZmVNYmRTVmJDU1RRVFJfSk5uazN1V0FmdnlsVjJnbC1YeFY2Y3BEWGY3aVJPa0dVODJ0OHBlRlZfS3lDWEZNVXdZcWtLdW9mRGxDZHdsRnU2dFhEdlhCa2cxbFQ0MmdiTTZpek5OR1hUT0hR0gGfAUFVX3lxTE1vVGpoMGZfWV9JV0NESjB5ZkREYUhXaEJnZlo3UkNFN3BiZjJ4ZG5hUnJ6OHpiZXN2OWI3MWp1aUVzb09fOGNtWDR1OWFQTlhqLW9BQlFWTTBoMGJGblJ0NlRJWDVLbFRjR2JSMk1CRnJVSkw3YVBQSTRzX0dlUGc5dThNWDVMZmo0UXNyTG9kd3dhR1c3bThqYXZ3aVFkTQ?oc=5",
+        "published": "Fri, 24 Jul 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
         "lang": "en",
         "topic": "기술패권",
-        "title": "China’s routing of Biden in chip war with US created a communist tech giant - Fox News",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPaV9lVEdmZ0xvRVVDclZ3WXE2VGh2YUp2c3NmblZOZnEwd2MwYjBGZmVNYmRTVmJDU1RRVFJfSk5uazN1V0FmdnlsVjJnbC1YeFY2Y3BEWGY3aVJPa0dVODJ0OHBlRlZfS3lDWEZNVXdZcWtLdW9mRGxDZHdsRnU2dFhEdlhCa2cxbFQ0MmdiTTZpek5OR1hUT0hR0gGfAUFVX3lxTE1vVGpoMGZfWV9JV0NESjB5ZkREYU",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaV9lVEdmZ0xvRVVDclZ3WXE2VGh2YUp2c3NmblZOZnEwd2MwYjBGZmVNYmRTVmJDU1RRVFJfSk5uazN1V0FmdnlsVjJnbC1YeFY2Y3BEWGY3aVJPa0dVODJ0OHBlRlZfS3lDWEZNVXdZcWtLdW9mRGxDZHdsRnU2dFhEdlhCa2cxbFQ0MmdiTTZpek5OR1hUT0hR0gGfAUFVX3lxTE1vVGpoMGZfWV9JV0NESjB5ZkREYUhXaEJnZlo3UkNFN3BiZjJ4ZG5hUnJ6OHpiZXN2OWI3MWp1aUVzb09fOGNtWDR1OWFQTlhqLW9BQlFWTTBoMGJGblJ0NlRJWDVLbFRjR2JSMk1CRnJVSkw3YVBQSTRzX0dlUGc5dThNWDVMZmo0UXNyTG9kd3dhR1c3bThqYXZ3aVFkTQ?oc=5",
-        "published": "Fri, 24 Jul 2026 07:00:00 GMT"
+        "title": "In the Chip War, Export Bans Have Worked. But We’re Still Losing Ground - The National Interest",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5\" targe",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRDZfMjBab0dwOV9PTHk3b3VlSkdhOE5sQ1VJY203cHExTUFWcDdlZnNtVGhWWHB5Q2E5NDYzZ2NsSUNBS3ZhSFJQVldIRVp0by1jZmJpUVAxcjhPZ0dqRG9JTG5pMTZHLTgxSGEwVEZPMFYtSFZNeTlrdEtMQjhLVXBiQnJUdlhNLUVGMURtQmx1WG85T1JDZm9nSWF0RXpHVDJLN01MZGlvRURHSG9NMQ?oc=5",
+        "published": "Wed, 29 Jul 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -237,24 +237,6 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "산업전략",
-        "title": "“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란] - 매일경제 마켓",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5\" target=\"_blank\">“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5",
-        "published": "Sun, 14 Jun 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "산업전략",
-        "title": "[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다 - 헬로티",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5\" target=\"_blank\">[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헬로티</font>",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5",
-        "published": "Sat, 20 Dec 2025 08:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "산업전략",
         "title": "'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다 - 전자신문",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5\" target=\"_blank\">'3대 메가프로젝트' 대한민국 산업 생태계 '지역 균형발전' 시동건다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">전자신문</font>",
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1TNWJXTzFidHFtdGVoLVlkak9qZGRadEdRZzVOM2tXaW9fRjZHdzRpazF4R2dIZVVKSzhJdlpaeUZNUjh6cEVYSFlPeE9nQQ?oc=5",
@@ -262,10 +244,28 @@
       },
       {
         "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "산업전략",
+        "title": "호남 반도체 투자 방향은 차량용으로 서울에서 반도체 소부장 전략 포럼 - 아주경제",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94Q1ZzUVdSR0dfZlFHMHQzUWxfUFB6cERFQ3dRa1BMb2syM1hXVFgtNG9aOFBHV3dJdVhGVl9sQ1VtMTNzZXVaOTIzNDVveGVOZFc2VHh5R0ZNd9IBWEFVX3lxTE1wb203aEZUc0x2RXBEdTlUXzMxdVZTRjZKNUp2Ry1CLXo5X000cGNaYkpDU0R1Y3dYT2ZqSS14MUxfNWd1dnlYTlVjaVFpOUpPRlZGWWJzbjI?oc=5\" ",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94Q1ZzUVdSR0dfZlFHMHQzUWxfUFB6cERFQ3dRa1BMb2syM1hXVFgtNG9aOFBHV3dJdVhGVl9sQ1VtMTNzZXVaOTIzNDVveGVOZFc2VHh5R0ZNd9IBWEFVX3lxTE1wb203aEZUc0x2RXBEdTlUXzMxdVZTRjZKNUp2Ry1CLXo5X000cGNaYkpDU0R1Y3dYT2ZqSS14MUxfNWd1dnlYTlVjaVFpOUpPRlZGWWJzbjI?oc=5",
+        "published": "Mon, 06 Jul 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "산업전략",
+        "title": "산업부, 소부장 투자 지원 확대…첨단전략산업 6개 분야로 늘렸다 - 뉴스1",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CblgwVTlCOXZzcFpyWDlCem9PWm5naVRBNUppZDFqcGZVX3gtdmJMQTNLdTJVSEpQRDNhQk9tWm5acEZqVFNyWGxVckp6TjZlWXhzbTJ4M0JBZmVXdEQ0?oc=5\" target=\"_blank\">산업부, 소부장 투자 지원 확대…첨단전략산업 6개 분야로 늘렸다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">뉴스1</font>",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CblgwVTlCOXZzcFpyWDlCem9PWm5naVRBNUppZDFqcGZVX3gtdmJMQTNLdTJVSEpQRDNhQk9tWm5acEZqVFNyWGxVckp6TjZlWXhzbTJ4M0JBZmVXdEQ0?oc=5",
+        "published": "Sun, 17 May 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
         "lang": "en",
         "topic": "산업전략",
-        "title": "[Lee Jong-Wha] Korea bets on industrial policy - The Korea Herald",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5\" target=\"_blank\">[Lee Jong-Wha] Korea bets on industrial policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Korea Herald</font>",
+        "title": "[Lee Jong-Wha] Korea bets on industrial policy - koreaherald.com",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5\" target=\"_blank\">[Lee Jong-Wha] Korea bets on industrial policy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">koreaherald.com</font>",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ndTM3RVFJQUt4ZjREYWJ0eE1DR0dvZVlLd3kzSU0xLUZIQlJSblJ5LVNJc2VremtRUlNCdGdXR2RwWmpFUENZM1BwYXFfb2VxdUdMNTZrSQ?oc=5",
         "published": "Wed, 29 Jul 2026 20:30:00 GMT"
       },
@@ -282,7 +282,7 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "산업전략",
-        "title": "GROWTH - 1st EU-South Korea Supply Chains and Industrial Policy Dialogue - ec.europa.eu",
+        "title": "GROWTH - 1st EU-South Korea Supply Chains and Industrial Policy Dialogue - European Commission",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zY3VIRG5ldTVJaFlkSWo0RFJQWHVLcXc3T0c3eDE4NHNWZkduQUx5cGl4bFQtdURIaElGbWlsd19IQWx4Q2xMTngxNDZQQmh3UnNDUGtlOWNCM0R3V2JsbXp3?oc=5\" target=\"_blank\">GROWTH - 1st EU-South Korea Supply Chains and Industrial Policy Dialogue</a>&nbsp;&nbsp;<font c",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zY3VIRG5ldTVJaFlkSWo0RFJQWHVLcXc3T0c3eDE4NHNWZkduQUx5cGl4bFQtdURIaElGbWlsd19IQWx4Q2xMTngxNDZQQmh3UnNDUGtlOWNCM0R3V2JsbXp3?oc=5",
         "published": "Sun, 15 Mar 2026 07:16:19 GMT"
@@ -302,15 +302,6 @@
         "source": "GoogleNews",
         "lang": "ko",
         "topic": "글로벌분석",
-        "title": "미국 희토류 공급망 재편: 설비 확충·국방 지원·해외 광산 개발 3중 전략 - 얼리어답터뉴스",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BYWhnMU9yOFBjckRyTDU5YlRINVdmZWdjNW01cktwOG1YcVZvYUJIUm5tX3oybWRlLWx3UDlWLWswaDhKcWV4Uw?oc=5\" target=\"_blank\">미국 희토류 공급망 재편: 설비 확충·국방 지원·해외 광산 개발 3중 전략</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">얼리어답터뉴스</font>",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BYWhnMU9yOFBjckRyTDU5YlRINVdmZWdjNW01cktwOG1YcVZvYUJIUm5tX3oybWRlLWx3UDlWLWswaDhKcWV4Uw?oc=5",
-        "published": "Sat, 08 Aug 2026 19:23:46 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "글로벌분석",
         "title": "글로벌 공급망 재편과 경제 안보, 10조 달러 산업 인프라 투자 사이클 가져와 - 글로벌이코노믹",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdC1LRHQtNGNQU2Z2enVlRzBkUEpSWUhJS2gyeXlFSjBOYTk3SWdwOTZtMlpwQ2VjcFJwU0ktdXAtOWRNd0d0bmVNdVBLTVhKaXJsS1g5OVJHZ1dTREt4NzNjQXE1RUdSbkxQSWZiRTRjYWFsX085LTF0XzhYajZET0RSNTU5WDV0?oc=5\" target=\"_blank\">글로벌 공급망 재편과 경제 안보, 10조 달러 산업 인프라 투자 사이클 가져와",
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdC1LRHQtNGNQU2Z2enVlRzBkUEpSWUhJS2gyeXlFSjBOYTk3SWdwOTZtMlpwQ2VjcFJwU0ktdXAtOWRNd0d0bmVNdVBLTVhKaXJsS1g5OVJHZ1dTREt4NzNjQXE1RUdSbkxQSWZiRTRjYWFsX085LTF0XzhYajZET0RSNTU5WDV0?oc=5",
@@ -324,6 +315,15 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYWRIcVRLMnpxaUhvb0ZTSDVWd2J3Wi1jUVdCLTZKQXo5bWkxVi1Sc3I0cElBNnJsU3RmV3pSWDZIR0toOXNoWGliV2JibXhPN2tUN1R5VmxOM1g5ckVyT1VTbGFwcEs0TDlEbQ?oc=5\" target=\"_blank\">씰리, 여주에 '아시아 최대' 허브 구축… 프리미엄 수면 공급망 재편</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">굿모닝경제",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TYWRIcVRLMnpxaUhvb0ZTSDVWd2J3Wi1jUVdCLTZKQXo5bWkxVi1Sc3I0cElBNnJsU3RmV3pSWDZIR0toOXNoWGliV2JibXhPN2tUN1R5VmxOM1g5ckVyT1VTbGFwcEs0TDlEbQ?oc=5",
         "published": "Wed, 05 Aug 2026 00:12:10 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "글로벌분석",
+        "title": "글로벌 공급망 재편, 회복탄력성의 승리인가 - 얼리어답터뉴스",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9jY0lMX1VkMWk4Z1V3MTd3c05iTVloeHg4OUFuckFxa0NLclJ5Q3c4QVBYWVc1b0hhbmYzVzY5UWtWTUE?oc=5\" target=\"_blank\">글로벌 공급망 재편, 회복탄력성의 승리인가</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">얼리어답터뉴스</font>",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9jY0lMX1VkMWk4Z1V3MTd3c05iTVloeHg4OUFuckFxa0NLclJ5Q3c4QVBYWVc1b0hhbmYzVzY5UWtWTUE?oc=5",
+        "published": "Thu, 06 Aug 2026 14:22:59 GMT"
       },
       {
         "source": "GoogleNews",
@@ -365,7 +365,7 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "글로벌분석",
-        "title": "Reshoring: The Domestic Manufacturing Shift - businessfacilities.com",
+        "title": "Reshoring: The Domestic Manufacturing Shift - Business Facilities",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBfX285OE5XRnhvUHFSYjB0OTl2eTNSX21sckpvUVQwMFBfWnJETktLWG9JMGNKVkRpMG1UczByc2pqY0RtR2NIU0tQWGhsTFhCdnU2NTh3UVBtV3ZlZkhJTlhldmhyaFhyNTBUZmJEbVBJd3NfVmZQbmdnYnc5dTQ?oc=5\" target=\"_blank\">Reshoring: The Domestic Manufacturing Shift</a>&nbsp;&nb",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfX285OE5XRnhvUHFSYjB0OTl2eTNSX21sckpvUVQwMFBfWnJETktLWG9JMGNKVkRpMG1UczByc2pqY0RtR2NIU0tQWGhsTFhCdnU2NTh3UVBtV3ZlZkhJTlhldmhyaFhyNTBUZmJEbVBJd3NfVmZQbmdnYnc5dTQ?oc=5",
         "published": "Wed, 08 Apr 2026 07:00:00 GMT"
