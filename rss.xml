@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 08 Aug 2026 08:18:55 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 10:06:46 +0900</lastBuildDate>
+    <item>
+      <title>게르마늄만 여전히 봉쇄…中 선별통제 2단계, 韓 대응 시한 좁아진다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-09-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-09-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 일본향 갈륨 수출을 재개한 반면 게르마늄 봉쇄는 유지 중이다. 반도체·광섬유·야간투시경 핵심 소재인 게르마늄의 글로벌 가격은 통제 이전 대비 3배로 치솟았고, 한국의 국산 대체 공급망은 고려아연 중심 소규모 회수 공정에 머물러 있다.</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>美 희토류 3중 전략 가동…韓 소재 기업, 편입 기회 6개월 남았다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-09-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-09-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국이 국내 설비 확충·국방부 직접 지원·해외 광산 개발 3중 전략으로 희토류 공급망 재편에 총력을 기울이고 있다. 한국 희토류 소재·가공 기업이 이 생태계에 편입될 실질 창구가 향후 6개월 내 좁아질 수 있어 선제 대응이 시급하다.</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>엔비디아 허가제 설계도 나왔다…韓·인도·이스라엘 '프렌드쇼어' 1등급 받을까</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-09-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-09-2.html</guid>
+      <category>기술패권</category>
+      <description>트럼프 행정부가 엔비디아·AMD AI 반도체의 전 세계 수출에 미국 정부 사전 허가를 의무화하는 '국가 등급별 차등 허가제' 설계를 구체화하고 있다. 한국이 1등급(Tier 1) 편입에 성공하면 HBM·파운드리 수요가 유지되지만, 탈락하면 AI 칩 수입 차질로 국내 AI 인프라 구축이 2~3년 지연될 수 있다.</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 1700억, AI 풀스택 선언…실제 조달 병목 3곳은 여기다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-09-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-09-3.html</guid>
+      <category>산업전략</category>
+      <description>정부가 소부장 지원 예산 1700억 원·6개 분야 확대와 AI·반도체·데이터센터 국가전략 삼각축을 동시 선언했지만, 실제 공급 병목은 전략광물 회수 공정·고순도 특수가스·전력 인프라 세 곳에 집중돼 있다. 정책 자금이 수혜 기업 주가에 반영되기 전에 병목 구간을 먼저 짚어야 투자 판단이 선다.</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미·중 규제 충돌, 韓 파운드리 이중 압박…실제 병목 지점은 '소재 인증'</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-09-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-09-4.html</guid>
+      <category>글로벌분석</category>
+      <description>미국 AI칩 수출 허가 의무화와 중국 핵심 소재 봉쇄가 동시에 작동하면서 한국 파운드리·소재 기업은 양쪽 규제를 모두 준수해야 하는 이중 압박 구조에 놓였다. 이 충돌의 실제 병목은 칩 설계나 생산 라인이 아니라 '소재 수입국 인증'과 '용도 추적(end-use verification)' 체계에 있다.</description>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>고려아연 갈륨, '국내 유일'에서 '글로벌 허브'로…中 95% 벽에 첫 균열</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-08-0.html</link>
@@ -206,46 +246,6 @@
       <category>산업전략</category>
       <description>제12차 전력수급기본계획(전기본)이 AI 데이터센터와 반도체 팹 확장에 따른 폭발적 전력 수요를 충분히 반영하지 못할 경우, 소부장 1,700억 투자와 AI 국가전략의 실효성이 전력 병목에서 먼저 무너진다. 전기본은 단순 에너지 정책이 아니라 산업 공급망 전략의 인프라 기반이다.</description>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>KEI·미 전략연구소, 韓 공급망 탄력성 동시 조명…실제 취약점 셋</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-31-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-31-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 한국경제연구소(KEI)와 동아시아포럼(East Asia Forum)이 잇달아 한국의 공급망 회복력 강화 전략을 분석했다. 갈륨·게르마늄 국산화, 소부장 정책 확대에도 불구하고 실제 취약 지점 세 가지가 반복적으로 지목된다.</description>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>KIAT·브라질 R&amp;D 협력, 희토류 공급망 새 루트 되나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-30-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-30-0.html</guid>
-      <category>글로벌분석</category>
-      <description>한국산업기술진흥원(KIAT)이 브라질과 AI·반도체 분야 공동 R&amp;D 협력을 공식화했다. 브라질은 세계 2위 니오브(Nb) 생산국이자 희토류 매장 4위국으로, 중국 의존 탈피를 노리는 한국의 핵심광물 다변화 카드로 부상하고 있다.</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 규제 충돌, 韓 파운드리·소재 이중 압박 구조 심화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-30-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-30-1.html</guid>
-      <category>기술패권</category>
-      <description>미국의 AI칩 수출 허가 의무화 추진과 중국의 핵심 소재 봉쇄가 동시에 작동하면서 한국 반도체·소재 기업은 수요처와 원자재 양쪽 모두에서 불확실성이 커지고 있다. 특히 파운드리 가동률과 HBM 물량 배분이 미중 규제 타임라인에 연동되는 구조가 굳어지고 있다.</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 이트륨 형광체 통제 조짐, 디스플레이 소재 다음 타깃</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-30-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-30-2.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨·게르마늄에 이어 이트륨(Y) 기반 형광체·산화물 수출 심사를 강화하는 정황이 현장에서 포착되고 있다. 한국 디스플레이 업계는 OLED 발광 소재와 LED 형광체의 80% 이상을 중국산 이트륨 화합물에 의존하고 있어 다음 병목 위험이 현실화될 수 있다.</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>동남아 공급망 선택 기로, 韓의 틈새 전략은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-07-30-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-07-30-3.html</guid>
-      <category>글로벌분석</category>
-      <description>미중 공급망 편입 압박이 동남아 10개국에 집중되는 가운데, 한국은 반도체·소재 중간재 공급자로서 어느 진영에도 완전히 속하지 않는 '가교' 포지션을 유지하고 있다. 이 전략이 실익을 내려면 베트남·인도네시아·말레이시아 내 한국 소재 기업의 현지화 속도가 관건이다.</description>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
