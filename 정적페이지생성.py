@@ -190,6 +190,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-adsense-account" content="ca-pub-4300133982902733">
 <title>{esc(title)} — THE SIGNAL KOREA</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{esc(canonical)}">
