@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 12 Aug 2026 10:18:20 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 10:17:30 +0900</lastBuildDate>
+    <item>
+      <title>고려아연 게르마늄, 2027년 국산화 현실로…중국 공백 실제 메꿀 수 있나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-13-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-13-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국 게르마늄 수출통제 장기화로 국제 가격이 통제 이전 대비 3배 수준을 유지하는 가운데, 고려아연 중심의 국내 대체 공급망 구축이 2027년 실공급을 목표로 구체화되고 있다. 개인 투자자와 구매담당자 모두 실제 납기 능력과 규격 충족 여부를 면밀히 살펴야 할 시점이다.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>비스무트·이트륨, 中 다음 통제 소재…韓 의존도 85~92%</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-13-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-13-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨·게르마늄 수출통제의 실효성을 확인한 뒤, 비스무트·이트륨 등 차기 통제 소재 후보군을 관리 대상 목록에 올리는 움직임이 포착되고 있다. 한국의 두 소재 대중 의존도는 각각 90% 이상으로, 선제적 재고 확보와 대체 소싱처 발굴이 시급하다.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>韓 10조 반도체 메가펀드, 소재 국산화 연결고리 없으면 공회전</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-13-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-13-2.html</guid>
+      <category>기술패권</category>
+      <description>한국 정부가 10조 원(약 73억 달러) 규모 반도체 메가프로젝트와 35억 달러 칩 펀드를 동시에 추진하고 있지만, 정작 소재·장비 공급망 내재화 로드맵은 투자 계획에서 구체성이 부족하다는 현장 지적이 나온다. 파운드리·HBM 시설 투자가 소재 국산화 없이 진행되면 중국 수출통제 리스크가 고스란히 남는다.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 반도체 풀스택 선언, 소재 투자 체계 없으면 허공에 뜬다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-13-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-13-3.html</guid>
+      <category>산업전략</category>
+      <description>한국이 AI·반도체·데이터센터 삼각축 국가전략을 선언했지만, 풀스택 공급망의 핵심인 소재 국산화 민간 투자 체계는 여전히 공백 상태다. 정책 발표와 실제 소재 조달 구조 사이의 간극이 좁혀지지 않으면 1600조 원 규모 메가프로젝트도 반쪽짜리에 그친다.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中 갈륨·게르마늄 선별 무기화, 韓 조달 전략도 분기해야 한다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-13-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-13-4.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨은 일본에 수출을 재개하고 게르마늄은 봉쇄를 유지하는 '소재별 차별 통제'를 고착화하면서, 한국의 조달 전략도 소재 단위로 분리해 대응해야 하는 국면이 됐다. 갈륨 가격은 통제 전 대비 9배, 게르마늄은 3배 수준을 유지 중이다.</description>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中, 갈륨은 일본에 풀고 게르마늄은 계속 막았다…선별 무기화 2라운드</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-12-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>삼정KPMG가 탄소·에너지·데이터 세 축의 통합 관리 역량이 제조·소재 기업의 핵심 경쟁력을 결정한다고 분석했다. 글로벌 공급망 재편 국면에서 한국 소부장 기업은 소재 품질만으로 납품 자격을 유지하기 어려워졌으며, ESG 데이터 인프라 부재 기업은 2026년 이후 유럽·미국 1차 벤더 진입 자체가 차단될 수 있다.</description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차, 中 부품 '완전 제거' 선언…韓 소재 수혜 구간 열렸다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-02-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-02-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국 완성차 업체들이 중국산 부품을 전면 교체하는 공급망 재편에 본격 착수했다. 중국산 부품 의존도가 30~40%에 달하는 전장·구동계 소재 공백이 가시화되면서, 한국 소재·부품 기업의 대미 납품 기회가 구체화되고 있다.</description>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 수출규제 1호 게르마늄, 한국산 대체 공급망 실제로 얼마나 됐나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-02-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-02-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국 게르마늄 수출통제가 시행된 지 2년이 경과한 가운데, 한국 내 게르마늄 국산화 경로가 고려아연 중심으로 구체화되고 있다. 그러나 글로벌 게르마늄 가격이 통제 이전 대비 약 3배 수준에서 유지되는 동안 실제 국내 공급 가능 물량은 연간 수요의 10% 미만에 머물고 있다.</description>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 광물통제, AI 서버·산업로봇으로 확전…새 리스크 지도 3가지</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-02-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-02-2.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체·디스플레이 소재에서 AI 서버 냉각재·산업용 로봇 영구자석 소재까지 확산되고 있다. 통제 설계 자체가 '가격 무기'에서 '공급망 해체'로 전환되면서, 한국 AI 인프라·제조 자동화 투자에 새로운 병목이 가시화된다.</description>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 AI·반도체 풀스택 전략, 소재 공백 메울 민간 투자 체계 있나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-02-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-02-3.html</guid>
-      <category>산업전략</category>
-      <description>한국이 AI·반도체·데이터센터 국가전략 삼각축을 선언했지만, 풀스택 전략의 핵심인 소재 국산화 투자 체계가 여전히 정부 보조금 의존 구조에 머물고 있다. 산업은행의 AI·반도체 스타트업 15곳 육성 계획과 한경협 성장판 논의가 맞물리는 지금, 민간 자본이 소재 단계까지 내려오는 구조를 만들 수 있느냐가 전략의 실효성을 가른다.</description>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 공급망 탄력성 3대 취약점…KEI·동아시아포럼 분석 교차 검증</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-02-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-02-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 한국경제연구소(KEI)와 동아시아포럼이 잇달아 한국 공급망 회복력을 분석하며 구조적 취약점 세 가지를 공통으로 지목했다. 미중 이중 압박 속에서 한국이 '전략적 균형외교'를 유지하려면 소재·부품 단계의 실질적 다변화가 선행되어야 한다는 결론이 나왔다.</description>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
