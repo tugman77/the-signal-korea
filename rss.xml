@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 13 Aug 2026 10:17:30 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 10:16:12 +0900</lastBuildDate>
+    <item>
+      <title>中 수출통제, 이제 광산보다 서류가 무기다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-14-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-14-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 수출통제 전략을 '광산 장악'에서 '허가증 통제'로 고도화하며 반도체·AI·로봇 공급망 전반을 동시에 흔들고 있다. 갈륨 9배·게르마늄 3배 가격 폭등이 '허가 한 장'에서 비롯됐다는 사실이 한국 조달 구조의 근본적 재설계를 요구한다.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>게르마늄 봉쇄 2년, 국내 대체 조달 실제 작동 루트 셋</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-14-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-14-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국 게르마늄 수출통제 2년이 경과했지만 한국 광통신·방산 광학 업계의 실제 대체 조달 루트는 세 경로로 좁혀진다. 고려아연 국산화(2027년 목표), 벨기에 Umicore·캐나다 Teck 경유, 러시아 Germanium &amp; Applications 우회—각 루트의 실제 가용량과 리스크를 짚는다.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>삼성 파업 리스크, AI 공급망 취약점 됐다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-14-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-14-2.html</guid>
+      <category>기술패권</category>
+      <description>미국 AI 칩 업계가 삼성전자 파업 가능성을 HBM 공급망 경보로 인식하는 것은 삼성+SK하이닉스가 전 세계 HBM 공급의 80% 이상을 점유하기 때문이다. 엔비디아 수출 허가제와 맞물리면 한국 반도체 소재·장비 업체들의 이중 압박이 현실화된다.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 1700억 6개 분야, 실제 수혜 구간 어디인가</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-14-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-14-3.html</guid>
+      <category>산업전략</category>
+      <description>산업부가 소부장 지원 예산을 1700억 원·6개 분야로 확대하며 반도체·이차전지·디스플레이 소재 기업의 투자액 50%를 직접 지원한다. 정책 설계의 실효성은 소재 국산화 '인증→조달→양산' 연결 고리가 얼마나 빠르게 작동하느냐에 달려 있다.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>10조 달러 인프라 사이클, 韓 소재 기업 수혜 실제 구간 셋</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-14-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-14-4.html</guid>
+      <category>글로벌분석</category>
+      <description>글로벌 공급망 재편이 10조 달러 규모 산업 인프라 투자 사이클을 촉발하면서 한국 소재 기업의 포지셔닝 창이 열렸다. 미국·EU·인도 동시 투자 확대 국면에서 배터리·반도체·전력망 소재의 조달 전략이 실질적으로 재편되는 시점이다.</description>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>고려아연 게르마늄, 2027년 국산화 현실로…중국 공백 실제 메꿀 수 있나</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-13-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>동아시아포럼과 미국 한국경제연구소(KEI)가 한국 반도체 공급망의 구조적 취약점 세 가지를 동시에 분석했다. 미국의 AI칩 수출 허가 의무화와 중국의 핵심광물 통제가 동시에 작동하는 이중 압박 구조에서 한국은 파운드리·소재 양 측면 모두 방어 여력이 부족하다는 평가다.</description>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>남미 리튬·니오븀 쟁탈전, 韓 AI 소재 조달 5년이 갈린다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>칠레·아르헨티나·볼리비아 리튬 삼각지대가 전 세계 매장량의 58%를 보유한 가운데, 미국·EU·중국이 남미 전략광물 선점 경쟁을 가속하고 있다. 한국은 배터리용 탄산리튬 가공의 80% 이상을 중국에 의존하는 구조로, AI·반도체 소재 공급망 다변화의 실질적 시한이 5년 이내로 좁혀지고 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 업계 '韓이 핵심'…삼성 파업 리스크가 HBM 공급망 흔드는 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-1.html</guid>
-      <category>기술패권</category>
-      <description>미국 AI 칩 업계가 삼성전자 파업 가능성에 공급망 경보를 내리고 있다. 전 세계 HBM 공급의 삼성+SK하이닉스 합산 비중이 85% 이상인 구조에서, 삼성전자 생산 차질은 엔비디아·AMD의 AI 가속기 출시 일정을 직격할 수 있다. 미중 반도체 갈등이 장기화되는 상황에서 한국 공급망 안정성이 미국 빅테크의 핵심 변수로 부상했다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>인도 아삼 반도체 협력, 韓이 지금 주목해야 할 3가지</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-2.html</guid>
-      <category>공급망전쟁</category>
-      <description>인도 아삼주를 거점으로 한 반도체 협력 구상이 구체화되면서 한국의 전략광물 우회 소싱 루트로서의 가능성이 부상하고 있다. 아삼은 희토류·형석 매장이 확인된 지역으로, 중국 의존 탈피를 모색하는 한국 입장에서 인도와의 반도체·소재 협력의 지리적 거점이 될 수 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 1700억 수혜주, ETF로 담는 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 지원 예산을 1700억 원·6개 분야로 확대하면서 정책 수혜가 삼성전자·SK하이닉스가 아닌 소부장 밸류체인 직접 편입 기업으로 흘러가는 구조가 형성됐다. 개인투자자·기업 구매담당자 모두 단일 종목 집중보다 소부장 테마 ETF를 통한 분산 접근이 리스크 대비 정책 수혜 포착 효율이 높다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄소·에너지·데이터 통합, 소재 납품 자격 바뀐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-4.html</guid>
-      <category>글로벌분석</category>
-      <description>삼정KPMG가 탄소·에너지·데이터 세 축의 통합 관리 역량이 제조·소재 기업의 핵심 경쟁력을 결정한다고 분석했다. 글로벌 공급망 재편 국면에서 한국 소부장 기업은 소재 품질만으로 납품 자격을 유지하기 어려워졌으며, ESG 데이터 인프라 부재 기업은 2026년 이후 유럽·미국 1차 벤더 진입 자체가 차단될 수 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
