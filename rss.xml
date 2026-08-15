@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 14 Aug 2026 10:16:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 09:48:14 +0900</lastBuildDate>
+    <item>
+      <title>고려아연 갈륨 15.5t, 2028년 실제 공급 가능한가</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-15-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-15-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>고려아연이 2028년부터 연 15.5t 규모 갈륨 국내 생산을 공식화했다. 전 세계 갈륨 공급의 95%를 장악한 중국이 수출통제 3년 만에 가격을 9배 끌어올린 상황에서, 실제 조달 대안으로 작동할 수 있는지를 공급자 시각에서 검증한다.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中 헬륨 통제 선언, 반도체 공정 냉각재 비상</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-15-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-15-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 헬륨 수출 통제에 나서며 반도체 공정용 핵심 냉각재 공급망에 새로운 위협이 등장했다. 한국은 반도체 공정용 헬륨 수요의 상당 부분을 수입에 의존하고 있어 즉각적인 조달 다변화 전략이 요구된다.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>인도·TSMC 반도체 공세, 韓 소재 포지션 흔든다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-15-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-15-2.html</guid>
+      <category>기술패권</category>
+      <description>인도와 TSMC가 반도체 공급망 재편을 주도하면서 한국의 소재·부품 조달 전략에 구조적 변화가 요구된다. 엔비디아까지 인도 투자를 공식화한 상황에서, 한국 소재 기업의 대응 창구는 좁아지고 있다.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>K-소부장 베트남 투자 50% 증가, 공급망 재편 실익 있나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-15-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-15-3.html</guid>
+      <category>산업전략</category>
+      <description>한국 중소·중견 소부장 기업들이 공급망 재편 흐름을 타고 베트남 투자를 전년 대비 50% 늘리는 가운데, 실제 수혜 구간은 디스플레이·반도체 후공정 소재에 집중되고 있다. 투자자·구매담당자 입장에서 이 흐름이 단순 원가 절감인지, 진짜 공급망 이원화인지 판별이 핵심이다.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中 수출통제, 허가증이 新무기…'서류 전쟁' 어떻게 싸우나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-15-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-15-4.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제가 '광산 장악'에서 '허가증 발급 지연·거부'로 전술을 고도화했다. 갈륨·게르마늄 국가별 차등 허가가 현실화된 지금, 한국 기업의 대응은 물리적 재고 확보를 넘어 법무·통관 인텔리전스 구축으로 이동해야 한다.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 수출통제, 이제 광산보다 서류가 무기다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-14-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미국 완성차 업체들이 중국산 부품 전면 교체에 나서면서 한국 자동차 소재·부품 기업의 대미 수출 가능성이 열리고 있다. 그러나 실제 납품 전환까지 걸리는 기간과 인증 비용을 감안하면, 수혜 구간은 2026~2028년으로 좁혀지며 소재별 편차가 크다.</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨, '국내 유일'에서 '글로벌 허브'로…中 95% 벽에 첫 균열</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-08-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-08-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>고려아연이 2028년 연 15.5t 갈륨 양산 계획을 '글로벌 허브' 전략으로 공식 격상했다. 전 세계 갈륨 공급의 95%를 장악한 중국의 독점 구조에 처음으로 실질적 균열이 생기는 시점이며, 공급 다변화를 원하는 반도체·LED 수요처의 조달 전략이 바뀔 분기점이다.</description>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 칩 합의 또 불발…韓 파운드리·소재 이중 압박 장기화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-08-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-08-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 반도체 분야 합의가 재차 불발되며 엔비디아 중국 수출 공백이 장기화 국면에 접어들었다. 한국은 미국의 AI칩 수출 허가 의무화와 중국의 소재 봉쇄가 동시에 작동하는 이중 압박 구조 속에서 단기 수혜(HBM 수요 반사이익)와 중기 리스크(소재 조달 불안)를 동시에 떠안고 있다.</description>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 희토류 통제에 韓 정권마다 흔들…자원정책 공백 20년의 대가</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-08-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-08-2.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 희토류 수출통제가 AI 서버·방산 소재까지 확산되는 가운데, 한국은 정권 교체마다 자원 외교 정책이 뒤집히는 구조적 공백으로 대응력이 사실상 무력화된 상태다. 희토류 수입의 중국 의존도는 여전히 60% 이상이며, 민간 재고 비축 시스템도 법적 의무 기준이 없다.</description>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>1600조 메가프로젝트, 소부장 수혜 실제로 어디 꽂히나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-08-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-08-3.html</guid>
-      <category>산업전략</category>
-      <description>정부가 AI·반도체·데이터센터 삼각축에 1600조 원 규모 메가프로젝트를 선언하고 소부장 지원을 6개 분야·1700억 원으로 확대했다. 그러나 실제 조달 현장에서 수혜가 집중되는 소재 카테고리는 대기업 납품 소부장이 아니라 전략광물 회수·가공 공정 기업이다. 투자자는 정책 수혜 리스트보다 실제 공급 병목 위치를 먼저 확인해야 한다.</description>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美·中 동시 압박에 韓 반도체 공급망, 구조적 취약점 셋</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-08-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-08-4.html</guid>
-      <category>글로벌분석</category>
-      <description>동아시아포럼과 미국 한국경제연구소(KEI)가 한국 반도체 공급망의 구조적 취약점 세 가지를 동시에 분석했다. 미국의 AI칩 수출 허가 의무화와 중국의 핵심광물 통제가 동시에 작동하는 이중 압박 구조에서 한국은 파운드리·소재 양 측면 모두 방어 여력이 부족하다는 평가다.</description>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
