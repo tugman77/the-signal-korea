@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 15 Aug 2026 09:48:14 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 09:50:58 +0900</lastBuildDate>
+    <item>
+      <title>갈륨 9배 폭등 3년, 실제 병목은 '가격'이 아니다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-16-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-16-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 갈륨 수출통제 시행 3년째, 국제 가격은 통제 이전 대비 9배까지 치솟았다. 그러나 현장에서 보면 진짜 문제는 가격이 아니라 예측 불가능한 허가 승인 주기와 국가별 차별 공급이다. 투자자는 가격 지표보다 허가 지연 리드타임을 선행 지표로 읽어야 한다.</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>게르마늄 봉쇄 지속, 한국산 대체재 실제 공급 타임라인</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-16-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-16-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 게르마늄 수출통제가 2년째 이어지는 가운데, 국내 광통신·방산 업계의 실질적 대체 조달 루트와 한국산 국산화 공급 가능 시점이 구체화되고 있다. 고려아연 중심의 국내 생산 계획은 2027년을 현실적 공급 기점으로 보고 있으며, 그 전까지 실제 조달 공백을 채울 수 있는 루트는 세 곳으로 좁혀진다.</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>트럼프, 애플에 '中 메모리 퇴출' 압박…韓 DRAM 소재 수혜 구간은</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-16-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-16-2.html</guid>
+      <category>기술패권</category>
+      <description>트럼프 행정부가 애플에 중국산 메모리 반도체 사용 중단을 요구하며 미중 반도체 공급망 분리가 소비자 전자제품 영역으로 확대됐다. 삼성전자·SK하이닉스 등 한국 메모리 기업의 대미 공급 기회가 커지지만, 동시에 중국 내 한국 팹 운영 리스크도 가중된다. 소재 조달 담당자 입장에서는 HBM·LPDDR5 소재 수요 확대 여부를 지금 읽어야 한다.</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>1600조 AI 삼각축, 소재 조달 루트 없으면 설계도만 남는다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-16-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-16-3.html</guid>
+      <category>산업전략</category>
+      <description>정부가 AI·반도체·데이터센터 삼각축에 1600조 원 메가프로젝트를 선언했지만, 실제 건설·운영에 필요한 고순도 실리콘·탄탈럼·희토류 자석 소재의 국내 조달 비율은 12~18%에 불과하다. 투자자·구매담당자 모두 정책 선언보다 소재 조달 루트 확보 여부를 먼저 확인해야 한다.</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>트럼프 '中 메모리 퇴출' 압박, 韓 NAND 소재 실제 수혜 구간</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-16-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-16-4.html</guid>
+      <category>글로벌분석</category>
+      <description>트럼프 행정부가 애플에 중국산 메모리 사용 중단을 압박하면서 삼성전자·SK하이닉스의 NAND·DRAM 소재 수요 전환이 가시화되고 있다. 그러나 소재 공급망 재편은 완성품 교체보다 18~24개월 선행되어야 한다는 점에서, 지금이 소재 업체의 실질 진입 시점이다.</description>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>고려아연 갈륨 15.5t, 2028년 실제 공급 가능한가</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-15-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미중 기술패권 전쟁이 2026년 들어 반도체·AI에서 바이오·양자컴퓨팅으로 전선이 확장되면서 한국 소재 기업의 리스크 지형이 재편되고 있다. 비스무트(제약 원료·반도체 솔더)·안티몬(방산 합금) 등 한국의 중국 의존도 90% 이상 소재가 새로운 통제 대상으로 부상하고 있어, 구매담당자와 투자자 모두 품목별 취약도 재점검이 필요하다.</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>갈륨 가격 9배 폭등, 3년의 진짜 청구서</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨·게르마늄 수출통제를 시행한 지 3년이 경과한 현재, 갈륨 국제 가격이 통제 이전 대비 9배 수준까지 올랐다. 단순 가격 상승이 아니라 GaN 반도체 공급 계약 자체가 흔들리는 구조적 충격으로 진화했으며, 한국의 갈륨 의존도 90% 이상 구조는 2028년 고려아연 양산 전까지 공백이 불가피하다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 핵심광물 균형외교, NBR이 짚은 구조적 함정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국 국가아시아연구소(NBR)가 한국의 핵심광물 균형외교를 분석하며 구조적 모순을 지적했다. 한국은 핵심광물 80% 이상을 중국에서 수입하면서도 미국 IRA·칩스법 공급망에 편입되어 있어, 외교적 헤징만으로는 리스크 해소가 불가능하다는 진단이다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 사이 '한국 변수', 균형외교 비용 청구 시작됐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-2.html</guid>
-      <category>기술패권</category>
-      <description>서울대 국가미래전략원 포럼과 복수의 글로벌 분석기관이 미중 기술패권 경쟁 속 한국의 전략적 위상을 동시에 분석했다. 한국은 글로벌 DRAM 70%·HBM 90%를 공급하며 양측에서 러브콜을 받지만, 미국 AI칩 허가제 법제화 시 사실상 진영 선택이 강제되는 구간에 진입한다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>호남 반도체, 차량용으로 방향 틀었다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 지원을 6개 분야로 확대하고 호남 반도체 클러스터의 특화 방향을 차량용 반도체 소재로 공식화했다. 메모리·파운드리 포화 속에서 차량용 SiC·GaN 소재 국산화가 실질 투자처로 부상했으며, 관련 소부장 기업의 수혜 가능성이 구체화되고 있다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차 中부품 퇴출, 韓 소재 수혜 실제 구간은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 완성차 업체들이 중국산 부품 전면 교체에 나서면서 한국 자동차 소재·부품 기업의 대미 수출 가능성이 열리고 있다. 그러나 실제 납품 전환까지 걸리는 기간과 인증 비용을 감안하면, 수혜 구간은 2026~2028년으로 좁혀지며 소재별 편차가 크다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
