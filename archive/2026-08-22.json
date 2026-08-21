@@ -39,19 +39,7 @@
       ],
       "image_keyword": "gallium nitride crystal ingot",
       "timestamp": "오전 09:30",
-      "image_url": "images/2026-08-22_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "갈륨 가격 kg당 약 2,000달러(통제 전 대비 9배) — 실제 가격 상승폭과 괴리 가능성",
-          "중국이 4개월 만에 일본에 갈륨 선별 재개한 구체적 시점·조건 검증 어려움",
-          "중국 상무부 제26호 공고 위반 언급 — 공고 번호 실존 여부 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "갈륨 재개 타임라인·가격 9배 등 핵심 수치 독립 검증 필요",
-        "verified_at": "2026-08-22 08:30"
-      }
+      "image_url": "images/2026-08-22_article_0.jpg"
     },
     {
       "id": 1,
@@ -76,19 +64,7 @@
       ],
       "image_keyword": "indium tin oxide ITO coating",
       "timestamp": "오전 10:00",
-      "image_url": "images/2026-08-22_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "캐나다 Indium Corporation — 실제로는 미국 뉴욕주 소재 기업, 국적 오기재 의심",
-          "비중국산 공급 연 40t·국내 수요 120t 수치의 출처 불명",
-          "비스무트 2025년 통제 구체적 시점·근거 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "Indium Corporation 국적(미국→캐나다) 오류 수정 필수",
-        "verified_at": "2026-08-22 08:30"
-      }
+      "image_url": "images/2026-08-22_article_1.jpg"
     },
     {
       "id": 2,
@@ -126,19 +102,7 @@
       ],
       "image_keyword": "HBM memory chip stack",
       "timestamp": "오전 10:30",
-      "image_url": "images/2026-08-22_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "2025년 미중 1단계 무역협상서 기술협력 재개 선례 — 2025년 실제 협상 내용과 불일치 가능성",
-          "SK하이닉스 HBM3E 엔비디아 공급 비중 50% 이상 출처 미기재",
-          "미중 완화 시 삼성 메모리 ASP 15~20% 하락 수치 근거 불명확"
-        ],
-        "image_keyword_ok": true,
-        "notes": "2025 미중 1단계 협상 기술협력 재개 주장 사실 확인 필요",
-        "verified_at": "2026-08-22 08:30"
-      }
+      "image_url": "images/2026-08-22_article_2.jpg"
     },
     {
       "id": 3,
@@ -174,19 +138,7 @@
       "image_keyword": "cosmetic fermentation raw material bioreactor",
       "is_featured": false,
       "timestamp": "오후 03:30",
-      "image_url": "images/2026-08-22_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "에코시아(Ecosia) 화장품 발효 원료사 실존 여부 — 동명 검색엔진과 혼동 가능성",
-          "진코스텍 기업명 실존 및 화장품 원료 매출 비중 확인 필요",
-          "중소 K뷰티 브랜드 60% 이상 단일 공급처 의존 통계 출처 미기재"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전반적 개연성 높으나 일부 중소기업명 실존 교차확인 권고",
-        "verified_at": "2026-08-22 08:30"
-      }
+      "image_url": "images/2026-08-22_article_3.jpg"
     },
     {
       "id": 4,
@@ -222,19 +174,7 @@
       "image_keyword": "liquid cooling immersion server tank",
       "is_featured": false,
       "timestamp": "오후 03:45",
-      "image_url": "images/2026-08-22_article_4.jpg",
-      "review": {
-        "trust_score": 2,
-        "status": "warning",
-        "suspicious_claims": [
-          "UAE G42-MS 파트너십 규모 '1조 5000억 달러' — 실제 계약($15억) 대비 약 1000배 과대 기재 의심",
-          "사우디 HUMAIN-엔비디아 100억 달러 계약 규모 검증 필요",
-          "한국 1600조 원 프로젝트 정부 직접 출자 10% 미만 수치 출처 불명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "G42-MS 파트너십 금액($1.5조) 심각한 수치 오류 의심, 교차검증 필수",
-        "verified_at": "2026-08-22 08:30"
-      }
+      "image_url": "images/2026-08-22_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 수출통제가 소재별 차등 해제로 진화하며 협상 레버리지로 고도화되는 가운데, 한국은 원료 의존·AI 투자 지연·반도체 추격 압박이 동시 수렴하는 복합 위기에 직면했다.",
@@ -264,6 +204,5 @@
       "label": "AI 자본 집행 지연",
       "status": "한국 2년 뒤처짐"
     }
-  ],
-  "last_reviewed_at": "2026-08-22 08:30"
+  ]
 }

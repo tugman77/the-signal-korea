@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 21 Aug 2026 08:20:12 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 08:28:17 +0900</lastBuildDate>
+    <item>
+      <title>갈륨 일본 재개 4개월, 한국 협상 레버리지는</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨 수출을 일본에 4개월 만에 재개하면서 소재별 차별 해제 패턴이 처음으로 확인됐다. 게르마늄 봉쇄는 유지되고 갈륨 가격은 9배 수준인 상황에서, 한국은 고려아연 2028년 양산 전 공백기 동안 일본 우회 조달과 직접 협상 루트를 병행해야 한다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>인듐, 비스무트 다음 중국 통제 후보 부상</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제가 반도체→광학→에너지 소재 순으로 확산되는 가운데, LCD·OLED 핵심 소재인 인듐(ITO)이 다음 통제 후보로 부상하고 있다. 한국 디스플레이 산업의 중국산 인듐 의존도는 89%이며, 통제 발동 시 가격이 현재 kg당 340달러에서 3배 이상 급등할 수 있다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 완화 땐 한국 반도체 격차 3년으로 압축</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-2.html</guid>
+      <category>기술패권</category>
+      <description>미중 기술 갈등이 중국 반도체 추격을 인위적으로 지연시켜왔다는 전문가 진단이 제기됐다. 갈등 완화 시 중국 SMIC·CXMT의 잠재 기술력이 표면화되며 한국이 누린 5년의 기술 격차 버퍼가 3년 이내로 압축될 수 있어, HBM·AI 반도체 기술 자립 투자 집중이 시급하다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>K-뷰티 세계 1위 목표, 원료 中 의존 70~85%가 발목</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-3.html</guid>
+      <category>산업전략</category>
+      <description>K-뷰티 수출이 2024년 102억 달러를 돌파했으나 히알루론산(중국산 70%), 나이아신아마이드(85%) 등 핵심 기능성 원료는 중국 의존 구조에서 벗어나지 못하고 있다. 2035년 세계 1위 목표 이전에 원료 공급망 자립화가 선결 과제로 부상했으며, 소부장 지원 예산에서 화장품 원료는 사실상 사각지대다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>걸프·일본 AI 자본 선점, 한국 집행 속도 2년 뒤처졌다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-4.html</guid>
+      <category>글로벌분석</category>
+      <description>미국 Stargate 5000억 달러, UAE·사우디 국부펀드 1조 달러 이상 AI 인프라 투자가 2025~2026년 집중 집행되는 가운데, 일본 소프트뱅크도 미국에 1000억 달러를 투입해 GPU 우선 배분권을 선점했다. 한국의 1600조 원 메가프로젝트는 민간 합산 수치가 대부분이고 실제 정부 직접 출자 비중은 10% 미만으로, AI 공급망 주도권 경쟁에서 후발 구간에 진입하고 있다.</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>미·중 자본통제 전선 확대, 韓 배터리·반도체 조달 이중 압박</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-21-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>동아시아포럼과 미국 한국경제연구소(KEI)가 한국 반도체 공급망의 구조적 취약점 세 가지를 동시에 분석했다. 미국의 AI칩 수출 허가 의무화와 중국의 핵심광물 통제가 동시에 작동하는 이중 압박 구조에서 한국은 파운드리·소재 양 측면 모두 방어 여력이 부족하다는 평가다.</description>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>남미 리튬·니오븀 쟁탈전, 韓 AI 소재 조달 5년이 갈린다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>칠레·아르헨티나·볼리비아 리튬 삼각지대가 전 세계 매장량의 58%를 보유한 가운데, 미국·EU·중국이 남미 전략광물 선점 경쟁을 가속하고 있다. 한국은 배터리용 탄산리튬 가공의 80% 이상을 중국에 의존하는 구조로, AI·반도체 소재 공급망 다변화의 실질적 시한이 5년 이내로 좁혀지고 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 업계 '韓이 핵심'…삼성 파업 리스크가 HBM 공급망 흔드는 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-1.html</guid>
-      <category>기술패권</category>
-      <description>미국 AI 칩 업계가 삼성전자 파업 가능성에 공급망 경보를 내리고 있다. 전 세계 HBM 공급의 삼성+SK하이닉스 합산 비중이 85% 이상인 구조에서, 삼성전자 생산 차질은 엔비디아·AMD의 AI 가속기 출시 일정을 직격할 수 있다. 미중 반도체 갈등이 장기화되는 상황에서 한국 공급망 안정성이 미국 빅테크의 핵심 변수로 부상했다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>인도 아삼 반도체 협력, 韓이 지금 주목해야 할 3가지</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-2.html</guid>
-      <category>공급망전쟁</category>
-      <description>인도 아삼주를 거점으로 한 반도체 협력 구상이 구체화되면서 한국의 전략광물 우회 소싱 루트로서의 가능성이 부상하고 있다. 아삼은 희토류·형석 매장이 확인된 지역으로, 중국 의존 탈피를 모색하는 한국 입장에서 인도와의 반도체·소재 협력의 지리적 거점이 될 수 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 1700억 수혜주, ETF로 담는 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 지원 예산을 1700억 원·6개 분야로 확대하면서 정책 수혜가 삼성전자·SK하이닉스가 아닌 소부장 밸류체인 직접 편입 기업으로 흘러가는 구조가 형성됐다. 개인투자자·기업 구매담당자 모두 단일 종목 집중보다 소부장 테마 ETF를 통한 분산 접근이 리스크 대비 정책 수혜 포착 효율이 높다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄소·에너지·데이터 통합, 소재 납품 자격 바뀐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-07-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-07-4.html</guid>
-      <category>글로벌분석</category>
-      <description>삼정KPMG가 탄소·에너지·데이터 세 축의 통합 관리 역량이 제조·소재 기업의 핵심 경쟁력을 결정한다고 분석했다. 글로벌 공급망 재편 국면에서 한국 소부장 기업은 소재 품질만으로 납품 자격을 유지하기 어려워졌으며, ESG 데이터 인프라 부재 기업은 2026년 이후 유럽·미국 1차 벤더 진입 자체가 차단될 수 있다.</description>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
