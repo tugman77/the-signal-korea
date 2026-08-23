@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 23 Aug 2026 08:22:23 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 08:19:47 +0900</lastBuildDate>
+    <item>
+      <title>중국 헬륨 수출통제, 반도체 냉각 공급망 흔든다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-24-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-24-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨·게르마늄에 이어 헬륨 수출 제한을 시사하면서 반도체 공정 필수 냉각재 공급망에 경보가 울렸다. 전 세계 헬륨 생산의 약 30%를 차지하는 러시아·미국 외 중국 내 잉여 공급까지 통제될 경우, 국내 파운드리·메모리 라인의 조달 비용이 직격탄을 맞는다.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>탄탈럼 커패시터, AI 서버 수요에 공급 6개월 대기</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-24-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-24-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>AI 서버·전장 전자기기 수요 폭증으로 탄탈럼 커패시터 납기가 평균 26주(6개월)로 늘어났다. 전 세계 탄탈럼 원광의 약 40%를 콩고민주공화국이 생산하며, 콩고 내 정정 불안과 중국의 정제 독점(약 70%)이 겹쳐 공급 병목이 심화되고 있다.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>K-피지컬AI, 소재 조달 없인 로봇 못 만든다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-24-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-24-2.html</guid>
+      <category>기술패권</category>
+      <description>한국피지컬AI협회가 AI·반도체·로봇 통합 전략을 논의하는 가운데, 피지컬AI 핵심 부품인 액추에이터·센서에 필요한 희토류 영구자석·탄화규소(SiC) 소재 조달 전략이 빠져 있다는 지적이 나온다. 중국이 희토류 정제 90%를 장악한 상황에서 로봇 양산 전략은 소재 확보 없이는 공허하다.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>호남 차량용 반도체, 소부장 1700억 실탄 받는다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-24-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-24-3.html</guid>
+      <category>산업전략</category>
+      <description>산업부가 소부장 지원 대상을 6개 분야로 확대하고 호남 반도체 클러스터의 특화 방향을 차량용 반도체 소재로 공식화했다. 투자지원금 1700억 원 중 차량용 분야 배분이 핵심 변수로, 온디바이스 AI·전장 수요 급증 구간에서 수혜 기업 선별이 시급하다.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>핵심광물 균형외교, NBR이 짚은 세 가지 구조 함정</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-24-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-24-4.html</guid>
+      <category>글로벌분석</category>
+      <description>미국 국가아시아연구소(NBR)가 한국의 핵심광물 외교 전략을 분석하며 미중 사이에서 균형을 유지하려는 접근이 오히려 양쪽에서 압박을 키우는 구조적 모순을 지적했다. 갈륨·게르마늄·희토류 조달 다변화 속도가 수출통제 확산 속도를 따라가지 못하는 현실이 핵심 리스크다.</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 광물통제, 가격→공급망 차단 전략 격상</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-23-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미중 기술패권 전쟁이 2026년 들어 반도체·AI에서 바이오·양자컴퓨팅으로 전선이 확장되면서 한국 소재 기업의 리스크 지형이 재편되고 있다. 비스무트(제약 원료·반도체 솔더)·안티몬(방산 합금) 등 한국의 중국 의존도 90% 이상 소재가 새로운 통제 대상으로 부상하고 있어, 구매담당자와 투자자 모두 품목별 취약도 재점검이 필요하다.</description>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>갈륨 가격 9배 폭등, 3년의 진짜 청구서</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨·게르마늄 수출통제를 시행한 지 3년이 경과한 현재, 갈륨 국제 가격이 통제 이전 대비 9배 수준까지 올랐다. 단순 가격 상승이 아니라 GaN 반도체 공급 계약 자체가 흔들리는 구조적 충격으로 진화했으며, 한국의 갈륨 의존도 90% 이상 구조는 2028년 고려아연 양산 전까지 공백이 불가피하다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 핵심광물 균형외교, NBR이 짚은 구조적 함정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국 국가아시아연구소(NBR)가 한국의 핵심광물 균형외교를 분석하며 구조적 모순을 지적했다. 한국은 핵심광물 80% 이상을 중국에서 수입하면서도 미국 IRA·칩스법 공급망에 편입되어 있어, 외교적 헤징만으로는 리스크 해소가 불가능하다는 진단이다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 사이 '한국 변수', 균형외교 비용 청구 시작됐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-2.html</guid>
-      <category>기술패권</category>
-      <description>서울대 국가미래전략원 포럼과 복수의 글로벌 분석기관이 미중 기술패권 경쟁 속 한국의 전략적 위상을 동시에 분석했다. 한국은 글로벌 DRAM 70%·HBM 90%를 공급하며 양측에서 러브콜을 받지만, 미국 AI칩 허가제 법제화 시 사실상 진영 선택이 강제되는 구간에 진입한다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>호남 반도체, 차량용으로 방향 틀었다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 지원을 6개 분야로 확대하고 호남 반도체 클러스터의 특화 방향을 차량용 반도체 소재로 공식화했다. 메모리·파운드리 포화 속에서 차량용 SiC·GaN 소재 국산화가 실질 투자처로 부상했으며, 관련 소부장 기업의 수혜 가능성이 구체화되고 있다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차 中부품 퇴출, 韓 소재 수혜 실제 구간은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-10-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-10-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 완성차 업체들이 중국산 부품 전면 교체에 나서면서 한국 자동차 소재·부품 기업의 대미 수출 가능성이 열리고 있다. 그러나 실제 납품 전환까지 걸리는 기간과 인증 비용을 감안하면, 수혜 구간은 2026~2028년으로 좁혀지며 소재별 편차가 크다.</description>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
