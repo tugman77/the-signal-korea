@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 24 Aug 2026 08:19:47 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 08:22:11 +0900</lastBuildDate>
+    <item>
+      <title>中 광물통제, AI·로봇 소재까지 확전…GaN·LiDAR 직격</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-25-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-25-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제가 반도체를 넘어 AI 데이터센터 전력반도체(GaN)와 자율주행·산업용 로봇의 LiDAR 소재로 전선을 확장했다. 갈륨 kg당 800달러(통제 전 대비 9배), 게르마늄 3배 수준이 유지되는 가운데 AI 서버 전력반도체 시장은 2029년 200억 달러로 4배 성장이 예측돼 소재 병목의 파급 규모가 반도체 단계를 넘어설 수 있다.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>LS에코에너지, 희토류 탈중국 선제 구체화…IRA 수주 경쟁력 선점</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-25-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-25-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>LS에코에너지가 희토류 공급망을 베트남·말레이시아 경유 루트로 재편하며 중국 의존도 축소에 나섰다. 연간 약 500t 규모의 희토류 조달 구조를 바꾸는 것은 미국 IRA·NDAA 요건을 선제 충족해 200억 달러 규모로 성장하는 글로벌 해저 케이블 시장 수주권을 선점하는 포석이다.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI반도체 풀스택 선언, 파운드리 수율 없인 공허하다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-25-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-25-2.html</guid>
+      <category>기술패권</category>
+      <description>한국 반도체 전략 포럼에서 AI 반도체 풀스택 자립 전략이 공식 논의됐지만, 핵심 병목은 파운드리다. TSMC가 3nm 이하 선단 공정의 90% 이상을 독점하는 구조에서 삼성전자 2nm 수율 안정화가 2026년 전에 실현되지 않으면 설계 역량 확보는 출구 없는 투자에 그친다.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>반도체·AI·데이터센터 삼각축, 1600조 실탄 어디로 꽂히나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-25-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-25-3.html</guid>
+      <category>산업전략</category>
+      <description>정부가 반도체·AI·데이터센터 삼각축 메가프로젝트에 1600조 원을 선언하고 2027년 국부펀드 출범을 공식화했다. 소부장 지원도 6개 분야·1700억 원으로 확대됐으나, 실제 집행 속도와 소재 조달 구조가 수혜 여부를 가른다.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>韓 공급망 회복력, 글로벌 분석기관 셋이 짚은 실제 균열</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-25-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-25-4.html</guid>
+      <category>글로벌분석</category>
+      <description>미국 KEI, 동아시아포럼, NBR에 이어 코리아헤럴드·글로벌비즈니스포럼(GBF) 전문가들이 한국 공급망 회복력의 구조적 한계를 동시에 분석했다. 미중 압박이 이중으로 작동하는 상황에서 한국의 '친공급망 전략'이 실행 가능한지에 대한 의구심이 국제 무대에서 공식 제기됐다.</description>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>중국 헬륨 수출통제, 반도체 냉각 공급망 흔든다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-24-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>말레이시아 투자개발청(MIDA)이 한국과 AI·반도체 에코시스템 전략적 협력을 공식화했다. 말레이시아는 글로벌 반도체 후공정(OSAT) 시장의 13%를 점유하는 허브로, 중국산 소재 의존 탈피를 추진하는 한국의 우회 소싱 거점으로 부상하고 있다. 양국 협력이 실제 소재 조달 루트로 전환되기까지의 병목 지점을 확인해야 한다.</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>게르마늄 한국산 대체, 실제 공급 가능 시점은 2027년</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-11-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-11-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국 게르마늄 수출통제가 장기화되며 국제 가격이 규제 전 대비 3배 수준을 유지하는 가운데, 고려아연 중심의 국내 대체 공급망이 구체화 단계에 접어들었다. 그러나 상업 규모 공급까지는 최소 2~3년이 필요해 단기 조달 공백은 여전히 현재진행형이다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄탈럼 커패시터 병목, AI 서버 수요에 공급이 못 따라간다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-11-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-11-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>AI 서버·전장 수요 급증으로 탄탈럼 커패시터 소재 시장이 공급 병목 구간에 진입했다. 전 세계 탄탈럼 생산의 60% 이상을 콩고·르완다가 담당하는 구조에서 조달 리스크가 가시화되고 있으며, 한국 전자 부품 업체의 원가 압박이 직접 발생 중이다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아 허가제 현실화, 韓 팹리스·HBM 소재 전략 분기점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-11-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-11-2.html</guid>
-      <category>기술패권</category>
-      <description>트럼프 행정부가 엔비디아·AMD AI 반도체의 제3국 수출에 미국 사전 허가를 의무화하는 방안을 공식 추진 중이다. 한국은 HBM 최대 생산국으로 직접 수혜와 규제 리스크가 동시에 작동하며, 팹리스·소재 업체의 수요 구조가 재편되는 분기점에 서 있다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 소부장, 위기 대응→전략 자립 전환…실제 속도는</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-11-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-11-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 지원을 6개 분야·1700억 원으로 확대한 가운데, 2019년 일본 수출규제 이후 누적 4조 원 이상을 투입한 결과 국산화율은 일부 품목에서 70%를 돌파했다. 그러나 전략광물 기반 소재는 실질 공급이 2027~2028년 이후로 지연돼 있어 정책 효과가 불균등하다는 점을 투자자와 구매담당자는 분리해서 판단해야 한다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술전쟁 2026, AI→바이오 확전…韓 소재 新리스크 지도</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-11-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-11-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미중 기술패권 전쟁이 2026년 들어 반도체·AI에서 바이오·양자컴퓨팅으로 전선이 확장되면서 한국 소재 기업의 리스크 지형이 재편되고 있다. 비스무트(제약 원료·반도체 솔더)·안티몬(방산 합금) 등 한국의 중국 의존도 90% 이상 소재가 새로운 통제 대상으로 부상하고 있어, 구매담당자와 투자자 모두 품목별 취약도 재점검이 필요하다.</description>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
