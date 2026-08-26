@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 26 Aug 2026 08:23:39 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 08:19:12 +0900</lastBuildDate>
+    <item>
+      <title>中 광물통제 3년, 가격 무기에서 공급망 절단으로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-27-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-27-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨·게르마늄 수출통제를 시작한 지 3년째로 접어들며 전략이 가격 교란에서 공급망 접근 자체를 차단하는 방향으로 고도화되고 있다. AI 서버용 GaN 전력반도체에서 산업용 로봇 액추에이터 소재까지 통제 품목이 확산되며 한국 제조업 전반의 소재 리스크가 구조화되고 있다.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>비스무트, 다음 중국 통제 후보…광학 소재 공백 현실화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-27-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-27-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제 확산 패턴이 반도체→광학→에너지 소재 순으로 진행되는 가운데, 비스무트가 차기 통제 후보로 부상하고 있다. 비스무트는 광학 렌즈·적외선 센서·의약 소재에 쓰이며, 중국이 전 세계 생산량의 약 80%를 공급한다.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>트럼프 AI칩 수출허가제, 韓 팹리스 수주 구조 흔든다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-27-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-27-2.html</guid>
+      <category>기술패권</category>
+      <description>트럼프 행정부가 엔비디아·AMD AI 반도체의 제3국 수출에 미국 사전 허가를 의무화하는 방안을 공식 추진하면서, 한국 팹리스 기업과 HBM 소재 공급업체의 수주 경로가 구조적으로 재편될 전망이다. 허가 요건 충족이 사실상 미국 생태계 편입을 강제하는 선별 장치로 작동할 수 있다.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>남미 광물 없이 AI 반도체 못 만든다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-27-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-27-3.html</guid>
+      <category>글로벌분석</category>
+      <description>리튬·코발트·희토류 핵심 생산국인 남미가 AI·반도체 공급망의 새로운 병목으로 부상했다. 중국 통제 대안을 찾는 한국 기업에게 남미 조달 루트 확보는 선택이 아닌 생존 조건이 됐다.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>피지컬AI 원년, 한국 제조는 소재에서 막힌다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-27-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-27-4.html</guid>
+      <category>산업전략</category>
+      <description>한국이 피지컬AI(로봇·자율제조) 선점을 선언했지만 핵심 부품인 액추에이터·센서 소재의 국내 조달 체계가 미비하다. 네오디뮴 자석·탄소섬유·고순도 실리콘카바이드 등 3대 소재의 중국 의존도가 60~85% 수준으로 전략과 조달이 따로 논다.</description>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>갈륨 자급 2028, 공백 3년 브리지 전략이 없다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-26-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미국 Stargate 5000억 달러, UAE·사우디 국부펀드 1조 달러 이상 AI 인프라 투자가 2025~2026년 집중 집행되는 가운데, 일본 소프트뱅크도 미국에 1000억 달러를 투입해 GPU 우선 배분권을 선점했다. 한국의 1600조 원 메가프로젝트는 민간 합산 수치가 대부분이고 실제 정부 직접 출자 비중은 10% 미만으로, AI 공급망 주도권 경쟁에서 후발 구간에 진입하고 있다.</description>
       <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미·중 자본통제 전선 확대, 韓 배터리·반도체 조달 이중 압박</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-21-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-21-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국과 중국이 기술 자본 통제를 동시에 강화하며 한국 반도체·배터리 기업의 소재 조달과 투자 유치 구조 모두 흔들리고 있다. 중국산 소재 의존도 50% 이상인 양극재·음극재 공급망이 직격 대상이며, 미국발 대중 투자 제한은 한국 기업의 중국 내 합작 소재 공장 운영에도 영향을 미친다.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 규제 충돌이 만든 韓 반도체 소재 '위기와 기회' 실제 구조</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-21-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-21-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국의 대중 수출통제와 중국의 소재 수출규제가 동시에 작동하며 한국 반도체 공급망에 이중 압박이 가해지고 있다. 단기 수혜(중국산 대체 수요)와 중기 리스크(소재 조달 병목)가 공존하는 구조로, 수혜와 피해 구간을 정확히 가려야 한다.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 갈등이 막은 중국 반도체, 한국이 누린 5년의 유예</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-21-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-21-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 기술패권 갈등이 없었다면 중국 반도체가 이미 한국 턱밑까지 도달했을 것이라는 전문가 진단이 나왔다. 수출통제 덕분에 한국이 기술 격차를 유지하고 있는 구조는 미중 관계 변화에 따라 언제든 뒤집힐 수 있는 조건부 안전망이다.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국판 국부펀드 2027년 출범, 소재 투자 어디 꽂히나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-21-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-21-3.html</guid>
-      <category>산업전략</category>
-      <description>정부가 추진 중인 한국판 국부펀드가 AI·반도체·첨단소재 장기 투자를 목표로 2027년 출범을 공식화했다. 소부장 지원이 6개 분야·1700억 원으로 확대된 구조와 맞물려, 실질 수혜가 대기업이 아닌 중소·중견 소재 기업에 집중될 가능성이 높다. 투자자는 갈륨·게르마늄·탄탈럼 등 국산화 경로가 구체화된 소재 기업을 선별해야 한다.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>광산 확보보다 수출통제가 빠르다, 자원전쟁 규칙 바뀌었다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-21-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-21-4.html</guid>
-      <category>글로벌분석</category>
-      <description>자원 패권의 무게중심이 광산 생산에서 수출 통제 제도로 이동했다. 중국은 갈륨·게르마늄·흑연·희토류 등 핵심 소재를 광산 증설 없이 수출규제만으로 글로벌 가격과 공급망을 통제하고 있다. 이 구조에서는 채굴권 확보보다 통제 대상 소재의 국산 가공 능력이 더 결정적인 경쟁력이 된다.</description>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

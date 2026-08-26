@@ -39,19 +39,7 @@
       "image_keyword": "gallium metal ingot",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-08-27_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "갈륨 가격 규제 전 $200→현재 $1,800/kg(9배) 폭등 수치 정밀 검증 필요",
-          "일본이 갈륨 수출 재개를 '4개월 만에' 확보했다는 구체적 기간 주장",
-          "Teck Resources·Altech Chemicals의 갈륨·게르마늄 추출 사업 확장 규모 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 사실(수출허가제 2023.8 시행, 품목 확대)은 검증 가능. 가격 배율 수치 주의.",
-        "verified_at": "2026-08-27 08:20"
-      }
+      "image_url": "images/2026-08-27_article_0.jpg"
     },
     {
       "id": 1,
@@ -75,19 +63,7 @@
       "image_keyword": "bismuth crystal mineral",
       "is_featured": false,
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-08-27_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "안티몬 수출통제를 '2025년 단행'으로 명시했으나 실제 시행은 2024년 9월",
-          "비스무트 국제가격 2025년 초 대비 40% 상승 수치 출처 불명",
-          "글로벌 비스무트 연간 생산량 2만t·중국 1만6천t 수치 공식 통계와 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "안티몬 통제 시행 연도 오류(2024→2025 혼용)가 사실성 신뢰도를 낮춤.",
-        "verified_at": "2026-08-27 08:20"
-      }
+      "image_url": "images/2026-08-27_article_1.jpg"
     },
     {
       "id": 2,
@@ -124,19 +100,7 @@
       "image_keyword": "AI server rack GPU accelerator",
       "is_featured": false,
       "timestamp": "오전 10:20",
-      "image_url": "images/2026-08-27_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "삼성전기를 'ABF 필름' 공급자로 명시—ABF 필름은 아지노모토 제조·삼성전기는 MLCC 주력",
-          "SK하이닉스 2025년 HBM 매출 9조 원 및 엔비디아 공급 비중 수치 출처 불명",
-          "B200 계열이 H100과 함께 재수출 허가 대상으로 묶인 정책 시행 여부 미확정"
-        ],
-        "image_keyword_ok": true,
-        "notes": "삼성전기·ABF 필름 연결은 명백한 부정확. HBM 매출 수치는 검증 가능 수준.",
-        "verified_at": "2026-08-27 08:20"
-      }
+      "image_url": "images/2026-08-27_article_2.jpg"
     },
     {
       "id": 3,
@@ -173,19 +137,7 @@
       "image_keyword": "lithium brine evaporation pond",
       "is_featured": false,
       "timestamp": "오후 02:30",
-      "image_url": "images/2026-08-27_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "2024년 칠레 리튬 수출액 74억 달러·전년 대비 42% 감소 수치 공식 통계 대조 필요",
-          "브라질 희토류 매장량 2,100만t 세계 2위 주장—USGS 기준 순위 연도별 변동",
-          "포스코홀딩스 아르헨티나 2027년 이후 연간 2만5천t 공급 목표 공식 발표 여부"
-        ],
-        "image_keyword_ok": true,
-        "notes": "리튬 트라이앵글·브라질 희토류 기본 사실은 검증 가능. 칠레 수출 수치 주의.",
-        "verified_at": "2026-08-27 08:20"
-      }
+      "image_url": "images/2026-08-27_article_3.jpg"
     },
     {
       "id": 4,
@@ -223,19 +175,7 @@
       "image_keyword": "carbon fiber composite material",
       "is_featured": false,
       "timestamp": "오후 02:31",
-      "image_url": "images/2026-08-27_article_4.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "한국피지컬AI협회 2025년 8월 출범 사실 및 참여사 10개사 이상 주장 확인 필요",
-          "정부 피지컬AI R&D 예산 전년 대비 35% 증가·4,200억 원 편성 공식 예산안 대조 필요",
-          "효성첨단소재 전주공장 2024t→2027년 4,000t 확장 계획 공개 IR 자료 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "네오디뮴·SiC·탄소섬유 기업 사실(SK실트론, 효성첨단소재)은 대체로 검증 가능.",
-        "verified_at": "2026-08-27 08:20"
-      }
+      "image_url": "images/2026-08-27_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 수출통제가 공급망 차단 전략으로 고도화되는 가운데, 미국의 AI칩 수출허가제까지 맞물려 한국 반도체·소재 산업이 이중 압박에 직면했다. 남미 광물 의존도 확대와 피지컬AI 소재 공백이 새로운 리스크로 부상 중이다.",
@@ -265,6 +205,5 @@
       "label": "피지컬AI 소재 기회",
       "status": "국산화 선점 가능"
     }
-  ],
-  "last_reviewed_at": "2026-08-27 08:20"
+  ]
 }
