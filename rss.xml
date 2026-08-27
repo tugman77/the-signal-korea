@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 27 Aug 2026 08:19:12 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 08:26:14 +0900</lastBuildDate>
+    <item>
+      <title>갈륨 가격 9배 폭등 3년, GaN 소재 원가 위기</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-28-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-28-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 갈륨 수출허가제 시행 3년 만에 kg당 가격이 220달러에서 약 2,000달러로 9배 폭등했다. 차세대 전력반도체(GaN) 웨이퍼 소재 원가 비중이 급등하며 삼성전기·LG이노텍 등 국내 파워모듈 업체의 마진 구조가 흔들리고 있다. 2028년 고려아연 자급 전까지 3년 공백이 핵심 리스크다.</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>게르마늄 봉쇄 지속, 광통신 소재 대체처 없다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-28-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-28-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨을 일본에 재개하면서도 게르마늄 수출 차단은 유지하고 있다. 한국 연간 게르마늄 수입의 80% 이상이 중국산으로, 광섬유·방산 적외선 광학 소재 공백이 현실화되는 중이다. 대체처인 캐나다·벨기에 공급량이 중국의 10분의 1 수준이라 단기 대체가 구조적으로 불가능하다.</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 회담 타협 불발, 삼성·하이닉스 득실 갈린다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-28-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-28-2.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상이 첨단기술 수출통제 완화 합의 없이 회담을 마무리하면서 한국 반도체 업계의 포지션이 엇갈리고 있다. 삼성전자는 YMTC 배제 흐름에서 DDR5 대미 공급 기반을 유지하지만, SK하이닉스는 HBM 독점 구조 속 엔비디아 납품 목표 압박이 동시에 커진다.</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 1700억 6개 분야, 진짜 수혜는 어디인가</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-28-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-28-3.html</guid>
+      <category>산업전략</category>
+      <description>산업부가 소부장 투자지원 대상을 6개 첨단전략산업으로 확대하고 지원 규모를 1700억 원으로 늘렸다. 투자액의 최대 50%를 지원하는 이번 정책에서 실질 수혜 기업군과 공급망 내 배분 구조를 짚는다.</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>광산 아닌 수출통제가 무기, 자원전쟁 규칙 바뀌었다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-28-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-28-4.html</guid>
+      <category>글로벌분석</category>
+      <description>중국이 갈륨·게르마늄·흑연·희토류에 이어 헬륨까지 수출 통제를 확대하며 자원 패권의 무게중심이 광산 생산에서 수출 허가 제도로 이동했다. 광산 확보보다 수출통제 체계 구축이 더 빠르고 치명적인 무기임을 보여주는 3년간의 데이터를 분석한다.</description>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 광물통제 3년, 가격 무기에서 공급망 절단으로</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-27-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미국 한국경제연구소(KEI)와 동아시아포럼이 잇달아 한국 공급망 회복력을 분석하며 세 가지 구조적 취약점을 공통으로 지목했다. 핵심광물 중국 의존, 소수 대기업 집중, 정책 연속성 부재가 동시에 작동하는 구조에서 소부장 1700억 지원 확대만으로는 해소되지 않는 층위의 리스크가 존재한다.</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>갈륨 일본 재개 4개월, 한국 협상 레버리지는</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨 수출을 일본에 4개월 만에 재개하면서 소재별 차별 해제 패턴이 처음으로 확인됐다. 게르마늄 봉쇄는 유지되고 갈륨 가격은 9배 수준인 상황에서, 한국은 고려아연 2028년 양산 전 공백기 동안 일본 우회 조달과 직접 협상 루트를 병행해야 한다.</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>인듐, 비스무트 다음 중국 통제 후보 부상</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체→광학→에너지 소재 순으로 확산되는 가운데, LCD·OLED 핵심 소재인 인듐(ITO)이 다음 통제 후보로 부상하고 있다. 한국 디스플레이 산업의 중국산 인듐 의존도는 89%이며, 통제 발동 시 가격이 현재 kg당 340달러에서 3배 이상 급등할 수 있다.</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 완화 땐 한국 반도체 격차 3년으로 압축</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 기술 갈등이 중국 반도체 추격을 인위적으로 지연시켜왔다는 전문가 진단이 제기됐다. 갈등 완화 시 중국 SMIC·CXMT의 잠재 기술력이 표면화되며 한국이 누린 5년의 기술 격차 버퍼가 3년 이내로 압축될 수 있어, HBM·AI 반도체 기술 자립 투자 집중이 시급하다.</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>K-뷰티 세계 1위 목표, 원료 中 의존 70~85%가 발목</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-3.html</guid>
-      <category>산업전략</category>
-      <description>K-뷰티 수출이 2024년 102억 달러를 돌파했으나 히알루론산(중국산 70%), 나이아신아마이드(85%) 등 핵심 기능성 원료는 중국 의존 구조에서 벗어나지 못하고 있다. 2035년 세계 1위 목표 이전에 원료 공급망 자립화가 선결 과제로 부상했으며, 소부장 지원 예산에서 화장품 원료는 사실상 사각지대다.</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>걸프·일본 AI 자본 선점, 한국 집행 속도 2년 뒤처졌다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-22-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-22-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 Stargate 5000억 달러, UAE·사우디 국부펀드 1조 달러 이상 AI 인프라 투자가 2025~2026년 집중 집행되는 가운데, 일본 소프트뱅크도 미국에 1000억 달러를 투입해 GPU 우선 배분권을 선점했다. 한국의 1600조 원 메가프로젝트는 민간 합산 수치가 대부분이고 실제 정부 직접 출자 비중은 10% 미만으로, AI 공급망 주도권 경쟁에서 후발 구간에 진입하고 있다.</description>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
