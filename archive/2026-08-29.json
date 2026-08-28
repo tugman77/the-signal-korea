@@ -38,19 +38,7 @@
       "image_keyword": "lithium battery cathode material powder",
       "is_featured": true,
       "timestamp": "오전 09:10",
-      "image_url": "images/2026-08-29_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "First Cobalt는 2022년 Electra Battery Materials로 사명 변경—'First Cobalt' 표기 오류 가능",
-          "FEOC 유예 종료 시점 '2026년 12월' 단정—IRA 시행령상 유예 기한 재확인 필요",
-          "Sayona Mining 장기공급계약 문의 '3배 증가' 수치—출처·기준연도 불분명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 규제·기업명 대부분 검증 가능. First Cobalt 사명 오류 수정 권고.",
-        "verified_at": "2026-08-29 08:21"
-      }
+      "image_url": "images/2026-08-29_article_0.jpg"
     },
     {
       "id": 1,
@@ -86,19 +74,7 @@
       "image_keyword": "tantalum capacitor electronic component",
       "is_featured": false,
       "timestamp": "오전 09:40",
-      "image_url": "images/2026-08-29_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "한화비전을 AI 서버 ODM 3사로 분류—한화비전은 영상보안 기업으로 서버 ODM 해당 안 됨",
-          "KEMET 2025년 4분기 탄탈럼 부문 영업이익률 공시—교세라 자회사로 독립 세그먼트 공시 여부 불분명",
-          "DRC 콜탄 채굴량 2024년 18% 감소—구체 수치 출처 미확인"
-        ],
-        "image_keyword_ok": true,
-        "notes": "한화비전 서버 ODM 분류는 명백한 오류. 수정 필수.",
-        "verified_at": "2026-08-29 08:21"
-      }
+      "image_url": "images/2026-08-29_article_1.jpg"
     },
     {
       "id": 2,
@@ -123,18 +99,7 @@
       "image_keyword": "silicon wafer EUV lithography",
       "is_featured": false,
       "timestamp": "오전 10:05",
-      "image_url": "images/2026-08-29_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "2026년 8월 미중 정상회담 합의 불발—발행일 기준 최신 사건으로 교차 검증 권고",
-          "SMIC 7nm 수율 TSMC 대비 40~50%—블룸버그 애널리스트 추산으로 출처 명기 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "브리프 기사로 핵심 팩트 간결. SMIC 수율 출처 명기 권고.",
-        "verified_at": "2026-08-29 08:21"
-      }
+      "image_url": "images/2026-08-29_article_2.jpg"
     },
     {
       "id": 3,
@@ -170,19 +135,7 @@
       "image_keyword": "precision machined metal parts factory",
       "is_featured": false,
       "timestamp": "오후 02:10",
-      "image_url": "images/2026-08-29_article_3.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "포지(Forge) 스타트업 실존 및 네이버 D2SF 투자 여부—공시·언론 보도 교차 확인 필요",
-          "산업부 소부장 스펙인 지원 예산 1,700억 원—근거 법령·예산안 출처 불분명",
-          "포지가 연결하는 글로벌 방산 바이어로 한화에어로스페이스 해외법인 명시—이해충돌 구조 검토 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "포지 투자 사실 여부가 기사 전체 신뢰도의 핵심. 보도자료 원문 확인 필수.",
-        "verified_at": "2026-08-29 08:21"
-      }
+      "image_url": "images/2026-08-29_article_3.jpg"
     },
     {
       "id": 4,
@@ -219,19 +172,7 @@
       "image_keyword": "mineral ore stockpile warehouse",
       "is_featured": false,
       "timestamp": "오후 02:25",
-      "image_url": "images/2026-08-29_article_4.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "포스코홀딩스 옴브레 무에르토 지분 30% 보유—실제 지분율 확인 필요(POSCO Argentina 합작 구조 복잡)",
-          "핵심광물 예산 3,200억 원 수치—부처별 예산 합산 기준 불분명",
-          "GBF·NBR 구체 제언 내용 인용—원문 보고서 링크·발간일 출처 없음"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정책 프레임은 타당하나 예산·지분 수치 출처 명기 권고.",
-        "verified_at": "2026-08-29 08:21"
-      }
+      "image_url": "images/2026-08-29_article_4.jpg"
     }
   ],
   "editorial_briefing": "미중 기술패권 충돌이 수출통제·광물통제 양면으로 동시 확대되며 한국 첨단산업의 소재 조달과 투자 유치가 구조적 위기에 직면했다. 국산화 이후 글로벌 공급망 편입이라는 다음 과제가 실행 조건 부재 속에 시험대에 올랐다.",
@@ -261,6 +202,5 @@
       "label": "친공급망 전략",
       "status": "실행조건 확보 필요"
     }
-  ],
-  "last_reviewed_at": "2026-08-29 08:21"
+  ]
 }

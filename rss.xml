@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 28 Aug 2026 08:26:14 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 08:19:36 +0900</lastBuildDate>
+    <item>
+      <title>미중 자본통제 동시 강화, 韓 배터리 소재 조달 이중 절벽</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국의 AI칩 수출허가 의무화와 중국의 핵심광물 수출통제가 동시에 확대되며 한국 배터리·반도체 기업이 소재 조달과 투자 유치 양 방향에서 동시 압박을 받고 있다. 양국 규제의 교차점에서 한국 기업의 조달 비용과 납기 리스크가 구조적으로 확대되고 있다.</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>탄탈럼 납기 26주 고착, AI 서버 부품 조달 경보 현실화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>AI 서버·전장 전자기기 수요 폭증으로 탄탈럼 커패시터 납기가 평균 26주(6개월)로 고착되며 단순 수급 차질을 넘어 구조적 공급 병목으로 전환되고 있다. 전 세계 탄탈럼 생산의 약 60%를 콩고민주공화국(DRC)이 공급하는 단일 지역 의존 구조가 리스크를 증폭시키고 있다.</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 AI 반도체 빗장 고착, 한국의 '5년 유예' 마감 시계</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-2.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상회담에서 AI 반도체 수출통제 타협이 재차 불발되며 중국의 반도체 추격이 인위적으로 억제된 상태가 지속되고 있다. 그러나 전문가들은 이 유예가 영구적이지 않으며, 미중 기술 갈등이 완화될 경우 한국과 중국 간 반도체 격차가 5년에서 3년으로 급격히 압축될 수 있다고 경고한다.</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 7년, 이제 글로벌 공급망 연결이 시험대</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-3.html</guid>
+      <category>산업전략</category>
+      <description>네이버 D2SF가 방산·제조 스타트업 포지에 투자하며 한국 제조업의 글로벌 공급망 직접 연결을 추진한다. 소부장 4조 원 투자 이후 국산화 단계를 넘어 해외 바이어 수주 구조 진입이 실질적 과제로 부상했다.</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>'친공급망 전략' 선언, 실행 조건 세 가지가 없다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-4.html</guid>
+      <category>글로벌분석</category>
+      <description>글로벌비즈니스포럼(GBF)과 NBR 등 해외 전문기관들이 한국의 '친공급망(pro-supply chain)' 전략을 잇달아 분석하며 구조적 실행 조건의 부재를 지적했다. 핵심광물 조달 다변화, 동맹국 간 재고 공유, 민관 정보 공유 체계가 동시에 작동하지 않으면 전략 선언은 공허하다는 진단이다.</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>갈륨 가격 9배 폭등 3년, GaN 소재 원가 위기</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-08-28-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>미국 국가아시아연구소(NBR)가 한국의 핵심광물 외교 전략을 분석하며 미중 사이에서 균형을 유지하려는 접근이 오히려 양쪽에서 압박을 키우는 구조적 모순을 지적했다. 갈륨·게르마늄·희토류 조달 다변화 속도가 수출통제 확산 속도를 따라가지 못하는 현실이 핵심 리스크다.</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 광물통제, 가격→공급망 차단 전략 격상</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-23-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-23-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 가격 급등 유도에서 공급망 접근 자체를 차단하는 전략으로 전환됐다. 갈륨·게르마늄에서 시작된 통제가 AI 서버 냉각 소재와 산업로봇 영구자석까지 확산되며, 한국 반도체·자동화 산업 전반의 소재 조달 구조가 흔들리고 있다.</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>GBF서 제안된 韓 친공급망 전략의 조건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-23-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-23-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>글로벌 비즈니스 포럼(GBF)에서 한국이 기술전쟁 탈출구로 '친공급망(pro-supply chain)' 전략을 추진해야 한다는 구체적 경로가 제시됐다. 미국 한국경제연구소(KEI)는 한국의 소재 중국 의존도가 40~85%에 달하는 구조적 취약점을 동시에 확인했다.</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술빗장 지속, K반도체 안도·압박 동시</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-23-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-23-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 반도체 타협이 재차 불발되며 첨단기술 수출통제 체계가 유지됐다. 한국 반도체 업계는 중국 추격 지연이라는 반사이익을 누리지만, 미국 수출허가 의무화와 중국 소재 통제가 위아래로 동시에 압박하는 이중 구조가 굳어지고 있다.</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨 2028년 15.5t, '국내 유일'에서 글로벌 전략으로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-23-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-23-3.html</guid>
-      <category>산업전략</category>
-      <description>고려아연이 2028년 연간 15.5t 갈륨 양산 체제 구축을 선언하며 단순 국내 공급원을 넘어 글로벌 허브 전략을 공식화했다. 중국이 전 세계 갈륨 생산의 95% 이상을 장악한 구조에서 첫 균열이 생기는 시점으로, 소재 투자자와 구매담당자 모두 2027~2028년 공급 계약 창구가 열리는 타이밍을 주목해야 한다.</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>KEI·동아시아포럼 교차 분석, 韓 공급망 3대 구조 결함 실체</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-23-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-23-4.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 한국경제연구소(KEI)와 동아시아포럼이 잇달아 한국 공급망 회복력을 분석하며 세 가지 구조적 취약점을 공통으로 지목했다. 핵심광물 중국 의존, 소수 대기업 집중, 정책 연속성 부재가 동시에 작동하는 구조에서 소부장 1700억 지원 확대만으로는 해소되지 않는 층위의 리스크가 존재한다.</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
