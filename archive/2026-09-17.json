@@ -37,19 +37,7 @@
       "image_keyword": "gallium metal ingot",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-17_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "갈륨 kg당 가격 220달러→2,000달러 9배 폭등 수치 출처 불명확",
-          "한국 갈륨 연간 수요 40~50t 추정치의 근거 미제시",
-          "고려아연 2028년 15.5t 양산 목표 공식 발표 여부 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치 출처 보완 필요하나 전반적 개연성 높음",
-        "verified_at": "2026-09-17 08:20"
-      }
+      "image_url": "images/2026-09-17_article_0.jpg"
     },
     {
       "id": 1,
@@ -74,19 +62,7 @@
       "image_keyword": "semiconductor wafer lithography",
       "is_featured": false,
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-09-17_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "화웨이 기린 9000S 7nm 양산 2023년 주장은 일부 異論 있음",
-          "삼성 2nm 양산 2027년 목표 일정 최신 공식 확인 필요",
-          "SK하이닉스 HBM4 2026년 하반기 출하 일정 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전문가 발언 출처 미표기, 사실관계 대체로 업계 통설과 부합",
-        "verified_at": "2026-09-17 08:20"
-      }
+      "image_url": "images/2026-09-17_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,19 +98,7 @@
       "image_keyword": "bioreactor pharmaceutical manufacturing",
       "is_featured": false,
       "timestamp": "오전 10:20",
-      "image_url": "images/2026-09-17_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "동진쎄미켐·솔브레인 중국향 매출 2022년 대비 30% 감소 수치 출처 불명",
-          "미스트랄AI 2025년 기업가치 60억 달러 수치 확인 필요",
-          "삼성바이오 수주잔고 4조 원 돌파 시점·기준 모호"
-        ],
-        "image_keyword_ok": true,
-        "notes": "수치 대부분 개연성 있으나 일부 업계 추정치 출처 보완 요망",
-        "verified_at": "2026-09-17 08:20"
-      }
+      "image_url": "images/2026-09-17_article_2.jpg"
     },
     {
       "id": 3,
@@ -171,19 +135,7 @@
       "image_keyword": "high voltage transformer electrical grid",
       "is_featured": false,
       "timestamp": "오후 03:45",
-      "image_url": "images/2026-09-17_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "2030년까지 전력 40GW 추가 필요 전망의 산출 근거 미제시",
-          "이언주 의원 국회 산자위 발언 날짜·회의 특정 없음",
-          "구글 2024~2025년 한국 데이터센터 속도 조정 사실 출처 불명확"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전력 수치 과장 가능성 있으나 정책·업계 맥락은 사실 부합",
-        "verified_at": "2026-09-17 08:20"
-      }
+      "image_url": "images/2026-09-17_article_3.jpg"
     },
     {
       "id": 4,
@@ -219,19 +171,7 @@
       "image_keyword": "small modular reactor SMR vessel",
       "is_featured": false,
       "timestamp": "오후 03:45",
-      "image_url": "images/2026-09-17_article_4.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "두산에너빌리티 뉴스케일 SMR 주기기 공급계약 체결 여부 재확인 필요(뉴스케일 프로젝트 취소 이력)",
-          "삼성전자 미스트랄AI 전략적 지분 투자 완료 사실 검증 필요",
-          "EDF Nuward SMR과 한국수력원자력 공동개발 의제 공식화 여부 불명확"
-        ],
-        "image_keyword_ok": true,
-        "notes": "두산-뉴스케일 계약 및 삼성-미스트랄 투자 사실관계 정밀 검증 요망",
-        "verified_at": "2026-09-17 08:20"
-      }
+      "image_url": "images/2026-09-17_article_4.jpg"
     }
   ],
   "editorial_briefing": "미중 기술패권 전쟁이 반도체·AI·바이오로 전선 확대되며 한국의 공급망·전력·동맹 전략이 동시 압박받고 있다. 갈륨 수급 공백과 전력 병목이 한국 산업 경쟁력의 새 취약점으로 부상 중이며, 한불 동맹 확장은 대안 공급망 구축의 신호탄이다.",
@@ -261,6 +201,5 @@
       "label": "한불 기술동맹",
       "status": "SMR·AI 확장"
     }
-  ],
-  "last_reviewed_at": "2026-09-17 08:20"
+  ]
 }
