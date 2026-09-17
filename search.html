@@ -251,6 +251,8 @@ function articleLink(idx, dateKey) {
 }
 
 function fmtDate(dateKey) {
+  // 최신 세트(dateKey null)는 실제 발행일(todayKey)로 — 발행이 밀린 날 '오늘'이 거짓말이 된다
+  if (!dateKey) dateKey = todayKey;
   if (!dateKey) return '오늘';
   const [y, m, day] = dateKey.split('-');
   return `${y}.${m}.${day}`;

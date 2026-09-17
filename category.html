@@ -337,7 +337,7 @@ function renderGrid() {
         <div class="card-title">${a.title}</div>
         <div class="card-summary">${a.summary}</div>
         ${badges}
-        <div class="card-meta">${dateKey ? fmtDate(dateKey) : '오늘'} ${a.timestamp || ''}</div>
+        <div class="card-meta">${fmtDate(dateKey || todayKey) || '오늘'} ${a.timestamp || ''}</div>
       </div>
     </div>`;
   }).join('');
