@@ -37,19 +37,7 @@
       "image_keyword": "germanium crystal semiconductor material",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-18_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "러시아 Umicore 표기 오류: Umicore는 벨기에 기업으로 러시아와 무관",
-          "갈륨 가격 9배 폭등 수치 출처 불명확, 검증 필요",
-          "게르마늄 광섬유 프리폼 원가 비중 15~25% 추정 근거 불분명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "Umicore 국적 표기 혼선 있음. 핵심 팩트는 대체로 신뢰 가능.",
-        "verified_at": "2026-09-18 08:19"
-      }
+      "image_url": "images/2026-09-18_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       "image_keyword": "tantalum capacitor electronic component",
       "is_featured": false,
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-09-18_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "AI 서버 1랙당 탄탈럼 커패시터 300~500개 추정치 출처 불명",
-          "Vishay 탄탈럼 부문 영업이익률 4~6%p 상승 추정 근거 부재",
-          "탄탈럼 스크랩 회수율 20~25% 수치 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "주요 기업·시장구조 사실 부합. 일부 수치는 추정치임을 명시 권장.",
-        "verified_at": "2026-09-18 08:19"
-      }
+      "image_url": "images/2026-09-18_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,19 +98,7 @@
       "image_keyword": "HBM memory stack chip closeup",
       "is_featured": false,
       "timestamp": "오전 10:10",
-      "image_url": "images/2026-09-18_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "2026년 9월 미중 정상회담 개최 여부 및 의제 내용 확인 필요",
-          "삼성전자 쑤저우 공장을 D램 후공정으로 표기했으나 실제 기능 재확인 필요",
-          "바이든·트럼프 행정부 연속 언급 순서가 시간순과 불일치"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정상회담 의제 구체 내용은 미확인 사안. 팩트 틀은 대체로 정확.",
-        "verified_at": "2026-09-18 08:19"
-      }
+      "image_url": "images/2026-09-18_article_2.jpg"
     },
     {
       "id": 3,
@@ -170,19 +134,7 @@
       "image_keyword": "semiconductor wafer polishing process",
       "is_featured": false,
       "timestamp": "오후 02:30",
-      "image_url": "images/2026-09-18_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "2019년 이후 7년간 소부장 누적 4조 원 투입 수치 공식 확인 필요",
-          "스텔란티스·GM 공급망 진입 국내 기업 연 1조 원 수출 추산 근거 불명",
-          "LS에코에너지 희토류 공급망 재편 사례 사실관계 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정책 방향·수치 대체로 신뢰. 일부 기업 사례는 출처 보강 권장.",
-        "verified_at": "2026-09-18 08:19"
-      }
+      "image_url": "images/2026-09-18_article_3.jpg"
     },
     {
       "id": 4,
@@ -218,19 +170,7 @@
       "image_keyword": "export control customs inspection cargo",
       "is_featured": false,
       "timestamp": "오후 02:31",
-      "image_url": "images/2026-09-18_article_4.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "조달비용 평균 15% 상승 수치의 출처 기관 명시 없이 '복수 전문기관' 인용",
-          "수출 허가 심사로 납기 4~6주 연장 사례 보고 출처 불명",
-          "한국 독자 반도체 수출통제 체계 시행 여부 및 시점 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "15% 상승 등 핵심 수치 출처 불명확. 구조 분석은 타당하나 수치 보강 필요.",
-        "verified_at": "2026-09-18 08:19"
-      }
+      "image_url": "images/2026-09-18_article_4.jpg"
     }
   ],
   "editorial_briefing": "미중 기술패권 갈등이 소재·반도체 전방위로 확산되며 한국 공급망 조달비용이 15% 상승 고착됐다. 게르마늄·탄탈럼 공급 병목과 수출통제 이중압박 속에 삼성·하이닉스의 포지션이 엇갈리고, 정부 1700억 소부장 투자가 분기점이 될 전망이다.",
@@ -260,6 +200,5 @@
       "label": "소부장 1700억 투자",
       "status": "6대 분야 실탄 확보"
     }
-  ],
-  "last_reviewed_at": "2026-09-18 08:19"
+  ]
 }
