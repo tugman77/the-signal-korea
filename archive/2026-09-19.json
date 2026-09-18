@@ -37,19 +37,7 @@
       "image_keyword": "liquid helium cryogenic dewar",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-19_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "중국이 헬륨 수출통제를 '시사'한 구체적 근거·발표 출처 불명",
-          "중국 헬륨 생산 세계 3위권 주장 — 실제 주요 생산국은 미국·카타르·알제리·러시아로 중국 비중 미미",
-          "한국 액체헬륨 수입의 30%가 중국 경유 루트라는 수치 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "헬륨 수출통제 시사 사실 자체의 근거가 불명확해 핵심 전제 검증 필요",
-        "verified_at": "2026-09-19 08:19"
-      }
+      "image_url": "images/2026-09-19_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       "image_keyword": "gallium arsenide wafer ingot",
       "is_featured": false,
       "timestamp": "오전 09:45",
-      "image_url": "images/2026-09-19_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "안티몬 수출통제 시행 시기를 2025년으로 기재 — 실제 발표는 2024년 9월",
-          "갈륨 세계 생산 80% 중국 담당 수치는 통상 인용되나 최신 기준 변동 가능",
-          "국내 소재·부품 중소기업 200개 이상 단일 공급처 의존 수치 출처 불명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 사실은 대체로 정확하나 안티몬 통제 연도 표기 오류 확인 필요",
-        "verified_at": "2026-09-19 08:19"
-      }
+      "image_url": "images/2026-09-19_article_1.jpg"
     },
     {
       "id": 2,
@@ -133,19 +109,7 @@
       "image_keyword": "patent document semiconductor chip",
       "is_featured": false,
       "timestamp": "오전 10:10",
-      "image_url": "images/2026-09-19_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "일본 반도체 특허 출원 연 1만2000건 vs 한국 8500건 비교 수치 출처 불명",
-          "'IP 전략 로드맵 2025' 공식 명칭·발표 여부 원문 확인 필요",
-          "17개 성장산업 구체 목록 미제시로 범위 검증 불가"
-        ],
-        "image_keyword_ok": true,
-        "notes": "일본 IP 정책 방향은 실제 흐름과 부합하나 세부 수치 출처 보강 권고",
-        "verified_at": "2026-09-19 08:19"
-      }
+      "image_url": "images/2026-09-19_article_2.jpg"
     },
     {
       "id": 3,
@@ -182,19 +146,7 @@
       "image_keyword": "semiconductor CMP slurry wafer polishing",
       "is_featured": false,
       "timestamp": "오후 02:30",
-      "image_url": "images/2026-09-19_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "타타일렉트로닉스·마이크론 인도 팹·CG파워 100억달러 이상 투자 수치 집계 방식 불명",
-          "28nm CMP 슬러리 웨이퍼 1만장당 월 40톤 소비량 수치 출처 확인 필요",
-          "소재·부품 구매 비중 18~22% 추정 근거 불명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "인도 팹 투자 관련 사실은 대체로 부합하나 세부 공정 수치 출처 보강 필요",
-        "verified_at": "2026-09-19 08:19"
-      }
+      "image_url": "images/2026-09-19_article_3.jpg"
     },
     {
       "id": 4,
@@ -230,19 +182,7 @@
       "image_keyword": "cobalt ore mineral refinery",
       "is_featured": false,
       "timestamp": "오후 02:45",
-      "image_url": "images/2026-09-19_article_4.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "중국 코발트 정제 세계 72% 처리 수치 — 통상 인용되나 최신 IEA 기준과 소폭 차이 가능",
-          "한국 배터리 3사 중국산 정제 코발트 의존 45~55% 추정치 출처 불명",
-          "미국 에너지부 2026년 2월 IRA 코발트 원산지 가이던스 발표 여부 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "이중 통제 구조 분석은 타당하나 코발트 의존도 수치와 DOE 가이던스 출처 보강 권고",
-        "verified_at": "2026-09-19 08:19"
-      }
+      "image_url": "images/2026-09-19_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 헬륨·광물 수출통제와 미국의 AI칩 규제가 동시에 강화되며 한국 반도체·배터리 공급망이 양방향 압박에 직면했다. 광산 확보보다 수출허가권이 패권을 결정하는 새 질서 속에서, 인도·일본 등 대안 파트너십 구축이 생존 열쇠로 부상하고 있다.",
@@ -272,6 +212,5 @@
       "label": "일본 IP 전략 내재화",
       "status": "선제적 특허 전략"
     }
-  ],
-  "last_reviewed_at": "2026-09-19 08:19"
+  ]
 }
