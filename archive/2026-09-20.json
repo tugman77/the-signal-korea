@@ -38,19 +38,7 @@
       "image_keyword": "gallium metal ingot",
       "is_featured": true,
       "timestamp": "오전 08:30",
-      "image_url": "images/2026-09-20_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "갈륨 kg당 220달러→2,000달러 9배 폭등 수치, 독립 가격 데이터 교차 검증 필요",
-          "한국 팹의 일본 에피웨이퍼 전환 '연 20% 이상 증가' 업계 보고 출처 불명",
-          "고려아연 2028년 양산 15.5t 구체 수치, 공식 발표 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 사실(2023년 8월 수출허가제, GaN 용도, 5N Plus·DB하이텍 실존) 대체로 검증 가능",
-        "verified_at": "2026-09-20 08:19"
-      }
+      "image_url": "images/2026-09-20_article_0.jpg"
     },
     {
       "id": 1,
@@ -87,19 +75,7 @@
       "image_keyword": "neodymium rare earth magnet",
       "is_featured": false,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-20_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "2025년 4월 네오디뮴·디스프로슘 수출허가제 추가 발동 시점 및 품목 범위 공식 확인 필요",
-          "신에츠화학 한국 문의 '3배 이상 증가' 현장 정보, 출처·시점 불명",
-          "Lynas 연 5,000t 비중국 네오디뮴 공급 능력 수치 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "중국 85% 생산 장악, 신에츠·TDK·Lynas 실존 등 골격 사실은 업계 정설과 부합",
-        "verified_at": "2026-09-20 08:19"
-      }
+      "image_url": "images/2026-09-20_article_1.jpg"
     },
     {
       "id": 2,
@@ -124,19 +100,7 @@
       "image_keyword": "HBM memory chip stack",
       "is_featured": false,
       "timestamp": "오전 10:00",
-      "image_url": "images/2026-09-20_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "화웨이 Ascend 910C 중국 AI 서버 점유율 38%→47% 수치, 출처 없이 단정적",
-          "2026년 미중 정상회담 H20 합의 불발을 기정사실처럼 서술, 시제 혼용",
-          "미국 팹리스 구매팀의 삼성→SK하이닉스 이전 '사전 준비' 감지 주장, 검증 불가"
-        ],
-        "image_keyword_ok": true,
-        "notes": "브리핑 특성상 추론·시나리오 비중 높음; 화웨이 점유율 수치가 핵심 검증 포인트",
-        "verified_at": "2026-09-20 08:19"
-      }
+      "image_url": "images/2026-09-20_article_2.jpg"
     },
     {
       "id": 3,
@@ -173,19 +137,7 @@
       "image_keyword": "semiconductor cleanroom wafer inspection",
       "is_featured": false,
       "timestamp": "오후 02:30",
-      "image_url": "images/2026-09-20_article_3.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "GM·스텔란티스 2026년 중국 부품 50% 축소 일정, 공식 발표 출처 미확인",
-          "선단 공정(3nm 이하) 외부 QSL 비율 '10%' 수치, 측정 기준·출처 불명",
-          "KOTRA 파트너십 위크 후 6개월 창 언급, 구체 일정 근거 불명확"
-        ],
-        "image_keyword_ok": true,
-        "notes": "동진쎄미켐·솔브레인·SK머티리얼즈 실존, 정책 골격 사실 부합; 특정 수치 일부 주의",
-        "verified_at": "2026-09-20 08:19"
-      }
+      "image_url": "images/2026-09-20_article_3.jpg"
     },
     {
       "id": 4,
@@ -207,22 +159,10 @@
         "구매담당자는 한국산 소재·장비를 발주할 때 수출 허가 심사 기간 4~6주를 리드타임에 선반영해야 한다. 기존 조달 계획서의 납기를 일괄 6주 연장하고, 안전재고를 기존 4주분에서 10주분으로 늘리는 것이 현실적인 대응이다.",
         "실제 조달 현장에서는 — 한국 소재 기업의 영업 담당자들이 수출 허가 서류 준비에 기존보다 2배 이상 시간을 쓰면서 고객 대응 속도가 눈에 띄게 느려졌다. 일부 중소 소재사는 허가 전담 인력이 없어 수출을 자체 보류하는 사례도 나왔다. 바이어 입장에서는 공급자 다변화 압력이 커지는 시점이고, 일본 쇼와덴코·스텔라케미파 등 대체 소재 기업에 대한 승인 검토를 병행해야 한다."
       ],
-      "image_keyword": "semiconductor export license compliance",
+      "image_keyword": "export control document customs inspection",
       "is_featured": false,
       "timestamp": "오후 02:45",
-      "image_url": "images/2026-09-20_article_4.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "'글로벌 소싱 데이터 기준 15% 상승 확인' — 데이터 출처·조사 기관 명시 없음",
-          "납기 8~12주→12~18주 연장 수치, 측정 기관 및 표본 불명",
-          "한국 자체 수출통제 2025년 하반기 시행 세부 품목·근거법령 미기재"
-        ],
-        "image_keyword_ok": false,
-        "notes": "정책 방향성은 개연성 있으나 15% 비용 상승 수치가 핵심 미검증 주장",
-        "verified_at": "2026-09-20 08:19"
-      }
+      "image_url": "images/2026-09-20_article_4.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 수출통제가 GaN·희토류까지 확산되며 글로벌 공급망 비용이 구조적으로 상승하고, 미중 기술 패권 고착 속 한국은 전략적 균형자 포지션으로 기회를 모색 중이다. 소부장 투자 확대와 자체 수출통제 시행이 맞물려 국내 산업의 체질 전환이 분기점에 서 있다.",
@@ -252,6 +192,5 @@
       "label": "소부장 1700억",
       "status": "팹 인증이 관건"
     }
-  ],
-  "last_reviewed_at": "2026-09-20 08:19"
+  ]
 }
