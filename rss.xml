@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 20 Sep 2026 08:18:31 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 08:20:59 +0900</lastBuildDate>
+    <item>
+      <title>NBR '韓 핵심광물 균형외교 3대 압박' 경고</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국 아시아리서치국(NBR)이 한국의 핵심광물 조달 전략을 분석한 보고서에서 정제 역량 미흡·동맹국 장기계약 부재·비축 부족 3가지 실행 조건이 모두 결여됐다고 경고했다. 대중 의존도 60~90% 구조에서 선언만으로 균형외교는 작동하지 않는다는 직언이다.</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 이중 규제 파장, 소재 납기 18주 고착</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국 반도체 수출통제(EAR)와 중국 핵심광물 수출허가제가 동시에 강화되면서 한국 반도체 소재 공급망이 양방향 압박을 받고 있다. 갈륨 계열 소재 납기가 기존 4~6주에서 14~18주로 늘어나는 등 조달 병목이 현실화됐다.</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>삼성 파업 공포, 美 팹리스 단일 의존 균열</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-2.html</guid>
+      <category>기술패권</category>
+      <description>미국 반도체 업계가 삼성전자 파업 리스크를 한국 파운드리 의존도의 핵심 취약점으로 공개 지목했다. 삼성이 흔들리면 미국 팹리스는 TSMC 단일 공급 구조(시장점유율 약 62%)에 갇히는 딜레마가 현실화된다.</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>충남 소부장 100억 조합 결성, 글로벌 팹 인증 레이스 시작</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-3.html</guid>
+      <category>산업전략</category>
+      <description>충남혁신센터가 소부장·전략산업 집중 투자를 위한 100억원 규모 투자조합을 결성했다. 산업부 1700억 확대와 맞물려 지역 단위 실탄 배치가 시작됐지만, 글로벌 팹 인증에 2~3년이 걸리는 시차 탓에 2027년 공급망 사이클 탑승 여부가 관건이다. 투자자라면 집행 시점보다 인증 완료 시점을 기준으로 수혜 기업을 판단해야 한다.</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI·에너지 안보 수렴, 10조달러 인프라 투자 사이클 개막</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-4.html</guid>
+      <category>글로벌분석</category>
+      <description>AI 데이터센터 확산과 에너지 안보 위기가 맞물리며 2030년까지 글로벌 에너지 인프라에 10조달러 투자 사이클이 열렸다. 핵심 병목은 변압기·초전도 케이블·원전 피복재용 소재이며, 이트륨(중국 생산 90% 집중)이 차기 수출통제 리스크 소재로 부상했다. 한국 소재기업에게는 중국 대체 공급선 수요가 가장 빠르게 열리는 시장이다.</description>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>갈륨 9배 폭등 3년, GaN 원가 위기 임계점</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-20-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>한국이 자체 반도체 수출통제를 시행하고 미국이 반도체 관세 전략을 강화하면서 글로벌 공급망 조달 비용이 평균 10~15% 상승하는 이중 압박 구조가 형성됐다. 삼성·SK하이닉스는 전략 자산으로서 미국의 관심을 받는 동시에, 수출 허가 행정 지연으로 납기 리스크가 확대되고 있다.</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 자본통제 동시 강화, 韓 배터리 소재 조달 이중 절벽</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>미국의 AI칩 수출허가 의무화와 중국의 핵심광물 수출통제가 동시에 확대되며 한국 배터리·반도체 기업이 소재 조달과 투자 유치 양 방향에서 동시 압박을 받고 있다. 양국 규제의 교차점에서 한국 기업의 조달 비용과 납기 리스크가 구조적으로 확대되고 있다.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄탈럼 납기 26주 고착, AI 서버 부품 조달 경보 현실화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>AI 서버·전장 전자기기 수요 폭증으로 탄탈럼 커패시터 납기가 평균 26주(6개월)로 고착되며 단순 수급 차질을 넘어 구조적 공급 병목으로 전환되고 있다. 전 세계 탄탈럼 생산의 약 60%를 콩고민주공화국(DRC)이 공급하는 단일 지역 의존 구조가 리스크를 증폭시키고 있다.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 AI 반도체 빗장 고착, 한국의 '5년 유예' 마감 시계</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 AI 반도체 수출통제 타협이 재차 불발되며 중국의 반도체 추격이 인위적으로 억제된 상태가 지속되고 있다. 그러나 전문가들은 이 유예가 영구적이지 않으며, 미중 기술 갈등이 완화될 경우 한국과 중국 간 반도체 격차가 5년에서 3년으로 급격히 압축될 수 있다고 경고한다.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 7년, 이제 글로벌 공급망 연결이 시험대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-3.html</guid>
-      <category>산업전략</category>
-      <description>네이버 D2SF가 방산·제조 스타트업 포지에 투자하며 한국 제조업의 글로벌 공급망 직접 연결을 추진한다. 소부장 4조 원 투자 이후 국산화 단계를 넘어 해외 바이어 수주 구조 진입이 실질적 과제로 부상했다.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>'친공급망 전략' 선언, 실행 조건 세 가지가 없다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-08-29-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-08-29-4.html</guid>
-      <category>글로벌분석</category>
-      <description>글로벌비즈니스포럼(GBF)과 NBR 등 해외 전문기관들이 한국의 '친공급망(pro-supply chain)' 전략을 잇달아 분석하며 구조적 실행 조건의 부재를 지적했다. 핵심광물 조달 다변화, 동맹국 간 재고 공유, 민관 정보 공유 체계가 동시에 작동하지 않으면 전략 선언은 공허하다는 진단이다.</description>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

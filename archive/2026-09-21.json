@@ -38,19 +38,7 @@
       "image_keyword": "critical mineral ore stockpile",
       "is_featured": true,
       "timestamp": "오후 02:15",
-      "image_url": "images/2026-09-21_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "호주 갈륨 연 30t 이상 공급 여력 2027년 확보 계획—구체적 수치 출처 불명",
-          "한국 전략비축 2~3개월 수준 주장—공식 통계 인용 없음",
-          "단기 대체 조달 가능 물량 국내 수요 10% 이하 추정—NBR 보고서 원문 미확인"
-        ],
-        "image_keyword_ok": true,
-        "notes": "NBR 실존 기관·EAR·대중 의존도 수치 개연성 높음. 일부 수치 출처 보강 필요",
-        "verified_at": "2026-09-21 08:22"
-      }
+      "image_url": "images/2026-09-21_article_0.jpg"
     },
     {
       "id": 1,
@@ -71,22 +59,10 @@
         "소재 구매 담당자는 핵심 품목별 '미중 규제 이중 노출 지도'를 즉시 작성해야 한다. 미국 EAR 규제 대상 공정 장비와 중국 수출통제 대상 소재가 교차하는 품목이 어디인지 파악해야 선제 비축 결정이 가능하다. 납기 연장이 시작된 품목은 이미 위험 구간에 진입했다는 신호다.",
         "실제 조달 현장에서는 — 수출허가 심사 지연이 납기 연장의 주범이지만, 공급업체들은 이를 납기 내 '불가항력' 사유로 처리해 패널티를 회피하려 한다. 계약서에 수출허가 지연을 별도 리스크 항목으로 명시하고, 납기 연장 시 조달처 전환 옵션을 계약상 확보해 두는 것이 지금 당장 해야 할 조치다."
       ],
-      "image_keyword": "gallium germanium export control semiconductor supply",
+      "image_keyword": "export license document customs inspection",
       "is_featured": false,
       "timestamp": "오후 02:20",
-      "image_url": "images/2026-09-21_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "중국 수출허가 한국 수요자에 80% 이상 삭감 적용—매우 구체적이나 공식 근거 없음",
-          "납기 4~6주→14~18주 연장—더구루 단일 출처로 검증 불충분",
-          "더구루 분석을 사실(fact) 섹션에 인용—독립 확인 자료 필요"
-        ],
-        "image_keyword_ok": false,
-        "notes": "납기·허가 삭감 수치가 지나치게 구체적이나 검증 출처 부재. 주의 필요",
-        "verified_at": "2026-09-21 08:22"
-      }
+      "image_url": "images/2026-09-21_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,19 +98,7 @@
       "image_keyword": "semiconductor wafer lithography equipment",
       "is_featured": false,
       "timestamp": "오후 02:25",
-      "image_url": "images/2026-09-21_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "KBS 인터뷰 미국 반도체 업계 관계자 발언—익명 출처로 사실 확인 불가",
-          "삼성 2nm 공정 6개월 이상 지연 분석—분석 주체 불명확",
-          "TSMC N2 예약 2년치 이상 적체—공식 확인되지 않은 업계 추문"
-        ],
-        "image_keyword_ok": true,
-        "notes": "TSMC 시장점유율·삼성 파업·CHIPS법 527억 달러 등 주요 팩트 검증 가능",
-        "verified_at": "2026-09-21 08:22"
-      }
+      "image_url": "images/2026-09-21_article_2.jpg"
     },
     {
       "id": 3,
@@ -167,22 +131,10 @@
         "투자자라면 산업부 1700억 수혜 6개 분야 중 반도체 공정소재와 이차전지 소재에 집중된 중견기업을 주목해야 한다. 이 두 분야는 글로벌 팹의 2026년 공급망 재편과 직접 연결되며, 인증 완료 시 장기 공급계약으로 전환 가능성이 가장 높다.",
         "실제 조달 현장에서는 — 정책 자금이 집행된다고 소재가 곧바로 납품되지 않는다. 갈륨 계열 소재를 공급할 때도 고객사 내부 인증만 8개월이 걸렸다. 지금 투자받는 기업이 실제 납품 실적을 내는 시점은 2027~2028년이다. 투자자는 이 시차를 반드시 포트폴리오 타임라인에 반영해야 한다."
       ],
-      "image_keyword": "semiconductor materials CMP slurry specialty chemical plant",
+      "image_keyword": "chemical powder processing industrial facility",
       "is_featured": false,
       "timestamp": "오후 02:35",
-      "image_url": "images/2026-09-21_article_3.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "기사 발행일 2026년 9월임에도 2025년 12월 마감·2025년 1분기 집행을 미래 시제로 기술—시제 오류",
-          "충남 100억 조합 결성 및 30여 개 후보군—공식 발표 미확인",
-          "산업부 1000억→1700억 확대 구체 수치—시행령·고시 원문 링크 없음"
-        ],
-        "image_keyword_ok": false,
-        "notes": "날짜 시제 불일치(2026 기사에서 2025 마감 미래 표현) 편집 오류 수정 필요",
-        "verified_at": "2026-09-21 08:22"
-      }
+      "image_url": "images/2026-09-21_article_3.jpg"
     },
     {
       "id": 4,
@@ -207,19 +159,7 @@
       "image_keyword": "power transformer substation copper winding",
       "is_featured": false,
       "timestamp": "오후 02:36",
-      "image_url": "images/2026-09-21_article_4.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "'아시아포럼 및 IEA 추산' 10조달러—아시아포럼 출처 불명확, IEA 원문 수치와 대조 필요",
-          "미국 단독 신규 발전 100GW 이상 필요—구체 출처 미제시",
-          "이트륨 전세계 생산 90% 이상 중국 집중—수치 자체는 정확하나 최신 데이터 여부 확인 권장"
-        ],
-        "image_keyword_ok": true,
-        "notes": "이트륨·지르코늄 팩트 정확도 높음. '아시아포럼' 출처 명확화 권고",
-        "verified_at": "2026-09-21 08:22"
-      }
+      "image_url": "images/2026-09-21_article_4.jpg"
     }
   ],
   "editorial_briefing": "미중 이중 규제와 핵심광물 공급망 압박이 동시에 심화되며 한국 반도체·소재 산업의 전략적 취약성이 부각되고 있다. AI 인프라 투자 사이클과 에너지 안보 수요가 맞물려 10조달러 규모의 새 기회도 열리는 중이다.",
@@ -249,6 +189,5 @@
       "label": "AI·에너지 인프라",
       "status": "10조달러 사이클 개막"
     }
-  ],
-  "last_reviewed_at": "2026-09-21 08:22"
+  ]
 }
