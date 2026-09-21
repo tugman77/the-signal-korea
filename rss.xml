@@ -6,7 +6,47 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 21 Sep 2026 08:20:59 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 08:18:24 +0900</lastBuildDate>
+    <item>
+      <title>고려아연 갈륨 2028 선언, 공백 3년 누가 채우나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-22-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-22-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>고려아연이 2028년 연 15.5t 갈륨 양산을 공식 선언했지만, 한국 연간 수요 추정치 40~50t 대비 30~40% 수준에 불과하다. 나머지 60~70%의 공백기 조달 리스크가 투자자와 구매담당자 모두에게 현실적 과제로 떠오른다.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>美 완성차 중국 전장부품 퇴출, 韓 소재 수혜 윤곽</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-22-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-22-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>GM·포드 등 미국 완성차 업체들이 2026년까지 중국산 전장 부품 비중을 50% 이상 축소하는 공급망 재편을 가속하고 있다. 한국 전장 소재 기업의 연간 최대 1.2조 원 수혜가 가시화되고 있으나 인증 리드타임이 병목으로 작용한다.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>인도 팹 공급망, K-소부장 진입 첫 관문 열렸다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-22-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-22-2.html</guid>
+      <category>기술패권</category>
+      <description>KOTRA가 '한-인도 반도체 파트너십 위크'를 통해 K-소부장 기업의 인도 팹 공급망 진입을 공식 지원하고 나섰다. 인도 정부의 반도체 팹 보조금 약 100억 달러와 Tata Semiconductor·CG Power 등 실제 발주처가 가동되면서 수요가 현실화되고 있다.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 메모리 공급난 장기화, 골든타임 18개월 남았다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-22-3.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-22-3.html</guid>
+      <category>산업전략</category>
+      <description>AI 가속기 수요 폭증으로 HBM·DDR5 공급 부족이 2026년까지 지속될 전망이다. 삼성전자·SK하이닉스의 HBM3E 생산능력 확충 속도가 엔비디아·AMD 주문 소화의 관건이며, 지금이 설비 투자 결정의 마지막 시점이다.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>KOTRA 한-인도 반도체 주간, K-소부장 남아시아 첫 교두보</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-22-4.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-22-4.html</guid>
+      <category>글로벌분석</category>
+      <description>KOTRA가 한-인도 반도체 파트너십 위크를 통해 K-소부장 기업의 인도 팹 공급망 진입을 공식 지원하기 시작했다. 인도 반도체 시장은 2030년 1,100억 달러 규모로 성장이 예상되며, 타타·마이크론 인도 팹이 공급처 다변화를 요구하고 있어 한국 소재 기업의 실질 수주로 이어질 가능성이 생겼다.</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>NBR '韓 핵심광물 균형외교 3대 압박' 경고</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-21-0.html</link>
@@ -206,46 +246,6 @@
       <category>글로벌분석</category>
       <description>한불 정상회담에서 협력 범위가 기존 방산·원전을 넘어 AI 반도체, SMR, 우주까지 확장됐다. 프랑스는 EDF의 SMR 기술과 미스트랄AI 생태계를, 한국은 반도체 파운드리와 원전 시공 역량을 교환하는 구조다. 미중 이분법 틈새에서 유럽과의 기술 교환이 새 공급망 축을 만들 수 있다.</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차 중국 부품 퇴출, 韓 전장 소재 年1.2조 수혜 가시화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-15-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-15-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>GM·포드·스텔란티스가 2026년까지 중국산 전장 부품 비중을 50% 이상 축소하는 공급망 재편을 공식화했다. 차량용 반도체·커넥터·자성체 소재 수요가 한국·멕시코·동남아로 이전되며, 한국 전장 소재 기업의 대미 수주 규모가 연간 1조 2000억 원 이상으로 추산된다. 소재 공급자 시각에서 보면 지금이 장기 공급 계약을 선점할 적기다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한-중앙아 5국 광물 협력 출범, 크롬·우라늄 대안 공급망 첫 발</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-15-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-15-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>한국과 카자흐스탄·우즈베키스탄 등 중앙아시아 5개국 산업장관이 핵심광물 협력 공동선언에 서명했다. 중앙아는 전 세계 크롬 매장량 30%, 우라늄 생산량 43%를 보유한 전략 자원 벨트다. 중국 광물 통제 대안이 필요한 한국에게 첫 구체적 조달 루트가 열렸으나, 인프라·물류 투자 없이는 선언에 그칠 위험이 있다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>삼성, 미스트랄AI 지분 투자…유럽 AI 반도체 파운드리 수주 선점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-15-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-15-2.html</guid>
-      <category>기술패권</category>
-      <description>삼성전자가 프랑스 AI 스타트업 미스트랄AI에 전략적 지분 투자를 단행하며 유럽 AI 반도체 수주 교두보 확보에 나섰다. 한불 정상회담에서 방산·AI·SMR로 협력 범위가 확대됐으며, 미스트랄AI의 2025년 기업가치는 60억 달러(약 8조 원)로 평가됐다. 엔비디아·TSMC 중심의 AI칩 생태계에서 유럽 독자 AI 루트를 공략하는 삼성의 포석이다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>K-소부장 스텔란티스·GM 진입, 수출 실전 원년</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-15-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-15-3.html</guid>
-      <category>산업전략</category>
-      <description>한국 소부장 기업들이 스텔란티스·GM 등 글로벌 완성차 OEM 공급망에 직접 진입하며 7년간 4조원 투자 성과가 수출 실적으로 전환되는 변곡점에 섰다. 산업부 1700억원 지원 확대와 맞물려 차량용 반도체 소재·전장 부품이 핵심 수혜 영역으로 부상하고 있다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 자체 수출통제·美 관세 이중압박, 반도체 조달비용 15% 상승</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-15-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-15-4.html</guid>
-      <category>글로벌분석</category>
-      <description>한국이 자체 반도체 수출통제를 시행하고 미국이 반도체 관세 전략을 강화하면서 글로벌 공급망 조달 비용이 평균 10~15% 상승하는 이중 압박 구조가 형성됐다. 삼성·SK하이닉스는 전략 자산으로서 미국의 관심을 받는 동시에, 수출 허가 행정 지연으로 납기 리스크가 확대되고 있다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
