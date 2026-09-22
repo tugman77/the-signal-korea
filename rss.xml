@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 22 Sep 2026 08:18:24 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 08:19:17 +0900</lastBuildDate>
+    <item>
+      <title>엔비디아 H20 봉쇄 지속, 韓 HBM 중국 수요처 소멸</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-23-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-23-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>미중 정상회담에서 AI 반도체 수출통제 협의가 불발되며 엔비디아의 중국향 H20 판매 차단이 장기화됐다. 화웨이 Ascend 생태계가 중국 AI 서버를 잠식하면서 삼성·하이닉스의 중국 HBM 납품 경로가 구조적으로 닫히고 있다.</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>외부 경고: 韓 반도체 붐, 시장 접근성 결핍으로 성장 정체</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-23-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-23-1.html</guid>
+      <category>글로벌분석</category>
+      <description>East Asia Forum은 한국 반도체가 기술 우위는 유지하나 미국 장비 의존·중국 시장 규제·신흥국 팹 부재라는 삼중 구조에 갇혀 시장 접근성이 좁아지고 있다고 경고했다. TSMC의 미·일·유럽 동시 팹 확장과 대비되는 한국의 해외 거점 부재가 핵심 취약점이다.</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>전남광주 AI·에너지 허브 선언, 앵커 팹 유치가 관건</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-23-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-23-2.html</guid>
+      <category>산업전략</category>
+      <description>하정우 의원이 여수·광양 에너지 인프라와 AI 반도체·모빌리티·우주를 연결하는 '전남광주 글로벌 AI 공급망 허브' 구상을 제시했다. 해상풍력 3GW 전력과 포스코퓨처엠 양극재 집적이라는 강점은 있으나, 반도체 팹 앵커 기업 유치 없이는 소부장 집적화로 이어지지 않는다.</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>고려아연 갈륨 2028 선언, 공백 3년 누가 채우나</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-22-0.html</link>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-1.html</guid>
       <category>공급망전쟁</category>
       <description>미중 갈등이 없었다면 중국 반도체가 한국 턱밑까지 추격했을 것이라는 전문가 진단이 나왔다. 미국의 수출통제가 중국 추격을 인위적으로 억제하는 동안 한국이 기술 격차 확대에 실제로 얼마나 투자했는지가 핵심 질문이다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술전쟁, AI·바이오로 전선 확대…한국 노출 지도</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-17-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 기술패권 경쟁이 반도체를 넘어 AI 모델·바이오 제조로 확산되면서 한국의 노출 범위가 넓어지고 있다. 2026년 현재 미국의 AI칩 수출허가 의무화와 중국의 바이오 소재 통제 가능성이 동시에 부상하며 한국 기업의 전략 재편을 요구한다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI·반도체 전력 병목, 전력수급 재설계 시급</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-17-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-3.html</guid>
-      <category>산업전략</category>
-      <description>AI 데이터센터와 반도체 공장 동시 확장으로 한국 전력 수요가 2030년까지 최대 40GW 추가 필요 전망이 나오는 가운데, 현행 제10차 전력수급기본계획이 이를 반영하지 못한다는 지적이 국회와 산업계 양쪽에서 동시에 터졌다. 소재·장비 병목 이전에 전력이 먼저 막히는 시나리오가 현실화되고 있다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한불 정상, 방산→SMR·AI·반도체 동맹 선언</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-17-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-4.html</guid>
-      <category>글로벌분석</category>
-      <description>한불 정상회담에서 협력 범위가 기존 방산·원전을 넘어 AI 반도체, SMR, 우주까지 확장됐다. 프랑스는 EDF의 SMR 기술과 미스트랄AI 생태계를, 한국은 반도체 파운드리와 원전 시공 역량을 교환하는 구조다. 미중 이분법 틈새에서 유럽과의 기술 교환이 새 공급망 축을 만들 수 있다.</description>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
