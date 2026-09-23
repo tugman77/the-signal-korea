@@ -37,19 +37,7 @@
       "image_keyword": "fiber optic cable transceiver",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-24_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "SMEE 90nm급 DUV 양산 단계 공식 발표 — 출처 불명확, 60~90nm 진입 주장은 과장 가능성",
-          "ASML 중국 DUV 수출 차단으로 연간 약 35억 유로 매출 손실 — 2024 실제 수치와 괴리 있을 수 있음",
-          "한국 중소 광통신 부품사 대중 매출 총합 약 1,200억원 — 검증 어려운 추정치"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치 일부 추정·과장 가능성, 기업·기관명은 실존 확인 가능",
-        "verified_at": "2026-09-24 08:17"
-      }
+      "image_url": "images/2026-09-24_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       "image_keyword": "chromite ore mineral rock",
       "is_featured": false,
       "timestamp": "오전 10:40",
-      "image_url": "images/2026-09-24_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "카자흐스탄+우즈베키스탄 크롬 매장량 38% — 카자흐 단독 약 30% 수준, 합산 수치 과대 가능",
-          "중국 제련사 한국 크롬·우라늄 처리 연간 약 8억 달러 — 출처 없는 추정치",
-          "한국 크롬 수입 중 중국 경유 처리분 55% — 공식 통계 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "협약 사실·기업명·생산량 수치 대체로 검증 가능, 일부 추정치 주의",
-        "verified_at": "2026-09-24 08:17"
-      }
+      "image_url": "images/2026-09-24_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,18 +98,7 @@
       "image_keyword": "semiconductor wafer polishing CMP",
       "is_featured": false,
       "timestamp": "오후 12:00",
-      "image_url": "images/2026-09-24_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "TATA일렉트로닉스-PSMC 합작 파운드리 2026년 28nm 가동 목표 — 일정 지연 가능성 있음",
-          "Micron 구자라트 팹 2025년 하반기 양산 진입 — 실제 가동 시점 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "KOTRA 행사·팹 건설 사실 개연성 높음, 가동 일정은 변동 가능성",
-        "verified_at": "2026-09-24 08:17"
-      }
+      "image_url": "images/2026-09-24_article_2.jpg"
     }
   ],
   "editorial_briefing": "중국이 DUV·광통신 국산화를 가속하며 미중 반도체 패권 전선이 3개 축으로 확대됐고, 한국은 중앙아 광물 협약·인도 팹 공급망 진입으로 공급망 다변화를 동시 추진 중. 투자자는 K-소부장·핵심광물 수혜주 모멘텀에 주목할 시점.",
@@ -163,6 +128,5 @@
       "label": "핵심광물 다변화",
       "status": "크롬·우라늄 확보"
     }
-  ],
-  "last_reviewed_at": "2026-09-24 08:17"
+  ]
 }

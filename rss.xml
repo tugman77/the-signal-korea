@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 23 Sep 2026 08:19:17 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 08:17:18 +0900</lastBuildDate>
+    <item>
+      <title>中 DUV·광통신 자립 선언, 반도체 전선 3개로 확대</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-24-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-24-0.html</guid>
+      <category>기술패권</category>
+      <description>중국이 메모리·파운드리에 이어 광통신 부품과 DUV 노광 장비 국산화를 공식 가속하면서 미중 AI 반도체 패권 전선이 3개 축으로 분화됐다. 한국 광통신 소재·부품 기업의 중국 수출 구조가 5년 내 근본적으로 흔들릴 수 있다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>한-중앙아 5국 광물 협약, 크롬·우라늄 대안 실현 조건은</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-24-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-24-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>한국과 카자흐스탄 등 중앙아시아 5개국이 핵심광물 협력 공동선언에 서명했다. 중앙아는 세계 크롬 매장량의 38%, 우라늄의 42%를 보유하나 정제·물류 인프라 없이는 선언이 종이에 그친다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 빗장 속 인도 반도체 팹, K-소부장 두 번째 진입 시도</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-24-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-24-2.html</guid>
+      <category>글로벌분석</category>
+      <description>KOTRA가 한-인도 반도체 파트너십 위크를 통해 K-소부장의 인도 팹 공급망 진입을 재시도하고 있다. 인도 Micron 팹(구자라트)과 TATA일렉트로닉스 팹의 본격 가동이 2025~2026년 예정으로, 소재·부품 조달 구조가 형성되기 전 진입하느냐가 관건이다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>엔비디아 H20 봉쇄 지속, 韓 HBM 중국 수요처 소멸</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-23-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>산업부가 소부장 투자지원 규모를 1700억 원으로 확대하고 대상을 6개 첨단전략산업으로 재편했다. 반도체·디스플레이·이차전지·바이오·항공우주·차량용 반도체가 핵심 수혜 분야로, 개별 기업의 공급망 포지셔닝 전략이 수주 성패를 가를 전망이다.</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 이중 규제, 반도체 조달비용 15% 상승 고착</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-18-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-18-4.html</guid>
-      <category>글로벌분석</category>
-      <description>한국 자체 반도체 수출통제와 미국 관세 전략이 동시에 강화되면서 글로벌 공급망 조달비용이 평균 15% 상승했다. 한국 팹리스·파운드리 기업은 허가 절차 지연과 원가 상승의 이중 압박 속에서 수주 구조 재편을 강요받고 있다.</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨 2028년 선언, 3년 공백 누가 채우나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-17-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>고려아연이 2028년 연 15.5t 갈륨 양산을 선언했지만 한국 연간 수요 추정치 40~50t의 30~40%에 불과하다. 중국 수출통제로 갈륨 kg당 가격이 220달러에서 약 2,000달러로 9배 폭등한 상황에서 2025~2028년 공백기를 메울 브리지 조달 전략이 부재하다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 충돌이 준 반도체 유예, 한국이 쓴 시간은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-17-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-17-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>미중 갈등이 없었다면 중국 반도체가 한국 턱밑까지 추격했을 것이라는 전문가 진단이 나왔다. 미국의 수출통제가 중국 추격을 인위적으로 억제하는 동안 한국이 기술 격차 확대에 실제로 얼마나 투자했는지가 핵심 질문이다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
