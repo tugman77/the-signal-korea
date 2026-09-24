@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 24 Sep 2026 08:17:18 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 08:20:34 +0900</lastBuildDate>
+    <item>
+      <title>중국 광물통제 '가격충격'에서 '할당통제'로 전환</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-25-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-25-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국 핵심광물 수출통제가 단순 가격 인상 단계를 지나 최종 수요처·용도를 심사하는 '할당 통제' 체계로 전환됐다. 갈륨·게르마늄·네오디뮴 허가 승인율이 신청 대비 40~60%로 떨어지면서 돈을 줘도 못 사는 구조가 굳어지고 있다. AI·로봇 소재 수요가 2026년 50% 증가 전망인데 공급 측 병목은 오히려 심화되는 역방향 국면이다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>칩노믹스가 짚은 TSMC 60년, 한국에 남은 3가지 과제</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-25-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-25-1.html</guid>
+      <category>기술패권</category>
+      <description>신간 '칩노믹스'는 TSMC의 성공이 기술 천재성이 아닌 1960년대부터 설계된 대만 국가 산업 전략의 산물임을 분석한다. 클러스터 밀도·고객 신뢰·파운드리 순수성이라는 세 축이 한국 반도체 모델과 구조적으로 다른 지점을 정확히 짚는다. 소부장 1700억 투자가 효과를 내려면 단발 지원이 아닌 20년 생태계 설계가 필요하다는 경고로 읽힌다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>한-대만 기업인 인천 회동, 미중 틈새 협력 구체화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-25-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-25-2.html</guid>
+      <category>글로벌분석</category>
+      <description>한국과 대만 기업인들이 인천에서 탈중국 공급망 재편을 위한 산업 협력을 논의했다. 양국은 미중 기술패권 충돌로 동시에 공급망 재편 압박을 받는 공통 구조이며, 한국 소재·부품과 대만 장비·파운드리를 묶어 미국·인도 팹에 공동 진출하는 시나리오가 테이블에 올랐다. 한-대만 무역 규모는 2024년 약 320억 달러로, 협력 공식화 시 OSAT·배터리 소재 분야 수혜가 구체화된다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 DUV·광통신 자립 선언, 반도체 전선 3개로 확대</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-24-0.html</link>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-18-0.html</guid>
       <category>공급망전쟁</category>
       <description>중국이 갈륨 수출을 일부 재개하면서도 게르마늄 수출 차단은 유지하고 있다. 한국 연간 게르마늄 수입의 80% 이상이 중국산인 가운데, 광통신·적외선 광학 소재 조달 공백이 구조화되고 있어 관련 기업의 재고 전략 점검이 시급하다.</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄탈럼 납기 26주 고착, AI 서버 증설 병목 현실화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-18-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-18-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>AI 서버와 전장 전자기기 수요 급증으로 탄탈럼 커패시터 납기가 평균 26주(6개월)로 고착됐다. 단순 수급 차질을 넘어 AI 인프라 증설 일정 자체가 소재 조달에 묶이는 구조적 병목으로 전환됐으며, 국내 AI 데이터센터 투자 계획에 실질적 지연 리스크가 발생하고 있다.</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 반도체 빗장 유지, 삼성·하이닉스 포지션 갈린다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-18-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-18-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 첨단 반도체 수출통제 완화 합의가 재차 불발되면서 현재의 기술 격리 구도가 유지됐다. 삼성전자는 중국 레거시 생산 비중(약 30%)으로 인해 규제 강화 시 타격 리스크가 크고, SK하이닉스는 HBM 독점 공급 구도 덕분에 상대적 수혜가 지속되는 구조다.</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 1700억 실탄, 6대 분야 어디에 꽂히나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-18-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-18-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 투자지원 규모를 1700억 원으로 확대하고 대상을 6개 첨단전략산업으로 재편했다. 반도체·디스플레이·이차전지·바이오·항공우주·차량용 반도체가 핵심 수혜 분야로, 개별 기업의 공급망 포지셔닝 전략이 수주 성패를 가를 전망이다.</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
