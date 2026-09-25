@@ -38,19 +38,7 @@
       "image_keyword": "tantalum capacitor components",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-09-26_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "DRC 탄탈럼 세계 생산량 약 40% 점유 수치 — 실제는 50~60% 수준으로 과소 기재 가능성",
-          "중국 탄탈럼 정제 60% 이상 담당 — 최근 수치 변동 가능성 있어 출처 확인 필요",
-          "스크랩 탄탈럼 가격 2023년 대비 35% 상승 — 구체적 수치로 독립 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치 대부분 개연성 있으나 DRC 점유율 수치 재확인 권고",
-        "verified_at": "2026-09-26 08:18"
-      }
+      "image_url": "images/2026-09-26_article_0.jpg"
     },
     {
       "id": 1,
@@ -86,19 +74,7 @@
       "image_keyword": "HBM memory chip stack",
       "is_featured": false,
       "timestamp": "오전 10:40",
-      "image_url": "images/2026-09-26_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "2025년 9월 미중 정상회담 개최 및 H20 수출 의제 포함 여부 — 실제 개최 확인 필요",
-          "SK하이닉스 HBM 매출 비중 약 40% — 최신 공시 수치와 대조 필요",
-          "CXMT 중국 레거시 D램 자급률 2027년 35~40% 전망 — 예측치로 근거 출처 불명확"
-        ],
-        "image_keyword_ok": true,
-        "notes": "미중 정상회담 사실 여부가 핵심 전제로, 개최 확인 후 발행 권고",
-        "verified_at": "2026-09-26 08:18"
-      }
+      "image_url": "images/2026-09-26_article_1.jpg"
     },
     {
       "id": 2,
@@ -123,19 +99,7 @@
       "image_keyword": "semiconductor manufacturing equipment fab",
       "is_featured": false,
       "timestamp": "오후 01:30",
-      "image_url": "images/2026-09-26_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "소부장 예산 전년 대비 21% 확대 수치 — 전년 예산 기준액 명시 없어 독립 검증 필요",
-          "TSMC 신규 공급사 인증 3단계 18~24개월 소요 — 공식 출처 없이 업계 추정치로 제시",
-          "건당 최대 지원 한도 50억 원 — 실제 공고문과 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정책 수치 전반 개연성 높고 구조 설명 적절, 예산 전년 기준액 보완 권고",
-        "verified_at": "2026-09-26 08:18"
-      }
+      "image_url": "images/2026-09-26_article_2.jpg"
     }
   ],
   "editorial_briefing": "AI 수요 급증이 탄탈럼 공급망 단일 의존 리스크를 현실화하고, 미중 반도체 협의 불발로 삼성·하이닉스의 전략 분기가 가속화되는 가운데 한국 정부의 1700억 소부장 투자가 글로벌 인증이라는 실질 관문에 직면했다.",
@@ -165,6 +129,5 @@
       "label": "AI 서버 수요 확인",
       "status": "실수요 구조적 증가"
     }
-  ],
-  "last_reviewed_at": "2026-09-26 08:18"
+  ]
 }
