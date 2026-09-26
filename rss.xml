@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 26 Sep 2026 08:17:35 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 08:17:32 +0900</lastBuildDate>
+    <item>
+      <title>中 헬륨 차단 현실화, 반도체 식각·냉각 공정 비상</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-27-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-27-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 갈륨·게르마늄에 이어 헬륨 수출통제를 시사하며 반도체 공정의 세 번째 소재 충격이 가시화됐다. 한국은 연간 헬륨 수입의 약 30%를 중국 경유 루트에 의존하며, 극저온 냉각재 대체 조달처 확보가 시급하다. 투자자는 국내 헬륨 저장·재활용 설비 업체와 미국·카타르 직수입 계약 기업의 수혜 가능성을 주목해야 한다.</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>광산 확보 시대 끝났다, 허가증이 새 패권 무기</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-27-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-27-1.html</guid>
+      <category>기술패권</category>
+      <description>중국의 전략광물 수출통제 3년이 입증한 것은 '광산을 가진 나라'가 아닌 '허가증을 가진 나라'가 공급망을 지배한다는 사실이다. 한국이 아프리카·중앙아시아 광산에 투자해도 중국 정제 설비를 거치는 순간 통제망에 포획된다. 소재 자립의 핵심은 채굴권이 아니라 정제·분리 역량 내재화다.</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>동남아 AI 패권 각축, 중립 5개국 진영 선택 압박 가속</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-27-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-27-2.html</guid>
+      <category>글로벌분석</category>
+      <description>미국과 중국이 동남아시아 AI 인프라 시장을 놓고 직접 충돌하면서 베트남·태국·말레이시아·인도네시아·필리핀 5개국의 중립 포지션이 흔들리고 있다. AI 데이터센터 수주와 반도체 공급망 편입이 연계되면서 한국 소재·장비 기업의 동남아 진출 경로도 진영 논리에 종속되는 구조가 형성되고 있다.</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>탄탈럼 납기 26주 고착, AI 서버 증설 실제 병목 확인</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-26-0.html</link>
@@ -222,30 +246,6 @@
       <category>공급망전쟁</category>
       <description>한국이 자체 반도체 수출통제를 시행하고 미국 관세 압박이 동시에 강화되면서 글로벌 반도체 공급망 조달비용이 평균 15% 상승 고착됐다. 수출통제 이중 적용을 받는 한국산 반도체 소재·장비 기업들은 허가 지연과 서류 비용으로 납기가 평균 4~6주 늘어났다.</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 헬륨 차단, 반도체 공정 냉각재 조달 비상</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-19-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-19-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨·게르마늄에 이어 헬륨 수출통제를 시사하면서 반도체 식각·냉각 공정의 핵심 소재 조달에 비상이 걸렸다. 한국은 액체헬륨 수입의 약 30%를 중국 경유 루트에 의존하며, 대체 조달처 확보에 최소 18~24개월이 소요된다.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>자원전쟁 규칙 교체, 광산 아닌 허가증이 열쇠</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-19-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-19-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 전략광물 수출통제가 '광산 확보' 패러다임을 근본적으로 무력화하고 있다. 광산을 쥔 나라가 아닌 수출허가증을 쥔 나라가 공급망을 통제하는 새 질서가 확립되며, 광산 투자만으로는 공급 안정을 담보할 수 없게 됐다.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>일본, AI·반도체 17개 산업에 IP 전략 내장</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-19-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-19-2.html</guid>
-      <category>기술패권</category>
-      <description>일본이 AI·반도체 등 17개 전략 성장산업에 특허를 사후 보호가 아닌 사전 사업전략으로 통합하는 'IP 전략 로드맵'을 공식화했다. 한국이 소부장 국산화에 집중하는 동안 일본은 원천 특허망으로 미래 기술 수익화 구조를 선점하고 있다.</description>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
