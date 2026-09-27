@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:17:32 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 08:44:24 +0900</lastBuildDate>
+    <item>
+      <title>갈륨 9배 폭등 3년, 한국 GaN 생산 원가 임계점 도달</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-28-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-28-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 갈륨 수출허가제 시행 3년 만에 kg당 가격이 220달러에서 약 2,000달러로 9배 폭등했다. 고려아연이 2028년 연 15.5t 양산을 선언했지만 국내 연간 수요 40~50t 대비 공급 공백이 3년 이상 지속된다. GaN 전력반도체 생산 원가가 임계점에 근접해 국내 소자 업체의 수익성 붕괴 리스크가 현실화됐다.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>韓, 반도체 5년 생산 2배 목표…미국 AI 투자 유치가 관건</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-28-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-28-1.html</guid>
+      <category>기술패권</category>
+      <description>한국 정부가 5개년 계획으로 반도체 생산 능력을 현재 대비 2배로 확대하고 미국 자본을 AI 공급망에 유치하는 전략을 공식화했다. 미중 기술패권 충돌이 고착된 구조에서 한국이 '중립 제조 허브' 포지션을 노리고 있으나, 중국 시장 접근 제한과 미국 장비 의존이라는 이중 제약이 동시에 작동한다.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>최태원 멕시코 방문, 北美 공급망 재편 교두보 구체화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-28-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-28-2.html</guid>
+      <category>글로벌분석</category>
+      <description>최태원 SK그룹 회장이 멕시코를 글로벌 시장 핵심 거점으로 공식 선언하며 한-멕 미래산업 협력을 구체화했다. 미국 관세 압박과 중국 공급망 탈피 흐름 속에서 멕시코는 미국 IRA·CHIPS법 혜택을 우회 수혜하는 니어쇼어링 거점으로 부상했으나, 실제 소재·부품 조달 인프라는 여전히 취약하다.</description>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 헬륨 차단 현실화, 반도체 식각·냉각 공정 비상</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-27-0.html</link>
@@ -221,30 +245,6 @@
       <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-1.html</guid>
       <category>공급망전쟁</category>
       <description>중국의 핵심광물 수출통제가 GaN·LiDAR용 소재를 넘어 AI 로봇 액추에이터 핵심 소재인 네오디뮴 자석 원료까지 확산되고 있다. 한국 로봇·방산 기업의 소재 조달 리스크가 반도체를 넘어 제조 전 분야로 구조적으로 확대되는 국면이다.</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 패권 고착, 韓 '전략 균형자' 공간 열렸다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-20-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 첨단기술 수출통제 완화 합의가 재차 불발되면서 현재의 기술 격리 구도가 유지됐다. 한국이 어느 진영에도 완전히 속하지 않는 '전략적 균형 변수'로 부상하면서 반도체·소재 공급망에서 협상 레버리지가 실질적으로 높아지고 있다.</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 1700억 실탄, 글로벌 팹 스펙 진입이 관건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-20-3.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-3.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 투자지원을 1700억 원으로 확대했지만, 실질 성과는 국산화 완료가 아닌 TSMC·인텔 등 글로벌 팹의 공급자 인증(QSL) 획득 여부로 판가름 난다. 인증 주기 18~24개월을 고려하면 2026년 지금 시작해야 2028년 수출 실적이 나온다.</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 자체 수출통제 발동, 공급망 비용 15% 고착 시작됐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-20-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-4.html</guid>
-      <category>공급망전쟁</category>
-      <description>한국이 자체 반도체 수출통제를 시행하고 미국 관세 압박이 동시에 강화되면서 글로벌 반도체 공급망 조달비용이 평균 15% 상승 고착됐다. 수출통제 이중 적용을 받는 한국산 반도체 소재·장비 기업들은 허가 지연과 서류 비용으로 납기가 평균 4~6주 늘어났다.</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
