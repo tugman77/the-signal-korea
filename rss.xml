@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 28 Sep 2026 08:44:24 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:17:34 +0900</lastBuildDate>
+    <item>
+      <title>미중 규제 충돌, 韓 파운드리 갈림길 선명해졌다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-29-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-29-0.html</guid>
+      <category>기술패권</category>
+      <description>미중 첨단기술 규제가 동시 강화되며 삼성·SK하이닉스의 고객사 이원화 압력이 현실화됐다. 미국 팹리스는 삼성 파운드리 단일 의존에서 이탈 조짐을 보이고, 중국향 HBM 수요처는 엔비디아 H20 봉쇄 장기화로 소멸 중이다. 양쪽 시장을 동시에 잃는 '샌드위치 리스크'가 수치로 확인되는 시점이다.</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI·자본 이중 통제, 韓 배터리 소재 절벽 수치화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-29-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-29-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국의 AI칩 수출허가 강화와 중국의 핵심광물 할당통제가 동시에 가동되며 한국 배터리·반도체 소재 조달에 구체적 수치 타격이 나타나고 있다. 리튬·코발트·망간 등 배터리 핵심 원료의 중국 의존도가 80% 이상인 상황에서 할당 물량 삭감이 현실화되면 국내 양극재 업체의 원가가 15~20% 추가 상승한다.</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>일본, AI·반도체 17개 산업에 특허 사전 내장</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-09-29-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-29-2.html</guid>
+      <category>글로벌분석</category>
+      <description>일본이 AI·반도체 등 17개 전략산업에 특허를 사후 보호가 아닌 사전 사업전략으로 통합하는 'IP 경영' 체계를 국가 차원에서 공식화했다. 한국이 소재·장비 국산화 인증에 집중하는 동안 일본은 동일 기술의 특허 포트폴리오를 먼저 쌓아 공급망 진입 장벽을 특허 레이어로 추가하는 전략이다.</description>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>갈륨 9배 폭등 3년, 한국 GaN 생산 원가 임계점 도달</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-09-28-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>충남혁신센터가 소부장·전략산업 집중 투자를 위한 100억원 규모 투자조합을 결성했다. 산업부 1700억 확대와 맞물려 지역 단위 실탄 배치가 시작됐지만, 글로벌 팹 인증에 2~3년이 걸리는 시차 탓에 2027년 공급망 사이클 탑승 여부가 관건이다. 투자자라면 집행 시점보다 인증 완료 시점을 기준으로 수혜 기업을 판단해야 한다.</description>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI·에너지 안보 수렴, 10조달러 인프라 투자 사이클 개막</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-21-4.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-21-4.html</guid>
-      <category>글로벌분석</category>
-      <description>AI 데이터센터 확산과 에너지 안보 위기가 맞물리며 2030년까지 글로벌 에너지 인프라에 10조달러 투자 사이클이 열렸다. 핵심 병목은 변압기·초전도 케이블·원전 피복재용 소재이며, 이트륨(중국 생산 90% 집중)이 차기 수출통제 리스크 소재로 부상했다. 한국 소재기업에게는 중국 대체 공급선 수요가 가장 빠르게 열리는 시장이다.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>갈륨 9배 폭등 3년, GaN 원가 위기 임계점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-20-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 갈륨 수출허가제 시행 3년 만에 kg당 가격이 220달러에서 약 2,000달러로 9배 폭등했다. GaN 전력반도체 소재 원가가 임계점에 도달하면서 한국 차세대 전력소자 산업의 경쟁력이 구조적으로 흔들리고 있다.</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 광물통제, AI·로봇 소재까지 전선 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-20-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-20-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 GaN·LiDAR용 소재를 넘어 AI 로봇 액추에이터 핵심 소재인 네오디뮴 자석 원료까지 확산되고 있다. 한국 로봇·방산 기업의 소재 조달 리스크가 반도체를 넘어 제조 전 분야로 구조적으로 확대되는 국면이다.</description>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
