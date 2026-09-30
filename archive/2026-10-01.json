@@ -37,19 +37,7 @@
       "image_keyword": "rare earth permanent magnet",
       "is_featured": true,
       "timestamp": "오전 08:30",
-      "image_url": "images/2026-10-01_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "갈륨 kg당 약 2,000달러, 통제 전 대비 9배 수준 — 구체적 수치 출처 불명",
-          "레인보우로보틱스 2024년 연간 매출 620억 원·소재비 비중 38% — 검증 필요",
-          "중국이 글로벌 갈륨 공급의 94% 점유 — 통상 인용 수치보다 높음(일반적으로 80~85%)"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치들이 구체적이나 출처 미기재 다수, 주요 팩트는 대체로 개연성 있음",
-        "verified_at": "2026-10-01 08:18"
-      }
+      "image_url": "images/2026-10-01_article_0.jpg"
     },
     {
       "id": 1,
@@ -73,18 +61,7 @@
       "image_keyword": "small modular reactor vessel",
       "is_featured": false,
       "timestamp": "오전 10:15",
-      "image_url": "images/2026-10-01_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "EDF Nuward SMR 상용화 목표 2035년 — 최신 일정과 일치 여부 재확인 필요",
-          "두산에너빌리티 NuScale 부품 공급 계약 현황 — NuScale 재정위기 이후 계약 유효성 불확실"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전반적으로 사실 개연성 높음; NuScale 관련 최신 상황 업데이트 권고",
-        "verified_at": "2026-10-01 08:18"
-      }
+      "image_url": "images/2026-10-01_article_1.jpg"
     },
     {
       "id": 2,
@@ -121,19 +98,7 @@
       "image_keyword": "high voltage power transformer substation",
       "is_featured": false,
       "timestamp": "오후 02:00",
-      "image_url": "images/2026-10-01_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "SK하이닉스 청주 M15X 연간 전력 소비 4.2TWh — 출처 불명, 검증 필요",
-          "삼성전자 P5·P6 수도권 전력망 추가 부하 2.5GW — 산업부 추정 출처 확인 필요",
-          "후성 2024년 영업이익률 7.2% — 공개 재무제표와 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전력 수요 수치가 구체적이나 출처 불명이 많아 주의 필요; 방향성은 타당",
-        "verified_at": "2026-10-01 08:18"
-      }
+      "image_url": "images/2026-10-01_article_2.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 통제가 AI·로봇 공급망으로 확대되며 기술패권 전선이 심화되는 가운데, 한-프랑스 전략협력으로 탈중국 공급망 재편이 가속화되고 있다. 국내 전력망은 AI 팹 수요 급증으로 2026년 임계점에 직면, 인프라 투자 긴박성이 고조된다.",
@@ -163,6 +128,5 @@
       "label": "국내 전력망 위기",
       "status": "2026 임계점 도달"
     }
-  ],
-  "last_reviewed_at": "2026-10-01 08:18"
+  ]
 }
