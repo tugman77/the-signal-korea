@@ -37,19 +37,7 @@
       "image_keyword": "semiconductor fab cleanroom worker suit",
       "is_featured": true,
       "timestamp": "오후 02:10",
-      "image_url": "images/2026-10-02_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "KBS 접촉 미국 업계 관계자 '한국이 핵심' 발언 — 출처·인물 불명확",
-          "삼성 NAND 점유율 31% 수치 — 시기별 변동 있어 최신 검증 필요",
-          "HBM3E 대체 전환에 '최소 6개월' 소요 — 구체적 근거 미제시"
-        ],
-        "image_keyword_ok": true,
-        "notes": "주요 수치·기업·시장구조 설명은 업계 현실과 부합. 인용 발언 출처 보강 권고.",
-        "verified_at": "2026-10-02 08:19"
-      }
+      "image_url": "images/2026-10-02_article_0.jpg"
     },
     {
       "id": 1,
@@ -82,22 +70,10 @@
         "기업 구매담당자는 중국산 리튬·특수금속 의존도를 정량화하고 브라질·아르헨티나·카자흐스탄 루트를 통한 이중 소싱 포트폴리오를 설계할 시점이다. 국내 소재 기업의 남미 장기계약 체결 경험이 전무한 수준이므로 컨소시엄 방식 진입이 현실적 선택지다.",
         "실제 조달 현장에서는 — 브라질·아르헨티나산 리튬과 니오븀의 국내 수입 계약이 아직 단기·소량 기반이며 장기 공급계약 실적이 있는 한국 기업이 거의 없다. 브라질 공급자들은 단일 대형 계약을 선호하기 때문에 중소기업 단독 진입은 사실상 불가능하고 정부 지원 컨소시엄 또는 대기업 주도 공동 계약 구조가 필수다. 이번 정상 방문을 계기로 산업부·KOTRA 차원의 장기계약 지원 프로그램이 신설될 경우 첫 번째 입찰 타이밍을 선점하는 것이 핵심이다."
       ],
-      "image_keyword": "niobium mine Brazil aerial",
+      "image_keyword": "niobium ore mineral specimen",
       "is_featured": false,
       "timestamp": "오후 03:20",
-      "image_url": "images/2026-10-02_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "브라질 니오븀 공급 88% 수치 — 실제 90%대 수준으로 과소 표기 가능성",
-          "브라질 리튬 매장량 5위·2,200만 톤 — 최근 재평가로 순위 변동 가능",
-          "카네기 분석 내용이 실제 보고서 기반인지 요약·재해석인지 불명확"
-        ],
-        "image_keyword_ok": false,
-        "notes": "핵심 수치는 대체로 신뢰 가능. 카네기 보고서 원문 링크 및 니오븀 이미지 키워드 구체화 권고.",
-        "verified_at": "2026-10-02 08:19"
-      }
+      "image_url": "images/2026-10-02_article_1.jpg"
     },
     {
       "id": 2,
@@ -119,22 +95,10 @@
         "파운드리·메모리 고객사 담당자라면 미스트랄 등 유럽 오픈소스 AI 기업의 추론 칩 수요를 선제 파악해야 한다. 경량 LLM 보급이 확산되면 저전력 엣지 AI 칩 발주가 2027년부터 의미 있는 볼륨으로 나타날 수 있으며, 삼성 파운드리의 초기 설계 협력 이력이 수주 우위로 이어진다.",
         "실제 조달 현장에서는 — 유럽 AI 스타트업들이 NVIDIA GPU 리드타임(현재 16~20주)과 단가 부담을 이유로 대안 칩 사양을 조용히 문의하기 시작했다. 삼성-미스트랄 협력이 공동 칩 설계 단계로 진전되면 유럽 공공기관·방산·제조업 AI 인프라 시장에서 비미국 공급망 수요가 가시화되고, 한국 파운드리·HBM이 이 생태계의 하드웨어 기반으로 진입하는 경로가 열린다."
       ],
-      "image_keyword": "edge AI chip Samsung Exynos",
+      "image_keyword": "open source AI processor chip die",
       "is_featured": false,
       "timestamp": "오후 04:05",
-      "image_url": "images/2026-10-02_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "미스트랄AI 기업가치 60억 달러 — 2024년 말 기준이나 이후 라운드로 변동 가능",
-          "한불 정상회담 '2026년 9월' 언급 — 실제 개최 여부·일정 독립 검증 필요",
-          "NVIDIA GPU 리드타임 '16~20주' — 출처 없는 현장 수치로 검증 어려움"
-        ],
-        "image_keyword_ok": false,
-        "notes": "투자 사실 자체는 개연성 있으나 세부 수치·일정 미검증 항목 다수. 출처 보강 필요.",
-        "verified_at": "2026-10-02 08:19"
-      }
+      "image_url": "images/2026-10-02_article_2.jpg"
     }
   ],
   "editorial_briefing": "삼성 파업 리스크가 HBM 공급망 재편을 촉발하는 가운데, 한국은 실리콘밸리·브라질 실리 외교와 미스트랄AI 투자로 기술패권 다변화를 모색 중—공급 불안과 전략적 기회가 동시에 교차하는 변곡점.",
@@ -164,6 +128,5 @@
       "label": "온디바이스 AI 수요",
       "status": "엣지칩 기회 확대"
     }
-  ],
-  "last_reviewed_at": "2026-10-02 08:19"
+  ]
 }
