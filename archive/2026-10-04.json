@@ -37,19 +37,7 @@
       "image_keyword": "tantalum capacitor electronic component",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-10-04_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "H.C. Starck·GAM 2사가 글로벌 탄탈럼 정제 70% 통제 — 실제 점유율 검증 필요",
-          "서버 1대당 탄탈럼 커패시터 800~1,200개 탑재 — 출처 불명확",
-          "2024년 삼성전기 컴포넌트 사업부 매출 약 4.2조 원 — 공식 공시와 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치 다수가 출처 없이 구체적, 업계 추산 근거 불분명해 주의 필요",
-        "verified_at": "2026-10-04 08:17"
-      }
+      "image_url": "images/2026-10-04_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       "image_keyword": "DUV lithography machine lens optics",
       "is_featured": false,
       "timestamp": "오전 10:30",
-      "image_url": "images/2026-10-04_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "SMEE DUV 장비 1대당 정부 보조금 1,500만 달러 — 공식 확인 어려운 구체 수치",
-          "HiSilicon InP 레이저 국산화율 60% 달성 — 중국 업계 자체 주장으로 독립 검증 부재",
-          "ASML EUV 수주 잔고 400억 유로 사상 최고치 — 시점 기준 불명확, 공시 대조 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "중국 자체 발표 수치 의존도 높음, ASML 수주 잔고 등 공시 교차 확인 권고",
-        "verified_at": "2026-10-04 08:17"
-      }
+      "image_url": "images/2026-10-04_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,18 +98,7 @@
       "image_keyword": "chromite ore mineral rock",
       "is_featured": false,
       "timestamp": "오전 11:45",
-      "image_url": "images/2026-10-04_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "카자흐스탄 우라늄 생산 21,227톤(2024) — WNA 등 공식 통계와 대조 필요",
-          "과거 원광 수입 계약의 실제 조달 전환율 30% 미만 — 출처·기준 시점 불분명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전반적으로 개연성 높고 수치 근거 명확, 일부 출처 보강 권고",
-        "verified_at": "2026-10-04 08:17"
-      }
+      "image_url": "images/2026-10-04_article_2.jpg"
     }
   ],
   "editorial_briefing": "탄탈럼 공급망 병목·중국 반도체 자립 가속·한-중앙아 광물 협약이 동시 진행되며 AI 인프라 경쟁의 핵심 자원 전쟁이 구조적 단계로 진입했다. 공급망 다변화와 소재 확보 전략이 투자 판단의 핵심 변수로 부상 중이다.",
@@ -163,6 +128,5 @@
       "label": "한-중앙아 광물협약",
       "status": "핵심광물 협력 착수"
     }
-  ],
-  "last_reviewed_at": "2026-10-04 08:17"
+  ]
 }
