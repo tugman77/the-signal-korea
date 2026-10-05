@@ -37,19 +37,7 @@
       "image_keyword": "germanium crystal ingot",
       "is_featured": true,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-10-06_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "게르마늄 가격 800→1,500달러 2배 상승 수치의 정확한 출처 미확인",
-          "우미코어 연간 20~30t 정련 역량 및 2027년 두 배 확대 계획 출처 불명",
-          "국내 게르마늄 회수량이 연간 수요의 20% 수준이라는 추산 근거 미제시"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 사실은 대체로 검증 가능하나 일부 수치 출처 보완 필요",
-        "verified_at": "2026-10-06 08:18"
-      }
+      "image_url": "images/2026-10-06_article_0.jpg"
     },
     {
       "id": 1,
@@ -85,19 +73,7 @@
       "image_keyword": "liquid helium cryogenic tank",
       "is_featured": false,
       "timestamp": "오전 10:30",
-      "image_url": "images/2026-10-06_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "중국이 헬륨 수출통제를 '공식화'했다는 근거 불명확—검토 단계와 혼재",
-          "한국 연간 헬륨 소비량 1,200만㎥ 수치의 출처 미확인",
-          "호주 Northern Gas Pipeline 연계 헬륨 프로젝트 2026년 상업생산 계획 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "중국 헬륨 통제 '현실화' 표현이 실제 정책 발표와 괴리 가능성—제목·본문 표현 재검토 권고",
-        "verified_at": "2026-10-06 08:18"
-      }
+      "image_url": "images/2026-10-06_article_1.jpg"
     },
     {
       "id": 2,
@@ -133,19 +109,7 @@
       "image_keyword": "semiconductor packaging assembly line",
       "is_featured": false,
       "timestamp": "오후 01:45",
-      "image_url": "images/2026-10-06_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "말라카주 FDI 전년 대비 28% 증가 수치 출처 확인 필요",
-          "PG Precision을 말레이시아 주요 EMS 기업으로 기술한 부분 실재 여부 확인 필요",
-          "2024년 미 상무부 말레이시아 기업 3곳 엔티티 리스트 등재 사례 구체 사실 검증 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "전반적으로 검증 가능한 내용이나 일부 수치·기업명 출처 보완 권고",
-        "verified_at": "2026-10-06 08:18"
-      }
+      "image_url": "images/2026-10-06_article_2.jpg"
     }
   ],
   "editorial_briefing": "중국의 핵심광물 수출통제가 게르마늄·갈륨을 넘어 헬륨까지 확대되며 한국 반도체 공급망 전반을 압박하고 있다. 말레이시아 말라카 거점화와 국내 정련 역량 확보가 미중 기술 분리 시대의 핵심 대응 전략으로 부상 중이다.",
@@ -175,6 +139,5 @@
       "label": "한국 정련 역량",
       "status": "내재화 기회 확대"
     }
-  ],
-  "last_reviewed_at": "2026-10-06 08:18"
+  ]
 }
