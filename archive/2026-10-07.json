@@ -40,19 +40,7 @@
       "image_keyword": "gallium metal ingot",
       "is_featured": true,
       "timestamp": "오전 08:30",
-      "image_url": "images/2026-10-07_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "갈륨 가격 kg당 220달러→2,000달러 9배 폭등 수치는 2026년 현재 기준 독립 검증 필요",
-          "고려아연 2028년 연 15.5t 국내 생산 선언의 공식 발표 출처 미확인",
-          "웨이브일렉트로닉스·RFHIC 원가 비중 35% 이상 수치의 출처 불명"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정책·규제 틀은 사실이나 일부 수치·기업 발표 출처 검증 필요. 전반적 개연성은 높음.",
-        "verified_at": "2026-10-07 08:18"
-      }
+      "image_url": "images/2026-10-07_article_0.jpg"
     },
     {
       "id": 1,
@@ -88,19 +76,7 @@
       "image_keyword": "silicon wafer fab equipment",
       "is_featured": false,
       "timestamp": "오전 10:15",
-      "image_url": "images/2026-10-07_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "BIS 2026년 9월 'Rule of 5% de minimis 강화' 시행 여부 공식 확인 필요",
-          "TSMC 5nm 이하 공정 점유율 92% 추정(TrendForce 인용) 출처 검증 필요",
-          "삼성 파운드리 평택 P4 3nm 가동률 60% 수준은 미확인 추정치로 민감 주장"
-        ],
-        "image_keyword_ok": true,
-        "notes": "미중 규제 기본 틀은 사실이나, 구체 가동률·점유율 수치는 추정 근거 명시 필요.",
-        "verified_at": "2026-10-07 08:18"
-      }
+      "image_url": "images/2026-10-07_article_1.jpg"
     },
     {
       "id": 2,
@@ -123,21 +99,10 @@
         "투자자 관점에서는 한국 소재 기업 중 표준 기여 특허(SEP) 등록 건수가 증가하는 기업을 선별해야 한다. 동진쎄미켐·솔브레인·이엔에프테크놀로지 등 반도체 소재 업체가 일본식 IP 선행 전략을 도입하고 있는지 IR 자료와 특허청 데이터베이스를 교차 검증하는 것이 유효하다.",
         "실제 조달 현장에서는 — 일본 소재 업체와 연간 공급계약을 재협상할 때 '특허 사용료 포함 단가'와 '기술 지원 의무' 조항이 2024년 이후 계약서에 표준 삽입되기 시작했다. 이를 단순 가격 협상 항목으로 보면 협상에서 진다. 특허 스코프를 먼저 확인하고, 대체 소재 개발 일정과 연동된 가격 조건으로 대응해야 한다."
       ],
-      "image_keyword": "Japan IP strategy patent portfolio semiconductor",
+      "image_keyword": "patent document intellectual property certificate",
       "is_featured": false,
       "timestamp": "오후 01:00",
-      "image_url": "images/2026-10-07_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "JPO·METI 'IP 스타트업 에코시스템 전략 2030' 2026년 9월 발표 공식 확인 필요",
-          "신에츠·스미토모·JSR EUV 포토레지스트 원천 특허 2015년 선점 주장 세부 검증 권장"
-        ],
-        "image_keyword_ok": false,
-        "notes": "정책 방향과 기업 사례 개연성 높음. 이미지 키워드가 기사 산업 맥락과 다소 일반적.",
-        "verified_at": "2026-10-07 08:18"
-      }
+      "image_url": "images/2026-10-07_article_2.jpg"
     }
   ],
   "editorial_briefing": "갈륨 9배 폭등·미중 이중규제 동시화로 한국 반도체 공급망이 원가·고객 양면 위기에 직면했다. 일본의 IP 선제 내재화 전략까지 가세해 기술 패권 경쟁이 소재→장비→특허 전 영역으로 확전 중이다.",
@@ -167,6 +132,5 @@
       "label": "일본 IP 선점",
       "status": "한국과 격차 확대"
     }
-  ],
-  "last_reviewed_at": "2026-10-07 08:18"
+  ]
 }
