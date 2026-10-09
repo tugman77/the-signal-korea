@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 09 Oct 2026 08:17:33 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 08:17:09 +0900</lastBuildDate>
+    <item>
+      <title>미중 노딜 고착, 韓 팹리스 이탈 3개월째</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-0.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상회담에서 반도체 수출통제 합의가 불발되며 기술 격리가 장기화됐다. 엔비디아 H20 판매 제한이 유지되는 가운데 중국 팹리스가 화웨이 어센드 910B로 급속 전환 중이며, 삼성·SK의 중국향 HBM 매출 공백이 분기당 8,000억~1조 원 규모로 추산된다. 투자자는 한국 메모리 기업의 중국 비중 축소 속도를 분기 실적 선행 지표로 봐야 한다.</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>'칩노믹스' 해부, TSMC 60년 전략의 한국 적용 한계</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-1.html</guid>
+      <category>글로벌분석</category>
+      <description>대만 60년 반도체 성장 전략을 분석한 신간 '칩노믹스'가 출간됐다. TSMC의 성공 핵심은 파운드리 전문화와 정부 지분 참여(1987년 초기 지분 48%)였으나, 한국의 종합 반도체 모델과 구조적으로 다르다. 투자자는 한국이 메모리 1위를 유지하면서 파운드리 격차를 어떻게 좁히느냐를 5년 단위로 평가해야 한다.</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>삼성 미스트랄 투자, 엔비디아 외 AI칩 생태계 구축 포석</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-2.html</guid>
+      <category>산업전략</category>
+      <description>삼성전자가 기업가치 60억 달러의 프랑스 AI 스타트업 미스트랄AI에 전략적 투자를 단행했다. 온디바이스·엣지 AI 모델과 자사 엑시노스 AP를 결합해 엔비디아 GPU 의존도를 낮추려는 시도다. 그러나 미스트랄의 오픈소스 모델 경쟁력이 메타 라마4와 직접 충돌하는 구조여서 투자 효과의 차별화가 과제다.</description>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 광물통제, AI 로봇 액추에이터까지 전선 확대</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-09-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>AI 데이터센터와 반도체 팹 증설이 맞물리면서 한국 전력 수요가 2026년 임계점에 도달할 전망이다. 현행 제11차 전력수급기본계획은 AI·반도체 전력 수요를 과소 반영하고 있어 팹 가동률 저하와 전력 단가 상승이 동시에 발생할 수 있으며, 이는 소재 조달 비용 외에 추가 원가 압박 요인으로 작용한다.</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨 2028 선언, 공백 3년 누가 채우나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-30-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-30-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>고려아연이 2028년 연 15.5t 갈륨 양산을 공식 선언했지만 한국 연간 수요 추정치 40~50t 대비 공급 충족률은 31~39%에 불과하다. kg당 2,000달러 수준의 갈륨 가격이 유지되는 가운데 2025~2027년 3년간의 공급 공백을 메울 대안이 없다는 게 현장의 실제 문제다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술 빗장 고착, 韓 '전략 균형자' 실제 조건은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-30-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-30-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 첨단 반도체 수출통제 완화 합의가 재차 불발됐다. 양국 기술 격리 구도가 장기화되는 가운데 한국이 실질적 균형자 역할을 하려면 단순한 '중립 선언' 이상의 공급망 레버리지가 필요하다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>NBR 경고 현실화, 韓 핵심광물 조달 3대 압박 수치</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-09-30-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-09-30-2.html</guid>
-      <category>글로벌분석</category>
-      <description>미국 아시아리서치국(NBR)이 한국의 핵심광물 조달 전략에서 정제 역량 미흡·동맹국 장기계약 부재·중국 의존 고착 세 가지 구조적 취약점을 지적했다. 중국 수출허가제가 가격 충격에서 공급처 심사로 전환된 지금, NBR 경고는 이미 현장에서 수치로 확인되고 있다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

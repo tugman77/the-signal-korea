@@ -37,19 +37,7 @@
       "image_keyword": "HBM memory chip module",
       "is_featured": true,
       "timestamp": "오전 08:30",
-      "image_url": "images/2026-10-10_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "화웨이 어센드 910B 점유율 35%→51% 수치는 출처 불명확",
-          "삼성·SK 중국향 HBM 매출 공백 분기 8,000억~1조 원 추산 근거 불명",
-          "SK하이닉스 HBM3E 78% 엔비디아·AMD 집중 및 41% 성장 전망 출처 미확인"
-        ],
-        "image_keyword_ok": true,
-        "notes": "주요 수치 추정치 비중 높음. 방향성은 타당하나 구체 수치 출처 보강 필요.",
-        "verified_at": "2026-10-10 08:17"
-      }
+      "image_url": "images/2026-10-10_article_0.jpg"
     },
     {
       "id": 1,
@@ -74,19 +62,7 @@
       "image_keyword": "silicon wafer fabrication equipment",
       "is_featured": false,
       "timestamp": "오전 09:15",
-      "image_url": "images/2026-10-10_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "TSMC 창립 시 대만 정부 지분 48% — 실제 약 48.3%로 통용되나 원전 확인 권장",
-          "2026년 글로벌 파운드리 점유율 61%는 추정치로 명시 필요",
-          "삼성 내부 고객 신뢰 문제가 파운드리 수주 마찰 요인이라는 주장은 정성적 판단"
-        ],
-        "image_keyword_ok": true,
-        "notes": "신간 소개 기반으로 대부분 사실 부합. TSMC 지분·점유율 수치 출처 명시 권장.",
-        "verified_at": "2026-10-10 08:17"
-      }
+      "image_url": "images/2026-10-10_article_1.jpg"
     },
     {
       "id": 2,
@@ -122,19 +98,7 @@
       "image_keyword": "edge AI neural processor chip",
       "is_featured": false,
       "timestamp": "오전 10:00",
-      "image_url": "images/2026-10-10_article_2.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "미스트랄AI 기업가치 60억 달러·누적 11억 유로는 2024년 시리즈B 기준으로 2026년 시리즈C 수치 재확인 필요",
-          "미스트랄 라지 2 파라미터 1,230억 개 수치 출처 불명확",
-          "퀄컴의 삼성향 AP 매출 비중 12% 추산 근거 미확인"
-        ],
-        "image_keyword_ok": true,
-        "notes": "투자 사실 방향성은 타당하나 기업가치·파라미터 수치 출처 보강 필요.",
-        "verified_at": "2026-10-10 08:17"
-      }
+      "image_url": "images/2026-10-10_article_2.jpg"
     }
   ],
   "editorial_briefing": "미중 반도체 기술 분리가 장기화되며 한국 팹리스의 중국 이탈이 가속화되고, TSMC식 파운드리 전략의 국내 적용 한계가 부각되는 가운데, 삼성은 미스트랄 투자로 엔비디아 의존 탈피와 온디바이스 AI 생태계 선점을 동시에 노린다.",
@@ -164,6 +128,5 @@
       "label": "엔비디아 H20 제한",
       "status": "중국 대체칩 부상"
     }
-  ],
-  "last_reviewed_at": "2026-10-10 08:17"
+  ]
 }
