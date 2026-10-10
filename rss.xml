@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 10 Oct 2026 08:17:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 08:17:20 +0900</lastBuildDate>
+    <item>
+      <title>美 완성차 중국산 부품 80% 삭감, 韓 Tier2 소재 분기점</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>GM·포드·스텔란티스가 2027년까지 중국산 부품 의존도를 80% 이상 축소하는 공급망 재편에 착수했다. 한국 Tier2 소재·부품 기업에는 대체 수요가 집중될 전망이나, 납기·인증 준비 없이는 실익을 챙기기 어렵다. 투자자는 차량용 소재 인증 보유 중소기업에 주목할 시점이다.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 반도체 풀스택 전략, 메모리 강점 위에 설계 역량이 없다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-1.html</guid>
+      <category>산업전략</category>
+      <description>국회·산업부가 AI 반도체 풀스택(HBM-PIM-NPU) 전략을 공식 논의 테이블에 올렸다. HBM에서 세계 1위이지만 AI 로직칩 설계 역량은 미국 대비 현저히 부재한 현실이다. 메모리 위 부가가치를 어디서 창출할지가 향후 5년 한국 반도체 전략의 핵심 변수다.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>고려아연 갈륨 2028년 양산, 공백 3년을 어떻게 넘나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-2.html</guid>
+      <category>글로벌분석</category>
+      <description>고려아연이 2028년부터 연 15.5톤 규모의 갈륨 국내 생산을 공식화했다. 그러나 지금 이 순간 갈륨 현물 가격은 kg당 약 2,000달러로 3년 전 대비 9배 폭등한 상태다. 2028년까지 GaN 전력반도체 제조사들이 어떤 대안 조달로 버티느냐가 현실 과제다.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>미중 노딜 고착, 韓 팹리스 이탈 3개월째</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-10-0.html</link>
@@ -222,30 +246,6 @@
       <category>기술패권</category>
       <description>삼성전자가 기업가치 60억 달러의 프랑스 AI 스타트업 미스트랄AI에 전략적 투자를 단행하며 온디바이스·엣지 AI 칩 수요 창출을 겨냥한 유럽 오픈소스 LLM 생태계와의 하드웨어 통합을 시도하고 있다. 엔비디아 의존 없는 비(非)미국 AI 칩 공급망 형성의 첫 사례가 될 수 있다.</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 광물통제, AI·로봇 공급망으로 전선 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-01-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-01-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체 단계를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 소재로 적용 범위를 확대했다. 갈륨·게르마늄·비스무트 할당통제가 AI 서버 냉각 소재와 로봇 희토류 영구자석까지 연결되면서 한국 AI·로봇 산업의 소재 조달 리스크가 반도체 공급망과 동일한 압박 구조로 진입하고 있다.</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한-프랑스 SMR·AI 협력, 脫중국 공급망 새 축 부상</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-01-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-01-1.html</guid>
-      <category>글로벌분析</category>
-      <description>한-프랑스 정상회담에서 방산·AI 반도체·SMR을 포함한 전략산업 협력이 공식화됐다. 프랑스의 핵연료 정제·SMR 기술과 한국의 반도체·배터리 제조 역량이 결합되면, 한국이 미중 기술 격리 구도 속에서 유럽 AI 인프라 공급망의 핵심 파트너로 진입할 수 있는 경로가 열린다.</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 팹 전력 수요, 한국 전력망 재설계 2026년 임계점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-01-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-01-2.html</guid>
-      <category>산업전략</category>
-      <description>AI 데이터센터와 반도체 팹 증설이 맞물리면서 한국 전력 수요가 2026년 임계점에 도달할 전망이다. 현행 제11차 전력수급기본계획은 AI·반도체 전력 수요를 과소 반영하고 있어 팹 가동률 저하와 전력 단가 상승이 동시에 발생할 수 있으며, 이는 소재 조달 비용 외에 추가 원가 압박 요인으로 작용한다.</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
