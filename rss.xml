@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 11 Oct 2026 08:17:20 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 08:17:13 +0900</lastBuildDate>
+    <item>
+      <title>中 산업로봇 수출액, 수입액 첫 추월…소재 병목 3개 예고</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>2025년 중국 산업용 로봇 수출액이 처음으로 수입액을 추월하며 글로벌 제조 공급망이 재편 국면에 진입했다. 로봇 핵심 소재인 네오디뮴 자석·감속기 합금강·서보모터 희토류 수요가 중국 내부로 집중되면서 한국 Tier1 자동화 설비 조달에 새 병목이 생긴다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 빗장 고착, K반도체 '안도'의 실제 조건</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-1.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 구도가 고착됐다. 한국 반도체가 단기 반사이익을 얻는 구조이나, 이 '안도'가 지속되려면 미국 첨단 제조 투자 유치와 중국 고객 유지라는 상충 조건을 동시에 관리해야 한다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>워싱턴 대신 실리콘밸리·브라질…한국 실리 외교 실제 조건</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-2.html</guid>
+      <category>글로벌분석</category>
+      <description>한국 대통령이 워싱턴 정상회담 대신 실리콘밸리 AI 자본·브라질 광물 확보를 우선한 행보를 카네기 국제평화기금이 분석했다. 기술자본 유치와 핵심광물 다변화를 동시에 겨냥한 전략이지만, 현장에서는 계약이 아닌 MOU 수준에 머물 경우 실질 조달 효과가 없다는 한계가 있다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>美 완성차 중국산 부품 80% 삭감, 韓 Tier2 소재 분기점</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-11-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>한국 정부가 5개년 계획으로 반도체 생산능력을 현재 대비 2배로 확대하고 미국 자본을 AI 공급망에 유치하는 전략을 발표했다. 그러나 외부 분석기관들은 미국 장비 의존도·중국 시장 제한·글로벌 시장 접근성 결핍을 동시 리스크로 지목하고 있다.</description>
       <pubDate>Sat, 03 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>삼성 파업 공백, 美 팹리스 HBM 이중소싱 전환 가속</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-02-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-02-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>삼성전자 노조 파업 장기화 가능성에 미국 반도체 업계가 공개적으로 '한국이 핵심'이라며 공급 불안을 표명했다. HBM 과점 구조에서 삼성 생산 차질은 엔비디아·AMD AI 가속기 로드맵에 직접 타격을 주며, SK하이닉스로의 발주 쏠림을 가속할 수 있다.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>워싱턴 건너 실리콘밸리·브라질 택한 한국, 실리 외교 전환점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-02-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-02-1.html</guid>
-      <category>글로벌분석</category>
-      <description>카네기 국제평화기금이 한국 대통령의 실리콘밸리·브라질리아 우선 방문을 분석하며 기술자본 유치와 핵심광물 확보 중심의 실리 외교 전환을 지적했다. 브라질은 세계 니오븀 공급의 88%를 차지하며 중국 우회 소재 루트의 핵심 거점으로 부상하고 있다.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>삼성전자 미스트랄AI 투자, 탈엔비디아 칩-소프트 통합 포석</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-02-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-02-2.html</guid>
-      <category>기술패권</category>
-      <description>삼성전자가 기업가치 60억 달러의 프랑스 AI 스타트업 미스트랄AI에 전략적 투자를 단행하며 온디바이스·엣지 AI 칩 수요 창출을 겨냥한 유럽 오픈소스 LLM 생태계와의 하드웨어 통합을 시도하고 있다. 엔비디아 의존 없는 비(非)미국 AI 칩 공급망 형성의 첫 사례가 될 수 있다.</description>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
