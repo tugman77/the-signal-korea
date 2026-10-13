@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 13 Oct 2026 23:25:56 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 08:17:17 +0900</lastBuildDate>
+    <item>
+      <title>게르마늄 대체 조달, 인증 없인 3년 공백</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국 게르마늄 수출통제 3년째를 맞아 한국 내 정련 역량 구축이 가시화됐으나, 반도체·광섬유 고객사 인증 소요 기간이 24~36개월에 달해 실제 공급 전환까지 구조적 공백이 불가피하다. 투자자는 국내 정련사 인증 일정과 수입선 다변화 진행 속도를 동시에 점검해야 한다.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>일본 17개 산업 IP전략, 한국과 특허 격차 구조화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-1.html</guid>
+      <category>기술패권</category>
+      <description>일본이 AI·반도체 등 17개 전략산업에 특허를 사업 초기부터 내장하는 'IP 경영' 체계를 정부 주도로 가동하면서, 사후 권리 보호 중심인 한국과의 특허 전략 격차가 구조적으로 확대되고 있다. 한국 첨단산업 투자자는 IP 포트폴리오 없는 기술 우위가 얼마나 취약한지를 재점검해야 한다.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>전남·광주 AI 공급망 축 선언, 에너지 없인 허구</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-2.html</guid>
+      <category>산업전략</category>
+      <description>광주·전남이 에너지·AI·반도체·모빌리티를 연결하는 글로벌 AI 핵심 공급망 축 구상을 공식화했으나, 데이터센터 전력 수요(2030년 광주 기준 최소 3GW 추산)를 충족할 송전망과 재생에너지 확보 계획이 구체화되지 않아 선언 수준에 그칠 우려가 크다.</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>수출통제 3년, 광물 패권 전장 이동의 실체</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-13-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>KIEP(대외경제정책연구원)가 벵골만 접경 방글라데시·인도 동북부·미얀마 산업 클러스터를 분석한 보고서를 발간했다. 중국 의존 탈피를 추진 중인 글로벌 제조업체들의 이전이 가속화되며 한국 소재·장비 수출 신시장으로 부상하고 있다.</description>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄탈럼 납기 26주 고착, AI 팹 증설 실제 발목</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-04-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-04-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>AI 서버·전장 수요 폭증으로 탄탈럼 커패시터 납기가 26주로 굳어졌다. 단순 수급 문제가 아닌 정제·가공 단계의 구조적 병목으로, 국내 AI 팹 증설 타임라인에 직접 충격을 주고 있다. 투자자는 탄탈럼 가공 역량을 가진 소재 기업에 주목해야 한다.</description>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 DUV·광통신 자립 가속, 미중 반도체 전선 3개로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-04-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-04-1.html</guid>
-      <category>기술패권</category>
-      <description>중국이 메모리·파운드리에 이어 DUV 노광 장비와 광통신 부품 국산화를 공식 가속하면서 미중 AI 반도체 패권 전선이 3개 축으로 확대됐다. 한국 광통신 소재·노광 장비 부품 공급사들은 단기 반사이익과 중장기 시장 잠식이라는 이중 리스크에 직면했다.</description>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한-중앙아 광물협약, 크롬·우라늄 대안 현실 조건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-04-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-04-2.html</guid>
-      <category>글로벌분석</category>
-      <description>한국과 카자흐스탄 등 중앙아시아 5개국이 핵심광물 협력 공동선언에 서명했지만, 현장에서 보면 협약과 실제 조달 사이에는 정제 역량·물류 인프라·가격 경쟁력 3개 장벽이 존재한다. 투자자는 협약 서명보다 가공 투자 동반 여부를 실행 가능성의 판단 기준으로 삼아야 한다.</description>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
