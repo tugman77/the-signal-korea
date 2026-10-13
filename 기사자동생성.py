@@ -350,7 +350,23 @@ def build_cooldown_block(history, today_str, days=TOPIC_COOLDOWN_DAYS):
     lines = "\n".join(
         f"  - {key} ({'오늘' if g == 0 else f'{g}일 전'} 다룸)" for g, key in rows
     )
-    return f"""
+
+    # 테마 과포화 (2026-10-13 컨트롤타워 방향 점검): 사건 키는 매번 달라도 같은 엔티티가 반복됐다
+    # (갈륨 4건·미중 협상 5건이 한 주 21건의 절반). 키 토큰을 세어 7일 내 3개 이상 키에
+    # 등장한 핵심 엔티티는 오늘 쉬게 한다. 국가명·범용어는 거의 모든 기사에 붙으므로 제외.
+    generic = {"중국", "한국", "미국", "일본", "대만", "반도체", "AI", "AI반도체", "공급망",
+               "공급망재편", "수출통제", "전략", "투자", "규제", "패권", "기술", "산업"}
+    from collections import Counter
+    token_count = Counter(t for _, key in rows for t in set(key.split("-")) if t and t not in generic)
+    saturated = [t for t, n in token_count.most_common() if n >= 3]
+    saturation = ""
+    if saturated:
+        saturation = (
+            f"\n[테마 과포화 — 오늘은 쉬어갈 것]\n"
+            f"다음 엔티티는 최근 {days}일간 3건 이상 다뤘습니다: {', '.join(saturated)}\n"
+            f"오늘은 이 엔티티를 중심으로 한 기사를 쓰지 마세요. 정부 공식 발표·계약 체결처럼 결정적인 새 사건이 있을 때만 예외로 1건 허용합니다.\n"
+        )
+    return saturation + f"""
 [최근 다룬 토픽 — 쿨다운 {days}일]
 아래 토픽은 최근 {days}일 내 이미 발행했습니다. **"새로운 전개(신규 수치·사건·정책 변화)"가 있을 때만** 재발행하고,
 그 변화점을 제목과 FACT 첫 단락에 반드시 명시하세요. 새 전개가 없으면 이 토픽은 건너뛰고 다른 주제를 고르세요.
