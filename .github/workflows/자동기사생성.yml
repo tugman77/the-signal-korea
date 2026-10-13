@@ -26,10 +26,10 @@ jobs:
           echo "오늘=$TODAY / $GEN"
           if echo "$GEN" | grep -q "$TODAY"; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "✅ 로컬 구독 발행이 이미 완료됨 — 클라우드 백업 생략 (API코인 절약)"
+            echo "✅ 로컬 구독 발행이 이미 완료됨 — 클라우드 백업 생략 (구독 사용량 절약)"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
-            echo "⚠️ 오늘 발행 없음 — 클라우드가 API코인으로 백업 발행"
+            echo "⚠️ 오늘 발행 없음 — 클라우드가 구독코인으로 백업 발행"
           fi
 
       - name: Set up Python
@@ -42,6 +42,10 @@ jobs:
         if: steps.guard.outputs.skip != 'true'
         run: pip install anthropic feedparser requests pillow json-repair
 
+      - name: Claude Code CLI 설치 (구독 헤드리스)
+        if: steps.guard.outputs.skip != 'true'
+        run: npm install -g @anthropic-ai/claude-code
+
       - name: sojaetimes 전문 인텔리전스 수집
         if: steps.guard.outputs.skip != 'true'
         env:
@@ -52,7 +56,10 @@ jobs:
       - name: Generate articles
         if: steps.guard.outputs.skip != 'true'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 구독코인 전용 (2026-10-13) — API코인 미사용. 로컬과 같은 llm_backend 구독 경로
+          LLM_BACKEND: claude_code
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_CODE_TIMEOUT: "1800"
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
@@ -64,7 +71,10 @@ jobs:
       - name: Review articles
         if: steps.guard.outputs.skip != 'true'
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # 구독코인 전용 (2026-10-13) — API코인 미사용. 로컬과 같은 llm_backend 구독 경로
+          LLM_BACKEND: claude_code
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          CLAUDE_CODE_TIMEOUT: "1800"
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           # 이미지 연관성 검수에서 키워드 수정 시 재다운로드에 사용 (없으면 큐레이션 풀로 폴백)
