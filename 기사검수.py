@@ -23,6 +23,7 @@ import argparse
 import importlib
 import requests
 import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK) 전환
+import 검수게이트    # 심각한 문제 기사는 공개 전에 뺀다 (컨트롤타워 검수관 체계, 2026-10-14)
 from datetime import datetime, timezone, timedelta
 from collections import Counter
 
@@ -573,6 +574,31 @@ def run_review(data_path, label="articles.json", date_prefix=None):
             lines.append("\n✨ 구조 검수 통과")
 
         send_telegram("\n".join(lines))
+
+    # ── 검수 게이트 — fail·신뢰도 2 이하·투자 권유 기사는 사이트·채널에 내보내지 않는다 ──
+    #    오늘 발행분(articles.json)에만 적용. --date 재검수는 이미 공개된 아카이브라 판정만 한다.
+    if review_map and label == "articles.json":
+        holds = 검수게이트.decide(articles, review_map)
+        검수게이트.record("시그널코리아", articles, holds, review_map)
+        if holds:
+            reasons = {a.get("title", ""): holds[a.get("id")] for a in articles if a.get("id") in holds}
+            kept, held = 검수게이트.split(articles, holds)
+            msg = [f"⛔ 시그널코리아 검수 보류 {len(held)}건 — 사이트·채널에 내보내지 않음"]
+            for t, why in reasons.items():
+                msg.append(f"  · {검수게이트.esc(t[:32])}\n     {검수게이트.esc(' / '.join(why)[:120])}")
+            if kept:
+                검수게이트.remove_static(date_prefix)
+                gen = importlib.import_module("기사자동생성")
+                gen.save_data(kept, data.get("editorial_briefing"), data.get("key_signals"),
+                              data.get("date_str"), data.get("date_key") or date_prefix)
+                msg.append(f"  → 남은 {len(kept)}건으로 발행")
+            else:
+                검수게이트.set_output("all_held", "true")
+                msg.append("  → 전부 보류 — 오늘 push 안 함 (로컬이면 클라우드 백업이 새로 만들어 다시 검수)")
+            log("\n".join(msg), "WARN")
+            send_telegram("\n".join(msg))
+            if not kept:
+                sys.exit(3)
 
     return passed
 

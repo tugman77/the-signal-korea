@@ -69,6 +69,7 @@ jobs:
         run: python 기사자동생성.py
 
       - name: Review articles
+        id: review   # 검수 게이트가 전부 보류하면 all_held=true (2026-10-14)
         if: steps.guard.outputs.skip != 'true'
         env:
           # 구독코인 전용 (2026-10-13) — API코인 미사용. 로컬과 같은 llm_backend 구독 경로
@@ -82,10 +83,10 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python 기사검수.py
-        continue-on-error: true  # 검수 실패가 배포를 막지 않도록
+        continue-on-error: true  # 검수 오류가 배포를 막지 않도록 — 단 '전부 보류'는 아래 all_held로 막는다
 
       - name: Commit and push
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.review.outputs.all_held != 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -100,7 +101,7 @@ jobs:
       # 이 조건이 없으면 로컬이 이미 알린 같은 기사를 클라우드가 매일 한 번 더 알린다
       # (2026-08-08 발견: 소재타임스 @materialtimes에 매일 중복 알림이 나가고 있었다).
       - name: 텔레그램 채널 발행
-        if: steps.guard.outputs.skip != 'true'
+        if: steps.guard.outputs.skip != 'true' && steps.review.outputs.all_held != 'true'
         continue-on-error: true
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
