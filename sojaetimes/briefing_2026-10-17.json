@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "collected_at": "2026-10-17 11:18 KST",
+  "collected_at": "2026-10-17 08:15 KST",
   "total_count": 39,
   "topics": {
     "공급망전쟁": [
@@ -181,6 +181,15 @@
         "source": "GoogleNews",
         "lang": "en",
         "topic": "기술패권",
+        "title": "Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - Yahoo Finance",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVRPYTg3d3FueHdOSEhabGxrZnRJSzEtUEZZQlNBSGlHQkpqdlY4a2QxSDdOVFZQTzBoXzd0ZnZaUFlRYVo3c2V6Q3NlaGdFZzd4R1BHSy1Sel9IUUdja3JLanFyUHpjNGJkaW0zLVZFUTgxaXVJQW1Ccm9CQjBEdUhhdTZyWUZUbDFVVFFNU0dqWU1HbDJaUU83bm1Xdzlndm5aN3lhRQ?oc=5\" target=\"_blank\">T",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVRPYTg3d3FueHdOSEhabGxrZnRJSzEtUEZZQlNBSGlHQkpqdlY4a2QxSDdOVFZQTzBoXzd0ZnZaUFlRYVo3c2V6Q3NlaGdFZzd4R1BHSy1Sel9IUUdja3JLanFyUHpjNGJkaW0zLVZFUTgxaXVJQW1Ccm9CQjBEdUhhdTZyWUZUbDFVVFFNU0dqWU1HbDJaUU83bm1Xdzlndm5aN3lhRQ?oc=5",
+        "published": "Sat, 01 Aug 2026 07:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "en",
+        "topic": "기술패권",
         "title": "Department of Commerce Announces Letters of Intent With 7 Companies for $874 Million to Accelerate Semiconductor R&D for the Compute Supply Chain - National Institute of Standards and Technology (.gov)",
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5\" ",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZzcxTXJ1dkYwSHNnbU11YUx6ZVM2RDZFb0ltd1NfeFRVdWxNXzBJcVRCZHV3OUJqS0p6V1ZjZl9wVDc0M2k3LVVJRWo0ZGJXTXF0Tmp6a3ZUejhUakJldnRrR19JeTdPSXpINHBfZnFFTXhBTUUxNWFUdk1LYmJTY0JobEJWaU84a2U1T0VKWTBqRmFpNFN4TW9iV3hKNWlOVGhQUm1yZTJBdlRoY251VTh6d0o?oc=5",
@@ -203,15 +212,6 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNOW0tVXFBZ2FXNkREcFU0S3dXaExacjNVemJWU3RsbnhiTTJWdkZram9nb0s2ZFdRVHJLZmM0VHdRTEMzRFpMcV9Ea0hZNEpoeDhlb0Nyc2RzUzBJSHBXckJ3aTIwQ1F6b2lqeEFkbUFNdXIwbEpLV191OTdoS2ZocUFsdXlIaGl1dFNaMDN2STN4ZXRyLThUemlSeVdoUXJMQ3hmUjdQaTR4cURDQ0JRcUpBNA?oc=5\" t",
         "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOW0tVXFBZ2FXNkREcFU0S3dXaExacjNVemJWU3RsbnhiTTJWdkZram9nb0s2ZFdRVHJLZmM0VHdRTEMzRFpMcV9Ea0hZNEpoeDhlb0Nyc2RzUzBJSHBXckJ3aTIwQ1F6b2lqeEFkbUFNdXIwbEpLV191OTdoS2ZocUFsdXlIaGl1dFNaMDN2STN4ZXRyLThUemlSeVdoUXJMQ3hmUjdQaTR4cURDQ0JRcUpBNA?oc=5",
         "published": "Wed, 29 Jul 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "en",
-        "topic": "기술패권",
-        "title": "Trump Administration Unveils $874 Million CHIPS Act AI Push, With GlobalFoundries Securing Top Award - Benzinga",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUUxPRUhhcGw0RGU3cm9SMV9JWXJpanpvQVh0TWNuUVZkcmFxZTRZMDE4c2ROMF84WExNWWUxaEJ3ZHhhazBZcDczdkNFSkVhZ2p3ZnE0dThpMkZsZFI1X1FkbUZlTXl5NmhFRWlOSnQ4U19UamhlT0hQc0FQLWp2Z0F4REVNV3pkUHRsX3BzRnI5MHpFVVNwbDdTMUFOWmFUS2ZkVkFyWHdBMnpKT3VnTlJ4aEVwUHVrMU",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUUxPRUhhcGw0RGU3cm9SMV9JWXJpanpvQVh0TWNuUVZkcmFxZTRZMDE4c2ROMF84WExNWWUxaEJ3ZHhhazBZcDczdkNFSkVhZ2p3ZnE0dThpMkZsZFI1X1FkbUZlTXl5NmhFRWlOSnQ4U19UamhlT0hQc0FQLWp2Z0F4REVNV3pkUHRsX3BzRnI5MHpFVVNwbDdTMUFOWmFUS2ZkVkFyWHdBMnpKT3VnTlJ4aEVwUHVrMUx6WjlnZ1otNmpsWDR5SXBqeXpiV3Q3LXlpeC1vODA4YUlxWldjOTR2XzFQZw?oc=5",
-        "published": "Fri, 31 Jul 2026 07:00:00 GMT"
       }
     ],
     "산업전략": [
@@ -223,15 +223,6 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE53MFBHZmF3VnU0SEZZa1Z0X0hBMEpYcjVQamllZUVpb25aWTE5eTg1RmxDUjk1ZjZsVEdId2w5OFJHOHRLZjJyT24zODUzeGtPUklwUVNfUERjdjjSAWBBVV95cUxNa09YTjJ0dktMeXB0cHM1MjVEQk5kbHR0SV9WOUJWLUdFWVNRS1FXSDN5LUhaX0lPcTlyM0lpQUtMNmZJN0tFVDlkT3ZjbkdvRkZIWHNEQ3VjQmFZS2",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53MFBHZmF3VnU0SEZZa1Z0X0hBMEpYcjVQamllZUVpb25aWTE5eTg1RmxDUjk1ZjZsVEdId2w5OFJHOHRLZjJyT24zODUzeGtPUklwUVNfUERjdjjSAWBBVV95cUxNa09YTjJ0dktMeXB0cHM1MjVEQk5kbHR0SV9WOUJWLUdFWVNRS1FXSDN5LUhaX0lPcTlyM0lpQUtMNmZJN0tFVDlkT3ZjbkdvRkZIWHNEQ3VjQmFZS2xzYkU?oc=5",
         "published": "Sun, 17 May 2026 07:00:00 GMT"
-      },
-      {
-        "source": "GoogleNews",
-        "lang": "ko",
-        "topic": "산업전략",
-        "title": "“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란] - 매일경제 마켓",
-        "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5\" target=\"_blank\">“삼전닉스 양손에 쥐고…숨은 진주 ‘소부장’은 ETF로 담아라” [여의도란도란]</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">매일경제 마켓</font>",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxN3RvbU12am1PXzRBMGZhY1JMbHRSOHA3V2NoZU9LREgwWHlmNjFWbW10SlVMWmpmOUlUdU5KU3JpUnNESWR5MHVHU2lZNlVORFE?oc=5",
-        "published": "Sun, 14 Jun 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
@@ -250,6 +241,15 @@
         "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5\" target=\"_blank\">[헬로즈업] 위기에서 전략산업으로…한국 소부장 체질이 바뀐다</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">헬로티</font>",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FRjNZTGJzamFlY3ZhNFJ2d0xaOUUySTRDbkFGYXQ5T3N4OHhWVjBYaW9wSmtsaDJPcWs5ZzhLSHloR1l1NUZiRWx4a0RMWkZfUlh4S2hlZFZ0OUhqQVln?oc=5",
         "published": "Sat, 20 Dec 2025 08:00:00 GMT"
+      },
+      {
+        "source": "GoogleNews",
+        "lang": "ko",
+        "topic": "산업전략",
+        "title": "산업부, 첨단전략산업 소부장 투자지원 접수 연장…최대 50% 지원 - 페로타임즈",
+        "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5uYl9wX0VIQUxOdjdWRU1NLTVRTndJQlduRVAwZHUyMlJHclZjZmV6NEdCa29adWJpeWdDTy1ka0ZaU0JmUTBzUTNHSmlmOVBoZGx0N2RwamkwQlYzTE9ZTV9ValdDVENVbkdtLQ?oc=5\" target=\"_blank\">산업부, 첨단전략산업 소부장 투자지원 접수 연장…최대 50% 지원</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">페로타임즈</",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5uYl9wX0VIQUxOdjdWRU1NLTVRTndJQlduRVAwZHUyMlJHclZjZmV6NEdCa29adWJpeWdDTy1ka0ZaU0JmUTBzUTNHSmlmOVBoZGx0N2RwamkwQlYzTE9ZTV9ValdDVENVbkdtLQ?oc=5",
+        "published": "Mon, 24 Aug 2026 07:00:00 GMT"
       },
       {
         "source": "GoogleNews",
