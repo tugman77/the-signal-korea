@@ -29,6 +29,10 @@ OUT_DIR = "news"
 ARCHIVE_DIR = "archive"
 BASE = "../"  # news/ 기준 저장소 루트 상대경로
 
+# 대표 사진은 이미지소스.py가 키워드로 받아온 스톡 이미지라 기사 내용과 무관하다.
+# 직접 찍은 사진을 쓰는 기사는 원고 JSON에 "image_caption"을 적어 바꾼다.
+DEFAULT_IMAGE_CAPTION = "[자료사진] 기사와 무관한 이미지입니다."
+
 CATS = {
     "기술패권":   ("tag-hegemony", "#fee2e2", "#b91c1c"),
     "공급망전쟁": ("tag-supply",   "#fef3c7", "#b45309"),
@@ -120,7 +124,9 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
     brief_badge = '<span class="brief-badge">⚡ 속보</span>' if is_brief else ""
     brief_note = f'<div class="brief-note">{esc(BRIEF_NOTE)}</div>' if is_brief else ""
 
+    caption = article.get("image_caption") or DEFAULT_IMAGE_CAPTION
     hero = (f'<img src="{BASE}{esc(img_rel)}" alt="{esc(title)}" class="art-hero">'
+            f'<p class="img-caption">{esc(caption)}</p>'
             if img_rel else "")
 
     # ── 관련 기사: 같은 카테고리 우선 (정적 <a>라 크롤러가 따라간다) ──
