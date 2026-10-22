@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 21 Oct 2026 11:42:42 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 11:42:43 +0900</lastBuildDate>
+    <item>
+      <title>엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 추가하고 한국 내 생산능력 확장을 결정했다. TSMC 패키징 병목이 심화되는 가운데 기판 조달 다변화가 현실화된 첫 사례다. 투자자는 삼성전기 기판 사업부 수주 확대와 국내 소재·부품 연계 효과에 주목해야 한다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 빗장 고착 속 韓, 균형자 아닌 '선택 강요' 구조</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-1.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국은 메모리 1위임에도 팹리스·시스템반도체 분야에서 미국 생태계 의존도가 70% 이상으로 실질적 균형자 역할이 불가능한 구조다. 미중 이분법이 심화될수록 한국 반도체의 '선택 강요' 리스크가 수치로 드러나고 있다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中 갈륨 통제 3년 점검, 정부 '제한적' 발표의 함정</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-2.html</guid>
+      <category>글로벌분석</category>
+      <description>정부가 중국 갈륨 수출통제 영향을 '단기 제한적'으로 평가했지만, 현물가 9배 폭등·GaN 파운드리 단가 재협상 현실화라는 수치가 상반된 신호를 보내고 있다. 고려아연 국내 생산 2028년 시작 전까지 3년 공백을 메울 조달 경로가 없다는 것이 핵심 문제다. 전력반도체·방산 수요 기업은 지금 당장 재고 전략을 재설계해야 한다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 헬륨 통제 현실화, 반도체 팹 냉각 위기</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-21-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>산업부가 소부장 투자지원 예산을 1,700억 원으로 늘리고 첨단전략산업 지원 분야를 6개로 확대했다. 그러나 글로벌 공급망 편입의 실질 관문인 고객사 인증(Q-Certification) 체계 없이는 지원 효과가 내수 납품에 그칠 가능성이 높다.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>자원전쟁, 광산 아닌 수출통제에서 시작된다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-08-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-08-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 갈륨·게르마늄 수출허가제를 무기화한 지 3년, 자원 패권의 실제 전장은 매장량이 아니라 정제·허가 단계임이 확인됐다. 고려아연의 2028년 갈륨 양산 선언은 공백 3년을 누가 채우느냐는 질문을 남긴다. 투자자는 정련 역량 보유 기업을 선별해야 한다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>韓 반도체 5년 2배 목표, 美 AI 자본 없인 공염불</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-08-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-08-1.html</guid>
-      <category>산업전략</category>
-      <description>한국 정부가 5개년 계획으로 반도체 생산능력 2배 확대와 미국 AI 투자 유치를 공식화했다. 그러나 미중 기술 분리 고착 속에서 미국 팹리스의 한국 발주는 '정치적 승인' 단계를 거쳐야 하며, 자본 유치 속도가 목표 달성의 실제 변수다. 투자자는 삼성·SK의 미국 수주 공시와 정부 보조금 집행 속도를 동시에 모니터링해야 한다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>메모리 1위 韓, 미중 삼국지서 균형자 될 수 있나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-08-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-08-2.html</guid>
-      <category>기술패권</category>
-      <description>미중 반도체 패권 경쟁이 장기 고착되면서 한국이 메모리 1위 국가임에도 기술 선택을 강요받는 구조가 뚜렷해졌다. 미국 팹리스·장비 의존과 중국 매출 비중(삼성 약 25%, SK 약 30%)이 교차하는 지점에서 한국의 실제 선택지는 좁다. 투자자는 한국 기업의 '양다리 전략' 가능 기간을 2026~2027년이 한계로 봐야 한다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
