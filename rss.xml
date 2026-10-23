@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 22 Oct 2026 11:42:43 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:44:49 +0900</lastBuildDate>
+    <item>
+      <title>美 완성차 중국 부품 의존도 80% 삭감, 韓 Tier2 소재 3개 분기점</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>GM·포드·스텔란티스가 2027년까지 중국산 부품 의존도를 80% 이상 축소하는 공급망 재편에 착수했다. 한국 Tier2 소재·부품사에 대체 수요가 집중될 3개 품목이 가시화되고 있다.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>호르무즈 리스크, 韓·台 반도체 에너지 이중 노출 수치화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-1.html</guid>
+      <category>글로벌분석</category>
+      <description>미-이란 긴장 재고조로 호르무즈 해협 통과 물동량에 의존하는 한국·대만 반도체 팹의 에너지·물류 리스크가 동시에 부각되고 있다. 두 나라의 중동산 원유 의존도가 각각 72%, 48%에 달해 팹 가동비 충격이 구체화될 수 있다.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 데이터센터 1000조 투자, 전력망 없인 착공도 못 한다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-2.html</guid>
+      <category>산업전략</category>
+      <description>정부가 AI 데이터센터에 1,000조 원 투자 계획을 공식화했으나, 현재 한국 전력 계통 증설 속도와 인허가 구조로는 대규모 팹·데이터센터의 전력 수요를 감당할 수 없다는 게 현장의 일치된 시각이다. 투자 계획의 실행 가능성은 전력망 확충 속도에 달려 있다.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-22-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>삼성전자가 기업가치 60억 달러의 프랑스 AI 스타트업 미스트랄AI에 전략적 투자를 단행했다. 온디바이스·엣지 AI 모델과 자사 엑시노스 AP를 결합해 엔비디아 GPU 의존도를 낮추려는 시도다. 그러나 미스트랄의 오픈소스 모델 경쟁력이 메타 라마4와 직접 충돌하는 구조여서 투자 효과의 차별화가 과제다.</description>
       <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 광물통제, AI 로봇 액추에이터까지 전선 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-09-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-09-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대되고 있다. 네오디뮴·디스프로슘 등 희토류 영구자석 소재가 타깃이 되면서 한국 로봇·전장 부품 업계의 조달 리스크가 새로운 국면에 진입했다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술 빗장 고착, 韓 균형자 실제 조건 3가지</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-09-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-09-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 첨단 반도체 수출통제 합의가 재차 불발됐다. 기술 격리 구도가 장기화되는 가운데 한국이 '전략 균형자'로 기능하려면 메모리 점유율 외에 구체적 조건 세 가지가 갖춰져야 한다는 분석이 나온다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 지원 1700억·6개 분야 확대, 인증 없으면 공염불</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-09-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-09-2.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 투자지원 예산을 1,700억 원으로 늘리고 첨단전략산업 지원 분야를 6개로 확대했다. 그러나 글로벌 공급망 편입의 실질 관문인 고객사 인증(Q-Certification) 체계 없이는 지원 효과가 내수 납품에 그칠 가능성이 높다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
