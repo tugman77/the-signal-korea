@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 23 Oct 2026 11:44:49 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 11:42:21 +0900</lastBuildDate>
+    <item>
+      <title>일본 반도체전략 재편, 한국 소부장 빈틈 3개</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-24-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-24-0.html</guid>
+      <category>글로벌분석</category>
+      <description>일본이 '2026 반도체·디지털산업전략'을 통해 TSMC 구마모토 2공장·라피더스 2nm 라인 중심의 수직계열화를 공식화했다. 일본이 내재화하는 소재·장비 영역이 정확히 한국 소부장 기업의 주력 수출 품목과 겹치며, 3개 공정 단계에서 납품 구조 변화가 예고된다.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>비스무트 납기 8개월, 무연솔더 공급 균열 시작</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-24-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-24-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>무연솔더·의약품·방산 소재로 수요가 급증한 비스무트의 글로벌 납기가 2025년 하반기부터 8개월로 장기화됐다. 생산의 79%를 중국이 장악한 구조에서 수출허가 심사 강화가 현실화되면, 한국 전자부품·의료기기 업계의 조달 단가가 30~50% 상승할 수 있다.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>팹리스 매출 세계 10위권 밖, 설계 공백 수치화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-24-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-24-2.html</guid>
+      <category>산업전략</category>
+      <description>한국 반도체 산업이 HBM 메모리 호황 이면에서 팹리스 설계 역량 공백을 방치하고 있다는 구조적 경고가 수치로 확인됐다. 2024년 글로벌 팹리스 매출 상위 10위 안에 한국 기업이 한 곳도 없으며, 시스템반도체 자급률은 30% 미만으로 AI 칩 수요가 늘수록 수입 의존이 심화된다.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>美 완성차 중국 부품 의존도 80% 삭감, 韓 Tier2 소재 3개 분기점</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-23-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>고려아연이 2028년부터 연 15.5톤 규모의 갈륨 국내 생산을 공식화했다. 그러나 지금 이 순간 갈륨 현물 가격은 kg당 약 2,000달러로 3년 전 대비 9배 폭등한 상태다. 2028년까지 GaN 전력반도체 제조사들이 어떤 대안 조달로 버티느냐가 현실 과제다.</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 노딜 고착, 韓 팹리스 이탈 3개월째</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-0.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 반도체 수출통제 합의가 불발되며 기술 격리가 장기화됐다. 엔비디아 H20 판매 제한이 유지되는 가운데 중국 팹리스가 화웨이 어센드 910B로 급속 전환 중이며, 삼성·SK의 중국향 HBM 매출 공백이 분기당 8,000억~1조 원 규모로 추산된다. 투자자는 한국 메모리 기업의 중국 비중 축소 속도를 분기 실적 선행 지표로 봐야 한다.</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>'칩노믹스' 해부, TSMC 60년 전략의 한국 적용 한계</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-1.html</guid>
-      <category>글로벌분석</category>
-      <description>대만 60년 반도체 성장 전략을 분석한 신간 '칩노믹스'가 출간됐다. TSMC의 성공 핵심은 파운드리 전문화와 정부 지분 참여(1987년 초기 지분 48%)였으나, 한국의 종합 반도체 모델과 구조적으로 다르다. 투자자는 한국이 메모리 1위를 유지하면서 파운드리 격차를 어떻게 좁히느냐를 5년 단위로 평가해야 한다.</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>삼성 미스트랄 투자, 엔비디아 외 AI칩 생태계 구축 포석</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-10-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-10-2.html</guid>
-      <category>산업전략</category>
-      <description>삼성전자가 기업가치 60억 달러의 프랑스 AI 스타트업 미스트랄AI에 전략적 투자를 단행했다. 온디바이스·엣지 AI 모델과 자사 엑시노스 AP를 결합해 엔비디아 GPU 의존도를 낮추려는 시도다. 그러나 미스트랄의 오픈소스 모델 경쟁력이 메타 라마4와 직접 충돌하는 구조여서 투자 효과의 차별화가 과제다.</description>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
