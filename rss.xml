@@ -6,7 +6,7 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 25 Oct 2026 11:33:53 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 23:51:18 +0900</lastBuildDate>
     <item>
       <title>中 갈륨 일본 재개, 게르마늄 봉쇄 4개월째 지속</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-25-0.html</link>
@@ -176,76 +176,76 @@
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
-      <title>게르마늄 대체 조달, 인증 없인 3년 공백</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-0.html</guid>
+      <title>트럼프, 애플에 중국산 메모리 교체 직접 압박</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-18-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-18-0.html</guid>
       <category>공급망전쟁</category>
-      <description>중국 게르마늄 수출통제 3년째를 맞아 한국 내 정련 역량 구축이 가시화됐으나, 반도체·광섬유 고객사 인증 소요 기간이 24~36개월에 달해 실제 공급 전환까지 구조적 공백이 불가피하다. 투자자는 국내 정련사 인증 일정과 수입선 다변화 진행 속도를 동시에 점검해야 한다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+      <description>트럼프 행정부가 애플에 중국 CXMT(창신메모리기술)산 LPDDR5 D램 사용 중단을 요구했다. 애플의 연간 메모리 조달 규모는 80억~100억 달러 수준으로, 삼성전자·SK하이닉스가 단기 최대 수혜자가 되나 애플의 가격 협상 강화라는 역풍도 동시에 작동한다.</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
-      <title>일본 17개 산업 IP전략, 한국과 특허 격차 구조화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-1.html</guid>
+      <title>한국 정부, 산업·안보 융합전략 공식 착수</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-18-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-18-1.html</guid>
       <category>기술패권</category>
-      <description>일본이 AI·반도체 등 17개 전략산업에 특허를 사업 초기부터 내장하는 'IP 경영' 체계를 정부 주도로 가동하면서, 사후 권리 보호 중심인 한국과의 특허 전략 격차가 구조적으로 확대되고 있다. 한국 첨단산업 투자자는 IP 포트폴리오 없는 기술 우위가 얼마나 취약한지를 재점검해야 한다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
+      <description>미중 기술패권 경쟁이 장기화되면서 한국 정부가 반도체·이차전지·첨단소재를 안보와 연계하는 '산업·안보 융합전략' 수립에 나섰다. 미국 칩스법(2022)·EU 반도체법(2023)보다 2~3년 늦은 출발이지만, 법제화 속도와 실행 거버넌스 구축이 실효성의 관건이다.</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
     </item>
     <item>
-      <title>전남·광주 AI 공급망 축 선언, 에너지 없인 허구</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-14-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-14-2.html</guid>
+      <title>수출입은행·IFC, 핵심광물 공급망 금융 맞손</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-18-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-18-2.html</guid>
+      <category>글로벌분석</category>
+      <description>한국수출입은행이 세계은행그룹 산하 IFC(국제금융공사) 총재와 핵심광물 공급망 공동 금융 협력을 논의했다. IFC의 연간 투자 규모는 약 300억 달러로, 한국의 단독 자원 외교를 다자개발은행 연대 방식으로 전환하는 전략적 시도다. 실제 소재 조달까지는 2~5년 실행 시차가 불가피하다.</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 규제 동시 충돌, 韓 팹 이중 압박 현실화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-17-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-17-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국의 AI칩 수출허가 강화와 중국의 맞대응 핵심광물 통제가 동시에 가속되며 한국 반도체 공급망이 양방향 압박을 받는 구조가 고착됐다. 삼성·SK하이닉스는 중국 매출 비중 30% 이상을 유지하면서도 미국 규제 준수를 동시에 요구받는 이중 딜레마에 직면했다.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>韓 반도체 생산 5년 2배, 미 AI 자본 없이 작동하나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-17-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-17-1.html</guid>
+      <category>기술패권</category>
+      <description>한국 정부가 5개년 계획으로 반도체 생산능력 2배 확대와 미국 AI 투자 유치를 공식화했으나, 미중 기술 격리가 고착된 상황에서 실현 조건은 여전히 불투명하다. 실리콘밸리 빅테크의 한국 팹 투자 결정을 끌어낼 구체적 인센티브 구조가 없으면 수치 목표는 공허하다.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>비스무트 통제 전조, 광학·의료 소재 다음 병목</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-17-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-17-2.html</guid>
+      <category>글로벌분석</category>
+      <description>중국이 갈륨·게르마늄·안티모니에 이어 비스무트를 전략광물 검토 대상에 올리면서 광학유리·의료용 차폐소재 공급망에 선제 경보가 켜졌다. 중국 비스무트 생산 점유율 80% 이상에 비해 대체 조달처는 사실상 전무하다.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>이트륨 무통제 지금, 갈륨 3년 전과 닮았다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 전 세계 이트륨 생산의 약 65%를 장악하고 있으나 아직 수출허가제 대상이 아니다. YAG 레이저 장비가 반도체 웨이퍼 스크라이빙·패키징 드릴링에 전면 투입되는 현실에서, 이트륨은 갈륨보다 통제 시 파급 속도가 더 빠를 수 있다. 투자자는 레이저 장비·광학 소재 공급망에서 조용히 형성 중인 이트륨 재고 프리미엄을 지금 확인해야 한다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 갈등 덕에 살아남은 K반도체, 보호막 걷히면?</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-1.html</guid>
+      <category>기술패권</category>
+      <description>한국 반도체 업계 내부에서 '미중 갈등이 없었다면 중국 반도체가 이미 한국 턱밑까지 왔을 것'이라는 자성 목소리가 나오고 있다. YMTC는 제재 전 192단 NAND를 달성했고, CXMT는 DDR4 시장에 진입했다. 외부 통제 해제 시 한국이 지킬 수 있는 기술 해자(moat)가 무엇인지 지금 확인해야 한다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>산업은행 첨단·지역 동시 베팅, 실탄 집행 조건은</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-2.html</guid>
       <category>산업전략</category>
-      <description>광주·전남이 에너지·AI·반도체·모빌리티를 연결하는 글로벌 AI 핵심 공급망 축 구상을 공식화했으나, 데이터센터 전력 수요(2030년 광주 기준 최소 3GW 추산)를 충족할 송전망과 재생에너지 확보 계획이 구체화되지 않아 선언 수준에 그칠 우려가 크다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>수출통제 3년, 광물 패권 전장 이동의 실체</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-13-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-13-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 갈륨·게르마늄 수출허가제 시행 3년 만에 자원전쟁의 핵심 전장이 매장량에서 정제·허가 단계로 완전히 이동했다. 미국·EU·한국 모두 광산 확보에 집중하는 동안 중국은 이미 처리 단계를 장악했다. 투자자 관점에서 정제 역량 보유 기업의 희소성이 급격히 부각되는 시점이다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>탄탈럼 납기 26주 고착, AI 팹 증설 발목</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-13-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-13-1.html</guid>
-      <category>기술패권</category>
-      <description>AI 서버·전장 수요 폭증으로 탄탈럼 커패시터 납기가 26주로 굳어졌다. 단순 수급 문제가 아닌 콩고민주공화국 집중 채굴과 정제 병목이 근본 원인이며, AI 데이터센터 팹 증설 일정에 직접 영향을 미치기 시작했다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>대만·한국, 중동 긴장 속 반도체 공급망 이중 노출</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-13-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-13-2.html</guid>
-      <category>글로벌분석</category>
-      <description>미-이란 긴장 고조로 대만·한국 반도체 공급망이 호르무즈 해협 의존도와 에너지 가격 변동성이라는 이중 리스크에 노출됐다. 대만은 TSMC 전력 수요의 12%를 LNG에 의존하고, 한국 삼성·SK는 화학 소재의 호르무즈 경유 비중이 35%를 넘는다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 산업로봇 수출액, 수입액 첫 추월…소재 병목 3개 예고</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>2025년 중국 산업용 로봇 수출액이 처음으로 수입액을 추월하며 글로벌 제조 공급망이 재편 국면에 진입했다. 로봇 핵심 소재인 네오디뮴 자석·감속기 합금강·서보모터 희토류 수요가 중국 내부로 집중되면서 한국 Tier1 자동화 설비 조달에 새 병목이 생긴다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 빗장 고착, K반도체 '안도'의 실제 조건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 구도가 고착됐다. 한국 반도체가 단기 반사이익을 얻는 구조이나, 이 '안도'가 지속되려면 미국 첨단 제조 투자 유치와 중국 고객 유지라는 상충 조건을 동시에 관리해야 한다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>워싱턴 대신 실리콘밸리·브라질…한국 실리 외교 실제 조건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-12-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-12-2.html</guid>
-      <category>글로벌분석</category>
-      <description>한국 대통령이 워싱턴 정상회담 대신 실리콘밸리 AI 자본·브라질 광물 확보를 우선한 행보를 카네기 국제평화기금이 분석했다. 기술자본 유치와 핵심광물 다변화를 동시에 겨냥한 전략이지만, 현장에서는 계약이 아닌 MOU 수준에 머물 경우 실질 조달 효과가 없다는 한계가 있다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
+      <description>KDB산업은행이 첨단전략산업 지원과 지역기업 육성을 동시에 추진하는 이중 전략을 공식화했다. 산업부 소부장 직접보조(1,700억 원)와 달리 금융 레버리지를 활용하는 구조지만, 첨단산업 인증 요건과 지역 담보 한계가 실제 집행률의 걸림돌이다. 투자자는 KDB 연계 펀드를 통한 첨단소재·장비 중소기업 익스포저를 검토할 시점이다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
