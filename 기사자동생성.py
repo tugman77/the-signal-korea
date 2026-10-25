@@ -29,6 +29,7 @@ import os
 import requests
 import hashlib
 import random
+import re
 from datetime import datetime, timezone, timedelta
 
 ANTHROPIC_API_KEY   = os.environ.get("ANTHROPIC_API_KEY", "여기에_API키_입력")
@@ -696,6 +697,10 @@ def build_source_pool(raw_news_list, sojaetimes_briefing=None) -> list:
     return [p for p in pool if p["title"]]
 
 
+# 시험 생성(2026-10-25)에서 key_points 끝에 붙어 나온 분류 꼬리표 — 독자에게 보일 문구가 아니다
+_KP_TAG = re.compile(r"\s*\((?:확인된 사실|사실|불확실[^)]*|미검증[^)]*|확인되지 않음)\)\s*$")
+
+
 def _clean_list(val) -> list:
     if isinstance(val, str):
         val = val.split("\n")
@@ -725,7 +730,7 @@ def finalize_v2(part: list, pool: list) -> list:
         a["format"] = "v2"
         a["article_type"] = a.get("article_type") if a.get("article_type") in V2_TYPES else "explainer"
         a["sections"] = secs
-        a["key_points"] = _clean_list(a.get("key_points"))[:3]
+        a["key_points"] = [_KP_TAG.sub("", t) for t in _clean_list(a.get("key_points"))[:3]]
         a["watch_items"] = [{"label": str(w.get("label", "")).strip(), "detail": str(w.get("detail", "")).strip()}
                             for w in (a.get("watch_items") or []) if isinstance(w, dict) and w.get("label")][:4]
         a["source_ids"] = ids
@@ -800,6 +805,7 @@ brief는 비워도 된다. 이 내용은 sections에 다시 쓰지 않는다.
 [요약]
 - summary: 2문장, 120자 이내, 조달 담당자 관점.
 - key_points: 2~3개, 각 50자 이내. 확인된 사실 1개 이상과 아직 불확실한 점 1개를 넣는다.
+  문장 끝에 "(확인된 사실)", "(불확실)" 같은 괄호 꼬리표를 붙이지 않는다.
 
 [image_keyword]
 사진으로 찍을 수 있는 구체적 사물·장면 영문 2~4단어(예: "gallium metal ingot", "semiconductor wafer cleanroom").
