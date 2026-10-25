@@ -1329,6 +1329,29 @@ def generate_seo_files(articles, date_key, now):
     print(f"📡 rss.xml 저장 — 아이템 {len(rss_items)}개")
 
 
+def rebuild_archive_index():
+    """archive/index.json을 아카이브 파일 목록에서 다시 만든다 (2026-10-26).
+    예전에는 기존 목록에 오늘 날짜를 덧붙였다. 그래서 오래된 폴더에서 만든 옛 목록이
+    push 재시도(rebase -X theirs)로 올라가면 원격에 있던 날짜가 목록에서 빠진 채 남았다
+    (10-19·10-25 발생). 파일 기준으로 매번 다시 만들면 다음 발행 때 저절로 복구된다.
+    날짜 상한은 두지 않는다 — 프런트는 필요한 날짜만 나눠 읽고, 사이트맵은 모든 기사를 담아야 한다."""
+    dates = []
+    for name in os.listdir("archive"):
+        m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.json", name)
+        if not m:
+            continue
+        try:
+            with open(f"archive/{name}", "r", encoding="utf-8") as f:
+                if json.load(f).get("articles"):
+                    dates.append(m.group(1))
+        except (OSError, json.JSONDecodeError):
+            continue
+    archive_index = {"dates": sorted(dates, reverse=True)}
+    with open("archive/index.json", "w", encoding="utf-8") as f:
+        json.dump(archive_index, f, ensure_ascii=False, indent=2)
+    return archive_index
+
+
 def save_data(articles, briefing, signals, date_str, date_key):
     now = datetime.now(KST)
     data = {
@@ -1350,16 +1373,8 @@ def save_data(articles, briefing, signals, date_str, date_key):
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"📁 아카이브 저장: {archive_file}")
 
-    index_file = "archive/index.json"
-    try:
-        with open(index_file, "r", encoding="utf-8") as f:
-            archive_index = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        archive_index = {"dates": []}
-    dates = list(dict.fromkeys([date_key] + archive_index.get("dates", [])))
-    archive_index = {"dates": sorted(dates, reverse=True)[:90]}
-    with open(index_file, "w", encoding="utf-8") as f:
-        json.dump(archive_index, f, ensure_ascii=False, indent=2)
+    # 아카이브 인덱스 — 아카이브 파일 기준으로 다시 만든다
+    archive_index = rebuild_archive_index()
     print(f"📋 아카이브 인덱스: {len(archive_index['dates'])}일치")
 
     # 정적 기사 페이지 생성 — 크롤러가 읽는 정본(본문 포함 HTML).
