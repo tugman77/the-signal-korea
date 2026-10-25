@@ -36,6 +36,13 @@
     --tag-supply:   #fef3c7; --tag-supply-text:   #b45309;
     --tag-strategy: #dcfce7; --tag-strategy-text: #15803d;
     --tag-global:   #dbeafe; --tag-global-text:   #1d4ed8;
+    /* 2.1 차분한 톤 — 본문·섹션 제목·보조 상자에 쓰는 값 */
+    --navy:  #24364A;
+    --slate: #637C8C;
+    --sand:  #B6A18A;
+    --ivory: #F7F6F2;
+    --ink:   #2b3640;
+    --line:  #e3e0d8;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body { font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; overflow-x: hidden; }
@@ -79,7 +86,7 @@
   .page-wrap { max-width: 1200px; margin: 0 auto; padding: 32px 16px 56px; display: grid; grid-template-columns: 1fr 300px; gap: 32px; }
 
   /* ── 기사 본문 ── */
-  .article-area { background: var(--card-bg); border: 1px solid var(--border); }
+  .article-area { background: var(--card-bg); border: 1px solid var(--border); padding: 0 max(0px, calc((100% - 780px) / 2)); }
 
   .art-header { padding: 36px 40px 0; }
   .art-top-meta { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
@@ -95,6 +102,7 @@
   .art-byline .author { font-weight: 600; color: var(--text-muted); }
 
   .art-hero { width: 100%; height: 340px; object-fit: cover; display: block; }
+  .img-caption { font-size: 12px; color: #888; text-align: center; margin: 6px 0 0; }
   .art-hero-placeholder { width: 100%; height: 200px; background: linear-gradient(135deg, #0a0f1e, #1a2a5e); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.06); font-size: 80px; font-weight: 900; letter-spacing: -4px; }
 
   /* ── 요약 박스 ── */
@@ -119,21 +127,37 @@
   .frame-step-kr { font-size: 13px; font-weight: 600; opacity: 0.8; }
 
   /* 각 단계별 색상 */
-  .frame-fact    .frame-header { background: #1e3a5f; color: #93c5fd; }
-  .frame-meaning .frame-header { background: #1e1b4b; color: #c4b5fd; }
-  .frame-winner  .frame-header { background: #14532d; color: #86efac; }
-  .frame-loser   .frame-header { background: #450a0a; color: #fca5a5; }
-  .frame-action  .frame-header { background: #1c1300; color: #fcd34d; border-left: 4px solid var(--accent); }
+  .frame-header { background: var(--ivory); color: var(--navy); border-left: 3px solid var(--slate); }
+  .frame-fact    .frame-header { border-left-color: var(--navy); }
+  .frame-meaning .frame-header { border-left-color: var(--slate); }
+  .frame-winner  .frame-header { border-left-color: #8a9a8c; }
+  .frame-loser   .frame-header { border-left-color: #a08a84; }
+  .frame-action  .frame-header { border-left-color: var(--sand); }
 
   .frame-body { padding: 20px 0 0; }
-  .frame-body p { font-size: 17px; line-height: 2; color: var(--text-muted); margin-bottom: 20px; word-break: keep-all; overflow-wrap: anywhere; }
+  .frame-body p { font-size: 17.5px; line-height: 1.85; color: var(--ink); margin-bottom: 18px; word-break: keep-all; overflow-wrap: anywhere; }
   .frame-body p:last-child { margin-bottom: 0; }
 
-  .frame-action .frame-body p {
-    font-size: 17px;
-    color: var(--text);
-    font-weight: 500;
-  }
+  .frame-action .frame-body p { color: var(--ink); }
+
+  /* ── 2.1 새 형식 기사 (sections) ── */
+  .type-label { font-size: 11.5px; font-weight: 700; color: var(--navy); background: #eef1f4; padding: 3px 10px; border-radius: 2px; }
+  .key-points { margin: 0 40px; padding: 16px 20px; background: var(--ivory); border-left: 3px solid var(--navy); }
+  .key-points-label { font-size: 12px; font-weight: 700; color: var(--slate); margin-bottom: 6px; }
+  .key-points ul { padding-left: 18px; }
+  .key-points li { font-size: 15.5px; line-height: 1.75; color: var(--ink); margin: 2px 0; word-break: keep-all; }
+  .v2-section h2 { font-size: 20px; font-weight: 700; color: var(--navy); margin: 36px 0 14px; padding-top: 18px; border-top: 1px solid var(--line); word-break: keep-all; }
+  .v2-section p { font-size: 17.5px; line-height: 1.85; color: var(--ink); margin-bottom: 18px; word-break: keep-all; overflow-wrap: anywhere; }
+  .watch { border: 1px solid var(--line); margin-bottom: 8px; }
+  .watch-row { display: grid; grid-template-columns: 150px 1fr; gap: 12px; padding: 12px 16px; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.65; }
+  .watch-row:first-child { border-top: 0; }
+  .watch-row b { color: var(--navy); }
+  .watch-row span { color: var(--ink); word-break: keep-all; }
+  .sources { margin-top: 32px; padding: 16px 20px; background: var(--ivory); font-size: 13.5px; line-height: 1.8; color: var(--ink); }
+  .sources-label { font-size: 12px; font-weight: 700; color: var(--slate); margin-bottom: 6px; }
+  .sources ul { padding-left: 18px; }
+  .sources a { text-decoration: underline; text-underline-offset: 2px; word-break: break-all; }
+  .sources-note { margin-top: 8px; font-size: 12.5px; color: var(--slate); }
 
   /* ── 하단 액션 ── */
   .art-footer { padding: 20px 40px 36px; border-top: 1px solid var(--border); }
@@ -193,7 +217,10 @@
     .brief-note { margin: 10px 18px 0; }
     .five-frame { padding: 0 18px 28px; }
     .frame-body { padding: 16px 0 0; }
-    .frame-body p { font-size: 16.5px; line-height: 1.9; color: #374151; margin-bottom: 18px; }
+    .frame-body p, .v2-section p { font-size: 16.5px; line-height: 1.8; margin-bottom: 16px; }
+    .key-points { margin: 0 18px; }
+    .v2-section h2 { font-size: 18.5px; margin-top: 30px; }
+    .watch-row { grid-template-columns: 1fr; gap: 2px; }
     .frame-step-label { font-size: 15px; letter-spacing: 2px; }
     .coupang-inline { margin: 16px 0; }
     .art-footer { padding: 16px 18px 28px; }
@@ -204,7 +231,8 @@
     /* 네비 탭 — 가로 스크롤, 잘림 방지 */
     nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     nav::-webkit-scrollbar { display: none; }
-    .nav-inner { width: max-content; min-width: 100%; }
+    nav { -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent); }
+    .nav-inner { width: max-content; min-width: 100%; padding-right: 48px; }
     .bc-current { max-width: 160px; }
     /* 기사 영역 — 콘텐츠 넘침 방지 */
     .article-area { overflow: hidden; max-width: 100%; }
@@ -246,7 +274,6 @@
       <div class="nav-util">
         <a href="../search.html">검색</a>
         <a href="../about.html">소개</a>
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a>
       </div>
     </div>
   </nav>
@@ -281,7 +308,7 @@
         </div>
       </div>
 
-      <div><img src="../images/2026-08-01_article_3.jpg" alt="한국판 국부펀드 내년 출범, 소재·AI 반도체 어디 꽂히나" class="art-hero"></div>
+      <div><img src="../images/2026-08-01_article_3.jpg" alt="한국판 국부펀드 내년 출범, 소재·AI 반도체 어디 꽂히나" class="art-hero"><p class="img-caption">[자료사진] 기사와 무관한 이미지입니다.</p></div>
 
       <div class="art-summary-box">정부가 추진 중인 &#x27;한국판 국부펀드&#x27;가 2026년 출범을 목표로 AI·반도체·첨단소재에 장기 투자하는 구조로 설계되고 있다. 투자 방향에서 소재·부품 업스트림이 빠지면 공급망 자립 효과가 반감된다는 현장 우려가 크다.</div>
       <div class="brief-note">이 기사는 속보 포맷입니다. 핵심 사실(FACT)과 대응 전략(ACTION)만 빠르게 전달하며, 심층 분석(MEANING·WINNER·LOSER)은 주력 분석 기사에서 다룹니다.</div>
@@ -331,12 +358,8 @@
         <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--border);">
           <div style="font-size:11px;font-weight:700;color:var(--text-light);letter-spacing:1px;margin-bottom:12px;">이 기사 공유</div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
-            <a style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;" href="https://twitter.com/intent/tweet?text=%ED%95%9C%EA%B5%AD%ED%8C%90%20%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C%20%EB%82%B4%EB%85%84%20%EC%B6%9C%EB%B2%94%2C%20%EC%86%8C%EC%9E%AC%C2%B7AI%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%96%B4%EB%94%94%20%EA%BD%82%ED%9E%88%EB%82%98&url=https%3A%2F%2Fwww.thesignalkorea.co.kr%2Fnews%2F2026-08-01-3.html" target="_blank" rel="noopener">𝕏 트위터</a>
-            <a style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;" href="https://www.threads.net/intent/post?text=%ED%95%9C%EA%B5%AD%ED%8C%90%20%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C%20%EB%82%B4%EB%85%84%20%EC%B6%9C%EB%B2%94%2C%20%EC%86%8C%EC%9E%AC%C2%B7AI%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%96%B4%EB%94%94%20%EA%BD%82%ED%9E%88%EB%82%98%20https%3A//www.thesignalkorea.co.kr/news/2026-08-01-3.html" target="_blank" rel="noopener">스레드</a>
-            <a style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;" href="https://t.me/share/url?url=https%3A%2F%2Fwww.thesignalkorea.co.kr%2Fnews%2F2026-08-01-3.html&text=%ED%95%9C%EA%B5%AD%ED%8C%90%20%EA%B5%AD%EB%B6%80%ED%8E%80%EB%93%9C%20%EB%82%B4%EB%85%84%20%EC%B6%9C%EB%B2%94%2C%20%EC%86%8C%EC%9E%AC%C2%B7AI%20%EB%B0%98%EB%8F%84%EC%B2%B4%20%EC%96%B4%EB%94%94%20%EA%BD%82%ED%9E%88%EB%82%98" target="_blank" rel="noopener">텔레그램</a>
-            <button style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;" onclick="if(navigator.share){navigator.share({title:document.title,url:'https://www.thesignalkorea.co.kr/news/2026-08-01-3.html'})}else{navigator.clipboard.writeText('https://www.thesignalkorea.co.kr/news/2026-08-01-3.html');this.textContent='링크 복사됨!'}">🔗 링크 복사</button>
+            <button style="display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border:1px solid var(--border);border-radius:6px;font-size:13px;color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;" onclick="navigator.clipboard.writeText('https://www.thesignalkorea.co.kr/news/2026-08-01-3.html').then(()=>{this.textContent='✓ 링크 복사됨'},()=>prompt('아래 주소를 복사하세요.','https://www.thesignalkorea.co.kr/news/2026-08-01-3.html'))">🔗 링크 복사</button>
           </div>
-          <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;background:var(--accent);color:var(--primary);font-weight:800;padding:11px 20px;border-radius:6px;font-size:13.5px;text-decoration:none;">📡 텔레그램 채널 구독 — 매일 아침 시그널 받기</a>
         </div>
       </div>
 
@@ -424,7 +447,7 @@
     </div>
     <div>
       <div class="footer-links">
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a><a href="../about.html">소개</a><a href="../advertising.html">광고문의</a><a href="../privacy.html">개인정보처리방침</a><a href="../terms.html">이용약관</a>
+        <a href="../about.html">소개</a><a href="../advertising.html">광고문의</a><a href="../privacy.html">개인정보처리방침</a><a href="../terms.html">이용약관</a>
       </div>
       <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
     </div>
