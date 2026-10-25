@@ -21,7 +21,6 @@ import json
 import os
 import re
 import sys
-from urllib.parse import quote
 from datetime import datetime
 
 SITE_URL = "https://www.thesignalkorea.co.kr"
@@ -49,6 +48,10 @@ FRAMES = [
     ("action",  "ACTION",  "한국의 준비", "frame-action"),
 ]
 STEP_NUMS = ["①", "②", "③", "④", "⑤"]
+
+# 2.1 새 형식(sections) 기사의 유형 라벨
+TYPE_LABELS = {"brief": "단신", "explainer": "뉴스 해설", "analysis": "심층 분석"}
+SOURCES_NOTE = "수집한 원문 기사를 근거로 작성했습니다. 원문에서 확인되지 않는 수치는 싣지 않습니다."
 
 BRIEF_NOTE = ("이 기사는 속보 포맷입니다. 핵심 사실(FACT)과 대응 전략(ACTION)만 "
               "빠르게 전달하며, 심층 분석(MEANING·WINNER·LOSER)은 주력 분석 기사에서 다룹니다.")
@@ -85,6 +88,43 @@ def paras(value) -> list:
     return [p.strip() for p in raw if p and str(p).strip()]
 
 
+def is_v2(article: dict) -> bool:
+    """2.1 새 형식 기사 — sections가 있으면 5단계 프레임 대신 소제목 구성으로 그린다."""
+    return bool(article.get("sections"))
+
+
+def v2_body(article: dict) -> str:
+    """새 형식 본문: 섹션들 → 앞으로 볼 변수 → 자료와 확인 기준. 빈 블록은 만들지 않는다."""
+    parts = []
+    for sec in article.get("sections") or []:
+        body = paras(sec.get("paragraphs"))
+        if not body:
+            continue
+        head = f'          <h2>{esc(sec.get("heading"))}</h2>\n' if sec.get("heading") else ""
+        ps = "\n".join(f"          <p>{esc(p)}</p>" for p in body)
+        parts.append(f'        <div class="v2-section">\n{head}{ps}\n        </div>')
+
+    watch = [w for w in article.get("watch_items") or [] if w.get("label")]
+    if watch:
+        rows = "\n".join(
+            f'            <div class="watch-row"><b>{esc(w.get("label"))}</b><span>{esc(w.get("detail"))}</span></div>'
+            for w in watch)
+        parts.append(f'        <div class="v2-section">\n          <h2>앞으로 볼 변수</h2>\n'
+                     f'          <div class="watch">\n{rows}\n          </div>\n        </div>')
+
+    srcs = [x for x in article.get("sources") or [] if x.get("url")]
+    if srcs:
+        items = "\n".join(
+            f'            <li><a href="{esc(x["url"])}" target="_blank" rel="nofollow noopener">{esc(x.get("title") or x["url"])}</a>'
+            + (f' <span style="color:var(--slate)">· {esc(x.get("source"))}</span>' if x.get("source") else "")
+            + "</li>"
+            for x in srcs)
+        parts.append(f'        <div class="sources">\n          <div class="sources-label">자료와 확인 기준</div>\n'
+                     f'          <ul>\n{items}\n          </ul>\n'
+                     f'          <div class="sources-note">{esc(SOURCES_NOTE)}</div>\n        </div>')
+    return "\n".join(parts)
+
+
 def build_page(article: dict, idx: int, all_articles: list, date_key: str,
                briefing: str, signals: list, style: str) -> str:
     cls, bg, color = get_cat(article)
@@ -119,10 +159,23 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
         n += 1
     frames_html = "\n".join(sections)
 
-    is_brief = bool(article.get("is_brief")) or not any(
-        paras(article.get(f)) for f in ("meaning", "winner", "loser"))
+    v2 = is_v2(article)
+    if v2:
+        frames_html = v2_body(article)
+    is_brief = not v2 and (bool(article.get("is_brief")) or not any(
+        paras(article.get(f)) for f in ("meaning", "winner", "loser")))
     brief_badge = '<span class="brief-badge">⚡ 속보</span>' if is_brief else ""
+    if v2:
+        brief_badge = f'<span class="type-label">{esc(TYPE_LABELS.get(article.get("article_type"), "분석"))}</span>'
     brief_note = f'<div class="brief-note">{esc(BRIEF_NOTE)}</div>' if is_brief else ""
+
+    # 새 형식은 핵심 요약 목록이 있으면 요약 상자 대신 보여준다
+    key_points = [t for t in (article.get("key_points") or []) if t and str(t).strip()] if v2 else []
+    if key_points:
+        lis = "".join(f"<li>{esc(t)}</li>" for t in key_points)
+        summary_html = f'<div class="key-points"><div class="key-points-label">핵심 요약</div><ul>{lis}</ul></div>'
+    else:
+        summary_html = f'<div class="art-summary-box">{esc(summary)}</div>'
 
     caption = article.get("image_caption") or DEFAULT_IMAGE_CAPTION
     hero = (f'<img src="{BASE}{esc(img_rel)}" alt="{esc(title)}" class="art-hero">'
@@ -181,12 +234,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
     if category:
         ld["articleSection"] = category
 
-    # 공유 링크 (정적 — 링크만 붙여넣어도 각 SNS가 이 페이지 OG를 미리보기로 렌더)
-    _u, _t = quote(canonical, safe=""), quote(title)
-    _tu = quote(f"{title} {canonical}")
-    share_x  = f"https://twitter.com/intent/tweet?text={_t}&url={_u}"
-    share_th = f"https://www.threads.net/intent/post?text={_tu}"
-    share_tg = f"https://t.me/share/url?url={_u}&text={_t}"
+    # 공유는 링크 복사만 둔다 (2026-10-25 대표님 지시 — X·스레드·텔레그램 버튼과 채널 구독 안내 숨김)
     _sb = ("display:inline-flex;align-items:center;gap:6px;padding:8px 14px;"
            "border:1px solid var(--border);border-radius:6px;font-size:13px;"
            "color:var(--text-muted);background:#fff;cursor:pointer;text-decoration:none;")
@@ -248,7 +296,6 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
       <div class="nav-util">
         <a href="{BASE}search.html">검색</a>
         <a href="{BASE}about.html">소개</a>
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a>
       </div>
     </div>
   </nav>
@@ -285,7 +332,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
 
       <div>{hero}</div>
 
-      <div class="art-summary-box">{esc(summary)}</div>
+      {summary_html}
       {brief_note}
 
       <div class="five-frame">
@@ -311,12 +358,8 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
         <div style="margin-top:24px;padding-top:20px;border-top:1px solid var(--border);">
           <div style="font-size:11px;font-weight:700;color:var(--text-light);letter-spacing:1px;margin-bottom:12px;">이 기사 공유</div>
           <div style="display:flex;gap:8px;flex-wrap:wrap;">
-            <a style="{_sb}" href="{share_x}" target="_blank" rel="noopener">𝕏 트위터</a>
-            <a style="{_sb}" href="{share_th}" target="_blank" rel="noopener">스레드</a>
-            <a style="{_sb}" href="{share_tg}" target="_blank" rel="noopener">텔레그램</a>
-            <button style="{_sb}" onclick="if(navigator.share){{navigator.share({{title:document.title,url:'{canonical}'}})}}else{{navigator.clipboard.writeText('{canonical}');this.textContent='링크 복사됨!'}}">🔗 링크 복사</button>
+            <button style="{_sb}" onclick="navigator.clipboard.writeText('{canonical}').then(()=>{{this.textContent='✓ 링크 복사됨'}},()=>prompt('아래 주소를 복사하세요.','{canonical}'))">🔗 링크 복사</button>
           </div>
-          <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="display:inline-block;margin-top:18px;background:var(--accent);color:var(--primary);font-weight:800;padding:11px 20px;border-radius:6px;font-size:13.5px;text-decoration:none;">📡 텔레그램 채널 구독 — 매일 아침 시그널 받기</a>
         </div>
       </div>
 
@@ -355,7 +398,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
     </div>
     <div>
       <div class="footer-links">
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a><a href="{BASE}about.html">소개</a><a href="{BASE}advertising.html">광고문의</a><a href="{BASE}privacy.html">개인정보처리방침</a><a href="{BASE}terms.html">이용약관</a>
+        <a href="{BASE}about.html">소개</a><a href="{BASE}advertising.html">광고문의</a><a href="{BASE}privacy.html">개인정보처리방침</a><a href="{BASE}terms.html">이용약관</a>
       </div>
       <div style="margin-top:8px;text-align:right;">© 2026 The Signal Korea. All rights reserved.</div>
     </div>

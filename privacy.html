@@ -70,6 +70,12 @@
   .footer-links a:hover { color: var(--accent); }
 
   @media (max-width: 640px) { .header-right { display: none; } }
+  /* 모바일 메뉴 — 가로 스크롤 + 오른쪽 끝을 흐리게 해 메뉴가 더 있음을 표시 */
+  @media (max-width: 768px) {
+    nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent); }
+    nav::-webkit-scrollbar { display: none; }
+    .nav-inner { width: max-content; min-width: 100%; padding-right: 48px; }
+  }
 </style>
 </head>
 <body>

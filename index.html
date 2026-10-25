@@ -110,6 +110,7 @@
   .step-winner  { background: #14532d; color: #86efac; }
   .step-loser   { background: #450a0a; color: #fca5a5; }
   .step-action  { background: #451a03; color: #fcd34d; }
+  .type-label { font-size: 11px; font-weight: 700; color: #24364A; background: #eef1f4; padding: 2px 8px; border-radius: 2px; }
 
   /* ── 사이드 카드 ── */
   .side-card { background: var(--card-bg); border: 1px solid var(--border); padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; cursor: pointer; }
@@ -198,7 +199,8 @@
     /* 네비 탭 — 가로 스크롤, 잘림 방지 */
     nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
     nav::-webkit-scrollbar { display: none; }
-    .nav-inner { width: max-content; min-width: 100%; }
+    nav { -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent); }
+    .nav-inner { width: max-content; min-width: 100%; padding-right: 48px; }
     .logo-en { font-size: 22px; letter-spacing: 2px; }
     .logo-kr { font-size: 10px; letter-spacing: 1px; }
   }
@@ -239,7 +241,6 @@
       <div class="nav-util">
         <a href="search.html">검색</a>
         <a href="about.html">소개</a>
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a>
       </div>
     </div>
   </nav>
@@ -280,12 +281,12 @@
     </div>
 
     <div class="sb-box">
-      <div class="sb-title">많이 본 기사</div>
+      <div class="sb-title">최신 분석</div>
       <div id="rank-list"><div style="color:#aaa;font-size:13px;">불러오는 중...</div></div>
     </div>
 
     <div class="sb-box">
-      <div class="sb-title">오늘의 시그널 키워드</div>
+      <div class="sb-title">주요 분야</div>
       <div id="keyword-list" style="display:flex;flex-wrap:wrap;gap:7px;margin-top:4px;">
         <span class="keyword-tag" style="background:#fee2e2;color:#b91c1c;">#기술패권</span>
         <span class="keyword-tag" style="background:#fef3c7;color:#b45309;">#공급망전쟁</span>
@@ -318,7 +319,6 @@
     </div>
     <div>
       <div class="footer-links">
-        <a href="https://t.me/thesignalkorea" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700;">📡 텔레그램 구독</a>
         <a href="about.html">소개</a>
         <a href="advertising.html">광고문의</a>
         <a href="privacy.html">개인정보처리방침</a>
@@ -366,6 +366,13 @@
     <span class="step-dot step-action">ACTION</span>
   </div>`;
 
+  const TYPE_LABELS = { brief: '단신', explainer: '뉴스 해설', analysis: '심층 분석' };
+  function isV2(a) { return Array.isArray(a.sections) && a.sections.length > 0; }
+  function formatBadge(a) {
+    if (isV2(a)) return `<div class="five-step-badge"><span class="type-label">${TYPE_LABELS[a.article_type] || '분석'}</span></div>`;
+    return (!a.meaning || !a.meaning.length) ? STEP_BADGES_BRIEF : STEP_BADGES_FULL;
+  }
+
   // ── 상태 ──
   let currentDate = null;    // null = 오늘 (메인은 항상 오늘 기준)
   let recentExtra = [];      // [{article, dateKey, idx}] — 아카이브에서 backfill용으로 불러온 기사
@@ -395,7 +402,6 @@
     heroIndices.add(fi);
 
     const c = getCat(featured);
-    const isBriefFeat = !featured.meaning || !featured.meaning.length;
     const featImg = featured.image_url
       ? `<img src="${featured.image_url}" alt="${featured.title}" onerror="this.style.display='none'">`
       : '';
@@ -408,7 +414,7 @@
       </div>
       <div class="top-card-body">
         <p>${featured.summary}</p>
-        ${isBriefFeat ? STEP_BADGES_BRIEF : STEP_BADGES_FULL}
+        ${formatBadge(featured)}
         <div class="meta" style="margin-top:10px;">인텔리전스팀 · ${fmtDateKey(dateKey)} ${featured.timestamp||''}</div>
       </div>
     </div>`;
@@ -583,15 +589,29 @@
     }
   }
 
+  function showLoadError() {
+    const msg = '기사를 불러오지 못했습니다. 잠시 후 <a href="index.html" style="text-decoration:underline;">새로고침</a>해 주세요.';
+    document.getElementById('top-news').innerHTML =
+      `<div style="grid-column:1/-1;padding:48px;text-align:center;color:#6b7280;font-size:14px;background:#fff;border:1px solid var(--border);">${msg}</div>`;
+    document.getElementById('article-sections').innerHTML = '';
+    ['rank-list', 'editorial-briefing', 'signal-radar'].forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.textContent = '-';
+    });
+  }
+
   async function loadArticles() {
     try {
       const res = await fetch('articles.json');
-      if (!res.ok) return;
+      if (!res.ok) throw new Error('HTTP ' + res.status);
       const data = await res.json();
-      if (!data.articles || !data.articles.length) return;
+      if (!data.articles || !data.articles.length) throw new Error('기사 없음');
       todayKey = data.date_key || null;
       await applyData(data, null);
-    } catch (e) { console.log('articles.json 로드 실패:', e.message); }
+    } catch (e) {
+      console.log('articles.json 로드 실패:', e.message);
+      showLoadError();
+    }
   }
 
   // ── 사이드바 검색 ──

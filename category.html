@@ -93,6 +93,7 @@
   .step-winner  { background: #14532d; color: #86efac; }
   .step-loser   { background: #450a0a; color: #fca5a5; }
   .step-action  { background: #451a03; color: #fcd34d; }
+  .type-label { font-size: 11px; font-weight: 700; color: #24364A; background: #eef1f4; padding: 2px 8px; border-radius: 2px; }
 
   /* ── 페이지네이션 ── */
   .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 40px; flex-wrap: wrap; }
@@ -132,6 +133,12 @@
     .card-thumb-placeholder { height: 120px; font-size: 36px; }
     .card-title { font-size: 13px; }
     .card-body { padding: 10px 12px 14px; }
+  }
+  /* 모바일 메뉴 — 가로 스크롤 + 오른쪽 끝을 흐리게 해 메뉴가 더 있음을 표시 */
+  @media (max-width: 768px) {
+    nav { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent); }
+    nav::-webkit-scrollbar { display: none; }
+    .nav-inner { width: max-content; min-width: 100%; padding-right: 48px; }
   }
 </style>
 </head>
@@ -236,6 +243,7 @@
 </footer>
 
 <script>
+const TYPE_LABELS = { brief: '단신', explainer: '뉴스 해설', analysis: '심층 분석' };
 const d = new Date();
 const days = ['일','월','화','수','목','금','토'];
 document.getElementById('today-date').textContent =
@@ -327,7 +335,10 @@ function renderGrid() {
       ? `<img class="card-thumb" src="${a.image_url}" alt="${a.title}" onerror="this.style.display='none'">`
       : `<div class="card-thumb-placeholder">${cv.sym}</div>`;
     const isBrief = !a.meaning || !a.meaning.length;
-    const badges = isBrief
+    // 새 형식(sections) 기사는 5단계 배지 대신 기사 유형 라벨
+    const badges = (Array.isArray(a.sections) && a.sections.length)
+      ? `<div class="five-step-badge"><span class="type-label">${TYPE_LABELS[a.article_type] || '분석'}</span></div>`
+      : isBrief
       ? `<div class="five-step-badge"><span class="step-dot step-fact">FACT</span><span class="step-dot step-action">ACTION</span></div>`
       : STEP_BADGES;
     return `<div class="article-card" onclick="location.href='${articleLink(idx, dateKey)}'">
