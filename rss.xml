@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 25 Oct 2026 23:51:18 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 08:16:28 +0900</lastBuildDate>
+    <item>
+      <title>중국 광물 통제, AI·로봇 소재로 전선 확산</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-26-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-26-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대되고 있다. 조달 담당자는 자사 제품의 소재 구성이 해당 통제 범위에 포함되는지 점검이 필요한 시점이다.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미중 기술 격리 고착화, 한국의 선택 구조</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-26-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-26-1.html</guid>
+      <category>기술패권</category>
+      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국 정부는 산업·안보 융합 전략을 공식화했으나, 실행 조건과 성과 측정 기준은 아직 불확실하다.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>일본, 17개 성장산업에 특허 전략 내재화</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-26-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-26-2.html</guid>
+      <category>산업전략</category>
+      <description>일본이 AI·반도체 등 17개 성장산업에 IP 전략을 산업 정책 안에 직접 심는 방식으로 전환했다. 특허를 별도 관리하지 않고 산업 전략과 통합한 이 접근은 공급망 협력사 선정 시 지식재산 요건이 강화될 가능성을 시사한다.</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>中 갈륨 일본 재개, 게르마늄 봉쇄 4개월째 지속</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-25-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>중국이 갈륨·게르마늄·안티모니에 이어 비스무트를 전략광물 검토 대상에 올리면서 광학유리·의료용 차폐소재 공급망에 선제 경보가 켜졌다. 중국 비스무트 생산 점유율 80% 이상에 비해 대체 조달처는 사실상 전무하다.</description>
       <pubDate>Sat, 17 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>이트륨 무통제 지금, 갈륨 3년 전과 닮았다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 전 세계 이트륨 생산의 약 65%를 장악하고 있으나 아직 수출허가제 대상이 아니다. YAG 레이저 장비가 반도체 웨이퍼 스크라이빙·패키징 드릴링에 전면 투입되는 현실에서, 이트륨은 갈륨보다 통제 시 파급 속도가 더 빠를 수 있다. 투자자는 레이저 장비·광학 소재 공급망에서 조용히 형성 중인 이트륨 재고 프리미엄을 지금 확인해야 한다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 갈등 덕에 살아남은 K반도체, 보호막 걷히면?</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-1.html</guid>
-      <category>기술패권</category>
-      <description>한국 반도체 업계 내부에서 '미중 갈등이 없었다면 중국 반도체가 이미 한국 턱밑까지 왔을 것'이라는 자성 목소리가 나오고 있다. YMTC는 제재 전 192단 NAND를 달성했고, CXMT는 DDR4 시장에 진입했다. 외부 통제 해제 시 한국이 지킬 수 있는 기술 해자(moat)가 무엇인지 지금 확인해야 한다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>산업은행 첨단·지역 동시 베팅, 실탄 집행 조건은</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-16-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-16-2.html</guid>
-      <category>산업전략</category>
-      <description>KDB산업은행이 첨단전략산업 지원과 지역기업 육성을 동시에 추진하는 이중 전략을 공식화했다. 산업부 소부장 직접보조(1,700억 원)와 달리 금융 레버리지를 활용하는 구조지만, 첨단산업 인증 요건과 지역 담보 한계가 실제 집행률의 걸림돌이다. 투자자는 KDB 연계 펀드를 통한 첨단소재·장비 중소기업 익스포저를 검토할 시점이다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
