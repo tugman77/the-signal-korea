@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 24 Oct 2026 11:42:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 11:33:53 +0900</lastBuildDate>
+    <item>
+      <title>中 갈륨 일본 재개, 게르마늄 봉쇄 4개월째 지속</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-25-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-25-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 4개월간 중단했던 일본향 갈륨 수출을 재개했으나 게르마늄은 여전히 차단 중이다. 갈륨과 게르마늄을 분리 운용하는 중국의 선별적 통제 전략이 공급망 의존도 협상 카드로 고도화되고 있어, 한국 GaAs·GeO2 수요 기업의 재고 전략 재점검이 시급하다.</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 핵심전략기술 지정 확대, 성과 측정 지표 전무</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-25-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-25-1.html</guid>
+      <category>산업전략</category>
+      <description>한국 정부가 소부장 핵심전략기술 지정을 지속 확대하고 투자지원금을 1,700억 원으로 늘렸지만, 성과를 확인할 정량 지표가 없다는 감사 지적이 나왔다. 투자자와 기업 모두 '얼마나 자립했는지' 수치를 알 수 없는 구조적 불투명성이 문제다.</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>中 산업로봇 수출 사상 첫 수입 추월, 한국 Tier1 소재 3개 분기점</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-25-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-25-2.html</guid>
+      <category>글로벌분석</category>
+      <description>2025년 중국 산업용 로봇 수출액이 처음으로 수입액을 추월했다. 중국산 로봇이 글로벌 제조 현장에 침투하면서 로봇 핵심 소재인 희토류 영구자석·탄탈럼 커패시터·탄화규소(SiC) 기판 3개 품목의 공급 병목이 새로운 형태로 재편될 가능성이 높다.</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>일본 반도체전략 재편, 한국 소부장 빈틈 3개</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-24-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>한국 대통령이 워싱턴 정상회담 대신 실리콘밸리 AI 자본·브라질 광물 확보를 우선한 행보를 카네기 국제평화기금이 분석했다. 기술자본 유치와 핵심광물 다변화를 동시에 겨냥한 전략이지만, 현장에서는 계약이 아닌 MOU 수준에 머물 경우 실질 조달 효과가 없다는 한계가 있다.</description>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차 중국산 부품 80% 삭감, 韓 Tier2 소재 분기점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>GM·포드·스텔란티스가 2027년까지 중국산 부품 의존도를 80% 이상 축소하는 공급망 재편에 착수했다. 한국 Tier2 소재·부품 기업에는 대체 수요가 집중될 전망이나, 납기·인증 준비 없이는 실익을 챙기기 어렵다. 투자자는 차량용 소재 인증 보유 중소기업에 주목할 시점이다.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 반도체 풀스택 전략, 메모리 강점 위에 설계 역량이 없다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-1.html</guid>
-      <category>산업전략</category>
-      <description>국회·산업부가 AI 반도체 풀스택(HBM-PIM-NPU) 전략을 공식 논의 테이블에 올렸다. HBM에서 세계 1위이지만 AI 로직칩 설계 역량은 미국 대비 현저히 부재한 현실이다. 메모리 위 부가가치를 어디서 창출할지가 향후 5년 한국 반도체 전략의 핵심 변수다.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 갈륨 2028년 양산, 공백 3년을 어떻게 넘나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-11-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-11-2.html</guid>
-      <category>글로벌분석</category>
-      <description>고려아연이 2028년부터 연 15.5톤 규모의 갈륨 국내 생산을 공식화했다. 그러나 지금 이 순간 갈륨 현물 가격은 kg당 약 2,000달러로 3년 전 대비 9배 폭등한 상태다. 2028년까지 GaN 전력반도체 제조사들이 어떤 대안 조달로 버티느냐가 현실 과제다.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
