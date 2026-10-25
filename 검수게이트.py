@@ -21,6 +21,7 @@ from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
 
+V2_HOLD_PHRASES = ["실제 조달 현장에서는", "최대 패자", "확실한 승자"]
 HOLD_PHRASES = ["매수 추천", "매수를 추천", "매도 추천", "매도를 추천", "적극 매수", "지금 사야", "사두면 오른", "투자를 권유", "투자를 추천"]
 
 
@@ -35,6 +36,8 @@ def _text(a: dict) -> str:
         v = a.get(k)
         if v:
             parts.append(" ".join(map(str, v)) if isinstance(v, list) else str(v))
+    for sec in a.get("sections") or []:
+        parts.append(" ".join(map(str, sec.get("paragraphs") or [])))
     return " ".join(parts)
 
 
@@ -50,8 +53,11 @@ def decide(articles: list, review_map: dict) -> dict:
         elif isinstance(score, int) and score <= 2:
             why.append(f"신뢰도 낮음 {score}/5 {r.get('notes', '')}".strip())
         hit = [p for p in HOLD_PHRASES if p in _text(a)]
+        # 2.1 새 형식 기사는 지어낸 현장 문단·승패 단정이 있으면 보류 (v1 기사에는 적용하지 않는다)
+        if a.get("sections"):
+            hit += [p for p in V2_HOLD_PHRASES if p in _text(a)]
         if hit:
-            why.append("투자 권유 표현: " + ", ".join(hit))
+            why.append("보류 표현(투자 권유·단정): " + ", ".join(hit))
         if why:
             holds[a.get("id")] = why
     return holds

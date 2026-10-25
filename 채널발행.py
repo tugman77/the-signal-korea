@@ -56,7 +56,7 @@ def build_message(articles: list, date_key: str) -> str:
         lines.append(f"{emoji} <b>[{esc(a.get('category',''))}]{brief}</b> {esc(a.get('title',''))}")
         if summary:
             lines.append(f"<i>{summary}</i>")
-        lines.append(f'<a href="{link}">▸ 5단계 분석 보기</a>')
+        lines.append(f'<a href="{link}">▸ 분석 보기</a>')
         lines.append("")
     lines.append(f'🔗 <a href="{SITE_URL}/">전체 기사 보기</a>')
     lines.append("#공급망전쟁 #기술패권 #반도체 #산업분석 #투자")

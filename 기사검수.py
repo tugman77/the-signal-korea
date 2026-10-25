@@ -48,7 +48,10 @@ MIN_PARAGRAPHS = {
 }
 MIN_PARA_LEN = 50      # 최소 단락 길이 (자)
 SUPPLY_RATIO_TARGET = 0.50   # 공급망전쟁 목표 비중
-FIELD_CHECK_PATTERN = "실제 조달 현장에서는"   # action 마지막 단락 필수 패턴
+FIELD_CHECK_PATTERN = "실제 조달 현장에서는"   # action 마지막 단락 필수 패턴 (v1 5단계 기사만)
+# 2.1 새 형식(v2) 기사에서 경고할 단정·선동 표현. 지어낸 현장 문단은 검수게이트가 보류한다.
+V2_WARN_PHRASES = ["반드시", "확실한 승자", "최대 패자", "즉시 대응", "즉시 ~해야", "폭발적", "붕괴", "패닉", "골든타임",
+                   "실제 조달 현장에서는"]
 
 
 # ── 로깅 ──────────────────────────────────────────────────────────────
@@ -106,6 +109,9 @@ def check_article(article, idx):
     warnings = []
     title    = article.get("title", f"(제목없음 #{idx})")
     is_brief = article.get("is_brief", False)
+
+    if article.get("sections"):
+        return check_article_v2(article, idx)
 
     # 필수 필드 존재 확인
     for field in ["id", "category", "tag_type", "title", "summary", "fact", "action"]:
@@ -169,6 +175,39 @@ def check_article(article, idx):
             if not article.get(field):
                 errors.append(f"{field}: 주력 분석글인데 비어 있음 (is_brief=False)")
 
+    return errors, warnings, title
+
+
+def check_article_v2(article, idx):
+    """2.1 새 형식 기사 검수 — 섹션 본문, 출처 연결, 단정 표현, 단락 반복."""
+    errors, warnings = [], []
+    title = article.get("title", f"(제목없음 #{idx})")
+    for field in ["id", "category", "tag_type", "title", "summary"]:
+        if not article.get(field) and article.get(field) != 0:
+            errors.append(f"필수 필드 누락: {field}")
+    if article.get("category") not in ["기술패권", "공급망전쟁", "산업전략", "글로벌분석"]:
+        errors.append(f"유효하지 않은 카테고리: {article.get('category')}")
+
+    all_paras = []
+    for j, sec in enumerate(article.get("sections") or []):
+        ps = [p for p in (sec.get("paragraphs") or []) if str(p).strip()]
+        if not ps:
+            warnings.append(f"sections[{j}] 빈 섹션: {sec.get('heading', '')}")
+        all_paras.extend(ps)
+    if not all_paras:
+        errors.append("sections 본문 없음")
+    if len(set(all_paras)) < len(all_paras):
+        warnings.append("같은 단락이 반복됨")
+
+    if not article.get("source_ids"):
+        warnings.append("출처 번호(source_ids) 없음")
+    elif not article.get("sources"):
+        warnings.append("출처 링크 없음 (source_ids는 있으나 원문 링크 미연결)")
+
+    text = " ".join([article.get("title", ""), article.get("summary", "")] + all_paras)
+    hits = [p for p in V2_WARN_PHRASES if p in text]
+    if hits:
+        warnings.append("단정·선동 표현: " + ", ".join(hits))
     return errors, warnings, title
 
 
@@ -245,6 +284,12 @@ def _stage_preview(article):
         if isinstance(paras, list) and paras:
             joined = " ".join(paras[:2])
             parts.append(f"[{field}] {joined[:300]}")
+    # 2.1 새 형식: 섹션 본문 + 근거로 연결된 원문 제목 (수치가 원문에 있을 법한지 판단용)
+    for sec in article.get("sections") or []:
+        joined = " ".join(sec.get("paragraphs") or [])
+        parts.append(f"[{sec.get('heading') or '본문'}] {joined[:400]}")
+    if article.get("sources"):
+        parts.append("[근거 원문] " + " / ".join(x.get("title", "")[:60] for x in article["sources"][:5]))
     return "\n".join(parts)
 
 
@@ -518,6 +563,16 @@ def run_review(data_path, label="articles.json", date_prefix=None):
             log(f"검수 결과 저장 완료 → {data_path} (review 필드 + last_reviewed_at)")
         except Exception as e:
             log(f"검수 결과 저장 오류: {e}", "WARN")
+        # 아카이브에도 남긴다 — articles.json은 다음 날 덮어써져 파일럿 품질을 날짜별로 비교할 수 없다 (2.1)
+        if label == "articles.json" and data.get("date_key"):
+            arch = f"archive/{data['date_key']}.json"
+            try:
+                if os.path.exists(arch):
+                    with open(arch, "w", encoding="utf-8") as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
+                    log(f"검수 결과 아카이브 반영 → {arch}")
+            except Exception as e:
+                log(f"아카이브 반영 오류: {e}", "WARN")
 
     # ── 결과 집계 ──
     passed = total_errors == 0

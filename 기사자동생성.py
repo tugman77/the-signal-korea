@@ -48,6 +48,11 @@ IMAGE_HISTORY_FILE = "image_history.json"  # 날짜 간 photo-ID·MD5 이력 (ru
 TOPIC_HISTORY_FILE = "scripts/topic_history.json"  # 토픽키 → 마지막 발행일 (반복 주제 쿨다운). 워크플로 git add의 scripts/ 에 포함돼 run 간 유지된다.
 TOPIC_COOLDOWN_DAYS = 7                     # 이 기간 내 다룬 토픽은 '새 전개' 있을 때만 재발행
 RECENT_CONTEXT_DAYS = 10                    # 프롬프트에 넣을 최근 발행 기사 창(제목+요약)
+# 기사 형식 (2026-10-25 2.1 파일럿, 대표님 승인). v2 = 독자(조달 담당자) 기준 유연 구성 + 출처 번호 연결.
+# v2 생성이 실패하면 같은 실행 안에서 v1(5단계)으로 자동 전환해 발행은 멈추지 않는다.
+# 되돌리기: SIGNAL_FORMAT=v1 (또는 이 기본값을 "v1"로).
+ARTICLE_FORMAT = os.environ.get("SIGNAL_FORMAT", "v2")
+V2_TYPES = ("brief", "explainer", "analysis")
 
 # ════════════════════════════════════════════════════════
 # 이미지 관리 규칙 (IMAGE RULES) — 소재타임스와 동일 방식
@@ -120,10 +125,10 @@ def build_channel_message(articles, date_key, now) -> str:
         lines.append(f"{emoji} <b>[{cat}]{brief}</b> {title}")
         if summary:
             lines.append(f"<i>{summary}</i>")
-        lines.append(f'<a href="{link}">▸ 5단계 분석 보기</a>')
+        lines.append(f'<a href="{link}">▸ 분석 보기</a>')
         lines.append("")
     lines.append(f'🔗 <a href="{SITE_URL}/">전체 기사 보기</a>')
-    lines.append("#공급망전쟁 #기술패권 #반도체 #산업분석 #투자")
+    lines.append("#공급망전쟁 #기술패권 #반도체 #산업분석 #조달")
     return "\n".join(lines)
 
 
@@ -174,7 +179,7 @@ def send_cards_to_admin(articles, date_key) -> bool:
         link = f"{SITE_URL}/news/{date_key}-{i}.html"
         caption = (f"{emoji} [{cat}] {a.get('title','')}\n\n"
                    f"▸ {link}\n"
-                   f"#{cat} #공급망 #반도체 #산업분석 #투자")
+                   f"#{cat} #공급망 #반도체 #산업분석 #조달")
         try:
             with open(path, "rb") as fp:
                 resp = requests.post(url,
@@ -548,7 +553,7 @@ topic_key와 image_keyword도 아래와 겹치지 않게 하세요.
 - 모든 주장에 정량 수치(시장 점유율%, 투자 규모, 연도, 법안명, 기업명) 필수
 - 각 단계 최소 2개 이상 구체적 통계 수치 또는 기업명 포함
 - 제목: 15~25자, 핵심 팩트·수치 중심 (예: "중국 갈륨 수출 99% 차단, 한국 연간 700억 리스크")
-- summary: 2~3문장 핵심 요약 (150자 이내), 투자자 관점에서 서술
+- summary: 2~3문장 핵심 요약 (150자 이내), 조달 담당자 관점에서 서술
 - topic_key: 위 스키마 설명대로 사건 단위 정규화 키를 반드시 부여. 같은 사건이면 표현이 달라도 동일 키. {count}개 기사의 topic_key는 서로 달라야 하며, 위 '쿨다운'·'오늘 이미 작성한 기사' 목록의 키와 겹치면 새 전개가 없는 한 그 주제를 피할 것.
 - image_keyword: 사진으로 촬영 가능한 구체적 사물·장면 중심의 영문 2~4단어. 예: "gallium metal ingot", "tantalum ore mineral", "semiconductor wafer cleanroom", "rare earth magnet", "data center server rack".
   · 국가명·지명(Korea, Seoul, China, US 등)과 추상어(strategy, policy, economy, market, supply chain)는 넣지 말 것 — 도시 전경·국기 같은 무관한 사진이 나온다.
@@ -673,6 +678,238 @@ is_brief=true (속보성 글, 이번 배치에서 최대 1개):
     return articles
 
 
+# ── 2.1 새 형식(v2) 기사 생성 ───────────────────────────────────────
+# 독자는 구매·조달 담당자. 고정 5단계 대신 기사 유형별 소제목 구성(sections)을 쓴다.
+# 수치·사실은 번호 붙은 수집 자료에서만 가져오고, 쓴 자료 번호(source_ids)를 돌려받아
+# 코드가 실제 원문 링크로 바꾼다 — 모델이 링크·출처를 직접 쓰지 않으므로 지어낼 수 없다.
+def build_source_pool(raw_news_list, sojaetimes_briefing=None) -> list:
+    """프롬프트에 넣을 번호 붙은 자료 목록. 번호 = 리스트 위치 + 1."""
+    pool = []
+    if sojaetimes_briefing and sojaetimes_briefing.get("topics"):
+        for items in sojaetimes_briefing["topics"].values():
+            for it in items[:4]:
+                pool.append({"source": it.get("source", ""), "title": it.get("title", ""),
+                             "summary": it.get("summary", ""), "link": it.get("link", "")})
+    for item in raw_news_list[:18]:
+        pool.append({"source": item.get("source", ""), "title": item.get("title", ""),
+                     "summary": item.get("summary", ""), "link": item.get("link", "")})
+    return [p for p in pool if p["title"]]
+
+
+def _clean_list(val) -> list:
+    if isinstance(val, str):
+        val = val.split("\n")
+    return [str(v).strip() for v in (val or []) if str(v).strip()]
+
+
+def finalize_v2(part: list, pool: list) -> list:
+    """모델 출력 정리 + 검증. 본문·출처가 없는 기사는 버린다."""
+    out = []
+    for a in part:
+        secs = []
+        for sec in a.get("sections") or []:
+            ps = _clean_list(sec.get("paragraphs"))
+            if ps:
+                secs.append({"heading": (sec.get("heading") or "").strip(), "paragraphs": ps})
+        ids = []
+        for sid in a.get("source_ids") or []:
+            try:
+                n = int(sid)
+            except (TypeError, ValueError):
+                continue
+            if 1 <= n <= len(pool) and n not in ids:
+                ids.append(n)
+        if not secs or not ids:
+            print(f"   ⚠️ v2 기사 제외 — 본문 {len(secs)}개 섹션 / 유효 출처 {len(ids)}개: {a.get('title', '')[:40]}")
+            continue
+        a["format"] = "v2"
+        a["article_type"] = a.get("article_type") if a.get("article_type") in V2_TYPES else "explainer"
+        a["sections"] = secs
+        a["key_points"] = _clean_list(a.get("key_points"))[:3]
+        a["watch_items"] = [{"label": str(w.get("label", "")).strip(), "detail": str(w.get("detail", "")).strip()}
+                            for w in (a.get("watch_items") or []) if isinstance(w, dict) and w.get("label")][:4]
+        a["source_ids"] = ids
+        a["sources"] = [{"title": pool[n - 1]["title"], "url": pool[n - 1]["link"], "source": pool[n - 1]["source"]}
+                        for n in ids if pool[n - 1].get("link")]
+        # 기존 화면·검수와의 호환을 위해 5단계 필드는 빈 배열로 둔다
+        for field in ("fact", "meaning", "winner", "loser", "action"):
+            a[field] = []
+        a["is_brief"] = False
+        out.append(a)
+    return out
+
+
+def generate_articles_v2(raw_news_list, recent_titles, sojaetimes_briefing=None, cooldown_block=""):
+    count = ARTICLE_COUNT
+    pool = build_source_pool(raw_news_list, sojaetimes_briefing)
+    if not pool:
+        raise RuntimeError("수집 자료 0건 — 근거 없이 기사를 쓰지 않는다")
+
+    source_text = "\n".join(
+        f"[자료 {i}] ({p['source']}) {p['title']}\n    {p['summary'][:240]}"
+        for i, p in enumerate(pool, 1))
+    recent_block = ""
+    if recent_titles:
+        recent_list = "\n".join(f"  - {t}" for t in recent_titles[:40])
+        recent_block = f"""
+[최근 {RECENT_CONTEXT_DAYS}일 발행 기사 — 재탕 금지]
+표현·수치를 바꿔도 같은 사건·같은 결론이면 재탕입니다. 같은 토픽은 새로운 전개가 있을 때만, 그 변화점을 앞세워 다루세요.
+{recent_list}
+"""
+
+    prompt = f"""당신은 THE SIGNAL KOREA의 산업 해설 기자입니다. 독자는 기업의 구매·조달 담당자입니다.
+독자가 기사를 읽고 "우리 조달에 무엇이 바뀔 수 있고, 무엇을 확인해 봐야 하는지"를 스스로 판단하도록 돕는 것이 목표입니다.
+정답을 선언하거나 행동을 지시하지 않습니다.
+
+[수집 자료 — 이 목록에 있는 내용만 근거로 쓴다]
+{source_text}
+
+{recent_block}
+{cooldown_block}
+
+[근거 원칙 — 가장 중요]
+- 위 수집 자료에 있는 사실·수치·기업명·정책명만 쓴다. 자료에 없는 수치, 기억에 의존한 통계, 직접 계산한 추정 금액은 쓰지 않는다.
+- 근거로 쓴 자료 번호를 source_ids에 모두 적는다(최소 1개). 근거가 없는 문장은 쓰지 않는다.
+- 근거가 부족하면 "아직 확인되지 않았다", "공식 발표는 없다"고 밝힌다. 판단을 보류해도 된다.
+- 현장 경험, 인터뷰, 관계자 발언을 지어내지 않는다. "실제 조달 현장에서는" 같은 1인칭 관찰 문단을 쓰지 않는다.
+
+[문체]
+- 확인된 사실은 분명하게 쓰고, 전망·인과관계는 조건과 함께 쓴다("~하면 ~할 가능성이 있다").
+- 쓰지 않는 표현: 반드시, 확실한 승자, 최대 패자, 즉시 ~해야 한다, 폭발적, 붕괴, 패닉, 골든타임.
+- 투자 매수·매도 권유, 특정 공급처 교체 지시를 하지 않는다. 대신 독자가 점검할 항목을 제시한다
+  (예: 재고 일수, 계약의 가격조정·불가항력 조항, 단일 공급처 의존도, 대체 공급처 인증 기간).
+- 담백한 평서형으로 쓴다. 과장된 감탄이나 위기를 부추기는 제목은 쓰지 않는다. 제목은 15~30자.
+
+[카테고리 — 반드시 준수]
+- 공급망전쟁 1~2건(소재 중심). 나머지는 기술패권 / 산업전략 / 글로벌분석 중에서 고른다. 최소 2개 카테고리.
+- 하루 {count}건뿐이다. 한 사건을 여러 각도로 늘려 쓰지 말고, 오늘 가장 중요한 사안만 고른다.
+- {count}개 기사의 topic_key는 서로 달라야 하고, 쿨다운 목록의 키와 겹치면 새 전개가 없는 한 피한다.
+
+[기사 유형과 구성 — 필요한 소제목만 쓰고, 빈 섹션은 만들지 않는다]
+article_type 중 하나를 고른다.
+- brief(단신): 핵심 사실 → 필요한 배경 → 향후 일정. 섹션 1~2개, 600자 안팎.
+- explainer(뉴스 해설): 무슨 일이 있었나 → 왜 주목해야 하나 → 조달에 어떤 영향이 있을까. 1,200~1,800자.
+- analysis(심층 분석): 핵심 질문 → 사실과 데이터 → 구조적 배경 → 가능한 시나리오와 한계. 2,500자 이내.
+소제목 문구는 기사에 맞게 바꿔도 된다. 같은 내용을 두 섹션에서 되풀이하지 않는다.
+분량은 근거가 허락하는 만큼만 쓴다. 근거가 적으면 짧게 쓴다.
+
+[앞으로 볼 변수 — watch_items]
+explainer·analysis는 2~4개를 단다({{label, detail}}). 날짜·발표 주체·기준치처럼 독자가 나중에 직접 확인할 수 있는 것만 쓴다.
+brief는 비워도 된다. 이 내용은 sections에 다시 쓰지 않는다.
+
+[요약]
+- summary: 2문장, 120자 이내, 조달 담당자 관점.
+- key_points: 2~3개, 각 50자 이내. 확인된 사실 1개 이상과 아직 불확실한 점 1개를 넣는다.
+
+[image_keyword]
+사진으로 찍을 수 있는 구체적 사물·장면 영문 2~4단어(예: "gallium metal ingot", "semiconductor wafer cleanroom").
+국가명·지명·추상어(strategy, policy, market, supply chain)는 쓰지 않는다. {count}개 기사끼리 겹치지 않게 한다.
+
+save_articles 도구로 기사 {count}개를 저장하세요.
+- 첫 번째 기사(is_featured: true)는 공급망전쟁 또는 기술패권. 나머지는 is_featured=false.
+- timestamp: 현재 시각 기준 오전/오후 HH:MM 형식
+"""
+
+    request_params = dict(
+        model="claude-sonnet-4-6",
+        max_tokens=32000,
+        tools=[{
+            "name": "save_articles",
+            "description": f"생성된 기사 {count}개를 저장합니다",
+            "input_schema": {
+                "type": "object",
+                "properties": {
+                    "articles": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id":           {"type": "integer"},
+                                "topic_key":    {"type": "string", "description": "핵심 사건 정규화 키. 엔티티+사건을 한글 2~4단어 하이픈 연결(예: '고려아연-갈륨-국내생산'). 같은 사건이면 표현이 달라도 같은 키."},
+                                "category":     {"type": "string", "enum": ["기술패권","공급망전쟁","산업전략","글로벌분석"]},
+                                "tag_type":     {"type": "string", "enum": ["tag-hegemony","tag-supply","tag-strategy","tag-global"]},
+                                "article_type": {"type": "string", "enum": list(V2_TYPES)},
+                                "title":        {"type": "string"},
+                                "summary":      {"type": "string"},
+                                "key_points":   {"type": "array", "items": {"type": "string"}, "minItems": 2, "maxItems": 3},
+                                "sections": {
+                                    "type": "array", "minItems": 1, "maxItems": 5,
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "heading":    {"type": "string", "description": "소제목. 단신의 첫 섹션은 빈 문자열이어도 된다."},
+                                            "paragraphs": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 4},
+                                        },
+                                        "required": ["heading", "paragraphs"],
+                                    },
+                                },
+                                "watch_items": {
+                                    "type": "array", "maxItems": 4,
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {"label": {"type": "string"}, "detail": {"type": "string"}},
+                                        "required": ["label", "detail"],
+                                    },
+                                },
+                                "source_ids":    {"type": "array", "items": {"type": "integer"}, "minItems": 1,
+                                                  "description": "근거로 쓴 [자료 n]의 번호 n 목록"},
+                                "image_keyword": {"type": "string"},
+                                "is_featured":   {"type": "boolean"},
+                                "timestamp":     {"type": "string"},
+                            },
+                            "required": ["id","topic_key","category","tag_type","article_type","title","summary",
+                                         "key_points","sections","watch_items","source_ids",
+                                         "image_keyword","is_featured","timestamp"],
+                        },
+                        "minItems": count,
+                        "maxItems": count,
+                    }
+                },
+                "required": ["articles"],
+            },
+        }],
+        tool_choice={"type": "tool", "name": "save_articles"},
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    print(f"   → v2: 기사 {count}건 생성 중 (수집 자료 {len(pool)}건)...")
+    if llm_backend.using_subscription():
+        part = llm_backend.call_tool(request_params, "save_articles", effort="low")["articles"]
+    else:
+        client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+        with client.messages.stream(**request_params) as stream:
+            response = stream.get_final_message()
+        part = next(b for b in response.content if b.type == "tool_use").input["articles"]
+    if isinstance(part, str):
+        from json_repair import repair_json
+        part = json.loads(repair_json(part))
+
+    articles = finalize_v2(part, pool)
+    if not articles:
+        raise RuntimeError("v2 검증 통과 기사 0건")
+
+    featured_seen = False
+    for a in articles:
+        if a.get("is_featured") and not featured_seen:
+            featured_seen = True
+        else:
+            a["is_featured"] = False
+    if not featured_seen:
+        articles[0]["is_featured"] = True
+    return articles
+
+
+def generate_articles(raw_news_list, recent_titles, sojaetimes_briefing=None, cooldown_block=""):
+    """형식 스위치. v2가 실패하면 v1(5단계)로 자동 전환 — 발행이 멈추지 않게 한다."""
+    if ARTICLE_FORMAT == "v2":
+        try:
+            return generate_articles_v2(raw_news_list, recent_titles, sojaetimes_briefing, cooldown_block)
+        except Exception as e:
+            print(f"   ⚠️ v2 생성 실패 → v1(5단계)로 전환: {type(e).__name__}: {e}")
+            send_telegram(f"⚠️ 시그널 v2 생성 실패 → 5단계 형식으로 대체 발행\n{type(e).__name__}: {str(e)[:200]}")
+    return generate_articles_with_claude(raw_news_list, recent_titles, sojaetimes_briefing, cooldown_block)
+
+
 # ── 편집장 브리핑 + 핵심 시그널 생성 ───────────────────────────────
 def generate_editorial(articles):
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
@@ -685,7 +922,8 @@ def generate_editorial(articles):
 {titles_text}
 
 위 기사를 바탕으로 save_editorial 도구를 사용해:
-1. briefing: 오늘 글로벌 기술·산업 패권 전체 흐름을 2~3문장으로 요약 (150자 이내, 편집장 코멘트 느낌, 투자자 관점)
+1. briefing: 오늘 글로벌 기술·산업 패권 전체 흐름을 2~3문장으로 요약 (150자 이내, 조달 담당자 관점).
+   위 기사에 나온 내용만 쓰고, 단정·위기 조성 표현 없이 담백하게 쓴다.
 2. signals: 현재 진행 중인 핵심 신호(Signal) 4~5개
    - icon: 🔴(위험/긴급) 🟡(주의/모니터링) 🟢(기회/긍정)
    - label: 시그널명 (15자 이내)
@@ -1172,8 +1410,12 @@ def main():
         print("📊 sojaetimes 전문 인텔리전스 브리핑 로드 중...")
         sojaetimes_briefing = load_sojaetimes_briefing()
 
-        print("✍️  Claude API로 기사 작성 중...")
-        articles = generate_articles_with_claude(raw_news, recent_titles, sojaetimes_briefing, cooldown_block)
+        # 근거 없이 쓰지 않는다 (2.1) — 수집 자료가 하나도 없으면 오늘 발행을 멈춘다
+        if not raw_news and not (sojaetimes_briefing or {}).get("topics"):
+            raise RuntimeError("수집 뉴스 0건 — 근거 자료 없이 기사를 생성하지 않음")
+
+        print(f"✍️  Claude로 기사 작성 중 (형식 {ARTICLE_FORMAT})...")
+        articles = generate_articles(raw_news, recent_titles, sojaetimes_briefing, cooldown_block)
         brief_count = sum(1 for a in articles if a.get("is_brief"))
         print(f"   → 기사 {len(articles)}건 생성됨 (속보형 {brief_count}건)")
 
