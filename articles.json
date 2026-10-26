@@ -1,82 +1,85 @@
 {
-  "generated_at": "2026년 10월 26일 08:16",
-  "date_str": "2026년 10월 26일",
-  "date_key": "2026-10-26",
+  "generated_at": "2026년 10월 27일 08:16",
+  "date_str": "2026년 10월 27일",
+  "date_key": "2026-10-27",
   "articles": [
     {
       "id": 0,
-      "topic_key": "중국-핵심광물-AI로봇-공급망리스크",
+      "topic_key": "고려아연-게르마늄-가격급등",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "article_type": "explainer",
-      "title": "중국 광물 통제, AI·로봇 소재로 전선 확산",
-      "summary": "중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대되고 있다. 조달 담당자는 자사 제품의 소재 구성이 해당 통제 범위에 포함되는지 점검이 필요한 시점이다.",
+      "title": "게르마늄값 2배 급등, 고려아연 선제투자 재조명",
+      "summary": "게르마늄 현물 가격이 2배 수준으로 뛰면서 고려아연의 선행 투자가 업계의 관심을 받고 있다. 게르마늄 함유 부품을 조달하는 담당자라면 공급처 현황과 계약 조건을 확인해볼 시점이다.",
       "key_points": [
-        "중국 핵심광물 통제가 반도체 소재에서 AI·로봇 산업 소재로 전선이 확대됐다",
-        "어떤 소재가 다음 통제 대상이 될지 공식 발표는 없다",
-        "AI 가속기·산업로봇 부품 조달에서 중국산 소재 의존도가 어느 수준인지는 기업별로 확인이 필요하다"
+        "게르마늄 가격이 2배 수준으로 상승했다고 헤럴드경제가 10월 25일 보도했다",
+        "고려아연의 게르마늄 관련 선제 투자가 업계에서 재평가받고 있다",
+        "자원 확보가 반도체 강국 한국의 다음 과제로 부상 중이나 구체적 조달 대책은 아직 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "중국의 핵심광물 수출통제가 갈륨·게르마늄·안티모니 등 반도체 소재 중심에서 AI 가속기 부품과 산업용 로봇 액추에이터에 사용되는 핵심 소재로 전선이 넓어지고 있다는 분석이 나왔다. 통제 범위가 확대되면 단순히 반도체 공급망뿐 아니라 AI 인프라 구축과 로봇 제조 전반에 영향이 미칠 수 있다는 우려가 제기되고 있다.",
-            "중국의 산업용 로봇 수출액이 처음으로 수입액을 추월했다는 수치도 주목할 만하다. 중국산 로봇이 글로벌 제조 현장에 침투하는 속도가 빨라지는 상황에서, 핵심 소재에 대한 통제가 강화될 경우 공급망 구조 전체에 복합적인 압력이 가해질 가능성이 있다."
+            "헤럴드경제가 10월 25일 보도한 기사에 따르면, 게르마늄 가격이 이전 대비 2배 수준으로 올랐다. 기사는 이 같은 가격 급등 국면에서 고려아연이 앞서 게르마늄 관련 투자를 진행해놓은 사실이 '선견지명'으로 재조명받고 있다고 전했다.",
+            "쿠키뉴스는 10월 23일 '반도체 강국, 다음 과제는 자원 확보'라는 제목의 취재 칼럼을 통해, 한국이 반도체 제조 역량을 갖추고 있어도 핵심 원자재 확보 경로가 취약하면 생산 안정성이 흔들릴 수 있다는 구조적 문제를 지적했다. 게르마늄은 그 대표 사례로 거론됐다."
           ]
         },
         {
-          "heading": "왜 주목해야 하나",
+          "heading": "왜 조달 담당자가 주목해야 하나",
           "paragraphs": [
-            "기존 통제는 '가격' 충격에 집중됐으나 이제는 '공급망' 가용성 자체를 흔드는 방향으로 성격이 바뀌고 있다는 분석이 있다. 가격이 오르는 것과, 아예 공급이 끊길 수 있다는 것은 조달 계약 구조와 재고 전략에서 다른 대응을 요구한다.",
-            "AI 데이터센터·로봇 통합 자동화 설비를 조달하거나 관련 소재를 구매하는 담당자라면, 납품 제품에 들어가는 소재 목록과 원산지 확인 범위를 부품 단위 이상으로 넓혀야 할 수 있다."
+            "가격이 단기간에 2배로 오른 원자재는 이를 중간재로 포함한 부품의 납품 단가에도 압력을 가할 수 있다. 공급업체가 계약 기간 중 가격 재협상을 요청하거나, 재고 확보를 이유로 납기를 늘릴 가능성이 있다.",
+            "국내에서는 고려아연이 게르마늄 관련 투자를 선행했다는 사실이 알려졌지만, 이 투자가 외부 조달 경로로 얼마나 연결되는지, 공급 가능한 규격과 수량은 어느 수준인지는 아직 공개된 정보가 제한적이다."
           ]
         },
         {
           "heading": "조달에서 확인해볼 항목",
           "paragraphs": [
-            "현재 계약 중인 AI 가속기 부품 또는 산업용 로봇 액추에이터에 어떤 소재가 사용되는지, 그 소재의 원산지 비중이 어느 수준인지를 공급업체에 확인하는 것이 출발점이 될 수 있다. 공급업체가 Tier2 이하 소재까지 추적 가능한지도 점검 대상이다.",
-            "기존 계약의 불가항력 조항이 수출통제로 인한 공급 중단을 포함하는지, 가격 조정 트리거가 어떻게 설정돼 있는지도 함께 살펴볼 필요가 있다."
+            "현재 게르마늄 혹은 게르마늄 함유 소재를 포함한 부품의 공급처가 단일 경로에 집중되어 있는지 점검해볼 수 있다. 특히 장기 계약의 경우, 원자재 가격 변동을 반영하는 가격조정 조항이 포함되어 있는지 확인이 필요하다.",
+            "현 재고 수준과 평균 소진 기간도 살펴볼 항목이다. 가격 급등기에는 공급자 측 재고가 줄어들 수 있어, 리드타임이 평소보다 길어질 가능성을 감안한 발주 계획 검토가 도움이 될 수 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "중국 수출통제 품목 추가 발표",
-          "detail": "중국 상무부의 전략광물 수출허가제 적용 품목 추가 여부를 정기적으로 확인"
+          "label": "고려아연 게르마늄 관련 공시",
+          "detail": "고려아연이 게르마늄 생산·판매 관련 구체적 수량이나 공급 계획을 공시하는지 확인. 외부 조달 경로 확장 여부 판단에 참고 가능."
         },
         {
-          "label": "AI·로봇 소재 납기 변화",
-          "detail": "AI 가속기 부품·로봇 액추에이터 주요 소재의 리드타임이 기존 대비 길어지는지 공급업체 주간 확인"
+          "label": "게르마늄 현물 가격 추이",
+          "detail": "2배 급등 이후 추가 상승 또는 안정화 여부. 공급업체의 단가 재협상 요청 시점과 연동될 가능성이 있음."
         },
         {
-          "label": "한국 정부 공급망 점검 후속 조치",
-          "detail": "산업부의 핵심광물 공급망 긴급점검 결과 발표 및 추가 대응책 공표 여부"
+          "label": "정부 핵심광물 비축 현황",
+          "detail": "게르마늄이 국가 전략 비축 광물에 포함되어 있는지, 비축량과 방출 조건이 공개되어 있는지 산업통상자원부 고시 기준으로 확인 가능."
         }
       ],
       "source_ids": [
-        3,
-        14,
-        4
+        1,
+        17,
+        18
       ],
-      "image_keyword": "industrial robot assembly line actuator",
+      "image_keyword": "germanium ingot semiconductor material",
       "is_featured": true,
-      "timestamp": "오전 09:15",
+      "timestamp": "오전 09:00",
       "format": "v2",
       "sources": [
         {
-          "title": "中 핵심광물 통제, ‘가격’에서 ‘공급망’으로… AI·로봇 산업까지 리스크 확산 - 인더스트리뉴스",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhMXVzVVdVbkpPS0NDcUhpOUgyUHdDRENVUGZhZFFZMTR5T0toY2N1Ty1rbWMtNjlRdXI5eGExaG5weVMteXFqZjlvQmpXWm0tUzNHQ1JDRmx3NklqS1o0Q2F3Y2pYck1Lb2JUZ3R3bWVmZw?oc=5",
-          "source": "GoogleNews"
+          "title": "게르마늄값 2배 ‘껑충’…재조명받는 고려아연의 ‘선견지명’ [비즈360] - 헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xd0k4ZlJxRjlDdzE2TlczRmRFeUJXV2hYX2VUSWxQQnFHeXRWZ3Ffc2NLNF9XOGRwRzVJRzlDU2cwM2tEWEdCTnRBaXU3ci1XREgtM2RkcDZJdmtrUnFSdGFNOA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-25"
         },
         {
-          "title": "중국 산업용 로봇 수출액, 수입액 첫 추월… 글로벌 공급망 재편 예고 - 산업일보",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE0zQXNyZEVyc2NNR3hmVGpKUW81UjBEeGJOVFVwQm1KUUhIRHE5RVRzRG4xQV9rcGZBbS1sNlpTaXFTaE9s?oc=5",
-          "source": "GoogleNews"
+          "title": "반도체 강국, 다음 과제는 자원 확보 [취재진담] - 쿠키뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhd1g3RzR4S3RTTTRoLWF6VEtIS2NvMl9oX245MXo5VUdiXzBfVFczN0ttNVBFbk1hN21fU3pmbDZiZG9xQTdPOGExNXQyR2xwWGZlZEVnZVAzbi1UVmlnOC1vUQ?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-23"
         },
         {
-          "title": "[기획]⑧자원 전쟁은 광산보다 수출통제에서 시작된다 - 기후에너지경제",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5fSG9HZVE2ZFpFeEhBVWV2dXBGX085MUhtajlhamhkdVVOM1k2NkVJLWRTbzZVcDFIQVNXRU5kbjJnczBrQV8zam8tbXZaT2F1blQ0OU1rSFJ6ckNmZE94SXdSWko?oc=5",
-          "source": "GoogleNews"
+          "title": "게르마늄값 2배 ‘껑충’…재조명받는 고려아연의 ‘선견지명’ [비즈360] - 헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xd0k4ZlJxRjlDdzE2TlczRmRFeUJXV2hYX2VUSWxQQnFHeXRWZ3Ffc2NLNF9XOGRwRzVJRzlDU2cwM2tEWEdCTnRBaXU3ci1XREgtM2RkcDZJdmtrUnFSdGFNOA?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-25"
         }
       ],
       "fact": [],
@@ -85,234 +88,43 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-26_article_0.jpg",
+      "image_url": "images/2026-10-27_article_0.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "중국 산업용 로봇 수출액이 수입액을 '처음으로' 추월했다는 수치의 기준 연도 불명확",
-          "갈륨·게르마늄·안티모니 통제가 AI 가속기 부품까지 공식 확대됐다는 직접 근거 미확인"
+          "게르마늄 가격 '이전 대비 2배' 수준 급등 — 구체적 기준 시점·출처 미명시",
+          "고려아연의 게르마늄 관련 투자 내용·규모가 공개 정보로 검증되지 않음",
+          "헤럴드경제·쿠키뉴스 기사 실제 게재 여부 및 인용 내용 일치 여부 확인 필요"
         ],
         "image_keyword_ok": true,
-        "notes": "주요 사실은 개연성 있으나 일부 수치의 출처·시점 확인 권고",
-        "verified_at": "2026-10-26 08:16"
-      }
-    },
-    {
-      "id": 1,
-      "topic_key": "미중-반도체패권-한국전략-산업안보융합",
-      "category": "기술패권",
-      "tag_type": "tag-hegemony",
-      "article_type": "analysis",
-      "title": "미중 기술 격리 고착화, 한국의 선택 구조",
-      "summary": "미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국 정부는 산업·안보 융합 전략을 공식화했으나, 실행 조건과 성과 측정 기준은 아직 불확실하다.",
-      "key_points": [
-        "미중 정상회담에서 AI·반도체 수출통제 합의가 불발됐고 양국 빗장은 유지됐다",
-        "한국 정부가 반도체·이차전지·첨단소재를 안보와 연계하는 산업·안보 융합전략을 공식 착수했다",
-        "한국이 미중 사이에서 균형자 역할을 할 수 있는지, 아니면 선택을 강요받는 구조인지는 아직 판단이 어렵다"
-      ],
-      "sections": [
-        {
-          "heading": "핵심 질문",
-          "paragraphs": [
-            "미중 기술패권 경쟁이 장기화되는 가운데, 한국 기업의 공급망은 어느 방향으로 압력을 받고 있는가. 미국의 AI칩 수출허가 강화와 중국의 맞대응 핵심광물 통제가 동시에 가속되며 한국 반도체 공급망이 양방향 압박을 받는 구조가 현실화됐다는 분석이 제기된다."
-          ]
-        },
-        {
-          "heading": "사실과 데이터",
-          "paragraphs": [
-            "미중 정상회담에서 AI·반도체 수출통제와 관련한 합의가 재차 불발됐다. 양국의 첨단기술 빗장은 유지됐으며, 미국은 엔비디아·AMD의 AI 반도체를 전 세계 어느 국가에 수출하더라도 미국 정부 허가를 의무화하는 방향을 추진 중이다.",
-            "한국 반도체 업계 내부에서는 '미중 갈등이 없었다면 중국 반도체가 이미 한국 턱밑까지 왔을 것'이라는 자성이 나오고 있다고 한국일보가 전했다. 이는 현재의 경쟁력이 기술 우위만이 아니라 지정학적 보호막에도 의존해 왔다는 의미로 읽힐 수 있다.",
-            "한국 정부는 미중 기술패권 경쟁이 장기화됨에 따라 반도체·이차전지·첨단소재를 안보와 연계하는 산업·안보 융합전략을 공식 착수했다. 서울대 국가미래전략원도 관련 포럼을 열어 대응 전략을 논의했다."
-          ]
-        },
-        {
-          "heading": "구조적 배경",
-          "paragraphs": [
-            "한국은 메모리 반도체 수출의 상당 부분을 중국 시장에 의존하면서 동시에 미국 기술 생태계 안에서 제조하는 이중 구조를 유지해 왔다. 미중 기술 격리가 고착화될수록 이 이중 구조를 동시에 유지하는 비용이 높아질 가능성이 있다.",
-            "미중 규제 충돌이 글로벌 반도체 공급망에 미치는 파장은 한국에 위기와 기회를 동시에 던지고 있다는 분석도 있다. 중국이 저가 AI칩으로 파상공세를 펼치면서 ASML 등 서방 반도체 장비 기업의 실적 하방 압력이 현실화되는 상황도 공급망 재편의 속도를 가늠하는 변수다."
-          ]
-        },
-        {
-          "heading": "가능한 시나리오와 한계",
-          "paragraphs": [
-            "시나리오 하나는 미중 기술 블록이 고착화되며 한국이 미국 진영으로의 완전한 편입을 선택하는 경우다. 이 경우 중국 매출 의존 기업은 대체 시장 확보가 선결 과제가 된다.",
-            "또 다른 시나리오는 한국이 전략적 균형외교를 유지하며 양쪽 모두에 납품하는 구조를 지속하는 경우다. 그러나 미국의 수출허가 의무화 범위가 확대될 경우 이 여지가 좁아질 수 있다는 점은 변수다. 현재로서는 어느 시나리오가 현실화될지 공식 확인된 바가 없다."
-          ]
-        }
-      ],
-      "watch_items": [
-        {
-          "label": "미국 AI칩 수출허가 의무화 범위 확정",
-          "detail": "트럼프 행정부의 엔비디아·AMD 전세계 수출 허가 의무화 규정의 최종 발효 범위와 시점"
-        },
-        {
-          "label": "한국 산업·안보 융합전략 세부 발표",
-          "detail": "산업부의 반도체·이차전지·첨단소재 연계 안보전략 구체 내용 및 기업 의무사항 포함 여부"
-        },
-        {
-          "label": "미중 추가 협상 일정",
-          "detail": "미중 정상급 또는 실무급 반도체·기술 협상 재개 여부 및 의제"
-        },
-        {
-          "label": "중국 맞대응 통제 품목 추가",
-          "detail": "미국 수출허가 강화에 대한 중국의 핵심광물·소재 추가 통제 발표 여부"
-        }
-      ],
-      "source_ids": [
-        7,
-        23,
-        24,
-        21,
-        5,
-        22
-      ],
-      "image_keyword": "semiconductor chip wafer fabrication equipment",
-      "is_featured": false,
-      "timestamp": "오전 09:15",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "'미중 기술패권' 시대…정부, 산업·안보 융합 전략 마련 나선다 - 뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tYXNWYmh6dXJ3MzVZQkxieUR2dzNjSm1HNXRLUXljbVdFT2ktLVA2S2MyVTAwLXYzS3AxSjRnRVFlNnRGSnRIQmVkdXdLdW9PdXhsYlhGNGYtV1BmMTk1RdIBeEFVX3lxTE5QVFdJQlYybUo0TTlzXzR2c1ZkUlR5VU5SaVNIR281b3NoM1BSOGwyem0zd3Niak92SERnZWJPeW5EUGpOYWZfQzJiNXN6eHpfbVFnQS1TbmpUWDJHd1cxZjRCdG01LTBFOXZCdW1BRUZCaUdQMWVpVg?oc=5",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "\"미·중 갈등 없었다면... 중국 반도체, 한국 턱밑까지 위협했을 것\" [인터뷰] - 한국일보",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRMGhfZ2xLMWZLdGpOZHQ4Ynh1dV9GOURTaVhjTGFtektkdVB3ODZNS0FyZ29DTXV6R2dkRUEybC1pSnNSOGNxRXY3eGJBSDNHcUFHcDNETUhMMkItekNaX2ZuTjJISHBxZTBnd2R30gFzQVVfeXFMT2FUUnRpZ1JReUxLX1Y1ZnhPTmxwOXhKaGhjWVJYRkt4cTRnazZ3d1J6b1lJY1Q3TE56cEdkenhjcGxVcUxHMGFWdDRmc3ZxVnUwTk9EWUUxaFpsWk9USXpTUlRsRlQzYk5kZHFWSE5HSC1JZw?oc=5",
-          "source": "Google뉴스-미중패권"
-        },
-        {
-          "title": "미·중 정상, 타협 없이 패권 경쟁 지속…첨단기술 빗장 유지에 K반도체 ‘안도’ - 경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6Sk1mMmw1YmpYTUhOMENCMU9HTjgwUktXVk8td0Z6ZHlWV01KYnJSZjk1VmpzVHFMUEVOaTlFaW96QkNNUTRMMUs2RjZqR0h3d3d5Ny1waVpPZ9IBX0FVX3lxTFB6VGRpSmFwY2h0REJwZGFtSVlHazhUcmNDN0xZVDZrQ2JlWEQ5Y0JRb0V6Q1NtbnRHazJOY3l1T3J1dEVJSGxwMktmVkVfd3lDdVh0bXVabW9fY3lBQ3Y0?oc=5",
-          "source": "Google뉴스-미중패권"
-        },
-        {
-          "title": "미중 규제 충돌, 글로벌 반도체 공급망에 파장…韓도 ‘위기와 기회’ - 더구루",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RNzd5RURKUTkwcGgzb2F6RkQ0clN2WERQVVpEenotT01xTUs4MlZiRDdLeGNydHhjS3VGYjd5ZDhRVFFLczRlTDNaTWRZQ3Q5UmNiUzBlUDV0XzNLVFc3STV3?oc=5",
-          "source": "Google뉴스-공급망패권"
-        },
-        {
-          "title": "미중 반도체 패권 격돌의 진짜 승자는 -> 기술 장벽 비웃는 차이나 AI 굴기 -> 반토막 난 ASML 실적 경고등 => 대중국 제재 부메랑 맞은 서방 반도체 진영 = 저가형 AI 파상공세 펼치는 중국 > 글로벌 빅테크 수익성 신기루 무너진다 - 데일리머니",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oS1hrcC1yUTJoUU1ZbXN1cVZzUUhwallJaEt1RXc0OVkyWVVCeEs2WUlhOGFZY0Z5clk4VGUzNnoydDRka1p5WWJQWUFFNDRfR0cwZy1PdHREa1gwVEVjdklfbnFIbkd6blRtZWxvT1lMUQ?oc=5",
-          "source": "GoogleNews"
-        },
-        {
-          "title": "AI의 찬란한 폭주와 어두운 그림자 > 기술 패권과 독점, 그리고 보안 패러다임의 대전환 -> 미중 반도체 패권 전쟁 역설과 중국 기술 자립 가속화 현상 분석 - 데일리머니",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5T19HTnlrVlFSUzA5amhzbW50MjhwNFkzRFdOQXhlNzF4UnNqX3dYcW9uMllIemZWMXVleUZMU2MxaDRNNlNVV1RNc1ozRHpOZHdvY1ZyZllYQnJGeW1vTXFQdklHZ0h3dHpXUTU5RlJ5bmM?oc=5",
-          "source": "Google뉴스-미중패권"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-10-26_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "미중 정상회담에서 AI·반도체 합의 '재차 불발' — 구체적 회담 일정·결과 출처 불명확",
-          "엔비디아·AMD 전 세계 수출 미국 허가 의무화 추진 — 확정 법령 여부 미확인",
-          "ASML 실적 '반토막' 표현 — 구체 수치 없이 과장될 가능성"
-        ],
-        "image_keyword_ok": true,
-        "notes": "지정학 분석 기사로 개연성 높으나 일부 미확정 정책을 기정사실처럼 서술",
-        "verified_at": "2026-10-26 08:16"
-      }
-    },
-    {
-      "id": 2,
-      "topic_key": "일본-IP전략-첨단산업-특허공급망",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
-      "article_type": "brief",
-      "title": "일본, 17개 성장산업에 특허 전략 내재화",
-      "summary": "일본이 AI·반도체 등 17개 성장산업에 IP 전략을 산업 정책 안에 직접 심는 방식으로 전환했다. 특허를 별도 관리하지 않고 산업 전략과 통합한 이 접근은 공급망 협력사 선정 시 지식재산 요건이 강화될 가능성을 시사한다.",
-      "key_points": [
-        "일본이 AI·반도체 등 17개 성장산업에 IP 전략을 내재화하는 방향으로 정책을 전환했다",
-        "한국 소부장 기업이 일본 공급망에 진입하거나 유지하려면 특허 포트폴리오 요건이 강화될 가능성이 있다",
-        "구체적인 IP 요건 기준과 적용 시점은 아직 공식 확인되지 않았다"
-      ],
-      "sections": [
-        {
-          "heading": "",
-          "paragraphs": [
-            "일본 정부가 AI·반도체를 포함한 17개 성장산업에 IP(지식재산) 전략을 별도로 분리하지 않고 산업 전략 안에 직접 내재화하는 방향으로 정책을 전환했다. '특허를 따로 보지 않는다'는 표현이 상징하듯, 기술 개발-특허-공급망 진입이 하나의 흐름으로 연결된다는 구조다.",
-            "한국 소부장 기업 입장에서 이 변화는 일본 고객사 또는 일본계 제조 거점과의 공급 계약을 체결하거나 갱신할 때 특허 포트폴리오와 기술 독립성에 대한 질문을 받을 가능성이 높아진다는 의미로 해석될 수 있다. 다만 구체적인 IP 요건 기준과 적용 일정은 현재 공식 발표된 바가 없다."
-          ]
-        }
-      ],
-      "watch_items": [],
-      "source_ids": [
-        29,
-        28
-      ],
-      "image_keyword": "Japan IP strategy semiconductor patent",
-      "is_featured": false,
-      "timestamp": "오전 09:15",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "“특허를 따로 보지 않는다”... 일본, AI·반도체 등 17개 성장산업에 ‘IP 전략’ 심었다 - 특허뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5UVW1QVmxEeUJ4WkhRWVVCWG94ZWdDSmtOblRnZXJscXB4eVpCaU53ODNpaTNYZG95cXRLRkhtVWxheVNfRXFGQg?oc=5",
-          "source": "Google뉴스-AI산업"
-        },
-        {
-          "title": "일본 '2026 반도체·디지털산업전략' 재편이 한국 제조업에 던지는 구조적 질문 - 뉴스N연합",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tZE82Q1Bsa3pMNnAzbWVPY09sSUxMY2cyamJ2TDFVOEZIYm1iN1oxU2JRbDlKSlBMYW5FSmNYcGtDVFA5ZU80aHZFSXhpSU0?oc=5",
-          "source": "Google뉴스-AI산업"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-10-26_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "'2026 반도체·디지털산업전략'의 17개 성장산업 목록 및 공식 문서 출처 미제시",
-          "IP 전략 내재화의 구체적 적용 기준·일정이 공식 발표 없다고 기사 자체가 인정"
-        ],
-        "image_keyword_ok": false,
-        "notes": "정책 방향성은 개연성 있으나 키워드가 내용과 거리 있어 대체 권고",
-        "verified_at": "2026-10-26 08:16"
+        "notes": "인용 매체·기업명 실존, 가격 급등 맥락 개연성 있음. 수치 출처 명시 보완 권고",
+        "verified_at": "2026-10-27 08:17"
       }
     }
   ],
-  "editorial_briefing": "중국의 핵심광물 수출통제가 AI 가속기·산업용 로봇 소재로 확대되고 있으며, 미중 기술 격리 고착화로 한국 조달 전략의 재편 압력이 커지고 있다. 일본은 17개 성장산업에 특허 전략을 내재화해 기술 주권 확보에 나섰다.",
+  "editorial_briefing": "게르마늄 현물 가격이 2배 수준으로 급등하면서 고려아연의 선제 투자가 업계 주목을 받고 있다. 게르마늄 함유 부품 조달 담당자는 공급처 현황 점검이 필요한 시점이다.",
   "key_signals": [
     {
       "icon": "🔴",
-      "label": "중국 광물 수출통제",
-      "status": "AI·로봇 소재 확산"
-    },
-    {
-      "icon": "🔴",
-      "label": "미중 기술 격리",
-      "status": "합의 재차 불발"
+      "label": "게르마늄 가격 급등",
+      "status": "현물 2배 수준"
     },
     {
       "icon": "🟡",
-      "label": "한국 조달 전략",
-      "status": "선택 구조 압박"
+      "label": "부품 공급처 점검",
+      "status": "조달 리스크 주의"
     },
     {
       "icon": "🟢",
-      "label": "일본 IP 전략",
-      "status": "산업정책 내재화"
+      "label": "고려아연 선제투자",
+      "status": "공급 안정성 부각"
     },
     {
       "icon": "🟡",
-      "label": "AI 부품 공급망",
-      "status": "리스크 점검 필요"
+      "label": "희소금속 수급 변동",
+      "status": "모니터링 필요"
     }
   ],
-  "last_reviewed_at": "2026-10-26 08:16"
+  "last_reviewed_at": "2026-10-27 08:17"
 }

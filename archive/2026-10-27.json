@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026년 10월 27일 08:16",
+  "date_str": "2026년 10월 27일",
+  "date_key": "2026-10-27",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "고려아연-게르마늄-가격급등",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "explainer",
+      "title": "게르마늄값 2배 급등, 고려아연 선제투자 재조명",
+      "summary": "게르마늄 현물 가격이 2배 수준으로 뛰면서 고려아연의 선행 투자가 업계의 관심을 받고 있다. 게르마늄 함유 부품을 조달하는 담당자라면 공급처 현황과 계약 조건을 확인해볼 시점이다.",
+      "key_points": [
+        "게르마늄 가격이 2배 수준으로 상승했다고 헤럴드경제가 10월 25일 보도했다",
+        "고려아연의 게르마늄 관련 선제 투자가 업계에서 재평가받고 있다",
+        "자원 확보가 반도체 강국 한국의 다음 과제로 부상 중이나 구체적 조달 대책은 아직 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "헤럴드경제가 10월 25일 보도한 기사에 따르면, 게르마늄 가격이 이전 대비 2배 수준으로 올랐다. 기사는 이 같은 가격 급등 국면에서 고려아연이 앞서 게르마늄 관련 투자를 진행해놓은 사실이 '선견지명'으로 재조명받고 있다고 전했다.",
+            "쿠키뉴스는 10월 23일 '반도체 강국, 다음 과제는 자원 확보'라는 제목의 취재 칼럼을 통해, 한국이 반도체 제조 역량을 갖추고 있어도 핵심 원자재 확보 경로가 취약하면 생산 안정성이 흔들릴 수 있다는 구조적 문제를 지적했다. 게르마늄은 그 대표 사례로 거론됐다."
+          ]
+        },
+        {
+          "heading": "왜 조달 담당자가 주목해야 하나",
+          "paragraphs": [
+            "가격이 단기간에 2배로 오른 원자재는 이를 중간재로 포함한 부품의 납품 단가에도 압력을 가할 수 있다. 공급업체가 계약 기간 중 가격 재협상을 요청하거나, 재고 확보를 이유로 납기를 늘릴 가능성이 있다.",
+            "국내에서는 고려아연이 게르마늄 관련 투자를 선행했다는 사실이 알려졌지만, 이 투자가 외부 조달 경로로 얼마나 연결되는지, 공급 가능한 규격과 수량은 어느 수준인지는 아직 공개된 정보가 제한적이다."
+          ]
+        },
+        {
+          "heading": "조달에서 확인해볼 항목",
+          "paragraphs": [
+            "현재 게르마늄 혹은 게르마늄 함유 소재를 포함한 부품의 공급처가 단일 경로에 집중되어 있는지 점검해볼 수 있다. 특히 장기 계약의 경우, 원자재 가격 변동을 반영하는 가격조정 조항이 포함되어 있는지 확인이 필요하다.",
+            "현 재고 수준과 평균 소진 기간도 살펴볼 항목이다. 가격 급등기에는 공급자 측 재고가 줄어들 수 있어, 리드타임이 평소보다 길어질 가능성을 감안한 발주 계획 검토가 도움이 될 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "고려아연 게르마늄 관련 공시",
+          "detail": "고려아연이 게르마늄 생산·판매 관련 구체적 수량이나 공급 계획을 공시하는지 확인. 외부 조달 경로 확장 여부 판단에 참고 가능."
+        },
+        {
+          "label": "게르마늄 현물 가격 추이",
+          "detail": "2배 급등 이후 추가 상승 또는 안정화 여부. 공급업체의 단가 재협상 요청 시점과 연동될 가능성이 있음."
+        },
+        {
+          "label": "정부 핵심광물 비축 현황",
+          "detail": "게르마늄이 국가 전략 비축 광물에 포함되어 있는지, 비축량과 방출 조건이 공개되어 있는지 산업통상자원부 고시 기준으로 확인 가능."
+        }
+      ],
+      "source_ids": [
+        1,
+        17,
+        18
+      ],
+      "image_keyword": "germanium ingot semiconductor material",
+      "is_featured": true,
+      "timestamp": "오전 09:00",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "게르마늄값 2배 ‘껑충’…재조명받는 고려아연의 ‘선견지명’ [비즈360] - 헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xd0k4ZlJxRjlDdzE2TlczRmRFeUJXV2hYX2VUSWxQQnFHeXRWZ3Ffc2NLNF9XOGRwRzVJRzlDU2cwM2tEWEdCTnRBaXU3ci1XREgtM2RkcDZJdmtrUnFSdGFNOA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-25"
+        },
+        {
+          "title": "반도체 강국, 다음 과제는 자원 확보 [취재진담] - 쿠키뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhd1g3RzR4S3RTTTRoLWF6VEtIS2NvMl9oX245MXo5VUdiXzBfVFczN0ttNVBFbk1hN21fU3pmbDZiZG9xQTdPOGExNXQyR2xwWGZlZEVnZVAzbi1UVmlnOC1vUQ?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "게르마늄값 2배 ‘껑충’…재조명받는 고려아연의 ‘선견지명’ [비즈360] - 헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1xd0k4ZlJxRjlDdzE2TlczRmRFeUJXV2hYX2VUSWxQQnFHeXRWZ3Ffc2NLNF9XOGRwRzVJRzlDU2cwM2tEWEdCTnRBaXU3ci1XREgtM2RkcDZJdmtrUnFSdGFNOA?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-25"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-27_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "게르마늄 가격 '이전 대비 2배' 수준 급등 — 구체적 기준 시점·출처 미명시",
+          "고려아연의 게르마늄 관련 투자 내용·규모가 공개 정보로 검증되지 않음",
+          "헤럴드경제·쿠키뉴스 기사 실제 게재 여부 및 인용 내용 일치 여부 확인 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "인용 매체·기업명 실존, 가격 급등 맥락 개연성 있음. 수치 출처 명시 보완 권고",
+        "verified_at": "2026-10-27 08:17"
+      }
+    }
+  ],
+  "editorial_briefing": "게르마늄 현물 가격이 2배 수준으로 급등하면서 고려아연의 선제 투자가 업계 주목을 받고 있다. 게르마늄 함유 부품 조달 담당자는 공급처 현황 점검이 필요한 시점이다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "게르마늄 가격 급등",
+      "status": "현물 2배 수준"
+    },
+    {
+      "icon": "🟡",
+      "label": "부품 공급처 점검",
+      "status": "조달 리스크 주의"
+    },
+    {
+      "icon": "🟢",
+      "label": "고려아연 선제투자",
+      "status": "공급 안정성 부각"
+    },
+    {
+      "icon": "🟡",
+      "label": "희소금속 수급 변동",
+      "status": "모니터링 필요"
+    }
+  ],
+  "last_reviewed_at": "2026-10-27 08:17"
+}
