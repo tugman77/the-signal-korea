@@ -542,7 +542,7 @@
     const srcs = (article.sources || []).filter(x => x && x.url);
     if (srcs.length) {
       tail += `<div class="sources"><div class="sources-label">자료와 확인 기준</div><ul>${
-        srcs.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="nofollow noopener">${esc(x.title || x.url)}</a>${x.source ? ` <span style="color:var(--slate)">· ${esc(x.source)}</span>` : ''}</li>`).join('')
+        srcs.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="nofollow noopener">${esc(x.title || x.url)}</a>${(x.source || x.date) ? ` <span style="color:var(--slate)">· ${esc([x.source, x.date].filter(Boolean).join(' · '))}</span>` : ''}</li>`).join('')
       }</ul><div class="sources-note">수집한 원문 기사를 근거로 작성했습니다. 원문에서 확인되지 않는 수치는 싣지 않습니다.</div></div>`;
     }
     document.getElementById('v2-a').innerHTML = secs.slice(0, 2).join('');

@@ -116,7 +116,8 @@ def v2_body(article: dict) -> str:
     if srcs:
         items = "\n".join(
             f'            <li><a href="{esc(x["url"])}" target="_blank" rel="nofollow noopener">{esc(x.get("title") or x["url"])}</a>'
-            + (f' <span style="color:var(--slate)">· {esc(x.get("source"))}</span>' if x.get("source") else "")
+            + (f' <span style="color:var(--slate)">· {esc(" · ".join(v for v in (x.get("source"), x.get("date")) if v))}</span>'
+               if x.get("source") or x.get("date") else "")
             + "</li>"
             for x in srcs)
         parts.append(f'        <div class="sources">\n          <div class="sources-label">자료와 확인 기준</div>\n'

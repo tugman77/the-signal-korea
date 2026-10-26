@@ -23,6 +23,7 @@ import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK
 import 이미지필터    # 이미지 키워드 오매칭(예: wafer → 과자) 방지 필터
 import 이미지소스    # 외부 이미지 소스 API (Unsplash/Pexels/Pixabay)
 import 이미지풀      # 카테고리별 큐레이션 풀 (로컬 self-host + Unsplash hotlink)
+import 최신필터    # 7일 넘은 수집 기사 제외 (2026-10-26)
 import feedparser
 import json
 import os
@@ -279,12 +280,15 @@ def collect_news_from_rss(max_per_feed=5):
     collected = []
     for name, url in RSS_FEEDS:
         try:
-            feed = feedparser.parse(url)
-            for entry in feed.entries[:max_per_feed]:
+            feed = feedparser.parse(최신필터.recent_url(url))
+            fresh = [(e, 최신필터.entry_date(e)) for e in feed.entries]
+            fresh = [(e, d) for e, d in fresh if 최신필터.is_fresh(d)][:max_per_feed]
+            for entry, pub in fresh:
                 title   = entry.get("title", "")
                 summary = entry.get("summary", entry.get("description", ""))[:300]
                 link    = entry.get("link", "")
-                collected.append({"source": name, "title": title, "summary": summary, "link": link})
+                collected.append({"source": name, "title": title, "summary": summary, "link": link,
+                                  "published": 최신필터.date_label(pub)})
         except Exception as e:
             print(f"RSS 오류 [{name}]: {e}")
     return deduplicate_rss(collected)
@@ -690,10 +694,12 @@ def build_source_pool(raw_news_list, sojaetimes_briefing=None) -> list:
         for items in sojaetimes_briefing["topics"].values():
             for it in items[:4]:
                 pool.append({"source": it.get("source", ""), "title": it.get("title", ""),
-                             "summary": it.get("summary", ""), "link": it.get("link", "")})
+                             "summary": it.get("summary", ""), "link": it.get("link", ""),
+                             "published": it.get("published", "")})
     for item in raw_news_list[:18]:
         pool.append({"source": item.get("source", ""), "title": item.get("title", ""),
-                     "summary": item.get("summary", ""), "link": item.get("link", "")})
+                     "summary": item.get("summary", ""), "link": item.get("link", ""),
+                     "published": item.get("published", "")})
     return [p for p in pool if p["title"]]
 
 
@@ -734,7 +740,8 @@ def finalize_v2(part: list, pool: list) -> list:
         a["watch_items"] = [{"label": str(w.get("label", "")).strip(), "detail": str(w.get("detail", "")).strip()}
                             for w in (a.get("watch_items") or []) if isinstance(w, dict) and w.get("label")][:4]
         a["source_ids"] = ids
-        a["sources"] = [{"title": pool[n - 1]["title"], "url": pool[n - 1]["link"], "source": pool[n - 1]["source"]}
+        a["sources"] = [{"title": pool[n - 1]["title"], "url": pool[n - 1]["link"], "source": pool[n - 1]["source"],
+                         "date": pool[n - 1].get("published", "")}
                         for n in ids if pool[n - 1].get("link")]
         # 기존 화면·검수와의 호환을 위해 5단계 필드는 빈 배열로 둔다
         for field in ("fact", "meaning", "winner", "loser", "action"):
@@ -751,7 +758,7 @@ def generate_articles_v2(raw_news_list, recent_titles, sojaetimes_briefing=None,
         raise RuntimeError("수집 자료 0건 — 근거 없이 기사를 쓰지 않는다")
 
     source_text = "\n".join(
-        f"[자료 {i}] ({p['source']}) {p['title']}\n    {p['summary'][:240]}"
+        f"[자료 {i}] ({p['source']}{', ' + p['published'] if p.get('published') else ''}) {p['title']}\n    {p['summary'][:240]}"
         for i, p in enumerate(pool, 1))
     recent_block = ""
     if recent_titles:
@@ -777,6 +784,7 @@ def generate_articles_v2(raw_news_list, recent_titles, sojaetimes_briefing=None,
 - 근거로 쓴 자료 번호를 source_ids에 모두 적는다(최소 1개). 근거가 없는 문장은 쓰지 않는다.
 - 근거가 부족하면 "아직 확인되지 않았다", "공식 발표는 없다"고 밝힌다. 판단을 보류해도 된다.
 - 현장 경험, 인터뷰, 관계자 발언을 지어내지 않는다. "실제 조달 현장에서는" 같은 1인칭 관찰 문단을 쓰지 않는다.
+- 자료 옆 날짜는 원문 발행일이다. 오늘 일어난 일처럼 쓰지 말고 시점을 문장에 밝힌다(예: "지난 21일 발표된"). 날짜가 없는 자료는 시점을 단정하지 않는다.
 
 [문체]
 - 확인된 사실은 분명하게 쓰고, 전망·인과관계는 조건과 함께 쓴다("~하면 ~할 가능성이 있다").
