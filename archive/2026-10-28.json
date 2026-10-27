@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026년 10월 28일 08:16",
+  "date_str": "2026년 10월 28일",
+  "date_key": "2026-10-28",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "엔비디아-삼성전기-FC-BGA-공급망편입",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "explainer",
+      "title": "엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정",
+      "summary": "엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 추가하고 한국 내 생산능력 확장을 결정했다. 조달 담당자는 FC-BGA 수급 일정과 단가 조정 조건을 점검할 시점이다.",
+      "key_points": [
+        "엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 편입하고 한국 내 증설을 결정했다",
+        "삼성전기 외 기존 공급처와의 물량 배분 구조 변화 여부는 아직 공개되지 않았다",
+        "FC-BGA 수요 집중이 지속될 경우 납기 및 단가 협상력이 공급사 측으로 이동할 가능성이 있다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "지난 22일 보도에 따르면 엔비디아가 삼성전기를 AI 가속기용 FC-BGA(플립칩 볼그리드어레이) 기판 공급망에 공식 추가하고, 한국 내 생산능력 확장 계획을 확정했다. FC-BGA는 AI 가속기와 고성능 서버 CPU를 메인보드에 연결하는 핵심 패키징 부품으로, 공급 병목이 반복되어 온 품목이다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "엔비디아의 AI 가속기 수요는 글로벌 데이터센터 투자와 직결된다. 단일 부품이라도 핵심 공급사가 추가되면 기존 공급처와의 물량 배분 구조, 납기 우선순위, 단가 기준선이 함께 재편될 수 있다.",
+            "삼성전기의 한국 내 증설이 실제 양산으로 이어지기까지는 인허가·장비 조달·공정 인증 기간이 필요하다. 증설 완료 시점과 공급 개시 일정이 아직 구체적으로 공개되지 않아, 단기 수급은 기존 공급 구조에 의존하는 상태가 지속될 가능성이 있다."
+          ]
+        },
+        {
+          "heading": "조달에서 점검할 항목",
+          "paragraphs": [
+            "FC-BGA를 직간접적으로 조달하는 담당자라면 몇 가지를 확인해볼 수 있다. 현재 계약에 가격조정 조항이 있는지, 단일 공급처 의존도가 어느 수준인지, 그리고 대체 공급처 인증에 걸리는 기간이 얼마나 되는지다. 엔비디아 공급망 편입으로 삼성전기의 생산 우선순위가 바뀔 경우, 기존 고객사 납기에 영향이 생길 수 있는지도 살펴볼 지점이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "삼성전기 한국 증설 완료 시점",
+          "detail": "증설 일정과 양산 개시 시점이 공식 발표되면 수급 전망의 기준선이 바뀐다."
+        },
+        {
+          "label": "기존 FC-BGA 공급사 물량 배분 변화",
+          "detail": "엔비디아가 이비덴·신코덴키 등 기존 공급사와의 발주 비중을 어떻게 조정하는지 분기 실적 발표에서 확인 가능하다."
+        },
+        {
+          "label": "FC-BGA 시장 납기 동향",
+          "detail": "AI 가속기 수요 집중 시 납기 장기화 여부를 공급사별 리드타임 변화로 추적할 수 있다."
+        }
+      ],
+      "source_ids": [
+        31,
+        32
+      ],
+      "image_keyword": "FC-BGA substrate circuit board",
+      "is_featured": true,
+      "timestamp": "오전 09:00",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Nvidia taps Samsung Electro-Mechanics for AI chips substrate supply chain - Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNWJSWlUxTDhUWTBac3YybHlXOTBiQUlvOE1zU3JaNEJEc3JZZWZHNzdjR0xqQjd3Y0tjQjJwQ0diUDVOd0lSQXdXT1Y1Nk5TdWRNWjUzSVA3NkZkdDF2cUV4T1hPYjJ3VFdzWjFnS3NVVEFvc2ViYWx3TmZTbnZYU1VUdmFTTk1JTmhieXJzMzY2Vk53d0lkNXBDWXIzUmhXRmpSaVhUbWN4VF9oR2tONUR5OFhPSU5RRkxBY3FNdXNZM00?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "Nvidia adds Samsung Electro-Mechanics to substrate supply chain, plans capacity expansion in S. Korea - The Korea Times",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbEFsREpNclhfYmFNTl9SdzdTckxUVUVJbXM1OXRiRmNkM2pmREdtOTR2c29LR2hsTnpxbFIzNXU2SlVOR1NCQXNpdnJOanhxUmo3a2RWLTFIUENhaDZNN2pPS3VrSTR3UUN1QlE4aXIxZ1A2QTVVM1BYOGRYZV96N0RXNEJrdnROOFdkV2xOVjMzNWdkQUV1Wl9QajZfOXRVOHd3YmttaTVtUV9TeVd5TXNPcjRzcHB1UnpvV1dnaG1uWG8yUTF5NXVEcVM0cTVPZjBrWWQyWUJrdFXSAeABQVVfeXFMT3NLaFFZZkdZWTZydXlzQUJiUzNuMWtxWXRISEpXdm9FYVlqaVRrZzg4bmo0dUhKbmVPc3ZuUUhfOVdwcWRfMkRNeHoxemFCMDF3SFNzN3lxNG5JejBlcWxSR01MSVB6SEc5NHQ0clZaS2ljMzBqV002d01Md3IwSXZxTGU5czBnc3NFb3NVN1ktWUhRMjlsY0ZOc1IwV1AxVjZ5SjVrOUZ0MkRFSFJjZHV4R2VveGhGWnN0NFVFbE1iTnF4YkE0NkY4d3ROV3JWdjZKTnlQcTd2TTR0emppV3g?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-10-22"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-28_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "삼성전기 한국 내 증설 확정 여부—공식 발표 원문 미확인",
+          "엔비디아 공급망 공식 편입 시점 및 계약 규모 미공개"
+        ],
+        "image_keyword_ok": true,
+        "notes": "FC-BGA·삼성전기·엔비디아 모두 실존 기업·부품. 증설 확정 표현 다소 단정적.",
+        "verified_at": "2026-10-28 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "한국-아프리카-공급망-핵심광물협력",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "explainer",
+      "title": "한-아프리카 공급망 협력, AfCFTA가 변수",
+      "summary": "한국이 아프리카와의 공급망·산업 협력 확대를 모색하고 있으며, 아프리카 대륙자유무역지대(AfCFTA)와 인적자원이 핵심 접점으로 거론되고 있다. 실질적 조달 다변화로 이어지려면 금융·물류·인증 등 실행 조건을 함께 봐야 한다.",
+      "key_points": [
+        "한국과 아프리카의 공급망·산업 협력 확대 논의가 진행 중이며 AfCFTA와 인적자원이 주요 접점으로 제시됐다",
+        "아프리카 핵심광물의 실제 조달 다변화 가능성은 금융 구조와 물류 인프라 수준에 따라 달라질 수 있다",
+        "수출입은행과 IFC 간 핵심광물 금융협력 공식화 여부는 아직 확정 단계가 아니다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "지난 22일 보도에 따르면 한-아프리카 공급망·산업 협력 확대 방향으로 AfCFTA(아프리카대륙자유무역지대)와 인적자원 분야가 주목받고 있다는 분석이 나왔다. AfCFTA는 54개 아프리카 연합 회원국을 단일 시장으로 묶는 협정으로, 역내 무역·투자 규범을 통일하는 방향으로 진행 중이다.",
+            "같은 시기 한국수출입은행은 세계은행그룹 산하 IFC(국제금융공사)와 핵심광물·첨단산업 금융협력 확대를 공식화했다. 중국 의존도를 낮추는 공급망 다변화에 금융 지원을 연계하는 구조다."
+          ]
+        },
+        {
+          "heading": "조달 관점에서 무엇이 달라질 수 있나",
+          "paragraphs": [
+            "아프리카는 코발트(콩고민주공화국), 망간, 크롬 등 배터리·특수강 소재의 주요 산지다. AfCFTA가 실질적으로 작동하면 복수 국가에 걸친 원료 조달 계약의 법적 환경이 일부 정비될 가능성이 있다.",
+            "다만 조달 담당자 입장에서는 협정 발효 범위와 실제 통관·물류 인프라 수준이 서류상 협정과 얼마나 일치하는지를 별도로 확인해야 한다. 금융 지원 구조가 완성되더라도 현지 파트너 발굴, 품질 인증, 운송 납기 안정성 등은 기업이 직접 검토해야 하는 영역이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "수출입은행-IFC 금융협력 세부 조건 공개 여부",
+          "detail": "협력 대상 광종, 지원 한도, 신청 조건이 공식 발표되면 실질적 활용 가능성을 가늠할 수 있다."
+        },
+        {
+          "label": "AfCFTA 실행 범위 확대 일정",
+          "detail": "통관 단일화·원산지 규정 적용 국가가 확대될 때마다 아프리카 내 조달 계약 구조가 달라질 수 있다."
+        },
+        {
+          "label": "아프리카 핵심광물 현지 인증 기준",
+          "detail": "한국 수입 요건에 맞는 품질 인증 체계가 현지에 갖춰져 있는지 품목별로 확인이 필요하다."
+        }
+      ],
+      "source_ids": [
+        14,
+        4
+      ],
+      "image_keyword": "cobalt ore mining africa",
+      "is_featured": false,
+      "timestamp": "오전 09:00",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "\"한-아프리카 '공급망·산업' 협력 확대…AfCFTA와 인적자원 주목\" - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZXhVWkNMcDYyTHdjenlCUjlTY3ZSSU14akdCOGdhOS1kNGtESjJ1ZDFYYjNtWDVsaGN6YUJ4LUtUbmtPQmJoLURPSlNMTHpIN19XX0FBSl9ab0XSAWBBVV95cUxQdmxGTEZONFo5N1gyQ3Zub3BFNmI4RTNmaVpacWc5aWcxZ2NUbmEtWFIwOVpNU0ExTEs4eHE1Nk1RTTM1TVhwVk5oeUFXM0RWOXhhbHVZenF3NlB4bkNEOW4?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "The Rise of the Electrostate: Why Protectionism Alone Cannot Close the Critical Minerals Gap - IndraStra Global",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMmJ2MjRITjU1UUNSamxXZTNDdFVJTW5QMjJMUkI5OVFza0c5UFFQbUtmeWlxWVhYN0xJbGQ1X1pLbTJxZGljM19Ycm0taDRkQURRUXd2bHYwN3pOTXZIdGxObHpZUGRXWklCN3o1RUFEaFYtakE?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-26"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-28_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "AfCFTA 실질 발효 범위와 현재 이행 수준 과장 가능성",
+          "한국수출입은행-IFC 금융협력 공식화 시점·규모 미확인"
+        ],
+        "image_keyword_ok": true,
+        "notes": "AfCFTA·IFC·콩고 코발트 등 사실 기반. 협정 실효성 서술은 신중 필요.",
+        "verified_at": "2026-10-28 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "소부장-뿌리기술대전-2026-비즈니스",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "소부장 뿌리기술대전 개막, 96개사 전시",
+      "summary": "2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 개막해 96개사 135부스 규모로 열린다. 국내 소부장 기업의 기술 현황과 공급 가능성을 직접 확인할 기회다.",
+      "key_points": [
+        "2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 96개사 135부스 규모로 개막했다",
+        "전시 참가 기업의 실제 양산 능력과 납기 조건은 현장 확인이 필요하다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026 소재부품장비뿌리기술대전이 10월 28일 경기도 킨텍스에서 개막했다. 96개사 135부스 규모로, 소부장 분야 기업들의 기술과 제품을 한자리에서 볼 수 있는 행사다.",
+            "산업부는 소부장 투자 지원 예산을 1,700억 원으로 확대한 상태로, 이번 행사는 국내 소부장 기업의 기술 수준과 공급 가능성을 직접 점검하는 기회로 활용될 수 있다. 조달 담당자라면 관심 품목의 공급사 다양성, 인증 현황, 최소 발주 조건 등을 현장에서 확인해볼 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        11,
+        12,
+        10
+      ],
+      "image_keyword": "industrial materials components exhibition hall",
+      "is_featured": false,
+      "timestamp": "오전 09:00",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "2026 소재부품장비뿌리기술대전 킨텍스서 28일 개막… 소부장 비즈니스 장 열린다 - https://www.2news.co.kr/",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41LTdiMGV1cFZsTWJmUlc4VGtJS01WYTVrWnU1ZU1QTVE0RmpoWDhiaDVQMEJoa1ZqR0V2alVFVTg4R2IydWtyU2ZjdHRFUDBTbkxQUG1zdUFZbWxGeWFXdF8tbEZGYmdx?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-27"
+        },
+        {
+          "title": "‘소부장 뿌리기술대전’ 개막, 96개사 135부스 전시 - 와우테일",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BdV9hWVplb2doM3RQOWI5OVNHaXppdl9BajM3cndnUVF1RlN1aWQ0RC1rckZ2QTVNb3Zfd1BVOXVLcDBIaUVwbGtPZXlMWDA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "‘깜깜이’ 소부장 핵심전략기술, 지속적 확대에도 성과 확인 지표 전무 - 이데일리",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0Yxd250QU5JMkFxR2VzRkRmazM3UVAwbnlwX1RqR3RfTEFDem15WDk5Y3NuLVFTVWZjaGhvdHlrSmk4Y083aWRydzBHcTBNV3cxMGtMTzYzclExRGZyb1hrNjBwMFV0R2J4bzBlbXhGTTh1ZFVUX3JvSXB5SU9MYQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-22"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-28_article_2.jpg",
+      "review": {
+        "trust_score": 5,
+        "status": "pass",
+        "suspicious_claims": [
+          "산업부 소부장 투자 지원 예산 1,700억 원 수치 출처 별도 확인 권장"
+        ],
+        "image_keyword_ok": true,
+        "notes": "개막일·장소·부스 수 등 복수 매체 일치. 수치 출처 명기 보완 권장.",
+        "verified_at": "2026-10-28 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "엔비디아가 삼성전기를 FC-BGA 기판 공급망에 편입하며 한국 AI 부품 공급망이 재편되고 있다. 한-아프리카 공급망 협력 논의와 국내 소부장 전시회 개막으로 다양한 산업 협력 접점이 형성되고 있다.",
+  "key_signals": [
+    {
+      "icon": "🟢",
+      "label": "삼성전기 FC-BGA",
+      "status": "엔비디아 공급망 편입"
+    },
+    {
+      "icon": "🟢",
+      "label": "한-아프리카 협력",
+      "status": "AfCFTA 접점 확대"
+    },
+    {
+      "icon": "🟢",
+      "label": "소부장 뿌리기술대전",
+      "status": "96개사 전시 개막"
+    },
+    {
+      "icon": "🟡",
+      "label": "AI 기판 수급",
+      "status": "공급망 다변화 진행"
+    },
+    {
+      "icon": "🟡",
+      "label": "아프리카 인적자원",
+      "status": "협력 모델 모색 중"
+    }
+  ],
+  "last_reviewed_at": "2026-10-28 08:16"
+}
