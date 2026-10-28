@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 28 Oct 2026 08:16:20 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 08:16:23 +0900</lastBuildDate>
+    <item>
+      <title>서울의 최악 시나리오, 숫자로 드러나다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-29-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-29-0.html</guid>
+      <category>기술패권</category>
+      <description>중국 반도체 굴기가 기술 생태계 전반으로 확산되면서 한국 기업의 수익성 전환 압박이 커지고 있다. 삼정KPMG는 HBM·미중 패권 경쟁 등 6개 변수를 짚으며 AI 투자 수익성 확보를 관건으로 제시했다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>보호주의만으론 광물 공백 못 메운다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-29-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-29-1.html</guid>
+      <category>글로벌분석</category>
+      <description>핵심광물 확보 경쟁에서 보호주의 정책만으로는 공급 격차를 해소할 수 없다는 분석이 제기됐다. '전기국가' 개념이 부상하며 투자·파트너십 병행의 필요성이 논의되고 있다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI·반도체 RE100, 11월 컨퍼런스서 조달 전략 논의</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-29-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-29-2.html</guid>
+      <category>산업전략</category>
+      <description>AI·반도체 업계의 재생에너지 조달 전략을 다루는 한국RE100컨퍼런스가 11월 26일 열린다. 전력 조달 방식이 반도체 공급망의 새 변수로 부상하고 있다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-28-0.html</link>
@@ -222,30 +246,6 @@
       <category>기술패권</category>
       <description>트럼프 행정부가 엔비디아·AMD의 AI 반도체를 전 세계 어느 국가에 수출하더라도 미국 정부 허가를 의무화하는 방안을 추진 중이다. 기존 중국·러시아 중심의 수출통제에서 동맹국 포함 전방위 통제로 확대되는 구조 전환이며, 한국 AI 데이터센터 증설 일정에 직접 타격이 예상된다.</description>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 지원 1700억 확대, 세미콘 웨스트서 北美 수주 가시화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-19-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-19-2.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 소부장 투자지원 예산을 1,700억 원으로 늘리고 세미콘 웨스트 2026에서 한국 소부장 기업들의 북미 수주가 가시화됐다. 탈중국 공급망 재편 수혜가 실제 계약으로 연결되는 첫 신호지만, 미국 고객사 인증에는 평균 18~24개월이 소요돼 매출 반영은 2028년 이후가 현실적이다.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>트럼프, 애플에 중국산 메모리 교체 직접 압박</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-18-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-18-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>트럼프 행정부가 애플에 중국 CXMT(창신메모리기술)산 LPDDR5 D램 사용 중단을 요구했다. 애플의 연간 메모리 조달 규모는 80억~100억 달러 수준으로, 삼성전자·SK하이닉스가 단기 최대 수혜자가 되나 애플의 가격 협상 강화라는 역풍도 동시에 작동한다.</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 정부, 산업·안보 융합전략 공식 착수</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-18-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-18-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 기술패권 경쟁이 장기화되면서 한국 정부가 반도체·이차전지·첨단소재를 안보와 연계하는 '산업·안보 융합전략' 수립에 나섰다. 미국 칩스법(2022)·EU 반도체법(2023)보다 2~3년 늦은 출발이지만, 법제화 속도와 실행 거버넌스 구축이 실효성의 관건이다.</description>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

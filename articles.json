@@ -1,76 +1,111 @@
 {
-  "generated_at": "2026년 10월 28일 08:16",
-  "date_str": "2026년 10월 28일",
-  "date_key": "2026-10-28",
+  "generated_at": "2026년 10월 29일 08:16",
+  "date_str": "2026년 10월 29일",
+  "date_key": "2026-10-29",
   "articles": [
     {
       "id": 0,
-      "topic_key": "엔비디아-삼성전기-FC-BGA-공급망편입",
-      "category": "공급망전쟁",
-      "tag_type": "tag-supply",
-      "article_type": "explainer",
-      "title": "엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정",
-      "summary": "엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 추가하고 한국 내 생산능력 확장을 결정했다. 조달 담당자는 FC-BGA 수급 일정과 단가 조정 조건을 점검할 시점이다.",
+      "topic_key": "중국-반도체-한국-기술격리-공급망",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "analysis",
+      "title": "서울의 최악 시나리오, 숫자로 드러나다",
+      "summary": "중국 반도체 굴기가 기술 생태계 전반으로 확산되면서 한국 기업의 수익성 전환 압박이 커지고 있다. 삼정KPMG는 HBM·미중 패권 경쟁 등 6개 변수를 짚으며 AI 투자 수익성 확보를 관건으로 제시했다.",
       "key_points": [
-        "엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 편입하고 한국 내 증설을 결정했다",
-        "삼성전기 외 기존 공급처와의 물량 배분 구조 변화 여부는 아직 공개되지 않았다",
-        "FC-BGA 수요 집중이 지속될 경우 납기 및 단가 협상력이 공급사 측으로 이동할 가능성이 있다"
+        "삼정KPMG가 반도체 시장 6대 변수로 HBM, 미중 패권 경쟁, AI 투자 수익성을 명시했다",
+        "중국의 경쟁 우위가 특정 기술이 아닌 생태계 전반에 걸쳐 있다는 분석이 제기됐다",
+        "한국 기업의 HBM 이후 수익 구조 다변화 경로는 아직 확정되지 않았다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "지난 22일 보도에 따르면 엔비디아가 삼성전기를 AI 가속기용 FC-BGA(플립칩 볼그리드어레이) 기판 공급망에 공식 추가하고, 한국 내 생산능력 확장 계획을 확정했다. FC-BGA는 AI 가속기와 고성능 서버 CPU를 메인보드에 연결하는 핵심 패키징 부품으로, 공급 병목이 반복되어 온 품목이다."
+            "삼정KPMG는 10월 28일 글로벌 반도체 시장이 1조 5,112억 달러 규모로 성장하는 국면에서 AI 투자 수익성 확보가 핵심 관건이라고 밝혔다. 보고서는 HBM부터 미중 패권 경쟁까지 6대 변수를 제시했다.",
+            "같은 날 로이터 브레이킹뷰스는 서울의 최악 우려가 현실화되고 있다고 보도했다. 중국의 저가 AI칩 파상공세가 ASML 실적에 하방 압력을 가하고 있다는 분석이 함께 나왔다."
           ]
         },
         {
           "heading": "왜 주목해야 하나",
           "paragraphs": [
-            "엔비디아의 AI 가속기 수요는 글로벌 데이터센터 투자와 직결된다. 단일 부품이라도 핵심 공급사가 추가되면 기존 공급처와의 물량 배분 구조, 납기 우선순위, 단가 기준선이 함께 재편될 수 있다.",
-            "삼성전기의 한국 내 증설이 실제 양산으로 이어지기까지는 인허가·장비 조달·공정 인증 기간이 필요하다. 증설 완료 시점과 공급 개시 일정이 아직 구체적으로 공개되지 않아, 단기 수급은 기존 공급 구조에 의존하는 상태가 지속될 가능성이 있다."
+            "삼일PwC 분석에 따르면 중국의 반도체 경쟁 우위는 특정 기술이 아니라 생태계 전반에 걸쳐 있다. 한국이 수익성 중심으로 전략을 전환해야 한다는 권고가 이 분석에서 나왔다.",
+            "지디넷코리아는 10월 28일 HBM만으로는 부족하다는 전문가 의견을 전했다. AI 반도체 경쟁이 격화되는 상황에서 한국 기업의 생존 전략이 시험대에 올랐다는 맥락이다.",
+            "글로벌 반도체 시장이 1조 5,112억 달러 시대로 접어들었지만, AI 인프라 투자가 실제 수익으로 이어지는 시점은 아직 확인되지 않았다."
           ]
         },
         {
-          "heading": "조달에서 점검할 항목",
+          "heading": "조달에 어떤 영향이 있을까",
           "paragraphs": [
-            "FC-BGA를 직간접적으로 조달하는 담당자라면 몇 가지를 확인해볼 수 있다. 현재 계약에 가격조정 조항이 있는지, 단일 공급처 의존도가 어느 수준인지, 그리고 대체 공급처 인증에 걸리는 기간이 얼마나 되는지다. 엔비디아 공급망 편입으로 삼성전기의 생산 우선순위가 바뀔 경우, 기존 고객사 납기에 영향이 생길 수 있는지도 살펴볼 지점이다."
+            "AI 반도체 수요 급증에 따라 소재·부품 조달 우선순위도 달라질 가능성이 있다. 부산일보는 10월 25일 AI 반도체 무한경쟁 시대에 소부장 산업이 시험대에 올랐다고 보도했다.",
+            "HBM 중심 공급망에 집중된 계약 구조를 가진 조달 담당자라면, 후속 품목의 인증 기간과 대체 공급처 확보 여부를 점검할 시점일 수 있다. 중국 생태계 확장 속도가 당초 예상보다 빠르다는 신호가 여러 보고서에서 동시에 나왔기 때문이다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "삼성전기 한국 증설 완료 시점",
-          "detail": "증설 일정과 양산 개시 시점이 공식 발표되면 수급 전망의 기준선이 바뀐다."
+          "label": "AI 투자 수익성 지표 발표 시점",
+          "detail": "주요 빅테크의 AI 인프라 투자 대비 매출 기여도가 분기 실적에서 수치로 확인되는 시점을 추적한다."
         },
         {
-          "label": "기존 FC-BGA 공급사 물량 배분 변화",
-          "detail": "엔비디아가 이비덴·신코덴키 등 기존 공급사와의 발주 비중을 어떻게 조정하는지 분기 실적 발표에서 확인 가능하다."
+          "label": "ASML 실적 하방 압력 지속 여부",
+          "detail": "중국의 저가 AI칩 공세가 ASML 수주 취소나 납기 조정으로 이어지는지 공식 발표를 확인한다."
         },
         {
-          "label": "FC-BGA 시장 납기 동향",
-          "detail": "AI 가속기 수요 집중 시 납기 장기화 여부를 공급사별 리드타임 변화로 추적할 수 있다."
+          "label": "중국 반도체 생태계 자립 진전 수치",
+          "detail": "삼일PwC가 제시한 '생태계 전반 우위' 판단 근거인 중국 내 장비·소재 현지화율 공개 자료를 확인한다."
+        },
+        {
+          "label": "한국 팹리스 매출 순위 변동",
+          "detail": "글로벌 팹리스 매출 10위권 진입 여부를 연간 산업 통계 발표 시 대조한다."
         }
       ],
       "source_ids": [
-        31,
-        32
+        6,
+        7,
+        8,
+        9,
+        33,
+        34
       ],
-      "image_keyword": "FC-BGA substrate circuit board",
+      "image_keyword": "HBM memory chip stack",
       "is_featured": true,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "Nvidia taps Samsung Electro-Mechanics for AI chips substrate supply chain - Korea JoongAng Daily",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNWJSWlUxTDhUWTBac3YybHlXOTBiQUlvOE1zU3JaNEJEc3JZZWZHNzdjR0xqQjd3Y0tjQjJwQ0diUDVOd0lSQXdXT1Y1Nk5TdWRNWjUzSVA3NkZkdDF2cUV4T1hPYjJ3VFdzWjFnS3NVVEFvc2ViYWx3TmZTbnZYU1VUdmFTTk1JTmhieXJzMzY2Vk53d0lkNXBDWXIzUmhXRmpSaVhUbWN4VF9oR2tONUR5OFhPSU5RRkxBY3FNdXNZM00?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-10-22"
+          "title": "HBM부터 미중 패권 경쟁까지…삼정KPMG가 짚은 반도체 6대 변수 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1LVpPaFdYbWptaTYzVE9YWGJIZ1o4bnlhTGp2YzJKNW05Mm1jVGZBR0J1LWppejR5dHZGRFJxYWJOd1M3Z25OdXhFVWM1T2YzaDVkaXVKX1pfM3dpYUxiY1o0N1lrcmM1eWRqNdIBb0FVX3lxTE90V25jdUVFTGFLdERQNHpRcFNrR2hMdktNb0FndTJhUDA1TVl3cHJLZUQxWXY0T2NvQUhIUV9yUFBWWjh5VHFYTHBDNzhNQ3ZmZVdydzVpUkN4ZHZNT19PN1JVY3Vob05PcEc5RUtyWQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
         },
         {
-          "title": "Nvidia adds Samsung Electro-Mechanics to substrate supply chain, plans capacity expansion in S. Korea - The Korea Times",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbEFsREpNclhfYmFNTl9SdzdTckxUVUVJbXM1OXRiRmNkM2pmREdtOTR2c29LR2hsTnpxbFIzNXU2SlVOR1NCQXNpdnJOanhxUmo3a2RWLTFIUENhaDZNN2pPS3VrSTR3UUN1QlE4aXIxZ1A2QTVVM1BYOGRYZV96N0RXNEJrdnROOFdkV2xOVjMzNWdkQUV1Wl9QajZfOXRVOHd3YmttaTVtUV9TeVd5TXNPcjRzcHB1UnpvV1dnaG1uWG8yUTF5NXVEcVM0cTVPZjBrWWQyWUJrdFXSAeABQVVfeXFMT3NLaFFZZkdZWTZydXlzQUJiUzNuMWtxWXRISEpXdm9FYVlqaVRrZzg4bmo0dUhKbmVPc3ZuUUhfOVdwcWRfMkRNeHoxemFCMDF3SFNzN3lxNG5JejBlcWxSR01MSVB6SEc5NHQ0clZaS2ljMzBqV002d01Md3IwSXZxTGU5czBnc3NFb3NVN1ktWUhRMjlsY0ZOc1IwV1AxVjZ5SjVrOUZ0MkRFSFJjZHV4R2VveGhGWnN0NFVFbE1iTnF4YkE0NkY4d3ROV3JWdjZKTnlQcTd2TTR0emppV3g?oc=5",
+          "title": "\"HBM만으론 부족\"…AI 반도체 경쟁 격화 속 韓 기업 생존 전략은 - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uUy1VUmJ3Y2RYaVl3STd1NkVsbTNyTk1leXY1NEZLRkptX3J5Q1ZtZm11OXNUN28xWTlNR0k3YmRBVjFMT2QxYUpCdHpDRXVzckhkOEhB?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "글로벌 반도체 시장 1조5,112억弗 시대…“AI 투자 수익성 확보가 관건” - CPA뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iRFpqVS1OMzI3WXRxWGRhSkhjUzZ6ZGIzQkF3NGVhamtMQVQwNkhXWi1INmd5bGc0RWNjNzJYZE1rTGJMTE5XcElpMzJ3T2F0cGZWWlJrVDNqRTMyUERjT2QyRTBoN1Qx?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "AI 반도체 무한경쟁시대 시험대 오른 소부장 산업 [비즈앤피플] - 부산일보",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91YldFMnIyUldmRWk1UjdRNFBDY2FORFZQWEFTTzdsVmh3aF9yUzFLa3RnZnY0eE5MTDRyTllrTWx5S3YzSmdNSTFzajhvdE1XT2VLU0hzTlJKamFfejdkYkNxSE1vdTU1VjQ3X0hoRnA3cjlT?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-25"
+        },
+        {
+          "title": "Samil PwC: China's Chip Edge Is Ecosystem-Wide, Not Technical; South Korea Must Shift to Profitability - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vcWdHaTJVMkZoZlV1eDkycXN4S1R0UlFDLVotMHhQRy1BS1FNb25kQjV5ZWgyb3lCTGRpeU92WEZfclVfV09pZW9SbW4yTU15UFV6eXFpSDRNc21Hb1B0TkhZMFRZYzFlR1dJUGtSRDJWMVJqTkE?oc=5",
           "source": "Google뉴스-글로벌공급망",
-          "date": "2026-10-22"
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Breakingviews - COMMENTARY: Seoul's worst China tech fears are coming true - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkRDUGdDWXU1NWZkOFFBeG13WDdPVDhIMDVUY0JXVG0zZEtDMC1obi1SeTdqVFd0Wnl2cHBCOWhfUnJ4Q3k5VDNfalZ0Slc1ZDc5MWNwYWtrSUo0d19xUVd5bDd6UU9GRGZQT2xTVHNCTGp6ckxnaHBHUkcyMDF1NXhqcGRBWGVscHhGZ1dweVFudVBtSXM1ZnZ4T2wtVzlUam4xVUVEZ2lkQQ?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-28"
         }
       ],
       "fact": [],
@@ -79,71 +114,100 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-28_article_0.jpg",
+      "image_url": "images/2026-10-29_article_0.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "삼성전기 한국 내 증설 확정 여부—공식 발표 원문 미확인",
-          "엔비디아 공급망 공식 편입 시점 및 계약 규모 미공개"
+          "글로벌 반도체 시장 1조 5,112억 달러 규모—출처 삼정KPMG 보고서로 명시되어 있으나 독립 검증 필요",
+          "로이터 브레이킹뷰스 '서울의 최악 우려 현실화' 보도—제목·날짜 미기재로 원문 확인 어려움",
+          "ASML 실적에 중국 저가 AI칩이 하방 압력—인과 관계 단정에 주의"
         ],
         "image_keyword_ok": true,
-        "notes": "FC-BGA·삼성전기·엔비디아 모두 실존 기업·부품. 증설 확정 표현 다소 단정적.",
-        "verified_at": "2026-10-28 08:16"
+        "notes": "수치·기관명 개연성 높음. 로이터 브레이킹뷰스 원문 링크 보강 권고.",
+        "verified_at": "2026-10-29 08:16"
       }
     },
     {
       "id": 1,
-      "topic_key": "한국-아프리카-공급망-핵심광물협력",
+      "topic_key": "핵심광물-보호주의-전기국가-공급망",
       "category": "글로벌분석",
       "tag_type": "tag-global",
       "article_type": "explainer",
-      "title": "한-아프리카 공급망 협력, AfCFTA가 변수",
-      "summary": "한국이 아프리카와의 공급망·산업 협력 확대를 모색하고 있으며, 아프리카 대륙자유무역지대(AfCFTA)와 인적자원이 핵심 접점으로 거론되고 있다. 실질적 조달 다변화로 이어지려면 금융·물류·인증 등 실행 조건을 함께 봐야 한다.",
+      "title": "보호주의만으론 광물 공백 못 메운다",
+      "summary": "핵심광물 확보 경쟁에서 보호주의 정책만으로는 공급 격차를 해소할 수 없다는 분석이 제기됐다. '전기국가' 개념이 부상하며 투자·파트너십 병행의 필요성이 논의되고 있다.",
       "key_points": [
-        "한국과 아프리카의 공급망·산업 협력 확대 논의가 진행 중이며 AfCFTA와 인적자원이 주요 접점으로 제시됐다",
-        "아프리카 핵심광물의 실제 조달 다변화 가능성은 금융 구조와 물류 인프라 수준에 따라 달라질 수 있다",
-        "수출입은행과 IFC 간 핵심광물 금융협력 공식화 여부는 아직 확정 단계가 아니다"
+        "IndraStra Global은 10월 26일 보호주의만으로는 핵심광물 갭을 메울 수 없다고 분석했다",
+        "FII Institute는 내일의 공급망 투자를 위한 핵심광물 경쟁을 핵심 의제로 다뤘다",
+        "어떤 투자 구조나 파트너십이 실제 조달 다변화로 이어질지는 아직 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "지난 22일 보도에 따르면 한-아프리카 공급망·산업 협력 확대 방향으로 AfCFTA(아프리카대륙자유무역지대)와 인적자원 분야가 주목받고 있다는 분석이 나왔다. AfCFTA는 54개 아프리카 연합 회원국을 단일 시장으로 묶는 협정으로, 역내 무역·투자 규범을 통일하는 방향으로 진행 중이다.",
-            "같은 시기 한국수출입은행은 세계은행그룹 산하 IFC(국제금융공사)와 핵심광물·첨단산업 금융협력 확대를 공식화했다. 중국 의존도를 낮추는 공급망 다변화에 금융 지원을 연계하는 구조다."
+            "IndraStra Global은 10월 26일 '전기국가의 부상' 분석을 통해 보호주의 단독으로는 핵심광물 공급 격차를 좁힐 수 없다고 밝혔다. 광물 확보를 위한 국제 투자와 파트너십을 병행해야 한다는 논지다.",
+            "FII Institute도 10월 24일 핵심광물 공급망 투자를 '내일의 공급망'을 위한 경쟁으로 규정했다. 익스프레스 트리뷴은 10월 23일 핵심광물 전쟁이라는 표현으로 같은 흐름을 보도했다."
           ]
         },
         {
-          "heading": "조달 관점에서 무엇이 달라질 수 있나",
+          "heading": "왜 주목해야 하나",
           "paragraphs": [
-            "아프리카는 코발트(콩고민주공화국), 망간, 크롬 등 배터리·특수강 소재의 주요 산지다. AfCFTA가 실질적으로 작동하면 복수 국가에 걸친 원료 조달 계약의 법적 환경이 일부 정비될 가능성이 있다.",
-            "다만 조달 담당자 입장에서는 협정 발효 범위와 실제 통관·물류 인프라 수준이 서류상 협정과 얼마나 일치하는지를 별도로 확인해야 한다. 금융 지원 구조가 완성되더라도 현지 파트너 발굴, 품질 인증, 운송 납기 안정성 등은 기업이 직접 검토해야 하는 영역이다."
+            "쿠키뉴스는 10월 23일 반도체 강국의 다음 과제는 자원 확보라고 짚었다. 반도체 생산 능력이 있어도 소재 원료를 확보하지 못하면 생산 연속성이 흔들릴 수 있다는 구조적 지적이다.",
+            "한국 정부도 이 흐름에 대응하고 있다. 수출입은행이 세계은행그룹 IFC와 핵심광물·첨단산업 금융협력을 공식화했다는 보도가 나왔으나, 실제 조달 다변화로 이어지는 조건은 아직 명확하지 않다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "보호주의 강화가 공급망을 단순히 자국 내로 수렴시키기보다 복수의 지역 파트너십을 요구하는 방향으로 전개될 가능성이 있다. 조달 담당자는 단일 국가·단일 공급처 의존도를 점검하는 동시에, 대체 공급처 인증에 필요한 기간을 미리 파악해 둘 필요가 있다.",
+            "계약서의 불가항력 조항과 가격조정 조항이 광물 가격 급변 시 어떻게 작동하는지 확인하는 것도 점검 항목이 될 수 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "수출입은행-IFC 금융협력 세부 조건 공개 여부",
-          "detail": "협력 대상 광종, 지원 한도, 신청 조건이 공식 발표되면 실질적 활용 가능성을 가늠할 수 있다."
+          "label": "수출입은행-IFC 금융협력 구체화 일정",
+          "detail": "핵심광물 금융협력의 대상 국가·품목·규모가 공식 발표되는 시점을 확인한다."
         },
         {
-          "label": "AfCFTA 실행 범위 확대 일정",
-          "detail": "통관 단일화·원산지 규정 적용 국가가 확대될 때마다 아프리카 내 조달 계약 구조가 달라질 수 있다."
+          "label": "AfCFTA 활용 한-아프리카 광물 협력 진전",
+          "detail": "한-아프리카 공급망 협력에서 아프리카대륙자유무역지대를 통한 실제 계약 체결 여부를 추적한다."
         },
         {
-          "label": "아프리카 핵심광물 현지 인증 기준",
-          "detail": "한국 수입 요건에 맞는 품질 인증 체계가 현지에 갖춰져 있는지 품목별로 확인이 필요하다."
+          "label": "보호주의 정책의 광물 공급 효과 측정 기준",
+          "detail": "각국 정부가 발표하는 핵심광물 자급률 또는 재고 목표치가 공개될 경우 실제 수치와 대조한다."
         }
       ],
       "source_ids": [
+        2,
+        3,
+        4,
         14,
-        4
+        17
       ],
-      "image_keyword": "cobalt ore mining africa",
+      "image_keyword": "critical mineral ore sample",
       "is_featured": false,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
+        {
+          "title": "The Race for Critical Minerals: Investing in the Supply Chains of Tomorrow - FII Institute",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEJiUUhQM0duaE54VW5LRXhic05mZGl4X0ZhcU81M08xYU83WVdER0dab3ZrZDRVUUZrVUpIWGRRbGkwZ1lfaE94MUIybFJpZ1d4cjlzX2tWM0ZVVi1TYUI2a0RDMnR6Mkd0dkw3ODFERFJwU2R1ckdGSGNfXzZteFpCVlFjc1V3MlcyQzAxQXIzanlDMzg1RHBlQzEtVS1iOGsyS3g0T1M?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "The critical minerals war - The Express Tribune",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zMG5BSDk0RTZ0Z2xtV2JGVi1tZmdZUm1XMlBEM0pZT3JJRXhDUGlUNERPOWhaMnp5MUpPX3ZJcGMzd19rekFIbjE0d01EVUdWdDh5MjlHRFpWdnNOTFo5a2xlbnhWVU1UazRUSWhtVdIBd0FVX3lxTE41Rlpqd1l1ek04YWtJbEgtamhfUjNmZzk2X01UOEo2ZnNyV0p4alZkWmFzc0dsUU44aHVTbjMzQlYtd1J5c052Vlo5b2JVM3Vvd0JwaEZ4TnB6RVgwUDlocWxENTU1TTJHM2owS1dOQ2x1M3dVdExV?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "The Rise of the Electrostate: Why Protectionism Alone Cannot Close the Critical Minerals Gap - IndraStra Global",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMmJ2MjRITjU1UUNSamxXZTNDdFVJTW5QMjJMUkI5OVFza0c5UFFQbUtmeWlxWVhYN0xJbGQ1X1pLbTJxZGljM19Ycm0taDRkQURRUXd2bHYwN3pOTXZIdGxObHpZUGRXWklCN3o1RUFEaFYtakE?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-26"
+        },
         {
           "title": "\"한-아프리카 '공급망·산업' 협력 확대…AfCFTA와 인적자원 주목\" - 연합뉴스",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZXhVWkNMcDYyTHdjenlCUjlTY3ZSSU14akdCOGdhOS1kNGtESjJ1ZDFYYjNtWDVsaGN6YUJ4LUtUbmtPQmJoLURPSlNMTHpIN19XX0FBSl9ab0XSAWBBVV95cUxQdmxGTEZONFo5N1gyQ3Zub3BFNmI4RTNmaVpacWc5aWcxZ2NUbmEtWFIwOVpNU0ExTEs4eHE1Nk1RTTM1TVhwVk5oeUFXM0RWOXhhbHVZenF3NlB4bkNEOW4?oc=5",
@@ -151,10 +215,10 @@
           "date": "2026-10-22"
         },
         {
-          "title": "The Rise of the Electrostate: Why Protectionism Alone Cannot Close the Critical Minerals Gap - IndraStra Global",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMmJ2MjRITjU1UUNSamxXZTNDdFVJTW5QMjJMUkI5OVFza0c5UFFQbUtmeWlxWVhYN0xJbGQ1X1pLbTJxZGljM19Ycm0taDRkQURRUXd2bHYwN3pOTXZIdGxObHpZUGRXWklCN3o1RUFEaFYtakE?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-26"
+          "title": "반도체 강국, 다음 과제는 자원 확보 [취재진담] - 쿠키뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhd1g3RzR4S3RTTTRoLWF6VEtIS2NvMl9oX245MXo5VUdiXzBfVFczN0ttNVBFbk1hN21fU3pmbDZiZG9xQTdPOGExNXQyR2xwWGZlZEVnZVAzbi1UVmlnOC1vUQ?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-23"
         }
       ],
       "fact": [],
@@ -163,68 +227,63 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-28_article_1.jpg",
+      "image_url": "images/2026-10-29_article_1.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "AfCFTA 실질 발효 범위와 현재 이행 수준 과장 가능성",
-          "한국수출입은행-IFC 금융협력 공식화 시점·규모 미확인"
+          "수출입은행-IFC 핵심광물 금융협력 '공식화'—보도 출처 불명확, 발표 날짜 미기재",
+          "IndraStra Global '전기국가의 부상' 분석—비주류 매체로 원문 신뢰도 별도 확인 필요",
+          "'조달 다변화로 이어지는 조건은 아직 명확하지 않다'—편집부 판단인지 인용인지 불분명"
         ],
         "image_keyword_ok": true,
-        "notes": "AfCFTA·IFC·콩고 코발트 등 사실 기반. 협정 실효성 서술은 신중 필요.",
-        "verified_at": "2026-10-28 08:16"
+        "notes": "주요 기관명·정책명 실재 확인됨. 수출입은행-IFC 협력 원문 링크 보강 권고.",
+        "verified_at": "2026-10-29 08:16"
       }
     },
     {
       "id": 2,
-      "topic_key": "소부장-뿌리기술대전-2026-비즈니스",
+      "topic_key": "재생에너지-반도체-조달-RE100전략",
       "category": "산업전략",
       "tag_type": "tag-strategy",
       "article_type": "brief",
-      "title": "소부장 뿌리기술대전 개막, 96개사 전시",
-      "summary": "2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 개막해 96개사 135부스 규모로 열린다. 국내 소부장 기업의 기술 현황과 공급 가능성을 직접 확인할 기회다.",
+      "title": "AI·반도체 RE100, 11월 컨퍼런스서 조달 전략 논의",
+      "summary": "AI·반도체 업계의 재생에너지 조달 전략을 다루는 한국RE100컨퍼런스가 11월 26일 열린다. 전력 조달 방식이 반도체 공급망의 새 변수로 부상하고 있다.",
       "key_points": [
-        "2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 96개사 135부스 규모로 개막했다",
-        "전시 참가 기업의 실제 양산 능력과 납기 조건은 현장 확인이 필요하다"
+        "한국RE100컨퍼런스가 2026년 11월 26일 개최 예정이며 AI·반도체 재생에너지 조달 전략을 의제로 다룬다",
+        "정부가 AI 데이터센터에 1,000조 원 투자를 공식화했으나 전력망 증설 속도와 인허가 일정은 아직 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "2026 소재부품장비뿌리기술대전이 10월 28일 경기도 킨텍스에서 개막했다. 96개사 135부스 규모로, 소부장 분야 기업들의 기술과 제품을 한자리에서 볼 수 있는 행사다.",
-            "산업부는 소부장 투자 지원 예산을 1,700억 원으로 확대한 상태로, 이번 행사는 국내 소부장 기업의 기술 수준과 공급 가능성을 직접 점검하는 기회로 활용될 수 있다. 조달 담당자라면 관심 품목의 공급사 다양성, 인증 현황, 최소 발주 조건 등을 현장에서 확인해볼 수 있다."
+            "전기신문은 10월 27일 한국RE100컨퍼런스가 11월 26일 개최되며 AI·반도체의 재생에너지 조달 전략을 핵심 의제로 논의한다고 보도했다. AI 데이터센터와 반도체 팹의 전력 조달 방식이 공급망 계획에 영향을 미치는 변수로 자리 잡고 있다는 배경이다.",
+            "강원특별자치도 AI·반도체 포럼도 10월 28일 열렸다. AI 대전환 국면에서 전력 인프라와 산업 입지 전략이 동시에 논의되는 흐름이 이어지고 있다.",
+            "조달 담당자 입장에서는 납품처 팹의 재생에너지 조달 계획이 가동률이나 납기에 영향을 줄 수 있는지, 계약 조건에 전력 관련 불가항력 조항이 포함되어 있는지를 확인하는 것이 하나의 점검 항목이 될 수 있다."
           ]
         }
       ],
       "watch_items": [],
       "source_ids": [
-        11,
-        12,
-        10
+        28,
+        24
       ],
-      "image_keyword": "industrial materials components exhibition hall",
+      "image_keyword": "solar panel semiconductor factory rooftop",
       "is_featured": false,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "2026 소재부품장비뿌리기술대전 킨텍스서 28일 개막… 소부장 비즈니스 장 열린다 - https://www.2news.co.kr/",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41LTdiMGV1cFZsTWJmUlc4VGtJS01WYTVrWnU1ZU1QTVE0RmpoWDhiaDVQMEJoa1ZqR0V2alVFVTg4R2IydWtyU2ZjdHRFUDBTbkxQUG1zdUFZbWxGeWFXdF8tbEZGYmdx?oc=5",
-          "source": "GoogleNews",
+          "title": "AI·반도체 재생E 조달 전략 논의...한국RE100컨퍼런스 11월 26일 개최 - 전기신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzaGc5dVZyV0paLWVRY3hoZEFEVmgtWnN2bG43ODJsVS0zZ1U0MkRCd0ZjZzJ2VEpkSkh0RUVpTlBiSDVRUGktR21jOHg1QWNtZF9lb2VMNUJJT20wNGNxSnZhLVhaX3pKRXNUddIBcEFVX3lxTE51NnFfME1acVNHQ00wM2RXUjg3V3Y5RW12UzVXdTVzdTlCMHBTeF9GemIyc1d4dzU4bko3SlA5SlBob3liZmFiZ3FaeWFWaGRxMGxNX2RYMEtybWI3TUwyT25QaC1kWFpJb2lxQjlrYWc?oc=5",
+          "source": "Google뉴스-AI산업",
           "date": "2026-10-27"
         },
         {
-          "title": "‘소부장 뿌리기술대전’ 개막, 96개사 135부스 전시 - 와우테일",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1BdV9hWVplb2doM3RQOWI5OVNHaXppdl9BajM3cndnUVF1RlN1aWQ0RC1rckZ2QTVNb3Zfd1BVOXVLcDBIaUVwbGtPZXlMWDA?oc=5",
-          "source": "GoogleNews",
+          "title": "[생중계] 2026 강원특별자치도 AI·반도체 포럼 | AI 대전환, 강원의 새로운 기회 - 강원일보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wQVhJVXloUXFtVnNQNFhVWmhjeGdTblZDX3BzSzJuUDRzanZCd2NpekZ6M3p3R1p1TzJabjVqZm9fUTV3X29DVlNrbGh4UENnSTBicG1QMTFWaFk?oc=5",
+          "source": "Google뉴스-AI산업",
           "date": "2026-10-28"
-        },
-        {
-          "title": "‘깜깜이’ 소부장 핵심전략기술, 지속적 확대에도 성과 확인 지표 전무 - 이데일리",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0Yxd250QU5JMkFxR2VzRkRmazM3UVAwbnlwX1RqR3RfTEFDem15WDk5Y3NuLVFTVWZjaGhvdHlrSmk4Y083aWRydzBHcTBNV3cxMGtMTzYzclExRGZyb1hrNjBwMFV0R2J4bzBlbXhGTTh1ZFVUX3JvSXB5SU9MYQ?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-22"
         }
       ],
       "fact": [],
@@ -233,46 +292,47 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-28_article_2.jpg",
+      "image_url": "images/2026-10-29_article_2.jpg",
       "review": {
-        "trust_score": 5,
+        "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "산업부 소부장 투자 지원 예산 1,700억 원 수치 출처 별도 확인 권장"
+          "강원특별자치도 AI·반도체 포럼 '2026' 표기—근거 원문 제목과 연도 불일치 가능성",
+          "한국RE100컨퍼런스 11월 26일 개최—전기신문 단독 보도로 공식 주최측 확인 필요"
         ],
         "image_keyword_ok": true,
-        "notes": "개막일·장소·부스 수 등 복수 매체 일치. 수치 출처 명기 보완 권장.",
-        "verified_at": "2026-10-28 08:16"
+        "notes": "이벤트 날짜·주최 정보 단일 출처 의존. 공식 컨퍼런스 페이지 교차 확인 권고.",
+        "verified_at": "2026-10-29 08:16"
       }
     }
   ],
-  "editorial_briefing": "엔비디아가 삼성전기를 FC-BGA 기판 공급망에 편입하며 한국 AI 부품 공급망이 재편되고 있다. 한-아프리카 공급망 협력 논의와 국내 소부장 전시회 개막으로 다양한 산업 협력 접점이 형성되고 있다.",
+  "editorial_briefing": "중국 반도체 굴기 확산으로 한국 기업의 수익성 압박이 커지는 가운데, 핵심광물 확보는 보호주의만으로 한계가 있어 투자·파트너십 병행이 요구되고 있다. AI·반도체 업계에서는 재생에너지 조달 전략이 공급망의 새 변수로 부상하고 있다.",
   "key_signals": [
     {
-      "icon": "🟢",
-      "label": "삼성전기 FC-BGA",
-      "status": "엔비디아 공급망 편입"
+      "icon": "🔴",
+      "label": "중국 반도체 굴기",
+      "status": "수익성 압박 확산"
     },
     {
-      "icon": "🟢",
-      "label": "한-아프리카 협력",
-      "status": "AfCFTA 접점 확대"
-    },
-    {
-      "icon": "🟢",
-      "label": "소부장 뿌리기술대전",
-      "status": "96개사 전시 개막"
+      "icon": "🔴",
+      "label": "미중 패권 경쟁",
+      "status": "기술생태계 전반 영향"
     },
     {
       "icon": "🟡",
-      "label": "AI 기판 수급",
-      "status": "공급망 다변화 진행"
+      "label": "핵심광물 공급",
+      "status": "보호주의 한계 대두"
     },
     {
       "icon": "🟡",
-      "label": "아프리카 인적자원",
-      "status": "협력 모델 모색 중"
+      "label": "전기국가 부상",
+      "status": "투자·파트너십 필요"
+    },
+    {
+      "icon": "🟢",
+      "label": "RE100 조달전략",
+      "status": "11월 컨퍼런스 논의"
     }
   ],
-  "last_reviewed_at": "2026-10-28 08:16"
+  "last_reviewed_at": "2026-10-29 08:16"
 }

@@ -1,0 +1,338 @@
+{
+  "generated_at": "2026년 10월 29일 08:16",
+  "date_str": "2026년 10월 29일",
+  "date_key": "2026-10-29",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "중국-반도체-한국-기술격리-공급망",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "analysis",
+      "title": "서울의 최악 시나리오, 숫자로 드러나다",
+      "summary": "중국 반도체 굴기가 기술 생태계 전반으로 확산되면서 한국 기업의 수익성 전환 압박이 커지고 있다. 삼정KPMG는 HBM·미중 패권 경쟁 등 6개 변수를 짚으며 AI 투자 수익성 확보를 관건으로 제시했다.",
+      "key_points": [
+        "삼정KPMG가 반도체 시장 6대 변수로 HBM, 미중 패권 경쟁, AI 투자 수익성을 명시했다",
+        "중국의 경쟁 우위가 특정 기술이 아닌 생태계 전반에 걸쳐 있다는 분석이 제기됐다",
+        "한국 기업의 HBM 이후 수익 구조 다변화 경로는 아직 확정되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "삼정KPMG는 10월 28일 글로벌 반도체 시장이 1조 5,112억 달러 규모로 성장하는 국면에서 AI 투자 수익성 확보가 핵심 관건이라고 밝혔다. 보고서는 HBM부터 미중 패권 경쟁까지 6대 변수를 제시했다.",
+            "같은 날 로이터 브레이킹뷰스는 서울의 최악 우려가 현실화되고 있다고 보도했다. 중국의 저가 AI칩 파상공세가 ASML 실적에 하방 압력을 가하고 있다는 분석이 함께 나왔다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "삼일PwC 분석에 따르면 중국의 반도체 경쟁 우위는 특정 기술이 아니라 생태계 전반에 걸쳐 있다. 한국이 수익성 중심으로 전략을 전환해야 한다는 권고가 이 분석에서 나왔다.",
+            "지디넷코리아는 10월 28일 HBM만으로는 부족하다는 전문가 의견을 전했다. AI 반도체 경쟁이 격화되는 상황에서 한국 기업의 생존 전략이 시험대에 올랐다는 맥락이다.",
+            "글로벌 반도체 시장이 1조 5,112억 달러 시대로 접어들었지만, AI 인프라 투자가 실제 수익으로 이어지는 시점은 아직 확인되지 않았다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "AI 반도체 수요 급증에 따라 소재·부품 조달 우선순위도 달라질 가능성이 있다. 부산일보는 10월 25일 AI 반도체 무한경쟁 시대에 소부장 산업이 시험대에 올랐다고 보도했다.",
+            "HBM 중심 공급망에 집중된 계약 구조를 가진 조달 담당자라면, 후속 품목의 인증 기간과 대체 공급처 확보 여부를 점검할 시점일 수 있다. 중국 생태계 확장 속도가 당초 예상보다 빠르다는 신호가 여러 보고서에서 동시에 나왔기 때문이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "AI 투자 수익성 지표 발표 시점",
+          "detail": "주요 빅테크의 AI 인프라 투자 대비 매출 기여도가 분기 실적에서 수치로 확인되는 시점을 추적한다."
+        },
+        {
+          "label": "ASML 실적 하방 압력 지속 여부",
+          "detail": "중국의 저가 AI칩 공세가 ASML 수주 취소나 납기 조정으로 이어지는지 공식 발표를 확인한다."
+        },
+        {
+          "label": "중국 반도체 생태계 자립 진전 수치",
+          "detail": "삼일PwC가 제시한 '생태계 전반 우위' 판단 근거인 중국 내 장비·소재 현지화율 공개 자료를 확인한다."
+        },
+        {
+          "label": "한국 팹리스 매출 순위 변동",
+          "detail": "글로벌 팹리스 매출 10위권 진입 여부를 연간 산업 통계 발표 시 대조한다."
+        }
+      ],
+      "source_ids": [
+        6,
+        7,
+        8,
+        9,
+        33,
+        34
+      ],
+      "image_keyword": "HBM memory chip stack",
+      "is_featured": true,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "HBM부터 미중 패권 경쟁까지…삼정KPMG가 짚은 반도체 6대 변수 - 한스경제",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1LVpPaFdYbWptaTYzVE9YWGJIZ1o4bnlhTGp2YzJKNW05Mm1jVGZBR0J1LWppejR5dHZGRFJxYWJOd1M3Z25OdXhFVWM1T2YzaDVkaXVKX1pfM3dpYUxiY1o0N1lrcmM1eWRqNdIBb0FVX3lxTE90V25jdUVFTGFLdERQNHpRcFNrR2hMdktNb0FndTJhUDA1TVl3cHJLZUQxWXY0T2NvQUhIUV9yUFBWWjh5VHFYTHBDNzhNQ3ZmZVdydzVpUkN4ZHZNT19PN1JVY3Vob05PcEc5RUtyWQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "\"HBM만으론 부족\"…AI 반도체 경쟁 격화 속 韓 기업 생존 전략은 - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uUy1VUmJ3Y2RYaVl3STd1NkVsbTNyTk1leXY1NEZLRkptX3J5Q1ZtZm11OXNUN28xWTlNR0k3YmRBVjFMT2QxYUpCdHpDRXVzckhkOEhB?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "글로벌 반도체 시장 1조5,112억弗 시대…“AI 투자 수익성 확보가 관건” - CPA뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iRFpqVS1OMzI3WXRxWGRhSkhjUzZ6ZGIzQkF3NGVhamtMQVQwNkhXWi1INmd5bGc0RWNjNzJYZE1rTGJMTE5XcElpMzJ3T2F0cGZWWlJrVDNqRTMyUERjT2QyRTBoN1Qx?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-28"
+        },
+        {
+          "title": "AI 반도체 무한경쟁시대 시험대 오른 소부장 산업 [비즈앤피플] - 부산일보",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91YldFMnIyUldmRWk1UjdRNFBDY2FORFZQWEFTTzdsVmh3aF9yUzFLa3RnZnY0eE5MTDRyTllrTWx5S3YzSmdNSTFzajhvdE1XT2VLU0hzTlJKamFfejdkYkNxSE1vdTU1VjQ3X0hoRnA3cjlT?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-25"
+        },
+        {
+          "title": "Samil PwC: China's Chip Edge Is Ecosystem-Wide, Not Technical; South Korea Must Shift to Profitability - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vcWdHaTJVMkZoZlV1eDkycXN4S1R0UlFDLVotMHhQRy1BS1FNb25kQjV5ZWgyb3lCTGRpeU92WEZfclVfV09pZW9SbW4yTU15UFV6eXFpSDRNc21Hb1B0TkhZMFRZYzFlR1dJUGtSRDJWMVJqTkE?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Breakingviews - COMMENTARY: Seoul's worst China tech fears are coming true - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkRDUGdDWXU1NWZkOFFBeG13WDdPVDhIMDVUY0JXVG0zZEtDMC1obi1SeTdqVFd0Wnl2cHBCOWhfUnJ4Q3k5VDNfalZ0Slc1ZDc5MWNwYWtrSUo0d19xUVd5bDd6UU9GRGZQT2xTVHNCTGp6ckxnaHBHUkcyMDF1NXhqcGRBWGVscHhGZ1dweVFudVBtSXM1ZnZ4T2wtVzlUam4xVUVEZ2lkQQ?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-28"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-29_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "글로벌 반도체 시장 1조 5,112억 달러 규모—출처 삼정KPMG 보고서로 명시되어 있으나 독립 검증 필요",
+          "로이터 브레이킹뷰스 '서울의 최악 우려 현실화' 보도—제목·날짜 미기재로 원문 확인 어려움",
+          "ASML 실적에 중국 저가 AI칩이 하방 압력—인과 관계 단정에 주의"
+        ],
+        "image_keyword_ok": true,
+        "notes": "수치·기관명 개연성 높음. 로이터 브레이킹뷰스 원문 링크 보강 권고.",
+        "verified_at": "2026-10-29 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "핵심광물-보호주의-전기국가-공급망",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "explainer",
+      "title": "보호주의만으론 광물 공백 못 메운다",
+      "summary": "핵심광물 확보 경쟁에서 보호주의 정책만으로는 공급 격차를 해소할 수 없다는 분석이 제기됐다. '전기국가' 개념이 부상하며 투자·파트너십 병행의 필요성이 논의되고 있다.",
+      "key_points": [
+        "IndraStra Global은 10월 26일 보호주의만으로는 핵심광물 갭을 메울 수 없다고 분석했다",
+        "FII Institute는 내일의 공급망 투자를 위한 핵심광물 경쟁을 핵심 의제로 다뤘다",
+        "어떤 투자 구조나 파트너십이 실제 조달 다변화로 이어질지는 아직 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "IndraStra Global은 10월 26일 '전기국가의 부상' 분석을 통해 보호주의 단독으로는 핵심광물 공급 격차를 좁힐 수 없다고 밝혔다. 광물 확보를 위한 국제 투자와 파트너십을 병행해야 한다는 논지다.",
+            "FII Institute도 10월 24일 핵심광물 공급망 투자를 '내일의 공급망'을 위한 경쟁으로 규정했다. 익스프레스 트리뷴은 10월 23일 핵심광물 전쟁이라는 표현으로 같은 흐름을 보도했다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "쿠키뉴스는 10월 23일 반도체 강국의 다음 과제는 자원 확보라고 짚었다. 반도체 생산 능력이 있어도 소재 원료를 확보하지 못하면 생산 연속성이 흔들릴 수 있다는 구조적 지적이다.",
+            "한국 정부도 이 흐름에 대응하고 있다. 수출입은행이 세계은행그룹 IFC와 핵심광물·첨단산업 금융협력을 공식화했다는 보도가 나왔으나, 실제 조달 다변화로 이어지는 조건은 아직 명확하지 않다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "보호주의 강화가 공급망을 단순히 자국 내로 수렴시키기보다 복수의 지역 파트너십을 요구하는 방향으로 전개될 가능성이 있다. 조달 담당자는 단일 국가·단일 공급처 의존도를 점검하는 동시에, 대체 공급처 인증에 필요한 기간을 미리 파악해 둘 필요가 있다.",
+            "계약서의 불가항력 조항과 가격조정 조항이 광물 가격 급변 시 어떻게 작동하는지 확인하는 것도 점검 항목이 될 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "수출입은행-IFC 금융협력 구체화 일정",
+          "detail": "핵심광물 금융협력의 대상 국가·품목·규모가 공식 발표되는 시점을 확인한다."
+        },
+        {
+          "label": "AfCFTA 활용 한-아프리카 광물 협력 진전",
+          "detail": "한-아프리카 공급망 협력에서 아프리카대륙자유무역지대를 통한 실제 계약 체결 여부를 추적한다."
+        },
+        {
+          "label": "보호주의 정책의 광물 공급 효과 측정 기준",
+          "detail": "각국 정부가 발표하는 핵심광물 자급률 또는 재고 목표치가 공개될 경우 실제 수치와 대조한다."
+        }
+      ],
+      "source_ids": [
+        2,
+        3,
+        4,
+        14,
+        17
+      ],
+      "image_keyword": "critical mineral ore sample",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "The Race for Critical Minerals: Investing in the Supply Chains of Tomorrow - FII Institute",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEJiUUhQM0duaE54VW5LRXhic05mZGl4X0ZhcU81M08xYU83WVdER0dab3ZrZDRVUUZrVUpIWGRRbGkwZ1lfaE94MUIybFJpZ1d4cjlzX2tWM0ZVVi1TYUI2a0RDMnR6Mkd0dkw3ODFERFJwU2R1ckdGSGNfXzZteFpCVlFjc1V3MlcyQzAxQXIzanlDMzg1RHBlQzEtVS1iOGsyS3g0T1M?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-24"
+        },
+        {
+          "title": "The critical minerals war - The Express Tribune",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zMG5BSDk0RTZ0Z2xtV2JGVi1tZmdZUm1XMlBEM0pZT3JJRXhDUGlUNERPOWhaMnp5MUpPX3ZJcGMzd19rekFIbjE0d01EVUdWdDh5MjlHRFpWdnNOTFo5a2xlbnhWVU1UazRUSWhtVdIBd0FVX3lxTE41Rlpqd1l1ek04YWtJbEgtamhfUjNmZzk2X01UOEo2ZnNyV0p4alZkWmFzc0dsUU44aHVTbjMzQlYtd1J5c052Vlo5b2JVM3Vvd0JwaEZ4TnB6RVgwUDlocWxENTU1TTJHM2owS1dOQ2x1M3dVdExV?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-23"
+        },
+        {
+          "title": "The Rise of the Electrostate: Why Protectionism Alone Cannot Close the Critical Minerals Gap - IndraStra Global",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kMmJ2MjRITjU1UUNSamxXZTNDdFVJTW5QMjJMUkI5OVFza0c5UFFQbUtmeWlxWVhYN0xJbGQ1X1pLbTJxZGljM19Ycm0taDRkQURRUXd2bHYwN3pOTXZIdGxObHpZUGRXWklCN3o1RUFEaFYtakE?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "\"한-아프리카 '공급망·산업' 협력 확대…AfCFTA와 인적자원 주목\" - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZXhVWkNMcDYyTHdjenlCUjlTY3ZSSU14akdCOGdhOS1kNGtESjJ1ZDFYYjNtWDVsaGN6YUJ4LUtUbmtPQmJoLURPSlNMTHpIN19XX0FBSl9ab0XSAWBBVV95cUxQdmxGTEZONFo5N1gyQ3Zub3BFNmI4RTNmaVpacWc5aWcxZ2NUbmEtWFIwOVpNU0ExTEs4eHE1Nk1RTTM1TVhwVk5oeUFXM0RWOXhhbHVZenF3NlB4bkNEOW4?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-22"
+        },
+        {
+          "title": "반도체 강국, 다음 과제는 자원 확보 [취재진담] - 쿠키뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhd1g3RzR4S3RTTTRoLWF6VEtIS2NvMl9oX245MXo5VUdiXzBfVFczN0ttNVBFbk1hN21fU3pmbDZiZG9xQTdPOGExNXQyR2xwWGZlZEVnZVAzbi1UVmlnOC1vUQ?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-10-23"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-29_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "수출입은행-IFC 핵심광물 금융협력 '공식화'—보도 출처 불명확, 발표 날짜 미기재",
+          "IndraStra Global '전기국가의 부상' 분석—비주류 매체로 원문 신뢰도 별도 확인 필요",
+          "'조달 다변화로 이어지는 조건은 아직 명확하지 않다'—편집부 판단인지 인용인지 불분명"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 기관명·정책명 실재 확인됨. 수출입은행-IFC 협력 원문 링크 보강 권고.",
+        "verified_at": "2026-10-29 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "재생에너지-반도체-조달-RE100전략",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "AI·반도체 RE100, 11월 컨퍼런스서 조달 전략 논의",
+      "summary": "AI·반도체 업계의 재생에너지 조달 전략을 다루는 한국RE100컨퍼런스가 11월 26일 열린다. 전력 조달 방식이 반도체 공급망의 새 변수로 부상하고 있다.",
+      "key_points": [
+        "한국RE100컨퍼런스가 2026년 11월 26일 개최 예정이며 AI·반도체 재생에너지 조달 전략을 의제로 다룬다",
+        "정부가 AI 데이터센터에 1,000조 원 투자를 공식화했으나 전력망 증설 속도와 인허가 일정은 아직 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "전기신문은 10월 27일 한국RE100컨퍼런스가 11월 26일 개최되며 AI·반도체의 재생에너지 조달 전략을 핵심 의제로 논의한다고 보도했다. AI 데이터센터와 반도체 팹의 전력 조달 방식이 공급망 계획에 영향을 미치는 변수로 자리 잡고 있다는 배경이다.",
+            "강원특별자치도 AI·반도체 포럼도 10월 28일 열렸다. AI 대전환 국면에서 전력 인프라와 산업 입지 전략이 동시에 논의되는 흐름이 이어지고 있다.",
+            "조달 담당자 입장에서는 납품처 팹의 재생에너지 조달 계획이 가동률이나 납기에 영향을 줄 수 있는지, 계약 조건에 전력 관련 불가항력 조항이 포함되어 있는지를 확인하는 것이 하나의 점검 항목이 될 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        28,
+        24
+      ],
+      "image_keyword": "solar panel semiconductor factory rooftop",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "AI·반도체 재생E 조달 전략 논의...한국RE100컨퍼런스 11월 26일 개최 - 전기신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzaGc5dVZyV0paLWVRY3hoZEFEVmgtWnN2bG43ODJsVS0zZ1U0MkRCd0ZjZzJ2VEpkSkh0RUVpTlBiSDVRUGktR21jOHg1QWNtZF9lb2VMNUJJT20wNGNxSnZhLVhaX3pKRXNUddIBcEFVX3lxTE51NnFfME1acVNHQ00wM2RXUjg3V3Y5RW12UzVXdTVzdTlCMHBTeF9GemIyc1d4dzU4bko3SlA5SlBob3liZmFiZ3FaeWFWaGRxMGxNX2RYMEtybWI3TUwyT25QaC1kWFpJb2lxQjlrYWc?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-10-27"
+        },
+        {
+          "title": "[생중계] 2026 강원특별자치도 AI·반도체 포럼 | AI 대전환, 강원의 새로운 기회 - 강원일보",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wQVhJVXloUXFtVnNQNFhVWmhjeGdTblZDX3BzSzJuUDRzanZCd2NpekZ6M3p3R1p1TzJabjVqZm9fUTV3X29DVlNrbGh4UENnSTBicG1QMTFWaFk?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-10-28"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-29_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "강원특별자치도 AI·반도체 포럼 '2026' 표기—근거 원문 제목과 연도 불일치 가능성",
+          "한국RE100컨퍼런스 11월 26일 개최—전기신문 단독 보도로 공식 주최측 확인 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "이벤트 날짜·주최 정보 단일 출처 의존. 공식 컨퍼런스 페이지 교차 확인 권고.",
+        "verified_at": "2026-10-29 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "중국 반도체 굴기 확산으로 한국 기업의 수익성 압박이 커지는 가운데, 핵심광물 확보는 보호주의만으로 한계가 있어 투자·파트너십 병행이 요구되고 있다. AI·반도체 업계에서는 재생에너지 조달 전략이 공급망의 새 변수로 부상하고 있다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "중국 반도체 굴기",
+      "status": "수익성 압박 확산"
+    },
+    {
+      "icon": "🔴",
+      "label": "미중 패권 경쟁",
+      "status": "기술생태계 전반 영향"
+    },
+    {
+      "icon": "🟡",
+      "label": "핵심광물 공급",
+      "status": "보호주의 한계 대두"
+    },
+    {
+      "icon": "🟡",
+      "label": "전기국가 부상",
+      "status": "투자·파트너십 필요"
+    },
+    {
+      "icon": "🟢",
+      "label": "RE100 조달전략",
+      "status": "11월 컨퍼런스 논의"
+    }
+  ],
+  "last_reviewed_at": "2026-10-29 08:16"
+}
