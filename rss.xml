@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 29 Oct 2026 08:16:23 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 08:16:58 +0900</lastBuildDate>
+    <item>
+      <title>AI 칩 냉각 소재 다이아몬드, 미중 공급망 새 전선으로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>AI 가속기 발열 문제 해결에 다이아몬드 소재가 주목받으면서 반도체·광물에 이어 냉각 소재 분야에서도 미중 공급망 경쟁이 부상하고 있다. 조달 담당자는 AI 시스템 부품군에 이 소재가 포함되는지 점검이 필요한 시점이다.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>EU 반도체 자급 목표, 투자는 늘어도 달성은 불투명</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-1.html</guid>
+      <category>글로벌분석</category>
+      <description>EU 반도체 정책에 대한 투자는 확대되고 있으나 자급자족 달성 가능성에 의구심이 높아지고 있으며, 글로벌 기업 유치를 위한 전략 재검토 요구가 제기됐다. 한국 공급망과의 교차점을 점검할 필요가 있다.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>현대모비스, 차량용 반도체 공급 컨소시엄 확대</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-2.html</guid>
+      <category>산업전략</category>
+      <description>현대모비스가 한국 내 자동차용 반도체 공급 컨소시엄을 확대했다. 한국 3분기 GDP가 반도체 수출에 힘입어 1.0% 성장하는 등 반도체 공급망 다변화 움직임이 이어지고 있다.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>서울의 최악 시나리오, 숫자로 드러나다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-29-0.html</link>
@@ -222,30 +246,6 @@
       <category>기술패권</category>
       <description>트럼프 행정부가 애플에 중국 CXMT 등 중국산 메모리 사용 중단을 공식 압박하면서, 삼성전자·SK하이닉스의 아이폰 LPDDR5X 공급 확대 가능성이 부상했다. 다만 중국산 대비 30~40% 높은 단가가 애플의 BOM 원가에 직접 영향을 준다.</description>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>수출입은행-IFC 핵심광물 금융협력, 조달 다변화 실제 조건</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-20-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-20-2.html</guid>
-      <category>글로벌분석</category>
-      <description>수출입은행이 세계은행그룹 IFC(국제금융공사)와 핵심광물·첨단산업 금융협력 확대를 공식화했다. 중국 의존도를 낮추기 위한 아프리카·중남미 광물 프로젝트 금융 접근성 확보가 목표지만, 광산 개발에서 정련 인증까지 최소 5~7년 시간표가 현실이다.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 핵심광물 통제, AI·로봇 소재로 전선 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-19-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-19-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 전선이 확대됐다. 갈륨 가격이 3년 만에 9배 폭등한 데 이어, 이제는 네오디뮴·디스프로슘 등 로봇 모터 소재까지 허가제 편입이 가시화되고 있다. 투자자 관점에서 한국 로봇·전력반도체 제조사의 원가 리스크가 동시에 확대되는 국면이다.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>트럼프, 엔비디아·AMD 전세계 수출 미국 허가 의무화 추진</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-19-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-19-1.html</guid>
-      <category>기술패권</category>
-      <description>트럼프 행정부가 엔비디아·AMD의 AI 반도체를 전 세계 어느 국가에 수출하더라도 미국 정부 허가를 의무화하는 방안을 추진 중이다. 기존 중국·러시아 중심의 수출통제에서 동맹국 포함 전방위 통제로 확대되는 구조 전환이며, 한국 AI 데이터센터 증설 일정에 직접 타격이 예상된다.</description>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
