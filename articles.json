@@ -1,64 +1,84 @@
 {
-  "generated_at": "2026년 10월 30일 08:16",
-  "date_str": "2026년 10월 30일",
-  "date_key": "2026-10-30",
+  "generated_at": "2026년 10월 31일 08:17",
+  "date_str": "2026년 10월 31일",
+  "date_key": "2026-10-31",
   "articles": [
     {
       "id": 0,
-      "topic_key": "다이아몬드-AI칩-냉각소재-미중격전",
+      "topic_key": "희토류-휴전연장-법적기한유지",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "article_type": "explainer",
-      "title": "AI 칩 냉각 소재 다이아몬드, 미중 공급망 새 전선으로",
-      "summary": "AI 가속기 발열 문제 해결에 다이아몬드 소재가 주목받으면서 반도체·광물에 이어 냉각 소재 분야에서도 미중 공급망 경쟁이 부상하고 있다. 조달 담당자는 AI 시스템 부품군에 이 소재가 포함되는지 점검이 필요한 시점이다.",
+      "title": "희토류 휴전 연장, 법적 기한은 그대로 남았다",
+      "summary": "희토류 분야의 휴전이 연장됐으나 관련 법적 기한은 변경되지 않은 것으로 확인됐다. 갈륨·게르마늄 등 핵심 광물의 안정적 확보가 여전히 구조적 과제로 지목되고 있다.",
       "key_points": [
-        "다이아몬드가 AI 칩 열 관리 소재로 떠오르며 새로운 미중 공급망 격전지로 지목됐다",
-        "국내 조달 계약에서 해당 소재의 공급 출처와 대체 가능성은 아직 공식 확인된 내용이 없다",
-        "반도체·갈륨·게르마늄에 이어 냉각·방열 소재로 공급망 리스크가 확산되는 패턴이 관찰된다"
+        "희토류 휴전이 연장됐으나 법적 이행 기한은 그대로 유지됐다",
+        "갈륨·게르마늄이 확보하기 어려운 구조적 이유에 대한 분석이 제기됐다",
+        "핵심 광물 공급망 투자 경쟁이 지속되고 있으나 실질적 다변화 성과는 불확실하다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "2026년 10월 29일 보도에 따르면 다이아몬드 소재가 AI 칩의 발열 문제를 해결하는 핵심 재료로 부각되면서 미중 간 공급망 경쟁의 새로운 축으로 떠오르고 있다. AI 가속기 성능이 높아질수록 발열 관리가 병목이 되고 있으며, 극도의 열 전도성을 가진 다이아몬드가 대안 소재로 주목받는 상황이다.",
-            "이는 기존에 반도체 제조 공정 소재(갈륨, 게르마늄)를 중심으로 전개되던 공급망 통제 경쟁이 AI 시스템의 열 관리 분야로 확산되는 흐름으로 해석할 수 있다. 다만 다이아몬드 냉각 소재의 구체적인 생산 점유율이나 통제 조치 현황은 이번 보도에서 수치로 확인되지 않았다."
+            "2026년 10월 30일(현지시간) 환경 전문 매체 엔바이런멘털 리더는 희토류 관련 휴전이 연장됐으나 법적 기한은 그대로 유지되고 있다고 보도했다. 휴전 자체는 시한이 늘어났지만, 그에 수반된 법적 이행 일정은 변경되지 않았다는 것이다. 어떤 당사자들 사이의 어떤 분쟁인지에 대한 공식적 세부 내용은 현재 추가 확인이 필요한 상태다.",
+            "같은 날 광물 분석 매체 아조마이닝(AZoMining)은 갈륨과 게르마늄이 왜 확보하기 어려운 광물인지를 구조적으로 분석한 기사를 발행했다. 두 광물은 주로 아연·보크사이트 제련 과정의 부산물로 생산되기 때문에, 수요가 늘어도 생산량을 독립적으로 늘리기 어렵다는 점이 핵심 제약으로 꼽힌다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "갈륨과 게르마늄은 반도체·광통신·태양광 소재에 두루 쓰인다. 중국이 주요 생산국으로, 수출 통제 조치를 반복적으로 활용해 왔다. FII 인스티튜트는 2026년 10월 24일 발표에서 핵심 광물 공급망 투자 경쟁이 가속화되고 있다고 짚었다.",
+            "이번 휴전 연장은 긴장이 일시 완화된 것으로 읽힐 수 있지만, 법적 기한이 유지된다는 점은 이행 의무가 사라지지 않았음을 뜻한다. 단기 긴장 완화와 중장기 구조 변화를 구분해 살펴볼 필요가 있다."
           ]
         },
         {
           "heading": "조달에 어떤 영향이 있을까",
           "paragraphs": [
-            "AI 서버·가속기 카드를 구매하거나 데이터센터 장비를 조달하는 담당자라면, 해당 장비의 열 관리 부품에 특수 소재가 포함되는지 여부와 그 소재의 원산지 구조를 제조사에 확인해 볼 수 있다. 단일 국가 의존도가 높은 소재가 부품 단계에 포함된 경우 수출통제 조치가 납기에 영향을 미칠 가능성이 있다.",
-            "구매 계약에 불가항력 조항이 소재·부품 수준까지 적용되는지도 점검 대상이다. 갈륨·게르마늄 선례처럼 초기에는 '제한적 영향'으로 평가됐다가 납기 지연이 현실화된 경우가 있었기 때문이다."
+            "갈륨·게르마늄을 원재료 또는 부품 투입재로 쓰는 조달 담당자라면, 현재 계약상 가격조정 조항이 이 같은 가격 변동성을 커버하는지 점검해볼 수 있다. 또한 단일 공급처 의존도와 대체 공급처 인증에 필요한 기간도 함께 확인해볼 사안이다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "다이아몬드 소재 수출 규제 동향",
-          "detail": "중국 또는 주요 생산국에서 다이아몬드 합성·열관리 소재에 대한 수출통제 조치가 발표되는지 여부"
+          "label": "희토류 휴전 법적 기한",
+          "detail": "연장된 휴전과 별개로 법적 이행 기한이 언제인지, 기한 도과 시 어떤 조치가 따르는지 공식 발표를 확인할 필요가 있다"
         },
         {
-          "label": "AI 가속기 제조사의 소재 공시",
-          "detail": "엔비디아·AMD 등 AI 칩 제조사가 열 관리 소재 공급망을 공식 공시하거나 변경 공지를 내놓는 시점"
+          "label": "갈륨·게르마늄 수급 지표",
+          "detail": "두 광물의 현물 납기와 가격 동향을 정기적으로 모니터링하는 것이 적절하다"
         },
         {
-          "label": "한국 장비 조달 계약의 소재 명세",
-          "detail": "국내 데이터센터·반도체 장비 구매 시방서에 열 관리 소재 원산지 요건이 추가되는지 여부"
+          "label": "FII 핵심광물 투자 보고서",
+          "detail": "2026년 10월 24일 발표된 FII 인스티튜트 보고서의 구체적 수치와 권고 내용을 확인할 수 있다"
         }
       ],
       "source_ids": [
-        22
+        3,
+        4,
+        2
       ],
-      "image_keyword": "synthetic diamond heat spreader",
+      "image_keyword": "germanium crystal sample laboratory",
       "is_featured": true,
-      "timestamp": "오전 09:00",
+      "timestamp": "오후 02:10",
       "format": "v2",
       "sources": [
         {
-          "title": "AI 칩 열 식히는 다이아몬드…새로운 미중 공급망 격전지로 - 더쎈뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PYmlzOWw0ZDZHek5JeWQ3SE4zLXJYdV9WOWV2R3gwNkJ6YkkxdTAydWU4LUJyTlNNVVkybTdWb2N5UGIxcHNlUFdnVHFJV1BmdVI2S1lOUk03bERkXzdpTkYyZ0ZxUC14?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-10-29"
+          "title": "Rare Earth Truce Is Extended, but Its Legal Deadlines Stand - Environmental Leader",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkdlZ2Rmcy1iWGZhUW5iNk1CQ1JMcFdmWWNpZVBGSzVhZF9JOWFJR3g2S1JTTVpsR0VyMlZubU1mUVJoSlJ3NVYtN2JtbU5fOFcxdW1CVXh5cVNsZ2JwSV9rWVRjOVJBaU5ydHlTRzdYME9tclRXbU5ld0l4clQ2Y2tLUFZ6SXJyT0ppVDRMbWhOaXluZmNkTXAwOXBDMV9CQUVrU0ZFMk1OMTlS?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "Gallium and Germanium: Why Are These Critical Minerals So Difficult to Secure? - AZoMining",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PRGhnbVdNemJoeFpVSGpKMHpsT0M0VnU1ak9zekNULUNzRVdFUGFOR0JNMGZSTGhpd0MwOFZ6T0d4ZS1vbTJ1QnhPNjdfVTdFWndpTUNmd1VnSGtkbXJhTWh6TQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-31"
+        },
+        {
+          "title": "The Race for Critical Minerals: Investing in the Supply Chains of Tomorrow - FII Institute",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbEJiUUhQM0duaE54VW5LRXhic05mZGl4X0ZhcU81M08xYU83WVdER0dab3ZrZDRVUUZrVUpIWGRRbGkwZ1lfaE94MUIybFJpZ1d4cjlzX2tWM0ZVVi1TYUI2a0RDMnR6Mkd0dkw3ODFERFJwU2R1ckdGSGNfXzZteFpCVlFjc1V3MlcyQzAxQXIzanlDMzg1RHBlQzEtVS1iOGsyS3g0T1M?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-24"
         }
       ],
       "fact": [],
@@ -67,90 +87,158 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-30_article_0.jpg",
+      "image_url": "images/2026-10-31_article_0.jpg",
       "review": {
-        "trust_score": 4,
-        "status": "pass",
+        "trust_score": 3,
+        "status": "warning",
         "suspicious_claims": [
-          "다이아몬드 냉각 소재 생산 점유율·통제 조치 수치 미확인",
-          "미중 공급망 경쟁 확산 주장은 개연성 있으나 공식 정책 조치 미확인"
+          "휴전 당사자 및 분쟁 구체 내용 미확인 — 공식 세부사항 추가 검증 필요",
+          "엔바이런멘털 리더가 희토류 분쟁 보도 매체로 적합한지 불명확",
+          "FII 인스티튜트 2026-10-24 발표 내용 원문 확인 불가"
         ],
         "image_keyword_ok": true,
-        "notes": "갈륨·게르마늄 선례 언급 등 맥락 적절, 수치 부재 명시로 신뢰도 유지",
-        "verified_at": "2026-10-30 08:17"
+        "notes": "갈륨·게르마늄 구조적 제약 설명은 업계 사실과 부합. 휴전 당사자 불명확이 핵심 리스크.",
+        "verified_at": "2026-10-31 08:17"
       }
     },
     {
       "id": 1,
-      "topic_key": "EU-반도체칩법-자급자족-정책재검토",
-      "category": "글로벌분석",
-      "tag_type": "tag-global",
-      "article_type": "analysis",
-      "title": "EU 반도체 자급 목표, 투자는 늘어도 달성은 불투명",
-      "summary": "EU 반도체 정책에 대한 투자는 확대되고 있으나 자급자족 달성 가능성에 의구심이 높아지고 있으며, 글로벌 기업 유치를 위한 전략 재검토 요구가 제기됐다. 한국 공급망과의 교차점을 점검할 필요가 있다.",
+      "topic_key": "대만-기술탈취-한국반도체-구조비교",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "대만 경험이 한국 반도체에 던지는 질문",
+      "summary": "중국 반도체 기업의 기술 격차 축소가 가시화되면서 대만의 기술탈취 대응 경험이 한국에 시사하는 바에 관심이 모이고 있다. 한국 기업의 수익성 전환 압박도 동시에 제기됐다.",
       "key_points": [
-        "EU 반도체 투자는 증가 추세이나 자급자족 목표 달성에 대한 의구심이 공개적으로 제기됐다",
-        "글로벌 반도체 기업 유치를 위한 전략 재설계가 필요하다는 목소리가 커지고 있다",
-        "EU 정책 변화는 한국 소부장 기업의 유럽 공급망 진입 기회 구조에 영향을 줄 수 있다"
+        "중국 반도체 기업이 기술 격차를 좁히면서 한국 기업의 선도 지위 유지에 대한 우려가 제기됐다",
+        "대만의 기술탈취 대응 사례가 한국에 참고 자료로 부각되고 있다",
+        "한국 기업의 수익성 확보 전략 전환 필요성이 복수의 분석 기관에서 지적됐으나, 구체적 전환 방안은 아직 확정되지 않았다"
       ],
       "sections": [
         {
-          "heading": "핵심 질문",
+          "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "EU는 반도체 법(Chips Act) 이후 대규모 투자를 집행하고 있지만, 2026년 10월 28일 보도에 따르면 자급자족이 '여전히 요원하다(Self-Sufficiency Remains Elusive)'는 평가가 나오고 있다. 글로벌 반도체 기업 유치 전략을 재검토해야 한다는 요구도 함께 제기됐다."
+            "2026년 10월 30일 아시아 타임스는 중국의 반도체 기술탈취 문제에서 대만의 경험이 한국에 어떤 교훈을 줄 수 있는지를 분석했다. 같은 시기 로이터스는 서울의 최악 중국 기술 우려가 현실화되고 있다고 평가했으며, 사우스차이나모닝포스트는 중국 반도체 기업들이 기술 격차를 좁혀가는 가운데 한국이 선도 지위 유지를 위해 속도를 내고 있다고 전했다.",
+            "삼일PwC는 중국의 반도체 경쟁력이 개별 기술이 아니라 생태계 전반에 걸쳐 형성되고 있으며, 한국은 수익성 중심으로 전략을 전환해야 한다고 분석했다. 이 보고서는 2026년 10월 26일 공개됐다."
           ]
         },
         {
-          "heading": "사실과 데이터",
+          "heading": "왜 주목해야 하나",
           "paragraphs": [
-            "해당 보도는 EU 내 반도체 투자가 꾸준히 증가하고 있음을 인정하면서도, 그것이 목표한 자급 수준으로 이어지지 않고 있음을 지적했다. 구체적인 자급률 수치나 투자 총액은 이번 보도에서 확인되지 않았다. 전략 재검토의 방향으로는 글로벌 기업 유치 방식의 변화가 거론됐다."
+            "대만은 반도체 설계·제조 인력 유출과 기술탈취 시도를 수년에 걸쳐 겪어왔다. 이 경험에서 어떤 대응 체계를 구축했는지는, 유사한 구조적 압박에 직면한 한국 공급망 참여자들에게 비교 기준점이 될 수 있다.",
+            "삼일PwC의 분석에서 지목된 '생태계 전반의 경쟁력'이라는 표현은, 특정 소재나 부품 하나만이 아니라 공급망 전체 구조가 경쟁 환경에 노출됐음을 시사한다."
           ]
         },
         {
-          "heading": "구조적 배경",
+          "heading": "조달에 어떤 영향이 있을까",
           "paragraphs": [
-            "EU 반도체 정책의 한계 논의는 단독 사안이 아니다. 2026년 10월 기준 한국 소부장·뿌리기업 100여 개사가 글로벌 공급망 신규 진입을 추진하고 있으며, EU가 글로벌 기업 유치 조건을 조정할 경우 이 기업들의 유럽 시장 접근 구조도 변화할 수 있다. 또한 글로벌 반도체 시장이 1조 5,112억 달러 규모로 성장할 것이라는 전망이 나오는 가운데, EU의 전략 재편은 공급망 지형 변화의 변수가 될 수 있다."
-          ]
-        },
-        {
-          "heading": "가능한 시나리오와 한계",
-          "paragraphs": [
-            "EU가 자급자족 목표를 유지하면서 글로벌 기업 인센티브를 강화하는 방향으로 전환한다면, 한국 소부장 기업 입장에서는 유럽 공급망 진입 요건이 변화할 수 있다. 반면 정책 재검토가 지연되거나 방향이 불분명한 상태가 지속된다면, 이미 계획 중인 유럽향 공급망 참여 계획의 실행 일정도 불확실해질 수 있다. 다만 EU의 최종 정책 결정 시점과 구체적 내용은 현재 확인되지 않았다."
+            "한국 반도체 기업을 주요 공급처로 둔 조달 담당자라면, 해당 기업의 기술 우위 지속 여부와 중국산 대체품의 사양 격차가 어느 정도 남아 있는지 정기적으로 점검해볼 수 있다. 단일 공급처 의존도와 대체 인증 기간도 함께 확인할 사안이다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "EU Chips Act 전략 재검토 공식 발표",
-          "detail": "EU 집행위원회가 글로벌 기업 유치 전략 수정안을 공식 발표하는 시점과 인센티브 조건 변화"
+          "label": "삼일PwC 수익성 전환 권고",
+          "detail": "2026년 10월 26일 발표된 삼일PwC 보고서의 구체적 지표와 권고 내용을 확인하는 것이 적절하다"
         },
         {
-          "label": "한국 소부장 기업의 EU 공급망 진입 결과",
-          "detail": "2026년 10월 말 추진 중인 100여 개사의 글로벌 밸류체인 진입 협상 결과 공개 여부"
+          "label": "중국 반도체 기술 격차 지표",
+          "detail": "중국 반도체 기업의 주요 공정 노드 진척 상황과 한국·대만 선두 기업과의 격차를 정기적으로 비교할 수 있다"
         },
         {
-          "label": "EU 반도체 자급률 공식 측정치",
-          "detail": "EU가 목표 대비 실제 자급률을 수치로 공시하는 시점"
+          "label": "대만 기술탈취 대응 체계",
+          "detail": "대만 정부 및 기업이 시행 중인 기술 보호 조치의 구체적 내용을 아시아 타임스 보도를 통해 확인할 수 있다"
         }
       ],
       "source_ids": [
-        30,
-        13,
-        14,
-        15,
-        21
+        34,
+        32,
+        33,
+        31
       ],
-      "image_keyword": "semiconductor fab construction crane",
+      "image_keyword": "semiconductor wafer fab cleanroom worker",
       "is_featured": false,
-      "timestamp": "오전 09:00",
+      "timestamp": "오후 02:10",
       "format": "v2",
       "sources": [
         {
-          "title": "“Investment Is Growing, but Self-Sufficiency Remains Elusive”: Doubts Mount Over EU Chip Policies as Calls Grow to Rethink Strategy for Attracting Global Companies - https://economy.ac/",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCMWR4NE51VEJ1ZHJMLVlMOHk3SE05LWt6a053VDduOG8yRkpUWVAzU2hGTU1aQVhlMUtSNE4tckdwMlBwRUh0ekVTYkp4bmNTV2R0djF3WQ?oc=5",
-          "source": "Google뉴스-글로벌공급망",
+          "title": "What Taiwan can teach South Korea about China’s chip tech theft - Asia Times",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmltWTRmZGpsWVJjWU1KQy1vRGlDbEo5SEN5NGhTbjNRSFVobWVqWnBSaV9ZYTY2bmNTSzZYZ1BjMnJ1bzhTYW9PSkZzcENiVEppWlZXaFoyX2ZDZV9VclphSUhnQzRqVGJ6MzVZOFRfb1J6dXc3eGdCSkJsUXA3UGRpcm8zay1TckxoM0JQblpwMU1tamJRdg?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "Breakingviews - COMMENTARY: Seoul's worst China tech fears are coming true - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQkRDUGdDWXU1NWZkOFFBeG13WDdPVDhIMDVUY0JXVG0zZEtDMC1obi1SeTdqVFd0Wnl2cHBCOWhfUnJ4Q3k5VDNfalZ0Slc1ZDc5MWNwYWtrSUo0d19xUVd5bDd6UU9GRGZQT2xTVHNCTGp6ckxnaHBHUkcyMDF1NXhqcGRBWGVscHhGZ1dweVFudVBtSXM1ZnZ4T2wtVzlUam4xVUVEZ2lkQQ?oc=5",
+          "source": "Google뉴스-기술패권",
           "date": "2026-10-28"
         },
+        {
+          "title": "As Chinese chipmakers close the tech gap, South Korea races to protect its lead - South China Morning Post",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNekFtZjJjbDl6bElvd3l6MjFxNW9KTkpfdlR1M1ZEOWUxd0RvOHN6NGdoTUxkeXJ6ZHI5TjE3VVJtQXFLdnVlbDVfeW9MWkNzUUdWckpta0ZoQ1piVUxFZXl6eENLUVE3Y1FwODQ5UDh2Nzh3bHF5WFNoUWhLTmQzbGRvelBhSkJNYnhFNFp5dUlUZXJfQkpPcWlMejF5ZUV0ZXZ0LUlxTzV2TkdfdmxrZ0VnN2pyQzNseFc2U2s4bklocE5nT2ZPUnBLMlTSAcwBQVVfeXFMTmdBTEJSSDdUMmdhMzhQV3ROei1rMl94bWtxTnUxSzJvMm8xWHc4VFdFWjlQVzZPQllDWkVRTENSdlV3RXk4V09OdU40VGh5LVQ4QldCZUJBTWw2NEJKemVyaG5vQ1NpYzZsa29vVHcxTzFEcHRoLUdRcUdNQXZkbmlSSTAtdmdxSW1zaDNyZmp5TE1CX09aS3JSY0R1enlDMjlldzVkWVhqSllpdmE5MExPUFczLU5FVE80dEZCZVFaS0cyZXloUkhiSGJM?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-26"
+        },
+        {
+          "title": "Samil PwC: China's Chip Edge Is Ecosystem-Wide, Not Technical; South Korea Must Shift to Profitability - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vcWdHaTJVMkZoZlV1eDkycXN4S1R0UlFDLVotMHhQRy1BS1FNb25kQjV5ZWgyb3lCTGRpeU92WEZfclVfV09pZW9SbW4yTU15UFV6eXFpSDRNc21Hb1B0TkhZMFRZYzFlR1dJUGtSRDJWMVJqTkE?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-10-26"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-10-31_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "로이터스 '서울의 최악 중국 기술 우려' 기사 제목·날짜 원문 확인 필요",
+          "삼일PwC 보고서 2026-10-26 공개 여부 직접 검증 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "대만 기술탈취 경험·중국 반도체 격차 축소는 업계 통용 사실. 출처 보고서 확인 권장.",
+        "verified_at": "2026-10-31 08:17"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "K소부장-글로벌밸류체인-해외수요",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "해외 기업 20곳, K-소부장 협력사 물색 나섰다",
+      "summary": "글로벌 공급망 재편 흐름 속에서 해외 기업 20여 곳이 국내 소재·부품·장비 협력사를 직접 탐색하고 있다. 100여 개 국내 기업이 글로벌 밸류체인 진입을 노리고 있다.",
+      "key_points": [
+        "해외 기업 20곳이 국내 소재·부품·장비 협력사를 탐색 중이라고 보도됐다",
+        "100여 개 국내 소부장 기업이 글로벌 밸류체인 진입을 추진하고 있다",
+        "실제 공급망 편입 성사 여부와 시기는 아직 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 10월 29일 복수의 국내 매체는 글로벌 공급망 재편 수요를 활용해 K-소부장·뿌리기업의 세계 공급망 진입이 확대되고 있다고 보도했다. 중소기업투데이에 따르면 해외 기업 20곳이 국내 협력사를 찾고 있으며, 코리아포스트는 100여 개 기업이 글로벌 밸류체인 진입을 목표로 하고 있다고 전했다.",
+            "이 움직임은 미국·유럽 제조업체들이 중국 의존도를 줄이고 대체 공급처를 다각화하는 흐름과 맞물린 것으로 보인다. 다만 탐색 단계에서 실제 계약·인증 완료까지의 기간과 성사율에 대한 공식 수치는 아직 발표되지 않았다.",
+            "조달 담당자 입장에서는, 자사가 거래 중인 국내 소부장 공급처가 해외 수주 확대에 따라 납기·물량 배분 우선순위가 달라질 가능성을 미리 확인해볼 수 있다. 특히 단일 공급처 의존도가 높은 특수 소재나 부품의 경우, 공급처의 해외 계약 현황을 파악해두는 것이 적절할 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        13,
+        14,
+        15
+      ],
+      "image_keyword": "industrial components manufacturing assembly line",
+      "is_featured": false,
+      "timestamp": "오후 02:10",
+      "format": "v2",
+      "sources": [
         {
           "title": "글로벌 공급망 재편 수요 활용 K-소부장·뿌리기업 세계 공급망 진입 확대 나서 - 일간대한뉴스",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2MGwtZmFLeW03SGVSWDBaSXBQZ2ZXQ3FHR3JuVHN2bXB6MGNPbVNuWlNjSFZFanJzUGN3cjRvdmhJY19yVFFYZlM3d0NQNmdqYVdqRkhfQVVLdWFlZUdqUHVEdzRRa28?oc=5",
@@ -164,16 +252,10 @@
           "date": "2026-10-29"
         },
         {
-          "title": "K-소부장·뿌리기업 100여 개사, 글로벌 공급망 신규 진입 물꼬 - 아주경제",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HZ1pUdExYVkluOFlYdXdRS2haTVAxLVhQQkg4WTFpOFYwRGpmVzhFZVlOZ0ZLRDVyOGhIbmlwUEZjbDU1c1pacFNDSUl5NVNNR2w3UHdEMWLSAVhBVV95cUxPR2daVHRMWFZJbjhZWHV3UUtoWk1QMS1YUEJIOFkxaThWMERqZlc4RWVZTmdGS0Q1cjhoSG5pcFBGY2w1NXNaWnBTQ0lJeTVTTUdsN1B3RDFi?oc=5",
+          "title": "글로벌 공급망 재편에 한국 소부장 '기회'…해외기업 20곳, 국내 협력사 찾는다 - 중소기업투데이",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0aDF4MFJ0Xy1XOWU4bzVxcG9wM0NsUVNPTnNQQ1VNRTZTeWE3ZlNvd3JYLXQ1YVJZTC1EbXJyeldaaDVUX1QxTlhTdmdhSGJPZ1lqTmtTN2ZPNHJUc0w4MnZIV0tWZTFw0gFsQVVfeXFMT2ZteGxCTUJsUDl3RkdRRHhfQTUyczBLdDdGTEZxTlJpYTBadXhUVXlnOVJHWWNwaGdiVUVZc0hmX1BqTmpLelNiYzVxUktVQXA5bTZHVUhxMmFydld6QlBZSE5POVNaelo1eXpY?oc=5",
           "source": "GoogleNews",
           "date": "2026-10-29"
-        },
-        {
-          "title": "글로벌 반도체 시장 1조5,112억弗 시대…“AI 투자 수익성 확보가 관건” - CPA뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1iRFpqVS1OMzI3WXRxWGRhSkhjUzZ6ZGIzQkF3NGVhamtMQVQwNkhXWi1INmd5bGc0RWNjNzJYZE1rTGJMTE5XcElpMzJ3T2F0cGZWWlJrVDNqRTMyUERjT2QyRTBoN1Qx?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-10-28"
         }
       ],
       "fact": [],
@@ -182,113 +264,47 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-10-30_article_1.jpg",
+      "image_url": "images/2026-10-31_article_2.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "글로벌 반도체 시장 1조5,112억 달러 전망 출처·시점 미확인",
-          "한국 소부장·뿌리기업 100여 개사 수치 단일 출처 의존",
-          "EU 자급률 구체 수치 미확인으로 목표 달성 불투명 판단 근거 약함"
+          "해외기업 20곳·국내기업 100여 개 수치 출처가 단일 매체 보도에 의존",
+          "탐색 단계 성사율·계약 완료 공식 수치 부재 명시됨"
         ],
         "image_keyword_ok": true,
-        "notes": "EU Chips Act 등 실존 정책 인용 적절, 수치 미확인 사항 본문 내 명시됨",
-        "verified_at": "2026-10-30 08:17"
-      }
-    },
-    {
-      "id": 2,
-      "topic_key": "현대모비스-차량반도체-공급컨소시엄확대",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
-      "article_type": "brief",
-      "title": "현대모비스, 차량용 반도체 공급 컨소시엄 확대",
-      "summary": "현대모비스가 한국 내 자동차용 반도체 공급 컨소시엄을 확대했다. 한국 3분기 GDP가 반도체 수출에 힘입어 1.0% 성장하는 등 반도체 공급망 다변화 움직임이 이어지고 있다.",
-      "key_points": [
-        "현대모비스가 한국 자동차용 반도체 공급 컨소시엄을 공식 확대했다",
-        "한국 2026년 3분기 GDP가 반도체 수출 호조에 힘입어 전망치를 상회하며 1.0% 성장했다",
-        "컨소시엄 참여 기업 구성과 조달 조건의 세부 내용은 아직 공개되지 않았다"
-      ],
-      "sections": [
-        {
-          "heading": "",
-          "paragraphs": [
-            "2026년 10월 23일 보도에 따르면 현대모비스가 한국 내 자동차용 반도체 공급 컨소시엄을 확대했다. 미중 기술 격리와 글로벌 공급망 재편 흐름 속에서 완성차·부품사가 반도체 조달 루트를 다변화하는 움직임의 일환으로 볼 수 있다.",
-            "같은 시기 발표된 한국 통계에 따르면 2026년 3분기 GDP 성장률이 1.0%로 시장 예측치를 웃돌았으며, 반도체 수출이 주요 기여 요인으로 꼽혔다. 자동차용 반도체는 메모리와 별도로 파운드리·아날로그 반도체 공급망이 작동하는 영역으로, 컨소시엄 구성에 따라 조달 이원화 구조에 변화가 생길 수 있다.",
-            "컨소시엄 참여사 목록, 물량 배분 방식, 계약 조건 등 세부 내용은 이번 보도에서 확인되지 않았다. 자동차용 반도체를 조달하는 Tier1·Tier2 담당자라면 컨소시엄 참여 자격 요건과 인증 절차 변경 여부를 제조사 측에 확인해 볼 수 있다."
-          ]
-        }
-      ],
-      "watch_items": [],
-      "source_ids": [
-        28,
-        31
-      ],
-      "image_keyword": "automotive semiconductor chip circuit board",
-      "is_featured": false,
-      "timestamp": "오전 09:00",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "Hyundai Mobis expands Korean automotive semiconductor supply consortium - Vietnam Investment Review - VIR",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXZ2RlloaXlrd1lnam5aUTlmU29CUUl1OGhpNVNpMU8tam5FUDJCXzJxU0E5X0tZWGpnNThBQ0gzTnBhQzZIS2oxYlpoUmlROHI4VllxNWlWV3NtbkhUU2I1a3B4RXNvb3ZSdjR4YWplX0VPeHkxLXY5XzlFWE15dFU1b2QzWnhIMTZuWFhMTjREdEF2SFZrcFNBMDJzSGxtS2d2MA?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-10-23"
-        },
-        {
-          "title": "South Korea Q3 GDP Beats Forecasts as Semiconductor Exports Drive 1.0% Growth - News and Statistics - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeHdjNHRvRVBxdlBtWXNKVjRUam5mRi1zWjlJMGwyWXQ5RHdWTmVfem9TanN4LWsxUGc3cjZ6OHhzRUg1U0dDREkwVkJGaTFDLUNjRXN2Sm4wY1RVZmttRlF6WkVySTgwcDZ3LUcyN0dENVFPUGhjRmptUWdvdG5JOXlpbnlMcm5VaDhtbk0zNUJuZnhS?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-10-27"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-10-30_article_2.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "현대모비스 컨소시엄 참여사·물량·계약 조건 등 세부 미확인",
-          "한국 3분기 GDP 1.0% 성장률, 반도체 기여 근거 원문 영문 출처만 제시"
-        ],
-        "image_keyword_ok": true,
-        "notes": "현대모비스 실존 기업, GDP 수치 개연성 있음. 세부 검증 필요 사항 본문 명시",
-        "verified_at": "2026-10-30 08:17"
+        "notes": "수치가 단일 매체 인용이나 명시적 출처 표기로 투명성 확보. 성사율 추적 필요.",
+        "verified_at": "2026-10-31 08:17"
       }
     }
   ],
-  "editorial_briefing": "AI 가속기 냉각 소재로 다이아몬드가 부상하며 미중 공급망 경쟁이 새 분야로 확장되고 있다. EU는 반도체 자급 투자를 늘리고 있으나 목표 달성 가능성에 의문이 제기되며, 한국은 현대모비스 컨소시엄 확대와 반도체 수출 호조로 공급망 역할을 강화하고 있다.",
+  "editorial_briefing": "희토류 휴전 연장에도 법적 기한은 유지되며 갈륨·게르마늄 등 핵심 광물 확보의 구조적 불확실성이 지속되고 있다. 중국 반도체 기업의 기술 격차 축소가 가시화되는 가운데 해외 기업 20여 곳이 국내 소부장 협력사 발굴에 나서며 공급망 재편 움직임이 구체화되고 있다.",
   "key_signals": [
     {
+      "icon": "🟡",
+      "label": "희토류 휴전 연장",
+      "status": "법적 기한 유지"
+    },
+    {
       "icon": "🔴",
-      "label": "다이아몬드 냉각재 공급망",
-      "status": "미중 경쟁 부상"
+      "label": "핵심 광물 수급 불안",
+      "status": "구조적 리스크"
     },
     {
       "icon": "🟡",
-      "label": "EU 반도체 자급 목표",
-      "status": "달성 불투명"
+      "label": "중국 반도체 추격",
+      "status": "기술격차 축소 중"
     },
     {
       "icon": "🟢",
-      "label": "현대모비스 컨소시엄",
-      "status": "공급망 확대"
-    },
-    {
-      "icon": "🟢",
-      "label": "한국 반도체 수출",
-      "status": "3분기 성장 견인"
+      "label": "K-소부장 글로벌 수요",
+      "status": "해외 20곳 탐색"
     },
     {
       "icon": "🟡",
-      "label": "글로벌 냉각소재 조달",
-      "status": "신규 리스크 모니터"
+      "label": "공급망 재편 가속",
+      "status": "밸류체인 재구성"
     }
   ],
-  "last_reviewed_at": "2026-10-30 08:17"
+  "last_reviewed_at": "2026-10-31 08:17"
 }
