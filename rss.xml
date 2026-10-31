@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 31 Oct 2026 08:17:15 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:17:24 +0900</lastBuildDate>
+    <item>
+      <title>갈륨·게르마늄, 이제 공개 가격 기준 생긴다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>Benchmark Mineral Intelligence가 갈륨·게르마늄 현물가격 평가 서비스를 시작했다. 가격 불투명성이 조달 리스크의 핵심이었던 두 소재에 시장 기준점이 처음 마련된다는 점에서 계약 구조와 재고 전략에 영향을 줄 수 있다.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>중국 칩 위협, 기술 격차보다 생태계 구조가 문제다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-1.html</guid>
+      <category>글로벌분석</category>
+      <description>삼일PwC 분석에 따르면 중국 반도체의 경쟁력은 개별 기술 수준이 아니라 생태계 전반에 걸쳐 있으며, 한국은 수익성 중심의 사업 모델로 전환해야 한다는 진단이 나왔다. 조달 관점에서는 공급망 파트너의 수익 구조 변화가 납기·계약 안정성에 미치는 영향을 살펴볼 필요가 있다.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>한국 총리, 독일에 배터리·반도체·AI 협력 제안</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-2.html</guid>
+      <category>산업전략</category>
+      <description>한국 총리가 독일 측에 배터리·반도체·AI 분야의 협력 강화를 공식 요청했다. 특정 공급망에서 한-독 협력이 구체화될 경우 조달 경로 다변화 가능성을 점검해볼 수 있다.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>희토류 휴전 연장, 법적 기한은 그대로 남았다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-10-31-0.html</link>
@@ -222,30 +246,6 @@
       <category>기술패권</category>
       <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국은 메모리 1위임에도 팹리스·시스템반도체 분야에서 미국 생태계 의존도가 70% 이상으로 실질적 균형자 역할이 불가능한 구조다. 미중 이분법이 심화될수록 한국 반도체의 '선택 강요' 리스크가 수치로 드러나고 있다.</description>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 갈륨 통제 3년 점검, 정부 '제한적' 발표의 함정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-2.html</guid>
-      <category>글로벌분석</category>
-      <description>정부가 중국 갈륨 수출통제 영향을 '단기 제한적'으로 평가했지만, 현물가 9배 폭등·GaN 파운드리 단가 재협상 현실화라는 수치가 상반된 신호를 보내고 있다. 고려아연 국내 생산 2028년 시작 전까지 3년 공백을 메울 조달 경로가 없다는 것이 핵심 문제다. 전력반도체·방산 수요 기업은 지금 당장 재고 전략을 재설계해야 한다.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>中 헬륨 통제 현실화, 반도체 팹 냉각 위기</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-21-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-21-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 헬륨 수출 규제를 본격화하면서 글로벌 반도체 팹의 냉각·세정 공정에 직격탄이 우려된다. 헬륨은 갈륨·게르마늄과 달리 대체재 개발이 극히 제한적이며, 한국 팹의 연간 수입 의존도는 약 30~40%가 중국 경유 루트에 집중돼 있다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>ASML 실적 경고등, 제재 부메랑의 수치화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-21-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-21-1.html</guid>
-      <category>기술패권</category>
-      <description>대중국 반도체 장비 수출 제재가 ASML의 실적 하방 압력으로 현실화됐다. 중국이 저가 AI칩으로 파상공세를 이어가는 가운데, 서방 반도체 장비 업체들의 수익성 감소와 중국의 기술 자립 가속이 동시에 진행되는 역설적 구조가 고착되고 있다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
