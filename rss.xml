@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:17:24 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 08:17:18 +0900</lastBuildDate>
+    <item>
+      <title>중국 핵심광물 수출 유예, 만료 기한이 다가온다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 설정한 핵심광물 수출통제 1년 유예 기간의 만료 시점이 임박한 것으로 확인됐다. 희토류 분야의 휴전은 연장됐으나 법적 기한은 그대로여서, 갈륨·게르마늄을 조달하는 기업에 새로운 불확실성이 생긴다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>SK하이닉스, 일본서 첫 파트너스데이 개최</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-1.html</guid>
+      <category>산업전략</category>
+      <description>SK하이닉스가 일본에서 처음으로 파트너스데이를 열며 반도체 공급망 강화 행보를 공식화했다. 한국 메모리 기업이 일본 협력사 네트워크를 직접 구축하는 흐름이 가시화된다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>동남아, 반도체 단일 허브로 자리잡을 수 있나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-2.html</guid>
+      <category>글로벌분석</category>
+      <description>동남아시아가 반도체 공급망의 단일 허브로 부상할 수 있는지를 둘러싼 논의가 구체화되고 있다. 세계화의 구조 자체는 유지되지만 규칙이 바뀌고 있다는 분석이 나오는 가운데, 조달 다변화 경로로서 동남아의 실현 가능성을 살펴볼 필요가 있다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>갈륨·게르마늄, 이제 공개 가격 기준 생긴다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-01-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>미-이란 긴장 재고조로 호르무즈 해협 통과 물동량에 의존하는 한국·대만 반도체 팹의 에너지·물류 리스크가 동시에 부각되고 있다. 두 나라의 중동산 원유 의존도가 각각 72%, 48%에 달해 팹 가동비 충격이 구체화될 수 있다.</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 데이터센터 1000조 투자, 전력망 없인 착공도 못 한다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-2.html</guid>
-      <category>산업전략</category>
-      <description>정부가 AI 데이터센터에 1,000조 원 투자 계획을 공식화했으나, 현재 한국 전력 계통 증설 속도와 인허가 구조로는 대규모 팹·데이터센터의 전력 수요를 감당할 수 없다는 게 현장의 일치된 시각이다. 투자 계획의 실행 가능성은 전력망 확충 속도에 달려 있다.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 추가하고 한국 내 생산능력 확장을 결정했다. TSMC 패키징 병목이 심화되는 가운데 기판 조달 다변화가 현실화된 첫 사례다. 투자자는 삼성전기 기판 사업부 수주 확대와 국내 소재·부품 연계 효과에 주목해야 한다.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 빗장 고착 속 韓, 균형자 아닌 '선택 강요' 구조</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-22-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-22-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국은 메모리 1위임에도 팹리스·시스템반도체 분야에서 미국 생태계 의존도가 70% 이상으로 실질적 균형자 역할이 불가능한 구조다. 미중 이분법이 심화될수록 한국 반도체의 '선택 강요' 리스크가 수치로 드러나고 있다.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
