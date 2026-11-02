@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 02 Nov 2026 08:17:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:16:10 +0900</lastBuildDate>
+    <item>
+      <title>중국 광물통제, 반도체 넘어 AI·로봇 소재로 전선 넓어졌다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대됐다. 조달 담당자는 영향 소재의 범위와 재고 현황을 재점검할 시점이다.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>비스무트 납기 8개월로 장기화, 무연솔더 조달 재점검 시기</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>무연솔더·의약품·방산 소재로 수요가 급증한 비스무트의 글로벌 납기가 2025년 하반기부터 8개월로 장기화됐다. 해당 소재를 사용하는 조달 담당자는 선행 발주 주기와 재고 수준을 확인할 필요가 있다.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>호르무즈 해협, 반도체 공급망의 숨은 취약 지점으로 주목받다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-2.html</guid>
+      <category>글로벌분석</category>
+      <description>호르무즈 해협이 반도체 공급망의 잠재적 취약 지점으로 분석됐다. 해상 운송 경로 의존도가 높은 기업은 공급망 경로와 대안 루트를 파악해 두는 것이 참고가 될 수 있다.</description>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>중국 핵심광물 수출 유예, 만료 기한이 다가온다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-02-0.html</link>
@@ -222,30 +246,6 @@
       <category>공급망전쟁</category>
       <description>무연솔더·의약품·방산 소재로 수요가 급증한 비스무트의 글로벌 납기가 2025년 하반기부터 8개월로 장기화됐다. 생산의 79%를 중국이 장악한 구조에서 수출허가 심사 강화가 현실화되면, 한국 전자부품·의료기기 업계의 조달 단가가 30~50% 상승할 수 있다.</description>
       <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>팹리스 매출 세계 10위권 밖, 설계 공백 수치화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-24-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-24-2.html</guid>
-      <category>산업전략</category>
-      <description>한국 반도체 산업이 HBM 메모리 호황 이면에서 팹리스 설계 역량 공백을 방치하고 있다는 구조적 경고가 수치로 확인됐다. 2024년 글로벌 팹리스 매출 상위 10위 안에 한국 기업이 한 곳도 없으며, 시스템반도체 자급률은 30% 미만으로 AI 칩 수요가 늘수록 수입 의존이 심화된다.</description>
-      <pubDate>Sat, 24 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>美 완성차 중국 부품 의존도 80% 삭감, 韓 Tier2 소재 3개 분기점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>GM·포드·스텔란티스가 2027년까지 중국산 부품 의존도를 80% 이상 축소하는 공급망 재편에 착수했다. 한국 Tier2 소재·부품사에 대체 수요가 집중될 3개 품목이 가시화되고 있다.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>호르무즈 리스크, 韓·台 반도체 에너지 이중 노출 수치화</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-23-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-23-1.html</guid>
-      <category>글로벌분석</category>
-      <description>미-이란 긴장 재고조로 호르무즈 해협 통과 물동량에 의존하는 한국·대만 반도체 팹의 에너지·물류 리스크가 동시에 부각되고 있다. 두 나라의 중동산 원유 의존도가 각각 72%, 48%에 달해 팹 가동비 충격이 구체화될 수 있다.</description>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

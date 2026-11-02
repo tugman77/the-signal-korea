@@ -1,72 +1,80 @@
 {
-  "generated_at": "2026년 11월 02일 08:17",
-  "date_str": "2026년 11월 02일",
-  "date_key": "2026-11-02",
+  "generated_at": "2026년 11월 03일 08:16",
+  "date_str": "2026년 11월 03일",
+  "date_key": "2026-11-03",
   "articles": [
     {
       "id": 0,
-      "topic_key": "중국-핵심광물-수출유예-기한만료",
+      "topic_key": "중국-광물통제-AI로봇소재-전선확산",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "article_type": "explainer",
-      "title": "중국 핵심광물 수출 유예, 만료 기한이 다가온다",
-      "summary": "중국이 설정한 핵심광물 수출통제 1년 유예 기간의 만료 시점이 임박한 것으로 확인됐다. 희토류 분야의 휴전은 연장됐으나 법적 기한은 그대로여서, 갈륨·게르마늄을 조달하는 기업에 새로운 불확실성이 생긴다.",
+      "title": "중국 광물통제, 반도체 넘어 AI·로봇 소재로 전선 넓어졌다",
+      "summary": "중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대됐다. 조달 담당자는 영향 소재의 범위와 재고 현황을 재점검할 시점이다.",
       "key_points": [
-        "중국의 핵심광물 수출통제 1년 유예가 기한 만료 단계에 접어들었다",
-        "희토류 분야 휴전이 연장됐지만 관련 법적 기한은 변경되지 않았다",
-        "갈륨·게르마늄의 안정적 확보가 구조적으로 어렵다는 분석이 업계에서 제기됐다"
+        "중국 수출통제 대상이 AI 가속기 부품 및 산업용 로봇 액추에이터 소재로 확대됐다",
+        "갈륨은 일본향 수출이 재개됐으나 게르마늄은 4개월째 차단이 지속되고 있다",
+        "어떤 소재가 추가 통제 대상에 포함될지는 아직 공식 발표가 없다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "스타트업포천이 2026년 10월 31일 보도한 바에 따르면, 중국이 설정한 핵심광물 수출통제 1년 유예 조치의 기한이 임박했다. 같은 날짜를 전후해 인바이런멘털 리더도 '희토류 분야의 휴전이 연장됐으나 법적 기한은 그대로 남아 있다'고 보도했다. 두 보도를 종합하면, 외교적 완충장치는 일부 작동 중이지만 실제 법적 효력을 가진 시한은 별개로 진행 중인 셈이다.",
-            "AZO마이닝은 10월 31일 갈륨·게르마늄이 왜 확보하기 어려운 광물인지를 별도로 다뤘다. 이 보도는 공급 집중과 대체 경로 부재라는 구조적 문제를 조명했다. 벤치마크 미네랄 인텔리전스가 같은 날 갈륨·게르마늄 현물가격 평가 서비스를 출시한 것도 같은 맥락에서 읽힌다."
+            "중국이 핵심광물 수출통제의 범위를 반도체 소재 영역에서 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 넓히고 있다는 분석이 잇따라 제기됐다. 4개월간 중단됐던 일본향 갈륨 수출은 재개됐으나, 게르마늄은 같은 기간 차단 상태가 이어지고 있다.",
+            "미·중 무역전쟁이 관세 영역을 넘어 희토류·반도체를 겨냥한 봉쇄 구도로 전환되고 있다는 시각도 제시됐다. 중국 산업용 로봇 수출액이 2025년 처음으로 수입액을 추월한 것도 이 흐름과 맞닿아 있다는 평가다."
           ]
         },
         {
-          "heading": "왜 지금 주목해야 하나",
+          "heading": "왜 조달에 영향이 있을까",
           "paragraphs": [
-            "유예 기한이 만료되면 통제 조치가 원래 수준으로 복원될 가능성이 있다. 법적 기한이 유지된 상태에서 휴전이 연장됐다는 것은, 언제든 통제가 재개될 수 있는 구조가 유지된다는 의미로 해석할 수 있다. 갈륨은 화합물 반도체, 게르마늄은 광섬유·적외선 광학·일부 반도체 공정에 쓰인다. 단일 공급원 의존도가 높은 업종일수록 이번 기한 도래가 조달 계획에 미치는 영향이 클 수 있다.",
-            "법적 기한이 그대로 남아 있다는 보도에서 주목할 점은, 규정 자체가 삭제된 것이 아니라 집행 유예 상태라는 것이다. 이는 수입국 기업이 공급망을 재편하지 않은 채 유예 기간이 종료되면 갑작스러운 수급 변동을 맞을 수 있는 구조를 의미한다."
+            "통제 대상이 특정 광물에 한정되지 않고 완성품 부품 소재로 확산될 경우, 기존 공급망 점검 항목이 늘어날 수 있다. AI 가속기와 산업용 로봇을 조달하거나 해당 장비의 부품을 구매하는 기업은 핵심 소재의 원산지와 중간 가공 단계를 파악해 둘 필요가 생긴다.",
+            "갈륨과 게르마늄의 경우처럼 같은 광물 군 내에서도 품목별로 통제 여부가 달라질 수 있다. 계약서에 불가항력 조항이 포함돼 있는지, 단일 공급처 의존도는 어느 수준인지를 확인해 두는 것이 하나의 점검 항목이 될 수 있다."
           ]
         },
         {
-          "heading": "조달에서 점검할 항목",
+          "heading": "조달 담당자가 확인해볼 항목",
           "paragraphs": [
-            "우선 현재 계약에 불가항력(force majeure) 조항이 수출통제 조치를 명시적으로 포함하는지 확인이 필요하다. 유예 기간 중 체결된 계약이라면, 기한 만료 이후의 공급 의무와 가격 조정 기준이 명확하지 않을 수 있다. 아울러 현재 재고 일수가 통제 재개 시 가동을 얼마나 버텨줄 수 있는지, 대체 공급처 인증에 필요한 기간은 어느 정도인지를 점검해 두는 것이 유용할 수 있다. 공식적으로 발표된 기한 날짜는 현재 수집 자료에서 구체적으로 확인되지 않았다."
+            "현재 사용 중인 AI 가속기·산업용 로봇 부품 중 중국산 소재 비중이 어느 정도인지, 해당 공급업체가 대체 소싱 경로를 확보하고 있는지 파악할 수 있다. 게르마늄처럼 수출 재개 여부가 불투명한 품목이 자사 공급망에 연결돼 있다면, 현재 재고 일수와 대체 공급처 인증에 필요한 기간을 비교해 두는 것도 검토 대상이다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "유예 기한 만료일",
-          "detail": "중국 핵심광물 수출통제 1년 유예의 정확한 만료 날짜를 중국 상무부 공고 또는 산업부 고시에서 확인"
+          "label": "게르마늄 수출 재개 여부",
+          "detail": "중국이 일본향 갈륨 수출을 재개한 시점에도 게르마늄 차단은 유지됐다. 재개 시점과 조건이 공식 발표되는지 확인 필요."
         },
         {
-          "label": "법적 기한 내용",
-          "detail": "'법적 기한'이 수출허가 심사 기준인지, 물량 상한인지, 품목 범위인지를 관보·규정 원문에서 확인"
+          "label": "AI·로봇 소재 추가 통제 범위",
+          "detail": "어떤 소재가 추가 통제 대상에 포함될지 중국 당국의 공식 고시를 모니터링해야 한다."
         },
         {
-          "label": "갈륨·게르마늄 재고 수준",
-          "detail": "현재 재고 일수가 통제 재개 시나리오(30일·60일·90일)에서 가동을 얼마나 유지할 수 있는지 점검"
-        },
-        {
-          "label": "대체 공급처 인증 현황",
-          "detail": "중국 외 공급처(캐나다·벨기에·독일 등)의 인증 완료 여부 및 남은 기간 파악"
+          "label": "중국 핵심광물 수출유예 만료 기한",
+          "detail": "1년 유예 기간 만료 시점이 임박했으며, 만료 후 정책 방향이 확정되지 않은 상태다."
         }
       ],
       "source_ids": [
+        5,
+        18,
         1,
-        2,
-        3,
-        4
+        2
       ],
-      "image_keyword": "germanium metal ingot storage",
+      "image_keyword": "industrial robot actuator components",
       "is_featured": true,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:10",
       "format": "v2",
       "sources": [
+        {
+          "title": "프리즘| 미·중 무역전쟁은 끝나지 않았다…관세 뒤에 숨은 희토류·반도체 봉쇄전 - OBC 뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnVk1sMmVtZmw5YlhRZTNCNUw0aHcyaGUyc3ExbWlFTWZDTGpHeHl3THFGUlRERHRzXzh6SEIzb1JUbE1FbEtzUnpCLUdvbXFyV1Q3bVUzWVVweC0yOHpzUkRhWk05VjcyVGc?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-02"
+        },
+        {
+          "title": "프리즘| 미·중 무역전쟁은 끝나지 않았다…관세 뒤에 숨은 희토류·반도체 봉쇄전 - OBC 뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnVk1sMmVtZmw5YlhRZTNCNUw0aHcyaGUyc3ExbWlFTWZDTGpHeHl3THFGUlRERHRzXzh6SEIzb1JUbE1FbEtzUnpCLUdvbXFyV1Q3bVUzWVVweC0yOHpzUkRhWk05VjcyVGc?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-02"
+        },
         {
           "title": "China's one-year pause on critical mineral export bans nears its deadline - Startup Fortune",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVDAzWVFRRDNGX1FYLWU3SGtqX25maXRkZEliMjJoOUpnMk1fZER1VnhLRHRGZnJMSEJTNXpYeWk0eHM4Nl9EOHFLbDN1YXNBV0ozbElXMGFZS0lvZ3B5SlhQUEV3WktBNlpGT1N4dlZBaERBaFQxZDBoT3U0NUFSME1wWDA5N1d3Smh2dU95WFAyRS1kcmUzRFZpeURDeDh0anc?oc=5",
@@ -78,18 +86,6 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkdlZ2Rmcy1iWGZhUW5iNk1CQ1JMcFdmWWNpZVBGSzVhZF9JOWFJR3g2S1JTTVpsR0VyMlZubU1mUVJoSlJ3NVYtN2JtbU5fOFcxdW1CVXh5cVNsZ2JwSV9rWVRjOVJBaU5ydHlTRzdYME9tclRXbU5ld0l4clQ2Y2tLUFZ6SXJyT0ppVDRMbWhOaXluZmNkTXAwOXBDMV9CQUVrU0ZFMk1OMTlS?oc=5",
           "source": "GoogleNews",
           "date": "2026-10-30"
-        },
-        {
-          "title": "Gallium and Germanium: Why Are These Critical Minerals So Difficult to Secure? - AZoMining",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9PRGhnbVdNemJoeFpVSGpKMHpsT0M0VnU1ak9zekNULUNzRVdFUGFOR0JNMGZSTGhpd0MwOFZ6T0d4ZS1vbTJ1QnhPNjdfVTdFWndpTUNmd1VnSGtkbXJhTWh6TQ?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-31"
-        },
-        {
-          "title": "Benchmark launches gallium and germanium metal price assessments - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODZuVDBSNUNPaFNKZ0hmczd6LXI0WkE3ZktydGhQOFZoNlMwRHI1ZDF2Q0JuX1RRWEhSYllPazNfS05BQVVUVDhpV2dVVDlDOXdhYzRoY3l6cTBvd2RHX1FLRXZXTWQydkJuWGFMT0VOb21PVjNFczFVNGc5SnNRS19UY2UtaW1YVjQ5OVBJZGZIQmxYcncwaS1pMktIMnhWbjJOUjZKeTdKSmlPbHc?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-31"
         }
       ],
       "fact": [],
@@ -98,54 +94,55 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-02_article_0.jpg",
+      "image_url": "images/2026-11-03_article_0.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "유예 기한 만료 정확한 날짜가 기사 내 미확인 상태로 명시됨",
-          "벤치마크 미네랄 인텔리전스의 갈륨·게르마늄 가격 평가 서비스 출시 일자 교차검증 필요"
+          "갈륨 수출 4개월 중단 후 재개 시점·경위 출처 불명확",
+          "중국 산업용 로봇 수출액이 2025년 처음으로 수입액 추월 — 수치 미검증",
+          "게르마늄 차단 '같은 기간' 지속 여부 공식 확인 필요"
         ],
         "image_keyword_ok": true,
-        "notes": "주요 사실 개연성 높으나 핵심 기한 날짜 미확인은 독자 오해 소지 있음",
-        "verified_at": "2026-11-02 08:17"
+        "notes": "핵심 사실 대부분 공급망 현실과 부합, 일부 수치 출처 보완 권장",
+        "verified_at": "2026-11-03 08:16"
       }
     },
     {
       "id": 1,
-      "topic_key": "SK하이닉스-일본-공급망파트너스데이",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
+      "topic_key": "비스무트-무연솔더-납기장기화",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
       "article_type": "brief",
-      "title": "SK하이닉스, 일본서 첫 파트너스데이 개최",
-      "summary": "SK하이닉스가 일본에서 처음으로 파트너스데이를 열며 반도체 공급망 강화 행보를 공식화했다. 한국 메모리 기업이 일본 협력사 네트워크를 직접 구축하는 흐름이 가시화된다.",
+      "title": "비스무트 납기 8개월로 장기화, 무연솔더 조달 재점검 시기",
+      "summary": "무연솔더·의약품·방산 소재로 수요가 급증한 비스무트의 글로벌 납기가 2025년 하반기부터 8개월로 장기화됐다. 해당 소재를 사용하는 조달 담당자는 선행 발주 주기와 재고 수준을 확인할 필요가 있다.",
       "key_points": [
-        "SK하이닉스가 2026년 11월 1일 일본에서 첫 파트너스데이를 개최했다",
-        "한국 메모리 기업의 일본 공급망 직접 구축 여부는 추가 확인이 필요하다"
+        "비스무트 글로벌 납기가 2025년 하반기부터 8개월로 길어졌다",
+        "수요 급증 배경으로 무연솔더·의약품·방산 소재 분야가 지목됐다",
+        "납기 정상화 시점은 아직 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "코리아헤럴드는 2026년 11월 1일, SK하이닉스가 반도체 공급망 강화를 목적으로 일본에서 첫 파트너스데이를 개최했다고 보도했다. 파트너스데이는 핵심 협력사를 한자리에 불러 공급 요건, 품질 기준, 일정을 공유하는 자리다. 일본에서 처음 열렸다는 점은, SK하이닉스가 일본 소재·장비 협력사와의 직접 소통 채널을 공식화했음을 시사한다.",
-            "일본은 TSMC 구마모토 공장 가동과 라피더스 2nm 라인 구축을 추진하며 반도체 공급망의 주요 거점으로 부상하고 있다. SK하이닉스의 이번 행사가 일본 현지 조달망 확대와 연결될지는 아직 공식 발표가 없다. 국내에서 일본산 소재나 장비를 조달하는 기업이라면, SK하이닉스와 동일 협력사를 공유하는 경우 공급 우선순위가 변동될 가능성이 있는지를 확인해 볼 수 있다."
+            "무연솔더와 의약품, 방산 소재로 수요가 확대된 비스무트의 글로벌 납기가 2025년 하반기부터 8개월 수준으로 장기화됐다. 전자 부품 제조 공정에 무연솔더를 사용하는 기업은 현재 선행 발주 주기가 이 납기와 맞춰져 있는지 점검할 수 있다. 단일 공급처에 의존하고 있다면 대체 공급처 인증에 필요한 기간도 함께 확인해 두는 것이 하나의 접근이다. 납기 정상화 시점에 대한 공식 발표는 아직 없다."
           ]
         }
       ],
       "watch_items": [],
       "source_ids": [
-        26
+        27
       ],
-      "image_keyword": "semiconductor supply chain partners meeting Japan",
+      "image_keyword": "bismuth metal crystal ingot",
       "is_featured": false,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:10",
       "format": "v2",
       "sources": [
         {
-          "title": "SK hynix hosts first Partners Day in Japan to strengthen chip supply chain - The Korea Herald",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4R2oxNUlxRTExZnVpTUp2ZktoWE91MW9PU1VKRnJ6NC1mSnlhOXdhWVdacmFJeDA5c2c4S0ctajd1d20ybzBTaVBOTW1kamVwYmU4eFg4OA?oc=5",
+          "title": "Tracking Pax Silica’s Evolution: A Timeline | Blogs | Oct 27, 2026 - Information Technology and Innovation Foundation",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EOGFBSVJUMnRoQm9jVGJFNlhnUWZWV29zZ2hPN0RITUpocXBuQWxiN3JHVGtjZk5ScmRkcUxDRkJBaXlvWnhFVm5rQ3BheTZ3UV82bjRlaVZDTjNmWm1mOXlUZFFEN3A4U0FBRDhR?oc=5",
           "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-01"
+          "date": "2026-10-28"
         }
       ],
       "fact": [],
@@ -154,79 +151,70 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-02_article_1.jpg",
+      "image_url": "images/2026-11-03_article_1.jpg",
       "review": {
-        "trust_score": 4,
-        "status": "pass",
+        "trust_score": 3,
+        "status": "warning",
         "suspicious_claims": [
-          "코리아헤럴드 2026-11-01 보도 원문 직접 확인 불가",
-          "일본 파트너스데이 개최 장소·참석 협력사 규모 등 세부 내용 미확인"
+          "비스무트 납기 8개월 장기화 — 단일 출처(Pax Silica 블로그)에만 의존",
+          "방산 소재로 비스무트 수요 급증 주장 — 구체적 근거 없음",
+          "납기 정상화 시점 공식 발표 없다는 주장 — 추가 확인 필요"
         ],
-        "image_keyword_ok": false,
-        "notes": "팩트 자체는 신뢰 가능하나 이미지 키워드가 기사의 파트너스데이·공급망 맥락과 거리 있음",
-        "verified_at": "2026-11-02 08:17"
+        "image_keyword_ok": true,
+        "notes": "출처가 블로그 1건으로 한정, 수치 독립 검증 어려움",
+        "verified_at": "2026-11-03 08:16"
       }
     },
     {
       "id": 2,
-      "topic_key": "동남아-반도체허브-공급망다변화",
+      "topic_key": "호르무즈-반도체-지정학-공급망위험",
       "category": "글로벌분석",
       "tag_type": "tag-global",
       "article_type": "explainer",
-      "title": "동남아, 반도체 단일 허브로 자리잡을 수 있나",
-      "summary": "동남아시아가 반도체 공급망의 단일 허브로 부상할 수 있는지를 둘러싼 논의가 구체화되고 있다. 세계화의 구조 자체는 유지되지만 규칙이 바뀌고 있다는 분석이 나오는 가운데, 조달 다변화 경로로서 동남아의 실현 가능성을 살펴볼 필요가 있다.",
+      "title": "호르무즈 해협, 반도체 공급망의 숨은 취약 지점으로 주목받다",
+      "summary": "호르무즈 해협이 반도체 공급망의 잠재적 취약 지점으로 분석됐다. 해상 운송 경로 의존도가 높은 기업은 공급망 경로와 대안 루트를 파악해 두는 것이 참고가 될 수 있다.",
       "key_points": [
-        "포춘은 2026년 10월 29일 동남아가 반도체 단일 허브로 포지셔닝을 시도하고 있다고 보도했다",
-        "세계화는 끝나지 않았으나 공급망의 규칙은 바뀌고 있다는 분석이 2026년 11월 1일 제기됐다",
-        "동남아 공급망이 실제 반도체 조달 대안이 될 수 있는지는 공정·소재별로 별도 확인이 필요하다"
+        "호르무즈 해협이 반도체 공급망에서 구조적 위험 지점으로 지목됐다",
+        "세계화의 규칙이 바뀌고 있으며 공급망 경로 다변화 논의가 이어지고 있다",
+        "어느 기업이 이 경로에 어느 정도 노출돼 있는지는 개별 확인이 필요하다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "포춘은 2026년 10월 29일, 동남아시아가 '올인원' 반도체 허브로 스스로를 내세울 수 있는지를 다루는 분석 기사를 냈다. 이 보도는 동남아 여러 국가들이 반도체 공급망의 복수 거점으로 동시에 기능하려는 시도를 조명한 것으로 보인다. 세미비전은 11월 1일 '세계화는 끝나지 않았다. 규칙이 바뀌고 있다'는 제목의 분석을 내놓았다. 두 보도를 합쳐 읽으면, 공급망 재편이 탈세계화가 아니라 거점·조건의 재편으로 진행되고 있다는 맥락이 된다."
+            "호르무즈 해협이 반도체 공급망에서 과소평가된 위기 지점이 될 수 있다는 분석이 제기됐다. 반도체 제조에 필요한 소재와 완성 제품의 해상 운송 경로 일부가 이 해협을 경유한다는 점이 논거로 제시됐다.",
+            "글로벌 공급망 구조가 변하고 있다는 진단도 함께 나왔다. '세계화가 끝나는 것이 아니라 규칙이 바뀌고 있다'는 시각 아래, 특정 물리적 경로에 집중된 공급망 구조의 취약성이 다시 거론되고 있다."
           ]
         },
         {
-          "heading": "왜 주목해야 하나",
+          "heading": "조달 담당자가 확인해볼 항목",
           "paragraphs": [
-            "반도체 공급망에서 동남아는 후공정(패키징·테스트) 중심으로 오랫동안 활용돼 왔다. 최근 논의는 전공정 소재·장비 조달까지 동남아 내에서 처리하려는 방향으로 확대되고 있다. 단일 허브라는 표현은 전·후공정, 소재, 인력, 인프라를 한 지역에서 모두 충당한다는 야심을 담고 있는데, 이것이 실현되면 조달 담당자 입장에서는 복수 공급처를 동남아 권역 내에서 동시에 확보할 수 있다는 의미다. 다만 포춘 보도가 질문형 제목을 쓴 것은, 이 전환이 아직 가능성 단계임을 시사한다.",
-            "세계화 규칙이 바뀌고 있다는 분석은, 기존에 중국을 경유하던 공급 경로가 재편되더라도 글로벌 분업 자체는 지속된다는 것을 의미할 수 있다. 조달 담당자 관점에서는 어떤 공정·소재가 동남아 대안으로 전환 가능한지를 거래선별로 정리해 두는 것이 유용하다."
-          ]
-        },
-        {
-          "heading": "조달에서 점검할 항목",
-          "paragraphs": [
-            "현재 거래 중인 동남아 공급사의 공정 범위가 후공정에 한정되는지, 전공정 소재까지 확장됐는지를 확인할 필요가 있다. 단일 허브 전략이 현실화되려면 전력·용수·숙련 인력 인프라가 뒷받침돼야 하는데, 이 조건이 충족된 국가·지역인지는 해당 협력사나 무역관 자료를 통해 점검이 가능하다. 또한 동남아 거점 활용 시 미국·EU의 수출통제 규정상 우회 경로로 간주될 리스크가 있는지도 계약 전 검토 항목이 될 수 있다."
+            "자사 반도체·소재 공급망에서 호르무즈 해협을 통과하는 운송 비중이 어느 정도인지, 계약서에 운송 경로 변경이나 지연에 대한 조항이 포함돼 있는지 파악할 수 있다. 대체 루트나 항공 운송 전환 가능성, 추가 비용 발생 시 가격조정 조항이 있는지도 점검 항목이 될 수 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "동남아 전공정 소재 공급 가능 여부",
-          "detail": "말레이시아·베트남·태국 등 특정 국가에서 갈륨·게르마늄 등 전공정 소재 공급이 가능한지 공식 발표 또는 산업부 자료 확인"
+          "label": "호르무즈 해협 긴장 수위",
+          "detail": "중동 지역 지정학적 상황이 해상 운송 경로에 실제 영향을 미치는 시점을 확인할 필요가 있다."
         },
         {
-          "label": "세계화 규칙 변화의 구체적 기준",
-          "detail": "세미비전이 제시한 '규칙 변화'가 수출통제 적용 범위 변경인지, 관세 체계 변경인지를 원문에서 확인"
-        },
-        {
-          "label": "동남아 반도체 허브 정책 발표 일정",
-          "detail": "인도네시아·말레이시아·베트남 정부의 반도체 산업 육성 계획 발표 시점 및 인센티브 구체화 여부 모니터링"
+          "label": "반도체 물류 대체 경로 확보 동향",
+          "detail": "주요 반도체 기업이나 물류사가 대체 경로를 공식화하는 움직임이 있는지 모니터링한다."
         }
       ],
       "source_ids": [
-        27,
-        30
+        28,
+        29
       ],
-      "image_keyword": "Southeast Asia semiconductor assembly factory",
+      "image_keyword": "Strait of Hormuz shipping route",
       "is_featured": false,
-      "timestamp": "오전 09:00",
+      "timestamp": "오전 09:10",
       "format": "v2",
       "sources": [
         {
-          "title": "Can Southeast Asia pitch itself as an ‘all-in-one’ chip hub? - Fortune",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04Nmg3RUctamVQWWc4SVkzMVBrZTdPYU9rSWs0NENlVjd6TElOd3JDVUlRbWw1aXBYeHJSMUlQbGdQT1F4S1IzLVVrNG5wYWRzQUNHNE54YkJyMDBhMXJFWGFabER0NHRnZTFjdXBVMEotdlB1MjdMQmN6RFQxQQ?oc=5",
+          "title": "Why the Strait of Hormuz is a Semiconductor Crisis Waiting to Happen - TechInsights",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN2pfaFBIODc0MzdUay1rSk5Zb2lGN0ZjQXhvTWF3SlQ2VTlMX0R1amI2SVNuTGtEMkdHVFJXVjRTTkc4ZHM4ZTNNbmhvLTI1NmxhM0xBZjZHR01ENDBBYUFoR21LLTZrQ25sblNTME9Rd3JpR3o1SUppdk1PS0w0aGJ2SUNINi1UOGJsTHFQTWE?oc=5",
           "source": "Google뉴스-글로벌공급망",
           "date": "2026-10-29"
         },
@@ -243,48 +231,47 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-02_article_2.jpg",
+      "image_url": "images/2026-11-03_article_2.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "포춘 2026-10-29 기사 제목·내용 교차검증 필요",
-          "세미비전(SemiVision) 분석 원문 확인 필요",
-          "동남아 전공정 소재 조달 확대 주장은 현재 개연성 단계로 단정 표현 주의"
+          "반도체 소재·완제품 운송 경로가 호르무즈 해협 경유한다는 비중 미제시",
+          "'세계화가 끝나는 것이 아니라 규칙이 바뀐다' 인용 출처 불명확"
         ],
         "image_keyword_ok": false,
-        "notes": "논지 개연성 높으나 이미지 키워드가 동남아·반도체 허브 맥락을 반영하지 못함",
-        "verified_at": "2026-11-02 08:17"
+        "notes": "논거 개연성은 충분하나 이미지 키워드가 내용 특정성 부족",
+        "verified_at": "2026-11-03 08:16"
       }
     }
   ],
-  "editorial_briefing": "중국의 핵심광물 수출통제 유예 만료가 임박한 가운데, SK하이닉스는 일본 협력사 네트워크를 구축하며 공급망 다변화를 추진하고 있다. 동남아시아는 반도체 공급망 허브로 부상 중이며, 글로벌 공급망 재편 규칙이 변화하고 있다.",
+  "editorial_briefing": "중국의 핵심광물 수출통제가 AI·로봇 소재로 확대되고, 비스무트 납기가 8개월로 장기화되며 조달 리스크가 커지고 있다. 호르무즈 해협의 해상 운송 의존도도 반도체 공급망 취약 지점으로 분석되고 있어 다중 경로 점검이 필요하다.",
   "key_signals": [
     {
       "icon": "🔴",
-      "label": "중국 광물 수출통제",
-      "status": "유예 만료 임박"
+      "label": "중국 광물통제 확대",
+      "status": "AI·로봇 소재 포함"
+    },
+    {
+      "icon": "🔴",
+      "label": "비스무트 납기 장기화",
+      "status": "납기 8개월 지속"
     },
     {
       "icon": "🟡",
-      "label": "희토류 휴전 연장",
-      "status": "법적 기한 유지"
+      "label": "무연솔더 조달 위험",
+      "status": "재점검 시기"
+    },
+    {
+      "icon": "🟡",
+      "label": "호르무즈 해협 리스크",
+      "status": "공급 경로 취약"
     },
     {
       "icon": "🟢",
-      "label": "SK하이닉스 일본 파트너스",
-      "status": "공급망 강화 추진"
-    },
-    {
-      "icon": "🟡",
-      "label": "동남아 반도체 허브화",
-      "status": "논의 구체화 중"
-    },
-    {
-      "icon": "🟡",
-      "label": "글로벌 공급망 재편",
-      "status": "규칙 변화 진행"
+      "label": "대안 루트 확보 기회",
+      "status": "경로 다변화 검토"
     }
   ],
-  "last_reviewed_at": "2026-11-02 08:17"
+  "last_reviewed_at": "2026-11-03 08:16"
 }
