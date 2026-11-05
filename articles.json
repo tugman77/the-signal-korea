@@ -1,79 +1,163 @@
 {
-  "generated_at": "2026년 11월 05일 08:16",
-  "date_str": "2026년 11월 05일",
-  "date_key": "2026-11-05",
+  "generated_at": "2026년 11월 06일 08:16",
+  "date_str": "2026년 11월 06일",
+  "date_key": "2026-11-06",
   "articles": [
     {
       "id": 0,
-      "topic_key": "엔비디아-중국거래-데이터센터압박",
+      "topic_key": "칩인재전쟁-기술탈취-중국경쟁",
       "category": "기술패권",
       "tag_type": "tag-hegemony",
       "article_type": "explainer",
-      "title": "엔비디아, 데이터센터에 중국 거래 축소 압박",
-      "summary": "엔비디아가 데이터센터 파트너들에게 중국과의 거래를 줄이도록 압박하고 있다는 보도가 나왔다. 조달 담당자는 AI 인프라 부품 공급망에서 중국 연결고리를 점검할 필요가 생겼다.",
+      "title": "칩 인재 전쟁, 기술 유출과 중국 추격의 교차점",
+      "summary": "반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 핵심 인력 이탈 여부와 기술보호 체계를 점검할 필요가 있다.",
       "key_points": [
-        "엔비디아가 데이터센터 파트너에게 중국 거래 축소를 요구한 것으로 보도됐다",
-        "어느 부품·서비스 범위까지 적용되는지 공식 발표는 아직 없다",
-        "AI 데이터센터 투자가 집중되는 시점에 공급망 선택 압력이 동시에 가해지고 있다"
+        "CNBC 보도에 따르면 중국 경쟁사들이 첨단 반도체 인재를 적극 영입하며 영업비밀 탈취 위험이 높아지고 있다",
+        "대만의 기술탈취 대응 경험이 한국 반도체 공급망에 구조적 시사점을 준다는 분석이 아시아타임스에서 나왔다",
+        "인재 유출이 협력사 기술 역량에 미치는 영향은 현재로서는 정량적으로 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "2026년 11월 3일 보도에 따르면 엔비디아가 데이터센터 운영·장비 파트너들에게 중국과의 거래를 줄이라는 압박을 가하고 있다. 구체적인 대상 품목이나 계약 조건은 공식 확인되지 않은 상태다.",
-            "같은 시기 외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 규모의 투자를 결정했다는 보도도 나왔다. 글로벌 AI 인프라 투자가 한국으로 유입되는 흐름과 엔비디아의 공급망 압력이 동시에 진행되고 있는 셈이다."
+            "2026년 11월 5일 CNBC는 반도체 업계에서 영업비밀 분쟁과 중국 경쟁사들의 인재 영입이 동시에 심화되고 있다고 보도했다. 고급 설계·공정 인력을 둘러싼 경쟁이 단순한 채용 전쟁을 넘어 기술 유출 경로로 이어질 수 있다는 우려가 커지고 있다는 내용이다.",
+            "아시아타임스는 10월 30일 대만이 중국의 칩 기술 탈취에 어떻게 대응해왔는지를 분석하면서, 한국이 참고할 수 있는 구조적 비교를 제시했다. 대만은 주요 반도체 인력의 중국 이직을 제한하는 법적 장치와 내부 감사 체계를 운용해왔다."
           ]
         },
         {
-          "heading": "왜 조달 담당자가 주목해야 하나",
+          "heading": "왜 조달 관점에서 주목해야 하나",
           "paragraphs": [
-            "데이터센터용 서버·냉각·전력 장비를 조달하는 기업이라면 주요 부품의 중국 제조·조립 비중을 확인해볼 필요가 생겼다. 엔비디아 생태계에 연결된 공급망일수록 이 압력의 영향 범위가 넓어질 가능성이 있다.",
-            "한국 정부가 2027년 예산에서 AI 주권 확보에 158억 달러를 배정하기로 한 상황에서, 국내 데이터센터 발주가 늘어날 경우 공급망 요건도 함께 강화될 수 있다. 조달 계약서의 원산지·협력사 요건 조항을 미리 점검하는 것이 하나의 선택지다."
+            "반도체 소재·부품·장비 공급사는 대부분 소수 핵심 기술 인력에 의존한다. 해당 인력이 경쟁국 기업으로 이동할 경우 단기 납품 능력 저하뿐 아니라 독점 공정 노하우가 외부로 유출될 가능성이 있다.",
+            "조달 담당자가 직접 확인하기 어려운 영역이지만, 협력사 평가 시 핵심 인력 유지율, 비밀유지 계약 현황, 내부 기술 보호 감사 여부를 문서화해 두면 리스크 가시성을 높일 수 있다."
           ]
         },
         {
-          "heading": "앞으로 볼 변수",
+          "heading": "조달에서 점검할 항목",
           "paragraphs": [
-            "엔비디아가 파트너 계약에 중국 거래 제한을 공식 조항으로 넣을지, 그리고 어느 계층(1차·2차 협력사)까지 적용할지가 핵심 변수다. 공식 발표나 계약 갱신 시점을 모니터링할 필요가 있다."
+            "협력사 핵심 인력의 이탈 추이, 대체 기술 인력 보유 현황, 영업비밀 보호 정책 적용 범위를 확인할 수 있다. 단일 인력 의존도가 높은 소규모 소부장 협력사는 별도 리스크 등급을 적용하는 것도 하나의 접근이다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "엔비디아 파트너 계약 갱신 조건",
-          "detail": "중국 거래 제한이 계약 조항으로 명문화되는지, 적용 범위(1차·2차 협력사)가 어디까지인지 확인"
+          "label": "CNBC 후속 보도",
+          "detail": "영업비밀 소송 판결 및 인재 이직 제한 입법 동향을 추적"
         },
         {
-          "label": "국내 AI 데이터센터 발주 요건",
-          "detail": "정부 2027 예산 집행 시 조달 공고에 원산지·협력사 요건이 추가되는지 모니터링"
+          "label": "한국 산업기술보호법 개정 여부",
+          "detail": "반도체 핵심 인력 해외 이직 규제 강화 논의 진행 상황"
         },
         {
-          "label": "외국 7개사 20억 달러 투자 세부 조건",
-          "detail": "투자 확정 발표 시 공급망 현지화 요건 포함 여부 확인"
+          "label": "대만 인력 이직 제한 사례",
+          "detail": "대만 법원 판례 및 행정 조치가 한국 정책에 참고 모델이 될 수 있는지 여부"
         }
       ],
       "source_ids": [
-        21,
-        22,
-        25,
-        31
+        32,
+        33
       ],
-      "image_keyword": "data center server rack cooling",
+      "image_keyword": "semiconductor engineer cleanroom suit",
       "is_featured": true,
-      "timestamp": "오전 09:10",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "엔비디아, 데이터센터에 \"중국 거래 줄여라\" 압박 - 공감신문",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5iVzNkdVczVGJYQjI4T3hLc0JrSzdhUk1EcjlvNE1maTdDc1J3cnBwSnFLejRXcENXOVpmaC1qWmJRRE0tWU1hOGdmMlN3YnBmRjFDN2lhQTJONi1tZ0ZfV0ZZeXR6YW8?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-11-03"
+          "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOanRQS1NxX3lCdmRsYWJ1STlUY3B4SDIwaHpITTBOUnh2ejlJNUlkQW9QWkJXcTFFckhBLWlCTnRPUTJYaWd1Q0tVSDhIQjNkd2NQRFpXSkhaTVJiZHF4cG9CbnhDSVYzejkxX3JDS0kwaGs2NmM2RGJNWjJSSmNzU1FHT2PSAYoBQVVfeXFMTmJ2eEhROHc3V3Y5RGwwQUVCUC1oTFpqbnQ4WjdNbE83Uzd2SFpXUWJCdloxT0VqdWM4Z3RPM1UwVS1rWHFLLUo1Y2ZScGFjSkZqQ3NQSl9RMnV5SjRPcXZEZ0sxLUJWWTZxbldMcFc5WENINlJnTVo4QmMzLWFXSzB5Uk1Xb1oyRjVR?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-11-05"
         },
+        {
+          "title": "What Taiwan can teach South Korea about China’s chip tech theft - Asia Times",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmltWTRmZGpsWVJjWU1KQy1vRGlDbEo5SEN5NGhTbjNRSFVobWVqWnBSaV9ZYTY2bmNTSzZYZ1BjMnJ1bzhTYW9PSkZzcENiVEppWlZXaFoyX2ZDZV9VclphSUhnQzRqVGJ6MzVZOFRfb1J6dXc3eGdCSkJsUXA3UGRpcm8zay1TckxoM0JQblpwMU1tamJRdg?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-30"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-06_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "대만의 반도체 인력 중국 이직 제한 법적 장치 구체적 조항 미확인",
+          "CNBC 2026년 11월 5일 보도 내용의 정확한 출처 검증 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 주장은 업계 현실과 부합하나 일부 출처 세부 확인 권장",
+        "verified_at": "2026-11-06 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "AI데이터센터-외국인투자-한국전력인프라",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "explainer",
+      "title": "글로벌 7개사 한국 AI 인프라에 20억 달러 투자 확정",
+      "summary": "외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정했다. 전력·냉각 인프라 조달 수요가 함께 확대될 가능성이 있어 관련 공급망 점검이 필요하다.",
+      "key_points": [
+        "글로벌 7개사가 한국 AI·반도체 분야에 20억 달러 투자를 결정한 것으로 보도됐다",
+        "AI 데이터센터 확대에 따라 전력 인프라 경쟁력이 핵심 변수로 부상하고 있다",
+        "구체적인 투자 집행 일정과 전력·냉각 조달 계약 규모는 아직 공개되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 4일 아시아투데이와 인공지능신문은 해외 기업 7곳이 한국 AI 데이터센터 및 반도체 분야에 총 20억 달러 규모의 투자를 결정했다고 보도했다. 글로벌 자본이 한국 AI·반도체 인프라로 집중되는 흐름이 가시화된 것으로 평가된다.",
+            "광주에서 열린 전기인 관련 행사에서는 'AI·반도체 시대에 전력 인프라가 경쟁력'이라는 진단이 나왔다. 반도체 반론보도닷컴은 AI 반도체·전력·냉각 생태계를 국내 데이터센터 수출 발판으로 삼아야 한다는 의견을 전했다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "데이터센터 투자 확대는 전력 설비, 냉각 장비, UPS, 케이블링 등 인프라 조달 수요를 동반한다. 해당 품목을 납품하는 협력사는 수주 확대 기회를 맞을 수 있으나, 동시에 납기 경쟁도 심화될 수 있다.",
+            "조달 담당자는 전력·냉각 설비 공급사의 현재 수주 잔고와 납기 여력을 사전에 확인하는 것이 유용하다. 단일 공급처 의존도가 높은 품목은 대체 공급처 인증 기간을 미리 파악해두는 것도 하나의 접근이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "투자 집행 일정 공개 여부",
+          "detail": "7개사의 구체적 투자 착수 시점 및 프로젝트 발주 일정"
+        },
+        {
+          "label": "전력 인프라 조달 수요 변화",
+          "detail": "데이터센터 증설에 따른 전력 설비·냉각 장비 발주 규모 및 납기 동향"
+        },
+        {
+          "label": "국내 전력망 여건",
+          "detail": "산업부 전력수급 계획 및 데이터센터 전용 전력 인프라 확충 여부"
+        }
+      ],
+      "source_ids": [
+        22,
+        23,
+        24,
+        26
+      ],
+      "image_keyword": "data center server rack cooling",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
         {
           "title": "AI 데이터센터·반도체에 글로벌 자본 몰린다…외국기업 7곳, 한국에 20억달러 투자 - 인공지능신문",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51M1VHQmY0VTF3Ty1pVndWTk54akVMcE1wWmdKR3FpbkpKNjMxZVJDbHMxTFhhTUp2Xzc1c3dWU0MwSmh3WUhlUmVPRkU3NVU5cEN3YVpDcFg1UHNVM2p0SGUyb29DZXc?oc=5",
           "source": "Google뉴스-AI산업",
           "date": "2026-11-04"
+        },
+        {
+          "title": "“AI·반도체 시대, 전력 인프라가 경쟁력”…광주 전기인, 미래산업 발전 머리 맞대 - 전기신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NSzdkLTRYNWFuaHZQWjhYSGUxRmwzTDRyV1h3ZDdMenNyY19UUFVBSktua2cyS3lvTjVPeURubEJxc0VMWGNUOUNMbEZYRUZSOHJxS0NJZE9QNUFtOWQ1M0pVOHpaNGI5dWZwdtIBcEFVX3lxTE9hTU5Pa2NNdklqaXJCUWhfdjVPZW1oXzExWFNEVHJtOU44M2RReFozMG96TTVweG9HQUx4Q3J1UlNNYzNhTmlhcE1LT0ZhSnhpcXN2UGdaYXd1VlF0Nm1LLU55YVZXcFlLVmpMUzFsYzc?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-10-30"
         },
         {
           "title": "글로벌 7개사 韓에 20억달러 투자…AI·반도체에 외자 몰린다 - 아시아투데이",
@@ -82,9 +166,9 @@
           "date": "2026-11-04"
         },
         {
-          "title": "South Korea Bets $15.8B on Sovereign AI in Record 2027 Budget - The Tech Buzz",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMDJtamZ3clVLRWVDdjhVSVNIVEJWZ29fcDdTVHpGMV9COEFxQ0tBU3NraEFqUlYzVk5LUXBfTFZ6WlZtaVl6dVA5WlliUmZZbXFYRkxWZDE0bVY3MUZ5ZzhUMFJPWmY1SHd4M1JrU2xNUEUwdVZDQ0VQNFhld0FSdlZHa0hDZlBEdW15ZlhBbENBbC02ZjJrRw?oc=5",
-          "source": "Google뉴스-글로벌공급망",
+          "title": "AI 반도체·전력·냉각 생태계 키운다...“국내 데이터센터를 수출 발판 삼아야” - 반론보도닷컴",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nTURwbThpSlJZaDVpSEZJQUJiM1BTbF9sTi1ibzRDazU3T2VIZExFMjJ4VmhoQzl2a1hGdm1GRHU0XzhIaFF1eU5wa2RWaUFMQmQ0c29kYXlTcUd3Mi0tal9PRGoyV0lwcnh5MNIBcEFVX3lxTFA4ckdGaUh4NHAwNmlSUnd6NU41aklaODBXeFRGZFQ4MVlYbW5RSVU4MENKVUh5SFB2Vnh3Q2VHZUdLM3F4bzN0RkxlWE9FRTNyZmlwY2F1eWI2Nmc1b0VjN0FnM3U5R01rUDZnbENicVA?oc=5",
+          "source": "Google뉴스-AI산업",
           "date": "2026-11-02"
         }
       ],
@@ -94,194 +178,54 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-05_article_0.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "한국 정부 2027년 예산 AI 주권에 158억 달러 배정 — 구체 수치 출처 불명확",
-          "외국기업 7곳 한국 AI·반도체에 20억 달러 투자 — 기업명·계약 세부 미확인",
-          "엔비디아의 파트너 계약 압박 내용이 공식 확인되지 않은 보도 기반"
-        ],
-        "image_keyword_ok": true,
-        "notes": "핵심 수치 출처가 불명확하며 비공식 보도 의존도 높음. 주의 권고.",
-        "verified_at": "2026-11-05 08:16"
-      }
-    },
-    {
-      "id": 1,
-      "topic_key": "반도체-가스-호르무즈-공급망취약",
-      "category": "글로벌분석",
-      "tag_type": "tag-global",
-      "article_type": "analysis",
-      "title": "가스 없이 칩도 없다, 반도체 공급망의 지정학 취약점",
-      "summary": "호르무즈 해협 의존 가스 공급이 반도체 제조의 숨은 병목으로 분석됐다. 반도체·소재 조달 담당자는 특수가스 공급 계약의 불가항력 조항과 대체 경로를 점검할 시점이다.",
-      "key_points": [
-        "반도체 제조에 쓰이는 특수가스의 공급 경로가 호르무즈 해협에 노출돼 있다는 분석이 나왔다",
-        "어느 가스 품목이 얼마나 해당 경로에 의존하는지 공급업체별 수치는 아직 공개되지 않았다",
-        "핵심광물 수출통제와 별개로 가스 공급 차질이 반도체 생산에 영향을 줄 수 있는 경로가 존재한다"
-      ],
-      "sections": [
-        {
-          "heading": "핵심 질문",
-          "paragraphs": [
-            "반도체 공급망 리스크 논의는 주로 소재·장비·칩 설계에 집중돼 있다. 그런데 2026년 11월 4일 TechInsights 분석은 다른 각도를 제기한다. 반도체 제조 공정에 필수적인 특수가스의 공급 경로가 호르무즈 해협을 경유한다는 것이다. 같은 맥락에서 AEI도 11월 5일 가스와 칩 제조의 연결 고리를 짚는 분석을 내놨다."
-          ]
-        },
-        {
-          "heading": "사실과 데이터",
-          "paragraphs": [
-            "두 분석 모두 반도체 제조 공정에서 특정 가스류가 중동 해상 운송에 의존하는 구조를 문제로 꼽는다. 구체적인 가스 품목과 의존 비중은 해당 보도에서 수치로 확인되지 않았다. 다만 호르무즈 해협이 봉쇄되거나 운항이 제한될 경우 반도체 공장 가동에 직접 영향을 줄 수 있다는 경로 자체는 두 분석 모두 인정하는 사실이다.",
-            "중국이 핵심광물 수출통제를 반도체 소재를 넘어 AI 가속기 부품 소재로 확대하고 있다는 별도 보도도 나와 있다. 광물과 가스라는 두 개의 소재 경로가 동시에 지정학 리스크에 노출된 구도다."
-          ]
-        },
-        {
-          "heading": "구조적 배경",
-          "paragraphs": [
-            "반도체 공장이 가동되려면 고순도 특수가스(에칭·세정·증착용)가 안정적으로 공급돼야 한다. 이 가스들은 대부분 장기 계약으로 공급되지만, 운송 경로 차질은 계약과 무관하게 발생할 수 있다. 불가항력 조항이 발동되면 공급 지연을 계약 위반으로 추궁하기 어렵다.",
-            "글로벌 공급망 재편 논의에서 소재·장비·칩 설계는 비교적 자주 다뤄졌으나, 가스 공급 경로의 지정학 취약성은 조달 현장에서 상대적으로 덜 점검된 영역으로 볼 수 있다."
-          ]
-        },
-        {
-          "heading": "가능한 시나리오와 한계",
-          "paragraphs": [
-            "호르무즈 해협 운항 차질이 현실화할 경우 반도체 공장의 가스 재고 소진 속도가 중요한 변수가 된다. 현재 국내 반도체 기업들의 특수가스 재고 일수나 대체 공급 경로 확보 현황은 공개된 자료에서 확인되지 않는다. 조달 담당자가 직접 주요 가스 공급업체에 경로 다각화 계획을 확인하는 것이 현실적인 첫 단계다.",
-            "다만 호르무즈 해협 봉쇄 자체는 단기적으로 발생 가능성이 낮은 시나리오이기도 하다. 이 분석의 의의는 위기 예측이 아니라 기존 조달 계약 검토 과정에서 운송 경로 항목을 추가하는 계기로 삼는 데 있다."
-          ]
-        }
-      ],
-      "watch_items": [
-        {
-          "label": "특수가스 공급 계약의 불가항력 조항",
-          "detail": "운송 경로 차질 발생 시 면책 범위와 대체 공급 조항이 계약에 포함돼 있는지 확인"
-        },
-        {
-          "label": "주요 가스 공급업체의 대체 운송 경로",
-          "detail": "중동 경유 비중과 비중동 경로(파이프라인, 다른 항로) 확보 현황을 공급업체에 직접 문의"
-        },
-        {
-          "label": "국내 반도체 공장 특수가스 재고 기준",
-          "detail": "기업별 공시 또는 IR 자료에서 소재 재고 일수 공개 여부 모니터링"
-        }
-      ],
-      "source_ids": [
-        27,
-        33
-      ],
-      "image_keyword": "industrial gas cylinders semiconductor fab",
-      "is_featured": false,
-      "timestamp": "오전 09:10",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "Why the Strait of Hormuz is a Semiconductor Crisis Waiting to Happen - TechInsights",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQN2pfaFBIODc0MzdUay1rSk5Zb2lGN0ZjQXhvTWF3SlQ2VTlMX0R1amI2SVNuTGtEMkdHVFJXVjRTTkc4ZHM4ZTNNbmhvLTI1NmxhM0xBZjZHR01ENDBBYUFoR21LLTZrQ25sblNTME9Rd3JpR3o1SUppdk1PS0w0aGJ2SUNINi1UOGJsTHFQTWE?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-04"
-        },
-        {
-          "title": "No Gas, No Chips: Mapping the Choke Points Behind Chip Manufacturing - American Enterprise Institute - AEI",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclJSYTVydmZacVd6RXpsNUJQTTNtWm9NNHp4OFlkVUZ4ek9MUGd5UVNVT2Y0aHB4VUtrY0xuSUxPSjB1ZUZ0Y0RmUWpKNVlzdG9FdkJ6UzlBWVktU1p6ZExJcXJFVlUzTFg1WVhfcDUyWnV4dzdDdlAtcjRWcFZxQUJsLWIzdVg1b0xRNm45cFRoUzNqYlA5d1pEUi1iQmhjQ3BZWVhsZTR6LW0ycGVOem53?oc=5",
-          "source": "Google뉴스-기술패권",
-          "date": "2026-11-05"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-11-05_article_1.jpg",
+      "image_url": "images/2026-11-06_article_1.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "특수가스의 호르무즈 해협 경유 의존 비중이 수치로 확인되지 않음",
-          "TechInsights·AEI 분석 원문 접근 불가로 주장 직접 검증 한계"
+          "해외 7개사 구체적 기업명 미공개로 투자 주체 독립 검증 불가",
+          "20억 달러 총액의 개별 기업별 분배 내역 확인 필요"
         ],
         "image_keyword_ok": true,
-        "notes": "논리적 개연성 높고 불확실 사항을 본문에서 명시적으로 고지함. 양호.",
-        "verified_at": "2026-11-05 08:16"
+        "notes": "투자 규모·보도 출처 복수 확인되어 신뢰도 양호, 기업명 명시 권장",
+        "verified_at": "2026-11-06 08:16"
       }
     },
     {
       "id": 2,
-      "topic_key": "글로벌-전략비축-핵심광물-각국접근",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
-      "article_type": "explainer",
-      "title": "핵심광물 전략비축, 각국 방식이 다르다",
-      "summary": "각국이 핵심광물 전략 비축 접근 방식에서 뚜렷한 차이를 보이고 있다는 분석이 나왔다. 조달 담당자는 자국 비축 정책의 품목·방출 조건이 실제 조달 여력에 어떻게 연결되는지 확인할 필요가 있다.",
+      "topic_key": "EU순환경제법-패션공급망-소재조달",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "brief",
+      "title": "EU 순환경제법, 패션 소재 조달 기준을 바꾼다",
+      "summary": "EU 순환경제법이 글로벌 패션 공급망 재편을 압박하면서 소재 조달 기준과 계약 조건 변화 가능성이 커졌다. 섬유·의류 소재를 조달하는 담당자는 규정 적용 일정을 확인할 필요가 있다.",
       "key_points": [
-        "각국이 핵심광물 전략비축 체계를 서로 다른 방식으로 구축하고 있다는 조사 결과가 2026년 11월 2일 발표됐다",
-        "한국 정부의 비축 품목과 방출 기준이 민간 조달 담당자에게 공개적으로 안내되고 있는지는 확인이 필요하다",
-        "중국의 수출통제 1년 유예 기한이 임박한 상황에서 비축 체계의 실효성이 시험대에 오를 수 있다"
+        "EU 순환경제법이 글로벌 패션 공급망을 재편하고 있다는 분석이 10월 30일 한국섬유신문에서 나왔다",
+        "법 적용 범위와 국내 조달 계약에 미치는 직접적 영향은 아직 공식 확인되지 않았다"
       ],
       "sections": [
         {
-          "heading": "무슨 일이 있었나",
+          "heading": "",
           "paragraphs": [
-            "2026년 11월 2일 Ashurst Perkins Coie가 글로벌 핵심광물 전략비축 접근 방식을 비교 조사한 보고서를 발표했다. 보고서는 각국이 비축 품목 선정, 방출 조건, 민간 접근 방법에서 대조적인 방식을 취하고 있다고 짚는다. 구체적인 국가별 수치나 품목 목록은 해당 자료에서 직접 확인되지 않았다.",
-            "같은 시기 중국의 핵심광물 수출통제 1년 유예 기한이 만료에 근접하고 있다는 별도 보도가 나왔다. 희토류 분야의 휴전이 연장됐지만 법적 기한은 그대로라는 보도도 있었다. 비축 정책의 실효성이 시험받는 시점이 가까워지고 있는 셈이다."
-          ]
-        },
-        {
-          "heading": "조달에 어떤 영향이 있을까",
-          "paragraphs": [
-            "전략비축 체계가 잘 갖춰진 국가의 기업은 광물 수출 차질 시 정부 비축분에 접근할 수 있는 경로가 있다. 그러나 방출 조건(국가 비상사태 여부, 산업 우선순위 기준)이 민간 조달 담당자가 실제로 활용할 수 있는 수준인지는 별도로 확인해야 한다.",
-            "갈륨·게르마늄의 경우 Benchmark Mineral Intelligence가 현물가격 평가 서비스를 시작해 가격 기준선이 생겼다. 비축분 방출 가격이 현물 시장 가격과 어떻게 연동될지도 조달 비용 계획에서 점검할 항목이다."
+            "2026년 10월 30일 한국섬유신문은 EU 순환경제법이 글로벌 패션 공급망을 재편하고 있다고 보도했다. 재활용 소재 비율, 제품 내구성, 디지털 제품 여권 등 새 기준이 공급망 전반에 적용될 경우 소재 조달 조건이 바뀔 수 있다.",
+            "섬유·의류 소재를 유럽 시장에 납품하거나 유럽 브랜드와 협력하는 국내 기업은 EU 규정의 적용 시점과 적용 범위를 확인하는 것이 필요하다. 기존 계약의 품질 기준 및 소재 성분 조항이 새 기준과 충돌하는지 점검할 수 있다."
           ]
         }
       ],
-      "watch_items": [
-        {
-          "label": "한국 정부 핵심광물 비축 방출 조건",
-          "detail": "산업통상자원부 또는 한국광해광업공단의 비축 방출 기준과 민간 신청 절차 공개 여부 확인"
-        },
-        {
-          "label": "중국 수출통제 유예 기한 만료 시점",
-          "detail": "1년 유예 기한 만료 후 추가 연장 또는 본격 시행 여부를 중국 상무부 발표로 확인"
-        },
-        {
-          "label": "갈륨·게르마늄 현물가격 추이",
-          "detail": "Benchmark Mineral Intelligence 가격 평가 서비스 개시 후 비축 방출 가격과의 연동 여부 모니터링"
-        }
-      ],
+      "watch_items": [],
       "source_ids": [
-        1,
-        2,
-        3,
-        4
+        16
       ],
-      "image_keyword": "rare earth mineral stockpile warehouse",
+      "image_keyword": "textile recycled fabric roll",
       "is_featured": false,
-      "timestamp": "오전 09:10",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "China's one-year pause on critical mineral export bans nears its deadline - Startup Fortune",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVDAzWVFRRDNGX1FYLWU3SGtqX25maXRkZEliMjJoOUpnMk1fZER1VnhLRHRGZnJMSEJTNXpYeWk0eHM4Nl9EOHFLbDN1YXNBV0ozbElXMGFZS0lvZ3B5SlhQUEV3WktBNlpGT1N4dlZBaERBaFQxZDBoT3U0NUFSME1wWDA5N1d3Smh2dU95WFAyRS1kcmUzRFZpeURDeDh0anc?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-31"
-        },
-        {
-          "title": "Rare Earth Truce Is Extended, but Its Legal Deadlines Stand - Environmental Leader",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSkdlZ2Rmcy1iWGZhUW5iNk1CQ1JMcFdmWWNpZVBGSzVhZF9JOWFJR3g2S1JTTVpsR0VyMlZubU1mUVJoSlJ3NVYtN2JtbU5fOFcxdW1CVXh5cVNsZ2JwSV9rWVRjOVJBaU5ydHlTRzdYME9tclRXbU5ld0l4clQ2Y2tLUFZ6SXJyT0ppVDRMbWhOaXluZmNkTXAwOXBDMV9CQUVrU0ZFMk1OMTlS?oc=5",
+          "title": "EU 순환경제법, 글로벌 패션 공급망 재편한다 - 한국섬유신문",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ldmpVSjh1eVFBUUR3Uy1oV0I0MzlPYzhPU3dJTzByS2dxN2hnOTZ5TFFfTFJRNnJ4Z21aNGJGdDdNeW1hMUFRZlBVSlh4ZDdIZlFxT2xnbU9heE5Bc3RlNkVsNGkyMktf?oc=5",
           "source": "GoogleNews",
           "date": "2026-10-30"
-        },
-        {
-          "title": "Securing the Supply Chain: A Survey of Contrasting Global Approaches to Critical Minerals Strategic Reserves - Ashurst Perkins Coie",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NUGdLczI1UE5FUnRuNU9HUjV4X2pkSXhLYy13SVhkeHIxeUNmaWE4RmNsS1V2T21WUk5GMks1dGpIeER4R0d2TWtqc2ZyYjlFcUFCa00yN1ZGWFlZUXNGNU45Wl9kRE5VTmNsRDYwSFVERnQ0RmI5YTZXMDFZZw?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-02"
-        },
-        {
-          "title": "Benchmark launches gallium and germanium metal price assessments - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPODZuVDBSNUNPaFNKZ0hmczd6LXI0WkE3ZktydGhQOFZoNlMwRHI1ZDF2Q0JuX1RRWEhSYllPazNfS05BQVVUVDhpV2dVVDlDOXdhYzRoY3l6cTBvd2RHX1FLRXZXTWQydkJuWGFMT0VOb21PVjNFczFVNGc5SnNRS19UY2UtaW1YVjQ5OVBJZGZIQmxYcncwaS1pMktIMnhWbjJOUjZKeTdKSmlPbHc?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-10-31"
         }
       ],
       "fact": [],
@@ -290,47 +234,47 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-05_article_2.jpg",
+      "image_url": "images/2026-11-06_article_2.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "Ashurst Perkins Coie 보고서 국가별 수치·품목 목록 미공개로 핵심 내용 검증 불가",
-          "희토류 휴전 연장 및 법적 기한 보도의 구체 조건 출처 미확인"
+          "EU 순환경제법 디지털 제품 여권 적용 시점·대상 범위 구체성 부족",
+          "한국섬유신문 단일 출처로 복수 검증 미흡"
         ],
         "image_keyword_ok": true,
-        "notes": "출처 기관 실재하며 불확실 사항 본문 내 명시. 전반적으로 신뢰 가능.",
-        "verified_at": "2026-11-05 08:16"
+        "notes": "EU 순환경제 규제 방향은 실재하나 적용 일정 세부 확인 필요",
+        "verified_at": "2026-11-06 08:16"
       }
     }
   ],
-  "editorial_briefing": "엔비디아의 중국 공급망 축소 압박, 반도체 특수가스의 호르무즈 해협 의존, 각국 핵심광물 비축 정책 차이가 AI 인프라 조달 환경의 복합적 변수로 부상하고 있다. 조달 담당자는 공급망 다변화와 불가항력 조항 점검이 필요한 시점이다.",
+  "editorial_briefing": "반도체 인재 유출 리스크와 AI 인프라 투자 확대가 맞물리며 공급망 보안과 조달 수요가 함께 변화하고 있다. EU 순환경제법은 패션·섬유 소재 조달 기준에도 영향을 미칠 전망이다.",
   "key_signals": [
     {
       "icon": "🔴",
-      "label": "중국 공급망 압박",
-      "status": "거래 축소 요구"
-    },
-    {
-      "icon": "🔴",
-      "label": "특수가스 지정학",
-      "status": "호르무즈 의존 위험"
+      "label": "반도체 인재 유출",
+      "status": "공급망 보안 변수"
     },
     {
       "icon": "🟡",
-      "label": "핵심광물 비축 차이",
-      "status": "국가별 정책 분화"
-    },
-    {
-      "icon": "🟡",
-      "label": "AI 인프라 조달",
-      "status": "공급망 재편 중"
+      "label": "중국 기술 추격",
+      "status": "지속 모니터링"
     },
     {
       "icon": "🟢",
-      "label": "대체 공급망 확보",
-      "status": "다변화 기회 모색"
+      "label": "AI 인프라 투자",
+      "status": "20억달러 확정"
+    },
+    {
+      "icon": "🟡",
+      "label": "전력·냉각 조달",
+      "status": "수요 확대 예상"
+    },
+    {
+      "icon": "🟡",
+      "label": "EU 순환경제법",
+      "status": "소재 기준 변화"
     }
   ],
-  "last_reviewed_at": "2026-11-05 08:16"
+  "last_reviewed_at": "2026-11-06 08:16"
 }

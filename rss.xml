@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:16:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:16:17 +0900</lastBuildDate>
+    <item>
+      <title>칩 인재 전쟁, 기술 유출과 중국 추격의 교차점</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-0.html</guid>
+      <category>기술패권</category>
+      <description>반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 핵심 인력 이탈 여부와 기술보호 체계를 점검할 필요가 있다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>글로벌 7개사 한국 AI 인프라에 20억 달러 투자 확정</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-1.html</guid>
+      <category>산업전략</category>
+      <description>외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정했다. 전력·냉각 인프라 조달 수요가 함께 확대될 가능성이 있어 관련 공급망 점검이 필요하다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>EU 순환경제법, 패션 소재 조달 기준을 바꾼다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-2.html</guid>
+      <category>글로벌분석</category>
+      <description>EU 순환경제법이 글로벌 패션 공급망 재편을 압박하면서 소재 조달 기준과 계약 조건 변화 가능성이 커졌다. 섬유·의류 소재를 조달하는 담당자는 규정 적용 일정을 확인할 필요가 있다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>엔비디아, 데이터센터에 중국 거래 축소 압박</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-05-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 개막해 96개사 135부스 규모로 열린다. 국내 소부장 기업의 기술 현황과 공급 가능성을 직접 확인할 기회다.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>게르마늄값 2배 급등, 고려아연 선제투자 재조명</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-27-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-27-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>게르마늄 현물 가격이 2배 수준으로 뛰면서 고려아연의 선행 투자가 업계의 관심을 받고 있다. 게르마늄 함유 부품을 조달하는 담당자라면 공급처 현황과 계약 조건을 확인해볼 시점이다.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 광물 통제, AI·로봇 소재로 전선 확산</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-26-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-26-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대되고 있다. 조달 담당자는 자사 제품의 소재 구성이 해당 통제 범위에 포함되는지 점검이 필요한 시점이다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>미중 기술 격리 고착화, 한국의 선택 구조</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-26-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-26-1.html</guid>
-      <category>기술패권</category>
-      <description>미중 정상회담에서 AI·반도체 수출통제 합의가 재차 불발되며 기술 격리 고착화가 확인됐다. 한국 정부는 산업·안보 융합 전략을 공식화했으나, 실행 조건과 성과 측정 기준은 아직 불확실하다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

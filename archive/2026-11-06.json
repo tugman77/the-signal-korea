@@ -1,0 +1,280 @@
+{
+  "generated_at": "2026년 11월 06일 08:16",
+  "date_str": "2026년 11월 06일",
+  "date_key": "2026-11-06",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "칩인재전쟁-기술탈취-중국경쟁",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "칩 인재 전쟁, 기술 유출과 중국 추격의 교차점",
+      "summary": "반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 핵심 인력 이탈 여부와 기술보호 체계를 점검할 필요가 있다.",
+      "key_points": [
+        "CNBC 보도에 따르면 중국 경쟁사들이 첨단 반도체 인재를 적극 영입하며 영업비밀 탈취 위험이 높아지고 있다",
+        "대만의 기술탈취 대응 경험이 한국 반도체 공급망에 구조적 시사점을 준다는 분석이 아시아타임스에서 나왔다",
+        "인재 유출이 협력사 기술 역량에 미치는 영향은 현재로서는 정량적으로 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 5일 CNBC는 반도체 업계에서 영업비밀 분쟁과 중국 경쟁사들의 인재 영입이 동시에 심화되고 있다고 보도했다. 고급 설계·공정 인력을 둘러싼 경쟁이 단순한 채용 전쟁을 넘어 기술 유출 경로로 이어질 수 있다는 우려가 커지고 있다는 내용이다.",
+            "아시아타임스는 10월 30일 대만이 중국의 칩 기술 탈취에 어떻게 대응해왔는지를 분석하면서, 한국이 참고할 수 있는 구조적 비교를 제시했다. 대만은 주요 반도체 인력의 중국 이직을 제한하는 법적 장치와 내부 감사 체계를 운용해왔다."
+          ]
+        },
+        {
+          "heading": "왜 조달 관점에서 주목해야 하나",
+          "paragraphs": [
+            "반도체 소재·부품·장비 공급사는 대부분 소수 핵심 기술 인력에 의존한다. 해당 인력이 경쟁국 기업으로 이동할 경우 단기 납품 능력 저하뿐 아니라 독점 공정 노하우가 외부로 유출될 가능성이 있다.",
+            "조달 담당자가 직접 확인하기 어려운 영역이지만, 협력사 평가 시 핵심 인력 유지율, 비밀유지 계약 현황, 내부 기술 보호 감사 여부를 문서화해 두면 리스크 가시성을 높일 수 있다."
+          ]
+        },
+        {
+          "heading": "조달에서 점검할 항목",
+          "paragraphs": [
+            "협력사 핵심 인력의 이탈 추이, 대체 기술 인력 보유 현황, 영업비밀 보호 정책 적용 범위를 확인할 수 있다. 단일 인력 의존도가 높은 소규모 소부장 협력사는 별도 리스크 등급을 적용하는 것도 하나의 접근이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "CNBC 후속 보도",
+          "detail": "영업비밀 소송 판결 및 인재 이직 제한 입법 동향을 추적"
+        },
+        {
+          "label": "한국 산업기술보호법 개정 여부",
+          "detail": "반도체 핵심 인력 해외 이직 규제 강화 논의 진행 상황"
+        },
+        {
+          "label": "대만 인력 이직 제한 사례",
+          "detail": "대만 법원 판례 및 행정 조치가 한국 정책에 참고 모델이 될 수 있는지 여부"
+        }
+      ],
+      "source_ids": [
+        32,
+        33
+      ],
+      "image_keyword": "semiconductor engineer cleanroom suit",
+      "is_featured": true,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOanRQS1NxX3lCdmRsYWJ1STlUY3B4SDIwaHpITTBOUnh2ejlJNUlkQW9QWkJXcTFFckhBLWlCTnRPUTJYaWd1Q0tVSDhIQjNkd2NQRFpXSkhaTVJiZHF4cG9CbnhDSVYzejkxX3JDS0kwaGs2NmM2RGJNWjJSSmNzU1FHT2PSAYoBQVVfeXFMTmJ2eEhROHc3V3Y5RGwwQUVCUC1oTFpqbnQ4WjdNbE83Uzd2SFpXUWJCdloxT0VqdWM4Z3RPM1UwVS1rWHFLLUo1Y2ZScGFjSkZqQ3NQSl9RMnV5SjRPcXZEZ0sxLUJWWTZxbldMcFc5WENINlJnTVo4QmMzLWFXSzB5Uk1Xb1oyRjVR?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-11-05"
+        },
+        {
+          "title": "What Taiwan can teach South Korea about China’s chip tech theft - Asia Times",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmltWTRmZGpsWVJjWU1KQy1vRGlDbEo5SEN5NGhTbjNRSFVobWVqWnBSaV9ZYTY2bmNTSzZYZ1BjMnJ1bzhTYW9PSkZzcENiVEppWlZXaFoyX2ZDZV9VclphSUhnQzRqVGJ6MzVZOFRfb1J6dXc3eGdCSkJsUXA3UGRpcm8zay1TckxoM0JQblpwMU1tamJRdg?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-10-30"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-06_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "대만의 반도체 인력 중국 이직 제한 법적 장치 구체적 조항 미확인",
+          "CNBC 2026년 11월 5일 보도 내용의 정확한 출처 검증 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 주장은 업계 현실과 부합하나 일부 출처 세부 확인 권장",
+        "verified_at": "2026-11-06 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "AI데이터센터-외국인투자-한국전력인프라",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "explainer",
+      "title": "글로벌 7개사 한국 AI 인프라에 20억 달러 투자 확정",
+      "summary": "외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정했다. 전력·냉각 인프라 조달 수요가 함께 확대될 가능성이 있어 관련 공급망 점검이 필요하다.",
+      "key_points": [
+        "글로벌 7개사가 한국 AI·반도체 분야에 20억 달러 투자를 결정한 것으로 보도됐다",
+        "AI 데이터센터 확대에 따라 전력 인프라 경쟁력이 핵심 변수로 부상하고 있다",
+        "구체적인 투자 집행 일정과 전력·냉각 조달 계약 규모는 아직 공개되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 4일 아시아투데이와 인공지능신문은 해외 기업 7곳이 한국 AI 데이터센터 및 반도체 분야에 총 20억 달러 규모의 투자를 결정했다고 보도했다. 글로벌 자본이 한국 AI·반도체 인프라로 집중되는 흐름이 가시화된 것으로 평가된다.",
+            "광주에서 열린 전기인 관련 행사에서는 'AI·반도체 시대에 전력 인프라가 경쟁력'이라는 진단이 나왔다. 반도체 반론보도닷컴은 AI 반도체·전력·냉각 생태계를 국내 데이터센터 수출 발판으로 삼아야 한다는 의견을 전했다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "데이터센터 투자 확대는 전력 설비, 냉각 장비, UPS, 케이블링 등 인프라 조달 수요를 동반한다. 해당 품목을 납품하는 협력사는 수주 확대 기회를 맞을 수 있으나, 동시에 납기 경쟁도 심화될 수 있다.",
+            "조달 담당자는 전력·냉각 설비 공급사의 현재 수주 잔고와 납기 여력을 사전에 확인하는 것이 유용하다. 단일 공급처 의존도가 높은 품목은 대체 공급처 인증 기간을 미리 파악해두는 것도 하나의 접근이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "투자 집행 일정 공개 여부",
+          "detail": "7개사의 구체적 투자 착수 시점 및 프로젝트 발주 일정"
+        },
+        {
+          "label": "전력 인프라 조달 수요 변화",
+          "detail": "데이터센터 증설에 따른 전력 설비·냉각 장비 발주 규모 및 납기 동향"
+        },
+        {
+          "label": "국내 전력망 여건",
+          "detail": "산업부 전력수급 계획 및 데이터센터 전용 전력 인프라 확충 여부"
+        }
+      ],
+      "source_ids": [
+        22,
+        23,
+        24,
+        26
+      ],
+      "image_keyword": "data center server rack cooling",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "AI 데이터센터·반도체에 글로벌 자본 몰린다…외국기업 7곳, 한국에 20억달러 투자 - 인공지능신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51M1VHQmY0VTF3Ty1pVndWTk54akVMcE1wWmdKR3FpbkpKNjMxZVJDbHMxTFhhTUp2Xzc1c3dWU0MwSmh3WUhlUmVPRkU3NVU5cEN3YVpDcFg1UHNVM2p0SGUyb29DZXc?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "“AI·반도체 시대, 전력 인프라가 경쟁력”…광주 전기인, 미래산업 발전 머리 맞대 - 전기신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NSzdkLTRYNWFuaHZQWjhYSGUxRmwzTDRyV1h3ZDdMenNyY19UUFVBSktua2cyS3lvTjVPeURubEJxc0VMWGNUOUNMbEZYRUZSOHJxS0NJZE9QNUFtOWQ1M0pVOHpaNGI5dWZwdtIBcEFVX3lxTE9hTU5Pa2NNdklqaXJCUWhfdjVPZW1oXzExWFNEVHJtOU44M2RReFozMG96TTVweG9HQUx4Q3J1UlNNYzNhTmlhcE1LT0ZhSnhpcXN2UGdaYXd1VlF0Nm1LLU55YVZXcFlLVmpMUzFsYzc?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-10-30"
+        },
+        {
+          "title": "글로벌 7개사 韓에 20억달러 투자…AI·반도체에 외자 몰린다 - 아시아투데이",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SENaU1B5d2t2S1RNSkFwNUlSV09hSV9VTl9nbWF6U1d2anRIZHdLdE5lM3dGMDJlYWNsQWRBUU54ejE2LTVnWnI0WGNxTWZoa095b1A0cmtjdmJsWFlwdWo4NjRvY1I2LVowUHZR?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "AI 반도체·전력·냉각 생태계 키운다...“국내 데이터센터를 수출 발판 삼아야” - 반론보도닷컴",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nTURwbThpSlJZaDVpSEZJQUJiM1BTbF9sTi1ibzRDazU3T2VIZExFMjJ4VmhoQzl2a1hGdm1GRHU0XzhIaFF1eU5wa2RWaUFMQmQ0c29kYXlTcUd3Mi0tal9PRGoyV0lwcnh5MNIBcEFVX3lxTFA4ckdGaUh4NHAwNmlSUnd6NU41aklaODBXeFRGZFQ4MVlYbW5RSVU4MENKVUh5SFB2Vnh3Q2VHZUdLM3F4bzN0RkxlWE9FRTNyZmlwY2F1eWI2Nmc1b0VjN0FnM3U5R01rUDZnbENicVA?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-02"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-06_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "해외 7개사 구체적 기업명 미공개로 투자 주체 독립 검증 불가",
+          "20억 달러 총액의 개별 기업별 분배 내역 확인 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "투자 규모·보도 출처 복수 확인되어 신뢰도 양호, 기업명 명시 권장",
+        "verified_at": "2026-11-06 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "EU순환경제법-패션공급망-소재조달",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "brief",
+      "title": "EU 순환경제법, 패션 소재 조달 기준을 바꾼다",
+      "summary": "EU 순환경제법이 글로벌 패션 공급망 재편을 압박하면서 소재 조달 기준과 계약 조건 변화 가능성이 커졌다. 섬유·의류 소재를 조달하는 담당자는 규정 적용 일정을 확인할 필요가 있다.",
+      "key_points": [
+        "EU 순환경제법이 글로벌 패션 공급망을 재편하고 있다는 분석이 10월 30일 한국섬유신문에서 나왔다",
+        "법 적용 범위와 국내 조달 계약에 미치는 직접적 영향은 아직 공식 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 10월 30일 한국섬유신문은 EU 순환경제법이 글로벌 패션 공급망을 재편하고 있다고 보도했다. 재활용 소재 비율, 제품 내구성, 디지털 제품 여권 등 새 기준이 공급망 전반에 적용될 경우 소재 조달 조건이 바뀔 수 있다.",
+            "섬유·의류 소재를 유럽 시장에 납품하거나 유럽 브랜드와 협력하는 국내 기업은 EU 규정의 적용 시점과 적용 범위를 확인하는 것이 필요하다. 기존 계약의 품질 기준 및 소재 성분 조항이 새 기준과 충돌하는지 점검할 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        16
+      ],
+      "image_keyword": "textile recycled fabric roll",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "EU 순환경제법, 글로벌 패션 공급망 재편한다 - 한국섬유신문",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ldmpVSjh1eVFBUUR3Uy1oV0I0MzlPYzhPU3dJTzByS2dxN2hnOTZ5TFFfTFJRNnJ4Z21aNGJGdDdNeW1hMUFRZlBVSlh4ZDdIZlFxT2xnbU9heE5Bc3RlNkVsNGkyMktf?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-10-30"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-06_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "EU 순환경제법 디지털 제품 여권 적용 시점·대상 범위 구체성 부족",
+          "한국섬유신문 단일 출처로 복수 검증 미흡"
+        ],
+        "image_keyword_ok": true,
+        "notes": "EU 순환경제 규제 방향은 실재하나 적용 일정 세부 확인 필요",
+        "verified_at": "2026-11-06 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "반도체 인재 유출 리스크와 AI 인프라 투자 확대가 맞물리며 공급망 보안과 조달 수요가 함께 변화하고 있다. EU 순환경제법은 패션·섬유 소재 조달 기준에도 영향을 미칠 전망이다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "반도체 인재 유출",
+      "status": "공급망 보안 변수"
+    },
+    {
+      "icon": "🟡",
+      "label": "중국 기술 추격",
+      "status": "지속 모니터링"
+    },
+    {
+      "icon": "🟢",
+      "label": "AI 인프라 투자",
+      "status": "20억달러 확정"
+    },
+    {
+      "icon": "🟡",
+      "label": "전력·냉각 조달",
+      "status": "수요 확대 예상"
+    },
+    {
+      "icon": "🟡",
+      "label": "EU 순환경제법",
+      "status": "소재 기준 변화"
+    }
+  ],
+  "last_reviewed_at": "2026-11-06 08:16"
+}
