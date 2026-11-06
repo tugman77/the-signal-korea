@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 08:16:17 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 08:16:07 +0900</lastBuildDate>
+    <item>
+      <title>중국 갈륨 수출 유예, 11월 27일이 기준선이다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-07-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-07-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 핵심광물 수출통제 1년 유예 기간이 11월 27일 만료를 앞두고 있다. 갈륨을 포함한 핵심광물 조달 담당자는 계약 조건과 재고 현황을 점검할 시점이다.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>영국 의회, 핵심광물 기준 준수 증명 요구</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-07-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-07-1.html</guid>
+      <category>글로벌분석</category>
+      <description>영국 하원의원들이 장관들에게 핵심광물 조달 기준 준수를 입증하지 못했다고 지적했다. 조달 기준의 형식적 선언과 실질적 검증 사이의 간극이 주목받고 있다.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>정부, AI·공급망 대응 사업재편 지원 확대</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-07-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-07-2.html</guid>
+      <category>산업전략</category>
+      <description>산업부가 제6기 사업재편계획심의위원회를 출범시키며 AI와 공급망 재편을 주요 지원 축으로 삼았다. 기업 구조 전환 과정에서 조달 계약과 협력사 관계 변화 가능성이 있다.</description>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>칩 인재 전쟁, 기술 유출과 중국 추격의 교차점</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-06-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>AI·반도체 업계의 재생에너지 조달 전략을 다루는 한국RE100컨퍼런스가 11월 26일 열린다. 전력 조달 방식이 반도체 공급망의 새 변수로 부상하고 있다.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아, 삼성전기 기판 공급망 편입…한국 증설 확정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-28-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-28-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>엔비디아가 삼성전기를 AI 가속기용 FC-BGA 기판 공급망에 공식 추가하고 한국 내 생산능력 확장을 결정했다. 조달 담당자는 FC-BGA 수급 일정과 단가 조정 조건을 점검할 시점이다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한-아프리카 공급망 협력, AfCFTA가 변수</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-28-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-28-1.html</guid>
-      <category>글로벌분석</category>
-      <description>한국이 아프리카와의 공급망·산업 협력 확대를 모색하고 있으며, 아프리카 대륙자유무역지대(AfCFTA)와 인적자원이 핵심 접점으로 거론되고 있다. 실질적 조달 다변화로 이어지려면 금융·물류·인증 등 실행 조건을 함께 봐야 한다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>소부장 뿌리기술대전 개막, 96개사 전시</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-28-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-28-2.html</guid>
-      <category>산업전략</category>
-      <description>2026 소재부품장비뿌리기술대전이 10월 28일 킨텍스에서 개막해 96개사 135부스 규모로 열린다. 국내 소부장 기업의 기술 현황과 공급 가능성을 직접 확인할 기회다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
