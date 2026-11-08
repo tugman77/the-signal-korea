@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 08 Nov 2026 08:16:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:16:18 +0900</lastBuildDate>
+    <item>
+      <title>칩 인재 전쟁, 공급망 보안의 새 변수로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-0.html</guid>
+      <category>기술패권</category>
+      <description>반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 인력 구조와 기술 보안 체계를 점검할 필요가 생겼다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>인피니언, AI 데이터센터 전력칩을 성장 축으로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>인피니언이 AI 데이터센터용 전력 반도체를 핵심 성장 동력으로 제시했다. 데이터센터 전력·냉각 인프라 조달 담당자는 전력 반도체 수급 여건 변화를 살펴볼 필요가 있다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>Pax Silica 5년, 반도체 지정학의 궤적</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-2.html</guid>
+      <category>글로벌분석</category>
+      <description>ITIF가 반도체 지정학 질서 'Pax Silica'의 형성 과정을 타임라인으로 정리했다. 조달 담당자는 이 흐름이 중장기 공급망 구조 변화와 어떻게 연결되는지 살펴볼 수 있다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>오라클-텐센트 AI 반도체 계약, 미국 압박으로 취소</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-08-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>글로벌 공급망 재편 흐름 속에서 해외 기업 20여 곳이 국내 소재·부품·장비 협력사를 직접 탐색하고 있다. 100여 개 국내 기업이 글로벌 밸류체인 진입을 노리고 있다.</description>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>AI 칩 냉각 소재 다이아몬드, 미중 공급망 새 전선으로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>AI 가속기 발열 문제 해결에 다이아몬드 소재가 주목받으면서 반도체·광물에 이어 냉각 소재 분야에서도 미중 공급망 경쟁이 부상하고 있다. 조달 담당자는 AI 시스템 부품군에 이 소재가 포함되는지 점검이 필요한 시점이다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>EU 반도체 자급 목표, 투자는 늘어도 달성은 불투명</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-1.html</guid>
-      <category>글로벌분석</category>
-      <description>EU 반도체 정책에 대한 투자는 확대되고 있으나 자급자족 달성 가능성에 의구심이 높아지고 있으며, 글로벌 기업 유치를 위한 전략 재검토 요구가 제기됐다. 한국 공급망과의 교차점을 점검할 필요가 있다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>현대모비스, 차량용 반도체 공급 컨소시엄 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-30-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-30-2.html</guid>
-      <category>산업전략</category>
-      <description>현대모비스가 한국 내 자동차용 반도체 공급 컨소시엄을 확대했다. 한국 3분기 GDP가 반도체 수출에 힘입어 1.0% 성장하는 등 반도체 공급망 다변화 움직임이 이어지고 있다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

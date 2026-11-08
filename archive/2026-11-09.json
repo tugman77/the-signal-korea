@@ -1,0 +1,276 @@
+{
+  "generated_at": "2026년 11월 09일 08:16",
+  "date_str": "2026년 11월 09일",
+  "date_key": "2026-11-09",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "반도체-인재전쟁-기술유출-공급망보안",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "칩 인재 전쟁, 공급망 보안의 새 변수로",
+      "summary": "반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 인력 구조와 기술 보안 체계를 점검할 필요가 생겼다.",
+      "key_points": [
+        "CNBC 보도에 따르면 반도체 인재 확보 경쟁에서 중국 기업의 추격이 가시화되고 있다",
+        "기술 유출이 공급망 협력사 선정 기준에 영향을 줄 수 있는지는 아직 불확실하다",
+        "인재 이동에 따른 영업비밀 침해 리스크가 거래 계약 조건에 반영되는 사례가 늘고 있다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "CNBC는 2026년 11월 5일 반도체 인재 확보 경쟁이 기술 유출 위험과 교차하고 있다고 보도했다. 중국 기업들이 미국·한국·대만 반도체 인력을 적극적으로 영입하면서, 핵심 기술이 경쟁국으로 이전될 가능성에 대한 우려가 커지고 있다는 내용이다.",
+            "이 보도는 단순한 채용 경쟁을 넘어 기업 간 기술 비밀(trade secrets) 분쟁으로 이어지는 사례들을 구체적으로 다루고 있다. 반도체 설계·공정 노하우를 보유한 엔지니어의 이직이 소송과 수출통제 위반 조사로 번지는 경로가 보고되고 있다."
+          ]
+        },
+        {
+          "heading": "왜 조달 담당자가 주목해야 하나",
+          "paragraphs": [
+            "반도체 공급망은 소수의 전문 협력사에 의존하는 구조가 많다. 핵심 엔지니어가 경쟁 기업으로 이동하거나 기술 유출로 법적 분쟁에 휘말린 협력사는 납기·품질 안정성에 직접적인 영향을 받을 수 있다.",
+            "또한 미국 수출통제(EAR)는 기술 이전의 경로를 엄격히 규제하고 있다. 협력사가 수출통제 위반 조사를 받는 경우, 해당 기업으로부터의 조달 자체가 리스크로 전환될 가능성이 있다. 계약서에 기술 보안 의무나 컴플라이언스 조항이 포함되어 있는지 확인할 시점이다."
+          ]
+        },
+        {
+          "heading": "조달에서 점검할 항목",
+          "paragraphs": [
+            "협력사의 핵심 인력 이탈 여부 및 최근 조직 변동을 파악하고 있는지 검토할 필요가 있다. 단일 협력사에 대한 의존도가 높을수록 인력 리스크의 파급 범위가 커진다.",
+            "계약 조항에서 기술 유출·컴플라이언스 위반 시 귀책 범위가 명확히 설정되어 있는지, 불가항력 조항이 법적 분쟁 상황도 포함하는지 확인하는 것도 하나의 체크포인트다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "미국 수출통제 집행 동향",
+          "detail": "상무부 BIS의 기술 이전 관련 제재 사례 발표 여부를 모니터링한다."
+        },
+        {
+          "label": "협력사 법적 분쟁 현황",
+          "detail": "주요 반도체 협력사의 영업비밀 소송·수출통제 조사 여부를 계약 갱신 전 확인한다."
+        },
+        {
+          "label": "중국 기업 인력 영입 범위",
+          "detail": "CNBC 등 전문 매체의 후속 보도를 통해 중국 기업의 한국·대만 인력 영입 사례 추이를 파악한다."
+        }
+      ],
+      "source_ids": [
+        32
+      ],
+      "image_keyword": "semiconductor engineer cleanroom work",
+      "is_featured": true,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Inside the chip talent war: Trade secrets and rising Chinese rivals - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOanRQS1NxX3lCdmRsYWJ1STlUY3B4SDIwaHpITTBOUnh2ejlJNUlkQW9QWkJXcTFFckhBLWlCTnRPUTJYaWd1Q0tVSDhIQjNkd2NQRFpXSkhaTVJiZHF4cG9CbnhDSVYzejkxX3JDS0kwaGs2NmM2RGJNWjJSSmNzU1FHT2PSAYoBQVVfeXFMTmJ2eEhROHc3V3Y5RGwwQUVCUC1oTFpqbnQ4WjdNbE83Uzd2SFpXUWJCdloxT0VqdWM4Z3RPM1UwVS1rWHFLLUo1Y2ZScGFjSkZqQ3NQSl9RMnV5SjRPcXZEZ0sxLUJWWTZxbldMcFc5WENINlJnTVo4QmMzLWFXSzB5Uk1Xb1oyRjVR?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-11-05"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-09_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "CNBC 2026년 11월 5일 보도 실제 존재 여부 미확인",
+          "반도체 엔지니어 이직이 수출통제 위반 조사로 번지는 구체적 사례 출처 불명확"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 주장은 업계 현실과 부합, 출처 보도 날짜 확인 권고",
+        "verified_at": "2026-11-09 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "인피니언-AI데이터센터-전력반도체-수요",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "brief",
+      "title": "인피니언, AI 데이터센터 전력칩을 성장 축으로",
+      "summary": "인피니언이 AI 데이터센터용 전력 반도체를 핵심 성장 동력으로 제시했다. 데이터센터 전력·냉각 인프라 조달 담당자는 전력 반도체 수급 여건 변화를 살펴볼 필요가 있다.",
+      "key_points": [
+        "인피니언은 AI 데이터센터 전력 칩을 주요 성장 드라이버로 공식화했다",
+        "전력 반도체 수요 증가가 납기와 가격에 미치는 영향은 아직 구체적 수치로 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "THE ELEC의 2026년 11월 8일 보도에 따르면 인피니언 테크놀로지스가 AI 데이터센터용 전력 반도체를 핵심 성장 동력으로 명시했다. AI 가속기와 대규모 서버 운영에 필요한 전력 관리 수요가 빠르게 늘고 있다는 판단에서다.",
+            "AI 데이터센터 투자 확대는 서버뿐 아니라 전력 변환·분배에 쓰이는 파워 반도체 수요를 함께 끌어올리는 구조다. 한국에도 외국 기업 7곳이 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정한 것으로 보도된 바 있어(자료 22, 23), 국내 전력 인프라 조달 여건에도 간접적인 영향이 생길 수 있다.",
+            "데이터센터 전력 인프라를 조달하는 담당자라면 전력 반도체 주요 공급사의 리드타임 변동 여부, 장기공급계약(LTA) 조건 변화 여부를 확인하는 것이 하나의 점검 항목이 될 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        31,
+        22,
+        23
+      ],
+      "image_keyword": "power semiconductor chip board",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Infineon Sees AI Data Center Power Chips as Key Growth Driver - THE ELEC, Korea Electronics Industry Media",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlYXVhdmN6V191MEJpR2xpUGMxcFg2b0RyelhJTUZ6ZFhwT2g3bV8zdEI1MVdCeENBdjhVelVxT1BKWmFRdDIwQTFUTVJfeUsyYjloSFlBU25RRkZfNFVQVWpkOGM1T0E?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-08"
+        },
+        {
+          "title": "AI 데이터센터·반도체에 글로벌 자본 몰린다…외국기업 7곳, 한국에 20억달러 투자 - 인공지능신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51M1VHQmY0VTF3Ty1pVndWTk54akVMcE1wWmdKR3FpbkpKNjMxZVJDbHMxTFhhTUp2Xzc1c3dWU0MwSmh3WUhlUmVPRkU3NVU5cEN3YVpDcFg1UHNVM2p0SGUyb29DZXc?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-04"
+        },
+        {
+          "title": "글로벌 7개사 韓에 20억달러 투자…AI·반도체에 외자 몰린다 - 아시아투데이",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91SENaU1B5d2t2S1RNSkFwNUlSV09hSV9VTl9nbWF6U1d2anRIZHdLdE5lM3dGMDJlYWNsQWRBUU54ejE2LTVnWnI0WGNxTWZoa095b1A0cmtjdmJsWFlwdWo4NjRvY1I2LVowUHZR?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-04"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-09_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "외국기업 7곳 한국 20억달러 투자 구체 기업명·출처 미상",
+          "THE ELEC 2026년 11월 8일 보도 실제 존재 여부 미확인"
+        ],
+        "image_keyword_ok": true,
+        "notes": "인피니언의 AI 데이터센터 전력칩 전략은 실제 사업 방향과 부합",
+        "verified_at": "2026-11-09 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "Pax-Silica-반도체-지정학-생태계",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "explainer",
+      "title": "Pax Silica 5년, 반도체 지정학의 궤적",
+      "summary": "ITIF가 반도체 지정학 질서 'Pax Silica'의 형성 과정을 타임라인으로 정리했다. 조달 담당자는 이 흐름이 중장기 공급망 구조 변화와 어떻게 연결되는지 살펴볼 수 있다.",
+      "key_points": [
+        "ITIF는 2026년 11월 3일 반도체 지정학 질서 'Pax Silica'의 진화 과정을 타임라인으로 공개했다",
+        "각국의 반도체 자국화 정책이 실제 공급망 다변화로 이어지는지는 국가별로 차이가 있어 단정하기 어렵다",
+        "반도체 공급망 재편 속도와 방향은 조달 계약의 단일 공급처 의존도 점검 주기에 영향을 줄 수 있다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "미국 싱크탱크 ITIF(정보기술혁신재단)는 2026년 11월 3일 반도체 지정학 질서를 'Pax Silica'로 명명하고, 그 형성 과정을 타임라인 형식으로 공개했다. Pax Silica는 반도체 기술·공급망을 둘러싼 국가 간 세력 균형과 규범 형성 과정을 가리키는 개념으로 사용되고 있다.",
+            "이 보고서는 각국 정부의 반도체 자국화 정책, 수출통제 조치, 동맹국 간 공급망 협력이 어떻게 중첩되어 현재의 구조를 만들었는지를 시계열로 정리하고 있다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 시사점이 있나",
+          "paragraphs": [
+            "반도체 공급망은 단기 가격·납기 외에도 지정학 리스크가 중장기 조달 전략에 영향을 미치는 구조가 되고 있다. 미국과 중국의 기술 블록화가 진행되면서 특정 국가 기업과의 거래 자체가 규제 대상이 되는 사례가 늘고 있다(자료 8 참조).",
+            "Pax Silica 타임라인이 보여주는 핵심 흐름은, 반도체 공급망 재편이 단발적 사건이 아니라 구조적 변화로 굳어지고 있다는 점이다. 조달 담당자는 현재 계약된 공급처가 향후 수출통제나 동맹 구조 변화의 영향권에 들어올 가능성을 주기적으로 점검할 필요가 있다."
+          ]
+        },
+        {
+          "heading": "아직 불확실한 부분",
+          "paragraphs": [
+            "각국의 반도체 자국화 목표 달성 여부는 불투명한 상태다. EU 반도체 정책의 경우 투자는 늘고 있으나 자급자족 가능성에 의구심이 제기되고 있다는 보도도 있다. 공급망 다변화 계획을 수립할 때 각국 정책의 실행 가능성을 별도로 검토하는 것이 필요하다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "ITIF Pax Silica 후속 보고서",
+          "detail": "ITIF 웹사이트에서 Pax Silica 시리즈 업데이트 여부를 확인한다."
+        },
+        {
+          "label": "미국 수출통제 적용 범위 확대",
+          "detail": "상무부 BIS의 엔티티 리스트 및 EAR 개정 공고를 모니터링한다."
+        },
+        {
+          "label": "EU 반도체법 이행 현황",
+          "detail": "EU 집행위원회의 반도체법 중간 점검 발표 일정을 파악한다."
+        }
+      ],
+      "source_ids": [
+        27,
+        8
+      ],
+      "image_keyword": "semiconductor fab exterior aerial view",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Tracking Pax Silica’s Evolution: A Timeline | Blogs | Nov 3, 2026 - Information Technology and Innovation Foundation",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1EOGFBSVJUMnRoQm9jVGJFNlhnUWZWV29zZ2hPN0RITUpocXBuQWxiN3JHVGtjZk5ScmRkcUxDRkJBaXlvWnhFVm5rQ3BheTZ3UV82bjRlaVZDTjNmWm1mOXlUZFFEN3A4U0FBRDhR?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-03"
+        },
+        {
+          "title": "美정부 압박에 오라클-텐센트 AI 반도체 계약 취소 - 이데일리",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQYWlfcm1vV0JzeENieTZseW44aUhCc0p4OGZvYThjMWxrUWwtdDVYY3hhYW1XbDFxX0RzMzhLMHk4aThNazlpcW04WDU3ZlV2VDhxRVN2V2kwTUI1UE0xR2cwaXctSFI4TUszZWJtZ2xldFN3cTV3NjZqcUxySGxUZg?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-04"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-09_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "ITIF의 'Pax Silica' 보고서 2026년 11월 3일 발행 여부 확인 필요",
+          "오라클-텐센트 AI 반도체 계약 취소 보도 사실 여부 미확인"
+        ],
+        "image_keyword_ok": true,
+        "notes": "ITIF 실존 기관, Pax Silica 개념 출처 보고서 확인 권고",
+        "verified_at": "2026-11-09 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "반도체 인재 확보 경쟁이 기술 유출 위험과 맞물려 공급망 보안의 새 변수로 부상하고 있으며, AI 데이터센터 전력 반도체 수요가 확대되고 있다. 반도체 지정학 질서 재편이 중장기 공급망 구조 변화로 이어질 수 있어 조달 담당자의 모니터링이 필요하다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "반도체 인재 보안",
+      "status": "기술유출 위험 증가"
+    },
+    {
+      "icon": "🟡",
+      "label": "전력칩 수급 변화",
+      "status": "AI 수요 확대 중"
+    },
+    {
+      "icon": "🟡",
+      "label": "반도체 지정학",
+      "status": "공급망 재편 진행"
+    },
+    {
+      "icon": "🟢",
+      "label": "AI 전력 인프라",
+      "status": "성장 기회 부상"
+    }
+  ],
+  "last_reviewed_at": "2026-11-09 08:16"
+}
