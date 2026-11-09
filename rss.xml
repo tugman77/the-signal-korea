@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 08:16:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 08:16:26 +0900</lastBuildDate>
+    <item>
+      <title>젠슨 황 스캔들, AI 공급망 거버넌스를 흔드나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-10-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-10-0.html</guid>
+      <category>기술패권</category>
+      <description>엔비디아 CEO 젠슨 황의 불륜 인정과 중국 스파이 연루 의혹이 겹치면서 미 의회가 조사에 착수했다. 조달 담당자는 엔비디아 의존 AI 인프라 계획의 불확실성이 커지는 시점을 주목할 필요가 있다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>미 방산 희토류 조달, 2027년 마감이 현실로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-10-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-10-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국 희토류 공급망이 2027년 국방 조달 마감 기한을 앞두고 타이트한 상황에 직면했다는 분석이 나왔다. 방산 부품·소재를 공급하는 조달 담당자는 납기 일정과 인증 요건을 지금 점검할 필요가 있다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>헝가리, 한국 기업 투자 유치로 EU 수출 확대 노린다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-10-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-10-2.html</guid>
+      <category>산업전략</category>
+      <description>헝가리가 산업생태계 강화를 통한 EU 수출 확대 전략의 일환으로 한국 기업 투자 유치에 나섰다. 유럽 현지 생산 거점이 필요한 조달 구조를 검토 중인 기업은 헝가리의 인센티브 조건을 확인할 수 있다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>칩 인재 전쟁, 공급망 보안의 새 변수로</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-09-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>한국 총리가 독일 측에 배터리·반도체·AI 분야의 협력 강화를 공식 요청했다. 특정 공급망에서 한-독 협력이 구체화될 경우 조달 경로 다변화 가능성을 점검해볼 수 있다.</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>희토류 휴전 연장, 법적 기한은 그대로 남았다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-31-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-31-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>희토류 분야의 휴전이 연장됐으나 관련 법적 기한은 변경되지 않은 것으로 확인됐다. 갈륨·게르마늄 등 핵심 광물의 안정적 확보가 여전히 구조적 과제로 지목되고 있다.</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>대만 경험이 한국 반도체에 던지는 질문</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-31-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-31-1.html</guid>
-      <category>기술패권</category>
-      <description>중국 반도체 기업의 기술 격차 축소가 가시화되면서 대만의 기술탈취 대응 경험이 한국에 시사하는 바에 관심이 모이고 있다. 한국 기업의 수익성 전환 압박도 동시에 제기됐다.</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>해외 기업 20곳, K-소부장 협력사 물색 나섰다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-10-31-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-10-31-2.html</guid>
-      <category>산업전략</category>
-      <description>글로벌 공급망 재편 흐름 속에서 해외 기업 20여 곳이 국내 소재·부품·장비 협력사를 직접 탐색하고 있다. 100여 개 국내 기업이 글로벌 밸류체인 진입을 노리고 있다.</description>
-      <pubDate>Sat, 31 Oct 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
