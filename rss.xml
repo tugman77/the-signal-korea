@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 08:16:26 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 08:16:57 +0900</lastBuildDate>
+    <item>
+      <title>중국 희토류·배터리 수출통제 유예, 2027년까지 연장</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국이 희토류 및 배터리 관련 수출통제 유예 기간을 2027년까지 연장했다고 Benchmark Mineral Intelligence가 2026년 11월 11일 보도했다. 11월 27일 만료를 앞두고 긴장했던 조달 담당자들은 단기 공급 차질 우려를 덜었지만, 연장의 구체적 조건과 품목 범위는 별도 확인이 필요하다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>아시아, AI 인프라의 소비자에서 건설자로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-1.html</guid>
+      <category>글로벌분석</category>
+      <description>롤랜드 버거와 GIS Reports가 각각 2026년 11월 발표한 분석에 따르면, 아시아 공급망은 AI 붐의 수혜를 받는 데 그치지 않고 AI 인프라를 직접 구축하는 주체로 전환되고 있다. 조달 담당자는 아시아 내 공급망 재편이 단순 가격 경쟁이 아닌 기술·인프라 계층 구조의 변화로 이어지고 있음을 점검할 필요가 있다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>학계 &quot;로봇 말고 공장을 팔아라&quot; — 한국 AI 제조 전략 논쟁</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-2.html</guid>
+      <category>산업전략</category>
+      <description>연합뉴스가 2026년 11월 9일 보도한 학계 제언에 따르면, 한국이 AI 시대에 개별 로봇이 아닌 AI가 통합된 공장 시스템 자체를 수출하는 전략으로 전환해야 한다는 주장이 나왔다. 조달 담당자는 이 논의가 AI 통합 제조 설비를 새로운 조달 범주로 다뤄야 하는 시점과 연결될 수 있음을 점검할 수 있다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>젠슨 황 스캔들, AI 공급망 거버넌스를 흔드나</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-10-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>동남아시아가 반도체 공급망의 단일 허브로 부상할 수 있는지를 둘러싼 논의가 구체화되고 있다. 세계화의 구조 자체는 유지되지만 규칙이 바뀌고 있다는 분석이 나오는 가운데, 조달 다변화 경로로서 동남아의 실현 가능성을 살펴볼 필요가 있다.</description>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>갈륨·게르마늄, 이제 공개 가격 기준 생긴다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>Benchmark Mineral Intelligence가 갈륨·게르마늄 현물가격 평가 서비스를 시작했다. 가격 불투명성이 조달 리스크의 핵심이었던 두 소재에 시장 기준점이 처음 마련된다는 점에서 계약 구조와 재고 전략에 영향을 줄 수 있다.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 칩 위협, 기술 격차보다 생태계 구조가 문제다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-1.html</guid>
-      <category>글로벌분석</category>
-      <description>삼일PwC 분석에 따르면 중국 반도체의 경쟁력은 개별 기술 수준이 아니라 생태계 전반에 걸쳐 있으며, 한국은 수익성 중심의 사업 모델로 전환해야 한다는 진단이 나왔다. 조달 관점에서는 공급망 파트너의 수익 구조 변화가 납기·계약 안정성에 미치는 영향을 살펴볼 필요가 있다.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 총리, 독일에 배터리·반도체·AI 협력 제안</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-01-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-01-2.html</guid>
-      <category>산업전략</category>
-      <description>한국 총리가 독일 측에 배터리·반도체·AI 분야의 협력 강화를 공식 요청했다. 특정 공급망에서 한-독 협력이 구체화될 경우 조달 경로 다변화 가능성을 점검해볼 수 있다.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
