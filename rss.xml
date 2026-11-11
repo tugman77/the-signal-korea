@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 11 Nov 2026 08:16:57 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 08:17:01 +0900</lastBuildDate>
+    <item>
+      <title>포스코, 철강 넘어 핵심자원으로 무게중심 옮긴다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>포스코가 철강을 넘어 핵심자원 사업으로 미래 방향을 공식화했다. 소재 조달 담당자는 국내 핵심자원 공급망 구조 변화를 살펴볼 시점이다.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>TSMC 매출 60% 급증, AI 수요가 숫자로 확인됐다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-1.html</guid>
+      <category>기술패권</category>
+      <description>TSMC 매출이 전년 대비 60% 급증했다는 보도가 나왔다. AI 반도체 수요 확대가 실제 생산 지표로 나타나면서, 반도체 부품 조달 환경의 변화를 점검할 필요가 있다.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>수소산업, 성장 경쟁에서 수익성 경쟁으로 무게 이동</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-2.html</guid>
+      <category>글로벌분석</category>
+      <description>글로벌 수소산업이 성장 국면에서 수익성 경쟁 단계로 전환되고 있다는 분석이 나왔다. 한국 기업에게 공급망 재편 기회가 열릴 수 있다는 전망도 함께 제시됐다.</description>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>중국 희토류·배터리 수출통제 유예, 2027년까지 연장</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-11-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>호르무즈 해협이 반도체 공급망의 잠재적 취약 지점으로 분석됐다. 해상 운송 경로 의존도가 높은 기업은 공급망 경로와 대안 루트를 파악해 두는 것이 참고가 될 수 있다.</description>
       <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 핵심광물 수출 유예, 만료 기한이 다가온다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 설정한 핵심광물 수출통제 1년 유예 기간의 만료 시점이 임박한 것으로 확인됐다. 희토류 분야의 휴전은 연장됐으나 법적 기한은 그대로여서, 갈륨·게르마늄을 조달하는 기업에 새로운 불확실성이 생긴다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>SK하이닉스, 일본서 첫 파트너스데이 개최</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-1.html</guid>
-      <category>산업전략</category>
-      <description>SK하이닉스가 일본에서 처음으로 파트너스데이를 열며 반도체 공급망 강화 행보를 공식화했다. 한국 메모리 기업이 일본 협력사 네트워크를 직접 구축하는 흐름이 가시화된다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>동남아, 반도체 단일 허브로 자리잡을 수 있나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-02-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-02-2.html</guid>
-      <category>글로벌분석</category>
-      <description>동남아시아가 반도체 공급망의 단일 허브로 부상할 수 있는지를 둘러싼 논의가 구체화되고 있다. 세계화의 구조 자체는 유지되지만 규칙이 바뀌고 있다는 분석이 나오는 가운데, 조달 다변화 경로로서 동남아의 실현 가능성을 살펴볼 필요가 있다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
