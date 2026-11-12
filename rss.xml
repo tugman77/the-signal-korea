@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 12 Nov 2026 08:17:01 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 08:18:22 +0900</lastBuildDate>
+    <item>
+      <title>미국 반도체 규제 강화, 한국 피해 가능성 부각</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-13-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-13-0.html</guid>
+      <category>기술패권</category>
+      <description>미국이 대중국 반도체 수출규제 강화를 추진하면서 한국 반도체 기업이 의도치 않은 피해를 입을 수 있다는 분석이 나왔다. 엔비디아 관련 사태가 미국 규제 강화 움직임에 새로운 변수로 작용하고 있다.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>소부장 투자지원금, 19일 신청 마감</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-13-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-13-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>산업통상부가 소재·부품·장비 분야 중소·중견기업을 대상으로 투자지원금을 11월 19일까지 신청받고 있다. 반도체 소부장 국내 공급망 강화를 위한 투자 유치 활동도 함께 이어지고 있다.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 공급망, 반도체 너머로 범위 넓어진다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-13-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-13-2.html</guid>
+      <category>글로벌분석</category>
+      <description>AI 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·소재 등 주변 공급망 전반으로 확산되고 있다는 분석이 나왔다. 조달 담당자는 AI 관련 조달 범위를 반도체에 한정하지 않고 점검해볼 여지가 있다.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>포스코, 철강 넘어 핵심자원으로 무게중심 옮긴다</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-12-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>한국 정부가 2027년 예산에서 AI 주권 확보에 158억 달러를 배정한 것으로 보도됐다. 국내 AI 데이터센터 및 반도체 인프라 조달 수요가 늘어날 가능성이 있다.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 광물통제, 반도체 넘어 AI·로봇 소재로 전선 넓어졌다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국의 핵심광물 수출통제가 반도체 소재를 넘어 AI 가속기 부품과 산업용 로봇 액추에이터 핵심 소재로 확대됐다. 조달 담당자는 영향 소재의 범위와 재고 현황을 재점검할 시점이다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>비스무트 납기 8개월로 장기화, 무연솔더 조달 재점검 시기</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>무연솔더·의약품·방산 소재로 수요가 급증한 비스무트의 글로벌 납기가 2025년 하반기부터 8개월로 장기화됐다. 해당 소재를 사용하는 조달 담당자는 선행 발주 주기와 재고 수준을 확인할 필요가 있다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>호르무즈 해협, 반도체 공급망의 숨은 취약 지점으로 주목받다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-03-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-03-2.html</guid>
-      <category>글로벌분석</category>
-      <description>호르무즈 해협이 반도체 공급망의 잠재적 취약 지점으로 분석됐다. 해상 운송 경로 의존도가 높은 기업은 공급망 경로와 대안 루트를 파악해 두는 것이 참고가 될 수 있다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
