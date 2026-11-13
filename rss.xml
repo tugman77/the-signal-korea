@@ -6,7 +6,23 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 13 Nov 2026 08:18:22 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 08:18:01 +0900</lastBuildDate>
+    <item>
+      <title>EU 희토류 자립, 비용·규제·가격이 막는다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-14-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-14-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 수출통제 유예 연장으로 EU는 단기 숨통을 텄지만, 자립을 가로막는 구조적 장벽은 그대로다. 게르마늄 등 핵심광물 조달 담당자는 서방·중국 간 가격 격차와 계약 조건을 함께 점검할 필요가 있다.</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>베트남·한국, AI·반도체 협력 8건 협약 체결</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-14-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-14-1.html</guid>
+      <category>글로벌분석</category>
+      <description>베트남과 한국이 AI·반도체 분야에서 8건의 협력 협약을 체결했다. 협약의 구체적 품목과 이행 일정이 공개되면 반도체 소재·장비 조달 다변화 경로로 이어질지 가늠할 수 있다.</description>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>미국 반도체 규제 강화, 한국 피해 가능성 부각</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-13-0.html</link>
@@ -229,22 +245,6 @@
       <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-04-0.html</guid>
       <category>공급망전쟁</category>
       <description>한국산 고가 메모리 반도체가 수출통제를 우회해 중국으로 유입되는 경로가 구체적으로 보도됐다. 조달 담당자는 거래처의 수출 규정 준수 체계를 점검할 필요가 생겼다.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 CXMT, 수율 낮아도 AI 메모리 양산 착수</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-04-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-04-1.html</guid>
-      <category>기술패권</category>
-      <description>중국 CXMT가 낮은 수율에도 불구하고 AI용 첨단 메모리 생산을 시작할 계획인 것으로 로이터가 보도했다. 중국산 AI 메모리가 시장에 나올 경우 한국 메모리 기업의 고부가 제품군 경쟁 구도가 달라질 수 있다.</description>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한국 2027 예산, AI 주권에 158억 달러 배정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-04-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-04-2.html</guid>
-      <category>산업전략</category>
-      <description>한국 정부가 2027년 예산에서 AI 주권 확보에 158억 달러를 배정한 것으로 보도됐다. 국내 AI 데이터센터 및 반도체 인프라 조달 수요가 늘어날 가능성이 있다.</description>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>

@@ -1,92 +1,103 @@
 {
-  "generated_at": "2026년 11월 13일 08:18",
-  "date_str": "2026년 11월 13일",
-  "date_key": "2026-11-13",
+  "generated_at": "2026년 11월 14일 08:18",
+  "date_str": "2026년 11월 14일",
+  "date_key": "2026-11-14",
   "articles": [
     {
       "id": 0,
-      "topic_key": "미국-칩규제-한국-피해",
-      "category": "기술패권",
-      "tag_type": "tag-hegemony",
-      "article_type": "explainer",
-      "title": "미국 반도체 규제 강화, 한국 피해 가능성 부각",
-      "summary": "미국이 대중국 반도체 수출규제 강화를 추진하면서 한국 반도체 기업이 의도치 않은 피해를 입을 수 있다는 분석이 나왔다. 엔비디아 관련 사태가 미국 규제 강화 움직임에 새로운 변수로 작용하고 있다.",
+      "topic_key": "EU-희토류자립-비용딜레마",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "analysis",
+      "title": "EU 희토류 자립, 비용·규제·가격이 막는다",
+      "summary": "중국의 수출통제 유예 연장으로 EU는 단기 숨통을 텄지만, 자립을 가로막는 구조적 장벽은 그대로다. 게르마늄 등 핵심광물 조달 담당자는 서방·중국 간 가격 격차와 계약 조건을 함께 점검할 필요가 있다.",
       "key_points": [
-        "미국의 대중 칩 규제 강화 흐름 속 한국 반도체 기업이 피해를 받을 수 있다는 보도가 2026년 11월 12일 나왔다",
-        "엔비디아 CEO 관련 사태가 미국 수출통제 정책 논의에 변수로 작용하고 있다는 분석이 복수 매체에서 제기됐다",
-        "미국 규제의 최종 적용 범위와 한국 기업에 대한 예외 적용 여부는 아직 확인되지 않았다"
+        "중국은 희토류 및 배터리 관련 수출통제 유예를 2027년 1월까지 연장했다",
+        "economy.ac 분석에 따르면 높은 비용·복잡한 규제·가격 경쟁력 열위가 EU의 대중 의존 탈피를 가로막는 세 가지 구조적 요인이다",
+        "게르마늄의 서방 시장 가격과 중국 가격 간 격차가 언제 수렴할지는 아직 불확실하다"
       ],
       "sections": [
         {
-          "heading": "무슨 일이 있었나",
+          "heading": "핵심 질문",
           "paragraphs": [
-            "2026년 11월 12일 코리아중앙데일리는 미국이 중국에 대한 반도체 수출규제를 추가로 강화하려는 움직임이 한국에 의도치 않은 피해를 줄 수 있다고 보도했다. 중국을 겨냥한 조치라도 중국 시장과 긴밀하게 연결된 한국 반도체 공급망이 그 영향권에 들어올 가능성이 있다는 분석이다.",
-            "같은 시기 대한경제와 주간조선 등 국내 매체들은 엔비디아 CEO 젠슨 황 관련 사태가 미중 패권전쟁의 새로운 변수로 떠오르면서 미국 반도체 수출통제 강화 움직임으로 연결되고 있다고 전했다. 시사매거진은 엔비디아·중국·대만 간 AI 반도체 패권전쟁이 격화되면서 세계 반도체 시장이 요동치고 있다고 분석했다."
+            "중국이 희토류·배터리 수출통제 유예를 2027년 1월까지 연장했다고 헬로티·Benchmark Mineral Intelligence 등이 2026년 11월 11일 보도했다. 단기적으로는 EU 조달 여건이 안정되지만, 유예 연장이 반복될수록 자립을 위한 투자 결정의 긴급성은 낮아지는 역설이 생긴다."
           ]
         },
         {
-          "heading": "왜 주목해야 하나",
+          "heading": "사실과 데이터",
           "paragraphs": [
-            "한국 반도체 기업들은 미국 첨단 기술과 장비에 의존하면서 동시에 중국 시장에도 상당한 매출 비중을 두는 구조다. 미국이 수출규제 범위를 넓히거나 동맹국에 같은 기준 적용을 요구할 경우, 한국 기업들은 양쪽의 압박을 동시에 받는 상황에 직면할 수 있다.",
-            "대한경제는 K-반도체의 미국 엔비디아와의 긴밀한 협력 관계, 이른바 '깐부' 구도가 이번 사태로 불똥을 맞을 수 있다고 보도했다. 엔비디아를 둘러싼 미국 내 조사 움직임이 미국과 협력하는 국내 반도체 기업들의 사업 환경에 불확실성을 더할 수 있다는 시각이다."
+            "economy.ac는 11월 12일 보도에서 EU가 중국 의존을 줄이려는 노력을 세 가지 요인이 가로막고 있다고 분석했다. 높은 생산 비용, 복잡한 규제 환경, 그리고 가격 경쟁력 열위가 그것이다. 서방 생산 희토류는 중국산 대비 비용 구조에서 뒤처진다는 점이 주요 근거로 제시됐다.",
+            "Rare Earth Exchanges는 11월 11일 게르마늄 가격을 서방 시장과 중국 시장으로 나눠 비교했다. 두 시장 간 가격 차이가 존재하며, 이는 서방 조달처로 전환할 경우 비용 상승 압력으로 작용할 수 있다고 보도했다. 구체적 수치는 보도에 명시되지 않았다."
           ]
         },
         {
-          "heading": "조달 담당자가 점검해 볼 사항",
+          "heading": "구조적 배경",
           "paragraphs": [
-            "거래 중인 반도체 공급업체가 미국 수출규제 대상 기술이나 부품에 의존하는지 여부를 계약서의 무역 규정 준수 조항과 함께 확인해볼 수 있다. 특히 단일 공급처 의존도가 높을수록 규제 변화 시 대체 조달 경로를 확보하는 데 걸리는 시간이 길어질 가능성이 있다.",
-            "공급업체가 중국 내 생산 거점이나 판매 비중이 높은 경우, 미국 규제 조치에 따른 사업 연속성 리스크를 계약 갱신 시점에 함께 검토해볼 여지가 있다."
+            "유예 연장은 EU 기업들에게 대체 공급망을 구축할 시간을 주는 동시에, 위기감을 낮춰 투자 결정을 뒤로 미루는 효과를 낳는다. economy.ac 분석은 이 딜레마를 명시적으로 지적했다. 중국이 유예를 반복적으로 연장할수록, EU 기업들이 단기 비용 절감과 중기 공급망 자립 사이에서 균형을 잡기가 더 어려워지는 구조다."
+          ]
+        },
+        {
+          "heading": "조달에서 살펴볼 항목",
+          "paragraphs": [
+            "게르마늄 등 핵심광물을 조달하는 경우, 현재 계약의 가격조정 조항이 서방·중국 가격 간 괴리를 반영하고 있는지 확인하는 것이 유용하다. 또한 2027년 1월 유예 만료 이후 시나리오—계약 단가 변동 가능성, 단일 공급처 의존 비중, 대체 공급처 인증 소요 기간—를 미리 정리해 두는 것이 도움이 될 수 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "미국 상무부 추가 수출규제 조치",
-          "detail": "미국 상무부가 대중 반도체 수출규제를 추가 발표할 경우 한국 기업에 대한 적용 범위와 예외 조항 여부를 공식 고시문에서 확인해야 한다."
+          "label": "중국 수출통제 유예 만료 시점",
+          "detail": "2027년 1월이 공식 만료 기한. 만료 전 EU-중국 간 협상 동향과 추가 연장 여부를 주시할 필요가 있다."
         },
         {
-          "label": "미 의회 엔비디아 조사 결과",
-          "detail": "미 의회의 엔비디아 관련 조사 결과에 따라 추가 수출통제 법안이 발의될 가능성이 있다. 청문회 일정과 법안 초안 공개 여부를 모니터링할 수 있다."
+          "label": "서방 희토류·게르마늄 생산 단가 발표",
+          "detail": "economy.ac 분석 기준, 비용이 EU 자립의 주요 장벽. 서방 생산기지의 양산 단가 공개 시점이 조달처 전환 가능성을 가늠하는 기준선이 될 수 있다."
         },
         {
-          "label": "한국 반도체 기업의 대중 거래 현황",
-          "detail": "국내 주요 반도체 기업들이 대중 매출 비중이나 거래 조건을 공시 또는 IR을 통해 변경 발표하는지 확인할 수 있다."
+          "label": "게르마늄 서방-중국 가격 격차 추이",
+          "detail": "Rare Earth Exchanges 보도 기준, 두 시장 간 가격 차이가 확인됐다. 격차가 좁혀지는 시점이 서방 조달처 전환의 경제적 타당성을 판단하는 기준이 될 수 있다."
         }
       ],
       "source_ids": [
-        33,
-        5,
-        6,
-        7
+        1,
+        2,
+        3,
+        4,
+        17
       ],
-      "image_keyword": "semiconductor export restriction policy document",
+      "image_keyword": "rare earth mineral processing plant",
       "is_featured": true,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "U.S. push to tighten chip restrictions on China could make Korea collateral damage - Korea JoongAng Daily",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVWpDQ2NBNG1KT19IY0loQjJCeVk2dWh6WW9yZmV4NGNFcjBBMUZSNkszV29pN2dYc3Y5SUV2RG5hNGQ4M2dCMnNvQWlCa2NhU29tajBOU1pMQk1oaHVnbUtfcXRuSnBMSUFpY09oNExmd2NQUlVrS0FDTnNra1o1T05NVG1nblNLR1R5UE1WM3JrQzFUMlJ0czRURHhYTHotZUJJX2NPT1VQZ3JrRGlyR2x4MW5iMGJKMnIzWWdhMG5DellBZ0VoVDNZbUJPQQ?oc=5",
-          "source": "Google뉴스-기술패권",
+          "title": "중국, 희토류 수출통제 유예 내년 1월까지 연장…EU 공급망 자립 '난항' - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMUZMNnNvT1ZySlpNTVJ5OExaQkRSTmZWc1UySEgxeVFPcTluU0gwd1l3S2hoQWZLR21MOWhycnVzVUx2cHhqeS1JalplbzVheER5cU1YVFZlUUh1bmNj?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "“China’s Export Control Reprieve Buys Time,” but EU Supply Chain Independence Faces a Dilemma as Costs, Regulation and Pricing Hinder Efforts to Reduce Reliance on China - https://economy.ac/",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92Z05iUHFGbjRhZ0FUam43RGxyeXdLRWdJR0xBTlhVRHdtaUlGQ21rakItS0pLWmFvN0JHa3lkcnE1YTJlZV9VUzlxY0txVVg1N01xUWNnNA?oc=5",
+          "source": "GoogleNews",
           "date": "2026-11-12"
         },
         {
-          "title": "젠슨 황 ‘일탈’, 미중 패권전쟁 변수로…K-반도체 ‘깐부’에도 불똥 - 대한경제",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWWxUSEJMOHJscFhsTVk1Skp0NmV3azZlWVJvYmlscmd3cGt4T1NNc20xMVVpUTVtZkQzbUNZQ181eFNwa2JPU3BkX0VJeFg3UkZ5OFo5M3VmdDhoUDVKcTNuSmxEYi1XamFiNW9zdjlHN2lTRmJhVXlMRzc4LWlSSW1SLWc?oc=5",
+          "title": "China extends pause on rare earth and battery export controls until 2027 - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         },
         {
-          "title": "기획) 엔비디아·중국·대만, AI 반도체 패권전쟁 격화…미중 기술 경쟁에 세계 반도체 시장 요동 - 시사매거진",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KR2Z1eFhfRmpSX0NIZGxkMDZPOUdaQi1OSHhRWkM1bG1zWDdlcm51eTJfT05OYmhFMTdRclRYbzFnVVNJQUVKUmVzZzdva2liTFhGMGQxZm9ERHRTMFhRUDBR?oc=5",
+          "title": "Germanium Prices 2024 Western Market vs China Explained - Rare Earth Exchanges",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kQ3d2elY4MThPcmtuNVBWdWYzcTU1QjZKUEFRYTlNMHZIbVE4YXJWSEdhZVp2MGVYUmNiTHUzNWhJclpFUkRXWUFZakVmbW5wS2tSTXp6cnBNSWd6ZlZ4eFgxWE9TbzZoSndHTlpXVTlnTWVJanMwOWY0WQ?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-10"
+          "date": "2026-11-11"
         },
         {
-          "title": "제 발등 찍은 젠슨 황...미국 반도체 수출통제 강화 움직임 - 주간조선",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJRXhQSFBLcF8zNzhFTXpvYkRLT1hsUG82aEhRYmptek9SYnNzZGNzdll5ZVB2d3hLSTJqeWoyRjhUcVB3SVByb1pmbzNlTVVCcFAwUHBxZjBGSGVQcGNtN0lTaFEwcnMzR0HSAW5BVV95cUxPbVYxSS1rdU1QWUxhYlJTVDUtX3lEQ2tSMnhrOE5vOGtDblVWZ2dmV3lDYjJsNWZyTGNuWWdidmdzN1ZxUFRMX1ZjV09aSXQ3QXR5QVN6WUo0bjE1VzBKZVlGQ1NzMHV1RVY3d2lxUQ?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-10"
+          "title": "중국, 희토류 수출통제 유예 내년 1월까지 연장…EU 공급망 자립 '난항' - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMUZMNnNvT1ZySlpNTVJ5OExaQkRSTmZWc1UySEgxeVFPcTluU0gwd1l3S2hoQWZLR21MOWhycnVzVUx2cHhqeS1JalplbzVheER5cU1YVFZlUUh1bmNj?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-11"
         }
       ],
       "fact": [],
@@ -95,181 +106,53 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-13_article_0.jpg",
+      "image_url": "images/2026-11-14_article_1.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "엔비디아 CEO 젠슨 황 '일탈' 관련 사태의 구체적 내용이 기사 내에 명시되지 않아 맥락 불분명",
-          "'깐부' 구도 표현이 공식 보도 용어로 사용된 출처 확인 필요"
+          "게르마늄 가격 비교 수치가 보도에 명시 안 됐다고 자체 인정, 근거 불완전",
+          "2027년 1월 유예 만료 일정의 정확한 출처 원문 미확인"
         ],
         "image_keyword_ok": true,
-        "notes": "주요 기관·기업명 실재, 미중 반도체 규제 맥락 개연성 높음. 젠슨 황 사태 세부 내용 보완 권장.",
-        "verified_at": "2026-11-13 08:18"
+        "notes": "구조적 분석은 타당하며 출처 복수 인용, 수치 미공개는 자체 고지해 신뢰도 유지",
+        "verified_at": "2026-11-14 08:17"
       }
     },
     {
       "id": 1,
-      "topic_key": "소부장-투자지원금-신청마감",
-      "category": "공급망전쟁",
-      "tag_type": "tag-supply",
+      "topic_key": "베트남한국-AI반도체-협력협약",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
       "article_type": "brief",
-      "title": "소부장 투자지원금, 19일 신청 마감",
-      "summary": "산업통상부가 소재·부품·장비 분야 중소·중견기업을 대상으로 투자지원금을 11월 19일까지 신청받고 있다. 반도체 소부장 국내 공급망 강화를 위한 투자 유치 활동도 함께 이어지고 있다.",
+      "title": "베트남·한국, AI·반도체 협력 8건 협약 체결",
+      "summary": "베트남과 한국이 AI·반도체 분야에서 8건의 협력 협약을 체결했다. 협약의 구체적 품목과 이행 일정이 공개되면 반도체 소재·장비 조달 다변화 경로로 이어질지 가늠할 수 있다.",
       "key_points": [
-        "산업통상부 소부장 투자지원금 신청 마감일은 11월 19일이다",
-        "코트라 인베스트코리아가 반도체 소부장 투자유치 성과로 국제상을 연속 수상했다",
-        "지원금 세부 선정 기준과 지원 규모는 산업통상부 공식 채널을 통해 별도 확인이 필요하다"
+        "베트남·한국은 2026년 11월 13일 AI·반도체 분야에서 8건의 협약을 체결했다",
+        "협약의 참여 기업, 협력 품목, 계약 금액 등 세부 내용은 보도에 명시되지 않아 조달 적용 범위를 확인하기 어렵다"
       ],
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "산업통상부는 소재·부품·장비(소부장) 분야 중소·중견기업을 대상으로 투자지원금 신청을 11월 19일까지 받고 있다고 11월 10일 CEO경제신문이 보도했다. 소부장 기업의 국내 공급망 내재화와 경쟁력 강화를 지원하는 취지다.",
-            "같은 시기 코트라 인베스트코리아는 반도체 소부장 분야 투자유치 성과를 인정받아 국제상을 연속 수상했다고 헤럴드경제와 메가경제가 전했다. 이천시도 소부장 반도체 기업 투자유치를 위해 적극적인 활동을 이어가고 있다고 연합뉴스가 보도했다.",
-            "소부장 조달 비중이 높은 기업이라면 지원금 신청 자격과 절차를 산업통상부 공식 채널에서 확인해볼 수 있다. 지원을 받는 공급업체가 생기면 납기나 가격 조건이 달라질 가능성도 있어 계약 조건을 미리 점검해두는 것이 도움이 될 수 있다."
+            "굿모닝베트남미디어는 2026년 11월 13일 베트남과 한국이 AI·반도체 협력을 본격화하며 8건의 협약을 체결했다고 보도했다. 협약에 참여한 기업명, 협력 품목, 금액은 보도에 명시되지 않았다.",
+            "베트남은 미중 기술 패권 경쟁 속에서 반도체 공급망 다변화 거점으로 주목받고 있다. 이번 협약이 소재·부품·장비 조달에 직접 연결될지, 아니면 연구개발 협력에 머물지는 추가 발표를 확인해야 판단할 수 있다."
           ]
         }
       ],
       "watch_items": [],
       "source_ids": [
-        9,
-        10,
-        11,
-        12
+        26
       ],
-      "image_keyword": "electronic component manufacturing SME factory floor",
+      "image_keyword": "semiconductor wafer factory worker",
       "is_featured": false,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "[정책자금] 산업통상부, 소부장 중소·중견기업 투자지원금… 11월 19일까지 신청 - CEO경제신문",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sWXBmc3R5X2hveUZYenM0S3hHTTl5aG5PdGNBcDU3T0lYTjVjQ1hFNWFnVFQxWjE4d1R3Y180UmIxUFgxRGdkd1ltajJYME0wWjNaSC01QVVnX1lhUmljajdfVVNVUWUzR0RjWg?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "코트라 인베스트코리아, 반도체 소부장 투자유치로 국제상 연속 수상 - 헤럴드경제",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNMW9lUWxtYXlrcjduU3doVFlXbWo2WkZ0NlhSZTZ0eFRCbjBkTVpScnk2TW00amlXTWRHbnBBY1ZUWm1MM3RWUW1XZ0dRMnJwYXAwZFRn?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-11"
-        },
-        {
-          "title": "이천시, 소부장 반도체기업 투자유치 총력전 - 연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XS05STVBOTmdnWVNjUGNrVU5GZUFEc1RBaWhSYUxUQklRR1phLU1BWkRtMjFKOTliNlBJb1kwZ2w5VHRUa21kOW1VWVh1SUF5MHVXQ1pleWR2dWc?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-11"
-        },
-        {
-          "title": "인베스트코리아, 국제 투자유치 기관상 수상…반도체 공급망 강화 성과 인정 - 메가경제",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoTld6RzZRendNTXBqcGNxYndCckVjOF92WGlLSVlOcV9QNEZONXh1dklGNnRKZ09iN1JzWHhuVzZhWGNBeU0yTWd6dFRXTlhLOWVINUloUWVIUXVyeDZZdkNHTWQzcGlsZVZ0eGNiV19Id9IBckFVX3lxTFBoTld6RzZRendNTXBqcGNxYndCckVjOF92WGlLSVlOcV9QNEZONXh1dklGNnRKZ09iN1JzWHhuVzZhWGNBeU0yTWd6dFRXTlhLOWVINUloUWVIUXVyeDZZdkNHTWQzcGlsZVZ0eGNiV19Idw?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-11"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-11-13_article_1.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "산업통상부 명칭이 현재 공식 명칭(산업통상자원부)과 약칭 혼용 여부 확인 필요",
-          "코트라 인베스트코리아 국제상 수상 내역의 구체적 수상 기관명 미기재"
-        ],
-        "image_keyword_ok": true,
-        "notes": "정책자금·기관명 대체로 실재, 마감일 등 수치 검증 가능. 출처 매체 다수로 신뢰도 양호.",
-        "verified_at": "2026-11-13 08:18"
-      }
-    },
-    {
-      "id": 2,
-      "topic_key": "AI공급망-반도체외-에너지전략",
-      "category": "글로벌분석",
-      "tag_type": "tag-global",
-      "article_type": "explainer",
-      "title": "AI 공급망, 반도체 너머로 범위 넓어진다",
-      "summary": "AI 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·소재 등 주변 공급망 전반으로 확산되고 있다는 분석이 나왔다. 조달 담당자는 AI 관련 조달 범위를 반도체에 한정하지 않고 점검해볼 여지가 있다.",
-      "key_points": [
-        "토스증권이 AI 투자가 반도체 외 글로벌 공급망 전반으로 확산된다는 투자 전략을 2026년 11월 12일 제시했다",
-        "AI·반도체 전력수요 급증으로 천연가스 역할이 재조명되고 수소산업과의 전환전략 논의가 이어지고 있다",
-        "AI 에너지 수요 확대가 천연가스와 수소 조달 계약에 미치는 구체적 영향은 추가 확인이 필요하다"
-      ],
-      "sections": [
-        {
-          "heading": "무슨 일이 있었나",
-          "paragraphs": [
-            "2026년 11월 12일 디지털데일리는 토스증권이 'AI 투자는 반도체가 전부가 아니다'라는 분석을 제시하며 글로벌 공급망 투자전략을 내놨다고 보도했다. AI 수요가 반도체 칩 자체를 넘어 에너지, 소재, 냉각 등 주변 공급망 전반에 걸쳐 영향을 미친다는 시각이다.",
-            "같은 날 에너지데일리는 AI·반도체 전력수요 급증으로 천연가스의 역할이 재조명되고 있으며, 수소산업과의 전환전략 모색도 함께 이어지고 있다고 보도했다. 11월 13일에는 베이커 인스티튜트가 한미 에너지·산업 안보 세미나를 개최했다."
-          ]
-        },
-        {
-          "heading": "왜 주목해야 하나",
-          "paragraphs": [
-            "AI 데이터센터와 반도체 제조 시설 모두 대규모 전력을 필요로 한다. 전력 수요가 빠르게 늘면서 에너지 연료 조달 계약 조건이나 가격 변동성이 높아질 가능성이 있다. 이는 반도체나 AI 장비를 직접 조달하지 않더라도 에너지 집약적 설비를 운용하는 기업의 조달 환경에 영향을 줄 수 있다.",
-            "2026년 11월 10일 경향신문은 일본 반도체 산업이 기지개를 켜면서 '한국이 오히려 일본의 모델'이라는 평가가 나오고 있다고 보도했다. 한국의 소부장 공급망 구축 경험이 일본의 참고 대상이 되고 있다는 분석이다. 일본의 반도체 공급망 재건이 본격화되면 국내 소재·부품 기업들의 대일 거래 수요가 변화할 가능성이 있다."
-          ]
-        },
-        {
-          "heading": "조달 담당자가 점검해 볼 사항",
-          "paragraphs": [
-            "AI 관련 설비나 데이터센터를 조달하는 경우, 반도체 칩 외에 전력 계약 조건과 냉각 장비 납기 현황을 함께 확인해볼 수 있다. 에너지 연료 조달 계약에 가격조정 조항이 있는지도 살펴볼 여지가 있다.",
-            "일본의 반도체 소부장 수요 확대 여부에 관심이 있는 경우, 대일 공급망 계약 조건의 최소 발주량이나 납기 조건이 현재 대응 가능한 범위 내에 있는지 미리 검토해두는 것이 도움이 될 수 있다."
-          ]
-        }
-      ],
-      "watch_items": [
-        {
-          "label": "토스증권 AI 공급망 투자전략 보고서",
-          "detail": "토스증권이 제시한 반도체 외 AI 공급망 투자 전략의 구체적 품목 범위와 근거를 공식 보고서 또는 발간 자료에서 확인할 수 있다."
-        },
-        {
-          "label": "한미 에너지·산업 안보 세미나 결과",
-          "detail": "베이커 인스티튜트가 2026년 11월 13일 개최한 한미 에너지·산업 안보 세미나의 발표 내용과 권고 사항을 세미나 공식 자료에서 확인해볼 수 있다."
-        },
-        {
-          "label": "일본 반도체 소부장 투자 현황",
-          "detail": "일본이 반도체 소부장 공급망을 재건하면서 한국 기업과의 협력 또는 경쟁 구도가 어떻게 변화하는지, 각사의 IR 발표와 무역 통계에서 주기적으로 확인할 수 있다."
-        }
-      ],
-      "source_ids": [
-        24,
-        25,
-        23,
-        28
-      ],
-      "image_keyword": "data center power cooling infrastructure",
-      "is_featured": false,
-      "timestamp": "오전 09:30",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "“AI 투자, 반도체가 전부 아니다”…토스증권, 글로벌 공급망 투자전략 제시 - 디지털데일리",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQY1NMcnlYd2RUVXRUYndrMGVBSWR4cmdUZFQya3pDUlV6clNjOVh5RHBXZ1A3NktxTnZGT0kyOElJdlpCZHhPeDhzQlROYWY1M1QzQ0p0ZWVIcEhiX3pGOFRVc24?oc=5",
+          "title": "베트남·한국, AI·반도체 협력 본격화…8건 협약 체결 - 굿모닝베트남미디어",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03ZjBUQkhHUVlfRDJqem9KdTFwc3kzTUJaeHpRYjJkWEhoZXBJVjB2N1hzTlk0dzExUVA2djF4eERxSVd2bkM3enh6el9qZVU1LXFFN21UUWtXOVFmUVV2OTlEb3BKbTM1YnA1R2s0eE4?oc=5",
           "source": "Google뉴스-AI산업",
-          "date": "2026-11-12"
-        },
-        {
-          "title": "기지개 펴는 일본 반도체 산업…“한국이 오히려 일본의 모델” - 경향신문",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LTFQyRzctdS1NbHpodGhHQlZzMEU0MGVtd2h6dXR4X1FhSVRDYkhoci1NRHhMNDVQd3ZZMGJKYUZSQ0g0dzVUR201SHRRUk1vOFRhZTFNTXppRTRJV0Nj0gFfQVVfeXFMTUtMVDJHNy11LU1semh0aEdCVnMwRTQwZW13aHp1dHhfUWFJVENiSGhyLU1EeEw0NVB3dlkwYkphRlJDSDR3NVRHbTVIdFFSTW84VGFlMU1NemlFNElXQ2M?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "AI·반도체 전력수요 급증…천연가스 역할 재조명·수소산업 전환전략 모색 - 에너지데일리",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jOGhaVm5MLXN5WVpXVTRwaFh0WFhSc2w1dGh0cmdsTEd5WDc5eHZzdGwybHo2WV9XTGs3WUxmNE54M1ZQbDRsdm9LYklyNmlrX0h3ZUc3MWRTQ0p6OEpVMjRZQkc0c1p4UTFCTzZxLXIzdw?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-12"
-        },
-        {
-          "title": "Korea-US Energy and Industrial Security Seminar 2026 - Baker Institute",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVlZbklkOUlhV0xQdXBRY1J5OENPbnZkYU1CeWo1Z0F4RXgyNEgxdlJWOVRhQmlxVTJEWlVvNGZhQnpSbkZhUFdqaGtkUTdHWGEtYWxPTXQwUjh0aHlqa3FyWlRNVTNKd01LeGR6NW9fVWVtTERBci1hNTRCeEstN0FMNXkzdVNMMG5jRTR6cExDQVk?oc=5",
-          "source": "Google뉴스-글로벌공급망",
           "date": "2026-11-13"
         }
       ],
@@ -279,43 +162,46 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-13_article_2.jpg",
+      "image_url": "images/2026-11-14_article_2.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "토스증권의 글로벌 공급망 투자전략 보고서 내용이 요약만 있고 구체 수치 없어 검증 한계",
-          "베이커 인스티튜트 한미 세미나 개최 사실은 외부 확인 필요",
-          "'한국이 일본의 모델' 평가의 발언 주체·출처 불명확"
+          "협약 참여 기업명·금액·품목 전혀 미공개로 내용 검증 불가",
+          "굿모닝베트남미디어 단일 출처에만 의존"
         ],
         "image_keyword_ok": true,
-        "notes": "AI 공급망 확장 논지는 업계 트렌드와 부합. 일부 인용 출처 명확성 보완 권장.",
-        "verified_at": "2026-11-13 08:18"
+        "notes": "단일 출처·정보 미공개 한계를 본문에서 명시, 사실 과장 없이 보수적으로 서술",
+        "verified_at": "2026-11-14 08:17"
       }
     }
   ],
-  "editorial_briefing": "미국의 대중국 반도체 수출규제 강화로 한국 기업의 간접 영향이 거론되는 가운데, AI 수요가 반도체를 넘어 전력·소재 등 주변 공급망으로 확산되고 있다. 국내 소부장 투자지원금 신청이 11월 19일 마감 예정이다.",
+  "editorial_briefing": "젠슨 황 퇴진으로 미중 AI 반도체 규제 협상에 불확실성이 더해졌고, EU는 중국 수출통제 유예 연장으로 단기 숨통을 텄으나 구조적 자립 과제는 남아 있다. 베트남·한국의 AI·반도체 협력 협약 체결은 조달 다변화 움직임의 하나로 주목된다.",
   "key_signals": [
     {
+      "icon": "🟡",
+      "label": "엔비디아 공급 리스크",
+      "status": "단일 의존 주의"
+    },
+    {
       "icon": "🔴",
-      "label": "반도체 수출규제",
-      "status": "한국 피해 가능성"
+      "label": "미중 반도체 규제",
+      "status": "변수 증가"
     },
     {
       "icon": "🟡",
-      "label": "미중 기술패권",
-      "status": "규제 확산 모니터"
+      "label": "EU 희토류 자립",
+      "status": "구조 장벽 지속"
     },
     {
       "icon": "🟢",
-      "label": "AI 공급망 확대",
-      "status": "전력·소재로 범위 확장"
+      "label": "한-베 반도체 협력",
+      "status": "협약 8건 체결"
     },
     {
-      "icon": "🟢",
-      "label": "소부장 투자지원",
-      "status": "19일 신청 마감"
+      "icon": "🟡",
+      "label": "핵심광물 조달",
+      "status": "다변화 모니터링"
     }
-  ],
-  "last_reviewed_at": "2026-11-13 08:18"
+  ]
 }

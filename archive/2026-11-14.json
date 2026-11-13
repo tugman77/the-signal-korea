@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026년 11월 14일 08:18",
+  "date_str": "2026년 11월 14일",
+  "date_key": "2026-11-14",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "EU-희토류자립-비용딜레마",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "analysis",
+      "title": "EU 희토류 자립, 비용·규제·가격이 막는다",
+      "summary": "중국의 수출통제 유예 연장으로 EU는 단기 숨통을 텄지만, 자립을 가로막는 구조적 장벽은 그대로다. 게르마늄 등 핵심광물 조달 담당자는 서방·중국 간 가격 격차와 계약 조건을 함께 점검할 필요가 있다.",
+      "key_points": [
+        "중국은 희토류 및 배터리 관련 수출통제 유예를 2027년 1월까지 연장했다",
+        "economy.ac 분석에 따르면 높은 비용·복잡한 규제·가격 경쟁력 열위가 EU의 대중 의존 탈피를 가로막는 세 가지 구조적 요인이다",
+        "게르마늄의 서방 시장 가격과 중국 가격 간 격차가 언제 수렴할지는 아직 불확실하다"
+      ],
+      "sections": [
+        {
+          "heading": "핵심 질문",
+          "paragraphs": [
+            "중국이 희토류·배터리 수출통제 유예를 2027년 1월까지 연장했다고 헬로티·Benchmark Mineral Intelligence 등이 2026년 11월 11일 보도했다. 단기적으로는 EU 조달 여건이 안정되지만, 유예 연장이 반복될수록 자립을 위한 투자 결정의 긴급성은 낮아지는 역설이 생긴다."
+          ]
+        },
+        {
+          "heading": "사실과 데이터",
+          "paragraphs": [
+            "economy.ac는 11월 12일 보도에서 EU가 중국 의존을 줄이려는 노력을 세 가지 요인이 가로막고 있다고 분석했다. 높은 생산 비용, 복잡한 규제 환경, 그리고 가격 경쟁력 열위가 그것이다. 서방 생산 희토류는 중국산 대비 비용 구조에서 뒤처진다는 점이 주요 근거로 제시됐다.",
+            "Rare Earth Exchanges는 11월 11일 게르마늄 가격을 서방 시장과 중국 시장으로 나눠 비교했다. 두 시장 간 가격 차이가 존재하며, 이는 서방 조달처로 전환할 경우 비용 상승 압력으로 작용할 수 있다고 보도했다. 구체적 수치는 보도에 명시되지 않았다."
+          ]
+        },
+        {
+          "heading": "구조적 배경",
+          "paragraphs": [
+            "유예 연장은 EU 기업들에게 대체 공급망을 구축할 시간을 주는 동시에, 위기감을 낮춰 투자 결정을 뒤로 미루는 효과를 낳는다. economy.ac 분석은 이 딜레마를 명시적으로 지적했다. 중국이 유예를 반복적으로 연장할수록, EU 기업들이 단기 비용 절감과 중기 공급망 자립 사이에서 균형을 잡기가 더 어려워지는 구조다."
+          ]
+        },
+        {
+          "heading": "조달에서 살펴볼 항목",
+          "paragraphs": [
+            "게르마늄 등 핵심광물을 조달하는 경우, 현재 계약의 가격조정 조항이 서방·중국 가격 간 괴리를 반영하고 있는지 확인하는 것이 유용하다. 또한 2027년 1월 유예 만료 이후 시나리오—계약 단가 변동 가능성, 단일 공급처 의존 비중, 대체 공급처 인증 소요 기간—를 미리 정리해 두는 것이 도움이 될 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "중국 수출통제 유예 만료 시점",
+          "detail": "2027년 1월이 공식 만료 기한. 만료 전 EU-중국 간 협상 동향과 추가 연장 여부를 주시할 필요가 있다."
+        },
+        {
+          "label": "서방 희토류·게르마늄 생산 단가 발표",
+          "detail": "economy.ac 분석 기준, 비용이 EU 자립의 주요 장벽. 서방 생산기지의 양산 단가 공개 시점이 조달처 전환 가능성을 가늠하는 기준선이 될 수 있다."
+        },
+        {
+          "label": "게르마늄 서방-중국 가격 격차 추이",
+          "detail": "Rare Earth Exchanges 보도 기준, 두 시장 간 가격 차이가 확인됐다. 격차가 좁혀지는 시점이 서방 조달처 전환의 경제적 타당성을 판단하는 기준이 될 수 있다."
+        }
+      ],
+      "source_ids": [
+        1,
+        2,
+        3,
+        4,
+        17
+      ],
+      "image_keyword": "rare earth mineral processing plant",
+      "is_featured": true,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "중국, 희토류 수출통제 유예 내년 1월까지 연장…EU 공급망 자립 '난항' - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMUZMNnNvT1ZySlpNTVJ5OExaQkRSTmZWc1UySEgxeVFPcTluU0gwd1l3S2hoQWZLR21MOWhycnVzVUx2cHhqeS1JalplbzVheER5cU1YVFZlUUh1bmNj?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "“China’s Export Control Reprieve Buys Time,” but EU Supply Chain Independence Faces a Dilemma as Costs, Regulation and Pricing Hinder Efforts to Reduce Reliance on China - https://economy.ac/",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92Z05iUHFGbjRhZ0FUam43RGxyeXdLRWdJR0xBTlhVRHdtaUlGQ21rakItS0pLWmFvN0JHa3lkcnE1YTJlZV9VUzlxY0txVVg1N01xUWNnNA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-12"
+        },
+        {
+          "title": "China extends pause on rare earth and battery export controls until 2027 - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "Germanium Prices 2024 Western Market vs China Explained - Rare Earth Exchanges",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1kQ3d2elY4MThPcmtuNVBWdWYzcTU1QjZKUEFRYTlNMHZIbVE4YXJWSEdhZVp2MGVYUmNiTHUzNWhJclpFUkRXWUFZakVmbW5wS2tSTXp6cnBNSWd6ZlZ4eFgxWE9TbzZoSndHTlpXVTlnTWVJanMwOWY0WQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "중국, 희토류 수출통제 유예 내년 1월까지 연장…EU 공급망 자립 '난항' - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMUZMNnNvT1ZySlpNTVJ5OExaQkRSTmZWc1UySEgxeVFPcTluU0gwd1l3S2hoQWZLR21MOWhycnVzVUx2cHhqeS1JalplbzVheER5cU1YVFZlUUh1bmNj?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-11"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-14_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "게르마늄 가격 비교 수치가 보도에 명시 안 됐다고 자체 인정, 근거 불완전",
+          "2027년 1월 유예 만료 일정의 정확한 출처 원문 미확인"
+        ],
+        "image_keyword_ok": true,
+        "notes": "구조적 분석은 타당하며 출처 복수 인용, 수치 미공개는 자체 고지해 신뢰도 유지",
+        "verified_at": "2026-11-14 08:17"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "베트남한국-AI반도체-협력협약",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "brief",
+      "title": "베트남·한국, AI·반도체 협력 8건 협약 체결",
+      "summary": "베트남과 한국이 AI·반도체 분야에서 8건의 협력 협약을 체결했다. 협약의 구체적 품목과 이행 일정이 공개되면 반도체 소재·장비 조달 다변화 경로로 이어질지 가늠할 수 있다.",
+      "key_points": [
+        "베트남·한국은 2026년 11월 13일 AI·반도체 분야에서 8건의 협약을 체결했다",
+        "협약의 참여 기업, 협력 품목, 계약 금액 등 세부 내용은 보도에 명시되지 않아 조달 적용 범위를 확인하기 어렵다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "굿모닝베트남미디어는 2026년 11월 13일 베트남과 한국이 AI·반도체 협력을 본격화하며 8건의 협약을 체결했다고 보도했다. 협약에 참여한 기업명, 협력 품목, 금액은 보도에 명시되지 않았다.",
+            "베트남은 미중 기술 패권 경쟁 속에서 반도체 공급망 다변화 거점으로 주목받고 있다. 이번 협약이 소재·부품·장비 조달에 직접 연결될지, 아니면 연구개발 협력에 머물지는 추가 발표를 확인해야 판단할 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        26
+      ],
+      "image_keyword": "semiconductor wafer factory worker",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "베트남·한국, AI·반도체 협력 본격화…8건 협약 체결 - 굿모닝베트남미디어",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03ZjBUQkhHUVlfRDJqem9KdTFwc3kzTUJaeHpRYjJkWEhoZXBJVjB2N1hzTlk0dzExUVA2djF4eERxSVd2bkM3enh6el9qZVU1LXFFN21UUWtXOVFmUVV2OTlEb3BKbTM1YnA1R2s0eE4?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-13"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-14_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "협약 참여 기업명·금액·품목 전혀 미공개로 내용 검증 불가",
+          "굿모닝베트남미디어 단일 출처에만 의존"
+        ],
+        "image_keyword_ok": true,
+        "notes": "단일 출처·정보 미공개 한계를 본문에서 명시, 사실 과장 없이 보수적으로 서술",
+        "verified_at": "2026-11-14 08:17"
+      }
+    }
+  ],
+  "editorial_briefing": "젠슨 황 퇴진으로 미중 AI 반도체 규제 협상에 불확실성이 더해졌고, EU는 중국 수출통제 유예 연장으로 단기 숨통을 텄으나 구조적 자립 과제는 남아 있다. 베트남·한국의 AI·반도체 협력 협약 체결은 조달 다변화 움직임의 하나로 주목된다.",
+  "key_signals": [
+    {
+      "icon": "🟡",
+      "label": "엔비디아 공급 리스크",
+      "status": "단일 의존 주의"
+    },
+    {
+      "icon": "🔴",
+      "label": "미중 반도체 규제",
+      "status": "변수 증가"
+    },
+    {
+      "icon": "🟡",
+      "label": "EU 희토류 자립",
+      "status": "구조 장벽 지속"
+    },
+    {
+      "icon": "🟢",
+      "label": "한-베 반도체 협력",
+      "status": "협약 8건 체결"
+    },
+    {
+      "icon": "🟡",
+      "label": "핵심광물 조달",
+      "status": "다변화 모니터링"
+    }
+  ]
+}
