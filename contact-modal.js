@@ -1,18 +1,44 @@
 // 더 시그널 코리아 문의 모달 — 이메일로 전송 (공개 정적 사이트에는 토큰을 두지 않는다)
-// 이미 발행된 정적 기사에도 소설 메뉴를 연결한다. 새 HTML에는 정적 링크가 있다.
+// 기존 정적 기사도 뉴스 카테고리와 창작소설 보조 메뉴를 구분한다.
 (function () {
   const script = document.currentScript;
-  const addNovelLink = function () {
-    const nav = document.querySelector('.nav-cats');
-    if (!nav || nav.querySelector('a[href$="novel/element-war/"]')) return;
-    const link = document.createElement('a');
-    link.href = new URL('novel/element-war/', script.src).href;
-    link.textContent = '소설';
-    link.setAttribute('aria-label', '창작소설 원소전쟁');
-    nav.appendChild(link);
+  const connectOriginals = function () {
+    const inner = document.querySelector('.nav-inner');
+    if (inner && script) {
+      let utilities = inner.querySelector('.nav-util');
+      if (!utilities) {
+        utilities = document.createElement('div');
+        utilities.className = 'nav-util';
+        inner.appendChild(utilities);
+      }
+      // Old archived pages can still contain the former category link.
+      const existing = [...inner.querySelectorAll('a')].filter(function (a) {
+        return /\/novel(?:\/|$)/.test(new URL(a.href).pathname);
+      });
+      const link = existing.shift() || document.createElement('a');
+      existing.forEach(function (a) { a.remove(); });
+      link.href = new URL('novel/', script.src).href;
+      link.textContent = '연재소설';
+      link.setAttribute('data-originals-link', '');
+      link.setAttribute('aria-label', '시그널 오리지널 연재소설');
+      if (link.parentElement !== utilities) utilities.prepend(link);
+    }
+    const promo = document.getElementById('novel-promo');
+    const mobileSlot = document.getElementById('originals-mobile-slot');
+    if (promo && mobileSlot) {
+      const desktopAnchor = document.createComment('signal-originals-desktop-position');
+      promo.before(desktopAnchor);
+      const breakpoint = window.matchMedia('(max-width: 768px)');
+      const placePromo = function () {
+        if (breakpoint.matches) mobileSlot.appendChild(promo);
+        else desktopAnchor.parentNode.insertBefore(promo, desktopAnchor.nextSibling);
+      };
+      placePromo();
+      breakpoint.addEventListener('change', placePromo);
+    }
   };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addNovelLink, { once: true });
-  else addNovelLink();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', connectOriginals, { once: true });
+  else connectOriginals();
 })();
 
 (function () {

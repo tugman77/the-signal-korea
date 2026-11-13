@@ -204,6 +204,34 @@
     .logo-en { font-size: 22px; letter-spacing: 2px; }
     .logo-kr { font-size: 10px; letter-spacing: 1px; }
   }
+  /* 뉴스와 구분되는 창작소설 안내. 모바일에서는 주요 뉴스 바로 뒤로 이동한다. */
+  .originals-promo { background: #111e29; color: #eee8dc; border: 1px solid #30424e; padding: 20px; }
+  .originals-promo-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; padding-bottom:15px; border-bottom:1px solid #ffffff18; }
+  .originals-promo-heading h2 { font-size:14px; font-weight:700; margin:0; color:#e8d2ad; }
+  .originals-promo-heading>span { font-size:8px; white-space:nowrap; color:#aebbc4; letter-spacing:.3px; }
+  .originals-promo-story { display:flex; align-items:center; gap:15px; padding-top:20px; }
+  .originals-promo-cover { display:block; width:77px; min-width:77px; height:115px; border:1px solid #a7957155; padding:8px 9px; background:linear-gradient(125deg,#657271,#22343b 52%,#65543e); box-shadow:4px 5px 0 #0003; overflow:hidden; }
+  .originals-promo-cover>span { display:flex; height:100%; flex-direction:column; }
+  .originals-promo-cover small { font:8px monospace; color:#c9c8b9; }
+  .originals-promo-cover b { font:43px/1.1 Georgia,serif; color:#e9e5d1; }
+  .originals-promo-cover i { font:5px monospace; letter-spacing:1px; color:#d0c6ac; font-style:normal; }
+  .originals-promo-cover strong { margin-top:auto; padding-top:10px; font-size:11px; letter-spacing:1px; color:#efe6d0; }
+  .originals-promo-genre { font-size:9px; color:#d0a77a; }
+  .originals-promo-copy h3 { font-size:20px; font-weight:700; letter-spacing:1px; margin:5px 0 8px; line-height:1.4; }
+  .originals-promo-copy p { font-size:10px; color:#b4c0c7; line-height:1.85; margin:0 0 10px; }
+  .originals-promo-read { display:inline-flex; align-items:center; gap:16px; color:#e2b785; font-size:11px; }
+  .originals-promo-note { font-size:9px; line-height:1.8; color:#a0afb9; margin:18px 0 14px; }
+  .originals-promo-all { display:flex; align-items:center; justify-content:space-between; padding-top:12px; border-top:1px solid #ffffff18; font-size:10px; color:#c8c3b3; }
+  .originals-promo a:focus-visible { outline:2px solid #dfb685; outline-offset:4px; }
+  .originals-promo a:hover { color:#fff0d5; }
+  #originals-mobile-slot:empty { display:none; }
+  @media(max-width:768px) {
+    #originals-mobile-slot { margin-bottom:28px; }
+    #originals-mobile-slot .originals-promo { padding:20px; }
+    #originals-mobile-slot .originals-promo-story { gap:22px; }
+    #originals-mobile-slot .originals-promo-copy p { font-size:12px; }
+    #originals-mobile-slot .originals-promo-heading>span { font-size:9px; }
+  }
 </style>
 </head>
 <body>
@@ -232,7 +260,6 @@
   <nav>
     <div class="nav-inner">
       <div class="nav-cats">
-        <a href="novel/element-war/" aria-label="창작소설 원소전쟁">소설</a>
         <a href="index.html" class="active">전체</a>
         <a href="category.html?cat=공급망전쟁">공급망전쟁</a>
         <a href="category.html?cat=기술패권">기술패권</a>
@@ -240,6 +267,7 @@
         <a href="category.html?cat=글로벌분석">글로벌분석</a>
       </div>
       <div class="nav-util">
+        <a href="novel/" data-originals-link aria-label="시그널 오리지널 연재소설">연재소설</a>
         <a href="search.html">검색</a>
         <a href="about.html">소개</a>
       </div>
@@ -254,6 +282,7 @@
     <div class="top-news" id="top-news">
       <div style="grid-column:1/3;padding:48px;text-align:center;color:#aaa;font-size:14px;background:#fff;border:1px solid var(--border);">기사를 불러오는 중...</div>
     </div>
+    <div id="originals-mobile-slot" aria-label="시그널 오리지널 안내"></div>
     <div id="article-sections">
       <div style="padding:24px;text-align:center;color:#aaa;font-size:14px;">기사를 불러오는 중...</div>
     </div>
@@ -261,6 +290,16 @@
 
   <!-- 사이드바 -->
   <aside class="sidebar">
+
+    <section class="originals-promo" id="novel-promo" aria-labelledby="originals-promo-title">
+      <div class="originals-promo-heading"><h2 id="originals-promo-title">시그널 오리지널</h2><span>연재소설 · FICTION</span></div>
+      <div class="originals-promo-story">
+        <a class="originals-promo-cover" href="novel/element-war/" aria-label="원소전쟁 작품 소개"><span aria-hidden="true"><small>65</small><b>Tb</b><i>ELEMENT WAR</i><strong>원소전쟁</strong></span></a>
+        <div class="originals-promo-copy"><span class="originals-promo-genre">산업·경제 스릴러</span><a href="novel/element-war/"><h3>원소전쟁</h3></a><p>자원이 무기가 된 세계.<br>대한민국의 선택이 시작된다.</p><a class="originals-promo-read" href="novel/element-war/read/001/">첫 화 읽기 <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <p class="originals-promo-note">2030년을 배경으로 한 창작소설입니다.</p>
+      <a class="originals-promo-all" href="novel/">시그널 오리지널 전체 보기 <span aria-hidden="true">→</span></a>
+    </section>
 
     <div class="sb-box editorial-box">
       <div class="sb-title">EDITOR'S BRIEFING</div>
@@ -294,15 +333,6 @@
         <span class="keyword-tag" style="background:#dcfce7;color:#15803d;">#한국전략</span>
         <span class="keyword-tag" style="background:#dbeafe;color:#1d4ed8;">#글로벌분석</span>
       </div>
-    </div>
-
-    <div class="sb-box" id="novel-promo" style="background:#111e29;color:#e8e2d6;border-top:3px solid #dba779;">
-      <div style="font-size:10px;color:#dba779;letter-spacing:1px;margin-bottom:12px;">연재소설 · FICTION</div>
-      <a href="novel/element-war/" style="display:block;color:inherit;text-decoration:none;">
-        <strong style="font-size:23px;letter-spacing:2px;">원소전쟁</strong>
-        <p style="font-size:12px;color:#aebbc3;line-height:1.8;margin:12px 0;">2030년, 자원이 무기가 된 세계.<br>대한민국의 선택을 그리는 산업 스릴러.</p>
-        <span style="font-size:12px;color:#dba779;">첫 화 읽기 ↗</span>
-      </a>
     </div>
 
     <!-- 검색 박스 -->
@@ -636,6 +666,6 @@
 
   loadArticles();
 </script>
-<script src="contact-modal.js"></script>
+<script src="contact-modal.js?v=originals-20261114"></script>
 </body>
 </html>

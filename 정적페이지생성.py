@@ -288,7 +288,6 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
   <nav>
     <div class="nav-inner">
       <div class="nav-cats">
-        <a href="{BASE}novel/element-war/" aria-label="창작소설 원소전쟁">소설</a>
         <a href="{BASE}index.html">전체</a>
         <a href="{BASE}category.html?cat=공급망전쟁">공급망전쟁</a>
         <a href="{BASE}category.html?cat=기술패권">기술패권</a>
@@ -296,6 +295,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
         <a href="{BASE}category.html?cat=글로벌분석">글로벌분석</a>
       </div>
       <div class="nav-util">
+        <a href="{BASE}novel/" data-originals-link aria-label="시그널 오리지널 연재소설">연재소설</a>
         <a href="{BASE}search.html">검색</a>
         <a href="{BASE}about.html">소개</a>
       </div>
@@ -407,7 +407,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
   </div>
 </footer>
 
-<script src="{BASE}contact-modal.js"></script>
+<script src="{BASE}contact-modal.js?v=originals-20261114"></script>
 </body>
 </html>
 """
