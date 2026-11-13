@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.thesignalkorea.co.kr/novel/element-war/sitemap.xml

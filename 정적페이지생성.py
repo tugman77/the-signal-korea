@@ -288,6 +288,7 @@ def build_page(article: dict, idx: int, all_articles: list, date_key: str,
   <nav>
     <div class="nav-inner">
       <div class="nav-cats">
+        <a href="{BASE}novel/element-war/" aria-label="창작소설 원소전쟁">소설</a>
         <a href="{BASE}index.html">전체</a>
         <a href="{BASE}category.html?cat=공급망전쟁">공급망전쟁</a>
         <a href="{BASE}category.html?cat=기술패권">기술패권</a>
