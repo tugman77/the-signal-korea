@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026년 11월 15일 08:17",
+  "date_str": "2026년 11월 15일",
+  "date_key": "2026-11-15",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "핵심광물-서방공급-선거변수",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "brief",
+      "title": "두 선거·두 마감이 바꾼 핵심광물 공급 등식",
+      "summary": "InvestorNews 분석에 따르면 최근 두 차례 선거 결과와 두 개의 마감 시한이 서방 핵심광물 공급의 구조적 계산을 바꿨다. 조달 담당자는 자사 핵심광물 조달 계약의 유효 기간과 가격 조정 조항을 점검해볼 시점이다.",
+      "key_points": [
+        "InvestorNews가 2026년 11월 9일 보도에서 선거 결과와 마감 시한을 서방 공급 등식의 변수로 꼽았다",
+        "어떤 선거와 마감이 등식을 어떻게 바꿨는지 세부 내용은 해당 보도 외에 공식 확인되지 않았다",
+        "중국의 희토류·배터리 수출통제 유예 연장(2027년까지)이 단기 숨통을 텄으나 구조적 변화 여부는 별개다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "InvestorNews가 2026년 11월 9일 발행한 핵심광물 리포트에서, 최근 두 차례 선거 결과와 두 개의 마감 시한이 서방 진영의 핵심광물 공급 계산 구조를 바꿨다는 분석이 담겼다. 보도 제목 수준에서 확인된 내용이며, 어떤 선거와 마감을 가리키는지 세부 사항은 공개된 범위 내에서 확인되지 않는다.",
+            "같은 시기 Benchmark Mineral Intelligence는 중국이 희토류 및 배터리 관련 수출통제 유예를 2027년까지 연장했다고 보도했다. 유예 연장은 단기 조달 압박을 줄여주지만, 서방 공급망 자립을 가로막는 비용·규제·가격 구조는 그대로라는 분석도 병존한다."
+          ]
+        },
+        {
+          "heading": "조달 담당자가 짚어볼 항목",
+          "paragraphs": [
+            "현재 체결된 핵심광물 조달 계약의 만료 시점과 가격 조정 조항이 선거 이후 정책 변화를 반영하고 있는지 확인할 필요가 있다. 단일 공급처 의존도와 대체 공급처 인증에 걸리는 기간도 같이 점검해볼 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        4,
+        2,
+        3
+      ],
+      "image_keyword": "critical mineral ore processing facility",
+      "is_featured": true,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply - InvestorNews",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-09"
+        },
+        {
+          "title": "China extends rare earth and battery export control pause to 2027 - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "“China’s Export Control Reprieve Buys Time,” but EU Supply Chain Independence Faces a Dilemma as Costs, Regulation and Pricing Hinder Efforts to Reduce Reliance on China - https://economy.ac/",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92Z05iUHFGbjRhZ0FUam43RGxyeXdLRWdJR0xBTlhVRHdtaUlGQ21rakItS0pLWmFvN0JHa3lkcnE1YTJlZV9VUzlxY0txVVg1N01xUWNnNA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-12"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-15_article_0.jpg",
+      "review": {
+        "trust_score": 3,
+        "status": "warning",
+        "suspicious_claims": [
+          "'두 선거·두 마감'의 구체적 대상이 본문에서 확인되지 않아 검증 불가",
+          "중국 희토류 수출통제 유예 2027년 연장 여부는 별도 공식 확인 필요",
+          "Benchmark Mineral Intelligence 보도 내용이 원문 접근 없이 인용됨"
+        ],
+        "image_keyword_ok": true,
+        "notes": "핵심 근거가 제목 수준에만 머물러 사실 검증 범위 제한적",
+        "verified_at": "2026-11-15 08:17"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "미국-블루웨이브-한국반도체-정책변수",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "brief",
+      "title": "미국 블루웨이브, 한국 반도체·AI에 기회인가 부담인가",
+      "summary": "미국 중간선거 블루웨이브가 한국 반도체·AI 산업에 기회와 부담을 동시에 안겨줄 수 있다는 분석이 나왔다. 조달 담당자는 미국 정책 기조 변화가 부품·소재 조달 조건에 미칠 영향을 구체적으로 살펴볼 시점이다.",
+      "key_points": [
+        "뉴시안이 2026년 11월 10일 보도에서 블루웨이브 결과가 K산업에 기회이자 부담이 될 수 있다고 분석했다",
+        "반도체·AI 분야도 정책 변화의 영향권에서 자유롭지 않다는 점이 헤드라인에 명시됐다",
+        "미국 정책 변화가 조달 계약 조건에 구체적으로 어떻게 반영될지는 아직 공식 확인된 내용이 없다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "뉴시안이 2026년 11월 10일 발행한 '미국 중간선거와 한국 산업' 시리즈 세 번째 기사에서, 미국 블루웨이브 결과가 한국 반도체·AI 산업에 기회인지 부담인지를 분석했다. 보도 제목은 '반도체·AI도 안심 못 한다'는 표현을 담고 있다.",
+            "베이커 연구소(Baker Institute)는 2026년 11월 13일 한미 에너지·산업 안보 세미나를 개최했다고 밝혔다. 양국 산업 안보 협력 기조가 구체적으로 어떤 방향으로 정리될지는 세미나 결과 발표가 나와야 확인 가능하다."
+          ]
+        },
+        {
+          "heading": "조달 담당자가 짚어볼 항목",
+          "paragraphs": [
+            "미국 정책 방향이 반도체·소재 수출규제 강화로 이어질 경우, 미국산 또는 미국 동맹국산 부품 비중이 높은 조달 계약의 가격 조정 조항과 불가항력 조항이 현실에 맞는지 점검할 수 있다. 블루웨이브 이후 발표되는 구체적 정책 입법 일정도 추적 대상이다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        25,
+        28
+      ],
+      "image_keyword": "printed circuit board close-up",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "[미국 중간선거와 한국 산업③] 美 블루웨이브, K산업에 기회인가 부담인가…반도체·AI도 안심 못 한다 - 뉴시안",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KNVJwV2VZUFIzaUlheXA4UE9FNlhKY0tMcG1sV3RHT0FmTEtNMkFkeG1rWVFlX3VOUUx3ckNlQUN5SnpFZkNpLThLblpXaW93ZUZtVFB6Mk5iaEtPa3QwV0JMenU2WkN2ekw2SA?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "Korea-US Energy and Industrial Security Seminar 2026 - Baker Institute",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVlZbklkOUlhV0xQdXBRY1J5OENPbnZkYU1CeWo1Z0F4RXgyNEgxdlJWOVRhQmlxVTJEWlVvNGZhQnpSbkZhUFdqaGtkUTdHWGEtYWxPTXQwUjh0aHlqa3FyWlRNVTNKd01LeGR6NW9fVWVtTERBci1hNTRCeEstN0FMNXkzdVNMMG5jRTR6cExDQVk?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-13"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-15_article_1.jpg",
+      "review": {
+        "trust_score": 3,
+        "status": "warning",
+        "suspicious_claims": [
+          "2026년 미국 중간선거 블루웨이브 결과가 실제 확정됐는지 독립 확인 필요",
+          "Baker Institute 세미나 결과 미발표로 정책 방향 주장은 미확정",
+          "'반도체·AI도 안심 못 한다' 표현의 구체적 근거가 본문에 없음"
+        ],
+        "image_keyword_ok": true,
+        "notes": "선거 결과 및 정책 방향이 아직 미확정 상태로 단정적 서술 주의",
+        "verified_at": "2026-11-15 08:17"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "한국-휴머노이드로봇-공급망설계",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "한국 휴머노이드 로봇 전략, 공급망 설계가 출발점",
+      "summary": "자동화 산업 단체 A3가 분석한 한국 휴머노이드 로봇 전략은 완제품보다 공급망 구축에서 시작하는 구조를 취하고 있다. 로봇 관련 부품·소재를 조달하는 담당자는 국내 공급망 형성 초기 단계임을 감안해 공급처 다양성과 인증 일정을 살펴볼 필요가 있다.",
+      "key_points": [
+        "A3 Association for Advancing Automation이 2026년 11월 14일 한국의 휴머노이드 로봇 전략이 공급망 구축에서 출발한다고 분석했다",
+        "국내 지자체들이 반도체 소부장 기업 투자 유치에 나서는 흐름과 맞물려 로봇 부품 공급망 형성 움직임도 가시화되고 있다",
+        "로봇용 소재·부품의 국내 공급망이 어느 단계까지 구축됐는지 세부 현황은 공식 확인된 내용이 없다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "자동화 산업 단체 A3 Association for Advancing Automation이 2026년 11월 14일 발표한 분석에서, 한국의 휴머노이드 로봇 전략은 로봇 완제품 개발에 앞서 공급망 설계에서 시작하는 구조를 취하고 있다고 평가했다. 구체적인 부품 목록이나 조달 계획은 해당 분석 외에 별도로 확인되지 않는다.",
+            "같은 시기 이천시와 화순군 등 국내 지자체들이 반도체 소재·부품·장비 기업 투자 유치에 경쟁적으로 나서고 있다는 보도가 잇따랐다. 코트라 인베스트코리아는 반도체 소부장 투자 유치 성과로 국제상을 연속 수상했다고 헤럴드경제가 2026년 11월 11일 보도했다."
+          ]
+        },
+        {
+          "heading": "조달 담당자가 짚어볼 항목",
+          "paragraphs": [
+            "로봇 관련 부품·소재를 조달하는 담당자라면, 국내 공급망이 초기 형성 단계임을 감안해 현재 공급처의 생산 능력 확장 계획과 대체 공급처 인증에 필요한 기간을 미리 파악해두는 것이 도움이 될 수 있다. 지자체 투자 유치 성과가 실제 양산 체제로 이어지는 데 걸리는 시간도 점검 항목이다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        29,
+        10,
+        11,
+        12
+      ],
+      "image_keyword": "robotic arm assembly manufacturing",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "South Korea's Humanoid Robot Strategy Starts With the Supply Chain - A3 Association for Advancing Automation",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTlZuRVNKYVVNSFBNUUk3UkpOSzFOaXkzZzJOdW5pU3QtU3BtWTU2V0dfUjhqd19yX3pzcHJYZ1pvc0dta2g0bFJCVEppaTB5RXFRRGxIY0VwOHh0VWlTZlJUMjVDXzdiVFlqT2IyS1RHS2pHQ2lWeGktTjZYNkV4OUNWS05DVlJyS2FCaEF4Um5YZldhME9faTB2X3MwQU1uUkM0Y3pMR1FkTTUwdkRYTDEtWjI1bUdOUU41aVZjYjI?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "코트라 인베스트코리아, 반도체 소부장 투자유치로 국제상 연속 수상 - 헤럴드경제",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNMW9lUWxtYXlrcjduU3doVFlXbWo2WkZ0NlhSZTZ0eFRCbjBkTVpScnk2TW00amlXTWRHbnBBY1ZUWm1MM3RWUW1XZ0dRMnJwYXAwZFRn?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "이천시, 소부장 반도체기업 투자유치 총력전 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XS05STVBOTmdnWVNjUGNrVU5GZUFEc1RBaWhSYUxUQklRR1phLU1BWkRtMjFKOTliNlBJb1kwZ2w5VHRUa21kOW1VWVh1SUF5MHVXQ1pleWR2dWc?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "화순군, 반도체 소부장 기업 유치 본격화... 서남권 반도체 산업 핵심 거점 도약 준비 - 일등방송",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mTHBnaUhKVWtWRjVYOGExZHB5dVBNbVBIUEJKR2NxTlJqOHZ6Ml9NZDhRMGpsQkRwakJCWmsxRjZtdXBVanBsci1Xa3RaeGtY?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-09"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-15_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "A3의 한국 휴머노이드 공급망 분석 원문 접근 없이 요약만 인용",
+          "코트라 인베스트코리아 국제상 수상 내용은 단일 매체(헤럴드경제)만 확인"
+        ],
+        "image_keyword_ok": true,
+        "notes": "복수 국내 언론·기관 출처로 보강되어 신뢰도 상대적으로 양호",
+        "verified_at": "2026-11-15 08:17"
+      }
+    }
+  ],
+  "editorial_briefing": "선거 결과와 정책 마감이 핵심광물 공급 구조를 재편하고, 미국 정책 변화가 한국 반도체·AI 산업에 복합적 영향을 미치는 가운데, 한국은 휴머노이드 로봇 공급망 구축에 집중하고 있다.",
+  "key_signals": [
+    {
+      "icon": "🟡",
+      "label": "핵심광물 공급 재편",
+      "status": "구조적 변화 진행"
+    },
+    {
+      "icon": "🟡",
+      "label": "미국 블루웨이브",
+      "status": "정책 변화 모니터링"
+    },
+    {
+      "icon": "🟢",
+      "label": "한국 반도체·AI",
+      "status": "기회 요인 검토"
+    },
+    {
+      "icon": "🟢",
+      "label": "휴머노이드 공급망",
+      "status": "전략적 구축 중"
+    },
+    {
+      "icon": "🟡",
+      "label": "서방 조달 전략",
+      "status": "재검토 필요"
+    }
+  ],
+  "last_reviewed_at": "2026-11-15 08:17"
+}
