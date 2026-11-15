@@ -1,64 +1,85 @@
 {
-  "generated_at": "2026년 11월 15일 08:17",
-  "date_str": "2026년 11월 15일",
-  "date_key": "2026-11-15",
+  "generated_at": "2026년 11월 16일 08:16",
+  "date_str": "2026년 11월 16일",
+  "date_key": "2026-11-16",
   "articles": [
     {
       "id": 0,
-      "topic_key": "핵심광물-서방공급-선거변수",
+      "topic_key": "고려아연-테네시-핵심광물-거점",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
-      "article_type": "brief",
-      "title": "두 선거·두 마감이 바꾼 핵심광물 공급 등식",
-      "summary": "InvestorNews 분석에 따르면 최근 두 차례 선거 결과와 두 개의 마감 시한이 서방 핵심광물 공급의 구조적 계산을 바꿨다. 조달 담당자는 자사 핵심광물 조달 계약의 유효 기간과 가격 조정 조항을 점검해볼 시점이다.",
+      "article_type": "explainer",
+      "title": "고려아연 테네시 제련소, 미국 핵심광물 조달 지형 바꾸나",
+      "summary": "고려아연이 미국 테네시에 10조원 규모 제련소 구축을 추진하며 미국 핵심광물 공급망의 전략 거점으로 부상하고 있다. 조달 담당자는 국내외 비철금속 공급처 다변화 가능성을 점검할 시점이다.",
       "key_points": [
-        "InvestorNews가 2026년 11월 9일 보도에서 선거 결과와 마감 시한을 서방 공급 등식의 변수로 꼽았다",
-        "어떤 선거와 마감이 등식을 어떻게 바꿨는지 세부 내용은 해당 보도 외에 공식 확인되지 않았다",
-        "중국의 희토류·배터리 수출통제 유예 연장(2027년까지)이 단기 숨통을 텄으나 구조적 변화 여부는 별개다"
+        "고려아연은 테네시 제련소에 전력 230MW를 확보한 것으로 보도됐다",
+        "미국 핵심광물 공급망 내 한국 기업의 위상 변화가 조달 계약 조건에 미칠 영향은 아직 불확실하다",
+        "10조원 규모 투자 계획의 구체적 완공 일정과 처리 품목 범위는 공식 확인이 필요하다"
       ],
       "sections": [
         {
-          "heading": "",
+          "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "InvestorNews가 2026년 11월 9일 발행한 핵심광물 리포트에서, 최근 두 차례 선거 결과와 두 개의 마감 시한이 서방 진영의 핵심광물 공급 계산 구조를 바꿨다는 분석이 담겼다. 보도 제목 수준에서 확인된 내용이며, 어떤 선거와 마감을 가리키는지 세부 사항은 공개된 범위 내에서 확인되지 않는다.",
-            "같은 시기 Benchmark Mineral Intelligence는 중국이 희토류 및 배터리 관련 수출통제 유예를 2027년까지 연장했다고 보도했다. 유예 연장은 단기 조달 압박을 줄여주지만, 서방 공급망 자립을 가로막는 비용·규제·가격 구조는 그대로라는 분석도 병존한다."
+            "2026년 11월 15일 뉴스밸류 보도에 따르면, 고려아연이 미국 테네시주에 약 10조원 규모의 제련소를 구축하며 미국 핵심광물 공급망의 전략 거점 역할을 맡게 될 것이라는 심층 분석이 나왔다. 해당 제련소는 전력 230MW를 확보한 것으로 전해졌다.",
+            "이 사업은 미국이 중국 의존도를 줄이고 동맹국 중심의 핵심광물 공급망을 재편하는 흐름과 맞닿아 있다. 미국 정부가 비중국 제련·정련 역량 확충을 정책 목표로 삼고 있는 상황에서, 한국 기업의 미국 현지 생산 거점 구축은 조달 지형에 직접적인 함의를 가질 수 있다."
           ]
         },
         {
-          "heading": "조달 담당자가 짚어볼 항목",
+          "heading": "왜 주목해야 하나",
           "paragraphs": [
-            "현재 체결된 핵심광물 조달 계약의 만료 시점과 가격 조정 조항이 선거 이후 정책 변화를 반영하고 있는지 확인할 필요가 있다. 단일 공급처 의존도와 대체 공급처 인증에 걸리는 기간도 같이 점검해볼 수 있다."
+            "현재 비철금속 제련은 중국이 세계 생산량의 상당 부분을 차지하고 있어, 미국과 동맹국 모두 대체 공급망 확보에 나서고 있다. 고려아연의 테네시 거점이 가동되면, 미국 내 조달처로 고려아연을 활용하는 경로가 열릴 수 있다.",
+            "포스코 역시 핵심자원 사업으로 무게중심을 옮기고 있다는 보도가 같은 시기 나왔다. 한국 소재 대기업들이 미국 공급망에 편입되는 속도가 빨라질 경우, 국내 공급 여력과 가격 조건이 변할 가능성도 있다."
+          ]
+        },
+        {
+          "heading": "조달에서 점검해볼 항목",
+          "paragraphs": [
+            "고려아연 테네시 제련소의 처리 품목 범위(아연, 납, 은 외 핵심광물 포함 여부)와 가동 예상 시점이 확인되면, 현재 중국 또는 제3국 경유 조달 계약의 대체 가능성을 검토할 수 있다. 또한 미국 정부의 동맹국 우대 조달 정책이 구매 계약의 원산지 조항에 영향을 미칠지 여부도 살펴볼 필요가 있다.",
+            "단일 공급처 의존도와 계약의 가격조정 조항, 불가항력 조항이 현재 체결된 비철금속 조달 계약에 어떻게 명시돼 있는지 점검하는 것이 선행 과제가 될 수 있다."
           ]
         }
       ],
-      "watch_items": [],
-      "source_ids": [
-        4,
-        2,
-        3
+      "watch_items": [
+        {
+          "label": "테네시 제련소 완공·가동 일정",
+          "detail": "고려아연의 공식 발표 또는 미국 현지 인허가 일정을 통해 가동 시점을 확인"
+        },
+        {
+          "label": "처리 품목 공개 여부",
+          "detail": "아연·납 외 리튬·코발트 등 배터리 핵심광물 포함 여부가 조달 계획에 영향"
+        },
+        {
+          "label": "미국 핵심광물 조달 우대 정책 적용 범위",
+          "detail": "미국 국방부·에너지부의 동맹국 제련소 우대 기준이 고려아연 제품에 적용되는지 확인"
+        }
       ],
-      "image_keyword": "critical mineral ore processing facility",
+      "source_ids": [
+        2,
+        18,
+        33
+      ],
+      "image_keyword": "zinc smelter furnace facility",
       "is_featured": true,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:10",
       "format": "v2",
       "sources": [
         {
-          "title": "Critical Minerals Report: Two Elections and Two Deadlines Changed the Arithmetic for Western Supply - InvestorNews",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWW9Rc29kMmRHVW9Uc2J5ZUUyWjVLNGR4ZWdTTktFOEt5Wk5senUyQ0s2ZXRxbGJrTEozTE53WUxtd1NOY1UyTmdDUkl1S0Q2YVRTYWF2d2V1Y0xfVEozSmNtX3VmWEtrN0NHdEhLWmdZT2NySjJITVFHSGc0U0E5eGViZWZweWUyU3lGZDlCV0RtQVJGcnhXeTNuMW0tNkdVdnVaTUNvNWl3RTIzOVVHZWZ3UTNmcFZjRmJMeWJNSV9KVS1nbHpVVkkybURLRlFhc19DbGg5bGpRdWlpOUdPQmN0X0hUY0tZT3c?oc=5",
+          "title": "[심층 분석] 고려아연, 미국 핵심광물 공급망의 전략 거점 구축…10조원 테네시 제련소, 전력 230MW 확보 - 뉴스밸류",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KUlVRYzJBMDRHV19xMVRUUHVWLTNuaVZiMjRRTGlSd1c5QlJRRWZDcXdNN3dNS0pFa29nM2xZcEtHSVJ2YWVfbzMyQ0l1V2tCT1BlQ19EV3lrblN5S1ZvLURoUkJoS0NYcVE?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-09"
+          "date": "2026-11-15"
         },
         {
-          "title": "China extends rare earth and battery export control pause to 2027 - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-11"
+          "title": "[심층 분석] 고려아연, 미국 핵심광물 공급망의 전략 거점 구축…10조원 테네시 제련소, 전력 230MW 확보 - 뉴스밸류",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KUlVRYzJBMDRHV19xMVRUUHVWLTNuaVZiMjRRTGlSd1c5QlJRRWZDcXdNN3dNS0pFa29nM2xZcEtHSVJ2YWVfbzMyQ0l1V2tCT1BlQ19EV3lrblN5S1ZvLURoUkJoS0NYcVE?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-15"
         },
         {
-          "title": "“China’s Export Control Reprieve Buys Time,” but EU Supply Chain Independence Faces a Dilemma as Costs, Regulation and Pricing Hinder Efforts to Reduce Reliance on China - https://economy.ac/",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92Z05iUHFGbjRhZ0FUam43RGxyeXdLRWdJR0xBTlhVRHdtaUlGQ21rakItS0pLWmFvN0JHa3lkcnE1YTJlZV9VUzlxY0txVVg1N01xUWNnNA?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-12"
+          "title": "Beyond steel: Posco charts its future in critical resources - The Korea Herald",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB6U0dzLThkak5oRlQ4RkNhRjhjN19vTlZaTllxLXBGWlNneXZHTUdJN2RqS3VFYVR4UWFDWEc3TGQwTjgxeHN0N1BwRUg5XzJGMXlkTzFCaw?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-10"
         }
       ],
       "fact": [],
@@ -67,136 +88,60 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-15_article_0.jpg",
+      "image_url": "images/2026-11-16_article_0.jpg",
       "review": {
         "trust_score": 3,
         "status": "warning",
         "suspicious_claims": [
-          "'두 선거·두 마감'의 구체적 대상이 본문에서 확인되지 않아 검증 불가",
-          "중국 희토류 수출통제 유예 2027년 연장 여부는 별도 공식 확인 필요",
-          "Benchmark Mineral Intelligence 보도 내용이 원문 접근 없이 인용됨"
+          "10조원 규모 테네시 제련소 계획의 공식 발표 여부 미확인",
+          "전력 230MW 확보 수치의 출처 및 사실 여부 검증 필요",
+          "포스코 핵심자원 사업 전환 보도와의 연계성 근거 불명확"
         ],
         "image_keyword_ok": true,
-        "notes": "핵심 근거가 제목 수준에만 머물러 사실 검증 범위 제한적",
-        "verified_at": "2026-11-15 08:17"
+        "notes": "주요 수치와 사업 계획이 단일 출처에 의존, 교차검증 권장",
+        "verified_at": "2026-11-16 08:16"
       }
     },
     {
       "id": 1,
-      "topic_key": "미국-블루웨이브-한국반도체-정책변수",
-      "category": "기술패권",
-      "tag_type": "tag-hegemony",
-      "article_type": "brief",
-      "title": "미국 블루웨이브, 한국 반도체·AI에 기회인가 부담인가",
-      "summary": "미국 중간선거 블루웨이브가 한국 반도체·AI 산업에 기회와 부담을 동시에 안겨줄 수 있다는 분석이 나왔다. 조달 담당자는 미국 정책 기조 변화가 부품·소재 조달 조건에 미칠 영향을 구체적으로 살펴볼 시점이다.",
-      "key_points": [
-        "뉴시안이 2026년 11월 10일 보도에서 블루웨이브 결과가 K산업에 기회이자 부담이 될 수 있다고 분석했다",
-        "반도체·AI 분야도 정책 변화의 영향권에서 자유롭지 않다는 점이 헤드라인에 명시됐다",
-        "미국 정책 변화가 조달 계약 조건에 구체적으로 어떻게 반영될지는 아직 공식 확인된 내용이 없다"
-      ],
-      "sections": [
-        {
-          "heading": "",
-          "paragraphs": [
-            "뉴시안이 2026년 11월 10일 발행한 '미국 중간선거와 한국 산업' 시리즈 세 번째 기사에서, 미국 블루웨이브 결과가 한국 반도체·AI 산업에 기회인지 부담인지를 분석했다. 보도 제목은 '반도체·AI도 안심 못 한다'는 표현을 담고 있다.",
-            "베이커 연구소(Baker Institute)는 2026년 11월 13일 한미 에너지·산업 안보 세미나를 개최했다고 밝혔다. 양국 산업 안보 협력 기조가 구체적으로 어떤 방향으로 정리될지는 세미나 결과 발표가 나와야 확인 가능하다."
-          ]
-        },
-        {
-          "heading": "조달 담당자가 짚어볼 항목",
-          "paragraphs": [
-            "미국 정책 방향이 반도체·소재 수출규제 강화로 이어질 경우, 미국산 또는 미국 동맹국산 부품 비중이 높은 조달 계약의 가격 조정 조항과 불가항력 조항이 현실에 맞는지 점검할 수 있다. 블루웨이브 이후 발표되는 구체적 정책 입법 일정도 추적 대상이다."
-          ]
-        }
-      ],
-      "watch_items": [],
-      "source_ids": [
-        25,
-        28
-      ],
-      "image_keyword": "printed circuit board close-up",
-      "is_featured": false,
-      "timestamp": "오전 09:30",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "[미국 중간선거와 한국 산업③] 美 블루웨이브, K산업에 기회인가 부담인가…반도체·AI도 안심 못 한다 - 뉴시안",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KNVJwV2VZUFIzaUlheXA4UE9FNlhKY0tMcG1sV3RHT0FmTEtNMkFkeG1rWVFlX3VOUUx3ckNlQUN5SnpFZkNpLThLblpXaW93ZUZtVFB6Mk5iaEtPa3QwV0JMenU2WkN2ekw2SA?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-10"
-        },
-        {
-          "title": "Korea-US Energy and Industrial Security Seminar 2026 - Baker Institute",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUVlZbklkOUlhV0xQdXBRY1J5OENPbnZkYU1CeWo1Z0F4RXgyNEgxdlJWOVRhQmlxVTJEWlVvNGZhQnpSbkZhUFdqaGtkUTdHWGEtYWxPTXQwUjh0aHlqa3FyWlRNVTNKd01LeGR6NW9fVWVtTERBci1hNTRCeEstN0FMNXkzdVNMMG5jRTR6cExDQVk?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-13"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-11-15_article_1.jpg",
-      "review": {
-        "trust_score": 3,
-        "status": "warning",
-        "suspicious_claims": [
-          "2026년 미국 중간선거 블루웨이브 결과가 실제 확정됐는지 독립 확인 필요",
-          "Baker Institute 세미나 결과 미발표로 정책 방향 주장은 미확정",
-          "'반도체·AI도 안심 못 한다' 표현의 구체적 근거가 본문에 없음"
-        ],
-        "image_keyword_ok": true,
-        "notes": "선거 결과 및 정책 방향이 아직 미확정 상태로 단정적 서술 주의",
-        "verified_at": "2026-11-15 08:17"
-      }
-    },
-    {
-      "id": 2,
-      "topic_key": "한국-휴머노이드로봇-공급망설계",
+      "topic_key": "충청권-소부장-투자-인프라",
       "category": "산업전략",
       "tag_type": "tag-strategy",
       "article_type": "brief",
-      "title": "한국 휴머노이드 로봇 전략, 공급망 설계가 출발점",
-      "summary": "자동화 산업 단체 A3가 분석한 한국 휴머노이드 로봇 전략은 완제품보다 공급망 구축에서 시작하는 구조를 취하고 있다. 로봇 관련 부품·소재를 조달하는 담당자는 국내 공급망 형성 초기 단계임을 감안해 공급처 다양성과 인증 일정을 살펴볼 필요가 있다.",
+      "title": "충청권 첨단산업 23.6조 투자, 소부장 조달 지형 변화 가능성",
+      "summary": "충청권에 23.6조원 규모의 첨단산업 추가 투자가 발표되며 소부장 공급망 재편 가능성이 생겼다. 현재 소부장 조달 계약의 납기·가격 조건을 점검할 시점이다.",
       "key_points": [
-        "A3 Association for Advancing Automation이 2026년 11월 14일 한국의 휴머노이드 로봇 전략이 공급망 구축에서 출발한다고 분석했다",
-        "국내 지자체들이 반도체 소부장 기업 투자 유치에 나서는 흐름과 맞물려 로봇 부품 공급망 형성 움직임도 가시화되고 있다",
-        "로봇용 소재·부품의 국내 공급망이 어느 단계까지 구축됐는지 세부 현황은 공식 확인된 내용이 없다"
+        "2026년 11월 12일 에너지신문 보도에 따르면 충청권 첨단산업에 23.6조원 추가 투자와 소부장 지원 확대가 발표됐다",
+        "이천시도 같은 시기 소부장 반도체기업 투자유치에 나선 것으로 보도됐다",
+        "신규 생산거점 가동 시점과 품목 범위가 확인되지 않아 조달 계약 조건 변화 여부는 미정이다"
       ],
       "sections": [
         {
           "heading": "",
           "paragraphs": [
-            "자동화 산업 단체 A3 Association for Advancing Automation이 2026년 11월 14일 발표한 분석에서, 한국의 휴머노이드 로봇 전략은 로봇 완제품 개발에 앞서 공급망 설계에서 시작하는 구조를 취하고 있다고 평가했다. 구체적인 부품 목록이나 조달 계획은 해당 분석 외에 별도로 확인되지 않는다.",
-            "같은 시기 이천시와 화순군 등 국내 지자체들이 반도체 소재·부품·장비 기업 투자 유치에 경쟁적으로 나서고 있다는 보도가 잇따랐다. 코트라 인베스트코리아는 반도체 소부장 투자 유치 성과로 국제상을 연속 수상했다고 헤럴드경제가 2026년 11월 11일 보도했다."
-          ]
-        },
-        {
-          "heading": "조달 담당자가 짚어볼 항목",
-          "paragraphs": [
-            "로봇 관련 부품·소재를 조달하는 담당자라면, 국내 공급망이 초기 형성 단계임을 감안해 현재 공급처의 생산 능력 확장 계획과 대체 공급처 인증에 필요한 기간을 미리 파악해두는 것이 도움이 될 수 있다. 지자체 투자 유치 성과가 실제 양산 체제로 이어지는 데 걸리는 시간도 점검 항목이다."
+            "2026년 11월 12일 에너지신문 보도에 따르면, 충청권 첨단산업에 23.6조원의 추가 투자가 결정되고 소부장(소재·부품·장비) 지원이 확대될 예정이다. 같은 날 연합뉴스는 이천시가 소부장 반도체기업 투자유치에 총력을 기울이고 있다고 보도했다.",
+            "코트라 인베스트코리아는 반도체 소부장 투자유치 실적으로 국제상을 연속 수상했다는 소식도 11월 11일 헤럴드경제에 보도됐다. 이는 외국 소부장 기업의 국내 생산 거점 유입이 이어지고 있음을 보여준다.",
+            "조달 담당자 입장에서는 충청권·이천 지역 소부장 공급처의 생산 능력 변화와 납기 조건이 현재 계약에 미칠 영향을 확인해두는 것이 유용할 수 있다. 신규 투자의 품목 범위와 가동 일정이 공개되는 시점에서 대체 공급처 인증 절차 여부를 점검하는 것이 선행 과제다."
           ]
         }
       ],
       "watch_items": [],
       "source_ids": [
-        29,
+        9,
         10,
         11,
         12
       ],
-      "image_keyword": "robotic arm assembly manufacturing",
+      "image_keyword": "semiconductor components manufacturing line",
       "is_featured": false,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:10",
       "format": "v2",
       "sources": [
         {
-          "title": "South Korea's Humanoid Robot Strategy Starts With the Supply Chain - A3 Association for Advancing Automation",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTlZuRVNKYVVNSFBNUUk3UkpOSzFOaXkzZzJOdW5pU3QtU3BtWTU2V0dfUjhqd19yX3pzcHJYZ1pvc0dta2g0bFJCVEppaTB5RXFRRGxIY0VwOHh0VWlTZlJUMjVDXzdiVFlqT2IyS1RHS2pHQ2lWeGktTjZYNkV4OUNWS05DVlJyS2FCaEF4Um5YZldhME9faTB2X3MwQU1uUkM0Y3pMR1FkTTUwdkRYTDEtWjI1bUdOUU41aVZjYjI?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-14"
+          "title": "[정책자금] 산업통상부, 소부장 중소·중견기업 투자지원금… 11월 19일까지 신청 - CEO경제신문",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sWXBmc3R5X2hveUZYenM0S3hHTTl5aG5PdGNBcDU3T0lYTjVjQ1hFNWFnVFQxWjE4d1R3Y180UmIxUFgxRGdkd1ltajJYME0wWjNaSC01QVVnX1lhUmljajdfVVNVUWUzR0RjWg?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-10"
         },
         {
           "title": "코트라 인베스트코리아, 반도체 소부장 투자유치로 국제상 연속 수상 - 헤럴드경제",
@@ -205,16 +150,16 @@
           "date": "2026-11-11"
         },
         {
+          "title": "충청권 첨단산업에 23.6조 추가 투자···소부장 지원 확대 - 에너지신문",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zd2NSTjVQMm4xeHByOXlZajVPN1lfNGNZazZvVmhuNVNfbDQ0ck12cVJKUFQ0MGE1a0NZZGxHb05pdGhGeDR5MlhpQTgzRWUyUXVWWFhqSEY5cTFCWThKYlgxM0VmNVE0bGRWY0tjbDlqQQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-12"
+        },
+        {
           "title": "이천시, 소부장 반도체기업 투자유치 총력전 - 연합뉴스",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XS05STVBOTmdnWVNjUGNrVU5GZUFEc1RBaWhSYUxUQklRR1phLU1BWkRtMjFKOTliNlBJb1kwZ2w5VHRUa21kOW1VWVh1SUF5MHVXQ1pleWR2dWc?oc=5",
           "source": "GoogleNews",
           "date": "2026-11-11"
-        },
-        {
-          "title": "화순군, 반도체 소부장 기업 유치 본격화... 서남권 반도체 산업 핵심 거점 도약 준비 - 일등방송",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9mTHBnaUhKVWtWRjVYOGExZHB5dVBNbVBIUEJKR2NxTlJqOHZ6Ml9NZDhRMGpsQkRwakJCWmsxRjZtdXBVanBsci1Xa3RaeGtY?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-09"
         }
       ],
       "fact": [],
@@ -223,47 +168,46 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-15_article_2.jpg",
+      "image_url": "images/2026-11-16_article_2.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "A3의 한국 휴머노이드 공급망 분석 원문 접근 없이 요약만 인용",
-          "코트라 인베스트코리아 국제상 수상 내용은 단일 매체(헤럴드경제)만 확인"
+          "충청권 23.6조원 추가 투자 결정의 구체적 사업 범위·주체 미상",
+          "이천시 소부장 반도체기업 투자유치 총력 보도의 구체적 성과 미확인"
         ],
         "image_keyword_ok": true,
-        "notes": "복수 국내 언론·기관 출처로 보강되어 신뢰도 상대적으로 양호",
-        "verified_at": "2026-11-15 08:17"
+        "notes": "인용 매체·기관 모두 실재, 수치 규모는 국내 첨단산업 투자 흐름과 개연성 있음",
+        "verified_at": "2026-11-16 08:16"
       }
     }
   ],
-  "editorial_briefing": "선거 결과와 정책 마감이 핵심광물 공급 구조를 재편하고, 미국 정책 변화가 한국 반도체·AI 산업에 복합적 영향을 미치는 가운데, 한국은 휴머노이드 로봇 공급망 구축에 집중하고 있다.",
+  "editorial_briefing": "고려아연 테네시 제련소, 국산 AI 반도체 육성 가속화, 충청권 23.6조 첨단산업 투자 등 핵심광물·반도체·소부장 전반에서 공급망 재편 움직임이 동시에 진행되고 있다. 조달 담당자는 기존 계약의 납기·가격 조건과 공급처 다변화 가능성을 점검할 시점이다.",
   "key_signals": [
     {
-      "icon": "🟡",
-      "label": "핵심광물 공급 재편",
-      "status": "구조적 변화 진행"
+      "icon": "🟢",
+      "label": "고려아연 테네시 제련소",
+      "status": "핵심광물 거점 부상"
     },
     {
       "icon": "🟡",
-      "label": "미국 블루웨이브",
-      "status": "정책 변화 모니터링"
+      "label": "국산 AI 반도체 육성",
+      "status": "정부 가속화 공식화"
+    },
+    {
+      "icon": "🟡",
+      "label": "엔비디아 의존도 점검",
+      "status": "조달 계획 재검토"
     },
     {
       "icon": "🟢",
-      "label": "한국 반도체·AI",
-      "status": "기회 요인 검토"
-    },
-    {
-      "icon": "🟢",
-      "label": "휴머노이드 공급망",
-      "status": "전략적 구축 중"
+      "label": "충청권 첨단산업 투자",
+      "status": "23.6조 추가 투자"
     },
     {
       "icon": "🟡",
-      "label": "서방 조달 전략",
-      "status": "재검토 필요"
+      "label": "소부장 계약 조건",
+      "status": "납기·가격 점검 필요"
     }
-  ],
-  "last_reviewed_at": "2026-11-15 08:17"
+  ]
 }

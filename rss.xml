@@ -6,7 +6,23 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 15 Nov 2026 08:17:28 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 08:16:47 +0900</lastBuildDate>
+    <item>
+      <title>고려아연 테네시 제련소, 미국 핵심광물 조달 지형 바꾸나</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-16-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-16-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>고려아연이 미국 테네시에 10조원 규모 제련소 구축을 추진하며 미국 핵심광물 공급망의 전략 거점으로 부상하고 있다. 조달 담당자는 국내외 비철금속 공급처 다변화 가능성을 점검할 시점이다.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>충청권 첨단산업 23.6조 투자, 소부장 조달 지형 변화 가능성</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-16-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-16-1.html</guid>
+      <category>산업전략</category>
+      <description>충청권에 23.6조원 규모의 첨단산업 추가 투자가 발표되며 소부장 공급망 재편 가능성이 생겼다. 현재 소부장 조달 계약의 납기·가격 조건을 점검할 시점이다.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>두 선거·두 마감이 바꾼 핵심광물 공급 등식</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-15-0.html</link>
@@ -230,22 +246,6 @@
       <category>산업전략</category>
       <description>외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정했다. 전력·냉각 인프라 조달 수요가 함께 확대될 가능성이 있어 관련 공급망 점검이 필요하다.</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>EU 순환경제법, 패션 소재 조달 기준을 바꾼다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-2.html</guid>
-      <category>글로벌분석</category>
-      <description>EU 순환경제법이 글로벌 패션 공급망 재편을 압박하면서 소재 조달 기준과 계약 조건 변화 가능성이 커졌다. 섬유·의류 소재를 조달하는 담당자는 규정 적용 일정을 확인할 필요가 있다.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>엔비디아, 데이터센터에 중국 거래 축소 압박</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-05-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-05-0.html</guid>
-      <category>기술패권</category>
-      <description>엔비디아가 데이터센터 파트너들에게 중국과의 거래를 줄이도록 압박하고 있다는 보도가 나왔다. 조달 담당자는 AI 인프라 부품 공급망에서 중국 연결고리를 점검할 필요가 생겼다.</description>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
