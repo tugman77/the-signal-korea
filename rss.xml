@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 16 Nov 2026 08:16:47 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 08:17:10 +0900</lastBuildDate>
+    <item>
+      <title>미국 핵심광물 자립 난항, 한국 기업에 열린 창</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-17-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-17-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>미국의 핵심광물 자립 추진이 난항을 겪으면서 공급망 재편에 뛰어든 한국 기업들의 역할이 주목받고 있다. 중국의 수출통제 유예 연장이 단기 숨통을 텄지만 구조적 공백은 메워지지 않은 상태다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>수출 증가 속 한국 제조업 기반이 흔들리는 이유</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-17-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-17-1.html</guid>
+      <category>기술패권</category>
+      <description>한국 수출이 늘고 있음에도 제조업 기반이 흔들리고 있다는 2027년 산업 전망이 나왔다. 중국의 추격과 미국의 압박이 동시에 작용하는 이중 구조가 배경으로 지목된다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>한일 AI·반도체 협력, 2045년 3단계 로드맵 제시</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-17-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-17-2.html</guid>
+      <category>산업전략</category>
+      <description>한일경제연대가 AI·반도체 공동개발을 시작으로 2045년 경제공동체 구성까지 3단계 로드맵을 제시했다. 대외경제정책연구원도 일본 반도체 공급망 변화가 한국에 주는 시사점을 별도로 분석했다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>고려아연 테네시 제련소, 미국 핵심광물 조달 지형 바꾸나</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-16-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>영국 하원의원들이 장관들에게 핵심광물 조달 기준 준수를 입증하지 못했다고 지적했다. 조달 기준의 형식적 선언과 실질적 검증 사이의 간극이 주목받고 있다.</description>
       <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>정부, AI·공급망 대응 사업재편 지원 확대</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-07-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-07-2.html</guid>
-      <category>산업전략</category>
-      <description>산업부가 제6기 사업재편계획심의위원회를 출범시키며 AI와 공급망 재편을 주요 지원 축으로 삼았다. 기업 구조 전환 과정에서 조달 계약과 협력사 관계 변화 가능성이 있다.</description>
-      <pubDate>Sat, 07 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>칩 인재 전쟁, 기술 유출과 중국 추격의 교차점</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-0.html</guid>
-      <category>기술패권</category>
-      <description>반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 핵심 인력 이탈 여부와 기술보호 체계를 점검할 필요가 있다.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>글로벌 7개사 한국 AI 인프라에 20억 달러 투자 확정</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-06-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-06-1.html</guid>
-      <category>산업전략</category>
-      <description>외국 기업 7곳이 한국 AI 데이터센터·반도체 분야에 20억 달러 투자를 결정했다. 전력·냉각 인프라 조달 수요가 함께 확대될 가능성이 있어 관련 공급망 점검이 필요하다.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

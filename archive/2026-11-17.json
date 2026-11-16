@@ -1,0 +1,304 @@
+{
+  "generated_at": "2026년 11월 17일 08:17",
+  "date_str": "2026년 11월 17일",
+  "date_key": "2026-11-17",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "미국-핵심광물-자립난항-한국기업진입",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "explainer",
+      "title": "미국 핵심광물 자립 난항, 한국 기업에 열린 창",
+      "summary": "미국의 핵심광물 자립 추진이 난항을 겪으면서 공급망 재편에 뛰어든 한국 기업들의 역할이 주목받고 있다. 중국의 수출통제 유예 연장이 단기 숨통을 텄지만 구조적 공백은 메워지지 않은 상태다.",
+      "key_points": [
+        "미국의 핵심광물 자립이 어려움을 겪는 가운데 한국 기업들이 공급망 재편에 뛰어들고 있다",
+        "중국은 희토류·배터리 수출통제 유예를 2027년까지 연장했다",
+        "한국 기업의 미국 광물 공급망 참여 계약 세부 내용과 물량은 아직 공개되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 16일 딜사이트가 보도한 바에 따르면, 미국의 핵심광물 자립 추진이 난항을 겪으면서 공급망 재편에 뛰어든 한국 기업들이 주목받고 있다. 미국이 중국 의존도를 낮추려는 시도를 이어가고 있지만 그 과정이 순탄치 않다는 것이 이 보도의 핵심이다.",
+            "같은 시기 중국은 희토류 및 배터리 관련 수출통제 유예 기간을 2027년까지 연장했다고 Benchmark Mineral Intelligence가 2026년 11월 10일 보도했다. 미국과 중국 간 희토류 휴전이 연장됐다는 내용은 워싱턴 이그재미너도 같은 달 14일 확인했다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "중국의 유예 연장은 단기적으로 조달 비용 급등을 막는 완충재가 된다. 그러나 헬로티가 11월 11일 보도한 내용에 따르면 EU의 공급망 자립도 이 유예 연장 뒤에도 '난항'이라고 표현될 만큼 구조적 장벽이 남아 있다. economy.ac가 11월 12일 분석한 보도에서도 EU 공급망 독립 노력이 비용·규제·가격이라는 세 가지 장벽에 막혀 있다고 지적했다.",
+            "이 맥락에서 한국 기업들의 미국 광물 공급망 진입 움직임은 단순한 사업 확장이 아니라, 미국이 메우지 못하는 공백을 겨냥한 포지셔닝으로 읽힐 수 있다. 다만 구체적인 계약 조건이나 납품 물량은 현재 공개된 자료에서 확인되지 않는다."
+          ]
+        },
+        {
+          "heading": "조달 담당자가 점검할 항목",
+          "paragraphs": [
+            "희토류·갈륨·게르마늄 등 중국산 핵심광물을 사용하는 기업이라면, 현재 계약의 가격조정 조항이 유예 종료 이후 상황을 반영하고 있는지 살펴볼 필요가 있다. 유예가 연장됐다는 사실이 단가 협상의 기준점이 되는지도 확인 사항이다.",
+            "대체 공급처로 한국 기업을 검토 중이라면 인증 기간과 품질 검증 절차에 소요되는 시간을 사전에 파악해 두는 것이 유용하다. 미국 정부 조달 프로그램과 연계된 공급처일 경우, 해당 프로그램의 지속 여부와 조건 변경 가능성도 변수로 남아 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "중국 수출통제 유예 만료 시점",
+          "detail": "2027년 만료 예정. 갱신 여부와 품목별 조건 변화를 Benchmark Mineral Intelligence 발표 기준으로 추적"
+        },
+        {
+          "label": "미국 핵심광물 자립 프로그램 진행 현황",
+          "detail": "미국 에너지부·국방부 발표를 통해 한국 기업 참여 프로젝트의 계약 체결 여부 확인"
+        },
+        {
+          "label": "EU 공급망 독립 비용 추정 공개 여부",
+          "detail": "EU 집행위원회 또는 회원국 정부의 공식 비용 분석 발표 시점"
+        }
+      ],
+      "source_ids": [
+        13,
+        3,
+        4,
+        14,
+        1
+      ],
+      "image_keyword": "rare earth mineral processing facility",
+      "is_featured": true,
+      "timestamp": "오후 02:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "China extends rare earth and battery export control pause to 2027 - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTzZiRDBZOFJpUzJoZC1sdWZkT0xwVC0xb21LcVlIZzBEeXdNZ1FQdUtCWTYtNUk4ZHFQXzVMY3JTWXk0eGREZW4yQVVhcFlzV2tLamN4dG5fR1VSNGFRa19wMjBWYkpObjU2a1BMTmZCczgxaTB0SWpqbUdFaXVMNGtJQlRmdmZPTFY5NUdPOTdRX2xZZ1RaS0RWX2twRmJ4SzBfWldreWJraFZPQ3YwYnZtZ2RoQllU?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-10"
+        },
+        {
+          "title": "Daily on Energy: US-China rare earth truce extended - Washington Examiner",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOXzhrdWNxblBZZ2ZCaGROMFlTaWJNcEVWUUItUktScGNkX2tHQUMwamxDY0l6UzZvei1QU1RvWi1pUkx4NFlhR2h5U05ORzE1UkhVbGtLd1RBMU5yMnZNam5LV3N3cGNxVHN2YVA4aGJ6bE01SDBZZU0tM25XYmhvell3V09VRGpVSFhKNG1vTVdXNGNMZjQtQXo4elVydFh4QVA0Z0twUTJXeUZXOGZV?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "중국, 희토류 수출통제 유예 내년 1월까지 연장…EU 공급망 자립 '난항' - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EMUZMNnNvT1ZySlpNTVJ5OExaQkRSTmZWc1UySEgxeVFPcTluU0gwd1l3S2hoQWZLR21MOWhycnVzVUx2cHhqeS1JalplbzVheER5cU1YVFZlUUh1bmNj?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-11"
+        },
+        {
+          "title": "“China’s Export Control Reprieve Buys Time,” but EU Supply Chain Independence Faces a Dilemma as Costs, Regulation and Pricing Hinder Efforts to Reduce Reliance on China - https://economy.ac/",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92Z05iUHFGbjRhZ0FUam43RGxyeXdLRWdJR0xBTlhVRHdtaUlGQ21rakItS0pLWmFvN0JHa3lkcnE1YTJlZV9VUzlxY0txVVg1N01xUWNnNA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-12"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-17_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "중국의 희토류 수출통제 유예 2027년 연장 — Benchmark Mineral Intelligence 보도 사실 여부 별도 확인 필요",
+          "워싱턴 이그재미너 2026년 11월 14일 보도 출처 접근 불가로 직접 검증 미완"
+        ],
+        "image_keyword_ok": true,
+        "notes": "출처 다수·주장 개연성 높음. 구체 계약·납품량 미공개 사실 본문 내 명시해 투명성 확보.",
+        "verified_at": "2026-11-17 08:17"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "한국제조업-중국추격-미국압박-이중고",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "수출 증가 속 한국 제조업 기반이 흔들리는 이유",
+      "summary": "한국 수출이 늘고 있음에도 제조업 기반이 흔들리고 있다는 2027년 산업 전망이 나왔다. 중국의 추격과 미국의 압박이 동시에 작용하는 이중 구조가 배경으로 지목된다.",
+      "key_points": [
+        "2026년 11월 17일 발행된 뉴시안의 2027 한국 산업 대전망 시리즈는 수출 증가에도 제조업 기반이 흔들린다고 진단했다",
+        "미국의 대중국 반도체 수출규제 강화가 한국 반도체 기업에 의도치 않은 피해를 줄 수 있다는 분석이 별도로 제기됐다",
+        "수출 증가와 제조업 기반 약화가 동시에 나타날 수 있는지에 대한 구체적 근거 수치는 현재 공개된 자료에서 확인되지 않는다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "뉴시안이 2026년 11월 17일 발행한 '2027 한국 산업 대전망' 시리즈 두 번째 편은 수출이 늘어도 제조업은 흔들린다는 진단을 제목으로 내세웠다. 중국의 추격과 미국의 압박이라는 두 가지 압력이 동시에 작용한다는 것이 핵심 프레임이다.",
+            "Korea JoongAng Daily는 2026년 11월 12일, 미국이 대중국 반도체 수출규제를 강화하려는 과정에서 한국이 의도치 않은 피해를 입을 수 있다는 분석을 보도했다. 규제 강화가 한국 기업을 직접 겨냥하지 않더라도, 공급망 연결 고리를 통해 영향을 받을 수 있다는 맥락이다."
+          ]
+        },
+        {
+          "heading": "왜 조달 담당자가 주목해야 하나",
+          "paragraphs": [
+            "수출 지표와 제조업 기반 사이의 괴리는 조달 환경에도 영향을 준다. 완제품 수출이 늘더라도 중간재·소재 조달 구조가 약해지면, 가격 협상력과 납기 안정성 모두 악화될 수 있기 때문이다. 중국 추격과 미국 압박이 동시에 진행되는 환경에서는 특정 품목의 국내 공급 기반 자체가 축소될 가능성이 있다.",
+            "다만 뉴시안 보도의 구체적 근거 수치나 품목별 분석은 현재 공개된 자료만으로는 확인되지 않는다. 조달 담당자가 이 전망을 참고할 때는 자사 품목과의 연관성을 별도로 점검하는 것이 필요하다."
+          ]
+        },
+        {
+          "heading": "점검할 항목",
+          "paragraphs": [
+            "현재 조달 중인 소재·부품·장비의 국내 생산 비중과 단일 공급처 의존도를 파악해 두면, 중국 추격이나 미국 규제 강화가 실제로 영향을 미칠 경로를 사전에 가늠할 수 있다. 반도체·디스플레이·배터리 등 미중 경쟁이 직접 맞닿는 품목일수록 공급처의 수출규제 적용 여부를 계약 조건에 반영했는지 확인할 필요가 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "뉴시안 2027 한국 산업 대전망 시리즈 추가 편 발행",
+          "detail": "시리즈 형식으로 발행 중이므로 이후 편에서 품목별·산업별 구체 수치 공개 여부 확인"
+        },
+        {
+          "label": "미국 대중국 반도체 수출규제 추가 조치 발표",
+          "detail": "미 상무부 BIS 발표 기준으로 한국산 장비·소재 포함 여부 추적"
+        },
+        {
+          "label": "중국 첨단 반도체 추격 현황",
+          "detail": "중국 주요 파운드리 공정 세대 발표를 통해 한국과의 기술 격차 변화 확인"
+        }
+      ],
+      "source_ids": [
+        11,
+        27
+      ],
+      "image_keyword": "semiconductor factory assembly line worker",
+      "is_featured": false,
+      "timestamp": "오후 02:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "[2027 한국 산업 대전망②] 수출은 늘어도 제조업은 흔들린다…중국 추격·미국 압박의 이중고 - 뉴시안",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FdHVMX3B1cms1dWVJc2I2RVpxa212ZE9RbnVFSUZGcC1MUlExR2FCMmwxOEtwUUM4bXpvYkVZS1IwYllubnBuRUJqUlk0U2IxV3lUdmQ2TEVqN2dZZDM0OHdRTk9PWE1qMlRScA?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "U.S. push to tighten chip restrictions on China could make Korea collateral damage - Korea JoongAng Daily",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVWpDQ2NBNG1KT19IY0loQjJCeVk2dWh6WW9yZmV4NGNFcjBBMUZSNkszV29pN2dYc3Y5SUV2RG5hNGQ4M2dCMnNvQWlCa2NhU29tajBOU1pMQk1oaHVnbUtfcXRuSnBMSUFpY09oNExmd2NQUlVrS0FDTnNra1o1T05NVG1nblNLR1R5UE1WM3JrQzFUMlJ0czRURHhYTHotZUJJX2NPT1VQZ3JrRGlyR2x4MW5iMGJKMnIzWWdhMG5DellBZ0VoVDNZbUJPQQ?oc=5",
+          "source": "Google뉴스-기술패권",
+          "date": "2026-11-12"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-17_article_1.jpg",
+      "review": {
+        "trust_score": 3,
+        "status": "warning",
+        "suspicious_claims": [
+          "뉴시안 '2027 한국 산업 대전망' 시리즈 — 구체 근거 수치·품목별 분석 현재 미확인",
+          "Korea JoongAng Daily 2026년 11월 12일 미중 반도체 규제 한국 피해 분석 — 원문 직접 검증 미완",
+          "수출 증가 vs 제조업 약화 괴리 주장 — 뒷받침하는 통계 데이터 본문 내 부재"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 주장의 수치 근거 미제시. 출처 보도 접근 불가 항목 존재해 주의 등급.",
+        "verified_at": "2026-11-17 08:17"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "한일-AI반도체-협력-2045로드맵",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "한일 AI·반도체 협력, 2045년 3단계 로드맵 제시",
+      "summary": "한일경제연대가 AI·반도체 공동개발을 시작으로 2045년 경제공동체 구성까지 3단계 로드맵을 제시했다. 대외경제정책연구원도 일본 반도체 공급망 변화가 한국에 주는 시사점을 별도로 분석했다.",
+      "key_points": [
+        "한일경제연대는 2026년 11월 13일 AI·반도체 공동개발부터 2045년 경제공동체까지 3단계 로드맵을 발표했다",
+        "대외경제정책연구원은 2026년 11월 16일 일본 반도체 공급망 구조 변화와 한국에 대한 시사점을 담은 분석을 발표했다",
+        "로드맵의 단계별 이행 주체, 재원, 구체적 품목 범위는 현재 공개된 자료에서 확인되지 않는다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "인공지능신문이 2026년 11월 13일 보도한 내용에 따르면, 한일경제연대는 AI·반도체 공동개발을 출발점으로 삼아 2045년을 목표 시점으로 하는 3단계 경제공동체 로드맵을 제시했다. 공동개발에서 시작해 경제공동체 수준의 협력까지 단계적으로 심화하는 구조다.",
+            "대외경제정책연구원은 2026년 11월 16일 일본 반도체 공급망 구조 변화와 한국에 대한 시사점을 주제로 한 분석을 발간했다. 일본 공급망 재편이 한국 기업의 조달 환경에 어떤 변화를 가져올 수 있는지를 다룬 것으로, 두 보고서가 같은 시기에 나온 점이 눈에 띈다.",
+            "로드맵의 단계별 이행 주체, 투자 규모, 대상 품목 범위에 대해서는 현재 공개된 자료에서 구체적 내용이 확인되지 않는다. 조달 담당자는 협력 협정의 실제 이행 일정과 양국 정부 공식 채택 여부를 별도로 추적할 필요가 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        25,
+        21
+      ],
+      "image_keyword": "chip wafer joint research lab",
+      "is_featured": false,
+      "timestamp": "오후 02:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "한일경제연대, AI·반도체 공동개발부터 경제공동체까지…2045년 목표 3단계 로드맵 제시 - 인공지능신문",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlekItNE45ZDRaT0VsMU9RUUNobTh2bTRjQnU3Uk8wZWp3cDdrQVBBQk5xamtUbExoVDRzSlYxdGdwYy1BbktDOHU4NUI0VkhoX2Q0NHU5VWFOTVRBYzA1YW5QeEdRd3c?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-13"
+        },
+        {
+          "title": "일본의 반도체 공급망구조 변화와 한국에 대한 시사점 | APEC Study Series | 영문자료 | 발간물 - 대외경제정책연구원",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdXZ6QmZQblVDUkI2aTdTMlViaE1VcTQwcmFDVjlYd1dzY1ZxMUoxUTAtNTEtV244eGhfV3RCYXhYbjd6ZUtha3l1QjJEZU1rbVM2TEgteTRKWElOUF95SXdjbHFmWlZ0X3FVSmgzd3lMWU56c3FtT2l5R0RaaHJrRHpVQVhpcFdxV0M1bDFPNlcxa3I1elR6dy1SWUhySXg0bG93RVdMOUh6dDBxX2hTVUtxUXc4RVdvT0VSSnhvNlpJZm1BNHdfNVFVdHowbXdKVHpCTm5BSDdXbVR2Y2VIeDA0VnY?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-16"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-17_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "한일경제연대의 2045년 3단계 로드맵 — 이행 주체·투자 규모·대상 품목 세부 내용 미공개",
+          "대외경제정책연구원 2026년 11월 16일 발간 보고서 — 제목·내용 직접 접근 불가로 완전 검증 미완"
+        ],
+        "image_keyword_ok": true,
+        "notes": "출처 기관(인공지능신문·KIEP) 실재하며 주제 개연성 높음. 로드맵 세부사항 미확인은 본문 내 명시됨.",
+        "verified_at": "2026-11-17 08:17"
+      }
+    }
+  ],
+  "editorial_briefing": "미국의 핵심광물 자립 추진 난항 속에 한국 기업의 공급망 역할이 주목받고 있으며, 한일 AI·반도체 협력 로드맵과 함께 기술 패권 경쟁에서 협력 구도가 형성되고 있다. 한국 수출 증가에도 중국 추격과 미국 압박이 동시 작용하는 이중 구조가 제조업 기반에 영향을 미치고 있다.",
+  "key_signals": [
+    {
+      "icon": "🟢",
+      "label": "핵심광물 공급 기회",
+      "status": "한국기업 역할 부상"
+    },
+    {
+      "icon": "🟡",
+      "label": "제조업 기반 약화",
+      "status": "이중압박 지속"
+    },
+    {
+      "icon": "🟢",
+      "label": "한일 반도체 협력",
+      "status": "3단계 로드맵 추진"
+    },
+    {
+      "icon": "🟡",
+      "label": "중국 수출통제",
+      "status": "단기 유예 연장"
+    },
+    {
+      "icon": "🟡",
+      "label": "공급망 재편",
+      "status": "구조 변화 진행중"
+    }
+  ],
+  "last_reviewed_at": "2026-11-17 08:17"
+}
