@@ -4,6 +4,10 @@
     {
       "number": 1,
       "sha256": "c18a150220ed63f3f7a27a6baa0333e67bac38b7ce40bd91cc9ff06b42afd7f7"
+    },
+    {
+      "number": 2,
+      "sha256": "1a2bda83d0acd8a7dd03bf72e097251200235f697e27fe30028b63ed0924d7c5"
     }
   ]
 }
