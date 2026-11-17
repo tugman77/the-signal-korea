@@ -8,6 +8,10 @@
     {
       "number": 2,
       "sha256": "1a2bda83d0acd8a7dd03bf72e097251200235f697e27fe30028b63ed0924d7c5"
+    },
+    {
+      "number": 3,
+      "sha256": "e340f6340972cf93c71bba423f5769632100d36bfc36383027184bda4c13ced6"
     }
   ]
 }
