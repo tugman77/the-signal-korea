@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 08:16:31 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 08:17:38 +0900</lastBuildDate>
+    <item>
+      <title>중국산 데이터센터 장비 규제, 빅테크가 반발하는 까닭</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-20-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-20-0.html</guid>
+      <category>기술패권</category>
+      <description>미국이 중국산 데이터센터 장비 규제를 추진하면서 아마존·MS 등 빅테크가 반발에 나섰다. IT 인프라 장비 조달 담당자라면 현재 계약 구조와 대체 공급처 가용성을 점검해볼 시점이다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>전기차·배터리 공급망 재편, 중국 의존도가 핵심 변수로 부상</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-20-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-20-1.html</guid>
+      <category>공급망전쟁</category>
+      <description>글로벌 전기차·배터리 공급망 재편 국면에서 중국 의존도와 기술 경쟁이 핵심 변수로 지목됐다. 카네기 국제평화재단은 한국이 배터리 2위를 유지하려면 더 많은 협력 파트너가 필요하다고 분석했다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>'수렴의 종언'이 조달 전략의 전제를 바꾼다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-20-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-20-2.html</guid>
+      <category>글로벌분석</category>
+      <description>CFR이 국가 간 경제·기술 수렴이 끝났다는 분석을 발표했다. 단일 글로벌 공급망을 전제한 조달 설계의 근거가 약해질 수 있는지 점검이 필요한 시점이다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>한국·필리핀 정상회담, 동남아 공급망 협력 확대</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-19-0.html</link>
@@ -222,30 +246,6 @@
       <category>산업전략</category>
       <description>헝가리가 산업생태계 강화를 통한 EU 수출 확대 전략의 일환으로 한국 기업 투자 유치에 나섰다. 유럽 현지 생산 거점이 필요한 조달 구조를 검토 중인 기업은 헝가리의 인센티브 조건을 확인할 수 있다.</description>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>칩 인재 전쟁, 공급망 보안의 새 변수로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-0.html</guid>
-      <category>기술패권</category>
-      <description>반도체 인재 확보 경쟁이 기술 유출 위험과 맞물리면서 공급망 보안의 새 변수로 부상하고 있다. 조달 담당자는 협력사의 인력 구조와 기술 보안 체계를 점검할 필요가 생겼다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>인피니언, AI 데이터센터 전력칩을 성장 축으로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-1.html</guid>
-      <category>공급망전쟁</category>
-      <description>인피니언이 AI 데이터센터용 전력 반도체를 핵심 성장 동력으로 제시했다. 데이터센터 전력·냉각 인프라 조달 담당자는 전력 반도체 수급 여건 변화를 살펴볼 필요가 있다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>Pax Silica 5년, 반도체 지정학의 궤적</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-09-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-09-2.html</guid>
-      <category>글로벌분석</category>
-      <description>ITIF가 반도체 지정학 질서 'Pax Silica'의 형성 과정을 타임라인으로 정리했다. 조달 담당자는 이 흐름이 중장기 공급망 구조 변화와 어떻게 연결되는지 살펴볼 수 있다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

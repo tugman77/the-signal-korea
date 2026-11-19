@@ -1,41 +1,80 @@
 {
-  "generated_at": "2026년 11월 19일 08:16",
-  "date_str": "2026년 11월 19일",
-  "date_key": "2026-11-19",
+  "generated_at": "2026년 11월 20일 08:17",
+  "date_str": "2026년 11월 20일",
+  "date_key": "2026-11-20",
   "articles": [
     {
       "id": 0,
-      "topic_key": "한국필리핀-AI반도체조선-동남아공급망",
-      "category": "글로벌분석",
-      "tag_type": "tag-global",
-      "article_type": "brief",
-      "title": "한국·필리핀 정상회담, 동남아 공급망 협력 확대",
-      "summary": "한국과 필리핀이 AI·반도체·조선 분야 동맹 확대를 공식화하면서 동남아 공급망 재편 가능성이 생겼다. 협력의 구체적 품목과 이행 일정은 아직 공개되지 않았다.",
+      "topic_key": "중국산-데이터센터장비-규제-빅테크반발",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "중국산 데이터센터 장비 규제, 빅테크가 반발하는 까닭",
+      "summary": "미국이 중국산 데이터센터 장비 규제를 추진하면서 아마존·MS 등 빅테크가 반발에 나섰다. IT 인프라 장비 조달 담당자라면 현재 계약 구조와 대체 공급처 가용성을 점검해볼 시점이다.",
       "key_points": [
-        "2026년 11월 18일 보도 기준, 한국·필리핀 정상회담에서 AI·반도체·조선 분야 협력 확대가 합의됐다",
-        "협약의 구체적 품목, 납기 조건, 이행 일정은 공식 발표되지 않았다"
+        "미국 정부가 중국산 데이터센터 장비에 대한 규제를 추진 중이며 아마존·MS 등이 반발하고 있다",
+        "빅테크 반발의 구체적 근거와 규제 최종안 발표 일정은 아직 공개되지 않았다",
+        "미중 기술 갈등은 반도체를 넘어 데이터센터 인프라 전반으로 확산되는 추세다"
       ],
       "sections": [
         {
-          "heading": "",
+          "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "2026년 11월 18일 테크데일리 보도에 따르면, 한국과 필리핀 정상회담에서 AI·반도체·조선 분야 동맹 확대가 논의됐다. 이를 계기로 동남아 공급망 재편 기회가 생길 수 있다는 분석이 함께 나왔다.",
-            "다만 협력의 구체적 품목, 납기 조건, 이행 로드맵은 현재 공개되지 않은 상태다. 조달 담당자라면 후속 발표에서 어떤 품목이 협력 범위에 포함되는지, 국내 조달 경쟁 구조에 변화가 생기는지 확인할 필요가 있다."
+            "2026년 11월 20일 보도에 따르면, 미국이 중국산 데이터센터 장비에 대한 규제를 추진하는 가운데 아마존·MS 등 빅테크들이 반발하고 있다. 규제 추진의 배경에는 미중 기술 패권 경쟁 심화가 있다. 11월 18일 보도는 트럼프-시진핑 간 외교적 접근에도 불구하고 미중 기술 패권 다툼이 점점 격화되고 있다고 분석했다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "빅테크가 규제에 반발하는 이유로는 공급망 전환에 따른 비용 부담과 대체 장비의 가용성 문제가 거론된다. 데이터센터 장비는 서버·네트워크 스위치·스토리지 등 품목 범위가 넓고, 중국산 부품이 여러 단계 공급망에 걸쳐 있어 원산지 추적이 복잡하다. 규제 범위와 시행 시점이 확정되지 않은 상황에서 빅테크의 반발이 최종 규제안에 어떻게 반영될지는 아직 불확실하다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "IT 인프라 조달 담당자라면 현재 계약 중인 데이터센터 장비의 원산지 구성, 계약서 내 규제 변화 대응(불가항력·가격조정) 조항 여부, 비중국산 대체 장비 인증 소요 기간을 확인해볼 수 있다. 최종 규제 범위에 따라 조달 품목별 영향이 달라질 수 있어, 공급업체로부터 원산지 증명 자료를 선제적으로 요청해두는 것이 선택지 중 하나가 될 수 있다."
           ]
         }
       ],
-      "watch_items": [],
-      "source_ids": [
-        15
+      "watch_items": [
+        {
+          "label": "규제 최종안 발표 일정",
+          "detail": "미국 행정부의 중국산 데이터센터 장비 규제 최종안 확정 및 시행 시점 공식 발표"
+        },
+        {
+          "label": "빅테크 반발의 공식 입장",
+          "detail": "아마존·MS 등이 제출하는 의견서 또는 대체 조달 로드맵 공개 여부"
+        },
+        {
+          "label": "규제 품목 범위",
+          "detail": "서버·스토리지·네트워크 장비 중 어떤 품목이 적용 대상에 포함되는지 세부 고시"
+        }
       ],
-      "image_keyword": "Korea Philippines summit trade agreement",
+      "source_ids": [
+        3,
+        19,
+        5
+      ],
+      "image_keyword": "data center server rack",
       "is_featured": true,
-      "timestamp": "오전 09:30",
+      "timestamp": "오후 02:00",
       "format": "v2",
       "sources": [
         {
-          "title": "한국과 필리핀 정상회담, AI·반도체·조선 동맹 확대… 동남아 공급망 재편의 기회 - 테크데일리",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUeHpRY0J0T1Zyd3p6cjgyZEoxdExoclBqeE9QY25wOE1RVk9SWXM2NnVUalJyR3E0U0NHREZfWXRzUmFvd1dpX0pMMm1mV1BSR3ZXemVaYjd0ZXkxNUVUOVFnWmJsS0V0NFpELUN30gFyQVVfeXFMT2dIUmg3b0VCSzBMSnRoNWRRbk9UMjhEQVdiMThyRE9VODN0RzlqeU1xUXoxM1VJSkNFd0k2LVZqZ1BrZTNMWmp5cGdUU1p3SFozODFha0FVQ19Pa3ZUZnRqM3RpZ1lhcVpwN0pzczhXX2xn?oc=5",
+          "title": "[마켓인사이드] 중국산 데이터센터 장비 규제에 아마존·MS 등 빅테크들이 반발하는 이유 - 뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNmxiNmwxdDJ2eWRXTnJMTUh3RFAzeE1JV05YaWNBWEx2MFpSbjg1VlBNMm9LN2d3ZlJDYUROYmhzVmJxMXpsdzByTjFqMTNacHpXMHdadDZxRXV5QkE?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "[마켓인사이드] 중국산 데이터센터 장비 규제에 아마존·MS 등 빅테크들이 반발하는 이유 - 뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNmxiNmwxdDJ2eWRXTnJMTUh3RFAzeE1JV05YaWNBWEx2MFpSbjg1VlBNMm9LN2d3ZlJDYUROYmhzVmJxMXpsdzByTjFqMTNacHpXMHdadDZxRXV5QkE?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "트럼프·시진핑 브로맨스에도…미중 기술 패권다툼 점점 격화 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRdIBYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRQ?oc=5",
           "source": "GoogleNews",
           "date": "2026-11-18"
         }
@@ -46,51 +85,84 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-19_article_1.jpg",
+      "image_url": "images/2026-11-20_article_0.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "AI·반도체·조선 협력 범위·이행 로드맵 미공개로 구체성 검증 불가"
+          "규제 범위·시행 시점이 확정되지 않은 상태에서 빅테크 반발 세부 내용은 미확인",
+          "중국산 부품 원산지 추적 복잡성 주장은 사실이나 구체적 근거 미제시"
         ],
-        "image_keyword_ok": false,
-        "notes": "정상회담 사실은 개연성 높으나 협력 세부 내용 미확인, 이미지 키워드 수정 권고",
-        "verified_at": "2026-11-19 08:16"
+        "image_keyword_ok": true,
+        "notes": "기업·기관명 실존, 미중 기술패권 맥락 부합. 규제 확정 여부 유보 표현 적절.",
+        "verified_at": "2026-11-20 08:18"
       }
     },
     {
       "id": 1,
-      "topic_key": "중견기업-공급망재편-AI전환-컨퍼런스",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
-      "article_type": "brief",
-      "title": "중견기업 공급망 재편·AI 전환 대응 논의 본격화",
-      "summary": "2026년 11월 18일 개최된 중견기업 혁신 컨퍼런스에서 공급망 재편과 AI 전환 대응이 핵심 의제로 다뤄졌다. 중견 규모 조달 조직이 어떤 선택지를 갖는지 가늠할 수 있는 자리였다.",
+      "topic_key": "전기차배터리-공급망재편-중국의존도",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "explainer",
+      "title": "전기차·배터리 공급망 재편, 중국 의존도가 핵심 변수로 부상",
+      "summary": "글로벌 전기차·배터리 공급망 재편 국면에서 중국 의존도와 기술 경쟁이 핵심 변수로 지목됐다. 카네기 국제평화재단은 한국이 배터리 2위를 유지하려면 더 많은 협력 파트너가 필요하다고 분석했다.",
       "key_points": [
-        "2026 중견기업 혁신 컨퍼런스가 2026년 11월 18일 개최됐고, 공급망 재편과 AI 전환이 주요 의제였다",
-        "컨퍼런스의 구체적 논의 내용과 결과물은 아직 상세히 보도되지 않았다"
+        "글로벌 전기차·배터리 공급망 재편에서 중국 의존도와 기술 경쟁이 핵심 변수로 지목됐다",
+        "카네기 국제평화재단은 한국 배터리 2위 유지를 위해 추가 파트너십이 필요하다고 분석했다",
+        "재편 속도와 한국 기업의 협력 파트너 확보 성과는 아직 확인되지 않은 변수다"
       ],
       "sections": [
         {
-          "heading": "",
+          "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "2026년 11월 18일 산업일보 보도에 따르면, '2026 중견기업 혁신 컨퍼런스'가 개최됐다. 공급망 재편과 AI 전환 대응 방안을 모색하는 자리로 소개됐다.",
-            "컨퍼런스의 세부 발표 내용과 합의된 방향은 현재 추가 보도가 나오지 않은 상태다. 중견기업 규모의 조달 조직이라면 이 자리에서 어떤 품목·파트너십이 논의됐는지, 정부 지원 프로그램과 연계 가능성이 있는지 후속 자료를 통해 확인하는 것이 출발점이 될 수 있다."
+            "2026년 11월 19일 보도에 따르면 글로벌 전기차·배터리 공급망이 재편 국면에 접어들면서 중국 의존도와 기술 경쟁이 핵심 변수로 부각되고 있다. 같은 시기 카네기 국제평화재단은 한국이 글로벌 배터리 경쟁에서 2위를 유지하려면 더 많은 협력 파트너가 필요하다는 분석을 발표했다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "중국은 배터리 소재와 셀 생산 양측에서 높은 비중을 차지하고 있어, 공급망 재편이 논의되더라도 단기간 내 의존도를 낮추기 어려운 구조다. 카네기 분석은 한국이 단독 역량만으로는 2위 유지가 어렵고 외부 파트너십 확대가 필요하다는 점을 지적한다. 이는 소재·셀 공급망에서 한국 기업이 단독 조달 전략보다 복수 협력 구조로 이동할 가능성을 열어둔다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "배터리 소재·셀·팩을 조달하는 담당자라면 현재 공급처의 중국 원산지 비중, 대체 공급처 인증 현황과 소요 기간, 계약 내 가격조정 조항이 소재 가격 변동을 반영하는지 확인해볼 수 있다. 한국 배터리 기업의 협력 파트너 확대 여부는 2차·3차 공급망 구조에도 영향을 미칠 수 있어, 공급업체의 파트너십 동향을 모니터링하는 것이 선택지 중 하나다."
           ]
         }
       ],
-      "watch_items": [],
-      "source_ids": [
-        13
+      "watch_items": [
+        {
+          "label": "한국 배터리 기업의 협력 파트너 확대 발표",
+          "detail": "카네기 분석에서 필요성이 지적된 외부 파트너십 계약 또는 합작 발표 여부"
+        },
+        {
+          "label": "중국산 배터리 소재 추가 수출통제 가능성",
+          "detail": "중국 정부의 배터리 소재 수출통제 품목 확대 또는 유예 기간 변동 여부"
+        },
+        {
+          "label": "전기차 공급망 재편 정책 일정",
+          "detail": "미국·EU의 전기차 배터리 원산지 규정 개정 및 시행 일정 확정 여부"
+        }
       ],
-      "image_keyword": "business conference hall presentation",
+      "source_ids": [
+        14,
+        9
+      ],
+      "image_keyword": "electric vehicle battery cell module",
       "is_featured": false,
-      "timestamp": "오전 09:30",
+      "timestamp": "오후 02:30",
       "format": "v2",
       "sources": [
         {
-          "title": "공급망 재편·AI 전환 대응 모색…‘2026 중견기업 혁신 컨퍼런스’ 개최 - 산업일보",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBJTm1ZbV9ZZlRBUDRwRERzbnN1SXdKVk9ZRnNmVTJiaHI5b3RicnBDSGpEamJDOUV4SG43TDh5Q2Zpdzhp?oc=5",
+          "title": "글로벌 전기차·배터리 공급망 재편… 중국 의존도·기술경쟁이 핵심 변수 - 에너지프로슈머",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kbHVxbGtuUzZ3aUdNUXZwY2lsdk5HSERtaHhHQmFSeWdiTjJSNHJWRGJuVGZCUnUwelduNDhGRElFR0E4bzE0YkU4TG4?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-19"
+        },
+        {
+          "title": "To Keep Its Second Place in the Global Battery Race, Seoul Needs More Teammates - Carnegie Endowment for International Peace",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzFRa2haRmt3TnFyd09Xc1BjLTg5WGZtYVY4bnRBNjlPZVVGLWx0alV5ZjdTVjBhVHNhSXcxYng0aGV3LXk5ZlQxTjFnSTdLVi1pdWZGMjltdEpPTURlenJiQlMwZDBZalBBUHhQT0U5bGo3Wm5hLWNLYVp1ZnI1cDduX1kzSFY4?oc=5",
           "source": "GoogleNews",
           "date": "2026-11-18"
         }
@@ -101,45 +173,148 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-19_article_2.jpg",
+      "image_url": "images/2026-11-20_article_1.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "컨퍼런스 세부 발표 내용·합의 방향 미공개로 내용 검증 한계"
+          "카네기 국제평화재단 분석 발표 날짜 및 원문 제목 직접 확인 필요",
+          "한국 배터리 글로벌 2위 유지 조건 관련 수치 근거 미제시"
         ],
         "image_keyword_ok": true,
-        "notes": "단일 출처 기반이나 사실성 오류 없음, 세부 내용 후속 확인 권고",
-        "verified_at": "2026-11-19 08:16"
+        "notes": "카네기재단 실존, 한국 배터리 2위 현황 업계 개연성 있음. 수치 부재는 아쉬움.",
+        "verified_at": "2026-11-20 08:18"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "CFR-수렴의종언-조달전략전제",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "analysis",
+      "title": "'수렴의 종언'이 조달 전략의 전제를 바꾼다",
+      "summary": "CFR이 국가 간 경제·기술 수렴이 끝났다는 분석을 발표했다. 단일 글로벌 공급망을 전제한 조달 설계의 근거가 약해질 수 있는지 점검이 필요한 시점이다.",
+      "key_points": [
+        "CFR은 2026년 11월 14일 국가 간 경제·기술 수렴이 종언을 맞고 있다는 분석을 발표했다",
+        "미중 기술 패권 갈등이 심화되는 가운데 AX(AI 전환)를 공급망 리스크 대응 수단으로 활용하려는 움직임이 기업 현장에서 나타나고 있다",
+        "수렴 종언이 조달 구조에 미치는 실제 속도와 범위는 아직 불확실하다"
+      ],
+      "sections": [
+        {
+          "heading": "핵심 질문",
+          "paragraphs": [
+            "미국 싱크탱크 외교관계위원회(CFR)가 2026년 11월 14일 발표한 분석 'The End of Convergence'는 국가 간 경제·기술 수렴이 종언을 맞고 있다는 주장을 제기했다. 수렴(convergence)은 세계화 시대에 각국이 비슷한 기술·제도·시장 구조로 모여든다는 가정이었다. 이 가정이 흔들린다면, 단일 글로벌 공급망을 전제한 조달 설계가 그 근거를 잃는 속도는 어느 정도일까."
+          ]
+        },
+        {
+          "heading": "사실과 맥락",
+          "paragraphs": [
+            "11월 18일 복수 보도는 트럼프-시진핑 간 외교적 접근에도 불구하고 미중 기술 패권 경쟁이 점점 격화되고 있다고 전했다. 반도체·AI를 넘어 데이터센터 장비까지 규제 범위가 확대되는 흐름은 기술 분야에서 수렴보다 분기(divergence)가 진행 중임을 보여주는 사례로 읽힌다. 같은 시기 국내 기업 현장에서는 글로벌 공급망 재편과 통상 리스크에 대응하기 위한 AI 전환(AX) 활용 방안이 논의되고 있다는 보도도 나왔다."
+          ]
+        },
+        {
+          "heading": "구조적 배경",
+          "paragraphs": [
+            "수렴의 전제가 약해지는 속도는 산업과 품목에 따라 다르다. 범용 소비재 공급망은 단기간 내 큰 변화가 없을 수 있지만, 반도체·배터리·데이터센터 장비처럼 국가 안보와 연결된 품목은 규제 변화의 영향을 먼저 받는 경향이 있다. CFR 분석의 함의가 실제 조달 환경에서 체감되는 속도는 각국의 정책 집행 의지와 대체 공급망 완성도에 달려 있다."
+          ]
+        },
+        {
+          "heading": "가능한 시나리오와 한계",
+          "paragraphs": [
+            "수렴 종언이 가속화될 경우, 지역별 공급망 이중화 설계와 복수 공급처 인증이 선택이 아닌 전제 조건으로 바뀔 수 있다. 반대로 미중 간 특정 품목에서 타협이 이루어지면 분기 속도가 늦춰질 수 있다. 현 시점에서 CFR 분석이 미국 정책에 얼마나 반영될지는 공식 확인되지 않았다. 조달 담당자 입장에서는 수렴 종언을 기정사실로 전제하기보다, 현재 계약의 단일 공급처 의존도와 지역 편중 여부를 점검하는 출발점으로 삼는 것이 현실적인 접근이다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "CFR 분석의 정책 반영 여부",
+          "detail": "미국 행정부 또는 의회의 디커플링 관련 추가 정책·법안 발표"
+        },
+        {
+          "label": "미중 기술 갈등 범위 확대 지표",
+          "detail": "반도체·데이터센터 장비 외 추가 품목 범주로 규제 대상 확대 여부"
+        },
+        {
+          "label": "AX 기반 공급망 리스크 관리 도입 사례",
+          "detail": "국내 중견·대기업의 AI 전환 기반 공급망 가시성 확보 솔루션 도입 발표"
+        }
+      ],
+      "source_ids": [
+        10,
+        5,
+        13
+      ],
+      "image_keyword": "cargo container port crane",
+      "is_featured": false,
+      "timestamp": "오후 03:00",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "The End of Convergence - Council on Foreign Relations",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE52NVJyNGhkU1ZjdlM0dUxLbGExbWV5ZUpXajZLV0JRcm9ROEVBNUpXQ3Y4LThTV0ZIa1JnVnl3UC1pM1Z3NVl5WVJXRl9DN1g1QkhnRzlXYjFFY0ROMFZv?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-14"
+        },
+        {
+          "title": "트럼프·시진핑 브로맨스에도…미중 기술 패권다툼 점점 격화 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRdIBYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "글로벌 공급망 재편·통상 리스크…AX로 해법 모색 - 지디넷코리아",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2QWZpamZjcWNQMHlHdExpdVBDbm9xUkVtUGdLbDZHcWJVS0ktaG9vVi1uSU1MS08zZFktelMxLTNuVjNHb3hFM3ZHdFJZSlRYaHVLbUNB?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-19"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-20_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "CFR 'The End of Convergence' 보고서 2026-11-14 발표 여부 직접 확인 필요",
+          "CFR 분석의 미국 정책 반영 여부는 미확인으로 기사 내 유보 표현은 적절"
+        ],
+        "image_keyword_ok": true,
+        "notes": "CFR 실존 기관, 수렴 종언 논거 맥락 타당. 보고서 존재 여부 원문 확인 권장.",
+        "verified_at": "2026-11-20 08:18"
       }
     }
   ],
-  "editorial_briefing": "미중 기술 패권 경쟁 속에 글로벌 기업들이 중국 시장과 공급망 사이에서 이중 압박을 받고 있으며, 한국은 필리핀과 AI·반도체·조선 분야 협력을 확대해 동남아 공급망 재편에 나서고 있다. 국내 중견기업들도 공급망 재편과 AI 전환을 주요 과제로 논의하기 시작했다.",
+  "editorial_briefing": "미국의 중국산 데이터센터 장비 규제 추진과 전기차·배터리 공급망 재편으로 중국 의존도가 조달 전략의 핵심 변수로 부상했다. 국가 간 경제·기술 수렴이 약화되면서 단일 글로벌 공급망을 전제한 조달 설계의 재검토 필요성이 제기되고 있다.",
   "key_signals": [
     {
       "icon": "🔴",
-      "label": "미중 기술 패권 압박",
-      "status": "이중 압박 심화"
+      "label": "중국산 장비 규제",
+      "status": "규제 추진 중"
     },
     {
       "icon": "🟡",
-      "label": "중국 공급망 리스크",
-      "status": "지속 모니터링"
+      "label": "빅테크 반발",
+      "status": "업계 대응 주시"
     },
     {
-      "icon": "🟢",
-      "label": "한-필 공급망 협력",
-      "status": "협력 공식화"
+      "icon": "🔴",
+      "label": "배터리 공급망 재편",
+      "status": "중국 의존 리스크"
     },
     {
       "icon": "🟡",
-      "label": "동남아 공급망 재편",
-      "status": "일정 미확정"
+      "label": "한국 배터리 경쟁력",
+      "status": "2위 유지 도전"
     },
     {
-      "icon": "🟢",
-      "label": "중견기업 AI 전환",
-      "status": "논의 본격화"
+      "icon": "🟡",
+      "label": "공급망 수렴 종언",
+      "status": "조달 전략 재검토"
     }
-  ]
+  ],
+  "last_reviewed_at": "2026-11-20 08:18"
 }
