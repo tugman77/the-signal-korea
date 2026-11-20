@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026년 11월 21일 08:16",
+  "date_str": "2026년 11월 21일",
+  "date_key": "2026-11-21",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "미국-반도체수출통제-중국맞대응-카드",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "explainer",
+      "title": "미국 반도체 규제 강화, 중국의 맞대응 카드는",
+      "summary": "미국이 대중국 반도체 수출통제를 강화하자 중국이 맞대응 수단을 모색하고 있다. 조달 담당자는 중국산 부품·소재 의존 계약의 불확실성을 점검할 시점이다.",
+      "key_points": [
+        "미국은 AI 반도체 우회 접근을 막기 위해 동남아 4개국·브라질까지 수출통제 대상을 확대했다",
+        "중국이 어떤 맞대응 수단을 택할지, 그 범위와 시점은 아직 공개되지 않았다",
+        "엔비디아·애플 등 글로벌 기술기업은 중국 시장과 공급망 양쪽에서 압박을 받고 있다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 20일 보도에 따르면, 미국이 대중국 반도체 수출통제를 추가 강화하자 중국이 공개적으로 반발하며 맞대응 카드를 검토하고 있다. 미국은 앞서 11월 17일에는 중국의 AI 반도체 우회 접근을 차단하기 위해 동남아 4개국과 브라질까지 수출통제 대상 범위를 넓혔다.",
+            "엔비디아와 애플은 중국 시장 매출과 중국 내 공급망 모두 위험에 처할 수 있다는 분석이 나왔다. 11월 18일 보도는 이들 기업이 중국 사업 딜레마에 직면해 있다고 전했다."
+          ]
+        },
+        {
+          "heading": "왜 주목해야 하나",
+          "paragraphs": [
+            "미국의 수출통제가 제3국으로 확장된다는 것은, 동남아 등 우회 경로를 활용하던 공급망 구조가 더 이상 안전지대가 아닐 수 있음을 의미한다. 조달 담당자 입장에서는 현재 계약 중인 부품·장비의 원산지와 제조 경로를 다시 살펴볼 필요가 생긴다.",
+            "중국의 맞대응 카드가 무엇이 될지는 아직 확인되지 않았다. 다만 중국은 희토류 등 원자재 수출통제를 과거에도 활용한 바 있어, 소재 조달 계약의 가격조정 조항이나 불가항력 조항 적용 여부가 실질적인 점검 항목이 된다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "반도체·AI 장비를 직접 조달하지 않더라도, 이 장비를 쓰는 협력사나 납품업체가 규제 대상 품목에 걸릴 경우 간접적인 납기·단가 변동이 발생할 수 있다. 단일 공급처 의존도가 높은 품목일수록 대체 공급처 인증 기간을 미리 파악해 두는 것이 유용하다.",
+            "미국과 한국 등 9개국이 AI 공급망 공동 보호에 합의했다는 11월 16일 보도도 있었다. 이 합의가 실제 조달 규정이나 인증 요건 변화로 이어질지는 추가 발표를 확인해야 한다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "중국 맞대응 조치 발표 여부",
+          "detail": "중국 정부가 반도체 또는 소재 분야에서 수출통제 등 공식 대응 조치를 발표하는지 확인"
+        },
+        {
+          "label": "동남아 수출통제 대상국 이행 일정",
+          "detail": "미국이 확대 적용한 동남아 4개국·브라질의 구체적 품목 목록과 시행 시점 공개 여부"
+        },
+        {
+          "label": "AI 공급망 공동 보호 합의 후속 조치",
+          "detail": "한국 포함 9개국 합의가 조달 인증·규정 변화로 구체화되는지 각국 정부 발표 모니터링"
+        }
+      ],
+      "source_ids": [
+        2,
+        8,
+        6,
+        34
+      ],
+      "image_keyword": "semiconductor chip export inspection",
+      "is_featured": true,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "미국, 중국 AI 반도체 우회 접근 차단…동남아 4개국·브라질까지 수출통제 확대 - 뉴스워커",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iMmU3U0NXa1RwcmtoeDctVEtiT3dqWk92UVhjeFpRQ3hhZ2F4cS1rWGhVWVlCRGZ2T2laUEhGNFplLVRGVU9jQ1pEQkl2b1o2Nmc3b2hPS1lpei1ZQkN6YnBGYXpUT2RjRWRMbEJxSzPSAXRBVV95cUxQSEF4TWZFb1o5Q1FRQzNycWFaaVh5dHpkdnNOZXZ4VWRRNVU3UTVVZ0hjOS03eFBabm9saDJRMTdsNkZMM3BDMmFXdEl5NmpUa0pqcnh6NGcxZDhaVi1pREl0V2JCR01hcDZRTkczUUFpTGpySg?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "엔비디아·애플, 미중 갈등에 중국 사업 딜레마…“시장·공급망 모두 위험” - 헬로티",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOSEgxd1pDR2NLbjlGSDNnelNlLTg5cVB4UGpaSFVCbTVfcDZMdVdiekZ0akZvb2V2Qzluc0ZZdE1kWUs5bnhWU3J0aV80cDB2UEFHaDM3SldpemsxRW5r?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "US, South Korea and Seven Others Agree to Jointly Protect AI Supply Chains as China Risks Rise - bloomingbit",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Pay12c25rZ05WaDJoWndOeGlYV1gwcHd5SXMySGo1VEE4c2s2NmRzbzZJOWEwdVFmLTRkeE1TcjZ1aFAyNE45Yjl4VzlRbHZ2WmlnVg?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-16"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-21_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "미국·한국 등 9개국 AI 공급망 공동 보호 합의 — 구체적 합의 내용 및 참여국 목록 미확인",
+          "동남아 4개국·브라질까지 수출통제 확대 — 대상국 명단 원문 확인 필요",
+          "중국 맞대응 카드 내용이 추측 수준으로 서술됨"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 사실은 개연성 있으나 일부 세부 사항 추가 확인 권장",
+        "verified_at": "2026-11-21 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "미국-중국산-데이터센터장비-AI인프라-공급망",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "explainer",
+      "title": "AI 인프라 조달, 반도체 너머로 범위 넓어진다",
+      "summary": "AI 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·소재 등 주변 공급망으로 확산되고 있다. 데이터센터 장비 조달 담당자는 규제 대상 품목 범위가 어디까지인지 확인할 필요가 있다.",
+      "key_points": [
+        "미국이 중국산 데이터센터 장비 규제를 추진하면서 아마존·MS 등 빅테크가 반발에 나섰다",
+        "AI 인프라 수요가 칩 너머 전력·소재로 확장되고 있다는 분석이 나왔다",
+        "어떤 장비 품목이 규제 대상에 포함될지 최종 범위는 아직 공개되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 20일 보도에 따르면, 미국 정부가 중국산 데이터센터 장비 규제를 추진하고 있으며 아마존·MS 등 빅테크가 이에 반발하고 있다. 빅테크들이 반발하는 이유는 현재 운영 중인 데이터센터 인프라의 상당 부분이 중국산 부품에 의존하고 있어, 규제가 현실화될 경우 조달 비용과 교체 기간 양쪽에서 부담이 생기기 때문이다.",
+            "삼성은 11월 17일 보도에서 AI 반도체를 넘어 데이터센터 인프라 전반으로 사업 범위를 확장하는 전략을 공식화했다. AI 인프라 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·소재 등 주변 공급망으로 확산되고 있다는 분석도 같은 시기에 나왔다."
+          ]
+        },
+        {
+          "heading": "조달에 어떤 영향이 있을까",
+          "paragraphs": [
+            "데이터센터 장비를 직접 구매하거나 운영하는 기업이라면, 현재 계약 중인 장비의 원산지 구성을 먼저 파악하는 것이 출발점이 된다. 규제 대상 품목 최종 목록이 아직 확정되지 않은 만큼, 계약서의 가격조정 조항이나 규격 변경 조항이 어떻게 적용될 수 있는지 확인할 필요가 있다.",
+            "AI 인프라 수요 확대로 전력 설비, 냉각 소재 등 주변 품목의 조달 환경도 달라질 수 있다. 단일 공급처에 의존하는 품목이 있다면 대체 공급처 인증에 걸리는 기간을 미리 파악해 두는 것이 유용하다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "미국 데이터센터 장비 규제 품목 목록 확정",
+          "detail": "규제 대상 중국산 장비의 구체적 품목과 시행 시점이 연방관보 등에 공개되는지 확인"
+        },
+        {
+          "label": "빅테크 반발의 협상 결과",
+          "detail": "아마존·MS 등이 제기한 반발이 규제 범위 조정으로 이어지는지 미 행정부 발표 모니터링"
+        },
+        {
+          "label": "AI 인프라 주변 소재 수급 변화",
+          "detail": "전력 설비·냉각 소재 등 AI 인프라 연관 품목의 단가·납기 변동 여부를 분기별로 점검"
+        }
+      ],
+      "source_ids": [
+        4,
+        28,
+        20
+      ],
+      "image_keyword": "data center server rack cooling",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "[마켓인사이드] 중국산 데이터센터 장비 규제에 아마존·MS 등 빅테크들이 반발하는 이유 - 뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNmxiNmwxdDJ2eWRXTnJMTUh3RFAzeE1JV05YaWNBWEx2MFpSbjg1VlBNMm9LN2d3ZlJDYUROYmhzVmJxMXpsdzByTjFqMTNacHpXMHdadDZxRXV5QkE?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "삼성, AI 반도체 넘어 데이터센터까지… 한국 AI 인프라 산업의 새로운 성장전략 - 한국공공정책신문",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9mVDh3cUhIVWxYWWEwcVhMeUM1aGphdmh2bFliWktkSDNnUUJpWU5NekJoT1FWSDJRaEZSY010Tmw1eFE?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-17"
+        },
+        {
+          "title": "[마켓인사이드] 중국산 데이터센터 장비 규제에 아마존·MS 등 빅테크들이 반발하는 이유 - 뉴스투데이",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBkNmxiNmwxdDJ2eWRXTnJMTUh3RFAzeE1JV05YaWNBWEx2MFpSbjg1VlBNMm9LN2d3ZlJDYUROYmhzVmJxMXpsdzByTjFqMTNacHpXMHdadDZxRXV5QkE?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-20"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-21_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "삼성의 데이터센터 인프라 전반 사업 확장 공식화 — 발표 원문 확인 필요",
+          "빅테크 반발 이유로 '상당 부분 중국산 의존' 주장 — 구체적 비중 수치 없음",
+          "규제 대상 품목 최종 목록 미확정 상태로 불확실성 높음"
+        ],
+        "image_keyword_ok": true,
+        "notes": "전반적으로 개연성 있으며 조달 실무 관점 서술 적절",
+        "verified_at": "2026-11-21 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "미중기술패권-AI패권-글로벌분석",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "brief",
+      "title": "미중 AI 패권 경쟁, 정상 외교와 별개로 심화",
+      "summary": "트럼프·시진핑 간 외교 접촉에도 불구하고 미중 기술 패권 경쟁은 오히려 격화되고 있다는 분석이 나왔다. 조달 담당자는 외교 분위기와 실제 규제 움직임을 구분해서 볼 필요가 있다.",
+      "key_points": [
+        "2026년 11월 18일 보도에 따르면 미중 정상 간 관계 개선 움직임에도 기술 패권 다툼은 점점 격화되고 있다",
+        "AI·반도체 분야에서 미국과 중국 어느 쪽이 패권을 가져갈지 현재로서는 단정하기 어렵다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 11월 18일 보도에 따르면, 트럼프·시진핑 간 이른바 '브로맨스'로 불리는 외교 접촉이 이어지고 있음에도 미중 기술 패권 경쟁은 오히려 격화되는 양상이다. AI와 반도체를 중심으로 한 기술 주도권 다툼이 외교 관계와 별개로 진행되고 있다는 점이 이번 보도의 핵심이다.",
+            "'팍스 실리카냐 WAICO냐'라는 11월 16일 분석도 AI 주도권을 둘러싼 미중 경쟁 구도를 다뤘다. 미중 전쟁의 가능성과 핵군축·AI 패권 논쟁을 함께 짚은 11월 15일 보도도 있었다. 어느 쪽이 AI 패권을 확보할지는 현재로서 단정할 수 없으며, 조달 환경에 미치는 영향도 양측의 정책 결정에 따라 달라질 수 있다.",
+            "조달 담당자 입장에서는 외교 분위기를 규제 완화의 신호로 받아들이기보다, 실제 수출통제·인증 요건 변화를 별도로 추적하는 것이 현실적인 접근이다. 현재 계약 중인 품목 가운데 미중 기술 경쟁의 직접 영향권에 있는 것이 있다면 계약의 불가항력 조항 적용 범위를 확인해 볼 필요가 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        5,
+        24,
+        23
+      ],
+      "image_keyword": "US China AI semiconductor rivalry",
+      "is_featured": false,
+      "timestamp": "오전 09:30",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "트럼프·시진핑 브로맨스에도…미중 기술 패권다툼 점점 격화 - 연합뉴스",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRdIBYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRQ?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-18"
+        },
+        {
+          "title": "팍스 실리카냐 WAICO냐, AI 미중 패권 시험대 - 미래한국",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTHVHVjVzQnl0TUNZMFV1RmdOY3NCdFFsUkQzX0ZJdkxqZDE2WWlEMnFjdUhwSU1aaVdZZnk2bm41SVZSX05jaVA0bjFaWjhqclQ1NWVSMDBnZ0dFTWYzd3BybnVnMkxCWEo3WElzODhiUQ?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "미중 전쟁은 피할 수 있나…'투키디데스의 함정' 넘어 핵군축·AI 패권·신얄타 논쟁으로 - 시사프리즘",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EMmJfVUdIUThBZVQtLURZLUpiakx5cWxnYnBVeTI5SzVJQUF0SGxIQUVUamZDZzBsSVJCQlNvQ0dDdXg5MXk5eUxNZzdMaWlpbzRoLUp5UUllTW9GdnRidW9mY1R2MDNv?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-15"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-21_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "'팍스 실리카' 용어 출처 및 맥락 확인 필요",
+          "트럼프·시진핑 브로맨스 외교 접촉 구체적 일정·내용 미상",
+          "미중 AI 패권 경쟁 격화 주장이 분석 의견 수준으로 사실 검증 한계"
+        ],
+        "image_keyword_ok": false,
+        "notes": "외교·기술 패권 분석 기사로 사실성보다 해석 비중 높음",
+        "verified_at": "2026-11-21 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "미국의 대중국 반도체 수출통제 강화에 중국이 맞대응을 모색하는 가운데, AI 인프라 투자 수요는 전력·소재 등 주변 공급망으로 확산되고 있다. 미중 외교 접촉과 별개로 기술 패권 경쟁은 지속되고 있어 조달 담당자는 규제 흐름과 공급망 리스크를 병행 점검할 필요가 있다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "반도체 수출통제 강화",
+      "status": "규제 범위 확대 중"
+    },
+    {
+      "icon": "🔴",
+      "label": "중국 맞대응 리스크",
+      "status": "공급망 불확실성"
+    },
+    {
+      "icon": "🟡",
+      "label": "미중 기술패권 경쟁",
+      "status": "외교와 무관 지속"
+    },
+    {
+      "icon": "🟡",
+      "label": "AI 인프라 조달 확대",
+      "status": "전력·소재로 확산"
+    },
+    {
+      "icon": "🟢",
+      "label": "주변 공급망 기회",
+      "status": "에너지·소재 수요↑"
+    }
+  ],
+  "last_reviewed_at": "2026-11-21 08:16"
+}
