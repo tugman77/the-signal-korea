@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 21 Nov 2026 08:16:21 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 08:16:46 +0900</lastBuildDate>
+    <item>
+      <title>SiC·GaN 에피 장비, 국산이 글로벌 3강 진입</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-22-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-22-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>국내 장비업체 테스가 SiC·GaN 에피 장비 분야에서 글로벌 3위권에 진입했다. 12인치 전환 대응 여부가 향후 소부장 조달 구조를 바꿀 수 있는 변수로 부상했다.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 조달 범위, 칩에서 전력·소재로 넓어진다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-22-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-22-1.html</guid>
+      <category>산업전략</category>
+      <description>AI 투자 수요가 반도체 칩을 넘어 전력 설비·에너지·소재 공급망으로 확산되고 있다. 삼성이 데이터센터 사업으로 영역을 확장하는 움직임도 이 흐름과 맞닿아 있다.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>AI 공급망 동맹 9개국 체제, 조달 경계가 달라진다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-22-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-22-2.html</guid>
+      <category>글로벌분석</category>
+      <description>한국을 포함한 9개국이 AI 공급망 동맹을 구성했다는 보도가 나왔다. 동맹 범위 밖 공급처와의 거래에 새로운 검토 기준이 생길 수 있다.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>미국 반도체 규제 강화, 중국의 맞대응 카드는</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-21-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>글로벌 수소산업이 성장 국면에서 수익성 경쟁 단계로 전환되고 있다는 분석이 나왔다. 한국 기업에게 공급망 재편 기회가 열릴 수 있다는 전망도 함께 제시됐다.</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>중국 희토류·배터리 수출통제 유예, 2027년까지 연장</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>중국이 희토류 및 배터리 관련 수출통제 유예 기간을 2027년까지 연장했다고 Benchmark Mineral Intelligence가 2026년 11월 11일 보도했다. 11월 27일 만료를 앞두고 긴장했던 조달 담당자들은 단기 공급 차질 우려를 덜었지만, 연장의 구체적 조건과 품목 범위는 별도 확인이 필요하다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>아시아, AI 인프라의 소비자에서 건설자로</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-1.html</guid>
-      <category>글로벌분석</category>
-      <description>롤랜드 버거와 GIS Reports가 각각 2026년 11월 발표한 분석에 따르면, 아시아 공급망은 AI 붐의 수혜를 받는 데 그치지 않고 AI 인프라를 직접 구축하는 주체로 전환되고 있다. 조달 담당자는 아시아 내 공급망 재편이 단순 가격 경쟁이 아닌 기술·인프라 계층 구조의 변화로 이어지고 있음을 점검할 필요가 있다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>학계 &quot;로봇 말고 공장을 팔아라&quot; — 한국 AI 제조 전략 논쟁</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-11-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-11-2.html</guid>
-      <category>산업전략</category>
-      <description>연합뉴스가 2026년 11월 9일 보도한 학계 제언에 따르면, 한국이 AI 시대에 개별 로봇이 아닌 AI가 통합된 공장 시스템 자체를 수출하는 전략으로 전환해야 한다는 주장이 나왔다. 조달 담당자는 이 논의가 AI 통합 제조 설비를 새로운 조달 범주로 다뤄야 하는 시점과 연결될 수 있음을 점검할 수 있다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
