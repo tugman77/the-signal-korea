@@ -20,6 +20,10 @@
     {
       "number": 5,
       "sha256": "2419bf288b366c722182e70a46f0285798f532eb02828056bc6049954f1cb9d5"
+    },
+    {
+      "number": 6,
+      "sha256": "ee29b0ca4a16ce11f2e03860d8ee7fdf45fff356de7188236d200b6a4dd19045"
     }
   ]
 }
