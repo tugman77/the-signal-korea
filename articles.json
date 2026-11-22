@@ -1,92 +1,102 @@
 {
-  "generated_at": "2026년 11월 22일 08:16",
-  "date_str": "2026년 11월 22일",
-  "date_key": "2026-11-22",
+  "generated_at": "2026년 11월 23일 08:16",
+  "date_str": "2026년 11월 23일",
+  "date_key": "2026-11-23",
   "articles": [
     {
       "id": 0,
-      "topic_key": "SiC-GaN-에피장비-국산화",
+      "topic_key": "갈륨-게르마늄-수출통제-공급망재편",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
       "article_type": "explainer",
-      "title": "SiC·GaN 에피 장비, 국산이 글로벌 3강 진입",
-      "summary": "국내 장비업체 테스가 SiC·GaN 에피 장비 분야에서 글로벌 3위권에 진입했다. 12인치 전환 대응 여부가 향후 소부장 조달 구조를 바꿀 수 있는 변수로 부상했다.",
+      "title": "갈륨·게르마늄 탈중국, 각국 정부가 자금 투입에 나선 이유",
+      "summary": "중국의 갈륨·게르마늄 수출통제가 실질적 타격으로 이어지면서 각국 정부가 중국 외 공급망 구축에 직접 자금을 투입하기 시작했다. 조달 담당자는 해당 광물을 쓰는 품목의 공급처 다변화 현황을 점검할 필요가 있다.",
       "key_points": [
-        "테스가 SiC·GaN 에피 장비 글로벌 3강에 진입했다고 소부장 테크페어에서 발표됐다",
-        "12인치 대응 시점과 양산 검증 완료 여부는 아직 공개되지 않았다",
-        "국내 소부장 투자지원 대상 선정 절차가 11월 중 진행됐다"
+        "각국 정부가 중국산 갈륨·게르마늄 대체 공급망에 재정 지원을 시작했다",
+        "한국 기업들이 미국 핵심광물 자립 난항 국면에서 공급망 재편 참여를 확대하고 있다",
+        "대체 공급처의 실제 생산 가동 시점과 규모는 아직 확인되지 않았다"
       ],
       "sections": [
         {
           "heading": "무슨 일이 있었나",
           "paragraphs": [
-            "2026년 11월 21일 열린 소부장 테크페어에서 반도체 장비업체 테스(TES)가 SiC(탄화규소)·GaN(질화갈륨) 에피택시 장비 분야에서 글로벌 3강 수준에 올랐다고 밝혔다. 테스는 이 자리에서 '12인치 선제 대응이 필요하다'는 입장도 함께 제시했다.",
-            "SiC·GaN 전력반도체는 전기차 인버터, 산업용 모터, 데이터센터 전력 변환 장치 등에 쓰이는 소재다. 에피 장비는 이 반도체의 핵심 공정 장비로, 그간 일본·유럽 업체 중심으로 공급돼 왔다."
+            "2026년 11월 19일 Benchmark Mineral Intelligence 보도에 따르면, 중국의 갈륨·게르마늄 수출통제가 본격적인 공급 차질로 이어지면서 미국·유럽 등 각국 정부가 중국 외 생산처 개발에 직접 재정을 투입하는 움직임이 가시화됐다. 같은 시기 딜사이트는 미국의 핵심광물 자립 추진이 난항을 겪고 있다는 사실을 전하며, 이 공백을 메우기 위해 한국 기업들이 공급망 재편에 뛰어들고 있다고 보도했다.",
+            "캐나다와 한국은 11월 19일 아시아태평양재단 발표 기준으로 핵심광물 공급망 협력 체계를 공식화했다. 중국이 희토류를 반격 카드로 활용할 가능성도 국내 언론에서 거론되고 있다."
           ]
         },
         {
           "heading": "왜 조달 담당자가 주목해야 하나",
           "paragraphs": [
-            "국내 장비업체가 글로벌 경쟁 구도에 진입했다는 점은, 기존에 단일 외산 공급처에 의존하던 조달 구조에 선택지가 생길 수 있음을 의미한다. 다만 '글로벌 3강'이라는 표현이 시장점유율 기준인지, 기술 인증 기준인지는 발표 내용에서 확인되지 않았다.",
-            "12인치 전환 시점은 아직 공개되지 않았다. 현재 양산 주력인 6인치·8인치 장비와 12인치 장비 사이의 전환 일정이 구체화되면, 조달 계획의 선행 검토가 필요해질 수 있다.",
-            "한편 천안시와 충주시는 각각 국가첨단전략산업 소부장 투자지원금 대상 기업을 선정했다고 11월 17일과 20일에 발표했다. 지역 소부장 공급망의 변화 가능성을 함께 살펴볼 대목이다."
+            "갈륨과 게르마늄은 반도체·광통신·방산 부품에 쓰이는 소재다. 이 광물의 공급 불안이 현실화될 경우, 해당 소재를 함유한 중간재·완제품의 납기와 단가에 영향이 생길 수 있다. 현재 각국 정부 자금이 투입되고 있지만, 신규 생산처의 가동 시점과 실제 공급 규모는 공식 발표된 수치가 없다.",
+            "한국·캐나다 협력처럼 양자 차원의 공급망 협약이 늘고 있는 점은 조달 경로 다변화의 기회가 될 수 있다. 반면 협약 체결과 실제 조달 가능 시점 사이의 간격이 얼마나 될지는 각 협약의 이행 일정을 별도로 확인해야 한다."
           ]
         },
         {
           "heading": "조달 측면에서 점검할 항목",
           "paragraphs": [
-            "현재 SiC·GaN 에피 장비 공급처가 단일 국가·단일 업체에 집중돼 있다면, 대체 공급처 인증에 걸리는 시간을 미리 파악해 두는 것이 유용할 수 있다. 장비 교체 주기나 신규 라인 증설 계획이 있는 경우, 국내 업체 인증 절차를 병행 검토할 수 있는지 확인할 시점이다."
+            "갈륨·게르마늄 함유 부품을 조달 중이라면 현재 공급처의 원산지 비중, 재고 일수, 계약의 가격조정 조항을 먼저 확인할 수 있다. 중국산 비중이 높은 단일 공급처에 의존하고 있다면, 대체 공급처 인증에 걸리는 기간도 함께 가늠해 둘 필요가 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "테스 12인치 에피 장비 양산 일정 발표",
-          "detail": "테스가 12인치 대응 장비의 구체적 출시 또는 고객사 인증 완료 시점을 공식 발표할 경우, 조달 계획 수립에 반영 가능하다."
+          "label": "각국 정부 지원 프로그램 가동 시점",
+          "detail": "미국·유럽·캐나다가 투입하는 갈륨·게르마늄 대체 공급망 자금의 구체적 집행 일정과 대상 프로젝트 공개 여부"
         },
         {
-          "label": "국가첨단전략산업 소부장 투자지원 선정 결과 공개",
-          "detail": "천안·충주 외 추가 지역·기업의 선정 결과가 공개되면 국내 소부장 공급 거점 지형이 구체화된다."
+          "label": "중국 수출통제 품목 확대 여부",
+          "detail": "중국이 갈륨·게르마늄 외 희토류 등 추가 품목으로 수출통제를 확대하는지 공식 발표 모니터링"
         },
         {
-          "label": "SiC 웨이퍼 인치 전환 업계 동향",
-          "detail": "전방 반도체 제조사의 12인치 SiC 전환 시점이 확정되면 에피 장비 교체 수요가 가시화될 수 있다."
+          "label": "한·캐나다 핵심광물 협력 이행 일정",
+          "detail": "2026년 11월 19일 발표된 협력 체계의 구체적 품목·물량·납기 일정 공개 시점"
+        },
+        {
+          "label": "국내 소부장 투자지원 선정 기업 품목",
+          "detail": "천안·충북 등 소부장 투자지원 선정 기업의 실제 생산 품목이 갈륨·게르마늄 관련 소재와 겹치는지 확인"
         }
       ],
       "source_ids": [
-        10,
-        9,
-        11,
-        12
+        4,
+        1,
+        17,
+        22,
+        33
       ],
-      "image_keyword": "silicon carbide wafer epitaxy reactor",
+      "image_keyword": "germanium crystal ingot",
       "is_featured": true,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "[소부장 테크페어]테스, SiC·GaN 에피 장비 글로벌 3강 우뚝…“12인치 선제 대응해야” - 전자신문",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1nZ1lOZW9UcnlUTmVtZU5ENG1GZEE1MmJuOFFBSHNRS1lLX3hYaFhDU2dGdUNaMEtzNVpBY3FjVWNJMk1kUFlucml6U1Vwdw?oc=5",
+          "title": "Governments race to fund ex-China gallium and germanium as export controls bite - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkZWbHdyRWIwM0tsVzBXYlNvYWlyMG9icHUtMWlfM1Y2aWR6TVBocWFhZE5ERktERnFXNkVEWU43X1hOUkhuTU92LVhKRmJNTklJQ0FwWTFaY3ZXczBOeGJucTltcFVTMUctclFNSmRza0tVOG93LV9QU0NMRG1nZlprVXIzYkZDZDlpeV96NmoyUm9zSElBbF9rRlhxcVFDVnMzcEtVWDdfV2xJOGxpNkVrT05Uc08tSzVrRVlZUnJadw?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-21"
+          "date": "2026-11-19"
         },
         {
-          "title": "천안시, 국가첨단전략산업 소부장 투자지원금 2개사 선정 - 로컬투데이",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aY25jTWxMX3Rvck9pSHU5QVJpUUYyMXptWTRRc1VTSHMyczI3ck4wRGRMcGFMTzY1MWZWNXV1eHpvbzdobDFZd3hSTTNySllwUWlIVWE3SENXOUVqdXltZE1CaDNoMU9lR3gyeGs5Tlo?oc=5",
+          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-17"
+          "date": "2026-11-16"
         },
         {
-          "title": "천안시, 국가첨단전략산업 소부장 투자지원금 2개사 선정 - 뉴시스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tSHd6VFJNakVFcWpFRFl5VzV1ZFdTVF82RUc3UUpoYWMwanZhQzJDc1hBSVdKY21ETUFfd2dQaHRPak1sdE82cmdGV1ZZalR4MnJsYl9udElNTEU5NnYzZ9IBeEFVX3lxTE1mWnNqbTBFc013VXZjTG9fM0plT2tERkoyUnBpMC11WjAzV2h5dXk2ektndVluLUpxTVh6b1Y2MklqSjdCNU5vZUtlUC1XUHhnVldZYmJxa3RzbGlEWHZock5jUWZPSFZBeHR1ZVRXUEdHUnNnaE85dQ?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-17"
+          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-16"
         },
         {
-          "title": "충주시, '㈜천보신소재' 국가첨단전략산업 소부장 투자지원 선정 - 한국시사경제",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kQ2U0QkxwaWZiVHpnTmxlMjZUQ3JVbEJzVm5zcm01eTlsVDIyU1A3ZDJaOW45cXl1WVA0UzZRU2RYLU1QWjAydFRuejd4WVNjLWNkYW9zMmhrN1hZUjVjUy1iQm9XZS1FZ3c?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-20"
+          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "Canada–South Korea Critical Mineral Supply Chain Co-operation - Asia Pacific Foundation of Canada",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdTdaeFIwSkRUSy1LRHl0NEM0QkhHN1A0LUhwS0F6QlZ5Y2pZeUJFX244QjhPOTBfbUNUT3JFZHZXSFBURTdQeGd6b3ZTQmRKWEVPQU9GQTJnekZEVF91a0hkYmc2bWdPaEFiS2s2MEh6TGIwc3BSLXI3QzNQUjNuTFpTX1M1clpXa3l5b0VETndvY2VMeUc0NnhYVy1hYTNu?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-19"
         }
       ],
       "fact": [],
@@ -95,239 +105,144 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-22_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "warning",
-        "suspicious_claims": [
-          "'글로벌 3강' 기준이 시장점유율인지 기술 인증인지 불명확",
-          "12인치 선제 대응 일정 미공개로 구체성 부족"
-        ],
-        "image_keyword_ok": true,
-        "notes": "소부장 테크페어 발표 기반으로 개연성 높으나 '3강' 기준 불명확",
-        "verified_at": "2026-11-22 08:17"
-      }
-    },
-    {
-      "id": 1,
-      "topic_key": "AI공급망-반도체너머-전력소재확산",
-      "category": "산업전략",
-      "tag_type": "tag-strategy",
-      "article_type": "explainer",
-      "title": "AI 조달 범위, 칩에서 전력·소재로 넓어진다",
-      "summary": "AI 투자 수요가 반도체 칩을 넘어 전력 설비·에너지·소재 공급망으로 확산되고 있다. 삼성이 데이터센터 사업으로 영역을 확장하는 움직임도 이 흐름과 맞닿아 있다.",
-      "key_points": [
-        "삼성이 AI 반도체를 넘어 데이터센터 인프라 사업으로 전략을 확장하고 있다고 보도됐다",
-        "AI 인프라 수요 확산이 전력·소재 조달에까지 영향을 미칠 수 있다는 분석이 나왔으나 품목별 구체 수치는 확인되지 않았다",
-        "국가AI전략위가 국산 NPU 7개사를 만나 실증·판로 지원 방안을 논의했다"
-      ],
-      "sections": [
-        {
-          "heading": "무슨 일이 있었나",
-          "paragraphs": [
-            "2026년 11월 17일 보도에 따르면 삼성전자는 AI 반도체 사업에서 나아가 데이터센터 인프라 전반으로 사업 범위를 확장하는 전략을 추진하고 있다. 같은 시기 복수의 분석 보도는 AI 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·냉각 소재 등 주변 공급망으로 번지고 있다는 점을 지목했다.",
-            "11월 20일에는 국가AI전략위원회가 국산 NPU(신경망처리장치) 7개사와 면담을 갖고 실증 지원과 판로 개척을 논의했다고 전자신문이 보도했다. 국내 AI 반도체 생태계를 육성하려는 정부 움직임이 가시화되는 흐름이다."
-          ]
-        },
-        {
-          "heading": "조달 범위가 넓어지는 맥락",
-          "paragraphs": [
-            "데이터센터 한 곳에 필요한 전력 규모는 AI 연산 집약도에 따라 급격히 달라진다. 고려아연의 테네시 제련소가 230MW 전력을 확보하는 과정이 이례적으로 주목받은 것도 같은 맥락이다. AI 인프라 구축이 전력 설비, 냉각 소재, 구조용 금속 등 기존에는 별도로 조달하던 품목들을 묶어서 고려해야 하는 상황을 만들고 있다.",
-            "국산 NPU 생태계가 성숙하면 반도체 조달처 선택지가 늘어날 수 있지만, 현재 단계에서 7개사의 양산 준비 수준이나 납기 대응 역량은 공식 확인되지 않았다."
-          ]
-        },
-        {
-          "heading": "점검할 항목",
-          "paragraphs": [
-            "AI 관련 장비나 인프라를 조달하는 조직이라면 단순 칩 사양 외에 전력 용량, 냉각 방식, 소재 사양이 조달 계획에 포함돼 있는지 확인할 필요가 있다. 국산 NPU 도입을 검토하는 경우라면 실증 완료 여부와 호환 소프트웨어 생태계를 함께 살펴보는 것이 유용하다."
-          ]
-        }
-      ],
-      "watch_items": [
-        {
-          "label": "국산 NPU 실증 결과 공개 시점",
-          "detail": "국가AI전략위가 지원하는 7개사의 실증 완료 발표가 나오면 도입 검토 가능성이 구체화된다."
-        },
-        {
-          "label": "삼성 데이터센터 인프라 사업 범위 발표",
-          "detail": "삼성이 데이터센터 관련 구체적 품목·파트너십을 공식화할 경우 조달 계획에 반영할 수 있다."
-        },
-        {
-          "label": "AI 데이터센터 전력 조달 기준 변화",
-          "detail": "정부 또는 대형 발주처가 AI 인프라 전력 요건을 조달 기준에 명시하는 시점을 모니터링할 필요가 있다."
-        }
-      ],
-      "source_ids": [
-        29,
-        30,
-        27,
-        3
-      ],
-      "image_keyword": "data center server cooling unit",
-      "is_featured": false,
-      "timestamp": "오전 09:30",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "삼성, AI 반도체 넘어 데이터센터까지… 한국 AI 인프라 산업의 새로운 성장전략 - 한국공공정책신문",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9mVDh3cUhIVWxYWWEwcVhMeUM1aGphdmh2bFliWktkSDNnUUJpWU5NekJoT1FWSDJRaEZSY010Tmw1eFE?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-17"
-        },
-        {
-          "title": "국산 NPU 7개사 만난 국가AI전략위…\"실증부터 판로까지 지원\" - 지디넷코리아",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1iZjN6X1M3NXhwYVNrTmF6S1o4VWRFTXplT2tDVUFNZXpRYWRENlh1a0FYZ194ckRhYmZMNGcxY1JrcGFpcU9OQVdvV2kweVExQTZCM0d3?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-20"
-        },
-        {
-          "title": "국가AI전략위, 전남광주 AI·AX 현장 방문…“메가프로젝트 지원” - 전자신문",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4wTU8zeGtQTW03TG1yWmV2blNOcW91WS1COWlTeVJoN0Vaak9uQ1FNUU1PRGt5bW5vMFVsc2IzS3BycjltajJZYlp1WXJaQQ?oc=5",
-          "source": "Google뉴스-AI산업",
-          "date": "2026-11-20"
-        },
-        {
-          "title": "[심층 분석] 고려아연, 미국 핵심광물 공급망의 전략 거점 구축…10조원 테네시 제련소, 전력 230MW 확보 - 뉴스밸류",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KUlVRYzJBMDRHV19xMVRUUHVWLTNuaVZiMjRRTGlSd1c5QlJRRWZDcXdNN3dNS0pFa29nM2xZcEtHSVJ2YWVfbzMyQ0l1V2tCT1BlQ19EV3lrblN5S1ZvLURoUkJoS0NYcVE?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-15"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-11-22_article_1.jpg",
+      "image_url": "images/2026-11-23_article_0.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "고려아연 테네시 제련소 230MW 전력 확보 수치 출처 미명시",
-          "국산 NPU 7개사 양산 준비 수준 공식 미확인"
+          "신규 생산처 가동 시점·공급 규모에 관한 공식 수치 없음을 기사 자체에서 인정",
+          "한국·캐나다 핵심광물 협력 공식화 발표 출처(아시아태평양재단)의 신뢰도 별도 확인 필요"
         ],
         "image_keyword_ok": true,
-        "notes": "복수 보도 기반으로 사실성 양호, 일부 수치 출처 보강 필요",
-        "verified_at": "2026-11-22 08:17"
+        "notes": "주요 사실 검증 가능, 불확실 사항은 기사 내에서 적절히 단서 처리됨",
+        "verified_at": "2026-11-23 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "희토류-중국반격-한국기업-수혜",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "brief",
+      "title": "중국 희토류 반격 카드, 한국 조달에 열리는 변수",
+      "summary": "미중 기술 갈등이 심화되면서 중국이 희토류를 맞대응 수단으로 활용할 가능성이 거론되고 있다. 국내 희토류 관련 기업에 대한 관심이 높아지는 한편, 실제 규제 범위와 시점은 확인되지 않았다.",
+      "key_points": [
+        "중국이 반도체 수출통제 대응 카드로 희토류 활용 가능성을 검토 중이라는 보도가 나왔다",
+        "미국의 대중국 반도체 수출통제 강화와 중국의 맞대응 구도가 동시에 진행되고 있다",
+        "중국이 실제로 희토류 수출을 제한할 경우 어느 품목·국가가 대상이 될지는 공식 발표가 없다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 11월 23일 핀포인트뉴스는 미국의 반도체 수출통제 강화에 맞서 중국이 희토류를 반격 카드로 활용할 가능성을 조명했다. 같은 흐름에서 테크데일리는 11월 20일, 미국의 수출통제 강화에 중국이 어떤 맞대응 카드를 쥐고 있는지를 분석한 기사를 발행했다.",
+            "희토류는 전기차 모터, 풍력 발전기, 정밀 무기 부품 등 광범위한 산업 소재로 쓰인다. 중국이 실제로 희토류 수출 규제에 나설 경우, 이를 원료로 쓰는 중간재 조달에 영향이 생길 가능성이 있다. 다만 현재로서는 구체적인 품목·물량·시행 시점에 관한 중국 정부의 공식 발표는 나오지 않았다.",
+            "조달 담당자 입장에서는 현재 사용 중인 소재·부품 가운데 희토류 함유 비중이 높은 것이 무엇인지, 해당 품목의 공급처가 중국에 집중돼 있는지를 먼저 확인할 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        22,
+        2,
+        18
+      ],
+      "image_keyword": "rare earth mineral processing plant",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-20"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-23_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "중국 희토류 수출 규제의 구체적 품목·시행 시점에 관한 공식 발표 없음을 기사 자체에서 인정",
+          "유니온·동국알앤에스 주목 언급이 투자 정보성 편향 가능성 있음"
+        ],
+        "image_keyword_ok": true,
+        "notes": "불확실성을 명시적으로 고지한 점이 적절하나 특정 종목 언급은 편집 주의 필요",
+        "verified_at": "2026-11-23 08:16"
       }
     },
     {
       "id": 2,
-      "topic_key": "미중기술패권-AI동맹-9개국공급망",
+      "topic_key": "엔비디아칩-밀수망-AI패권-공급망통제",
       "category": "글로벌분석",
       "tag_type": "tag-global",
-      "article_type": "analysis",
-      "title": "AI 공급망 동맹 9개국 체제, 조달 경계가 달라진다",
-      "summary": "한국을 포함한 9개국이 AI 공급망 동맹을 구성했다는 보도가 나왔다. 동맹 범위 밖 공급처와의 거래에 새로운 검토 기준이 생길 수 있다.",
+      "article_type": "brief",
+      "title": "엔비디아 칩 밀수망 추적, 수출통제 실효성 논란으로",
+      "summary": "FT·NYT가 엔비디아 칩 밀수 경로와 중국 산업스파이 활동을 추적 보도했다. 수출통제의 실효성 논란이 커지면서 조달 담당자는 거래 상대방의 최종 사용처 확인 의무가 강화될 가능성을 염두에 둘 필요가 있다.",
       "key_points": [
-        "미·한·일 등 9개국이 AI 공급망 동맹을 구성했다고 11월 16일 보도됐다",
-        "동맹의 구체적 운용 규칙, 적용 품목 범위, 비회원국 거래 제한 여부는 아직 공개되지 않았다",
-        "중국은 APEC을 앞두고 미국에 AI 동맹 참여를 타진했으나 결과는 확인되지 않았다"
+        "FT와 NYT가 엔비디아 칩의 중국 밀수 경로와 산업스파이 활동을 2026년 11월 23일 보도했다",
+        "수출통제 우회 경로가 보도되면서 미국 당국의 대응 조치가 추가로 나올 가능성이 있다",
+        "실제 추가 규제의 범위와 시행 시점은 아직 공식 발표되지 않았다"
       ],
       "sections": [
         {
-          "heading": "핵심 질문: 9개국 동맹이 조달에 무엇을 바꾸나",
+          "heading": "",
           "paragraphs": [
-            "2026년 11월 16일 아주경제 보도에 따르면 미국·한국·일본 등 9개국이 AI 공급망 동맹을 구성했다. 미중 정상회담을 앞두고 발표된 이 움직임은 AI 반도체·데이터 인프라 관련 조달이 단순한 가격·품질 비교를 넘어 '어느 진영의 공급망인가'를 따지는 단계로 넘어갈 수 있음을 시사한다."
-          ]
-        },
-        {
-          "heading": "사실과 배경",
-          "paragraphs": [
-            "같은 시기 중국은 선전 APEC을 앞두고 미국에 AI 동맹 참여를 타진했다고 OBC 뉴스가 11월 15일 보도했다. 중국의 접근이 받아들여졌는지 여부는 현재까지 확인되지 않았다.",
-            "미국은 중국의 AI 반도체 우회 접근을 막기 위해 동남아 4개국과 브라질까지 수출통제 대상을 확대했다고 뉴스워커가 11월 17일 보도했다. 규제 범위가 지리적으로 넓어지고 있다는 점은, 단순히 중국산 부품만이 아니라 제3국을 경유한 부품도 조달 경로 검토 대상이 될 수 있음을 뜻한다.",
-            "엔비디아·애플 등 글로벌 기업은 중국 시장과 공급망 모두에서 딜레마에 처해 있다는 분석이 11월 18일 헬로티에 보도됐다. 이 기업들의 공급망 재편 방향이 확정되면 하위 공급처와 국내 조달 구조에도 연쇄적으로 영향이 미칠 수 있다."
-          ]
-        },
-        {
-          "heading": "구조적 배경",
-          "paragraphs": [
-            "'팍스 실리카(Pax Silica)'로 불리는 미국 주도 반도체 공급망 질서가 구체화되고 있다는 분석이 미래한국과 ITIF 등에서 잇따라 나오고 있다. 이 구도는 반도체뿐 아니라 AI 소프트웨어, 데이터센터 장비, 핵심광물까지 아우르는 방향으로 확장 중이다.",
-            "한국은 AI 공급망 동맹 9개국에 포함된 것으로 보도됐으나, 동맹 참여가 구체적으로 어떤 조달 의무나 제한으로 이어지는지는 아직 공식 발표가 없다."
-          ]
-        },
-        {
-          "heading": "가능한 시나리오와 불확실성",
-          "paragraphs": [
-            "동맹 체제가 구체화될 경우, AI 관련 장비나 부품의 원산지 확인 요건이 강화될 가능성이 있다. 반대로 동맹이 느슨한 선언 수준에 머문다면 실질적인 조달 제약은 제한적일 수 있다.",
-            "현재 단계에서 조달 담당자가 점검할 수 있는 사항은 현재 AI 관련 부품·장비의 주요 공급처 국가 비중, 제3국 경유 부품의 원산지 추적 가능 여부, 계약상 원산지 변경 대응 조항 존재 여부 등이다."
+            "2026년 11월 23일 아시아투데이에 따르면, 파이낸셜타임스와 뉴욕타임스가 엔비디아 고사양 칩이 미국 수출통제 규정을 우회해 중국으로 흘러들어가는 밀수망과 중국의 AI 관련 산업스파이 작전을 추적한 기사를 발행했다.",
+            "앞서 미국은 11월 17일 보도 기준으로 중국의 AI 반도체 우회 접근을 막기 위해 동남아 4개국과 브라질까지 수출통제 대상을 확대한 바 있다. 이번 밀수망 보도는 그 실효성에 대한 의문을 다시 제기하는 흐름으로 이어질 수 있다.",
+            "수출통제 우회 경로가 공개적으로 거론될 경우, 미국 당국이 거래 당사자에 대한 최종 사용처 검증 요건을 강화하거나 제재 대상 명단을 추가할 가능성이 있다. 반도체·AI 인프라 관련 부품을 조달하는 기업이라면 현재 계약 상대방의 적격성 확인 절차와 불가항력 조항을 점검해 둘 수 있다."
           ]
         }
       ],
       "watch_items": [
         {
-          "label": "AI 공급망 동맹 운용 규칙 공식화",
-          "detail": "9개국 동맹의 적용 품목 범위와 비회원국 거래 제한 조건이 공식 문서로 발표되는 시점을 확인해야 한다."
+          "label": "미국 당국 후속 조치 발표",
+          "detail": "밀수망 보도 이후 미 상무부 BIS의 추가 제재 명단 업데이트 또는 수출통제 규정 개정 공고 여부"
         },
         {
-          "label": "미국 수출통제 대상 품목·국가 추가 여부",
-          "detail": "동남아·브라질에 이어 추가 국가가 통제 대상에 포함되거나 품목 범위가 확대될 경우 조달 경로 재검토가 필요하다."
-        },
-        {
-          "label": "중국의 AI 동맹 참여 타진 결과",
-          "detail": "중국이 AI 동맹에 편입되거나 완전히 배제되는 방향이 확정되면 공급망 분리 속도가 달라진다."
-        },
-        {
-          "label": "엔비디아·애플 중국 공급망 재편 발표",
-          "detail": "두 기업이 중국 내 생산·조달 구조를 공식적으로 변경할 경우 국내 하위 공급처 계약 조건에 변화가 생길 수 있다."
+          "label": "동남아·브라질 규제 이행 세부 사항",
+          "detail": "11월 17일 발표된 수출통제 확대 대상국에 대한 구체적 품목 목록과 적용 시점 공개 여부"
         }
       ],
       "source_ids": [
-        25,
         8,
-        7,
-        6,
-        5,
-        23,
-        31
+        7
       ],
-      "image_keyword": "AI semiconductor supply chain alliance",
+      "image_keyword": "GPU chip circuit board closeup",
       "is_featured": false,
-      "timestamp": "오전 09:30",
+      "timestamp": "오전 09:15",
       "format": "v2",
       "sources": [
         {
-          "title": "미중 정상회담 앞두고…美·韓·日 등 9개국 AI 공급망 동맹 - 아주경제",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EWHl1bDZud1JyRmdaQlltVTc3NElYRWJTc3dBdUJnSndmbHhidTZRV3VxNUFEampiSEh2QkNhNXA4STktN0JJazJyVFdyT25jR19WcWN6TXF3d9IBWEFVX3lxTE4xSk9qS2NwemE5SDBMTC1rREg1RTM1U3gyVEtPUkdONnlwRWtYSzExRXVnZG1tNk1TLVRyZ1djN19tLVRKUVJyYnQyT0NHT2dWNHIybktRZ2Q?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "중국, 미국에 AI 동맹 참여 손짓…선전 APEC 앞두고 기술패권 주도권 경쟁 - OBC 뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WOGdkQjlFdE5IbzhHbHBDczcya0dabUJuM3hHZ1hOVm81ZUNuTm1OeHA1aGkwZ0MyWVJ2ZTZicGpkZWhneUZiRXNPXzYyeF9kOG5vcFd5eGg3cVVjcGkzVUJMVS1VZEY2aHc?oc=5",
+          "title": "FT·NYT, 엔비디아 칩 밀수망·중국 산업스파이 작전 추적…미중 AI 패권 경쟁의 이면 - 아시아투데이",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4anpFT2hITzUyNm02VzBZTEpMY2tOZUxwSHZnbXZpdlFwaWZWV096enFCZ2gxcTJZNUpyeW1MV1RnYTR6aGxSOWZ1SjRPb2pvRmVneDFIcWI4WTNROTllUmJVNEdrSVNsSm1aQ01n?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         },
         {
           "title": "미국, 중국 AI 반도체 우회 접근 차단…동남아 4개국·브라질까지 수출통제 확대 - 뉴스워커",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iMmU3U0NXa1RwcmtoeDctVEtiT3dqWk92UVhjeFpRQ3hhZ2F4cS1rWGhVWVlCRGZ2T2laUEhGNFplLVRGVU9jQ1pEQkl2b1o2Nmc3b2hPS1lpei1ZQkN6YnBGYXpUT2RjRWRMbEJxSzPSAXRBVV95cUxQSEF4TWZFb1o5Q1FRQzNycWFaaVh5dHpkdnNOZXZ4VWRRNVU3UTVVZ0hjOS03eFBabm9saDJRMTdsNkZMM3BDMmFXdEl5NmpUa0pqcnh6NGcxZDhaVi1pREl0V2JCR01hcDZRTkczUUFpTGpySg?oc=5",
           "source": "GoogleNews",
           "date": "2026-11-17"
-        },
-        {
-          "title": "엔비디아·애플, 미중 갈등에 중국 사업 딜레마…“시장·공급망 모두 위험” - 헬로티",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOSEgxd1pDR2NLbjlGSDNnelNlLTg5cVB4UGpaSFVCbTVfcDZMdVdiekZ0akZvb2V2Qzluc0ZZdE1kWUs5bnhWU3J0aV80cDB2UEFHaDM3SldpemsxRW5r?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-18"
-        },
-        {
-          "title": "트럼프·시진핑 브로맨스에도…미중 기술 패권다툼 점점 격화 - 연합뉴스",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRdIBYEFVX3lxTE00dkpRZkVhTHJpQ3A5bFJuT3QwZ1ZGR01lOXJQVzYzX1Npc1RMaXBEQkhEcDNNRmdsNnZwcTNhTUhFMUlVOGw5LVFtd1VVeEthTlotVXZQcUZvZHp1TWVRRQ?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-18"
-        },
-        {
-          "title": "팍스 실리카냐 WAICO냐, AI 미중 패권 시험대 - 미래한국",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZTHVHVjVzQnl0TUNZMFV1RmdOY3NCdFFsUkQzX0ZJdkxqZDE2WWlEMnFjdUhwSU1aaVdZZnk2bm41SVZSX05jaVA0bjFaWjhqclQ1NWVSMDBnZ0dFTWYzd3BybnVnMkxCWEo3WElzODhiUQ?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "Tracking Pax Silica’s Evolution: A Timeline | Blogs | Nov 16, 2026 - Information Technology and Innovation Foundation",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04QlhmMTRWQUsxOWVjRjAxbjZEdXUzcWVGRkFaZU14UV9BNjdPWHVuaGpBVXVPaWp6MFdUQ3lsVzdpQzBPU2NUdzVfSTBsUnY4RTk2WXVSOFU4bk1sVmZGNTZtSmdpU3pRazlQNFNR?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-16"
         }
       ],
       "fact": [],
@@ -336,48 +251,47 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-22_article_2.jpg",
+      "image_url": "images/2026-11-23_article_2.jpg",
       "review": {
-        "trust_score": 3,
-        "status": "warning",
+        "trust_score": 4,
+        "status": "pass",
         "suspicious_claims": [
-          "9개국 AI 공급망 동맹 구성원 명단 및 공식 문서 미확인",
-          "중국의 AI 동맹 참여 타진 보도 단일 출처(OBC뉴스)로 신뢰도 불확실",
-          "'팍스 실리카' 용어가 공식 정책 용어인지 분석 용어인지 불분명"
+          "FT·NYT 밀수망 보도 원문 직접 인용 없이 아시아투데이 재인용 구조로 1차 출처 확인 필요",
+          "동남아 4개국 수출통제 확대 대상국 명단 미기재로 사실 범위 검증 어려움"
         ],
-        "image_keyword_ok": false,
-        "notes": "단일·소규모 출처 의존 항목 있어 주의 필요, 이미지 키워드 교체 권장",
-        "verified_at": "2026-11-22 08:17"
+        "image_keyword_ok": true,
+        "notes": "재인용 구조로 원문 출처 확인 필요, 수출통제 확대 대상국 명시 권고",
+        "verified_at": "2026-11-23 08:16"
       }
     }
   ],
-  "editorial_briefing": "국내 장비업체의 SiC·GaN 에피 장비 글로벌 3위권 진입으로 소부장 국산화가 진전되고 있으며, AI 투자 수요가 칩을 넘어 전력·에너지·소재로 확산되고 있다. 한국 포함 9개국 AI 공급망 동맹 구성으로 조달 경계와 검토 기준에 변화가 예상된다.",
+  "editorial_briefing": "중국의 갈륨·게르마늄 수출통제와 희토류 반격 가능성이 현실화되면서 각국 정부가 대체 공급망 구축에 직접 자금을 투입하고 있다. 엔비디아 칩 밀수 경로 추적 보도로 수출통제 실효성 논란도 커지는 상황이다.",
   "key_signals": [
     {
+      "icon": "🔴",
+      "label": "갈륨·게르마늄 공급망",
+      "status": "각국 자금 투입 중"
+    },
+    {
+      "icon": "🔴",
+      "label": "희토류 수출통제 리스크",
+      "status": "중국 반격 가능성"
+    },
+    {
+      "icon": "🟡",
+      "label": "엔비디아 칩 밀수",
+      "status": "수출통제 실효성 논란"
+    },
+    {
+      "icon": "🟡",
+      "label": "미중 기술 갈등",
+      "status": "심화 모니터링"
+    },
+    {
       "icon": "🟢",
-      "label": "SiC·GaN 국산 장비",
-      "status": "글로벌 3위권 진입"
-    },
-    {
-      "icon": "🟡",
-      "label": "12인치 장비 전환",
-      "status": "소부장 구조 변수"
-    },
-    {
-      "icon": "🟢",
-      "label": "AI 조달 범위 확대",
-      "status": "전력·소재로 확산"
-    },
-    {
-      "icon": "🟡",
-      "label": "AI 공급망 동맹",
-      "status": "9개국 체제 구성"
-    },
-    {
-      "icon": "🟡",
-      "label": "조달 경계 재편",
-      "status": "동맹 외 공급 검토"
+      "label": "국내 희토류 기업",
+      "status": "관심 증가"
     }
   ],
-  "last_reviewed_at": "2026-11-22 08:17"
+  "last_reviewed_at": "2026-11-23 08:16"
 }

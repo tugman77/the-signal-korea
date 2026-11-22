@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 08:16:46 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:16:23 +0900</lastBuildDate>
+    <item>
+      <title>갈륨·게르마늄 탈중국, 각국 정부가 자금 투입에 나선 이유</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-23-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-23-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>중국의 갈륨·게르마늄 수출통제가 실질적 타격으로 이어지면서 각국 정부가 중국 외 공급망 구축에 직접 자금을 투입하기 시작했다. 조달 담당자는 해당 광물을 쓰는 품목의 공급처 다변화 현황을 점검할 필요가 있다.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>중국 희토류 반격 카드, 한국 조달에 열리는 변수</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-23-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-23-1.html</guid>
+      <category>기술패권</category>
+      <description>미중 기술 갈등이 심화되면서 중국이 희토류를 맞대응 수단으로 활용할 가능성이 거론되고 있다. 국내 희토류 관련 기업에 대한 관심이 높아지는 한편, 실제 규제 범위와 시점은 확인되지 않았다.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>엔비디아 칩 밀수망 추적, 수출통제 실효성 논란으로</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-23-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-23-2.html</guid>
+      <category>글로벌분석</category>
+      <description>FT·NYT가 엔비디아 칩 밀수 경로와 중국 산업스파이 활동을 추적 보도했다. 수출통제의 실효성 논란이 커지면서 조달 담당자는 거래 상대방의 최종 사용처 확인 의무가 강화될 가능성을 염두에 둘 필요가 있다.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>SiC·GaN 에피 장비, 국산이 글로벌 3강 진입</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-22-0.html</link>
@@ -222,30 +246,6 @@
       <category>글로벌분석</category>
       <description>AI 투자 수요가 반도체 칩에 그치지 않고 전력·에너지·소재 등 주변 공급망 전반으로 확산되고 있다는 분석이 나왔다. 조달 담당자는 AI 관련 조달 범위를 반도체에 한정하지 않고 점검해볼 여지가 있다.</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>포스코, 철강 넘어 핵심자원으로 무게중심 옮긴다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>포스코가 철강을 넘어 핵심자원 사업으로 미래 방향을 공식화했다. 소재 조달 담당자는 국내 핵심자원 공급망 구조 변화를 살펴볼 시점이다.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>TSMC 매출 60% 급증, AI 수요가 숫자로 확인됐다</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-1.html</guid>
-      <category>기술패권</category>
-      <description>TSMC 매출이 전년 대비 60% 급증했다는 보도가 나왔다. AI 반도체 수요 확대가 실제 생산 지표로 나타나면서, 반도체 부품 조달 환경의 변화를 점검할 필요가 있다.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>수소산업, 성장 경쟁에서 수익성 경쟁으로 무게 이동</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-12-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-12-2.html</guid>
-      <category>글로벌분석</category>
-      <description>글로벌 수소산업이 성장 국면에서 수익성 경쟁 단계로 전환되고 있다는 분석이 나왔다. 한국 기업에게 공급망 재편 기회가 열릴 수 있다는 전망도 함께 제시됐다.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>

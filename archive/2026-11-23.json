@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026년 11월 23일 08:16",
+  "date_str": "2026년 11월 23일",
+  "date_key": "2026-11-23",
+  "articles": [
+    {
+      "id": 0,
+      "topic_key": "갈륨-게르마늄-수출통제-공급망재편",
+      "category": "공급망전쟁",
+      "tag_type": "tag-supply",
+      "article_type": "explainer",
+      "title": "갈륨·게르마늄 탈중국, 각국 정부가 자금 투입에 나선 이유",
+      "summary": "중국의 갈륨·게르마늄 수출통제가 실질적 타격으로 이어지면서 각국 정부가 중국 외 공급망 구축에 직접 자금을 투입하기 시작했다. 조달 담당자는 해당 광물을 쓰는 품목의 공급처 다변화 현황을 점검할 필요가 있다.",
+      "key_points": [
+        "각국 정부가 중국산 갈륨·게르마늄 대체 공급망에 재정 지원을 시작했다",
+        "한국 기업들이 미국 핵심광물 자립 난항 국면에서 공급망 재편 참여를 확대하고 있다",
+        "대체 공급처의 실제 생산 가동 시점과 규모는 아직 확인되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "무슨 일이 있었나",
+          "paragraphs": [
+            "2026년 11월 19일 Benchmark Mineral Intelligence 보도에 따르면, 중국의 갈륨·게르마늄 수출통제가 본격적인 공급 차질로 이어지면서 미국·유럽 등 각국 정부가 중국 외 생산처 개발에 직접 재정을 투입하는 움직임이 가시화됐다. 같은 시기 딜사이트는 미국의 핵심광물 자립 추진이 난항을 겪고 있다는 사실을 전하며, 이 공백을 메우기 위해 한국 기업들이 공급망 재편에 뛰어들고 있다고 보도했다.",
+            "캐나다와 한국은 11월 19일 아시아태평양재단 발표 기준으로 핵심광물 공급망 협력 체계를 공식화했다. 중국이 희토류를 반격 카드로 활용할 가능성도 국내 언론에서 거론되고 있다."
+          ]
+        },
+        {
+          "heading": "왜 조달 담당자가 주목해야 하나",
+          "paragraphs": [
+            "갈륨과 게르마늄은 반도체·광통신·방산 부품에 쓰이는 소재다. 이 광물의 공급 불안이 현실화될 경우, 해당 소재를 함유한 중간재·완제품의 납기와 단가에 영향이 생길 수 있다. 현재 각국 정부 자금이 투입되고 있지만, 신규 생산처의 가동 시점과 실제 공급 규모는 공식 발표된 수치가 없다.",
+            "한국·캐나다 협력처럼 양자 차원의 공급망 협약이 늘고 있는 점은 조달 경로 다변화의 기회가 될 수 있다. 반면 협약 체결과 실제 조달 가능 시점 사이의 간격이 얼마나 될지는 각 협약의 이행 일정을 별도로 확인해야 한다."
+          ]
+        },
+        {
+          "heading": "조달 측면에서 점검할 항목",
+          "paragraphs": [
+            "갈륨·게르마늄 함유 부품을 조달 중이라면 현재 공급처의 원산지 비중, 재고 일수, 계약의 가격조정 조항을 먼저 확인할 수 있다. 중국산 비중이 높은 단일 공급처에 의존하고 있다면, 대체 공급처 인증에 걸리는 기간도 함께 가늠해 둘 필요가 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "각국 정부 지원 프로그램 가동 시점",
+          "detail": "미국·유럽·캐나다가 투입하는 갈륨·게르마늄 대체 공급망 자금의 구체적 집행 일정과 대상 프로젝트 공개 여부"
+        },
+        {
+          "label": "중국 수출통제 품목 확대 여부",
+          "detail": "중국이 갈륨·게르마늄 외 희토류 등 추가 품목으로 수출통제를 확대하는지 공식 발표 모니터링"
+        },
+        {
+          "label": "한·캐나다 핵심광물 협력 이행 일정",
+          "detail": "2026년 11월 19일 발표된 협력 체계의 구체적 품목·물량·납기 일정 공개 시점"
+        },
+        {
+          "label": "국내 소부장 투자지원 선정 기업 품목",
+          "detail": "천안·충북 등 소부장 투자지원 선정 기업의 실제 생산 품목이 갈륨·게르마늄 관련 소재와 겹치는지 확인"
+        }
+      ],
+      "source_ids": [
+        4,
+        1,
+        17,
+        22,
+        33
+      ],
+      "image_keyword": "germanium crystal ingot",
+      "is_featured": true,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Governments race to fund ex-China gallium and germanium as export controls bite - Benchmark Mineral Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkZWbHdyRWIwM0tsVzBXYlNvYWlyMG9icHUtMWlfM1Y2aWR6TVBocWFhZE5ERktERnFXNkVEWU43X1hOUkhuTU92LVhKRmJNTklJQ0FwWTFaY3ZXczBOeGJucTltcFVTMUctclFNSmRza0tVOG93LV9QU0NMRG1nZlprVXIzYkZDZDlpeV96NmoyUm9zSElBbF9rRlhxcVFDVnMzcEtVWDdfV2xJOGxpNkVrT05Uc08tSzVrRVlZUnJadw?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-19"
+        },
+        {
+          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-16"
+        },
+        {
+          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "Canada–South Korea Critical Mineral Supply Chain Co-operation - Asia Pacific Foundation of Canada",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdTdaeFIwSkRUSy1LRHl0NEM0QkhHN1A0LUhwS0F6QlZ5Y2pZeUJFX244QjhPOTBfbUNUT3JFZHZXSFBURTdQeGd6b3ZTQmRKWEVPQU9GQTJnekZEVF91a0hkYmc2bWdPaEFiS2s2MEh6TGIwc3BSLXI3QzNQUjNuTFpTX1M1clpXa3l5b0VETndvY2VMeUc0NnhYVy1hYTNu?oc=5",
+          "source": "Google뉴스-글로벌공급망",
+          "date": "2026-11-19"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-23_article_0.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "신규 생산처 가동 시점·공급 규모에 관한 공식 수치 없음을 기사 자체에서 인정",
+          "한국·캐나다 핵심광물 협력 공식화 발표 출처(아시아태평양재단)의 신뢰도 별도 확인 필요"
+        ],
+        "image_keyword_ok": true,
+        "notes": "주요 사실 검증 가능, 불확실 사항은 기사 내에서 적절히 단서 처리됨",
+        "verified_at": "2026-11-23 08:16"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "희토류-중국반격-한국기업-수혜",
+      "category": "기술패권",
+      "tag_type": "tag-hegemony",
+      "article_type": "brief",
+      "title": "중국 희토류 반격 카드, 한국 조달에 열리는 변수",
+      "summary": "미중 기술 갈등이 심화되면서 중국이 희토류를 맞대응 수단으로 활용할 가능성이 거론되고 있다. 국내 희토류 관련 기업에 대한 관심이 높아지는 한편, 실제 규제 범위와 시점은 확인되지 않았다.",
+      "key_points": [
+        "중국이 반도체 수출통제 대응 카드로 희토류 활용 가능성을 검토 중이라는 보도가 나왔다",
+        "미국의 대중국 반도체 수출통제 강화와 중국의 맞대응 구도가 동시에 진행되고 있다",
+        "중국이 실제로 희토류 수출을 제한할 경우 어느 품목·국가가 대상이 될지는 공식 발표가 없다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 11월 23일 핀포인트뉴스는 미국의 반도체 수출통제 강화에 맞서 중국이 희토류를 반격 카드로 활용할 가능성을 조명했다. 같은 흐름에서 테크데일리는 11월 20일, 미국의 수출통제 강화에 중국이 어떤 맞대응 카드를 쥐고 있는지를 분석한 기사를 발행했다.",
+            "희토류는 전기차 모터, 풍력 발전기, 정밀 무기 부품 등 광범위한 산업 소재로 쓰인다. 중국이 실제로 희토류 수출 규제에 나설 경우, 이를 원료로 쓰는 중간재 조달에 영향이 생길 가능성이 있다. 다만 현재로서는 구체적인 품목·물량·시행 시점에 관한 중국 정부의 공식 발표는 나오지 않았다.",
+            "조달 담당자 입장에서는 현재 사용 중인 소재·부품 가운데 희토류 함유 비중이 높은 것이 무엇인지, 해당 품목의 공급처가 중국에 집중돼 있는지를 먼저 확인할 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        22,
+        2,
+        18
+      ],
+      "image_keyword": "rare earth mineral processing plant",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
+          "source": "Google뉴스-미중패권",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-20"
+        },
+        {
+          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "source": "Google뉴스-공급망패권",
+          "date": "2026-11-20"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-23_article_1.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "중국 희토류 수출 규제의 구체적 품목·시행 시점에 관한 공식 발표 없음을 기사 자체에서 인정",
+          "유니온·동국알앤에스 주목 언급이 투자 정보성 편향 가능성 있음"
+        ],
+        "image_keyword_ok": true,
+        "notes": "불확실성을 명시적으로 고지한 점이 적절하나 특정 종목 언급은 편집 주의 필요",
+        "verified_at": "2026-11-23 08:16"
+      }
+    },
+    {
+      "id": 2,
+      "topic_key": "엔비디아칩-밀수망-AI패권-공급망통제",
+      "category": "글로벌분석",
+      "tag_type": "tag-global",
+      "article_type": "brief",
+      "title": "엔비디아 칩 밀수망 추적, 수출통제 실효성 논란으로",
+      "summary": "FT·NYT가 엔비디아 칩 밀수 경로와 중국 산업스파이 활동을 추적 보도했다. 수출통제의 실효성 논란이 커지면서 조달 담당자는 거래 상대방의 최종 사용처 확인 의무가 강화될 가능성을 염두에 둘 필요가 있다.",
+      "key_points": [
+        "FT와 NYT가 엔비디아 칩의 중국 밀수 경로와 산업스파이 활동을 2026년 11월 23일 보도했다",
+        "수출통제 우회 경로가 보도되면서 미국 당국의 대응 조치가 추가로 나올 가능성이 있다",
+        "실제 추가 규제의 범위와 시행 시점은 아직 공식 발표되지 않았다"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "2026년 11월 23일 아시아투데이에 따르면, 파이낸셜타임스와 뉴욕타임스가 엔비디아 고사양 칩이 미국 수출통제 규정을 우회해 중국으로 흘러들어가는 밀수망과 중국의 AI 관련 산업스파이 작전을 추적한 기사를 발행했다.",
+            "앞서 미국은 11월 17일 보도 기준으로 중국의 AI 반도체 우회 접근을 막기 위해 동남아 4개국과 브라질까지 수출통제 대상을 확대한 바 있다. 이번 밀수망 보도는 그 실효성에 대한 의문을 다시 제기하는 흐름으로 이어질 수 있다.",
+            "수출통제 우회 경로가 공개적으로 거론될 경우, 미국 당국이 거래 당사자에 대한 최종 사용처 검증 요건을 강화하거나 제재 대상 명단을 추가할 가능성이 있다. 반도체·AI 인프라 관련 부품을 조달하는 기업이라면 현재 계약 상대방의 적격성 확인 절차와 불가항력 조항을 점검해 둘 수 있다."
+          ]
+        }
+      ],
+      "watch_items": [
+        {
+          "label": "미국 당국 후속 조치 발표",
+          "detail": "밀수망 보도 이후 미 상무부 BIS의 추가 제재 명단 업데이트 또는 수출통제 규정 개정 공고 여부"
+        },
+        {
+          "label": "동남아·브라질 규제 이행 세부 사항",
+          "detail": "11월 17일 발표된 수출통제 확대 대상국에 대한 구체적 품목 목록과 적용 시점 공개 여부"
+        }
+      ],
+      "source_ids": [
+        8,
+        7
+      ],
+      "image_keyword": "GPU chip circuit board closeup",
+      "is_featured": false,
+      "timestamp": "오전 09:15",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "FT·NYT, 엔비디아 칩 밀수망·중국 산업스파이 작전 추적…미중 AI 패권 경쟁의 이면 - 아시아투데이",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4anpFT2hITzUyNm02VzBZTEpMY2tOZUxwSHZnbXZpdlFwaWZWV096enFCZ2gxcTJZNUpyeW1MV1RnYTR6aGxSOWZ1SjRPb2pvRmVneDFIcWI4WTNROTllUmJVNEdrSVNsSm1aQ01n?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-23"
+        },
+        {
+          "title": "미국, 중국 AI 반도체 우회 접근 차단…동남아 4개국·브라질까지 수출통제 확대 - 뉴스워커",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iMmU3U0NXa1RwcmtoeDctVEtiT3dqWk92UVhjeFpRQ3hhZ2F4cS1rWGhVWVlCRGZ2T2laUEhGNFplLVRGVU9jQ1pEQkl2b1o2Nmc3b2hPS1lpei1ZQkN6YnBGYXpUT2RjRWRMbEJxSzPSAXRBVV95cUxQSEF4TWZFb1o5Q1FRQzNycWFaaVh5dHpkdnNOZXZ4VWRRNVU3UTVVZ0hjOS03eFBabm9saDJRMTdsNkZMM3BDMmFXdEl5NmpUa0pqcnh6NGcxZDhaVi1pREl0V2JCR01hcDZRTkczUUFpTGpySg?oc=5",
+          "source": "GoogleNews",
+          "date": "2026-11-17"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-23_article_2.jpg",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "FT·NYT 밀수망 보도 원문 직접 인용 없이 아시아투데이 재인용 구조로 1차 출처 확인 필요",
+          "동남아 4개국 수출통제 확대 대상국 명단 미기재로 사실 범위 검증 어려움"
+        ],
+        "image_keyword_ok": true,
+        "notes": "재인용 구조로 원문 출처 확인 필요, 수출통제 확대 대상국 명시 권고",
+        "verified_at": "2026-11-23 08:16"
+      }
+    }
+  ],
+  "editorial_briefing": "중국의 갈륨·게르마늄 수출통제와 희토류 반격 가능성이 현실화되면서 각국 정부가 대체 공급망 구축에 직접 자금을 투입하고 있다. 엔비디아 칩 밀수 경로 추적 보도로 수출통제 실효성 논란도 커지는 상황이다.",
+  "key_signals": [
+    {
+      "icon": "🔴",
+      "label": "갈륨·게르마늄 공급망",
+      "status": "각국 자금 투입 중"
+    },
+    {
+      "icon": "🔴",
+      "label": "희토류 수출통제 리스크",
+      "status": "중국 반격 가능성"
+    },
+    {
+      "icon": "🟡",
+      "label": "엔비디아 칩 밀수",
+      "status": "수출통제 실효성 논란"
+    },
+    {
+      "icon": "🟡",
+      "label": "미중 기술 갈등",
+      "status": "심화 모니터링"
+    },
+    {
+      "icon": "🟢",
+      "label": "국내 희토류 기업",
+      "status": "관심 증가"
+    }
+  ],
+  "last_reviewed_at": "2026-11-23 08:16"
+}
