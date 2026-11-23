@@ -432,9 +432,15 @@ def apply_image_keyword_fixes(articles, reviews, date_prefix):
             img_path = a.get("image_url") or f"images/{date_prefix}_article_{pos_of[id(a)]}.jpg"
             try:
                 ok = gen._download_single_image(
-                    new_kw, img_path, a.get("category", ""), f"{date_prefix}_{fix['id']}_kw_{new_kw}")
+                    new_kw, img_path, a.get("category", ""), f"{date_prefix}_{fix['id']}_kw_{new_kw}",
+                    a.get("title", ""))
                 if ok:
                     a["image_url"] = img_path
+                    try:
+                        import 이미지생성
+                        이미지생성.mark(a, img_path in gen.AI_IMAGE_PATHS)
+                    except Exception:
+                        pass
                     fix["redownloaded"] = True
             except Exception as e:
                 log(f"이미지 재다운로드 오류 [id={fix['id']}]: {e}", "WARN")

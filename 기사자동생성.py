@@ -23,6 +23,7 @@ import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK
 import 이미지필터    # 이미지 키워드 오매칭(예: wafer → 과자) 방지 필터
 import 이미지소스    # 외부 이미지 소스 API (Unsplash/Pexels/Pixabay)
 import 이미지풀      # 카테고리별 큐레이션 풀 (로컬 self-host + Unsplash hotlink)
+import 이미지생성    # AI 설명 도식 + 스톡 사진 적합성 판정 (ChatGPT/Codex 구독, 로컬 전용) — 기사검수.py와 공용
 import 최신필터    # 7일 넘은 수집 기사 제외 (2026-10-26)
 import feedparser
 import json
@@ -1080,7 +1081,10 @@ def _fetch_pixabay(keyword: str) -> str | None:
     return 이미지소스.fetch_pixabay(keyword)
 
 
-def _download_single_image(keyword: str, img_path: str, category: str, seed_str: str) -> bool:
+AI_IMAGE_PATHS: set = set()   # 이번 실행에서 AI 도식으로 채운 파일 경로 — 호출부가 캡션을 붙인다
+
+
+def _download_single_image(keyword: str, img_path: str, category: str, seed_str: str, title: str = "") -> bool:
     """소스 우선순위(Unsplash count=10 → Pexels → Pixabay → 풀 → picsum)로 시도.
     MD5 중복이면 저장하지 않고 다음 소스로 넘어간다."""
     global _downloaded_hashes
@@ -1093,12 +1097,17 @@ def _download_single_image(keyword: str, img_path: str, category: str, seed_str:
 
     # 소스 목록은 이미지소스.py가 키 등록 상태를 보고 결정한다
     order: list[str] = list(이미지소스.available_sources())
+    if 이미지생성.enabled():
+        order.append("ai")   # 스톡 검색 실패·사진 불일치 시 풀·picsum(무관 사진)보다 먼저
     order += ["unsplash_pool"] * max(이미지풀.size(category), 8)
     order.append("picsum")
 
     pool_try = 0
     unsplash_candidates: list[str] = []  # count=10 후보 캐시
+    skip_stock = False   # 스톡 사진이 기사와 안 맞는다고 판정되면 나머지 스톡 소스는 건너뛰고 AI로
     for source in order:
+        if skip_stock and (source == "unsplash_api" or source in 이미지소스.FETCHERS):
+            continue
         chosen_pid = None
         try:
             if source == "unsplash_api":
@@ -1125,16 +1134,33 @@ def _download_single_image(keyword: str, img_path: str, category: str, seed_str:
                 if not content:
                     continue
                 img_url = entry["ref"]
+            elif source == "ai":
+                tmp = img_path + ".ai.tmp"
+                try:
+                    if not 이미지생성.generate(title or keyword, keyword, category, tmp):
+                        continue
+                    with open(tmp, "rb") as f:
+                        content = f.read()
+                finally:
+                    if os.path.exists(tmp):
+                        os.remove(tmp)
+                img_url = "ai"
             else:
                 img_url = f"https://picsum.photos/seed/{seed}/800/450"
 
             is_pool = (source == "unsplash_pool")
-            if not is_pool:
+            if source not in ("unsplash_pool", "ai"):
                 resp = requests.get(img_url, timeout=30, allow_redirects=True,
                                     headers={"User-Agent": "TheSignalKorea/3.0"})
                 if resp.status_code != 200 or len(resp.content) < 1000:
                     continue
                 content = resp.content
+                # 스톡 사진이 기사와 맞는지 ChatGPT가 본다. 안 맞으면 버리고 AI 도식으로.
+                if (source == "unsplash_api" or source in 이미지소스.FETCHERS) and 이미지생성.vision_enabled() \
+                        and 이미지생성.photo_fits(content, title or keyword, keyword) is False:
+                    print(f"      → 사진이 기사와 맞지 않음 [{source}] → AI 도식으로 대체")
+                    skip_stock = True
+                    continue
 
             # 외부 소스는 과거 날짜까지, 큐레이션 풀은 이번 실행만 대조 — 위 주석 참조
             img_hash = hashlib.md5(content).hexdigest()
@@ -1151,6 +1177,10 @@ def _download_single_image(keyword: str, img_path: str, category: str, seed_str:
             with open(img_path, "wb") as f:
                 f.write(content)
             print(f"      → 이미지 저장: {img_path} [{category}] ({source})")
+            if source == "ai":
+                AI_IMAGE_PATHS.add(img_path)
+            else:
+                AI_IMAGE_PATHS.discard(img_path)
             return True
 
         except Exception as e:
@@ -1241,8 +1271,9 @@ def download_article_images(articles, date_str):
         seed_str = f"{date_str}_{i}_{article.get('title', '')}"
         img_path = f"{IMAGES_DIR}/{date_str}_article_{i}.jpg"
         print(f"   이미지 [{i}] 키워드: {keyword}")
-        if _download_single_image(keyword, img_path, category, seed_str):
+        if _download_single_image(keyword, img_path, category, seed_str, article.get("title", "")):
             article["image_url"] = img_path
+            이미지생성.mark(article, img_path in AI_IMAGE_PATHS)   # AI 도식이면 "[AI 생성 일러스트]" 캡션
         else:
             article["image_url"] = None
             print(f"      → 이미지 모두 실패 [{keyword}]")
