@@ -208,6 +208,12 @@ def check_article_v2(article, idx):
     hits = [p for p in V2_WARN_PHRASES if p in text]
     if hits:
         warnings.append("단정·선동 표현: " + ", ".join(hits))
+    # 2026-11-23 톤 개편(독자 확장): 독자를 지목한 숙제형 문장·제목의 '조달' 금지
+    homework = [p for p in ("조달 담당자는", "조달 담당자가", "필요가 있다", "염두에 둘") if p in article.get("summary", "")]
+    if homework:
+        warnings.append("요약이 독자 숙제형: " + ", ".join(homework))
+    if "조달" in article.get("title", ""):
+        warnings.append("제목에 '조달' 포함 (독자 범위 축소)")
     return errors, warnings, title
 
 
