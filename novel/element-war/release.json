@@ -24,6 +24,10 @@
     {
       "number": 6,
       "sha256": "ee29b0ca4a16ce11f2e03860d8ee7fdf45fff356de7188236d200b6a4dd19045"
+    },
+    {
+      "number": 7,
+      "sha256": "9b9d273d23684908a2cf1f14406a3f27623d9956c5d2049e96c72b2881fc21f9"
     }
   ]
 }
