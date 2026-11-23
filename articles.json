@@ -1,173 +1,102 @@
 {
-  "generated_at": "2026년 11월 23일 08:16",
-  "date_str": "2026년 11월 23일",
-  "date_key": "2026-11-23",
+  "generated_at": "2026년 11월 24일 08:17",
+  "date_str": "2026년 11월 24일",
+  "date_key": "2026-11-24",
   "articles": [
     {
       "id": 0,
-      "topic_key": "갈륨-게르마늄-수출통제-공급망재편",
+      "topic_key": "캐나다-한국-핵심광물협력",
       "category": "공급망전쟁",
       "tag_type": "tag-supply",
-      "article_type": "explainer",
-      "title": "갈륨·게르마늄 탈중국, 각국 정부가 자금 투입에 나선 이유",
-      "summary": "중국의 갈륨·게르마늄 수출통제가 실질적 타격으로 이어지면서 각국 정부가 중국 외 공급망 구축에 직접 자금을 투입하기 시작했다. 조달 담당자는 해당 광물을 쓰는 품목의 공급처 다변화 현황을 점검할 필요가 있다.",
-      "key_points": [
-        "각국 정부가 중국산 갈륨·게르마늄 대체 공급망에 재정 지원을 시작했다",
-        "한국 기업들이 미국 핵심광물 자립 난항 국면에서 공급망 재편 참여를 확대하고 있다",
-        "대체 공급처의 실제 생산 가동 시점과 규모는 아직 확인되지 않았다"
-      ],
-      "sections": [
-        {
-          "heading": "무슨 일이 있었나",
-          "paragraphs": [
-            "2026년 11월 19일 Benchmark Mineral Intelligence 보도에 따르면, 중국의 갈륨·게르마늄 수출통제가 본격적인 공급 차질로 이어지면서 미국·유럽 등 각국 정부가 중국 외 생산처 개발에 직접 재정을 투입하는 움직임이 가시화됐다. 같은 시기 딜사이트는 미국의 핵심광물 자립 추진이 난항을 겪고 있다는 사실을 전하며, 이 공백을 메우기 위해 한국 기업들이 공급망 재편에 뛰어들고 있다고 보도했다.",
-            "캐나다와 한국은 11월 19일 아시아태평양재단 발표 기준으로 핵심광물 공급망 협력 체계를 공식화했다. 중국이 희토류를 반격 카드로 활용할 가능성도 국내 언론에서 거론되고 있다."
-          ]
-        },
-        {
-          "heading": "왜 조달 담당자가 주목해야 하나",
-          "paragraphs": [
-            "갈륨과 게르마늄은 반도체·광통신·방산 부품에 쓰이는 소재다. 이 광물의 공급 불안이 현실화될 경우, 해당 소재를 함유한 중간재·완제품의 납기와 단가에 영향이 생길 수 있다. 현재 각국 정부 자금이 투입되고 있지만, 신규 생산처의 가동 시점과 실제 공급 규모는 공식 발표된 수치가 없다.",
-            "한국·캐나다 협력처럼 양자 차원의 공급망 협약이 늘고 있는 점은 조달 경로 다변화의 기회가 될 수 있다. 반면 협약 체결과 실제 조달 가능 시점 사이의 간격이 얼마나 될지는 각 협약의 이행 일정을 별도로 확인해야 한다."
-          ]
-        },
-        {
-          "heading": "조달 측면에서 점검할 항목",
-          "paragraphs": [
-            "갈륨·게르마늄 함유 부품을 조달 중이라면 현재 공급처의 원산지 비중, 재고 일수, 계약의 가격조정 조항을 먼저 확인할 수 있다. 중국산 비중이 높은 단일 공급처에 의존하고 있다면, 대체 공급처 인증에 걸리는 기간도 함께 가늠해 둘 필요가 있다."
-          ]
-        }
-      ],
-      "watch_items": [
-        {
-          "label": "각국 정부 지원 프로그램 가동 시점",
-          "detail": "미국·유럽·캐나다가 투입하는 갈륨·게르마늄 대체 공급망 자금의 구체적 집행 일정과 대상 프로젝트 공개 여부"
-        },
-        {
-          "label": "중국 수출통제 품목 확대 여부",
-          "detail": "중국이 갈륨·게르마늄 외 희토류 등 추가 품목으로 수출통제를 확대하는지 공식 발표 모니터링"
-        },
-        {
-          "label": "한·캐나다 핵심광물 협력 이행 일정",
-          "detail": "2026년 11월 19일 발표된 협력 체계의 구체적 품목·물량·납기 일정 공개 시점"
-        },
-        {
-          "label": "국내 소부장 투자지원 선정 기업 품목",
-          "detail": "천안·충북 등 소부장 투자지원 선정 기업의 실제 생산 품목이 갈륨·게르마늄 관련 소재와 겹치는지 확인"
-        }
-      ],
-      "source_ids": [
-        4,
-        1,
-        17,
-        22,
-        33
-      ],
-      "image_keyword": "germanium crystal ingot",
-      "is_featured": true,
-      "timestamp": "오전 09:15",
-      "format": "v2",
-      "sources": [
-        {
-          "title": "Governments race to fund ex-China gallium and germanium as export controls bite - Benchmark Mineral Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkZWbHdyRWIwM0tsVzBXYlNvYWlyMG9icHUtMWlfM1Y2aWR6TVBocWFhZE5ERktERnFXNkVEWU43X1hOUkhuTU92LVhKRmJNTklJQ0FwWTFaY3ZXczBOeGJucTltcFVTMUctclFNSmRza0tVOG93LV9QU0NMRG1nZlprVXIzYkZDZDlpeV96NmoyUm9zSElBbF9rRlhxcVFDVnMzcEtVWDdfV2xJOGxpNkVrT05Uc08tSzVrRVlZUnJadw?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-19"
-        },
-        {
-          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "美 핵심광물 자립 난항…공급망 재편에 뛰어든 韓 기업들 - 딜사이트",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yajhXSWRzaGVjY3BRcEhlMUo2MktiVHFzRnA4dHBiNDFVMXY5R3hwVHdKOHhkdm5VbHZJRG1ORVdndFBsQl91ZGZwdUs2VFk?oc=5",
-          "source": "Google뉴스-공급망패권",
-          "date": "2026-11-16"
-        },
-        {
-          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-11-23"
-        },
-        {
-          "title": "Canada–South Korea Critical Mineral Supply Chain Co-operation - Asia Pacific Foundation of Canada",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdTdaeFIwSkRUSy1LRHl0NEM0QkhHN1A0LUhwS0F6QlZ5Y2pZeUJFX244QjhPOTBfbUNUT3JFZHZXSFBURTdQeGd6b3ZTQmRKWEVPQU9GQTJnekZEVF91a0hkYmc2bWdPaEFiS2s2MEh6TGIwc3BSLXI3QzNQUjNuTFpTX1M1clpXa3l5b0VETndvY2VMeUc0NnhYVy1hYTNu?oc=5",
-          "source": "Google뉴스-글로벌공급망",
-          "date": "2026-11-19"
-        }
-      ],
-      "fact": [],
-      "meaning": [],
-      "winner": [],
-      "loser": [],
-      "action": [],
-      "is_brief": false,
-      "image_url": "images/2026-11-23_article_0.jpg",
-      "review": {
-        "trust_score": 4,
-        "status": "pass",
-        "suspicious_claims": [
-          "신규 생산처 가동 시점·공급 규모에 관한 공식 수치 없음을 기사 자체에서 인정",
-          "한국·캐나다 핵심광물 협력 공식화 발표 출처(아시아태평양재단)의 신뢰도 별도 확인 필요"
-        ],
-        "image_keyword_ok": true,
-        "notes": "주요 사실 검증 가능, 불확실 사항은 기사 내에서 적절히 단서 처리됨",
-        "verified_at": "2026-11-23 08:16"
-      }
-    },
-    {
-      "id": 1,
-      "topic_key": "희토류-중국반격-한국기업-수혜",
-      "category": "기술패권",
-      "tag_type": "tag-hegemony",
       "article_type": "brief",
-      "title": "중국 희토류 반격 카드, 한국 조달에 열리는 변수",
-      "summary": "미중 기술 갈등이 심화되면서 중국이 희토류를 맞대응 수단으로 활용할 가능성이 거론되고 있다. 국내 희토류 관련 기업에 대한 관심이 높아지는 한편, 실제 규제 범위와 시점은 확인되지 않았다.",
+      "title": "한·캐나다 핵심광물 협력, 실행 범위는",
+      "summary": "아시아태평양재단이 지난 19일 캐나다·한국의 핵심광물 공급망 협력을 다뤘다. 제공된 자료만으로는 대상 광물과 계약 여부가 확인되지 않는다.",
       "key_points": [
-        "중국이 반도체 수출통제 대응 카드로 희토류 활용 가능성을 검토 중이라는 보도가 나왔다",
-        "미국의 대중국 반도체 수출통제 강화와 중국의 맞대응 구도가 동시에 진행되고 있다",
-        "중국이 실제로 희토류 수출을 제한할 경우 어느 품목·국가가 대상이 될지는 공식 발표가 없다"
+        "지난 19일 한·캐나다 핵심광물 협력 관련 자료 발행",
+        "대상 광물·참여 기업·공급 계약 여부는 미확인"
       ],
       "sections": [
         {
-          "heading": "",
+          "heading": "협력 의제와 공급 확보 사이",
           "paragraphs": [
-            "2026년 11월 23일 핀포인트뉴스는 미국의 반도체 수출통제 강화에 맞서 중국이 희토류를 반격 카드로 활용할 가능성을 조명했다. 같은 흐름에서 테크데일리는 11월 20일, 미국의 수출통제 강화에 중국이 어떤 맞대응 카드를 쥐고 있는지를 분석한 기사를 발행했다.",
-            "희토류는 전기차 모터, 풍력 발전기, 정밀 무기 부품 등 광범위한 산업 소재로 쓰인다. 중국이 실제로 희토류 수출 규제에 나설 경우, 이를 원료로 쓰는 중간재 조달에 영향이 생길 가능성이 있다. 다만 현재로서는 구체적인 품목·물량·시행 시점에 관한 중국 정부의 공식 발표는 나오지 않았다.",
-            "조달 담당자 입장에서는 현재 사용 중인 소재·부품 가운데 희토류 함유 비중이 높은 것이 무엇인지, 해당 품목의 공급처가 중국에 집중돼 있는지를 먼저 확인할 수 있다."
+            "캐나다 아시아태평양재단은 11월 19일 캐나다와 한국의 핵심광물 공급망 협력을 주제로 한 자료를 발행했다. 제공된 목록에서 확인되는 것은 발행 주체와 날짜, 협력이라는 주제다. 이를 정부 간 신규 협약이나 기업의 공급 계약 체결로 해석할 근거는 제시되지 않았다.",
+            "소재 공급망에서 협력의 의미는 구체적인 대상과 사업 단계에 따라 달라진다. 어떤 광물을 어떤 방식으로 공급할지가 정해져야 산업에 닿는 변화를 설명할 수 있다. 그러나 제공된 자료에는 대상 광물, 참여 기업, 투자액과 공급 물량이 없어 국내 산업의 수급 개선 효과를 판단하기 어렵다.",
+            "이번 자료는 양국의 핵심광물 협력이 논의되고 있음을 보여주는 단서다. 다만 협력 의제가 실제 공급 확보로 이어졌는지는 별개의 문제다. 현재 근거로는 특정 소재의 공급 확대나 기업의 수혜까지 연결하기 어렵다."
           ]
         }
       ],
       "watch_items": [],
       "source_ids": [
-        22,
-        2,
-        18
+        4
       ],
-      "image_keyword": "rare earth mineral processing plant",
-      "is_featured": false,
-      "timestamp": "오전 09:15",
+      "image_keyword": "mineral core samples",
+      "is_featured": true,
+      "timestamp": "현재 시각 확인 불가",
       "format": "v2",
       "sources": [
         {
-          "title": "중국, 희토류로 반격하나…유니온·동국알앤에스 주목을 - 핀포인트뉴스",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9meXZDZzNabUlseVZsM05xNTBYM2M0bndDM0RCY3pMNUJKRV9VZ3R0QnQxM00xMDhvekl3ZGlBMjF5QjYySFlhNlgyOVhDVXExZWNqUlJNU2RfVUtIQ3hydHJUbmNtMWhWSGZhMUpPbUNoazBmekVN0gF3QVVfeXFMT2Z5dkNnM1ptSWx5VmwzTnE1MFgzYzRud0MzREJjekw1QkpFX1VndHRCdDEzTTEwOG96SXdkaUEyMXlCNjJIWWE2WDI5WENVcTFlY2pSUk1TZF9VS0hDeHJ0clRuY20xaFZIZmExSk9tQ2hrMGZ6RU0?oc=5",
-          "source": "Google뉴스-미중패권",
-          "date": "2026-11-23"
-        },
-        {
-          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
+          "title": "Canada–South Korea Critical Mineral Supply Chain Co-operation - Asia Pacific Foundation of Canada",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdTdaeFIwSkRUSy1LRHl0NEM0QkhHN1A0LUhwS0F6QlZ5Y2pZeUJFX244QjhPOTBfbUNUT3JFZHZXSFBURTdQeGd6b3ZTQmRKWEVPQU9GQTJnekZEVF91a0hkYmc2bWdPaEFiS2s2MEh6TGIwc3BSLXI3QzNQUjNuTFpTX1M1clpXa3l5b0VETndvY2VMeUc0NnhYVy1hYTNu?oc=5",
           "source": "GoogleNews",
-          "date": "2026-11-20"
-        },
+          "date": "2026-11-19"
+        }
+      ],
+      "fact": [],
+      "meaning": [],
+      "winner": [],
+      "loser": [],
+      "action": [],
+      "is_brief": false,
+      "image_url": "images/2026-11-24_article_0.jpg",
+      "image_ai": true,
+      "image_caption": "[AI 생성 일러스트] 기사 내용을 설명하는 도식이며 실제 사진이 아닙니다.",
+      "review": {
+        "trust_score": 4,
+        "status": "pass",
+        "suspicious_claims": [
+          "캐나다 아시아태평양재단 발행 자료의 구체적 내용 미확인",
+          "협력 의제가 정부간 협약인지 연구 보고서인지 불분명"
+        ],
+        "image_keyword_ok": true,
+        "notes": "출처 명시, 과장 없는 서술. 대상 광물·계약 세부사항 부재는 기사 내 인정됨.",
+        "verified_at": "2026-11-24 08:18"
+      }
+    },
+    {
+      "id": 1,
+      "topic_key": "동운아나텍-로봇-모션제어진출",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
+      "article_type": "brief",
+      "title": "동운아나텍, 로봇 모션제어 시장 진출",
+      "summary": "지난 20일 피델리티에 게시된 자료가 동운아나텍의 로봇 모션제어 시장 진출을 전했다. 제품 사양과 고객사, 매출 발생 여부는 확인되지 않는다.",
+      "key_points": [
+        "동운아나텍의 로봇 모션제어 시장 진출 소식",
+        "제품 사양·고객사·매출 발생 여부는 미확인"
+      ],
+      "sections": [
         {
-          "title": "미국 반도체 수출통제 강화에 중국 반발… 이에 맞대응 중국 카드는? - 테크데일리",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSEllSUJxVGkzODZTbDVrU1otd3R4NzYzU0Rjck9Rb3p4LWk4RmEtRjN4dEV2MlNtdVJsUVczdl9DSXpDVmE1czF1VHhyUzljSUM1RHdYcGxYUG5JTFVBbFY3WlRVTjNaeHZVZkxR0gFyQVVfeXFMTVBIcW8yRDc1dzExcGs5NUJTb1puTW5McXB3aGVMV3V2NjFiSkszRmNoem5tc09JWEpINVRyenpFMERTcFUyclFIVk5VY2owbmg3bFV5UlJNLTQzcDhrNVlOM09DbWE1LUdDSmo1YXpqVnZn?oc=5",
-          "source": "Google뉴스-공급망패권",
+          "heading": "시장 진출 소식, 사업 성과는 별개",
+          "paragraphs": [
+            "11월 20일 피델리티 인베스트먼츠에 게시된 자료는 동운아나텍이 로봇 모션제어 시장에 진출했다고 전했다. 제목은 이 움직임을 피지컬 AI와 연결했다. 이번 소식의 구체적인 변화는 개별 기업이 로봇 모션제어를 사업 영역으로 제시했다는 점이다.",
+            "시장 진출은 사업 방향을 보여주지만, 제품 공급이나 실적 발생까지 입증하지는 않는다. 제공된 자료에는 제품의 구체적인 기능과 사양, 고객사, 공급 계약, 양산 일정이 담겨 있지 않다. 특정 로봇 업체에 부품을 공급한다고 단정할 근거도 없다.",
+            "따라서 이번 소식은 동운아나텍의 사업 확장이라는 범위에서 읽을 수 있다. 로봇 산업 내 역할과 사업 규모는 아직 판단하기 어렵다. 피지컬 AI라는 산업 주제와 개별 기업의 상업적 성과를 연결하려면 추가적인 제품·계약 정보가 필요하다."
+          ]
+        }
+      ],
+      "watch_items": [],
+      "source_ids": [
+        29
+      ],
+      "image_keyword": "robot arm joint",
+      "is_featured": false,
+      "timestamp": "현재 시각 확인 불가",
+      "format": "v2",
+      "sources": [
+        {
+          "title": "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI - Fidelity Investments",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeVpFcDN4aFBRdkRQVFFybmRQVGVfb1Z1ZFhMWGlTSjR3cWFvMUJwMW1GS0dfMnk3dzExSVRVQU4zdVBTUmJ1bUZFY2RLR3JEZzFkUGNFeWFGTHFONjRfYzZRcE1kdmNwTGkyaDd0TVQ3RU9sZ3UxX2VQeWJNQjk4U0JjSVp1VFVjRE5jMGpR?oc=5",
+          "source": "Google뉴스-글로벌공급망",
           "date": "2026-11-20"
         }
       ],
@@ -177,72 +106,55 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-23_article_1.jpg",
+      "image_url": "images/2026-11-24_article_1.jpg",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "중국 희토류 수출 규제의 구체적 품목·시행 시점에 관한 공식 발표 없음을 기사 자체에서 인정",
-          "유니온·동국알앤에스 주목 언급이 투자 정보성 편향 가능성 있음"
+          "피델리티 인베스트먼츠 게시 자료의 원문 내용 미검증",
+          "동운아나텍의 로봇 모션제어 제품 양산 여부 미확인"
         ],
         "image_keyword_ok": true,
-        "notes": "불확실성을 명시적으로 고지한 점이 적절하나 특정 종목 언급은 편집 주의 필요",
-        "verified_at": "2026-11-23 08:16"
+        "notes": "동운아나텍 실존 기업, 주장 범위 적절. 성과 미확정 사실 기사 내 명시.",
+        "verified_at": "2026-11-24 08:18"
       }
     },
     {
       "id": 2,
-      "topic_key": "엔비디아칩-밀수망-AI패권-공급망통제",
-      "category": "글로벌분석",
-      "tag_type": "tag-global",
+      "topic_key": "전남광주-국산AI반도체-상용화지원",
+      "category": "산업전략",
+      "tag_type": "tag-strategy",
       "article_type": "brief",
-      "title": "엔비디아 칩 밀수망 추적, 수출통제 실효성 논란으로",
-      "summary": "FT·NYT가 엔비디아 칩 밀수 경로와 중국 산업스파이 활동을 추적 보도했다. 수출통제의 실효성 논란이 커지면서 조달 담당자는 거래 상대방의 최종 사용처 확인 의무가 강화될 가능성을 염두에 둘 필요가 있다.",
+      "title": "전남광주 국산 AI 반도체 상용화 지원",
+      "summary": "지난 20일 MTN은 전남광주와 AI전략위의 국산 AI 반도체 상용화 지원 소식을 전했다. 지원 규모와 대상 제품, 적용 일정은 확인되지 않는다.",
       "key_points": [
-        "FT와 NYT가 엔비디아 칩의 중국 밀수 경로와 산업스파이 활동을 2026년 11월 23일 보도했다",
-        "수출통제 우회 경로가 보도되면서 미국 당국의 대응 조치가 추가로 나올 가능성이 있다",
-        "실제 추가 규제의 범위와 시행 시점은 아직 공식 발표되지 않았다"
+        "전남광주·AI전략위의 국산 AI 반도체 상용화 지원 보도",
+        "지원 규모·대상 제품·적용 일정은 미확인"
       ],
       "sections": [
         {
-          "heading": "",
+          "heading": "상용화 지원이 겨냥한 단계",
           "paragraphs": [
-            "2026년 11월 23일 아시아투데이에 따르면, 파이낸셜타임스와 뉴욕타임스가 엔비디아 고사양 칩이 미국 수출통제 규정을 우회해 중국으로 흘러들어가는 밀수망과 중국의 AI 관련 산업스파이 작전을 추적한 기사를 발행했다.",
-            "앞서 미국은 11월 17일 보도 기준으로 중국의 AI 반도체 우회 접근을 막기 위해 동남아 4개국과 브라질까지 수출통제 대상을 확대한 바 있다. 이번 밀수망 보도는 그 실효성에 대한 의문을 다시 제기하는 흐름으로 이어질 수 있다.",
-            "수출통제 우회 경로가 공개적으로 거론될 경우, 미국 당국이 거래 당사자에 대한 최종 사용처 검증 요건을 강화하거나 제재 대상 명단을 추가할 가능성이 있다. 반도체·AI 인프라 관련 부품을 조달하는 기업이라면 현재 계약 상대방의 적격성 확인 절차와 불가항력 조항을 점검해 둘 수 있다."
+            "MTN 머니투데이방송은 11월 20일 전남광주와 AI전략위의 국산 AI 반도체 상용화 지원 소식을 보도했다. 제공된 제목에서 확인되는 지원 방향은 상용화다. 다만 지원 대상 기업이나 제품, 예산과 사업 방식은 제시되지 않았다.",
+            "상용화 지원이라는 표현은 기술을 실제 사용과 연결하려는 방향을 드러낸다. 그러나 지원 소식만으로 국산 칩의 도입이나 판매가 이뤄졌다고 볼 수는 없다. 제공된 자료로는 지원이 제품 검증, 실제 적용, 판매 가운데 어느 단계에 해당하는지도 확인되지 않는다.",
+            "이번 보도의 의미는 국산 AI 반도체를 산업 현장에서 활용하는 문제가 지원 의제로 제시됐다는 데 있다. 지원이 실제 적용 사례로 이어진다면 사업의 효과를 더 구체적으로 설명할 수 있다. 현재로서는 성능 경쟁력이나 시장 확대 효과를 판단할 근거가 부족하다."
           ]
         }
       ],
-      "watch_items": [
-        {
-          "label": "미국 당국 후속 조치 발표",
-          "detail": "밀수망 보도 이후 미 상무부 BIS의 추가 제재 명단 업데이트 또는 수출통제 규정 개정 공고 여부"
-        },
-        {
-          "label": "동남아·브라질 규제 이행 세부 사항",
-          "detail": "11월 17일 발표된 수출통제 확대 대상국에 대한 구체적 품목 목록과 적용 시점 공개 여부"
-        }
-      ],
+      "watch_items": [],
       "source_ids": [
-        8,
-        7
+        24
       ],
-      "image_keyword": "GPU chip circuit board closeup",
+      "image_keyword": "semiconductor test board",
       "is_featured": false,
-      "timestamp": "오전 09:15",
+      "timestamp": "현재 시각 확인 불가",
       "format": "v2",
       "sources": [
         {
-          "title": "FT·NYT, 엔비디아 칩 밀수망·중국 산업스파이 작전 추적…미중 AI 패권 경쟁의 이면 - 아시아투데이",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4anpFT2hITzUyNm02VzBZTEpMY2tOZUxwSHZnbXZpdlFwaWZWV096enFCZ2gxcTJZNUpyeW1MV1RnYTR6aGxSOWZ1SjRPb2pvRmVneDFIcWI4WTNROTllUmJVNEdrSVNsSm1aQ01n?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-23"
-        },
-        {
-          "title": "미국, 중국 AI 반도체 우회 접근 차단…동남아 4개국·브라질까지 수출통제 확대 - 뉴스워커",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iMmU3U0NXa1RwcmtoeDctVEtiT3dqWk92UVhjeFpRQ3hhZ2F4cS1rWGhVWVlCRGZ2T2laUEhGNFplLVRGVU9jQ1pEQkl2b1o2Nmc3b2hPS1lpei1ZQkN6YnBGYXpUT2RjRWRMbEJxSzPSAXRBVV95cUxQSEF4TWZFb1o5Q1FRQzNycWFaaVh5dHpkdnNOZXZ4VWRRNVU3UTVVZ0hjOS03eFBabm9saDJRMTdsNkZMM3BDMmFXdEl5NmpUa0pqcnh6NGcxZDhaVi1pREl0V2JCR01hcDZRTkczUUFpTGpySg?oc=5",
-          "source": "GoogleNews",
-          "date": "2026-11-17"
+          "title": "[글로컬픽] 전남광주-AI전략위, 국산 AI 반도체 상용화 지원 - MTN 머니투데이방송",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41anR4SzYxbTRWNGc5NzZyQ2FMdUZYTHgyWHpIX3dlOVBNb0RPbFNKdGxvQ0hCV3NuRnY1b3dvTEVnLVdWeXltRVlaQ1B0eXIyUEg1S3ZiVUpZM250RGtR?oc=5",
+          "source": "Google뉴스-AI산업",
+          "date": "2026-11-20"
         }
       ],
       "fact": [],
@@ -251,47 +163,50 @@
       "loser": [],
       "action": [],
       "is_brief": false,
-      "image_url": "images/2026-11-23_article_2.jpg",
+      "image_url": "images/2026-11-24_article_2.jpg",
+      "image_ai": true,
+      "image_caption": "[AI 생성 일러스트] 기사 내용을 설명하는 도식이며 실제 사진이 아닙니다.",
       "review": {
         "trust_score": 4,
         "status": "pass",
         "suspicious_claims": [
-          "FT·NYT 밀수망 보도 원문 직접 인용 없이 아시아투데이 재인용 구조로 1차 출처 확인 필요",
-          "동남아 4개국 수출통제 확대 대상국 명단 미기재로 사실 범위 검증 어려움"
+          "AI전략위 공식 명칭·소속 기관 확인 필요",
+          "지원 대상 기업·예산 규모 전혀 미제시",
+          "전남광주 협력 주체의 역할 범위 불분명"
         ],
         "image_keyword_ok": true,
-        "notes": "재인용 구조로 원문 출처 확인 필요, 수출통제 확대 대상국 명시 권고",
-        "verified_at": "2026-11-23 08:16"
+        "notes": "MTN 출처 명시, 과장 없음. 지원 단계·규모 미확인은 기사 내 인정됨.",
+        "verified_at": "2026-11-24 08:18"
       }
     }
   ],
-  "editorial_briefing": "중국의 갈륨·게르마늄 수출통제와 희토류 반격 가능성이 현실화되면서 각국 정부가 대체 공급망 구축에 직접 자금을 투입하고 있다. 엔비디아 칩 밀수 경로 추적 보도로 수출통제 실효성 논란도 커지는 상황이다.",
+  "editorial_briefing": "한·캐나다 핵심광물 공급망 협력과 동운아나텍의 로봇 모션제어 시장 진출 소식이 전해졌다. 전남광주에서는 국산 AI 반도체 상용화 지원 소식이 나왔으며, 구체적인 계약·매출·지원 일정은 확인되지 않았다.",
   "key_signals": [
     {
-      "icon": "🔴",
-      "label": "갈륨·게르마늄 공급망",
-      "status": "각국 자금 투입 중"
-    },
-    {
-      "icon": "🔴",
-      "label": "희토류 수출통제 리스크",
-      "status": "중국 반격 가능성"
-    },
-    {
       "icon": "🟡",
-      "label": "엔비디아 칩 밀수",
-      "status": "수출통제 실효성 논란"
-    },
-    {
-      "icon": "🟡",
-      "label": "미중 기술 갈등",
-      "status": "심화 모니터링"
+      "label": "핵심광물 공급망 협력",
+      "status": "협력 범위 미확인"
     },
     {
       "icon": "🟢",
-      "label": "국내 희토류 기업",
-      "status": "관심 증가"
+      "label": "로봇 모션제어 진출",
+      "status": "시장 진출 소식"
+    },
+    {
+      "icon": "🟡",
+      "label": "로봇 사업 매출",
+      "status": "매출 발생 미확인"
+    },
+    {
+      "icon": "🟢",
+      "label": "국산 AI 반도체",
+      "status": "상용화 지원 소식"
+    },
+    {
+      "icon": "🟡",
+      "label": "반도체 지원 구체화",
+      "status": "규모·일정 미확인"
     }
   ],
-  "last_reviewed_at": "2026-11-23 08:16"
+  "last_reviewed_at": "2026-11-24 08:18"
 }
