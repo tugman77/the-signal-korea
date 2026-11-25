@@ -620,6 +620,14 @@ def run_review(data_path, label="articles.json", date_prefix=None):
                     log(f"검수 결과 아카이브 반영 → {arch}")
             except Exception as e:
                 log(f"아카이브 반영 오류: {e}", "WARN")
+            # 정적 기사 페이지도 다시 만든다 (2026-11-26). 검수가 사진을 AI 도식으로 바꿔도 news/*.html은
+            # 생성 단계 것이 남아 캡션이 실제 이미지와 어긋났다(소재타임스 11-26 실측).
+            try:
+                import 정적페이지생성
+                n = 정적페이지생성.generate_for_date(data["date_key"], data, 정적페이지생성.extract_style())
+                log(f"검수 결과 정적 페이지 {n}건 다시 생성")
+            except Exception as e:
+                log(f"정적 페이지 재생성 오류(발행에는 영향 없음): {type(e).__name__}: {e}", "WARN")
 
     # ── 결과 집계 ──
     passed = total_errors == 0
