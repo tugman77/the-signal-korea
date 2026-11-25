@@ -24,6 +24,7 @@ import importlib
 import requests
 import llm_backend  # 구독코인(로컬 Claude Code) / API코인(anthropic SDK) 전환
 import 원문수집
+from 채널범위 import SCOPE_RULE  # in_scope 판정 기준 (기사자동생성.py와 공용)
 import 검수게이트    # 심각한 문제 기사는 공개 전에 뺀다 (컨트롤타워 검수관 체계, 2026-10-14)
 from datetime import datetime, timezone, timedelta
 from collections import Counter
@@ -368,6 +369,11 @@ def review_articles_with_claude(articles):
    5=거의 모든 내용 검증 가능, 4=대부분 사실로 판단, 3=일부 주의 필요,
    2=의심스러운 주장 다수, 1=명백한 오류 또는 허위 가능성 높음
 
+1-1. 채널 범위 (in_scope):
+   더 시그널 코리아가 다루는 범위는 다음과 같다. 기사의 중심 주제가 이 범위 안이면 true, 밖이면 false.
+   범위 밖이면 사실이 정확해도 in_scope=false로 하고 notes에 이유를 적는다(사실성 점수는 따로 매긴다).
+{SCOPE_RULE}
+
 2. 이미지 키워드 연관성 (image_keyword_ok):
    - image_keyword(영문)가 기사 내용(주제·소재·산업)과 직접 관련 있는지
    - 스톡 이미지 검색에 효과적으로 구체적인지
@@ -394,13 +400,15 @@ review_articles 도구로 전체 검수 결과를 반환하세요."""
                                        "description": "pass=문제없음, warning=주의, fail=심각한 오류"},
                             "suspicious_claims": {"type": "array", "items": {"type": "string"},
                                                   "description": "검증 필요한 의심 주장(최대 3개, 각 50자 이내)"},
+                            "in_scope": {"type": "boolean",
+                                         "description": "기사 중심 주제가 채널 범위 안이면 true"},
                             "image_keyword_ok": {"type": "boolean",
                                                  "description": "이미지 키워드가 기사 내용과 연관 있으면 true"},
                             "suggested_image_keyword": {"type": "string",
                                                         "description": "image_keyword_ok=false일 때 대체 영문 키워드"},
                             "notes": {"type": "string", "description": "전반 검수 코멘트(60자 이내)"},
                         },
-                        "required": ["article_id", "trust_score", "status",
+                        "required": ["article_id", "trust_score", "status", "in_scope",
                                      "suspicious_claims", "image_keyword_ok", "notes"],
                     },
                     "minItems": len(summaries),
@@ -589,6 +597,7 @@ def run_review(data_path, label="articles.json", date_prefix=None):
                 "trust_score": r.get("trust_score", 3),
                 "status": r.get("status", "pass"),
                 "suspicious_claims": r.get("suspicious_claims", []),
+                "in_scope": r.get("in_scope", True),
                 "image_keyword_ok": r.get("image_keyword_ok", True),
                 "notes": r.get("notes", ""),
                 "verified_at": reviewed_at,

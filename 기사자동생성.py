@@ -72,16 +72,38 @@ V2_TYPES = ("brief", "explainer", "analysis")
 # 풀 목록은 이미지풀.py 한 곳에서만 관리한다 (소재타임스와 동일 구조).
 
 RSS_FEEDS = [
-    ("Google뉴스-공급망패권",  "https://news.google.com/rss/search?q=갈륨+게르마늄+수출+규제+한국+공급망&hl=ko&gl=KR&ceid=KR:ko"),
-    ("Google뉴스-미중패권",    "https://news.google.com/rss/search?q=미중+반도체+패권+공급망&hl=ko&gl=KR&ceid=KR:ko"),
-    ("Google뉴스-AI산업",      "https://news.google.com/rss/search?q=AI+반도체+한국+산업전략&hl=ko&gl=KR&ceid=KR:ko"),
-    ("Google뉴스-글로벌공급망","https://news.google.com/rss/search?q=supply+chain+semiconductor+Korea+strategy&hl=en&gl=US&ceid=US:en"),
-    ("Google뉴스-기술패권",    "https://news.google.com/rss/search?q=tech+war+US+China+chip+Korea&hl=en&gl=US&ceid=US:en"),
-    ("연합뉴스 경제",          "https://www.yna.co.kr/rss/economy.xml"),
-    ("전자신문",               "https://www.etnews.com/rss/section/"),
+    # (이름, 주소, 업종 필터 적용 여부)
+    # Google 검색 RSS는 검색어가 이미 주제를 좁히지만 원문을 받지 않는다(원문수집.py GOOGLE_PREFIX).
+    ("Google뉴스-공급망패권",  "https://news.google.com/rss/search?q=갈륨+게르마늄+수출+규제+한국+공급망&hl=ko&gl=KR&ceid=KR:ko", False),
+    ("Google뉴스-미중패권",    "https://news.google.com/rss/search?q=미중+반도체+패권+공급망&hl=ko&gl=KR&ceid=KR:ko", False),
+    ("Google뉴스-AI산업",      "https://news.google.com/rss/search?q=AI+반도체+한국+산업전략&hl=ko&gl=KR&ceid=KR:ko", False),
+    ("Google뉴스-글로벌공급망","https://news.google.com/rss/search?q=supply+chain+semiconductor+Korea+strategy&hl=en&gl=US&ceid=US:en", False),
+    ("Google뉴스-기술패권",    "https://news.google.com/rss/search?q=tech+war+US+China+chip+Korea&hl=en&gl=US&ceid=US:en", False),
+    # 언론사 직접 피드 — 원문을 받을 수 있는 자료원. 일반 경제·산업 피드라 업종 필터를 건다.
+    # 2026-11-25: 필터 없던 연합뉴스 경제에서 '생맥주 주세' 기사가 원문이 있다는 이유로 선정됐다.
+    ("연합뉴스 경제",          "https://www.yna.co.kr/rss/economy.xml", True),
+    ("연합뉴스 산업",          "https://www.yna.co.kr/rss/industry.xml", True),
+    ("전자신문",               "https://rss.etnews.com/Section901.xml", True),  # 옛 /rss/section/ 주소는 0건
+    ("매일경제 기업",          "https://www.mk.co.kr/rss/50100032/", True),
+    ("디일렉",                 "https://www.thelec.kr/rss/allArticle.xml", True),
+    ("mining.com",             "https://www.mining.com/feed/", True),
 ]
 
+# 직접 피드 업종 필터 — 제목·요약에 하나라도 있어야 수집한다. 범위 밖 주제(주류·식품·부동산·증시 시황 등)는
+# 생성 지시문(SCOPE_RULE)과 검수가 한 번 더 거른다.
+INDUSTRY_KEYWORDS = re.compile(
+    r"반도체|소재|광물|희토류|리튬|니켈|코발트|망간|갈륨|게르마늄|텅스텐|안티몬|흑연|탄탈|인듐|비스무트|"
+    r"배터리|이차전지|양극재|음극재|전구체|전해질|공급망|수출\s?규제|수출\s?통제|관세|소부장|웨이퍼|파운드리|"
+    r"HBM|메모리|낸드|D램|디스플레이|OLED|희소금속|비철|구리|알루미늄|철강|석유화학|정밀화학|수소|원전|조선|방산|"
+    r"AI\s?칩|AI\s?반도체|데이터센터|전력망|변압기|제련|광산|"
+    r"semiconductor|chip|rare earth|lithium|nickel|cobalt|gallium|germanium|graphite|antimony|tungsten|"
+    r"critical mineral|supply chain|export control|tariff|foundry|wafer|battery|copper|smelter|refin",
+    re.I,
+)
+
 KST = timezone(timedelta(hours=9))
+
+from 채널범위 import SCOPE_RULE  # 생성 지시문·기사검수.py in_scope 판정 공용 (2026-11-25)
 
 
 # ── 텔레그램 알림 ────────────────────────────────────────────────────
@@ -280,11 +302,17 @@ def deduplicate_articles(articles: list) -> list:
 # ── RSS 수집 ───────────────────────────────────────────────────────
 def collect_news_from_rss(max_per_feed=5):
     collected = []
-    for name, url in RSS_FEEDS:
+    for name, url, filtered in RSS_FEEDS:
         try:
-            feed = feedparser.parse(최신필터.recent_url(url))
+            # 브라우저 식별값 — mining.com 등은 feedparser 기본값에 403을 준다
+            feed = feedparser.parse(최신필터.recent_url(url), agent=원문수집.USER_AGENT)
             fresh = [(e, 최신필터.entry_date(e)) for e in feed.entries]
-            fresh = [(e, d) for e, d in fresh if 최신필터.is_fresh(d)][:max_per_feed]
+            fresh = [(e, d) for e, d in fresh if 최신필터.is_fresh(d)]
+            if filtered:
+                # 피드 전체(최대 120건)를 훑어 업종 기사만 고른다 — 앞 5건만 자르면 그날 첫 기사들이 무작위로 들어온다
+                fresh = [(e, d) for e, d in fresh
+                         if INDUSTRY_KEYWORDS.search(f"{e.get('title', '')} {e.get('summary', '')[:300]}")]
+            fresh = fresh[:max_per_feed]
             for entry, pub in fresh:
                 title   = entry.get("title", "")
                 summary = entry.get("summary", entry.get("description", ""))[:300]
@@ -543,6 +571,9 @@ topic_key와 image_keyword도 아래와 겹치지 않게 하세요.
 
 핵심 미션: 글로벌 기술·산업 뉴스를 현장 공급망 시각으로 해석하여 "한국 산업은 앞으로 무엇으로 먹고 살 것인가?"에 답합니다.
 타깃 독자: 개인 투자자·기업 구매담당자·산업 전략가 — "이 뉴스가 실제 비즈니스에 무슨 의미인가"에 답해야 합니다.
+
+[다루는 범위 — 반드시 준수]
+{SCOPE_RULE}
 
 {sojaetimes_section}{news_section}
 
@@ -836,6 +867,9 @@ def generate_articles_v2(raw_news_list, recent_titles, sojaetimes_briefing=None,
   (예: "※ 실무 참고: 이 소재가 들어간 부품을 쓰는 기업은 공급처 구성과 재고 수준을 확인해 볼 수 있다.").
   단신(brief)은 기본으로 쓰지 않고, 직접 영향이 불분명하면 해설·분석에서도 생략한다.
 - 담백한 평서형으로 쓴다. 과장된 감탄이나 위기를 부추기는 제목은 쓰지 않는다. 제목은 15~30자이며 "조달"이라는 단어를 넣지 않는다(독자 범위를 좁히고 일반 검색어와 멀어진다).
+
+[다루는 범위 — 반드시 준수]
+{SCOPE_RULE}
 
 [카테고리 — 반드시 준수]
 - 공급망전쟁 1~2건(소재 중심). 나머지는 기술패권 / 산업전략 / 글로벌분석 중에서 고른다. 최소 2개 카테고리.

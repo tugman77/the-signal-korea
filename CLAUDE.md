@@ -458,17 +458,18 @@ python3 이미지풀.py                     # 장수 + cross-category 중복 점
 
 ---
 
-## RSS 피드
+## RSS 피드 (2026-11-25 개편 — 대표님 지시 「맥주 세금 기사」 대응)
 
-| 소스 | 키워드 |
-|------|--------|
-| Google뉴스(한국어) | 갈륨 게르마늄 수출 규제 한국 공급망 |
-| Google뉴스(한국어) | 미중 반도체 패권 공급망 |
-| Google뉴스(한국어) | AI 반도체 한국 산업전략 |
-| Google뉴스(영어) | supply chain semiconductor Korea strategy |
-| Google뉴스(영어) | tech war US China chip Korea |
-| 연합뉴스 | 경제 |
-| 전자신문 | 전체 |
+| 소스 | 업종 필터 | 원문 |
+|------|---|---|
+| Google뉴스 검색 RSS 5개(갈륨·미중 반도체·AI 반도체·supply chain·tech war) | 없음(검색어가 주제) | ✗ (429 차단 위험으로 받지 않음, `원문수집.GOOGLE_PREFIX`) |
+| 연합뉴스 경제 · 연합뉴스 산업 · 전자신문(`rss.etnews.com/Section901.xml`) · 매일경제 기업 · 디일렉 · mining.com | `INDUSTRY_KEYWORDS` (피드 전체를 훑어 업종 기사만, 피드당 5건) | ✓ |
+| sojaetimes/collect.py 네이버 뉴스 API 13개 검색어 + Google 10개 | 검색어 | 네이버 ✓ |
+
+- **네이버 API 키**: `Media/.env`의 `NAVER_CLIENT_ID/SECRET`(득템로그와 같은 앱). 2026-11-25 전까지 키가 없어 「네이버 API 키 없음 — Google RSS만 사용」이었고 원문 확보가 5/30건이었다 → 30/30건. 호출 간 0.3초(연속 호출 429).
+- 피드는 브라우저 User-Agent로 읽는다(mining.com은 기본값에 403). 옛 전자신문 주소 `/rss/section/`은 0건이었다.
+- **채널 범위** `채널범위.py SCOPE_RULE`: 집필 지시문(v1·v2)과 `기사검수.py`의 `in_scope` 판정이 같은 문구를 쓴다. `in_scope=false`면 `검수게이트.py`가 보류한다. 원문이 풍부하다는 이유로 범위 밖 자료를 고르지 않는다.
+- **기사 교체** `python3 기사교체.py --index N [--reason …] [--dry]`: 오늘 기사 한 건을 새로 수집한 자료로 다른 주제 기사로 바꾼다(같은 id·이미지·정적 페이지 주소, 편집장 브리핑 재작성, 토픽 원장 정리). 다음에 `기사검수.py` → push. 텔레그램 채널에 이미 나간 링크는 새 기사를 연다(채널 재발행은 하지 않음).
 
 ---
 

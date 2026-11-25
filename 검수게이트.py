@@ -6,6 +6,7 @@
 보류 기준 (컨트롤타워/검수기준.md 의 뉴스판):
   - Claude 검수 status == "fail", 또는 신뢰도(trust_score) 2 이하
   - 투자 권유 표현 (매수 추천 등) — 뉴스는 종목 추천을 하지 않는다
+  - 검수가 in_scope=false로 판정한 기사(채널 범위 밖, 2026-11-25 시그널코리아부터)
 보류된 기사는 사이트·채널에 나가지 않는다. 남은 기사로 articles.json·정적 페이지·sitemap을 다시 만든다.
 전부 보류면 종료코드 3 + GITHUB_OUTPUT all_held=true → 그날은 push하지 않는다
 (로컬이면 클라우드 백업이 새로 만들어 다시 검수한다).
@@ -52,6 +53,9 @@ def decide(articles: list, review_map: dict) -> dict:
             why.append(f"검수 fail (신뢰도 {score}/5) {r.get('notes', '')}".strip())
         elif isinstance(score, int) and score <= 2:
             why.append(f"신뢰도 낮음 {score}/5 {r.get('notes', '')}".strip())
+        # 채널 범위 밖 (시그널코리아 기사검수가 in_scope를 판정한다, 2026-11-25). 판정이 없으면 건너뛴다.
+        if r.get("in_scope") is False:
+            why.append(f"채널 범위 밖 {r.get('notes', '')}".strip())
         hit = [p for p in HOLD_PHRASES if p in _text(a)]
         # 2.1 새 형식 기사는 지어낸 현장 문단·승패 단정이 있으면 보류 (v1 기사에는 적용하지 않는다)
         if a.get("sections"):
