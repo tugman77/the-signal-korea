@@ -6,7 +6,31 @@
     <atom:link href="https://www.thesignalkorea.co.kr/rss.xml" rel="self" type="application/rss+xml" />
     <description>글로벌 기술·산업 패권 뉴스를 분석해 한국 산업의 승자·패자·액션을 짚는 인텔리전스 미디어</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 26 Nov 2026 08:19:29 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 08:20:18 +0900</lastBuildDate>
+    <item>
+      <title>독일로 향한 폐자석 회수, 희토류 공급의 다음 단계</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-27-0.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-27-0.html</guid>
+      <category>공급망전쟁</category>
+      <description>사이클릭머티리얼스가 유럽 첫 자석 회수시설 부지로 독일을 선정했다. 2028년 가동을 목표로 하지만 희토류 산화물 공급에는 후속 정제 과정이 남아 있다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>국산 소부장, 개발 다음 문턱은 양산 검증</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-27-1.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-27-1.html</guid>
+      <category>산업전략</category>
+      <description>정부 자문단이 민관 실증팹을 제안하고 용인시도 양산 연계 미니팹 계획을 밝혔다. 실제 검증 기회와 납품으로 이어질 운영 조건은 아직 구체화되지 않았다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>배터리 장비 매출 회복, 이익은 기업마다 갈렸다</title>
+      <link>https://www.thesignalkorea.co.kr/news/2026-11-27-2.html</link>
+      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-27-2.html</guid>
+      <category>산업전략</category>
+      <description>배터리 장비기업 33곳 중 19곳의 3분기 매출이 전년보다 늘었다. 흑자 기업은 15곳에 그쳐 업계 전반의 수익성 회복으로 판단하기는 이르다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0900</pubDate>
+    </item>
     <item>
       <title>황 부족에 막힌 인도네시아 니켈 증설</title>
       <link>https://www.thesignalkorea.co.kr/news/2026-11-26-0.html</link>
@@ -222,30 +246,6 @@
       <category>공급망전쟁</category>
       <description>미국의 핵심광물 자립 추진이 난항을 겪으면서 공급망 재편에 뛰어든 한국 기업들의 역할이 주목받고 있다. 중국의 수출통제 유예 연장이 단기 숨통을 텄지만 구조적 공백은 메워지지 않은 상태다.</description>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>수출 증가 속 한국 제조업 기반이 흔들리는 이유</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-17-1.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-17-1.html</guid>
-      <category>기술패권</category>
-      <description>한국 수출이 늘고 있음에도 제조업 기반이 흔들리고 있다는 2027년 산업 전망이 나왔다. 중국의 추격과 미국의 압박이 동시에 작용하는 이중 구조가 배경으로 지목된다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>한일 AI·반도체 협력, 2045년 3단계 로드맵 제시</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-17-2.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-17-2.html</guid>
-      <category>산업전략</category>
-      <description>한일경제연대가 AI·반도체 공동개발을 시작으로 2045년 경제공동체 구성까지 3단계 로드맵을 제시했다. 대외경제정책연구원도 일본 반도체 공급망 변화가 한국에 주는 시사점을 별도로 분석했다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 +0900</pubDate>
-    </item>
-    <item>
-      <title>고려아연 테네시 제련소, 미국 핵심광물 조달 지형 바꾸나</title>
-      <link>https://www.thesignalkorea.co.kr/news/2026-11-16-0.html</link>
-      <guid isPermaLink="true">https://www.thesignalkorea.co.kr/news/2026-11-16-0.html</guid>
-      <category>공급망전쟁</category>
-      <description>고려아연이 미국 테네시에 10조원 규모 제련소 구축을 추진하며 미국 핵심광물 공급망의 전략 거점으로 부상하고 있다. 조달 담당자는 국내외 비철금속 공급처 다변화 가능성을 점검할 시점이다.</description>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 +0900</pubDate>
     </item>
   </channel>
 </rss>
