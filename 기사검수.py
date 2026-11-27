@@ -683,7 +683,13 @@ def run_review(data_path, label="articles.json", date_prefix=None):
         elif passed and not review_map:
             lines.append("\n✨ 구조 검수 통과")
 
-        send_telegram("\n".join(lines))
+        # 2026-11-27 대표님: 정상 검수 결과는 21:00 「📋 오늘의 발행」 검수 총정리로 — 문제가 있을 때만 바로 보낸다
+        _issue = (not passed) or bool(image_fixes) or any(
+            (r or {}).get("status") not in (None, "pass") for r in review_map.values())
+        if _issue:
+            send_telegram("\n".join(lines))
+        else:
+            print("검수 전부 통과 — 텔레그램 생략(일일 보고에서 총정리)")
 
     # ── 검수 게이트 — fail·신뢰도 2 이하·투자 권유 기사는 사이트·채널에 내보내지 않는다 ──
     #    오늘 발행분(articles.json)에만 적용. --date 재검수는 이미 공개된 아카이브라 판정만 한다.

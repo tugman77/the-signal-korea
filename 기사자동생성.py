@@ -1611,7 +1611,9 @@ def main():
         #    클라우드 11:05이 B세트를 올려 채널 링크가 다른 기사를 열었다.
 
         # 카드뉴스 이미지를 관리자에게 전송 (X·스레드 리포스트용)
-        send_cards_to_admin(articles, date_key)
+        # 2026-11-27 대표님 지시로 텔레그램 전송 중단(이미지 생성은 유지). 다시 켜기 CARD_NEWS_SEND=1
+        if os.environ.get("CARD_NEWS_SEND") == "1":
+            send_cards_to_admin(articles, date_key)
 
         # 텔레그램 완료 알림
         cat_dist_str = ", ".join(f"{k}:{v}건" for k, v in cat_dist.items())
@@ -1626,7 +1628,9 @@ def main():
             f"카테고리: {cat_dist_str}\n"
             f"📋 브리핑: {briefing[:80]}{'...' if len(briefing) > 80 else ''}"
         )
-        send_telegram(tg_msg)
+        # 2026-11-27 대표님: 채널별 완료 알림은 보내지 않고 21:00 「📋 오늘의 발행」에서 카테고리별로 총정리. 다시 켜기 NEWS_DONE_NOTIFY=1
+        if os.environ.get("NEWS_DONE_NOTIFY") == "1":
+            send_telegram(tg_msg)
 
     except Exception as e:
         error_msg = f"❌ <b>더 시그널 코리아 기사 생성 오류</b>\n{now_str}\n\n{type(e).__name__}: {e}"
